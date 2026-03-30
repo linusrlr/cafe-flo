@@ -1,0 +1,82 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+@import "shadcn/tailwind.css";
+
+@custom-variant dark (&:is(.dark *));
+
+@theme inline {
+  --color-background: #fdf8f5;
+  --color-foreground: #1c1b1a;
+  --font-sans: var(--font-manrope);
+  --font-serif: var(--font-noto-serif);
+  --font-heading: var(--font-noto-serif);
+
+  --color-card: #ffffff;
+  --color-card-foreground: #1c1b1a;
+  --color-popover: #ffffff;
+  --color-popover-foreground: #1c1b1a;
+  --color-primary: #694932;
+  --color-primary-foreground: #ffffff;
+  --color-secondary: #964261;
+  --color-secondary-foreground: #ffffff;
+  --color-muted: #f2edea;
+  --color-muted-foreground: #51443c;
+  --color-accent: #f8f3f0;
+  --color-accent-foreground: #1c1b1a;
+  --color-destructive: #ba1a1a;
+  --color-border: #d5c3b8;
+  --color-input: #d5c3b8;
+  --color-ring: #694932;
+
+  --radius-sm: 0.45rem;
+  --radius-md: 0.6rem;
+  --radius-lg: 0.75rem;
+  --radius-xl: 1.05rem;
+  --radius-2xl: 1.35rem;
+
+  /* Stitch Design Colors */
+  --color-surface: #fdf8f5;
+  --color-surface-dim: #ded9d6;
+  --color-surface-container: #f2edea;
+  --color-surface-container-low: #f8f3f0;
+  --color-surface-container-high: #ece7e4;
+  --color-surface-container-highest: #e6e2df;
+  --color-surface-container-lowest: #ffffff;
+
+  --color-on-surface: #1c1b1a;
+  --color-on-surface-variant: #51443c;
+
+  --color-cafe-primary: #694932;
+  --color-cafe-primary-container: #846048;
+  --color-on-cafe-primary: #ffffff;
+
+  --color-cafe-secondary: #964261;
+  --color-cafe-secondary-container: #fe97b9;
+  --color-on-cafe-secondary: #ffffff;
+
+  --color-cafe-tertiary: #644b30;
+  --color-cafe-tertiary-container: #7e6346;
+
+  --color-outline: #83746b;
+  --color-outline-variant: #d5c3b8;
+
+  --color-inverse-surface: #32302e;
+  --color-inverse-on-surface: #f5f0ed;
+  --color-inverse-primary: #eabda0;
+}
+
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+  }
+  body {
+    @apply bg-surface text-on-surface font-sans;
+  }
+  html {
+    @apply scroll-smooth;
+  }
+  ::selection {
+    background-color: #fe97b9;
+    color: #792b4a;
+  }
+}
