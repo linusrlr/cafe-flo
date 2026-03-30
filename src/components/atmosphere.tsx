@@ -1,88 +1,107 @@
 "use client";
 
-import { motion } from "framer-motion";
+import { motion, useScroll, useTransform } from "framer-motion";
 import Image from "next/image";
+import { useRef } from "react";
 
 const images = [
   {
-    src: "https://lh3.googleusercontent.com/aida-public/AB6AXuDJFB4oPLgzq37n9OuoSJNUW0jXOUvTiAycEJldhZfLiTJFZZORD90way-3K15uzmpv_6SertSBJtKHmskcrmLUo-si2JGs70opl0PXEC2g7SncbESeXK1Exds80RUVsd8SaFgbbABMpUXrlPiOQCi1YG9PnIi6KaHXcaTlTc7vvaqjNiyfRMuvmQ4EVUOu8UAAPzxZWHQNDc9jUnD6caCYctM9VzYCxVZPtI84uO7LFzicsd1yP_d-uva1V3_DzfvzSYobSvHCC6I",
+    src: "https://images.unsplash.com/photo-1442512595331-e89e73853f31?w=800&q=80",
     alt: "Latte Art in einer Keramiktasse",
     className: "col-span-2 row-span-2",
-    overlay: "Kaffeegenuss",
   },
   {
-    src: "https://lh3.googleusercontent.com/aida-public/AB6AXuB8blb6D4vBrcUKjsYWWJBBqsNsYP5Sco_52f7V1f7jqV6jEWiODoF6F5CTJ3a7fQV9FBNv1ywCsxLw2xcYUuIA6vWgX-qPvIfxEvTLc-djzVGESV_AdHq5JtsYgWSdxaHh2_jrHEFCJKHdR39Ak2I2h5z_07c4EN6CYGoI6LIhtg2mcOFjn3D8d2lmmu40Dx26Cj5a9XySzQloTuT803sQKcI3GmXH1L4_Dz1LkCetFVHwokp08u4MWlKyWwB8eiQgHj1QDwoz7HI",
+    src: "https://images.unsplash.com/photo-1554118811-1e0d58224f24?w=600&q=80",
     alt: "Gemütliche Café-Atmosphäre",
     className: "",
   },
   {
-    src: "https://lh3.googleusercontent.com/aida-public/AB6AXuCoM3TshjgDKs1zB7SaR6_AOvYTNKcAYZb-pMhS1IeyfP7ciiVDv9H3xf1El_5GFAXKcouYV-dlHHuIpE8t06Ep3UkZIWQZ_6XgxUzMoQQtLpDMaw6TBiDv2U0HNhoyXZMfTEajQNlu-TboTHrz-9vGwRiPtBE2zrXCIz4Nk6EY5HEiCvKAUJdcq4-b9sA5gIP-yEkhKKt8jvaEpdGVv32ErkREwIl2pUObvUOS5stqYt7bxgu-iEAEozQSGm-fl_W-UDMORXYSHGw",
-    alt: "Brotauslage in der Bäckerei",
+    src: "https://images.unsplash.com/photo-1509042239860-f550ce710b93?w=600&q=80",
+    alt: "Kaffeetasse auf einem Holztisch",
     className: "",
   },
   {
-    src: "https://lh3.googleusercontent.com/aida-public/AB6AXuADPsEdInF_6SaqMh8qYEedkRKNMrVXYCnPm4Rdjuz53SKtgtUWsXHGbejB0_q-CyI824dKCHnQReFdX-D43VexT8IgWGupk-zLiDgBrqSSK4KcBdAvYWWEeb3wSit9Uqvgo6X7siqJuXR4DfEGLuYblXZU8ks1ShpVqt_-f_Uc0iLlxrAT8dFrGw_cn8oezpVd8hBe1Gig-ajUAtAuZ6GPX2EGXhv0gU2XJN4NJnaf2_tVqJD4Jdpltaxg-Ml3aF2oEeQnCid7Eno",
-    alt: "Freundliches Teammitglied",
+    src: "https://images.unsplash.com/photo-1517433670267-08bbd4be890f?w=600&q=80",
+    alt: "Frische Croissants aus der Backstube",
     className: "col-span-1 row-span-2",
   },
   {
-    src: "https://lh3.googleusercontent.com/aida-public/AB6AXuARLP4J5KOYHX27FJ6kwzlLEIx1F7TRh3LRVVTVowt0iLcLMCuTHqK7DuTYmC32ADXfyx4om1DZUgyn1aSnDHtuS20xb2aoq7rLFyLcTClYKJ3Ui7kNaMy8hXjJ9X4CkcM3Wid0UXIQw6aDIFHWKSf9owQ9wx60hVws0TaZBX9ikFDzufVLyTMFNNzfYz9GYzs8z3yRgofUSRWCE8VijqRBPgoFkJPdlzL3mpbVHOusfG00aNBAvmKPs1wRDrN0alYFjrG58ln1Glo",
-    alt: "Blättrige Croissant-Schichten",
+    src: "https://images.unsplash.com/photo-1600093463592-8e36ae95ef56?w=600&q=80",
+    alt: "Rustikales Brot frisch aus dem Ofen",
     className: "",
   },
   {
-    src: "https://lh3.googleusercontent.com/aida-public/AB6AXuA74YEIg7pR5e2jGR8fNyEpZzAeEu5_bmdnMztoNfCRroyIc04u0k1_xPUhrzMbDITJkwN3hbgQmAUNR8CW-Q81MMh_vxLOz7YsNRo8ZuaI-w4REvNyHrIhQyJKWLfgww3jYmH6_xhpEtq9dOU6ylmCJ4TwbPGnkDngGJG6rj1Dvp5RgMtnVGWwMd-MMKIu6phS0myvqrt1YGi9PuAhRAE5NzR51_WrblT47sAOQaNyV6YH2ogKddurD40wxmL52isPpypKVOzkfgM",
-    alt: "Sonnenlicht auf dem Frühstückstisch",
+    src: "https://images.unsplash.com/photo-1445116572660-236099ec97a0?w=800&q=80",
+    alt: "Sonnenlicht im Café",
     className: "col-span-2",
   },
 ];
 
+function ParallaxImage({ src, alt, className }: { src: string; alt: string; className: string }) {
+  const ref = useRef<HTMLDivElement>(null);
+  const { scrollYProgress } = useScroll({
+    target: ref,
+    offset: ["start end", "end start"],
+  });
+
+  const y = useTransform(scrollYProgress, [0, 1], ["-5%", "5%"]);
+
+  return (
+    <motion.div
+      ref={ref}
+      initial={{ opacity: 0, scale: 0.9 }}
+      whileInView={{ opacity: 1, scale: 1 }}
+      viewport={{ once: true, margin: "-40px" }}
+      transition={{ duration: 0.6, ease: [0.22, 1, 0.36, 1] }}
+      className={`relative group overflow-hidden rounded-2xl ${className}`}
+    >
+      <motion.div className="absolute inset-0 h-[115%] -top-[7.5%]" style={{ y }}>
+        <Image
+          src={src}
+          alt={alt}
+          fill
+          className="object-cover group-hover:scale-105 transition-transform duration-700"
+          sizes={
+            className.includes("col-span-2")
+              ? "(max-width: 768px) 100vw, 50vw"
+              : "(max-width: 768px) 50vw, 25vw"
+          }
+        />
+      </motion.div>
+      <div className="absolute inset-0 bg-cafe-primary/0 group-hover:bg-cafe-primary/15 transition-colors duration-500" />
+    </motion.div>
+  );
+}
+
 export function Atmosphere() {
   return (
-    <section className="py-24 bg-surface px-6 lg:px-8" id="atmosphaere">
+    <section className="py-32 bg-surface px-6 lg:px-8" id="atmosphaere">
       <div className="max-w-7xl mx-auto">
         <motion.div
-          initial={{ opacity: 0, y: 20 }}
+          initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true, margin: "-100px" }}
-          transition={{ duration: 0.6 }}
-          className="text-center mb-16 space-y-4"
+          transition={{ duration: 0.7 }}
+          className="text-center mb-20 space-y-5"
         >
-          <h2 className="font-serif text-4xl md:text-5xl text-cafe-primary">
+          <h2 className="font-serif text-4xl md:text-5xl lg:text-6xl text-cafe-primary">
             Atmosphäre
           </h2>
-          <div className="h-1 w-20 bg-cafe-secondary mx-auto rounded-full" />
+          <motion.div
+            initial={{ scaleX: 0 }}
+            whileInView={{ scaleX: 1 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.8, delay: 0.3 }}
+            className="h-[2px] w-20 bg-cafe-secondary mx-auto origin-center"
+          />
+          <p className="text-on-surface-variant text-lg max-w-xl mx-auto">
+            Ein Ort zum Wohlfühlen, Genießen und Verweilen.
+          </p>
         </motion.div>
 
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-4 auto-rows-[200px] md:auto-rows-[250px]">
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-3 md:gap-4 auto-rows-[180px] md:auto-rows-[240px]">
           {images.map((img, i) => (
-            <motion.div
-              key={i}
-              initial={{ opacity: 0, scale: 0.95 }}
-              whileInView={{ opacity: 1, scale: 1 }}
-              viewport={{ once: true, margin: "-60px" }}
-              transition={{ duration: 0.5, delay: i * 0.1 }}
-              className={`relative group overflow-hidden rounded-xl ${img.className}`}
-            >
-              <Image
-                src={img.src}
-                alt={img.alt}
-                fill
-                className="object-cover group-hover:scale-110 transition-transform duration-700"
-                sizes={
-                  img.className.includes("col-span-2")
-                    ? "(max-width: 768px) 100vw, 50vw"
-                    : "(max-width: 768px) 50vw, 25vw"
-                }
-              />
-              {img.overlay && (
-                <div className="absolute inset-0 bg-cafe-primary/20 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
-                  <span className="text-white font-serif text-xl">
-                    {img.overlay}
-                  </span>
-                </div>
-              )}
-            </motion.div>
+            <ParallaxImage key={i} {...img} />
           ))}
         </div>
       </div>
