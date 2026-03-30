@@ -24,7 +24,7 @@ export function Hero() {
       {/* Parallax Background */}
       <motion.div className="absolute inset-0 z-0" style={{ y }}>
         <Image
-          src="https://images.unsplash.com/photo-1509440159596-0249088772ff?w=1920&q=80"
+          src="https://images.unsplash.com/photo-1691862469586-9c7c183b27b7?w=1920&q=80"
           alt="Frisch gebackenes Brot auf einem rustikalen Holztisch"
           fill
           className="object-cover scale-110"

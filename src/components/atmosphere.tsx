@@ -6,33 +6,33 @@ import { useRef } from "react";
 
 const images = [
   {
-    src: "https://images.unsplash.com/photo-1442512595331-e89e73853f31?w=800&q=80",
-    alt: "Latte Art in einer Keramiktasse",
+    src: "https://images.unsplash.com/photo-1529892485617-25f63cd7b1e9?w=800&q=80",
+    alt: "Latte Art Nahaufnahme",
     className: "col-span-2 row-span-2",
   },
   {
-    src: "https://images.unsplash.com/photo-1554118811-1e0d58224f24?w=600&q=80",
-    alt: "Gemütliche Café-Atmosphäre",
+    src: "https://images.unsplash.com/photo-1749871615234-98bff62995ba?w=600&q=80",
+    alt: "Gemütliches Bäckerei-Café mit warmer Beleuchtung",
     className: "",
   },
   {
-    src: "https://images.unsplash.com/photo-1509042239860-f550ce710b93?w=600&q=80",
-    alt: "Kaffeetasse auf einem Holztisch",
+    src: "https://images.unsplash.com/photo-1700124164657-327fe4ce79c3?w=600&q=80",
+    alt: "Frische Brötchen aus dem Ofen",
     className: "",
   },
   {
-    src: "https://images.unsplash.com/photo-1517433670267-08bbd4be890f?w=600&q=80",
+    src: "https://images.unsplash.com/photo-1555507036-ab1f4038808a?w=600&q=80",
     alt: "Frische Croissants aus der Backstube",
     className: "col-span-1 row-span-2",
   },
   {
-    src: "https://images.unsplash.com/photo-1600093463592-8e36ae95ef56?w=600&q=80",
-    alt: "Rustikales Brot frisch aus dem Ofen",
+    src: "https://images.unsplash.com/photo-1740501543020-ed3fd100fbe6?w=600&q=80",
+    alt: "Sauerteigbrot mit knuspriger Kruste",
     className: "",
   },
   {
-    src: "https://images.unsplash.com/photo-1445116572660-236099ec97a0?w=800&q=80",
-    alt: "Sonnenlicht im Café",
+    src: "https://images.unsplash.com/photo-1491778589563-419a091ecd26?w=800&q=80",
+    alt: "Bäckereitheke mit Kuchen und Gebäck",
     className: "col-span-2",
   },
 ];

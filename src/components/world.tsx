@@ -9,24 +9,24 @@ const cards = [
     description:
       "Ehrliches Brot mit Charakter. Wir setzen auf lange Fermentation und Rohstoffe aus der Region für unvergleichlichen Geschmack.",
     tags: ["Sauerteig", "Regional"],
-    image: "https://images.unsplash.com/photo-1549931319-a545753467c8?w=800&q=80",
-    alt: "Verschiedene Brotsorten frisch aus dem Ofen",
+    image: "https://images.unsplash.com/photo-1568254183919-78a4f43a2877?w=800&q=80",
+    alt: "Frische Brotlaibe in der Bäckereiauslage",
   },
   {
     title: "Frühstück",
     description:
       'Unser beliebtes "Etageren-Frühstück" bietet alles, was das Herz begehrt. Von ofenwarmen Brötchen bis zu feinsten Aufstrichen.',
     tags: ["Etageren", "Gemütlich"],
-    image: "https://images.unsplash.com/photo-1504754524776-8f4f37790ca0?w=800&q=80",
-    alt: "Reichhaltiges Frühstück mit Brötchen und Aufstrichen",
+    image: "https://images.unsplash.com/photo-1563438962385-0d3dd8319200?w=800&q=80",
+    alt: "Europäisches Frühstück mit Brötchen und Aufschnitt",
   },
   {
     title: "Torten & Patisserie",
     description:
       "Täglich frisch: Von der veganen Birnentorte bis zu unseren legendären Zimtschnecken – süße Sünden in höchster Qualität.",
     tags: ["Vegan", "Hausgemacht"],
-    image: "https://images.unsplash.com/photo-1488477181946-6428a0291777?w=800&q=80",
-    alt: "Exquisite Torte mit kunstvoller Dekoration",
+    image: "https://images.unsplash.com/photo-1571115177098-24ec42ed204d?w=800&q=80",
+    alt: "Dekorierte Torte aus der Patisserie",
   },
 ];
 

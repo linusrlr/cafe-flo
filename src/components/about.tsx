@@ -109,8 +109,8 @@ export function About() {
               <div className="col-span-3 relative rounded-2xl overflow-hidden shadow-2xl shadow-cafe-primary/10 h-[400px] md:h-[520px]">
                 <motion.div className="absolute inset-0 h-[120%] -top-[10%]" style={{ y: imgY }}>
                   <Image
-                    src="https://images.unsplash.com/photo-1555507036-ab1f4038024a?w=800&q=80"
-                    alt="Bäcker formt Teig mit den Händen"
+                    src="https://images.unsplash.com/flagged/photo-1561668038-2742fcef75d7?w=800&q=80"
+                    alt="Bäcker knetet Teig mit den Händen"
                     fill
                     className="object-cover"
                     sizes="(max-width: 768px) 60vw, 30vw"
@@ -122,7 +122,7 @@ export function About() {
               <div className="col-span-2 flex flex-col gap-4">
                 <div className="relative rounded-2xl overflow-hidden shadow-xl h-[250px] md:h-[330px]">
                   <Image
-                    src="https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?w=600&q=80"
+                    src="https://images.unsplash.com/photo-1426174840074-541ae41efdb9?w=600&q=80"
                     alt="Latte Art Kaffee"
                     fill
                     className="object-cover"
