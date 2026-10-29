@@ -162,3 +162,15 @@ Druck-Stylesheet für Ratgeber (Navigation ausblenden, URL-Fußzeile). Dark-Mode
 | laufend | Messung, Radar, Pflege | M17, M20 |
 
 Vor Session 1 braucht Linus nur zwei Entscheidungen: Standort/Impressum (M6 Punkt 3) und ob WhatsApp angeboten wird (M10 Punkt 4).
+
+---
+
+## E. Erfolgskriterien (messbar drei Monate nach Session 2)
+
+- Google Search Console: Impressionen für „wohnung verkaufen leonberg/heimsheim/ditzingen/renningen/pforzheim“ und „immobilienmakler <ort>“ größer null; mindestens eine Ortsseite in den Top 20.
+- Google-Unternehmensprofil verifiziert, mindestens fünf echte Bewertungen.
+- Lighthouse mobil: Performance ≥ 90, Accessibility ≥ 95, SEO 100, Best Practices ≥ 95; Startseite mobil < 500 kB; kein Request an Drittanbieter.
+- Mindestens eine Anfrage pro Woche über Bewertungsformular oder Kontaktformular (abhängig von Erlaubnis und Saison).
+- Jede veröffentlichte Ratgeberseite hat Quellenliste, „Stand“-Datum, FAQ-Block und mindestens eine eigene Praxisbeobachtung von Linus.
+
+Hinweis: Eine parallel laufende Session hat am 29.10.2026 eine kompaktere Analyse und Maßnahmenliste erstellt (Kopien unter `../recherche/parallel-session/`). Deren Nummerierung (H1–H7, M1–M10, N1–N8) ist eine andere; inhaltlich sind beide Listen deckungsgleich, diese hier ist die ausführlichere und gilt als Referenz.
