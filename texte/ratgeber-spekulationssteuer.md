@@ -41,9 +41,7 @@ Im Herbst 2026 gab es drei Anläufe, die Zehnjahresfrist zu streichen. Alle drei
 
 Am 8. Oktober 2026 lehnte der Bundestag den Gesetzentwurf der Grünen (BT-Drs. 21/6637) mit 131 Ja- zu 446 Nein-Stimmen ab [13]. Der Finanzausschuss des Bundesrats hatte zum Einkommensteuerreformgesetz 2027 ebenfalls die Streichung empfohlen; das Plenum übernahm diese Empfehlung am 16. Oktober 2026 nicht [14] [ZU PRÜFEN: Bundesrats-Protokoll, BR-Drs. 507/26(B)]. Der Regierungsentwurf des Einkommensteuerreformgesetzes 2027 (BT-Drs. 21/8235) enthält keine Änderung des § 23 EStG [13][14].
 
-Ein Vorschlag ist noch offen: Der Bundesrat hat am 25. September 2026 zum Jahressteuergesetz 2026 eine Ausnahme für Verkäufe infolge von Scheidung oder Trennung angeregt (BR-Drs. 447/26(B)); die Bundesregierung will das prüfen [13][14] [ZU PRÜFEN: Verlauf im Gesetzgebungsverfahren]. Solange nichts beschlossen ist, gilt für Verkäufe nach einer Trennung die normale Frist.
-
-Ich aktualisiere diesen Abschnitt, sobald sich etwas ändert. Das Datum oben auf der Seite zeigt Ihnen den Stand.
+Ein Vorschlag ist noch offen: Der Bundesrat hat am 25. September 2026 zum Jahressteuergesetz 2026 eine Ausnahme für Verkäufe infolge von Scheidung oder Trennung angeregt (BR-Drs. 447/26(B)); die Bundesregierung will das prüfen [13][14] [ZU PRÜFEN: Verlauf im Gesetzgebungsverfahren]. Solange nichts beschlossen ist, gilt für Verkäufe nach einer Trennung die normale Frist. Das Datum oben auf der Seite zeigt den Stand dieses Abschnitts.
 
 <a id="zehnjahresfrist"></a>
 ## Die Zehnjahresfrist: Welches Datum zählt
@@ -69,7 +67,7 @@ Was nicht als Eigennutzung gilt: die Vermietung an Dritte, auch für kurze Zeit 
 
 ### Kinder-Ausnahme
 
-Wer die Wohnung einem Kind unentgeltlich überlässt, für das noch Kindergeld oder der Kinderfreibetrag gewährt wird, nutzt sie steuerlich selbst. Das hat das Finanzgericht Baden-Württemberg entschieden (8 K 2166/14 vom 4. April 2016). Sobald es kein Kindergeld mehr gibt, endet die Ausnahme [2]. Für Eltern, die ihrem studierenden Kind eine Wohnung in Stuttgart oder Pforzheim gekauft haben, ist das der entscheidende Punkt beim Timing des Verkaufs.
+Wer die Wohnung einem Kind unentgeltlich überlässt, für das noch Kindergeld oder der Kinderfreibetrag gewährt wird, nutzt sie steuerlich selbst. Das hat das Finanzgericht Baden-Württemberg entschieden (8 K 2166/14 vom 4. April 2016). Sobald es kein Kindergeld mehr gibt, endet die Ausnahme [2]. Für Eltern mit einer Wohnung für das studierende Kind in Stuttgart oder Pforzheim entscheidet das über das Timing des Verkaufs.
 
 ### Die Zweitwohnung des Pendlers
 
@@ -84,13 +82,13 @@ Wer ein häusliches Arbeitszimmer in der Steuererklärung angesetzt hat, muss be
 
 ### Erbe und Schenkung
 
-„Bei unentgeltlichem Erwerb ist dem Einzelrechtsnachfolger für Zwecke dieser Vorschrift die Anschaffung … durch den Rechtsvorgänger zuzurechnen“ (§ 23 Abs. 1 Satz 3 EStG) [1]. Sie treten in die Fußstapfen des Erblassers oder Schenkers. Beispiel Pforzheim: Der Vater hat die Wohnung in der Südweststadt 1990 gekauft, Sie erben sie 2026 und verkaufen 2027. Die Frist läuft seit 1990, der Verkauf ist steuerfrei. Hat der Erblasser die Wohnung erst 2020 gekauft, läuft die Frist bis 2030, und ein Verkauf 2027 ist steuerpflichtig, sofern keine Eigennutzung vorliegt. Dass Sie die Wohnung geerbt haben, ändert daran nichts.
+„Bei unentgeltlichem Erwerb ist dem Einzelrechtsnachfolger für Zwecke dieser Vorschrift die Anschaffung … durch den Rechtsvorgänger zuzurechnen“ (§ 23 Abs. 1 Satz 3 EStG) [1]. Sie treten in die Fußstapfen des Erblassers oder Schenkers. Beispiel Pforzheim: Der Vater hat die Wohnung in der Südweststadt 1990 gekauft, Sie erben sie 2026 und verkaufen 2027. Die Frist läuft seit 1990, der Verkauf ist steuerfrei. Hat der Erblasser die Wohnung erst 2020 gekauft, läuft die Frist bis 2030, und ein Verkauf 2027 ist steuerpflichtig, sofern keine Eigennutzung vorliegt.
 
 Zur Erbschaftsteuer nur so viel: Sie ist eine andere Steuer mit eigenen Freibeträgen, und für vermietete Wohnungen gibt es dort einen Bewertungsabschlag von 10 % (§ 13d ErbStG) [16]. Mehr dazu im Ratgeber [Geerbte Wohnung verkaufen](/ratgeber/geerbte-wohnung-verkaufen/).
 
 ### Geschwister auszahlen
 
-Hier wird es unübersichtlich, und hier irren viele. Erben Sie mit Ihrer Schwester eine Wohnung in Leonberg im Wert von 290.000 € und zahlen ihr 145.000 € für ihre Hälfte, dann haben Sie diese Hälfte entgeltlich erworben. Für den gekauften Teil beginnt eine neue Zehnjahresfrist, während für den geerbten Teil weiter die Frist des Erblassers gilt [4]. Verkaufen Sie die Wohnung drei Jahre später, kann die Hälfte des Gewinns steuerpflichtig sein.
+Erben Sie mit Ihrer Schwester eine Wohnung in Leonberg im Wert von 290.000 € und zahlen ihr 145.000 € für ihre Hälfte, dann haben Sie diese Hälfte entgeltlich erworben. Für den gekauften Teil beginnt eine neue Zehnjahresfrist, während für den geerbten Teil weiter die Frist des Erblassers gilt [4]. Verkaufen Sie die Wohnung drei Jahre später, kann die Hälfte des Gewinns steuerpflichtig sein.
 
 Der Kauf eines Erbanteils als Ganzes wird nach Darstellung von steuertipps.de nicht als Grundstückskauf behandelt und löst keine neue Frist aus; eine Gestaltung über ein Vermächtnis ohne Ausgleichszahlung ist denkbar [4]. Das ist nichts, was Sie allein oder mit mir entscheiden. Das gehört vor dem Notartermin zum Steuerberater.
 
@@ -171,7 +169,7 @@ Verluste aus einem Wohnungsverkauf innerhalb der Frist dürfen nur mit Gewinnen 
 <a id="drei-objekt-grenze"></a>
 ## Drei-Objekt-Grenze: Wann aus privat gewerblich wird
 
-Die Spekulationssteuer betrifft private Verkäufe. Davon zu trennen ist der gewerbliche Grundstückshandel. Wer mehr als drei Objekte innerhalb von etwa fünf Jahren verkauft, gilt nach der Rechtsprechung des Bundesfinanzhofs im Regelfall als gewerblicher Grundstückshändler (BFH GrS 1/98 vom 10. Dezember 2001) [15]. Jede Eigentumswohnung ist ein Zählobjekt [15]; die Finanzverwaltung hat die Grundsätze in einem BMF-Schreiben zusammengefasst [ZU PRÜFEN: BMF-Schreiben vom 26. März 2004, IV A 6 – S 2240 – 46/04] [3].
+Die Spekulationssteuer betrifft private Verkäufe. Davon zu trennen ist der gewerbliche Grundstückshandel. Wer mehr als drei Objekte innerhalb von etwa fünf Jahren verkauft, gilt nach der Rechtsprechung des Bundesfinanzhofs im Regelfall als gewerblicher Grundstückshändler (BFH GrS 1/98 vom 10. Dezember 2001) [15]. Jede Eigentumswohnung ist ein Zählobjekt [15]; die Finanzverwaltung hat die Grundsätze in einem BMF-Schreiben zusammengefasst [ZU PRÜFEN: BMF-Schreiben vom 26. März 2004, IV A 6, S 2240, 46/04] [3].
 
 Die Folgen sind erheblich: Einkünfte aus Gewerbebetrieb, Gewerbesteuer, keine Steuerfreiheit nach zehn Jahren, keine Abschreibung, Buchführungspflichten, und das unter Umständen rückwirkend für alle Verkäufe der letzten Jahre [15]. Bei Sanierungen beginnt die Fünfjahresfrist erst mit dem Abschluss der Arbeiten (BFH IV R 57/01), und ein umfassend sanierter Altbau zählt auch dann als Objekt, wenn er lange gehalten wurde (BFH X R 18/18 vom 15. Januar 2020) [15].
 
@@ -180,7 +178,7 @@ Wer eine einzelne Wohnung verkauft, ist davon nicht betroffen. Wer mehrere Wohnu
 <a id="anlage-so"></a>
 ## Wo die Steuer erklärt wird: Anlage SO
 
-Der Gewinn aus dem Wohnungsverkauf gehört in die Einkommensteuererklärung des Verkaufsjahrs, Anlage SO („Sonstige Einkünfte“), Seite 2. Für das Steuerjahr 2025 sind das laut Finanztip die Zeilen 34 bis 43; in Zeile 66 können Sie auf den Verlustrücktrag verzichten [2]. Die Zeilennummern ändern sich fast jedes Jahr, prüfen Sie sie im aktuellen Formular. Beizufügen sind beide Kaufverträge, die Aufstellung der Anschaffungs- und Verkaufskosten und die bisher abgesetzte AfA.
+Der Gewinn aus dem Wohnungsverkauf gehört in die Einkommensteuererklärung des Verkaufsjahrs, Anlage SO („Sonstige Einkünfte“), Seite 2. Für das Steuerjahr 2025 sind das laut Finanztip die Zeilen 34 bis 43; in Zeile 66 können Sie auf den Verlustrücktrag verzichten [2]. Die Zeilennummern ändern sich fast jedes Jahr. Beizufügen sind beide Kaufverträge, die Kostenaufstellung und die bisher abgesetzte AfA.
 
 <a id="steuerberater"></a>
 ## Steuerberater vor Ort statt Makler-Steuertipp

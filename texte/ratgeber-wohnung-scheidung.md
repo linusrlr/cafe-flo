@@ -33,7 +33,7 @@ Fast alle Ratgeber zu diesem Thema reden vom Haus. Bei einer Eigentumswohnung ko
 <a id="wem-gehoert-was"></a>
 ## Wem gehört was: Grundbuch, Zugewinn, Verfügungsbeschränkung
 
-Die erste Frage, die mir Eigentümer nach einer Trennung stellen, lautet fast immer gleich: „Ich habe damals das Eigenkapital eingebracht. Bekomme ich dann auch mehr?“ Die Antwort ist unbequem. Beim Verkauf erhält jeder Miteigentümer den Anteil, der im Grundbuch steht, bei den meisten Paaren also die Hälfte. Wer mehr investiert hat, bekommt das nicht aus dem Erlös zurück [1].
+Die erste Frage nach einer Trennung lautet fast immer: „Ich habe damals das Eigenkapital eingebracht. Bekomme ich dann auch mehr?“ Die Antwort ist unbequem. Beim Verkauf erhält jeder Miteigentümer den Anteil, der im Grundbuch steht, bei den meisten Paaren also die Hälfte. Wer mehr investiert hat, bekommt das nicht aus dem Erlös zurück [1].
 
 Der Ausgleich läuft über das Güterrecht. Wer keinen Ehevertrag hat, lebt in der Zugewinngemeinschaft. Der Zugewinn ist der Unterschied zwischen dem Vermögen bei der Heirat und dem Vermögen bei der Scheidung. Wer mehr Zugewinn hat, schuldet dem anderen die Hälfte der Differenz. Dieser Anspruch ist immer eine Geldzahlung und wird nur auf Antrag beim Familiengericht festgesetzt [1][2]. Die Wohnung selbst wird dafür nicht geteilt, sie geht nur mit ihrem Wert in die Rechnung ein. Genau deshalb ist der Wert der Wohnung die Stelle, an der die meisten Verfahren haken.
 
@@ -78,7 +78,7 @@ In unserem Renninger Beispiel übernimmt sie die Wohnung und den Restkredit von 
 
 ### Weg 3, behalten und vermieten
 
-Manche Paare können oder wollen nicht verkaufen, etwa weil die Wohnung erst 2022 gekauft wurde und der Preis seitdem nicht gestiegen ist. Dann bleibt die Vermietung. Das funktioniert nur mit einer schriftlichen Vereinbarung: Wer kassiert die Miete, wer zahlt Hausgeld und Kredit, wer entscheidet über Reparaturen, wer stimmt in der Eigentümerversammlung ab, und wann wird verkauft.
+Manche Paare wollen nicht verkaufen, etwa weil die Wohnung erst 2022 gekauft wurde und der Preis seitdem nicht gestiegen ist. Dann bleibt die Vermietung, aber nur mit schriftlicher Vereinbarung: Wer kassiert die Miete, wer zahlt Hausgeld und Kredit, wer entscheidet über Reparaturen, wer stimmt in der Eigentümerversammlung ab, und wann wird verkauft.
 
 Bei einer vermieteten Wohnung sind die Mieteinnahmen gemeinsames Einkommen. Ob und wie sie beim Unterhalt und beim Zugewinn zählen, klärt der Anwalt. Aus Maklersicht sage ich dazu nur: Eine Wohnung, die zwei getrennte Eigentümer gemeinsam verwalten müssen, ist auf Dauer selten ein stabiles Modell. Wer diesen Weg wählt, sollte einen Verkaufszeitpunkt gleich mit festlegen. Noch im Verfahren: Das Mietrechtspaket II soll „Kauf bricht nicht Miete“ (§ 566 BGB) ausdrücklich auf die Veräußerung unter Miteigentümern erstrecken [ZU PRÜFEN: Inkrafttreten, BT-Drs. 21/6807] [22]. Ob Vermieten überhaupt rechnet, zeigt der Ratgeber [Verkaufen oder vermieten?](/ratgeber/verkaufen-oder-vermieten/).
 
@@ -117,13 +117,13 @@ Für eine Wohnung im Wert von 290.000 €, wie sie in Leonberg typisch ist, fall
 
 Hier liegt der Unterschied zum Haus, und hier entstehen in der Praxis die ersten Rückstände.
 
-**Hausgeld.** Gegenüber der Wohnungseigentümergemeinschaft haften beide Miteigentümer für das Hausgeld. Die Verwaltung interessiert nicht, wer ausgezogen ist. Wer von beiden intern wie viel trägt, ist Vereinbarungssache. Wenn ein Partner die Wohnung allein nutzt, kann dem anderen eine Nutzungsentschädigung zustehen; ein Sekundärhinweis spricht von der hälftigen ortsüblichen Miete [ZU PRÜFEN: Rechtsgrundlage § 1361b Abs. 3 BGB und Höhe, nur cash-online als Quelle] [2][18]. Das regelt der Anwalt, ich nenne es nur, damit Sie die Frage stellen.
+**Hausgeld.** Gegenüber der Wohnungseigentümergemeinschaft haften beide Miteigentümer für das Hausgeld, egal wer ausgezogen ist. Wer intern wie viel trägt, ist Vereinbarungssache. Wenn ein Partner die Wohnung allein nutzt, kann dem anderen eine Nutzungsentschädigung zustehen; ein Sekundärhinweis spricht von der hälftigen ortsüblichen Miete [ZU PRÜFEN: Rechtsgrundlage § 1361b Abs. 3 BGB und Höhe, nur cash-online als Quelle] [2][18]. Das regelt der Anwalt, ich nenne es nur, damit Sie die Frage stellen.
 
 **Sonderumlage.** Hat die Gemeinschaft eine Sonderumlage beschlossen, zum Beispiel für ein neues Dach, dann entscheidet die Fälligkeit, nicht der Beschluss, wer zahlt (BGH V ZR 257/16 vom 15. Dezember 2017). Raten, die nach dem Eigentumswechsel fällig werden, treffen den Käufer [12]. Für Sie heißt das: Vor dem Verkauf muss klar sein, welche Raten noch Sie beide tragen und wie das im Kaufpreis berücksichtigt wird. Ich lese dafür die Protokolle der letzten drei Eigentümerversammlungen und den Wirtschaftsplan, bevor ich einen Preis nenne.
 
-**Verwaltung.** Teilen Sie der Verwaltung die neue Anschrift des Ausgezogenen mit. Sonst erreicht ihn weder die Einladung zur Eigentümerversammlung noch die Jahresabrechnung, und beide Miteigentümer stimmen bei Miteigentum gemeinsam ab. [LINUS: Wie gehst du mit Besichtigungen um, wenn ein Partner noch in der Wohnung wohnt und der andere nicht? Gibt es eine feste Regel, etwa Termine nur über dich, nie allein mit einem der beiden?]
+**Verwaltung.** Teilen Sie der Verwaltung die neue Anschrift des Ausgezogenen mit. Sonst erreicht ihn weder die Einladung zur Eigentümerversammlung noch die Jahresabrechnung. [LINUS: Wie gehst du mit Besichtigungen um, wenn ein Partner noch in der Wohnung wohnt und der andere nicht? Gibt es eine feste Regel, etwa Termine nur über dich, nie allein mit einem der beiden?]
 
-**Bank.** Informieren Sie die Bank früh. Der Kredit läuft weiter, die Rate wird weiter abgebucht, und zwar von dem Konto, das im Vertrag steht. Wenn das Gehaltskonto des Ausgezogenen belastet wird, ohne dass er noch in der Wohnung wohnt, ist Streit vorprogrammiert. Klären Sie, wer in der Übergangszeit zahlt, und halten Sie es schriftlich fest. Eine Vorfälligkeitsentschädigung planen Sie beim Verkauf ein [12].
+**Bank.** Informieren Sie die Bank früh. Der Kredit läuft weiter, die Rate wird weiter abgebucht, und zwar von dem Konto, das im Vertrag steht. Wenn das Gehaltskonto des Ausgezogenen belastet wird, ohne dass er noch in der Wohnung wohnt, ist Streit vorprogrammiert. Klären Sie schriftlich, wer in der Übergangszeit zahlt. Eine Vorfälligkeitsentschädigung planen Sie beim Verkauf ein [12].
 
 **Grundsteuer.** Seit 2025 wird sie in Baden-Württemberg nur nach dem Bodenwert berechnet. Für eine Eigentumswohnung mit kleinem Bodenanteil ist das ein kleiner Posten; eine Beispielrechnung für 80 m² mit 150 m² Bodenanteil kommt je nach Hebesatz auf etwa 150 bis 205 € im Jahr (Leonberg 220 %, ab 2027 sind 250 % geplant [ZU PRÜFEN: Gemeinderatsbeschluss], Ditzingen 250 %, Renningen 190 %) [23]. Wer den Bescheid bekommt, zahlt; auch das gehört in die interne Abrechnung.
 

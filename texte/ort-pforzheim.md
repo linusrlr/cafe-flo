@@ -60,7 +60,7 @@ Pforzheim gliedert sich in die Kernstadt, zu der auch Brötzingen und Dillweiße
 
 **Brötzingen, Dillweißenstein, Au, Südweststadt.** Mittleres Preisniveau um 3.000 €/m² [2]. Die Südweststadt ist nach meiner Beobachtung der Stadtteil, in dem Eigentumswohnungen aus den 1970er und 1980er Jahren mit Hausgeld und Rücklage als Preisthema am häufigsten auf den Markt kommen. [LINUS: Eigene Beobachtung ergänzen oder streichen.]
 
-**Eingemeindete Orte Büchenbronn, Eutingen, Huchenfeld, Hohenwart, Würm.** Büchenbronn und Eutingen liegen preislich auf Kernstadtniveau, Huchenfeld und Hohenwart darunter [2]; für Würm nennt immoportal 2.730 €/m² [1]. Eigentumswohnungen sind hier seltener als in der Kernstadt; die Portale bilden ihre Durchschnitte aus wenigen Angeboten, und entsprechend vorsichtig lese ich diese Zahlen. Käufer sind nach meiner Beobachtung Menschen aus dem Ort selbst oder Pendler mit Auto.
+**Eingemeindete Orte Büchenbronn, Eutingen, Huchenfeld, Hohenwart, Würm.** Büchenbronn und Eutingen liegen preislich auf Kernstadtniveau, Huchenfeld und Hohenwart darunter [2]; für Würm nennt immoportal 2.730 €/m² [1]. Eigentumswohnungen sind hier seltener; die Portale bilden ihre Durchschnitte aus wenigen Angeboten, entsprechend vorsichtig lese ich diese Zahlen. Käufer kommen nach meiner Beobachtung aus dem Ort selbst oder pendeln mit dem Auto.
 
 ## Vermietete Wohnung in Pforzheim verkaufen
 
@@ -88,7 +88,7 @@ Zum Abschlag für vermietete gegenüber freien Wohnungen gibt es für Pforzheim 
 
 **Hausgeld, Rücklage, Sonderumlage.** Bei Wohnungen aus den 1960er und 1970er Jahren entscheidet der Zustand des Gemeinschaftseigentums. Ich lese Wirtschaftsplan, Vermögensbericht und die Protokolle der letzten drei Versammlungen, bevor ich einen Preis nenne.
 
-**Zwangsversteigerungen.** In Pforzheim werden regelmäßig Wohnungen zwangsversteigert; Beispiele aus Verzeichnissen liegen bei 50.000 und 113.000 € [23]. Das ist ein eigenes Marktsegment mit eigenen Käufern, und es drückt in den günstigen Stadtteilen auf die Preiserwartung. Wer eine Wohnung in ordentlichem Zustand verkauft, sollte sich davon nicht verunsichern lassen, muss aber wissen, womit Käufer vergleichen.
+**Zwangsversteigerungen.** In Pforzheim werden regelmäßig Wohnungen zwangsversteigert; Beispiele aus Verzeichnissen liegen bei 50.000 und 113.000 € [23]. Das ist ein eigenes Segment, das in den günstigen Stadtteilen auf die Preiserwartung drückt. Wer eine Wohnung in ordentlichem Zustand verkauft, muss wissen, womit Käufer vergleichen.
 
 ## Wer kauft Wohnungen in Pforzheim?
 
@@ -102,7 +102,7 @@ Zum Abschlag für vermietete gegenüber freien Wohnungen gibt es für Pforzheim 
 
 **Studierende und ihre Eltern.** Die Hochschule Pforzheim sorgt für Nachfrage nach kleinen Wohnungen; Eltern kaufen gelegentlich für das Kind [ZU PRÜFEN: Studierendenzahl der Hochschule mit Quelle]. Steuerlich interessant: Die Überlassung an ein Kind mit Kindergeldanspruch gilt als Eigennutzung, dazu der Ratgeber [Spekulationssteuer](/ratgeber/spekulationssteuer/).
 
-Die Gegenrede gehört dazu: Die Bevölkerung Pforzheims ist nach Angaben der Arlinger Baugenossenschaft leicht rückläufig [10], und der Kaufmarkt ist laut IVD verhalten [8]. Wer auf steigende Preise wartet, wartet in Pforzheim nach den vorliegenden Zahlen vermutlich lange. Wer heute verkauft, verkauft in einen Markt mit stabiler Mietnachfrage und neuen Förderkäufern.
+Die Gegenrede: Die Bevölkerung Pforzheims ist laut Arlinger Baugenossenschaft leicht rückläufig [10], der Kaufmarkt laut IVD verhalten [8]. Wer auf steigende Preise wartet, wartet nach den vorliegenden Zahlen vermutlich lange. Wer heute verkauft, verkauft in einen Markt mit stabiler Mietnachfrage und neuen Förderkäufern.
 
 ## So verkaufe ich Ihre Wohnung in Pforzheim
 
@@ -141,7 +141,7 @@ Wenn Sie schnell und ohne Besichtigungen verkaufen wollen, kann er passen. Der P
 
 ## Wohnung in Pforzheim kostenlos einschätzen lassen
 
-Ich sehe mir Ihre Wohnung an, lese Mietvertrag und Verwaltungsunterlagen und sage Ihnen schriftlich, was sie im heutigen Pforzheimer Markt bringt, ob an Anleger, Eigennutzer oder Familien mit Förderung. Kostenlos, ohne Verpflichtung, Antwort innerhalb eines Werktags.
+Ich sehe mir Ihre Wohnung an, lese Mietvertrag und Verwaltungsunterlagen und sage Ihnen schriftlich, was sie im Pforzheimer Markt bringt und an wen. Kostenlos, Antwort innerhalb eines Werktags.
 
 [Wohnung in Pforzheim einschätzen lassen](/wohnung-bewerten/) · Telefon [LINUS: Telefonnummer] · [Rückruf vereinbaren](/kontakt/)
 
