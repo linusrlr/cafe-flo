@@ -272,7 +272,7 @@ Etwa die Hälfte davon hat nicht Sie, sondern die Hausverwaltung. Schicken Sie, 
 
 Drei Zahlen, die den Korridor in der Tabelle oben einordnen, mit Datum.
 
-**Zinsen.** Zehnjährige Baufinanzierungen kosten Ende Oktober 2026 rund 4,2 bis 4,5 %: Dr. Klein nennt einen Topzins von 4,20 % (29.10.2026), Interhyp einen Durchschnitt von 4,42 % (15.10.2026). Vor einem Jahr lag der Topzins bei 3,38 % [24]. Für einen Kredit von 350.000 € sind das rund 230 € mehr Monatsrate als im Herbst 2025 [24]. Käufer rechnen schärfer, und das drückt auf die Angebotspreise, nicht auf die Wunschpreise.
+**Zinsen.** Zehnjährige Baufinanzierungen kosten Ende Oktober 2026 rund 4,2 bis 4,5 %: Dr. Klein nennt einen Topzins von 4,20 % (29.10.2026), Interhyp einen Durchschnitt von 4,42 % (15.10.2026). Vor einem Jahr lag der Topzins bei 3,38 % [24]. Für einen Kredit von 350.000 € sind das rund 240 € mehr Monatsrate als im Herbst 2025 [24]. Käufer rechnen schärfer, und das drückt auf die Angebotspreise, nicht auf die Wunschpreise.
 
 **Preise.** Der Häuserpreisindex des Statistischen Bundesamts lag im zweiten Quartal 2026 um 0,6 % über dem Vorjahr. Eigentumswohnungen in den sieben größten Städten, Stuttgart eingeschlossen, lagen 0,4 % darunter, in kreisfreien Großstädten außerhalb der Metropolen 2,0 % darüber, in dicht besiedelten ländlichen Kreisen 1,8 % darunter [23]. Für Leonberg nennt Engel & Völkers +1,09 % bei Wohnungen und −5,9 % bei Häusern (26.10.2026) [8]. Kurz: Wohnungen stabil, Häuser weicher, keine Richtung, auf die man einen hohen Angebotspreis stützen könnte.
 

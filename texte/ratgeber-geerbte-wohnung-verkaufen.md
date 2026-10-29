@@ -1,14 +1,14 @@
 ---
 url: /ratgeber/geerbte-wohnung-verkaufen/
 title: Geerbte Wohnung verkaufen: Erbschein, WEG, Steuern (2026)
-description: Geerbte Eigentumswohnung in Leonberg, Pforzheim oder Ditzingen verkaufen: Fristen, Hausgeld, Erbengemeinschaft, Erbschaftsteuer mit Beispiel. Kostenlose Einschätzung.
+description: Geerbte Wohnung in Leonberg oder Pforzheim verkaufen: Fristen, Hausgeld, Erbengemeinschaft, Erbschaftsteuer mit Beispiel. Kostenlose Einschätzung.
 stand: Oktober 2026
 status: Entwurf, nicht veröffentlicht
 ---
 # Geerbte Eigentumswohnung verkaufen: Erbschein, Grundbuch, Erbengemeinschaft und Steuern, Schritt für Schritt
 *Stand: Oktober 2026 · Lesezeit ca. 15 Minuten · Von Linus Rössler, Immobilienmakler für Eigentumswohnungen (Erlaubnis nach § 34c GewO beantragt)*
 
-Fast alle Ratgeber zu diesem Thema handeln vom geerbten Haus. Eine geerbte Eigentumswohnung ist etwas anderes: Sie hat eine Hausverwaltung, die Post schickt, ein Hausgeld, das ab dem Todestag weiterläuft, eine Rücklage, die zum Nachlass gehört, und manchmal einen Mieter oder eine Zustimmungspflicht des Verwalters. Diese Seite geht den Weg vom Erbfall bis zum Notartermin durch, mit den Fristen, den Zuständigkeiten und zwei Rechenbeispielen aus Leonberg und Pforzheim. Vorweg, weil es auf diese Seite gehört und nicht in den Footer: Ich erbringe keine Steuer- und keine Rechtsberatung. Was ich kann, ist Wohnung und Gebäude vor Ort prüfen, die Unterlagen bei der Verwaltung besorgen und Ihnen sagen, was realistisch ist, auch wenn Sie 500 km entfernt wohnen.
+Fast alle Ratgeber zu diesem Thema handeln vom geerbten Haus. Eine geerbte Eigentumswohnung ist etwas anderes: Sie hat eine Hausverwaltung, die Post schickt, ein Hausgeld, das ab dem Todestag weiterläuft, eine Rücklage, die zum Nachlass gehört, und manchmal einen Mieter oder eine Zustimmungspflicht des Verwalters. Diese Seite geht den Weg vom Erbfall bis zum Notartermin durch, mit Fristen und zwei Rechenbeispielen aus Leonberg und Pforzheim. Vorweg, weil es hierher gehört und nicht in den Footer: Ich erbringe keine Steuer- und keine Rechtsberatung. Was ich kann, ist Wohnung und Gebäude vor Ort prüfen, die Unterlagen bei der Verwaltung besorgen und Ihnen sagen, was realistisch ist, auch wenn Sie 500 km entfernt wohnen.
 
 ## Das Wichtigste in Kürze
 - Sie haben sechs Wochen, um das Erbe auszuschlagen (§ 1944 BGB) [1]. Wer einen Erbschein beantragt, hat angenommen [3].
@@ -87,7 +87,7 @@ Weg 2 klingt familienfreundlich, hat aber eine steuerliche Seite, die auf den Po
 Dazu kommt 2026 der Zins: Wer 145.000 € für die Auszahlung finanziert, zahlt bei rund 4,2 % effektiv im ersten Jahr etwa 6.090 € Zinsen; im Oktober 2025 lag der Zehnjahreszins noch bei 3,38 % [25]. Das verändert die Rechnung, ob Übernehmen oder Verkaufen günstiger ist.
 
 ### Moderation statt Streit
-Der häufigste Konflikt in Erbengemeinschaften ist nicht der Verkauf, sondern der Preis. Der eine Erbe glaubt, die Wohnung der Mutter sei 350.000 € wert, der andere hat bei einem Portal 280.000 € gesehen. Ich liefere dafür eine gemeinsame Grundlage: den schriftlichen Verkaufsplan mit Vergleichswerten, Zustand des Gebäudes, Rücklage, beschlossenen Maßnahmen und einem Zeitplan, den alle Erben bekommen, nicht nur der, der mich angerufen hat. Ich bin kein Mediator im Rechtssinn und kein Anwalt; wenn die Fronten verhärtet sind, brauchen Sie beides. Aber eine Zahl mit Begründung beendet viele Diskussionen, die sonst Monate dauern.
+Der häufigste Konflikt in Erbengemeinschaften ist nicht der Verkauf, sondern der Preis. Der eine Erbe glaubt, die Wohnung der Mutter sei 350.000 € wert, der andere hat bei einem Portal 280.000 € gesehen. Ich liefere eine gemeinsame Grundlage: den schriftlichen Verkaufsplan mit Vergleichswerten, Gebäudezustand, Rücklage, beschlossenen Maßnahmen und Zeitplan, den alle Erben bekommen, nicht nur der, der mich angerufen hat. Ich bin kein Mediator im Rechtssinn und kein Anwalt; bei verhärteten Fronten brauchen Sie beides. Aber eine Zahl mit Begründung beendet viele Diskussionen, die sonst Monate dauern.
 
 [LINUS: Würdest du für Erbengemeinschaften eine Wertermittlung ohne Verkaufsauftrag anbieten, etwa als schriftliche Einschätzung für die Auseinandersetzung? Wenn ja, zu welchem Preis? Das muss hier eindeutig stehen, sonst bleibt der Absatz beim Verkaufsplan.]
 
@@ -150,13 +150,9 @@ Halten Sie den Wert des Finanzamts für zu hoch, können Sie einen niedrigeren g
 
 ## Verkaufen, vermieten oder einziehen?
 
-Nicht jede geerbte Wohnung muss verkauft werden. Drei Fragen helfen bei der Entscheidung, und alle drei hängen am Gebäude, nicht nur an der Wohnung:
+Nicht jede geerbte Wohnung muss verkauft werden. Drei Fragen helfen, und alle hängen am Gebäude: Was steht in den Protokollen? Eine Anlage mit beschlossener Fassadensanierung ist etwas anderes als eine mit gefüllter Rücklage. Wo wohnen die Erben? Wer von Hamburg aus in Leonberg vermietet, braucht jemanden vor Ort für Übergaben, Handwerker und Versammlungen. Will jemand einziehen? Dann zählt die Familienheim-Regel oben [7].
 
-- Was steht in den Protokollen? Eine Anlage mit beschlossener Fassadensanierung und Sonderumlage ist etwas anderes als eine mit gefüllter Rücklage. Vermieten lohnt nur, wenn die nächsten Jahre keine fünfstelligen Beträge verlangen.
-- Wo wohnen die Erben? Wer von Hamburg aus eine Wohnung in Leonberg vermietet, braucht jemanden vor Ort für Übergaben, Handwerker und Eigentümerversammlungen. Das kostet Geld oder Nerven.
-- Will jemand einziehen? Dann lohnt der Blick auf die Familienheim-Regel oben, zehn Jahre Selbstnutzung, für Kinder bis 200 m² [7].
-
-Zum Markt: Eine IW-Studie vom Oktober 2026 kommt zu dem Ergebnis, dass in 300 von 400 Kreisen die Eigentümerhaushalte über 65 rechnerisch die Mieterhaushalte zwischen 30 und 44 übersteigen, in Metropolregionen die junge Nachfrage aber ausreicht und ein Preisverfall nicht automatisch folgt [27] [ZU PRÜFEN: Kreiswerte für Böblingen, Enzkreis und Pforzheim, Paywall]. Für die Region Stuttgart spricht das eher für Nachfrage als gegen sie. Die Zahlen zu Verkaufen oder Vermieten rechne ich im Ratgeber [Verkaufen oder vermieten?](/ratgeber/verkaufen-oder-vermieten/) durch.
+Zum Markt: Eine IW-Studie vom Oktober 2026 kommt zu dem Ergebnis, dass in 300 von 400 Kreisen die Eigentümerhaushalte über 65 rechnerisch die Mieterhaushalte zwischen 30 und 44 übersteigen, in Metropolregionen die junge Nachfrage aber ausreicht und ein Preisverfall nicht automatisch folgt [27] [ZU PRÜFEN: Kreiswerte für Böblingen, Enzkreis und Pforzheim, Paywall]. Die Zahlen zu Verkaufen oder Vermieten rechne ich im Ratgeber [Verkaufen oder vermieten?](/ratgeber/verkaufen-oder-vermieten/) durch.
 
 ## Der Verkauf selbst: Was bei einer geerbten Wohnung anders läuft
 

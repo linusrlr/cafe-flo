@@ -1,14 +1,14 @@
 ---
 url: /ratgeber/vermietete-wohnung-verkaufen/
 title: Vermietete Wohnung verkaufen: § 577 BGB, Sperrfrist, Faktor
-description: Vermietete Eigentumswohnung verkaufen: Vorkaufsrecht mit Fristen, 5 Jahre Sperrfrist in Leonberg und Pforzheim, Faktor mit lokalen Mieten. Kostenlose Einschätzung.
+description: Vermietete Wohnung verkaufen: Vorkaufsrecht mit Fristen, 5 Jahre Sperrfrist in Leonberg und Pforzheim, Faktor mit lokalen Mieten. Kostenlose Einschätzung.
 stand: Oktober 2026
 status: Entwurf, nicht veröffentlicht
 ---
 # Vermietete Wohnung verkaufen: Vorkaufsrecht, Kündigungssperrfrist, Preis und Käufer in Leonberg, Pforzheim und Umgebung
 *Stand: Oktober 2026 · Lesezeit ca. 15 Minuten · Von Linus Rössler, Immobilienmakler für Eigentumswohnungen (Erlaubnis nach § 34c GewO beantragt)*
 
-Eine vermietete Eigentumswohnung lässt sich verkaufen, ohne dass der Mieter ausziehen muss, und ohne dass Sie ihn vorher fragen müssen. Was Sie dagegen prüfen müssen, sind drei Dinge: ob der Mieter ein Vorkaufsrecht hat, wie lange der Käufer nicht wegen Eigenbedarfs kündigen darf, und welchen Preis ein Anleger für Ihre Miete zahlt. Ich bin selbst Vermieter einer Eigentumswohnung und kenne beide Seiten dieses Gesprächs. Diese Seite erklärt die Rechtslage mit Paragrafen und rechnet mit den Mieten und Preisen aus Leonberg und Pforzheim, nicht mit Bundesdurchschnitten.
+Eine vermietete Eigentumswohnung lässt sich verkaufen, ohne dass der Mieter ausziehen muss und ohne dass Sie ihn vorher fragen müssen. Prüfen müssen Sie drei Dinge: ob der Mieter ein Vorkaufsrecht hat, wie lange der Käufer nicht wegen Eigenbedarfs kündigen darf, und welchen Preis ein Anleger für Ihre Miete zahlt. Ich bin selbst Vermieter einer Eigentumswohnung und kenne beide Seiten dieses Gesprächs. Diese Seite rechnet mit den Mieten und Preisen aus Leonberg und Pforzheim, nicht mit Bundesdurchschnitten.
 
 ## Das Wichtigste in Kürze
 - Kauf bricht nicht Miete: Der Käufer übernimmt den Mietvertrag unverändert (§ 566 BGB) [1]. Der Mieter muss nichts unterschreiben.
@@ -36,9 +36,9 @@ Eine vermietete Eigentumswohnung lässt sich verkaufen, ohne dass der Mieter aus
 
 Mit dem Eigentumswechsel tritt der Käufer in den Mietvertrag ein, so wie er ist (§ 566 BGB) [1]. Das betrifft die Miethöhe, die Kündigungsfristen, Vereinbarungen zu Haustieren oder Schönheitsreparaturen, die Kaution und die laufende Betriebskostenabrechnung. Der Mieter bekommt einen neuen Vermieter, keinen neuen Vertrag. Ein Entwurf der Bundesregierung (Mietrechtspaket II, BT-Drs. 21/6807) will diese Regel ausdrücklich auch auf Verkäufe unter Miteigentümern und auf die Erbauseinandersetzung erstrecken; der Bundestag hat am 14. Oktober 2026 Sachverständige angehört, eine Verabschiedung steht aus [28] [ZU PRÜFEN: Inkrafttreten des Mietrechtspakets II].
 
-Für Sie heißt das: Die Kaution wird mit Zinsen an den Käufer übergeben, die letzte Betriebskostenabrechnung sollte erstellt oder zumindest vorbereitet sein, und offene Mieterhöhungen oder Mängelanzeigen gehören offen in die Unterlagen. Käufer finden sie ohnehin, spätestens im Gespräch mit dem Mieter.
+Für Sie heißt das: Die Kaution wird mit Zinsen an den Käufer übergeben, die letzte Betriebskostenabrechnung sollte vorbereitet sein, und offene Mieterhöhungen oder Mängelanzeigen gehören in die Unterlagen. Käufer finden sie ohnehin, spätestens im Gespräch mit dem Mieter.
 
-Ich informiere den Mieter früh und persönlich. Das ist keine Pflicht, aber es verhindert, dass die Besichtigungen zum Kampf werden. Ein Mieter, der aus der Zeitung erfährt, dass seine Wohnung inseriert ist, verhält sich anders als einer, dem der Eigentümer vorher erklärt hat, was passiert und was nicht.
+Ich informiere den Mieter früh und persönlich. Das ist keine Pflicht, aber es verhindert, dass die Besichtigungen zum Kampf werden.
 
 [LINUS: Deine eigene vermietete Wohnung: seit wann vermietet, Miete pro Quadratmeter, letzte Mieterhöhung, wie du mit dem Mieter kommunizierst. Darf ein anonymisierter Satz dazu hier stehen, etwa „Meine eigene Wohnung in X ist seit Y vermietet, und ich weiß, wie eine Ankündigung ankommt“?]
 
@@ -47,9 +47,7 @@ Ich informiere den Mieter früh und persönlich. Das ist keine Pflicht, aber es 
 ### Wann es besteht
 Der Mieter ist zum Vorkauf berechtigt, wenn an der vermieteten Wohnung nach der Überlassung an ihn Wohnungseigentum begründet wurde oder werden soll und die Wohnung an einen Dritten verkauft wird (§ 577 Abs. 1 S. 1 BGB) [2]. Kurz: Der Mieter ist eingezogen, als das Haus noch ein Mietshaus war, und erst danach wurde es in Eigentumswohnungen aufgeteilt. Kein Vorkaufsrecht besteht, wenn Sie an einen Familienangehörigen oder an einen Angehörigen Ihres Haushalts verkaufen (§ 577 Abs. 1 S. 2 BGB) [2], und ebenso wenig, wenn die Wohnung schon vor dem Einzug des Mieters eine Eigentumswohnung war.
 
-Der zweite Fall ist in der Region der häufigere. Die Anlagen der 1970er- und 1980er-Jahre in Leonberg-Eltingen, Leonberg-Ramtel, Ditzingen oder Pforzheim-Buckenberg wurden überwiegend als Eigentumswohnungen gebaut und verkauft. Wer dort 2011 eingezogen ist, hat kein Vorkaufsrecht, weil die Teilungserklärung aus 1978 stammt. Ich prüfe das als Erstes: Datum der Teilungserklärung gegen Datum des Mietvertrags.
-
-Untermieter haben kein Vorkaufsrecht. Stirbt der Mieter, geht das Recht auf die Personen über, die nach § 563 Abs. 1 oder 2 BGB in das Mietverhältnis eintreten, etwa Ehegatten oder Lebenspartner (§ 577 Abs. 4 BGB) [2][6]. Vereinbarungen zum Nachteil des Mieters sind unwirksam (§ 577 Abs. 5 BGB) [2].
+Der zweite Fall ist in der Region der häufigere. Die Anlagen der 1970er- und 1980er-Jahre in Leonberg-Eltingen, Ramtel, Ditzingen oder Pforzheim-Buckenberg wurden überwiegend als Eigentumswohnungen gebaut. Wer dort 2011 eingezogen ist, hat kein Vorkaufsrecht, weil die Teilungserklärung aus 1978 stammt. Ich prüfe das als Erstes: Datum der Teilungserklärung gegen Datum des Mietvertrags. Untermieter haben kein Vorkaufsrecht; stirbt der Mieter, geht es auf die Personen über, die nach § 563 BGB in das Mietverhältnis eintreten (§ 577 Abs. 4 BGB) [2][6]. Vereinbarungen zum Nachteil des Mieters sind unwirksam (§ 577 Abs. 5 BGB) [2].
 
 ### Der Ablauf in fünf Schritten
 1. Sie schließen mit dem Käufer den notariellen Kaufvertrag. Das Vorkaufsrecht entsteht erst mit diesem Vertrag; vorher gibt es nichts, in das der Mieter eintreten könnte.
@@ -77,11 +75,7 @@ Wurde die Wohnung nach Einzug des Mieters umgewandelt und dann verkauft, kann si
 | Renningen | 3 Jahre | § 577a Abs. 1 BGB [7] | dauerhaft | nicht in der Verordnung |
 | Heimsheim | 3 Jahre | § 577a Abs. 1 BGB [7] | dauerhaft | nicht in der Verordnung |
 
-Was das für Ihre Käufer bedeutet: Eine Familie, die 2026 in Leonberg eine umgewandelte, vermietete Wohnung kauft, um selbst einzuziehen, kann frühestens 2031 wegen Eigenbedarfs kündigen, und dann läuft noch die gesetzliche Kündigungsfrist. Kaum ein Eigennutzer plant so weit. Deshalb kaufen solche Wohnungen vor allem Anleger, und deshalb richte ich die Vermarktung von Anfang an auf sie aus.
-
-Was es nicht bedeutet: Die Sperrfrist gilt nur bei Umwandlung nach Überlassung. War die Wohnung schon Eigentumswohnung, als der Mieter einzog, gelten die normalen Kündigungsregeln (§ 573 BGB); Eigenbedarf bleibt dann unter den gesetzlichen Voraussetzungen möglich [7]. Ob eine Kündigung im Einzelfall zulässig ist, beurteilen Anwalt oder Mieterverein, nicht ich. Einen Tipp, wie man einen Mieter „loswird“, bekommen Sie von mir nicht.
-
-Ich beobachte die Nachfolgeverordnung. Wenn sie Anfang 2027 in Kraft tritt, aktualisiere ich diese Tabelle.
+Was das für Ihre Käufer bedeutet: Eine Familie, die 2026 in Leonberg eine umgewandelte, vermietete Wohnung kauft, um selbst einzuziehen, kann frühestens 2031 wegen Eigenbedarfs kündigen. Kaum ein Eigennutzer plant so weit. Deshalb kaufen solche Wohnungen vor allem Anleger, und darauf richte ich die Vermarktung aus. Was es nicht bedeutet: War die Wohnung schon Eigentumswohnung, als der Mieter einzog, gelten die normalen Kündigungsregeln (§ 573 BGB) [7]. Ob eine Kündigung zulässig ist, beurteilen Anwalt oder Mieterverein, nicht ich; einen Tipp, wie man einen Mieter „loswird“, bekommen Sie von mir nicht. Die Nachfolgeverordnung für 2027 beobachte ich und aktualisiere die Tabelle.
 
 ## Wie viel weniger bringt eine vermietete Wohnung?
 
@@ -105,9 +99,7 @@ Was den Abschlag verkleinert: eine Miete nahe der Marktmiete, belegbares Erhöhu
 
 ## Mietpreisbremse und Kappungsgrenze: Was Anleger in Leonberg und Pforzheim einrechnen
 
-Ein Anleger rechnet nicht nur mit der heutigen Miete, sondern mit der Miete, die er in drei oder fünf Jahren verlangen darf. Dafür zählen zwei Regeln, und sie gelten in den fünf Orten unterschiedlich.
-
-Die Mietpreisbremse begrenzt die Miete bei Neuvermietung auf höchstens 10 % über der ortsüblichen Vergleichsmiete (§ 556d Abs. 1 BGB) [21]. Sie gilt nur in Gemeinden, die das Land per Verordnung bestimmt. Die Mietpreisbegrenzungsverordnung Baden-Württemberg vom 16. Dezember 2025 umfasst 130 Gemeinden und gilt vom 1. Januar bis zum 31. Dezember 2026 [20]. Leonberg ist dabei, seit 2020, und Pforzheim seit 2026 erstmals. Ditzingen, Renningen und Heimsheim sind nicht dabei, auch nicht im Entwurf für 2027 [20]. Das Landesgutachten dahinter zeigt, wie knapp es war: Ditzingen erfüllte drei von fünf Kriterien, die Mietbelastung lag mit 20,7 % knapp unter der Schwelle von 20,8 % [20].
+Ein Anleger rechnet mit der Miete, die er in drei oder fünf Jahren verlangen darf. Dafür zählen zwei Regeln, und sie gelten in den fünf Orten unterschiedlich. Die Mietpreisbremse begrenzt die Miete bei Neuvermietung auf höchstens 10 % über der ortsüblichen Vergleichsmiete (§ 556d Abs. 1 BGB) [21], aber nur in Gemeinden, die das Land per Verordnung bestimmt. Die Mietpreisbegrenzungsverordnung Baden-Württemberg vom 16. Dezember 2025 umfasst 130 Gemeinden und gilt bis zum 31. Dezember 2026 [20]. Leonberg ist seit 2020 dabei, Pforzheim seit 2026 erstmals. Ditzingen, Renningen und Heimsheim fehlen, auch im Entwurf für 2027; Ditzingen erfüllte drei von fünf Kriterien, die Mietbelastung lag mit 20,7 % knapp unter der Schwelle von 20,8 % [20].
 
 | Ort | Mietpreisbremse 2026 | Kappungsgrenze im Bestand | Sperrfrist nach Umwandlung |
 |---|---|---|---|
@@ -119,11 +111,9 @@ Die Mietpreisbremse begrenzt die Miete bei Neuvermietung auf höchstens 10 % üb
 
 [ZU PRÜFEN: Die Kappungsgrenzenverordnung BW (15 % statt 20 % in drei Jahren, gültig bis 31.12.2026) hat eine eigene Gemeindeliste. Ob sie mit der Mietpreisbremse-Kulisse identisch ist, ist nicht geprüft. Bis dahin gilt die Tabelle für Leonberg und Pforzheim unter Vorbehalt.]
 
-Was das in Euro heißt: Eine 75-m²-Wohnung in Leonberg mit einer Altmiete von 9 €/m², also 675 € im Monat, darf im Bestand innerhalb von drei Jahren um 15 % auf 776,25 € steigen, sofern die ortsübliche Vergleichsmiete das hergibt [22]. In Renningen wären es 20 %, also 810 €. Bei Neuvermietung in Leonberg gilt die Vergleichsmiete plus 10 % [21]; ohne qualifizierten Mietspiegel ist deren Höhe im Einzelfall zu belegen [ZU PRÜFEN: Mietspiegel Leonberg nicht gefunden; Pforzheim hat einen qualifizierten Mietspiegel 2025 mit durchschnittlich 8,58 €/m² nettokalt [18]].
+In Euro: Eine 75-m²-Wohnung in Leonberg mit einer Altmiete von 9 €/m², also 675 € im Monat, darf im Bestand in drei Jahren um 15 % auf 776,25 € steigen, sofern die Vergleichsmiete das hergibt [22]; in Renningen wären es 20 %, also 810 €. Bei Neuvermietung in Leonberg gilt die Vergleichsmiete plus 10 % [21] [ZU PRÜFEN: Mietspiegel Leonberg nicht gefunden; Pforzheim hat einen qualifizierten Mietspiegel 2025 mit durchschnittlich 8,58 €/m² nettokalt [18]].
 
-Drei Ausnahmen von der Mietpreisbremse sind für Verkäufer bares Geld, wenn sie belegt sind: Wohnungen, die nach dem 1. Oktober 2014 erstmals vermietet wurden, die erste Vermietung nach einer umfassenden Modernisierung (§ 556f BGB) und eine höhere Vormiete, die weiterverlangt werden darf (§ 556e BGB) [21]. Wenn eine dieser Ausnahmen auf Ihre Wohnung zutrifft, gehört der Nachweis in die Verkaufsunterlagen, nicht in eine Fußnote. Und für Ditzingen, Renningen und Heimsheim gilt das Argument umgekehrt: keine Bremse, keine abgesenkte Kappungsgrenze, drei statt fünf Jahre Sperrfrist. Für Anleger, die aus Stuttgart oder Leonberg ausweichen, ist das ein Grund, in Heimsheim zu kaufen.
-
-Ich erbringe keine Mietrechtsberatung. Ob eine konkrete Miete zulässig ist, klären Anwalt, Mieterverein oder Haus & Grund.
+Drei Ausnahmen von der Mietpreisbremse sind für Verkäufer bares Geld, wenn sie belegt sind: Erstvermietung nach dem 1. Oktober 2014, erste Vermietung nach umfassender Modernisierung (§ 556f BGB) und eine höhere Vormiete (§ 556e BGB) [21]. Der Nachweis gehört in die Verkaufsunterlagen. Für Ditzingen, Renningen und Heimsheim gilt das Argument umgekehrt: keine Bremse, keine abgesenkte Kappungsgrenze, drei statt fünf Jahre Sperrfrist. Für Anleger, die aus Stuttgart oder Leonberg ausweichen, ist das ein Grund, in Heimsheim zu kaufen. Ob eine konkrete Miete zulässig ist, klären Anwalt, Mieterverein oder Haus & Grund, nicht ich.
 
 ## Zielgruppe Kapitalanleger: Faktor und Rendite mit lokalen Mieten
 
@@ -135,7 +125,7 @@ Anleger rechnen in zwei Kennzahlen, und beide sind einfach [13]:
 
 Als Faustwerte nennt immoportal rund 4 % Nettomietrendite und etwa 5 % Bruttomietrendite; ein Angebot bis zum 20-Fachen der Jahresnettokaltmiete gilt dort als Anleger-Chance [13]. Was in der Region herauskommt, zeigen zwei Beispiele. Alle Werte sind Angebotsmieten und Angebotspreise von Portalen, keine Abschlüsse.
 
-**Leonberg, 75 m².** Die Angebotsmieten streuen je nach Quelle: ImmoScout24 nennt „mehr als 13 €/m²“ mit einer Spanne von 12 bis 19 € [16], wohnungsboerse.net 15,78 €/m² (Ende Mai 2026) [16], Engel & Völkers 15,41 €/m² (Juni 2026) und Immowelt für Eigentumswohnungen 12,76 €/m² (Juli 2026) [17]. Das Landesgutachten zur Mietpreisbremse setzte für 2022/23 13,31 €/m² an [20].
+**Leonberg, 75 m².** Die Angebotsmieten streuen: ImmoScout24 nennt „mehr als 13 €/m²“ (Spanne 12 bis 19 €) [16], wohnungsboerse.net 15,78 €/m² (Mai 2026) [16], Engel & Völkers 15,41 €/m² (Juni 2026), Immowelt für Eigentumswohnungen 12,76 €/m² (Juli 2026) [17]; das Landesgutachten zur Mietpreisbremse setzte für 2022/23 13,31 €/m² an [20].
 
 | Annahme | Miete/Monat | Miete/Jahr | Kaufpreis frei (292.500 €) | Kaufpreis mit 12 % Abschlag (257.400 €) |
 |---|---|---|---|---|
@@ -151,13 +141,13 @@ Als Faustwerte nennt immoportal rund 4 % Nettomietrendite und etwa 5 % Bruttomie
 
 Die zweite Zeile ist der Grund, warum eine Wohnung mit Altmiete in Pforzheim schwerer zu verkaufen ist als eine mit frischem Mietvertrag: Der Faktor steigt von 22,6 auf 28,7, ohne dass sich an der Wohnung etwas ändert. Der IVD beschreibt den Pforzheimer Markt als zweigeteilt, Kaufmarkt verhalten, Mietnachfrage hoch [19]. Für Verkäufer vermieteter Wohnungen ist das die bessere Hälfte.
 
-Zur Nettorendite: Dafür müssen die nicht umlagefähigen Kosten abgezogen werden, also Verwaltung, Erhaltungsrücklage und Instandhaltung am Sondereigentum. Nehme ich als Annahme 1,00 € je Quadratmeter und Monat, also 900 € im Jahr, sinkt die Rendite im Leonberger Beispiel bei 13 €/m² von 4,0 % brutto auf 3,7 % netto. Die Annahme ist meine, keine Statistik.
+Für die Nettorendite werden die nicht umlagefähigen Kosten abgezogen, also Verwaltung, Rücklage und Instandhaltung am Sondereigentum. Mit einer Annahme von 1,00 € je Quadratmeter und Monat, also 900 € im Jahr, sinkt die Rendite im Leonberger Beispiel bei 13 €/m² von 4,0 % brutto auf 3,7 % netto. Die Annahme ist meine, keine Statistik.
 
 [LINUS: Welche Spannen beim nicht umlagefähigen Hausgeldanteil (Euro je Quadratmeter und Monat) siehst du in Anlagen in Leonberg, Ditzingen und Pforzheim? Damit ersetze ich die Annahme von 1,00 €/m².]
 
-[LINUS: Hast du bereits Kapitalanleger in deiner Käuferkartei? Welche Faktoren oder Renditen nennen sie dir als Schmerzgrenze? Wenn ja, ein Satz hier; wenn nein, bleibt die Rechnung so stehen.]
+[LINUS: Hast du bereits Kapitalanleger in deiner Käuferkartei? Welche Faktoren oder Renditen nennen sie als Schmerzgrenze?]
 
-Dazu kommt 2026 ein Faktor, den die Formeln nicht enthalten: der Zins. Zehnjährige Baufinanzierungen kosteten Ende Oktober 2026 rund 4,2 bis 4,5 % effektiv, ein Jahr zuvor 3,38 % [26]. Ein Anleger, der zu 4,4 % finanziert und 4,4 % Bruttorendite erzielt, hat vor Kosten und Steuern eine Null. Deshalb prüfen Anleger den Cashflow schärfer als 2024, und deshalb zählt eine belegbare Miete nahe am Markt mehr als jedes Adjektiv im Exposé. Die Bundesbank rechnet zudem damit, dass bis 2027 rund 20 % des deutschen Wohnimmobilien-Kreditvolumens refinanziert werden müssen [26]; es kommen also auch Verkäufer unter Druck auf den Markt, mit denen Sie konkurrieren.
+Dazu kommt 2026 der Zins: Zehnjährige Baufinanzierungen kosteten Ende Oktober 2026 rund 4,2 bis 4,5 % effektiv, ein Jahr zuvor 3,38 % [26]. Ein Anleger, der zu 4,4 % finanziert und 4,4 % Bruttorendite erzielt, hat vor Kosten und Steuern eine Null. Deshalb zählt eine belegbare Miete nahe am Markt mehr als jedes Adjektiv im Exposé. Die Bundesbank rechnet zudem damit, dass bis 2027 rund 20 % des Wohnimmobilien-Kreditvolumens refinanziert werden müssen [26]; es kommen also auch Verkäufer unter Druck auf den Markt, mit denen Sie konkurrieren.
 
 > **Vermietete Wohnung kostenlos einschätzen lassen**
 > Ich rechne Ihnen vor, was ein Anleger und was ein künftiger Selbstnutzer in Ihrer Lage zahlen würde, und wie die Sperrfrist Ihren Käuferkreis verändert. [Zum Formular](/wohnung-bewerten/), Feld „vermietet“ ist dort vorgesehen. [LINUS: Telefonnummer und Antwortzeit ergänzen.]
@@ -181,12 +171,7 @@ Die vollständige Liste der WEG-Unterlagen mit Bezugsquellen und Fristen steht i
 
 ## Besichtigungen mit Mieter
 
-Der Mieter muss Besichtigungen dulden, aber nicht beliebig. ImmoScout24 nennt als zumutbar etwa einen Termin pro Woche von rund zwei Stunden, keine Sonn- und Feiertage ohne Zustimmung, und eine rechtzeitige Ankündigung [12]. Eine Urteilsangabe fehlt dort, ich nenne deshalb keine. Was ich tue:
-
-- Ich bündele Interessenten zu einem Termin, statt den Mieter fünfmal zu stören. Ein Sammeltermin mit drei geprüften Interessenten belastet weniger als drei Einzeltermine, und Anleger wollen ohnehin nicht lange in der Wohnung stehen.
-- Ich kündige Termine schriftlich an, mit Datum, Uhrzeit, Dauer und der Zahl der Personen.
-- Ich fotografiere die Wohnung nur mit Einverständnis des Mieters und ohne persönliche Gegenstände im Bild; sonst nutze ich Grundriss und Außenaufnahmen.
-- Anleger kaufen Zahlen, keine Einrichtung. Bei vermieteten Wohnungen reicht oft eine einzige Besichtigung nach der Entscheidung auf Basis der Unterlagen.
+Der Mieter muss Besichtigungen dulden, aber nicht beliebig. ImmoScout24 nennt als zumutbar etwa einen Termin pro Woche von rund zwei Stunden, keine Sonn- und Feiertage ohne Zustimmung und eine rechtzeitige Ankündigung [12]; eine Urteilsangabe fehlt dort, ich nenne deshalb keine. Was ich tue: Ich bündele geprüfte Interessenten zu einem Sammeltermin, kündige ihn schriftlich mit Datum, Dauer und Personenzahl an und fotografiere nur mit Einverständnis des Mieters und ohne persönliche Gegenstände im Bild, sonst mit Grundriss und Außenaufnahmen. Anleger kaufen Zahlen, keine Einrichtung; oft reicht eine Besichtigung nach der Vorentscheidung anhand der Unterlagen.
 
 Mustertext für die Terminanfrage an den Mieter (Vorschlag, kein Rechtsrat): „Sehr geehrte Frau …, wie angekündigt möchte ich die Wohnung am … zwischen … und … Uhr zwei Interessenten zeigen. Der Termin dauert etwa 45 Minuten. Falls Ihnen der Zeitpunkt nicht passt, nennen Sie mir bitte zwei Alternativen in derselben Woche. Fotos werden nur mit Ihrem Einverständnis gemacht.“
 
@@ -196,23 +181,23 @@ Mustertext für die Terminanfrage an den Mieter (Vorschlag, kein Rechtsrat): „
 
 Liegen zwischen Kauf und Verkauf nicht mehr als zehn Jahre, ist der Gewinn steuerpflichtig (§ 23 Abs. 1 S. 1 Nr. 1 EStG); maßgeblich sind die Daten der notariellen Verträge [23]. Die Ausnahme für selbst genutzte Wohnungen greift bei durchgehender Vermietung nicht. Zwei Besonderheiten treffen Vermieter: Die abgesetzte AfA erhöht den steuerpflichtigen Gewinn, weil sie die Anschaffungskosten mindert, und die Verkaufskosten, einschließlich meiner Provision, mindern ihn (§ 23 Abs. 3 EStG) [23]. Gewinne unter 1.000 € im Jahr bleiben steuerfrei; das ist eine Freigrenze, kein Freibetrag [23].
 
-Eine Modellrechnung aus dem Marktdossier zeigt die Größenordnung: Eine vermietete 75-m²-Wohnung in Leonberg, 2018 für 270.000 € gekauft und 2026 für 300.000 € verkauft, ergibt nach Zurechnung von 34.560 € AfA und Abzug der Verkaufskosten einen steuerpflichtigen Gewinn von rund 34.450 €; bei 42 % Grenzsteuersatz sind das etwa 14.470 € Steuer. Bei Verkauf nach Ablauf der zehn Jahre: 0 € [23]. Der Steuersatz ist Ihr persönlicher; die „bis zu 25 %“, die ein Portal nennt, sind falsch. Und die Frist bleibt: Der Bundestag hat ihre Abschaffung am 8. Oktober 2026 mit 131 zu 446 Stimmen abgelehnt, der Bundesrat ist am 16. Oktober 2026 nicht gefolgt [23].
+Eine Modellrechnung zeigt die Größenordnung: Eine vermietete 75-m²-Wohnung in Leonberg, 2018 für 270.000 € gekauft und 2026 für 300.000 € verkauft, ergibt nach Zurechnung von 34.560 € AfA und Abzug der Verkaufskosten einen steuerpflichtigen Gewinn von rund 34.450 €, bei 42 % Grenzsteuersatz etwa 14.470 € Steuer; nach Ablauf der zehn Jahre 0 € [23]. Der Steuersatz ist Ihr persönlicher; die „bis zu 25 %“ eines Portals sind falsch. Die Frist bleibt: Der Bundestag hat ihre Abschaffung am 8. Oktober 2026 mit 131 zu 446 Stimmen abgelehnt, der Bundesrat ist am 16. Oktober 2026 nicht gefolgt [23].
 
-Ich erbringe keine Steuerberatung. Die Rechnung für Ihren Fall macht Ihr Steuerberater. Was ich tue: Ich sage Ihnen, wann Ihre zehn Jahre ablaufen, bevor wir einen Notartermin vereinbaren. Mehr im Ratgeber [Spekulationssteuer bei der Eigentumswohnung](/ratgeber/spekulationssteuer/).
+Ich erbringe keine Steuerberatung; die Rechnung für Ihren Fall macht Ihr Steuerberater. Was ich tue: Ich sage Ihnen, wann Ihre zehn Jahre ablaufen, bevor wir einen Notartermin vereinbaren. Mehr im Ratgeber [Spekulationssteuer bei der Eigentumswohnung](/ratgeber/spekulationssteuer/).
 
 ## Oder an den Mieter verkaufen?
 
-Manchmal ist der Mieter der beste Käufer, auch ohne Vorkaufsrecht. Er kennt die Wohnung, es gibt keine Besichtigungen, keine Sperrfrist-Diskussion und keinen Vorkaufsrecht-Prozess. Die Nachteile: Ohne Wettbewerb fehlt der Preisanker, die Finanzierung des Mieters ist oft unklar, und die Entscheidung zieht sich, weil niemand drängt.
+Manchmal ist der Mieter der passende Käufer, auch ohne Vorkaufsrecht. Er kennt die Wohnung, es gibt keine Besichtigungen, keine Sperrfrist-Diskussion und keinen Vorkaufsrecht-Prozess. Die Nachteile: Ohne Wettbewerb fehlt der Preisanker, die Finanzierung des Mieters ist oft unklar, und die Entscheidung zieht sich, weil niemand drängt.
 
-Mein Vorgehen: Ich frage den Mieter zuerst, lege aber zugleich den Marktpreis mit Vergleichswerten im schriftlichen Verkaufsplan fest, damit das Gespräch nicht bei „was hätten Sie sich denn vorgestellt“ beginnt. Der Mieter bekommt eine feste Frist, meist zwei bis drei Wochen, und einen Finanzierungsnachweis muss er wie jeder andere Käufer vorlegen. Sagt er ab, geht die Wohnung an den Markt, und er weiß, was kommt.
+Mein Vorgehen: Ich frage den Mieter zuerst, lege aber zugleich den Marktpreis mit Vergleichswerten im schriftlichen Verkaufsplan fest. Der Mieter bekommt eine feste Frist, meist zwei bis drei Wochen, und legt wie jeder andere Käufer einen Finanzierungsnachweis vor; Barzahlung scheidet seit dem 1. April 2023 ohnehin aus (§ 16a GwG) [27]. Sagt er ab, geht die Wohnung an den Markt, und er weiß, was kommt.
 
 [LINUS: Reduzierst du beim Verkauf an den Mieter die Provision, weil Vermarktung und Besichtigungen entfallen, oder bleibt sie bei 2,98 %? Das muss hier eindeutig stehen.]
 
-Was ich nicht mache: eine Zahlung dafür vermitteln, dass der Mieter auszieht. Solche Abfindungen sind nicht verboten, aber sie sind Verhandlungen zwischen Ihnen und dem Mieter, nicht meine Aufgabe, und sie gehen oft schief. Wenn Sie leer verkaufen wollen, sprechen Sie vorher mit einem Anwalt.
+Was ich nicht mache: eine Abfindung dafür vermitteln, dass der Mieter auszieht. Das ist eine Verhandlung zwischen Ihnen und dem Mieter; wenn Sie leer verkaufen wollen, sprechen Sie vorher mit einem Anwalt.
 
 ## Aus meiner Praxis
 
-Verkaufte vermietete Wohnungen kann ich noch nicht als Referenz nennen. Was ich einbringe, ist die Vermietersicht aus der eigenen Wohnung: Ich weiß, wie eine Betriebskostenabrechnung entsteht, was eine Mieterhöhung an Papier braucht und wie ein Mieter reagiert, wenn der Eigentümer sich zum ersten Mal seit Jahren meldet.
+Verkaufte vermietete Wohnungen kann ich noch nicht als Referenz nennen. Was ich einbringe, ist die Vermietersicht aus der eigenen Wohnung: Ich weiß, wie eine Betriebskostenabrechnung entsteht, was eine Mieterhöhung an Papier braucht und wie ein Mieter reagiert, wenn der Eigentümer sich nach Jahren zum ersten Mal meldet.
 
 [LINUS: Eine konkrete Beobachtung aus deiner Vermieterpraxis, zwei bis drei Sätze, anonymisiert. Zum Beispiel: Wie lange hat deine letzte Mieterhöhung von der Ankündigung bis zur Zustimmung gedauert? Oder: Was hat dich die letzte Eigentümerversammlung über die Rücklage gelehrt?]
 
@@ -238,9 +223,6 @@ Ja. Er tritt in den Kaufvertrag zu denselben Bedingungen ein, und dazu gehört d
 
 ### Wie oft darf ich mit Interessenten besichtigen?
 Als zumutbar gilt laut ImmoScout24 etwa ein Termin pro Woche von rund zwei Stunden, angekündigt und nicht an Sonn- und Feiertagen ohne Zustimmung [12]. Ich fasse Interessenten zu Sammelterminen zusammen und zeige vermietete Wohnungen oft erst nach einer Vorentscheidung anhand der Unterlagen.
-
-### Gilt in Ditzingen die fünfjährige Sperrfrist?
-Nach dem Verordnungstext nicht; Ditzingen steht nicht in § 1 der KSpVO BW, also gelten drei Jahre [7][8]. Der Deutsche Mieterbund führt Ditzingen in seiner Übersicht [9]. Ich habe diesen Widerspruch als Prüfpunkt notiert und schreibe hier erst eine endgültige Antwort, wenn er geklärt ist.
 
 ## Hinweis
 Ich erbringe keine Rechts- und keine Steuerberatung, insbesondere keine Mietrechtsberatung zu Kündigung, Eigenbedarf oder Mieterhöhung. Dafür sind Anwalt, Mieterverein oder Haus & Grund sowie Ihr Steuerberater zuständig. Gesetzes- und Verordnungsangaben geben den Stand vom Oktober 2026 wieder; die Kündigungssperrfrist- und die Mietpreisbegrenzungsverordnung laufen am 31. Dezember 2026 aus, Nachfolgeverordnungen sind in Vorbereitung. Mieten und Preise sind Angebotswerte von Portalen, keine Abschlüsse. Meine Erlaubnis nach § 34c GewO ist beantragt; Einschätzungen gebe ich ab sofort, Makleraufträge nehme ich nach Erteilung an.
