@@ -8,7 +8,8 @@ Dieses Repository (ehemals „Café Flo“, alter Inhalt entfernt) dient als Arb
 |---|---|
 | `analyse-aktuelle-webseite/` | Analyse der bestehenden Seite, Wettbewerbsvergleich, priorisierte Maßnahmen, Seitenplan, Radar-Konzept. **Hier anfangen** (`README.md` dort). |
 | `recherche/` | Rohdaten der Wettbewerbs- und Themenrecherche (regional, München, Großstädte, überregional, Ratgeber-Themen, lokale Marktdaten, Feeds, aktuelle Marktthemen). Lang, belegt mit Zitaten und URLs. |
-| `content-briefings/` | Je geplante Unterseite ein Briefing: Ziel, Suchintention, Gliederung, Pflichtfakten mit Rechtsgrundlagen, Quellen, CTAs. Grundlage für das spätere Bauen der Seiten. |
+| `content-briefings/` | Je geplante Unterseite ein Briefing: Ziel, Suchintention, Gliederung, Pflichtfakten mit Rechtsgrundlagen, Quellen, CTAs. Grundlage für die Texte. |
+| `texte/` | Textentwürfe je Seite auf Basis der Briefings (Ich-Form, Fakten mit Quelle, Platzhalter `[LINUS: …]` und `[ZU PRÜFEN: …]`). Werden beim Bauen der Seiten übernommen und von Linus ergänzt. |
 | `radar/` | Werkzeug zur Gesetzes- und Marktbeobachtung (RSS-Aggregator mit Schlagwortfilter) samt Digests. |
 
 ## Arbeitsweise

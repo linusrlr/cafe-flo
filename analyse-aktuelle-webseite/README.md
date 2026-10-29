@@ -1,32 +1,40 @@
 # Analyse der aktuellen Webseite roessler-immo.de
 
-Dieser Ordner enthält die Bestandsaufnahme der Live-Seite **https://roessler-immo.de/** (Rössler Immobilien, Linus Rössler) vom **29.10.2026** und die daraus abgeleiteten Maßnahmen. Er ist die Arbeitsgrundlage für den Relaunch, sobald der Quellcode der Seite in dieses Repo hochgeladen ist.
+Bestandsaufnahme der Live-Seite https://roessler-immo.de/ (Rössler Immobilien, Linus Rössler) vom 29./30. Oktober 2026 mit Wettbewerbsvergleich, Maßnahmenliste, Seitenplan und Radar-Konzept. Der Ordner ist die Arbeitsgrundlage für den Umbau, sobald der Quellcode der Seite im Repo liegt.
 
-> Hintergrund: Dieses Repo hieß ursprünglich `cafe-flo` (altes Next.js-Projekt). Die Café-Flo-Inhalte werden nicht mehr gebraucht und dürfen überschrieben oder gelöscht werden. Ab jetzt ist das Repo das Arbeits- und Recherche-Repo für die Rössler-Immobilien-Webseite.
+## Dateien und Lesereihenfolge
 
-## Dateien
-
-| Datei | Inhalt | Für wen |
+| Datei | Inhalt | Lesen, wenn … |
 |---|---|---|
-| [`01-analyse.md`](01-analyse.md) | Ausführliche Analyse der Live-Seite in 8 Bereichen (Inhalte, Struktur, Design, Mobil, Kontakt/Funnel, SEO, Technik, Recht) mit Zitaten aus dem Quelltext, Messwerten und einer Gesamtbewertung. | Wer verstehen will, **was** die Seite heute kann und wo sie schwach ist |
-| [`02-wettbewerb.md`](02-wettbewerb.md) | Vergleich mit 5 Makler-Webseiten (Gäu Immobilien, Von Poll Leonberg, Wurtz Immobilien, Apfel Immobilien, Homeday) plus Vergleichsmatrix; was Rössler besser macht, was fehlt. | Wer wissen will, **was in der Region Standard ist** |
-| [`03-massnahmen.md`](03-massnahmen.md) | Priorisierte To-do-Liste (Hoch / Mittel / Niedrig) mit konkreten Umsetzungsschritten, Aufwand, Abhängigkeiten und einer empfohlenen Reihenfolge. **Diese Datei ist so geschrieben, dass eine spätere Session die Punkte direkt umsetzen kann.** | Wer **umsetzen** will |
+| `01-analyse.md` | Analyse der Live-Seite in zehn Abschnitten (Inhalte, Struktur, Design, Mobil, Funnel, SEO, Technik inkl. Lighthouse/axe/Validator/DNS, Recht) mit Zitaten, Messwerten, Befundliste nach Schwere. Screenshots in `screenshots/`. | … man wissen will, was die Seite heute kann und wo sie schwach ist. |
+| `02-wettbewerb.md` | Auswertung von 37 Maklerseiten (Region, München, Großstädte, überregional): direkte Wettbewerber, Vorbilder je Thema, Muster, Vergleichsmatrix, was Rössler besser macht, was nicht nachgebaut werden soll. | … man Entscheidungen über Funnel, Beweise, Inhalte und Tonalität begründen will. |
+| `03-massnahmen.md` | 20 priorisierte Maßnahmen (Hoch/Mittel/Niedrig) mit Umsetzungsschritten, Akzeptanzkriterien, Session-Reihenfolge und Erfolgskriterien. | … man umsetzt. Jede Maßnahme (M1 bis M20) ist eigenständig abarbeitbar. |
+| `04-seitenplan.md` | Zielstruktur, Seitenliste mit Priorität und Wellen, Templates für Ratgeber, Ortsseiten, Leistungsseiten, Funnel, „Über mich“, Direktankauf; Pflichtbausteine. | … man eine Seite baut oder plant. |
+| `05-radar.md` | Konzept für die Gesetzes- und Marktbeobachtung: Ebenen, 77 geprüfte Feeds, Newsletter ohne Feed, Werkzeug `../radar/`, Wochenablauf, Automatisierungsvorschlag, erster Themenvorrat. | … man Newsletter und aktuelle Artikel aufsetzt. |
+
+## Zugehörige Ordner im Repo
+
+- `../content-briefings/`: je geplante Seite ein Briefing mit Zielgruppe, Suchintention, Faktentabelle mit Quellen, Gliederung, Elementen, Anti-Slop-Regeln und offenen Fragen an Linus. Vorlage `_vorlage.md`.
+- `../texte/`: Textentwürfe der Seiten auf Basis der Briefings (Ich-Form, Fakten mit Quelle, Platzhalter `[LINUS: …]` für Praxiswissen, `[ZU PRÜFEN: …]` für ungeklärte Angaben).
+- `../recherche/`: Rohdaten aller Recherchen mit Zitaten, URLs, Sitemaps, Funnel-Protokollen, lokalen Marktdaten, Feed-Prüfprotokoll und Marktthemen-Dossier 2026.
+- `../radar/`: lauffähiges Radar-Werkzeug (Python, ohne Abhängigkeiten) mit Feeds, Schlagwörtern und Digests.
 
 ## So liest man den Ordner
-1. Wer wenig Zeit hat: `01-analyse.md` → Abschnitt 9 „Gesamtbewertung“ und `03-massnahmen.md` → „Priorität HOCH“ + „Reihenfolge-Empfehlung“.
-2. Wer eine Maßnahme umsetzt: In `03-massnahmen.md` die Nummer (z. B. H4) lesen; der zugehörige Befund steht in `01-analyse.md` im gleichnamigen Abschnitt (z. B. Abschnitt 5 „Kontaktwege und Anfrage-Funnel“).
-3. Wer Texte oder Design überarbeitet: `02-wettbewerb.md` zeigt konkrete Formulierungen und Elemente der Wettbewerber, die als Vorbild (oder Gegenbeispiel) dienen.
+1. Wenig Zeit: `01-analyse.md` Abschnitt 10 (Befunde nach Schwere), `02-wettbewerb.md` Abschnitt 1, `03-massnahmen.md` Abschnitt D (Reihenfolge).
+2. Vor einer Umsetzungs-Session: `03-massnahmen.md` (Maßnahmen der Session), `04-seitenplan.md` (Template der Seite), das passende Briefing, der Textentwurf.
+3. Vor einem Newsletter: `05-radar.md` Abschnitt 5 und der neueste Digest in `../radar/digests/`.
 
-## Wichtigste Erkenntnisse in einem Satz
-Die Seite ist eine ehrliche, fachlich starke und technisch schlanke **Visitenkarte**, aber noch kein **Akquise-Instrument**: Sie ist über Google praktisch nicht auffindbar (eine URL, Title ohne Suchbegriff, keine Ortsseiten, kein Google-Profil), bietet keinen niedrigschwelligen Einstieg („kostenlose Ersteinschätzung“) und keinen Vertrauensbeweis (Bewertungen, Referenzen, Qualifikationen). Dazu kommen zwei Pflichtpunkte: Google Fonts lokal hosten (Abmahnrisiko) und der § 34c-Hinweis, der am Tag der Erteilung raus muss.
+## Offene Entscheidungen für Linus (vor Session 1)
+- Standort und Impressum: Geschäftsadresse in der Region oder Niederlauer beibehalten und erklären (M6).
+- WhatsApp als Kontaktweg ja/nein (M10).
+- Persönlicher Bezug zu Heimsheim/Leonberg in einem Satz (Briefing 32, Frage 1).
+- Welche Hausverwaltungen, Baujahre, Hausgeld-Spannen er aus der Praxis kennt (Fragen in Abschnitt 7 jedes Briefings).
 
-## Was in dieser Session nicht geprüft werden konnte
-- Die Webseiten von **Bannasch Immobilien** (Leonberg, stärkster Wohnungs-Makler nach Bewertungen), **Jutta Niggel Immobilien** (Pforzheim), **Domizil Immobilien** (Ditzingen) und **McMakler** waren aus der Cloud-Umgebung nicht erreichbar (DNS/Proxy bzw. 403/500). Lohnt sich am Laptop nachzuholen.
-- `kontakt.php` (Formular-Backend) konnte nur von außen getestet werden (antwortet auf GET mit 303); der Code ist nicht einsehbar.
-- Lighthouse/Core Web Vitals aus dem Mobilfunknetz; die Messwerte in `01-analyse.md` stammen aus einem Rechenzentrum und sind daher eher optimistisch.
-- Rankings/Impressionen (keine Search-Console-Daten vorhanden).
+## Was nicht geprüft werden konnte
+- Websites von Bannasch (Leonberg), Niggel (Pforzheim), Domizil (Ditzingen), McMakler, Aigner, Kensington: aus der Cloud nicht erreichbar; am Laptop nachholen.
+- `kontakt.php` nur von außen (GET liefert 303); Mailversand, SPF/DKIM-Wirkung und Bestätigungsmail nicht getestet.
+- Amtliche Kaufpreise der Gutachterausschüsse (nur Angebotspreise der Portale liegen vor).
+- Google-Unternehmensprofil und Rankings (keine Search-Console-Daten).
 
-## Nächste Schritte
-1. Quellcode der Live-Seite in dieses Repo legen (Vorschlag: Ordner `site/` mit `index.html`, `bilder/`, `kontakt.php`, später die Unterseiten).
-2. Mit `03-massnahmen.md` → „Reihenfolge-Empfehlung“ beginnen.
-3. Diesen Ordner bei Bedarf ergänzen (z. B. `04-texte-neu.md`, `05-keywords.md`), statt die Analyse zu überschreiben – so bleibt der Ausgangszustand dokumentiert.
+## Hinweis zur parallelen Session
+Am 29.10.2026 hat eine zweite Session eine kompaktere Analyse mit gleichen Dateinamen erstellt. Ihre Fassungen liegen unter `../recherche/parallel-session/`; ihr Wettbewerbsvergleich (Gäu/Wohntreu, Von Poll Leonberg, Wurtz, Apfel, Homeday) ist in `02-wettbewerb.md` eingearbeitet. Die Dateien in diesem Ordner sind die Referenz.
