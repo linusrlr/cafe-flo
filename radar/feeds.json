@@ -1,16 +1,490 @@
 [
-  {"name": "Bundestag – hib (heute im bundestag)", "category": "Gesetzgebung", "url": "https://www.bundestag.de/static/appdata/includes/rss/hib.rss", "prio": 5},
-  {"name": "Bundestag – Pressemitteilungen", "category": "Gesetzgebung", "url": "https://www.bundestag.de/static/appdata/includes/rss/pressemitteilungen.rss", "prio": 4},
-  {"name": "Bundesregierung – Aktuelles", "category": "Gesetzgebung", "url": "https://www.bundesregierung.de/service/rss/breg-de/1151244/feed.xml", "prio": 4},
-  {"name": "IVD – Immobilienverband", "category": "Branche", "url": "https://www.ivd.net/feed/", "prio": 5, "filter": false},
-  {"name": "GdW – Wohnungswirtschaft", "category": "Branche", "url": "https://www.gdw.de/rss", "prio": 3},
-  {"name": "vdp – Pfandbriefbanken", "category": "Markt/Zinsen", "url": "https://www.pfandbrief.de/rss", "prio": 3},
-  {"name": "Handelsblatt – Immobilien", "category": "Markt/Zinsen", "url": "https://www.handelsblatt.com/contentexport/feed/immobilien", "prio": 4, "filter": false},
-  {"name": "Spiegel – Wirtschaft/Service", "category": "Markt/Zinsen", "url": "https://www.spiegel.de/wirtschaft/service/index.rss", "prio": 2},
-  {"name": "test.de – alles", "category": "Verbraucher", "url": "https://www.test.de/rss/alles/", "prio": 2},
-  {"name": "EZB – Presse", "category": "Markt/Zinsen", "url": "https://www.ecb.europa.eu/rss/press.html", "prio": 4},
-  {"name": "Bundesnetzagentur – Presse", "category": "Energie/Sanierung", "url": "https://www.bundesnetzagentur.de/SiteGlobals/Functions/RSSFeed/DE/RSSNewsfeed/RSSNewsfeed_Pressemitteilungen.xml", "prio": 1},
-  {"name": "Google News – Grunderwerbsteuer", "category": "News-Suche", "url": "https://news.google.com/rss/search?q=Grunderwerbsteuer&hl=de&gl=DE&ceid=DE:de", "prio": 3, "filter": false},
-  {"name": "Google News – Wohnungseigentumsgesetz", "category": "News-Suche", "url": "https://news.google.com/rss/search?q=Wohnungseigentumsgesetz+OR+WEG-Recht&hl=de&gl=DE&ceid=DE:de", "prio": 3, "filter": false},
-  {"name": "Google News – Immobilienmarkt Region Stuttgart", "category": "News-Suche", "url": "https://news.google.com/rss/search?q=Immobilien+(Leonberg+OR+Pforzheim+OR+Ditzingen+OR+Renningen+OR+Heimsheim)&hl=de&gl=DE&ceid=DE:de", "prio": 4, "filter": false}
+ {
+  "name": "Bundesgesetzblatt Teil I",
+  "category": "Gesetzgebung & Regierung",
+  "url": "https://www.recht.bund.de/rss/feeds/rss_bgbl-1.xml",
+  "prio": 5
+ },
+ {
+  "name": "Bundesgesetzblatt Teil II",
+  "category": "Gesetzgebung & Regierung",
+  "url": "https://www.recht.bund.de/rss/feeds/rss_bgbl-2.xml",
+  "prio": 5
+ },
+ {
+  "name": "Bundestag hib – alle",
+  "category": "Gesetzgebung & Regierung",
+  "url": "https://www.bundestag.de/static/appdata/includes/rss/hib.rss",
+  "prio": 3
+ },
+ {
+  "name": "Bundestag hib – Bauen, Wohnen, Stadtentwicklung",
+  "category": "Gesetzgebung & Regierung",
+  "url": "https://www.bundestag.de/static/appdata/includes/rss/bauwohnenstadtentwicklungkommunen.rss",
+  "prio": 5,
+  "filter": false
+ },
+ {
+  "name": "Bundestag hib – Recht",
+  "category": "Gesetzgebung & Regierung",
+  "url": "https://www.bundestag.de/static/appdata/includes/rss/recht.rss",
+  "prio": 4
+ },
+ {
+  "name": "Bundestag hib – Finanzen",
+  "category": "Gesetzgebung & Regierung",
+  "url": "https://www.bundestag.de/static/appdata/includes/rss/finanzen.rss",
+  "prio": 4
+ },
+ {
+  "name": "Bundestag – Pressemitteilungen",
+  "category": "Gesetzgebung & Regierung",
+  "url": "https://www.bundestag.de/static/appdata/includes/rss/pressemitteilungen.rss",
+  "prio": 3
+ },
+ {
+  "name": "Bundestag – Tagesordnungen",
+  "category": "Gesetzgebung & Regierung",
+  "url": "https://www.bundestag.de/static/appdata/includes/rss/tagesordnungen.rss",
+  "prio": 2
+ },
+ {
+  "name": "Bundestag – Drucksachen",
+  "category": "Gesetzgebung & Regierung",
+  "url": "https://www.bundestag.de/static/appdata/includes/rss/drucksachen.rss",
+  "prio": 2
+ },
+ {
+  "name": "Bundesrat – PlenumKOMPAKT",
+  "category": "Gesetzgebung & Regierung",
+  "url": "https://www.bundesrat.de/SiteGlobals/Functions/RSSFeed/RSSGenerator_top_plenumkompakt.xml",
+  "prio": 4
+ },
+ {
+  "name": "Bundesrat – Eingegangene Beratungsvorgänge",
+  "category": "Gesetzgebung & Regierung",
+  "url": "https://www.bundesrat.de/SiteGlobals/Functions/RSSFeed/RSSGenerator_Announcement.xml",
+  "prio": 3
+ },
+ {
+  "name": "Bundesrat – Drucksachen",
+  "category": "Gesetzgebung & Regierung",
+  "url": "https://www.bundesrat.de/SiteGlobals/Functions/RSSFeed/RSSGenerator_PBPrintout.xml",
+  "prio": 3
+ },
+ {
+  "name": "Bundesrat – Termine",
+  "category": "Gesetzgebung & Regierung",
+  "url": "https://www.bundesrat.de/SiteGlobals/Functions/RSSFeed/RSSGenerator_Event.xml",
+  "prio": 2
+ },
+ {
+  "name": "Bundesrat – Plenarprotokolle",
+  "category": "Gesetzgebung & Regierung",
+  "url": "https://www.bundesrat.de/SiteGlobals/Functions/RSSFeed/RSSGenerator_Publication.xml",
+  "prio": 2
+ },
+ {
+  "name": "Bundesregierung – Pressemitteilungen",
+  "category": "Gesetzgebung & Regierung",
+  "url": "https://www.bundesregierung.de/service/rss/breg-de/1151244/feed.xml",
+  "prio": 3
+ },
+ {
+  "name": "Bundesregierung – kompakt",
+  "category": "Gesetzgebung & Regierung",
+  "url": "https://www.bundesregierung.de/service/rss/breg-de/1151242/feed.xml",
+  "prio": 2
+ },
+ {
+  "name": "Bundesregierung – Artikel",
+  "category": "Gesetzgebung & Regierung",
+  "url": "https://www.bundesregierung.de/service/rss/breg-de/1151246/feed.xml",
+  "prio": 2
+ },
+ {
+  "name": "BMJV – Gesetzgebungsverfahren",
+  "category": "Gesetzgebung & Regierung",
+  "url": "https://www.bmjv.de/SiteGlobals/Functions/RSSNewsfeed/DE/RSSNewsfeed/RSSNewsfeedGesetzgebungsverfahren.xml",
+  "prio": 5
+ },
+ {
+  "name": "BMJV – Pressemitteilungen",
+  "category": "Gesetzgebung & Regierung",
+  "url": "https://www.bmjv.de/SiteGlobals/Functions/RSSNewsfeed/DE/RSSNewsfeed/RSSNewsfeedPressemitteilungen.xml",
+  "prio": 4
+ },
+ {
+  "name": "BMWSB – Bauministerium",
+  "category": "Gesetzgebung & Regierung",
+  "url": "https://www.bmwsb.bund.de/DE/tools-services/rssfeed/_functions/rssnewsfeed.xml",
+  "prio": 4,
+  "filter": false
+ },
+ {
+  "name": "Landtag BW – Pressemitteilungen",
+  "category": "Gesetzgebung & Regierung",
+  "url": "https://www.landtag-bw.de/blueprint/servlet/service/rss/de/509988/feed.rss",
+  "prio": 3
+ },
+ {
+  "name": "Landtag BW – Neue Drucksachen",
+  "category": "Gesetzgebung & Regierung",
+  "url": "https://www.landtag-bw.de/blueprint/servlet/service/rss/de/509930/feed.rss",
+  "prio": 5
+ },
+ {
+  "name": "Landtag BW – Plenarprotokolle",
+  "category": "Gesetzgebung & Regierung",
+  "url": "https://www.landtag-bw.de/blueprint/servlet/service/rss/de/509986/feed.rss",
+  "prio": 2
+ },
+ {
+  "name": "Landesregierung BW – alle Meldungen",
+  "category": "Gesetzgebung & Regierung",
+  "url": "https://www.baden-wuerttemberg.de/de/service/rss/xml/rss-alle-meldungen",
+  "prio": 2
+ },
+ {
+  "name": "Landesregierung BW – Wirtschaft, Arbeit, Finanzen",
+  "category": "Gesetzgebung & Regierung",
+  "url": "https://www.baden-wuerttemberg.de/de/service/rss/xml/rss-wirtschaft-arbeit-finanzen",
+  "prio": 4
+ },
+ {
+  "name": "Landesregierung BW – Energie, Umwelt, Verkehr",
+  "category": "Gesetzgebung & Regierung",
+  "url": "https://www.baden-wuerttemberg.de/de/service/rss/xml/rss-energie-umwelt-verkehr",
+  "prio": 2
+ },
+ {
+  "name": "Ministerium für Landesentwicklung und Wohnen BW",
+  "category": "Gesetzgebung & Regierung",
+  "url": "https://mlw.baden-wuerttemberg.de/de/service/rss-feed/xml/rss-mlw",
+  "prio": 5,
+  "filter": false
+ },
+ {
+  "name": "BGH – Pressemitteilungen",
+  "category": "Gerichte & Rechtsnachrichten",
+  "url": "https://www.bundesgerichtshof.de/DE/Service/RSSFeed/Function/RSS_PM.xml",
+  "prio": 5
+ },
+ {
+  "name": "BGH – Entscheidungen",
+  "category": "Gerichte & Rechtsnachrichten",
+  "url": "https://www.bundesgerichtshof.de/DE/Service/RSSFeed/Function/RSS_EN.xml",
+  "prio": 3
+ },
+ {
+  "name": "BFH – Pressemitteilungen",
+  "category": "Gerichte & Rechtsnachrichten",
+  "url": "https://www.bundesfinanzhof.de/de/news.rss",
+  "prio": 5
+ },
+ {
+  "name": "BFH – Entscheidungen",
+  "category": "Gerichte & Rechtsnachrichten",
+  "url": "https://www.bundesfinanzhof.de/de/precedent.rss",
+  "prio": 3
+ },
+ {
+  "name": "LTO – Nachrichten",
+  "category": "Gerichte & Rechtsnachrichten",
+  "url": "https://www.lto.de/rss/nachrichten-rss/feed.xml",
+  "prio": 3
+ },
+ {
+  "name": "LTO – Miet- und WEG-Recht",
+  "category": "Gerichte & Rechtsnachrichten",
+  "url": "https://www.lto.de/?type=200&tx_ltorss_pi1%5Brechtsgebiet%5D=16",
+  "prio": 4,
+  "filter": false
+ },
+ {
+  "name": "LTO – Immobilienwirtschaftsrecht",
+  "category": "Gerichte & Rechtsnachrichten",
+  "url": "https://www.lto.de/?type=200&tx_ltorss_pi1%5Brechtsgebiet%5D=127",
+  "prio": 4,
+  "filter": false
+ },
+ {
+  "name": "LTO – Bau- und Architektenrecht",
+  "category": "Gerichte & Rechtsnachrichten",
+  "url": "https://www.lto.de/?type=200&tx_ltorss_pi1%5Brechtsgebiet%5D=04",
+  "prio": 3
+ },
+ {
+  "name": "beck-aktuell",
+  "category": "Gerichte & Rechtsnachrichten",
+  "url": "https://www.beck-aktuell.de/rss.xml",
+  "prio": 3
+ },
+ {
+  "name": "Haufe Recht",
+  "category": "Gerichte & Rechtsnachrichten",
+  "url": "https://www.haufe.de/xml/rss_129128.xml",
+  "prio": 4
+ },
+ {
+  "name": "Haufe Steuern",
+  "category": "Gerichte & Rechtsnachrichten",
+  "url": "https://www.haufe.de/xml/rss_129148.xml",
+  "prio": 4
+ },
+ {
+  "name": "Bundesbank – Pressemitteilungen",
+  "category": "Wirtschaft, Zinsen, Förderung",
+  "url": "https://www.bundesbank.de/service/rss/de/633286/feed.rss",
+  "prio": 5
+ },
+ {
+  "name": "Bundesbank – Themen",
+  "category": "Wirtschaft, Zinsen, Förderung",
+  "url": "https://www.bundesbank.de/service/rss/de/633288/feed.rss",
+  "prio": 3
+ },
+ {
+  "name": "Bundesbank – Reden und Interviews",
+  "category": "Wirtschaft, Zinsen, Förderung",
+  "url": "https://www.bundesbank.de/service/rss/de/633282/feed.rss",
+  "prio": 2
+ },
+ {
+  "name": "Bundesbank – EZB-Veröffentlichungen (deutsch)",
+  "category": "Wirtschaft, Zinsen, Förderung",
+  "url": "https://www.bundesbank.de/service/rss/de/633278/feed.rss",
+  "prio": 3
+ },
+ {
+  "name": "Bundesbank – EZB-Wirtschaftsbericht",
+  "category": "Wirtschaft, Zinsen, Förderung",
+  "url": "https://www.bundesbank.de/service/rss/de/800838/feed.rss",
+  "prio": 2
+ },
+ {
+  "name": "EZB – Press releases (EN)",
+  "category": "Wirtschaft, Zinsen, Förderung",
+  "url": "https://www.ecb.europa.eu/rss/press.html",
+  "prio": 4
+ },
+ {
+  "name": "Destatis – Aktuell",
+  "category": "Wirtschaft, Zinsen, Förderung",
+  "url": "https://www.destatis.de/SiteGlobals/Functions/RSSFeed/DE/RSSNewsfeed/Aktuell.xml",
+  "prio": 4
+ },
+ {
+  "name": "ifo Institut",
+  "category": "Wirtschaft, Zinsen, Förderung",
+  "url": "https://www.ifo.de/rss",
+  "prio": 2
+ },
+ {
+  "name": "IW Köln – Immobilienmärkte",
+  "category": "Wirtschaft, Zinsen, Förderung",
+  "url": "https://www.iwkoeln.de/rss/immobilienmaerkte.xml",
+  "prio": 4,
+  "filter": false
+ },
+ {
+  "name": "IW Köln – Pressemitteilungen",
+  "category": "Wirtschaft, Zinsen, Förderung",
+  "url": "https://www.iwkoeln.de/rss/iw-pressemitteilungen.xml",
+  "prio": 3
+ },
+ {
+  "name": "DIW – Presse",
+  "category": "Wirtschaft, Zinsen, Förderung",
+  "url": "https://www.diw.de/de/rss_press.xml",
+  "prio": 2
+ },
+ {
+  "name": "DIW – News",
+  "category": "Wirtschaft, Zinsen, Förderung",
+  "url": "https://www.diw.de/de/rss_news.xml",
+  "prio": 2
+ },
+ {
+  "name": "BAFA",
+  "category": "Wirtschaft, Zinsen, Förderung",
+  "url": "https://www.bafa.de/DE/Service/RSSNewsfeed/_functions/rssnewsfeed.xml",
+  "prio": 2
+ },
+ {
+  "name": "IVD",
+  "category": "Branche & Verbände",
+  "url": "https://ivd.net/feed/",
+  "prio": 5,
+  "filter": false
+ },
+ {
+  "name": "GdW",
+  "category": "Branche & Verbände",
+  "url": "https://www.gdw.de/feed/",
+  "prio": 4,
+  "filter": false
+ },
+ {
+  "name": "Haus & Grund Deutschland",
+  "category": "Branche & Verbände",
+  "url": "https://www.hausundgrund.de/rss/rss.xml",
+  "prio": 4,
+  "filter": false
+ },
+ {
+  "name": "BVI Verwalter – Pressemitteilungen",
+  "category": "Branche & Verbände",
+  "url": "https://bvi-verwalter.de/share/pressemitteilungen.xml",
+  "prio": 4,
+  "filter": false
+ },
+ {
+  "name": "BVI Verwalter – Magazin",
+  "category": "Branche & Verbände",
+  "url": "https://bvi-verwalter.de/share/magazin.xml",
+  "prio": 2,
+  "filter": false
+ },
+ {
+  "name": "Haufe Immobilien (immobilienwirtschaft.de)",
+  "category": "Branche & Verbände",
+  "url": "https://www.haufe.de/xml/rss_129130.xml",
+  "prio": 5,
+  "filter": false
+ },
+ {
+  "name": "Immobilienmanager",
+  "category": "Branche & Verbände",
+  "url": "https://www.immobilienmanager.de/rss",
+  "prio": 2,
+  "filter": true
+ },
+ {
+  "name": "Sprengnetter News",
+  "category": "Branche & Verbände",
+  "url": "https://www.sprengnetter.de/feed/",
+  "prio": 4,
+  "filter": false
+ },
+ {
+  "name": "test.de – alle Inhalte",
+  "category": "Branche & Verbände",
+  "url": "https://www.test.de/rss/alles/",
+  "prio": 2,
+  "filter": true
+ },
+ {
+  "name": "test.de – News",
+  "category": "Branche & Verbände",
+  "url": "https://www.test.de/rss/news/",
+  "prio": 2,
+  "filter": true
+ },
+ {
+  "name": "LKZ – Kreis Ludwigsburg",
+  "category": "Regional",
+  "url": "https://www.lkz.de/feed/7-RSS_Feed_Kreis_Ludwigsburg.xml",
+  "prio": 2
+ },
+ {
+  "name": "LKZ – Stadt Ludwigsburg",
+  "category": "Regional",
+  "url": "https://www.lkz.de/feed/6-RSS_Feed_Stadt_Ludwigsburg.xml",
+  "prio": 2
+ },
+ {
+  "name": "IHK Region Stuttgart – Aktuelle Meldungen",
+  "category": "Regional",
+  "url": "https://www.ihk.de/blueprint/servlet/feed/4742948",
+  "prio": 2
+ },
+ {
+  "name": "IHK Region Stuttgart – Bezirkskammer Böblingen",
+  "category": "Regional",
+  "url": "https://www.ihk.de/blueprint/servlet/feed/667526",
+  "prio": 2
+ },
+ {
+  "name": "IHK Region Stuttgart – Bezirkskammer Ludwigsburg",
+  "category": "Regional",
+  "url": "https://www.ihk.de/blueprint/servlet/feed/667520",
+  "prio": 2
+ },
+ {
+  "name": "IHK Nordschwarzwald – Recht und Steuern",
+  "category": "Regional",
+  "url": "https://www.ihk.de/blueprint/servlet/feed/2605484",
+  "prio": 2
+ },
+ {
+  "name": "Google News – Grunderwerbsteuer",
+  "category": "Google-News-/Bing-Alerts",
+  "url": "https://news.google.com/rss/search?q=Grunderwerbsteuer&hl=de&gl=DE&ceid=DE:de",
+  "prio": 4,
+  "filter": false
+ },
+ {
+  "name": "Google News – Mietrecht Gesetz",
+  "category": "Google-News-/Bing-Alerts",
+  "url": "https://news.google.com/rss/search?q=Mietrecht+Gesetz&hl=de&gl=DE&ceid=DE:de",
+  "prio": 4,
+  "filter": false
+ },
+ {
+  "name": "Google News – Gebäudeenergiegesetz",
+  "category": "Google-News-/Bing-Alerts",
+  "url": "https://news.google.com/rss/search?q=Geb%C3%A4udeenergiegesetz&hl=de&gl=DE&ceid=DE:de",
+  "prio": 4,
+  "filter": false
+ },
+ {
+  "name": "Google News – Wohnungseigentumsgesetz",
+  "category": "Google-News-/Bing-Alerts",
+  "url": "https://news.google.com/rss/search?q=Wohnungseigentumsgesetz&hl=de&gl=DE&ceid=DE:de",
+  "prio": 4,
+  "filter": false
+ },
+ {
+  "name": "Google News – Immobilienmarkt Baden-Württemberg",
+  "category": "Google-News-/Bing-Alerts",
+  "url": "https://news.google.com/rss/search?q=Immobilienmarkt+Baden-W%C3%BCrttemberg&hl=de&gl=DE&ceid=DE:de",
+  "prio": 5,
+  "filter": false
+ },
+ {
+  "name": "Google News – BMF-Schreiben Immobilien",
+  "category": "Google-News-/Bing-Alerts",
+  "url": "https://news.google.com/rss/search?q=BMF-Schreiben+Immobilien&hl=de&gl=DE&ceid=DE:de",
+  "prio": 4,
+  "filter": false
+ },
+ {
+  "name": "Google News – Immobilien Zeitung (site:)",
+  "category": "Google-News-/Bing-Alerts",
+  "url": "https://news.google.com/rss/search?q=site:immobilien-zeitung.de&hl=de&gl=DE&ceid=DE:de",
+  "prio": 4,
+  "filter": false
+ },
+ {
+  "name": "Google News – Bodenrichtwerte Leonberg/Pforzheim/Ditzingen",
+  "category": "Google-News-/Bing-Alerts",
+  "url": "https://news.google.com/rss/search?q=Bodenrichtwerte+Leonberg+OR+Pforzheim+OR+Ditzingen&hl=de&gl=DE&ceid=DE:de",
+  "prio": 5,
+  "filter": false
+ },
+ {
+  "name": "Bing News – Grunderwerbsteuer",
+  "category": "Google-News-/Bing-Alerts",
+  "url": "https://www.bing.com/news/search?q=Grunderwerbsteuer&format=rss",
+  "prio": 2,
+  "filter": false
+ },
+ {
+  "name": "Bing News – Immobilienmarkt Baden-Württemberg",
+  "category": "Google-News-/Bing-Alerts",
+  "url": "https://www.bing.com/news/search?q=Immobilienmarkt+Baden-W%C3%BCrttemberg&format=RSS&setlang=de&cc=DE",
+  "prio": 2,
+  "filter": false
+ }
 ]

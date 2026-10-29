@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<opml version="2.0">
+  <head>
+    <title>Gesetzes- und Marktradar Immobilien BW – geprüfte Feeds (29.10.2026)</title>
+    <dateCreated>Thu, 29 Oct 2026 18:00:00 GMT</dateCreated>
+  </head>
+  <body>
+    <outline text="A. Gesetzgebung &amp; Regierung">
+      <outline type="rss" text="Bundesgesetzblatt Teil I" title="Bundesgesetzblatt Teil I" xmlUrl="https://www.recht.bund.de/rss/feeds/rss_bgbl-1.xml" htmlUrl="https://www.recht.bund.de/"/>
+      <outline type="rss" text="Bundesgesetzblatt Teil II" title="Bundesgesetzblatt Teil II" xmlUrl="https://www.recht.bund.de/rss/feeds/rss_bgbl-2.xml" htmlUrl="https://www.recht.bund.de/"/>
+      <outline type="rss" text="Bundestag hib – alle" title="Bundestag hib – alle" xmlUrl="https://www.bundestag.de/static/appdata/includes/rss/hib.rss" htmlUrl="https://www.bundestag.de/presse/hib"/>
+      <outline type="rss" text="Bundestag hib – Bauen, Wohnen, Stadtentwicklung" title="Bundestag hib – Bauen, Wohnen, Stadtentwicklung" xmlUrl="https://www.bundestag.de/static/appdata/includes/rss/bauwohnenstadtentwicklungkommunen.rss" htmlUrl="https://www.bundestag.de/presse/hib"/>
+      <outline type="rss" text="Bundestag hib – Recht" title="Bundestag hib – Recht" xmlUrl="https://www.bundestag.de/static/appdata/includes/rss/recht.rss" htmlUrl="https://www.bundestag.de/presse/hib"/>
+      <outline type="rss" text="Bundestag hib – Finanzen" title="Bundestag hib – Finanzen" xmlUrl="https://www.bundestag.de/static/appdata/includes/rss/finanzen.rss" htmlUrl="https://www.bundestag.de/presse/hib"/>
+      <outline type="rss" text="Bundestag – Pressemitteilungen" title="Bundestag – Pressemitteilungen" xmlUrl="https://www.bundestag.de/static/appdata/includes/rss/pressemitteilungen.rss" htmlUrl="https://www.bundestag.de/presse"/>
+      <outline type="rss" text="Bundestag – Tagesordnungen" title="Bundestag – Tagesordnungen" xmlUrl="https://www.bundestag.de/static/appdata/includes/rss/tagesordnungen.rss" htmlUrl="https://www.bundestag.de/tagesordnung"/>
+      <outline type="rss" text="Bundestag – Drucksachen" title="Bundestag – Drucksachen" xmlUrl="https://www.bundestag.de/static/appdata/includes/rss/drucksachen.rss" htmlUrl="https://www.bundestag.de/drucksachen"/>
+      <outline type="rss" text="Bundesrat – PlenumKOMPAKT" title="Bundesrat – PlenumKOMPAKT" xmlUrl="https://www.bundesrat.de/SiteGlobals/Functions/RSSFeed/RSSGenerator_top_plenumkompakt.xml" htmlUrl="https://www.bundesrat.de/"/>
+      <outline type="rss" text="Bundesrat – Eingegangene Beratungsvorgänge" title="Bundesrat – Eingegangene Beratungsvorgänge" xmlUrl="https://www.bundesrat.de/SiteGlobals/Functions/RSSFeed/RSSGenerator_Announcement.xml" htmlUrl="https://www.bundesrat.de/"/>
+      <outline type="rss" text="Bundesrat – Drucksachen" title="Bundesrat – Drucksachen" xmlUrl="https://www.bundesrat.de/SiteGlobals/Functions/RSSFeed/RSSGenerator_PBPrintout.xml" htmlUrl="https://www.bundesrat.de/"/>
+      <outline type="rss" text="Bundesrat – Termine" title="Bundesrat – Termine" xmlUrl="https://www.bundesrat.de/SiteGlobals/Functions/RSSFeed/RSSGenerator_Event.xml" htmlUrl="https://www.bundesrat.de/"/>
+      <outline type="rss" text="Bundesrat – Plenarprotokolle" title="Bundesrat – Plenarprotokolle" xmlUrl="https://www.bundesrat.de/SiteGlobals/Functions/RSSFeed/RSSGenerator_Publication.xml" htmlUrl="https://www.bundesrat.de/"/>
+      <outline type="rss" text="Bundesregierung – Pressemitteilungen" title="Bundesregierung – Pressemitteilungen" xmlUrl="https://www.bundesregierung.de/service/rss/breg-de/1151244/feed.xml" htmlUrl="https://www.bundesregierung.de/"/>
+      <outline type="rss" text="Bundesregierung – kompakt" title="Bundesregierung – kompakt" xmlUrl="https://www.bundesregierung.de/service/rss/breg-de/1151242/feed.xml" htmlUrl="https://www.bundesregierung.de/"/>
+      <outline type="rss" text="Bundesregierung – Artikel" title="Bundesregierung – Artikel" xmlUrl="https://www.bundesregierung.de/service/rss/breg-de/1151246/feed.xml" htmlUrl="https://www.bundesregierung.de/"/>
+      <outline type="rss" text="BMJV – Gesetzgebungsverfahren" title="BMJV – Gesetzgebungsverfahren" xmlUrl="https://www.bmjv.de/SiteGlobals/Functions/RSSNewsfeed/DE/RSSNewsfeed/RSSNewsfeedGesetzgebungsverfahren.xml" htmlUrl="https://www.bmjv.de/"/>
+      <outline type="rss" text="BMJV – Pressemitteilungen" title="BMJV – Pressemitteilungen" xmlUrl="https://www.bmjv.de/SiteGlobals/Functions/RSSNewsfeed/DE/RSSNewsfeed/RSSNewsfeedPressemitteilungen.xml" htmlUrl="https://www.bmjv.de/"/>
+      <outline type="rss" text="BMWSB – Bauministerium" title="BMWSB – Bauministerium" xmlUrl="https://www.bmwsb.bund.de/DE/tools-services/rssfeed/_functions/rssnewsfeed.xml" htmlUrl="https://www.bmwsb.bund.de/"/>
+      <outline type="rss" text="Landtag BW – Pressemitteilungen" title="Landtag BW – Pressemitteilungen" xmlUrl="https://www.landtag-bw.de/blueprint/servlet/service/rss/de/509988/feed.rss" htmlUrl="https://www.landtag-bw.de/de/aktuelles"/>
+      <outline type="rss" text="Landtag BW – Neue Drucksachen" title="Landtag BW – Neue Drucksachen" xmlUrl="https://www.landtag-bw.de/blueprint/servlet/service/rss/de/509930/feed.rss" htmlUrl="https://www.landtag-bw.de/de/aktuelles"/>
+      <outline type="rss" text="Landtag BW – Plenarprotokolle" title="Landtag BW – Plenarprotokolle" xmlUrl="https://www.landtag-bw.de/blueprint/servlet/service/rss/de/509986/feed.rss" htmlUrl="https://www.landtag-bw.de/de/aktuelles"/>
+      <outline type="rss" text="Landesregierung BW – alle Meldungen" title="Landesregierung BW – alle Meldungen" xmlUrl="https://www.baden-wuerttemberg.de/de/service/rss/xml/rss-alle-meldungen" htmlUrl="https://www.baden-wuerttemberg.de/"/>
+      <outline type="rss" text="Landesregierung BW – Wirtschaft, Arbeit, Finanzen" title="Landesregierung BW – Wirtschaft, Arbeit, Finanzen" xmlUrl="https://www.baden-wuerttemberg.de/de/service/rss/xml/rss-wirtschaft-arbeit-finanzen" htmlUrl="https://www.baden-wuerttemberg.de/"/>
+      <outline type="rss" text="Landesregierung BW – Energie, Umwelt, Verkehr" title="Landesregierung BW – Energie, Umwelt, Verkehr" xmlUrl="https://www.baden-wuerttemberg.de/de/service/rss/xml/rss-energie-umwelt-verkehr" htmlUrl="https://www.baden-wuerttemberg.de/"/>
+      <outline type="rss" text="Ministerium für Landesentwicklung und Wohnen BW" title="Ministerium für Landesentwicklung und Wohnen BW" xmlUrl="https://mlw.baden-wuerttemberg.de/de/service/rss-feed/xml/rss-mlw" htmlUrl="https://mlw.baden-wuerttemberg.de/"/>
+    </outline>
+    <outline text="B. Gerichte &amp; Rechtsnachrichten">
+      <outline type="rss" text="BGH – Pressemitteilungen" title="BGH – Pressemitteilungen" xmlUrl="https://www.bundesgerichtshof.de/DE/Service/RSSFeed/Function/RSS_PM.xml" htmlUrl="https://www.bundesgerichtshof.de/"/>
+      <outline type="rss" text="BGH – Entscheidungen" title="BGH – Entscheidungen" xmlUrl="https://www.bundesgerichtshof.de/DE/Service/RSSFeed/Function/RSS_EN.xml" htmlUrl="https://www.bundesgerichtshof.de/"/>
+      <outline type="rss" text="BFH – Pressemitteilungen" title="BFH – Pressemitteilungen" xmlUrl="https://www.bundesfinanzhof.de/de/news.rss" htmlUrl="https://www.bundesfinanzhof.de/"/>
+      <outline type="rss" text="BFH – Entscheidungen" title="BFH – Entscheidungen" xmlUrl="https://www.bundesfinanzhof.de/de/precedent.rss" htmlUrl="https://www.bundesfinanzhof.de/"/>
+      <outline type="rss" text="LTO – Nachrichten" title="LTO – Nachrichten" xmlUrl="https://www.lto.de/rss/nachrichten-rss/feed.xml" htmlUrl="https://www.lto.de/"/>
+      <outline type="rss" text="LTO – Miet- und WEG-Recht" title="LTO – Miet- und WEG-Recht" xmlUrl="https://www.lto.de/?type=200&amp;tx_ltorss_pi1%5Brechtsgebiet%5D=16" htmlUrl="https://www.lto.de/"/>
+      <outline type="rss" text="LTO – Immobilienwirtschaftsrecht" title="LTO – Immobilienwirtschaftsrecht" xmlUrl="https://www.lto.de/?type=200&amp;tx_ltorss_pi1%5Brechtsgebiet%5D=127" htmlUrl="https://www.lto.de/"/>
+      <outline type="rss" text="LTO – Bau- und Architektenrecht" title="LTO – Bau- und Architektenrecht" xmlUrl="https://www.lto.de/?type=200&amp;tx_ltorss_pi1%5Brechtsgebiet%5D=04" htmlUrl="https://www.lto.de/"/>
+      <outline type="rss" text="beck-aktuell" title="beck-aktuell" xmlUrl="https://www.beck-aktuell.de/rss.xml" htmlUrl="https://www.beck-aktuell.de/"/>
+      <outline type="rss" text="Haufe Recht" title="Haufe Recht" xmlUrl="https://www.haufe.de/xml/rss_129128.xml" htmlUrl="https://www.haufe.de/recht/"/>
+      <outline type="rss" text="Haufe Steuern" title="Haufe Steuern" xmlUrl="https://www.haufe.de/xml/rss_129148.xml" htmlUrl="https://www.haufe.de/steuern/"/>
+    </outline>
+    <outline text="C. Wirtschaft, Zinsen, Förderung">
+      <outline type="rss" text="Bundesbank – Pressemitteilungen" title="Bundesbank – Pressemitteilungen" xmlUrl="https://www.bundesbank.de/service/rss/de/633286/feed.rss" htmlUrl="https://www.bundesbank.de/"/>
+      <outline type="rss" text="Bundesbank – Themen" title="Bundesbank – Themen" xmlUrl="https://www.bundesbank.de/service/rss/de/633288/feed.rss" htmlUrl="https://www.bundesbank.de/"/>
+      <outline type="rss" text="Bundesbank – Reden und Interviews" title="Bundesbank – Reden und Interviews" xmlUrl="https://www.bundesbank.de/service/rss/de/633282/feed.rss" htmlUrl="https://www.bundesbank.de/"/>
+      <outline type="rss" text="Bundesbank – EZB-Veröffentlichungen (deutsch)" title="Bundesbank – EZB-Veröffentlichungen (deutsch)" xmlUrl="https://www.bundesbank.de/service/rss/de/633278/feed.rss" htmlUrl="https://www.bundesbank.de/"/>
+      <outline type="rss" text="Bundesbank – EZB-Wirtschaftsbericht" title="Bundesbank – EZB-Wirtschaftsbericht" xmlUrl="https://www.bundesbank.de/service/rss/de/800838/feed.rss" htmlUrl="https://www.bundesbank.de/"/>
+      <outline type="rss" text="EZB – Press releases (EN)" title="EZB – Press releases (EN)" xmlUrl="https://www.ecb.europa.eu/rss/press.html" htmlUrl="https://www.ecb.europa.eu/press/pr/html/index.de.html"/>
+      <outline type="rss" text="Destatis – Aktuell" title="Destatis – Aktuell" xmlUrl="https://www.destatis.de/SiteGlobals/Functions/RSSFeed/DE/RSSNewsfeed/Aktuell.xml" htmlUrl="https://www.destatis.de/"/>
+      <outline type="rss" text="ifo Institut" title="ifo Institut" xmlUrl="https://www.ifo.de/rss" htmlUrl="https://www.ifo.de/"/>
+      <outline type="rss" text="IW Köln – Immobilienmärkte" title="IW Köln – Immobilienmärkte" xmlUrl="https://www.iwkoeln.de/rss/immobilienmaerkte.xml" htmlUrl="https://www.iwkoeln.de/"/>
+      <outline type="rss" text="IW Köln – Pressemitteilungen" title="IW Köln – Pressemitteilungen" xmlUrl="https://www.iwkoeln.de/rss/iw-pressemitteilungen.xml" htmlUrl="https://www.iwkoeln.de/"/>
+      <outline type="rss" text="DIW – Presse" title="DIW – Presse" xmlUrl="https://www.diw.de/de/rss_press.xml" htmlUrl="https://www.diw.de/"/>
+      <outline type="rss" text="DIW – News" title="DIW – News" xmlUrl="https://www.diw.de/de/rss_news.xml" htmlUrl="https://www.diw.de/"/>
+      <outline type="rss" text="BAFA" title="BAFA" xmlUrl="https://www.bafa.de/DE/Service/RSSNewsfeed/_functions/rssnewsfeed.xml" htmlUrl="https://www.bafa.de/"/>
+    </outline>
+    <outline text="D. Branche &amp; Verbände">
+      <outline type="rss" text="IVD" title="IVD" xmlUrl="https://ivd.net/feed/" htmlUrl="https://ivd.net/"/>
+      <outline type="rss" text="GdW" title="GdW" xmlUrl="https://www.gdw.de/feed/" htmlUrl="https://www.gdw.de/"/>
+      <outline type="rss" text="Haus &amp; Grund Deutschland" title="Haus &amp; Grund Deutschland" xmlUrl="https://www.hausundgrund.de/rss/rss.xml" htmlUrl="https://www.hausundgrund.de/"/>
+      <outline type="rss" text="BVI Verwalter – Pressemitteilungen" title="BVI Verwalter – Pressemitteilungen" xmlUrl="https://bvi-verwalter.de/share/pressemitteilungen.xml" htmlUrl="https://bvi-verwalter.de/"/>
+      <outline type="rss" text="BVI Verwalter – Magazin" title="BVI Verwalter – Magazin" xmlUrl="https://bvi-verwalter.de/share/magazin.xml" htmlUrl="https://bvi-verwalter.de/"/>
+      <outline type="rss" text="Haufe Immobilien (immobilienwirtschaft.de)" title="Haufe Immobilien (immobilienwirtschaft.de)" xmlUrl="https://www.haufe.de/xml/rss_129130.xml" htmlUrl="https://www.haufe.de/immobilien/"/>
+      <outline type="rss" text="Immobilienmanager" title="Immobilienmanager" xmlUrl="https://www.immobilienmanager.de/rss" htmlUrl="https://www.immobilienmanager.de/"/>
+      <outline type="rss" text="Sprengnetter News" title="Sprengnetter News" xmlUrl="https://www.sprengnetter.de/feed/" htmlUrl="https://www.sprengnetter.de/"/>
+      <outline type="rss" text="test.de – alle Inhalte" title="test.de – alle Inhalte" xmlUrl="https://www.test.de/rss/alles/" htmlUrl="https://www.test.de/"/>
+      <outline type="rss" text="test.de – News" title="test.de – News" xmlUrl="https://www.test.de/rss/news/" htmlUrl="https://www.test.de/"/>
+    </outline>
+    <outline text="E. Regional">
+      <outline type="rss" text="LKZ – Kreis Ludwigsburg" title="LKZ – Kreis Ludwigsburg" xmlUrl="https://www.lkz.de/feed/7-RSS_Feed_Kreis_Ludwigsburg.xml" htmlUrl="https://www.lkz.de/"/>
+      <outline type="rss" text="LKZ – Stadt Ludwigsburg" title="LKZ – Stadt Ludwigsburg" xmlUrl="https://www.lkz.de/feed/6-RSS_Feed_Stadt_Ludwigsburg.xml" htmlUrl="https://www.lkz.de/"/>
+      <outline type="rss" text="IHK Region Stuttgart – Aktuelle Meldungen" title="IHK Region Stuttgart – Aktuelle Meldungen" xmlUrl="https://www.ihk.de/blueprint/servlet/feed/4742948" htmlUrl="https://www.ihk.de/stuttgart"/>
+      <outline type="rss" text="IHK Region Stuttgart – Bezirkskammer Böblingen" title="IHK Region Stuttgart – Bezirkskammer Böblingen" xmlUrl="https://www.ihk.de/blueprint/servlet/feed/667526" htmlUrl="https://www.ihk.de/stuttgart"/>
+      <outline type="rss" text="IHK Region Stuttgart – Bezirkskammer Ludwigsburg" title="IHK Region Stuttgart – Bezirkskammer Ludwigsburg" xmlUrl="https://www.ihk.de/blueprint/servlet/feed/667520" htmlUrl="https://www.ihk.de/stuttgart"/>
+      <outline type="rss" text="IHK Nordschwarzwald – Recht und Steuern" title="IHK Nordschwarzwald – Recht und Steuern" xmlUrl="https://www.ihk.de/blueprint/servlet/feed/2605484" htmlUrl="https://www.ihk.de/nordschwarzwald"/>
+    </outline>
+    <outline text="F. Google-News-/Bing-Alerts">
+      <outline type="rss" text="Google News – Grunderwerbsteuer" title="Google News – Grunderwerbsteuer" xmlUrl="https://news.google.com/rss/search?q=Grunderwerbsteuer&amp;hl=de&amp;gl=DE&amp;ceid=DE:de" htmlUrl="https://news.google.com/"/>
+      <outline type="rss" text="Google News – Mietrecht Gesetz" title="Google News – Mietrecht Gesetz" xmlUrl="https://news.google.com/rss/search?q=Mietrecht+Gesetz&amp;hl=de&amp;gl=DE&amp;ceid=DE:de" htmlUrl="https://news.google.com/"/>
+      <outline type="rss" text="Google News – Gebäudeenergiegesetz" title="Google News – Gebäudeenergiegesetz" xmlUrl="https://news.google.com/rss/search?q=Geb%C3%A4udeenergiegesetz&amp;hl=de&amp;gl=DE&amp;ceid=DE:de" htmlUrl="https://news.google.com/"/>
+      <outline type="rss" text="Google News – Wohnungseigentumsgesetz" title="Google News – Wohnungseigentumsgesetz" xmlUrl="https://news.google.com/rss/search?q=Wohnungseigentumsgesetz&amp;hl=de&amp;gl=DE&amp;ceid=DE:de" htmlUrl="https://news.google.com/"/>
+      <outline type="rss" text="Google News – Immobilienmarkt Baden-Württemberg" title="Google News – Immobilienmarkt Baden-Württemberg" xmlUrl="https://news.google.com/rss/search?q=Immobilienmarkt+Baden-W%C3%BCrttemberg&amp;hl=de&amp;gl=DE&amp;ceid=DE:de" htmlUrl="https://news.google.com/"/>
+      <outline type="rss" text="Google News – BMF-Schreiben Immobilien" title="Google News – BMF-Schreiben Immobilien" xmlUrl="https://news.google.com/rss/search?q=BMF-Schreiben+Immobilien&amp;hl=de&amp;gl=DE&amp;ceid=DE:de" htmlUrl="https://news.google.com/"/>
+      <outline type="rss" text="Google News – Immobilien Zeitung (site:)" title="Google News – Immobilien Zeitung (site:)" xmlUrl="https://news.google.com/rss/search?q=site:immobilien-zeitung.de&amp;hl=de&amp;gl=DE&amp;ceid=DE:de" htmlUrl="https://news.google.com/"/>
+      <outline type="rss" text="Google News – Bodenrichtwerte Leonberg/Pforzheim/Ditzingen" title="Google News – Bodenrichtwerte Leonberg/Pforzheim/Ditzingen" xmlUrl="https://news.google.com/rss/search?q=Bodenrichtwerte+Leonberg+OR+Pforzheim+OR+Ditzingen&amp;hl=de&amp;gl=DE&amp;ceid=DE:de" htmlUrl="https://news.google.com/"/>
+      <outline type="rss" text="Bing News – Grunderwerbsteuer" title="Bing News – Grunderwerbsteuer" xmlUrl="https://www.bing.com/news/search?q=Grunderwerbsteuer&amp;format=rss" htmlUrl="https://www.bing.com/news"/>
+      <outline type="rss" text="Bing News – Immobilienmarkt Baden-Württemberg" title="Bing News – Immobilienmarkt Baden-Württemberg" xmlUrl="https://www.bing.com/news/search?q=Immobilienmarkt+Baden-W%C3%BCrttemberg&amp;format=RSS&amp;setlang=de&amp;cc=DE" htmlUrl="https://www.bing.com/news"/>
+    </outline>
+  </body>
+</opml>
