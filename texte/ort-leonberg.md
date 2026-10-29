@@ -1,7 +1,7 @@
 ---
 url: /wohnung-verkaufen/leonberg/
 title: Wohnung verkaufen in Leonberg | Rössler Immobilien
-description: Eigentumswohnung in Leonberg verkaufen: Angebotspreise 2026, Sperrfrist 5 Jahre, Grunderwerbsteuer 5 %, Ablauf und Kosten. Einschätzung von Linus Rössler.
+description: Eigentumswohnung in Leonberg verkaufen: Angebotspreise 2026, Sperrfrist 5 Jahre, Grunderwerbsteuer 5 %, Ablauf, Kosten. Einschätzung von Linus Rössler.
 stand: Oktober 2026
 status: Entwurf, nicht veröffentlicht
 ---
