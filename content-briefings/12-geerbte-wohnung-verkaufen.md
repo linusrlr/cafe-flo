@@ -76,6 +76,20 @@
 | Immobilienkaufverträge müssen weiterhin in Präsenz beurkundet werden (keine Videobeurkundung); auswärtige Erben per Vollmacht | § 311b BGB; BeurkG | marktthemen-2026.md Kap. 8a |
 | Bauzinsen ca. 4,2 bis 4,5 % (Okt. 2026): Käufer, die einen Miterben auszahlen wollen, finanzieren teurer als 2025 (3,38 %) | Marktzins | https://www.drklein.de/zinsen.html |
 
+**Quellenliste für das Seitenende (Auswahl; auf der Seite mit Abrufdatum nennen, B3.6):**
+- § 23 EStG (Fußstapfen, Abs. 1 S. 3): https://www.gesetze-im-internet.de/estg/__23.html
+- ErbStG §§ 13, 16, 19, 13d (Normtexte vor Veröffentlichung auf gesetze-im-internet.de abrufen)
+- § 12 WEG: https://dejure.org/gesetze/WEG/12.html
+- Finanztip, Erbschaftssteuer (akt. 07.08.2026): https://www.finanztip.de/erbschaftssteuer/
+- ImmoScout24, Geerbtes Haus verkaufen (akt. 20.08.2026): https://www.immobilienscout24.de/wissen/verkaufen/geerbtes-haus-verkaufen-steuer.html
+- steuertipps.de, teilentgeltlicher Erwerb: https://www.steuertipps.de/wohnen-haus-vermietung/spekulationssteuer-immobilien/themen
+- Ebner Stolz zu BFH II R 6/23 (29.06.2026): https://www.ebnerstolz.de/de/unser-angebot/leistungen/steuerberatung/nachfolgeplanung/vergleichspreise-immobilienbewertung-erbschaft-und-schenkungsteuer-108656.html
+- Rödl & Partner, BVerfG Erbschaftsteuer (12.08.2026): https://www.roedl.com/insights/bundesverfassungsgericht-prueft-erbschaftsteuer/
+- Gutachterausschuss Leonberg: https://www.leonberg.de/Rathaus/Verwaltung/Gutachterausschuss ; Pforzheim Marktbericht 2021/22: https://www.pforzheim.de/fileadmin/user_upload/bauen/Gutachterausschuss/Immobilienmarktbericht_2021_22_Internet.pdf
+- Spekulationsfrist bleibt (17.10.2026): https://hausbesitzer-news.de/recht-finanzen/spekulationsfrist-immobilien-abschaffen-aktueller-stand/
+- IW/Sparda-Studie (Tagesspiegel 17.10.2026): https://www.tagesspiegel.de/wirtschaft/studie-zeigt-folgen-fur-die-preise-wenn-babyboomer-ihre-hauser-verkaufen-16169054.html
+- Preise: https://www.immoportal.com/immobilienpreise/leonberg ; https://www.immoverkauf24.de/immobilienpreise/baden-wuerttemberg/pforzheim/
+
 ## 4. Gliederung (H1–H3) mit Stichpunkten je Abschnitt
 - **Title (≤ 60 Zeichen):** Geerbte Wohnung verkaufen: Erbschein, WEG, Steuern (2026)
 - **Meta-Description (≤ 155 Zeichen):** Geerbte Eigentumswohnung in Leonberg, Pforzheim oder Ditzingen verkaufen: Fristen, Hausgeld, Erbengemeinschaft, Erbschaftsteuer mit Beispiel. Kostenlose Einschätzung.

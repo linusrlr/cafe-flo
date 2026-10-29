@@ -76,6 +76,21 @@
 | Pforzheim: 45 % Einpersonenhaushalte, Bevölkerung leicht rückläufig (Arlinger 2025); Mietmarkt angespannt, Kaufmarkt verhalten (IVD Frühjahr 2026) | lokal | https://arlinger.de/wp-content/uploads/2026/06/ePaper-Badische-Neueste-Nachrichten.pdf ; https://www.konii.de/?p=211416 |
 | MLW-Gutachtendaten: Leerstand 2022 Leonberg 1,5 %, Pforzheim 1,8 %; Versorgungsgrad Leonberg 94,7 %, Pforzheim 95,5 % | amtlich | MLW BW Einzeldaten (XLSX, marktthemen-2026.md Kap. 1e) |
 
+**Quellenliste für das Seitenende (Auswahl; auf der Seite mit Abrufdatum nennen, B3.6):**
+- ImmoScout24, Vermieten oder verkaufen (akt. 16.10.2026): https://www.immobilienscout24.de/wissen/verkaufen/vermieten-oder-verkaufen.html
+- immoportal, Rendite-Formeln: https://www.immoportal.com/node/100171
+- § 23 EStG: https://www.gesetze-im-internet.de/estg/__23.html
+- MietBegrenzVO BW und Gebietskulisse: https://mlw.baden-wuerttemberg.de/de/bauen-wohnen/wohnungsbau/mietpreisbremse ; https://www.umwelt-online.de/recht/bau/laender/bw/mietschv26.htm
+- KSpVO BW: https://www.landtag-bw.de/resource/blob/611984/7e993deafc1547ab553a30dfe14a9333/GBl2025146.pdf
+- Mietrechtspaket II (hib 835/2026): https://www.bundestag.de/presse/hib/kurzmeldungen-1224894
+- IS24-PM vermietet vs. unvermietet (10.11.2025): https://www.immobilienscout24.de/unternehmen/news-medien/news/default-title/vermietete-eigentumswohnungen-bis-zu-33-prozent-guenstiger-als-unvermietete/
+- Mietspiegel Pforzheim 2025: https://www.pforzheim.de/buerger/buergerservice/kommunale-statistikstelle/statistische-veroeffentlichungen/mietspiegel.html
+- IVD CityReport Pforzheim (konii.de): https://www.konii.de/?p=211416
+- Preise/Mieten: https://www.engelvoelkers.com/de-de/immobilienpreise/baden-wuerttemberg/leonberg/ ; https://www.engelvoelkers.com/de-de/mietspiegel/baden-wuerttemberg/leonberg/ ; https://www.immoportal.com/immobilienpreise/pforzheim
+- Destatis PM 336 (24.09.2026): https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/09/PD26_336_61262.html
+- Bauzinsen: https://www.drklein.de/zinsen.html
+- Bosch-Stellenabbau (StZ): https://www.stuttgarter-zeitung.de/lokales/boeblingen/stellenabbau-in-leonberg-und-renningen-boschler-entzuenden-feuer-79019794.html
+
 ## 4. Gliederung (H1–H3) mit Stichpunkten je Abschnitt
 - **Title (≤ 60 Zeichen):** Wohnung verkaufen oder vermieten? Rechnung für Leonberg, Pforzheim
 - **Meta-Description (≤ 155 Zeichen):** Eigentumswohnung verkaufen oder vermieten: Rechenbeispiel mit Leonberger und Pforzheimer Preisen und Mieten, WEG-Kosten, Sperrfrist, Steuer-Timing, 10-Fragen-Check.
@@ -151,6 +166,11 @@
   - Sekundär: „10-Fragen-Check starten“
   - Abschluss-Band: „Vermieten ist keine falsche Entscheidung. Es ist eine, die man mit dem Wirtschaftsplan in der Hand treffen sollte. Ich bringe ihn mit.“
 
+- **Zusätzliche FAQ (aus Nachtrag):**
+  1. Gilt die Mietpreisbremse in Heimsheim, Ditzingen oder Renningen? Kurz: Nein, keiner der drei Orte ist in der Verordnung 2026 oder im Entwurf ab 2027 enthalten (je 3 von 5 Kriterien).
+  2. Gilt sie in Leonberg und Pforzheim? Kurz: Ja, Leonberg seit 2020 und erneut ab 01.01.2026, Pforzheim erstmals seit 01.01.2026; Kappungsgrenze 15 % in drei Jahren.
+  3. Muss ich als Vermieter die Gasheizung tauschen? Kurz: Nein, die Austauschpflicht ist mit dem GModG seit 29.07.2026 weg; ab 2029 steigende Bio-Anteile und Kostenaufteilung mit Mietern.
+  4. Wie wirkt sich der Bosch-Stellenabbau auf die Vermietung in Leonberg aus? Kurz: Kündigungsschutz bis Ende 2027, kurzfristig kein Nachfrageeinbruch belegt; mittelfristig weniger Zuzug möglich; keine Prognose.
 - **Tabelle „Mietregulierung je Ort 2026“:** Ort / Mietpreisbremse / Kappungsgrenze / Kündigungssperrfrist bei Umwandlung / Angebotsmiete 2022/23 (MLW) / Gültigkeit der Verordnungen.
 - **Technik und Pflege:**
   - Schema: Article, FAQPage, BreadcrumbList; Autorenbox mit Vermietererfahrung; „Stand“-Vermerk; Quellenliste am Seitenende.
@@ -176,3 +196,5 @@
 - Hast du eine Beobachtung, wie schnell Wohnungen in Leonberg oder Pforzheim derzeit vermietet werden (Tage bis Mietvertrag)? Quelle?
 - Willst du beim 10-Fragen-Check das Ergebnis „Gespräch“ mit Terminbuchung verknüpfen (Kalenderlink) oder mit dem Formular?
 - Fotos: Hausgeldabrechnung und Einladung zur Eigentümerversammlung aus deiner WEG freigegeben (anonymisiert)?
+- Liegt deine eigene vermietete Wohnung in einem Ort mit Mietpreisbremse? Wie hast du die zulässige Miete bei der letzten Neuvermietung ermittelt (Mietspiegel, Vormiete, Ausnahme)?
+- Vermietest du möbliert oder auf Zeit? Dann betrifft dich das Mietrechtspaket II direkt; das wäre ein glaubwürdiger Erfahrungsabschnitt.

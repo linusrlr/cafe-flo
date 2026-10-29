@@ -84,6 +84,20 @@
 | Grundsteuer BW (Bodenwertmodell seit 2025) für ETW gering: Beispiel 80 m² mit 150 m² Bodenanteil ca. 150 bis 205 €/Jahr; BFH 20.05.2026 (II R 26/24, II R 27/24) hält das Modell für verfassungsgemäß | LGrStG BW | marktthemen-2026.md Kap. 4, Anhang D4 |
 | Bodenrichtwert Heimsheim laut miete-aktuell.de ca. 732 €/m² (widerspricht bodenrichtwerte-deutschland.de 235 €/m²; ZU PRÜFEN über BORIS-BW) | Aggregatoren | https://www.miete-aktuell.de/bodenrichtwert-grundstueckspreise/Heimsheim/Heimsheim/ |
 
+**Quellenliste für das Seitenende (Auswahl; auf der Seite mit Abrufdatum nennen, B3.6):**
+- § 194 BauGB, § 15 ImmoWertV, § 198 BewG (Normtexte auf gesetze-im-internet.de abrufen)
+- Gutachterausschuss Leonberg: https://www.leonberg.de/Rathaus/Verwaltung/Gutachterausschuss ; Enzkreis: gutachterausschuss-enzkreis.de ; Pforzheim: https://www.pforzheim.de/fileadmin/user_upload/bauen/Gutachterausschuss/Immobilienmarktbericht_2021_22_Internet.pdf
+- Bodenrichtwerte: https://www.bodenrichtwerte-deutschland.de/boris/bw/leonberg ; https://www.bodenrichtwerte-deutschland.de/boris/bw/heimsheim
+- immoportal Preise (01.10.2026): https://www.immoportal.com/immobilienpreise/leonberg (analog heimsheim, ditzingen, renningen, pforzheim)
+- immoverkauf24/Sprengnetter (Q2 2026): https://www.immoverkauf24.de/immobilienpreise/baden-wuerttemberg/boeblingen-kreis/leonberg/ (analog)
+- IS24 Regional: https://www.immobilienscout24.de/regional/de/baden-wuerttemberg/boeblingen-kreis/leonberg/
+- Engel & Völkers (26.10.2026): https://www.engelvoelkers.com/de-de/immobilienpreise/baden-wuerttemberg/leonberg/ (analog)
+- certa, Marktbericht Pforzheim Q1 2026: https://www.certa-gutachten.de/marktberichte/pforzheim-q1-2026
+- Destatis PM 336 (24.09.2026): https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/09/PD26_336_61262.html
+- Bauzinsen: https://www.interhyp.de/zinsen/ ; https://www.drklein.de/zinsen.html
+- immoportal, Wertermittlung ETW: https://www.immoportal.com/gutachten/immobilienbewertung/was-gilt-es-bei-der-wertermittlung-einer-eigentumswohnung-zu-beachten
+- BGH WEG-Übersicht (Haufe): https://www.haufe.de/immobilien/verwaltung/bgh-rechtsprechungsuebersicht/wohnungseigentumsrecht_258_119076.html
+
 ## 4. Gliederung (H1–H3) mit Stichpunkten je Abschnitt
 - **Title (≤ 60 Zeichen):** Wohnung bewerten lassen: Leonberg, Ditzingen, Pforzheim
 - **Meta-Description (≤ 155 Zeichen):** Was ist Ihre Eigentumswohnung wert? Kostenlose Einschätzung vor Ort, mit Vergleichswerten und WEG-Prüfung. Aktuelle Quadratmeterpreise für fünf Orte (Stand 2026).

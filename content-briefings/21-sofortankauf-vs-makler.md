@@ -77,6 +77,21 @@
 | ZU PRÜFEN: immopaka-Vergleichstabelle „Makler vs. immopaka“ | A2 Nr. 16 | nicht belegt |
 | ZU PRÜFEN: Rösslers eigener Abschlag-Korridor beim Direktankauf (Prozent, Bedenkzeit, Bindefrist) | eigene Angabe | Abschnitt 7 |
 
+**Quellenliste für das Seitenende (Auswahl; auf der Seite mit Abrufdatum nennen, B3.6):**
+- immostage.ai, Verkaufsstrategien (2025): https://www.immostage.ai/bewertung/immobilie-verkaufen-strategien/
+- Anbieterseiten (Abrufdatum nennen): https://www.deutsche-grund-invest.de/leistungen/sofortkauf ; https://immobiliendirektankauf.de/ueber-uns ; http://www.immopaka.de/ ; https://www.immobilien-sofortkauf.de/
+- Trustpilot immobilien-sofortkauf.de: https://ch.trustpilot.com/review/immobilien-sofortkauf.de
+- § 16a GwG und GwG-Pflichten: https://gwgimmo.de/blog/gwg/geldwaschegesetz-fur-immobilienmakler-pflichten-risiken-klare-handlungsempfehlungen-2026
+- § 34c GewO: https://www.gesetze-im-internet.de/gewo/__34c.html
+- Drei-Objekt-Grenze: https://www.steuerschroeder.de/blog/?p=78250
+- Bundesbank-Refinanzierung und Vermarktungsdauer (ad-hoc-news 22.10.2026): https://ad-hoc-news.de/wirtschaft/immobilienmarkt-54-3-prozent-der-verkaeufe-dauern-laenger-als-sechs-monate/70395215
+- Bauzinsen: https://www.drklein.de/zinsen.html
+- certa, Marktbericht Pforzheim Q1 2026: https://www.certa-gutachten.de/marktberichte/pforzheim-q1-2026
+- Preise: https://www.immoportal.com/immobilienpreise/leonberg ; https://www.engelvoelkers.com/de-de/immobilienpreise/baden-wuerttemberg/pforzheim/
+- Erbvolumen (Böckler): https://www.boeckler.de/de/pressemitteilungen-15991-erbschaften-bis-2027-gut-ein-viertel-mehr-als-bislang-vermutet-vor-allem-wohlhabende-3238.htm
+- KfW 308: https://www.baukostenplan.de/ratgeber/kfw-308-jung-kauft-alt-2026-neue-kreditbetraege
+- Rössler Direktankauf-Text und Provision: Live-Seite roessler-immo.de (Stand 19.10.2026)
+
 ## 4. Gliederung (H1–H3) mit Stichpunkten je Abschnitt
 - **Title (≤ 60 Zeichen):** Wohnung sofort verkaufen: Sofortankauf oder Makler? Vergleich
 - **Meta-Description (≤ 155 Zeichen):** Sofortankauf in Leonberg oder Pforzheim: Ankäufer zahlen laut Quellen 40 bis 90 % des Marktwerts. Rechenvergleich, Seriositäts-Check, und was mein eigener Direktankauf bedeutet.
@@ -150,6 +165,10 @@
   - Sekundär: „Beschleunigten Verkauf anfragen“ und, nachgeordnet, „Direktankauf prüfen lassen (mit offenem Abschlag)“
   - Abschluss-Band: „Tempo kostet Geld. Wie viel, sollten Sie vorher wissen, nicht hinterher. Rufen Sie mich an, ich rechne es Ihnen vor.“
 
+- **Zusätzliche FAQ (aus Nachtrag):**
+  1. Warum liegt ein Ankaufsangebot so weit unter dem Marktwert? Kurz: Der Ankäufer zahlt 5 % Grunderwerbsteuer, Notar, Zinsen für die Zwischenfinanzierung (2026 hoch), Sanierung, Gewerbesteuer und will Gewinn; im Dossier-Beispiel bleiben bei Einkauf zu 2.500 €/m² in Pforzheim nur 2 % Marge.
+  2. Muss ich als Verkäufer Spekulationssteuer zahlen, wenn ich an einen Ankäufer verkaufe? Kurz: Die Steuerfrage hängt nur von Ihrer Haltedauer und Nutzung ab, nicht vom Käufer.
+  3. Verzichtet ein Ankäufer wirklich auf den Energieausweis? Kurz: Er kann ihn für sich nicht verlangen, aber Ihre Vorlage- und Übergabepflicht nach § 80 GModG bleibt; beim Weiterverkauf braucht er ihn ohnehin.
 - **Technik und Pflege:**
   - Schema: Article, FAQPage, BreadcrumbList; Autorenbox; „Stand“-Vermerk; Quellenliste am Seitenende (immostage, Anbieterseiten mit Abrufdatum, Dossier D1, GwG, BGH).
   - Ankauf-Formular getrennt vom Kontaktformular (Baujahr, Etage, Hausgeld, Miete, gewünschter Zeitpunkt, Analyse 01, 6.2); Pflichtfeld „Ich habe die Einschätzung als Maklerverkauf erhalten“ (Checkbox) vor Ankaufsanfrage, falls Linus die Reihenfolge so festlegt.
@@ -176,3 +195,5 @@
 - Hast du Kontakt zu Verbraucherzentrale BW (Vertragsprüfung) oder einem Anwalt, der auf der Seite genannt werden darf?
 - Wie gehst du mit Verwechslungen mit „Immobilien Roland Rössle“ (Heimsheim) um? Soll die Klarstellung auf dieser Seite stehen oder nur auf /ueber-mich/?
 - Fotos: Flyer aus dem Briefkasten vorhanden? Notariat in Leonberg oder Pforzheim fotografierbar?
+- Wie finanzierst du einen Ankauf (Eigenkapital, Bank, Zwischenfinanzierung zu welchem Zins)? Das bestimmt deinen Abschlag und sollte in der Mechanik-Erklärung wahrheitsgemäß erscheinen.
+- Gibt es eine Obergrenze (Kaufpreis, Anzahl pro Jahr), bis zu der du überhaupt ankaufst? Dann kann die Seite sagen, für wen der Direktankauf realistisch ist.

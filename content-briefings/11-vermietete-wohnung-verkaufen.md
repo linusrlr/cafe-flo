@@ -82,6 +82,19 @@
 | Bauzinsen ca. 4,2 bis 4,5 % (Okt. 2026); Bundesbank: bis 2027 ca. 20 % des Wohnimmobilien-Kreditvolumens zu refinanzieren; Anleger prüfen Cashflow schärfer | Marktzins | https://www.drklein.de/zinsen.html ; https://ad-hoc-news.de/wirtschaft/immobilienmarkt-54-3-prozent-der-verkaeufe-dauern-laenger-als-sechs-monate/70395215 |
 | Barzahlungsverbot beim Immobilienkauf seit 01.04.2023 | § 16a GwG | https://gwgimmo.de/blog/gwg/geldwaschegesetz-fur-immobilienmakler-pflichten-risiken-klare-handlungsempfehlungen-2026 |
 
+**Quellenliste für das Seitenende (Auswahl; auf der Seite mit Abrufdatum nennen, B3.6):**
+- § 577 BGB: https://www.gesetze-im-internet.de/bgb/__577.html
+- § 577a BGB: https://www.gesetze-im-internet.de/bgb/__577a.html
+- KSpVO BW (GBl. 2025 Nr. 146): https://www.landtag-bw.de/resource/blob/611984/7e993deafc1547ab553a30dfe14a9333/GBl2025146.pdf
+- MietBegrenzVO BW und Gebietskulisse: https://mlw.baden-wuerttemberg.de/de/bauen-wohnen/wohnungsbau/mietpreisbremse
+- ImmoScout24-Pressemitteilung vermietete vs. unvermietete ETW (10.11.2025): https://www.immobilienscout24.de/unternehmen/news-medien/news/default-title/vermietete-eigentumswohnungen-bis-zu-33-prozent-guenstiger-als-unvermietete/
+- immoportal, Kapitalanlage verkaufen (Rendite-Formeln): https://www.immoportal.com/node/100171
+- deutschesmietrecht.de, Umwandlung und Vorkaufsrecht: https://deutschesmietrecht.de/kuendigung/eigentumswohnung-umwandlung-vorkaufsrecht/77-mieterschutz-bei-umwandlung-in-eine-eigentumswohnung.html
+- Mietspiegel Pforzheim 2025: https://www.pforzheim.de/buerger/buergerservice/kommunale-statistikstelle/statistische-veroeffentlichungen/mietspiegel.html
+- Preise: https://www.immoportal.com/immobilienpreise/leonberg ; https://www.immoverkauf24.de/immobilienpreise/baden-wuerttemberg/pforzheim/ ; https://www.engelvoelkers.com/de-de/mietspiegel/baden-wuerttemberg/leonberg/
+- Mietrechtspaket II (hib 835/2026): https://www.bundestag.de/presse/hib/kurzmeldungen-1224894
+- § 23 EStG: https://www.gesetze-im-internet.de/estg/__23.html
+
 ## 4. Gliederung (H1–H3) mit Stichpunkten je Abschnitt
 - **Title (≤ 60 Zeichen):** Vermietete Wohnung verkaufen: § 577 BGB, Sperrfrist, Faktor
 - **Meta-Description (≤ 155 Zeichen):** Vermietete Eigentumswohnung verkaufen: Vorkaufsrecht mit Fristen, 5 Jahre Sperrfrist in Leonberg und Pforzheim, Faktor mit lokalen Mieten. Kostenlose Einschätzung.

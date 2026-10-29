@@ -81,6 +81,19 @@
 | Mieterschutz GModG: Vermieter tragen pauschal 50 % der Mehrkosten aus Netzentgelt, CO₂ und Biobrennstoff (§ 5a Abs. 3 CO2KostAufG n. F.); Wärmepumpen-Modernisierung nur voll umlagefähig bei Jahresarbeitszahl ≥ 2,5 | CO2KostAufG | marktthemen-2026.md Kap. 2b |
 | ZU PRÜFEN: Fortbestand der Nachrüstpflichten bei Eigentümerwechsel (Dämmung oberste Geschossdecke, Rohrleitungen, § 47 GEG a. F., zwei Jahre nach Erwerb) im GModG | § 47 | marktthemen-2026.md Kap. 18 Nr. 2 |
 
+**Quellenliste für das Seitenende (Auswahl; auf der Seite mit Abrufdatum nennen, B3.6):**
+- § 80 GModG: https://www.gesetze-im-internet.de/geg/__80.html ; § 87 GModG: https://www.gesetze-im-internet.de/geg/__87.html
+- Bundesregierung, Neues Gebäudemodernisierungsgesetz: https://www.bundesregierung.de/breg-de/aktuelles/neues-gebaeudemodernisierungsgesetz-2430284
+- GModG-Infoportal des Bundes: https://www.gmodg.bund.de/GModG/DE/Home/startseite/GModG_News/GModG_News-node.html
+- Verbraucherzentrale, Energieausweis (31.08.2026): https://www.verbraucherzentrale.de/wissen/energie/energetische-sanierung/energieausweis-wer-braucht-ihn-24054
+- reduco.ai, Energieausweis ETW (akt. 17.08.2026): https://reduco.ai/blog/energieausweis/energieausweis-wohnung-eigentumswohnung
+- energyausweis.de, GModG für Makler: https://www.energyausweis.de/blog/gmodg-fuer-makler-inseratspflicht-vorlage-uebergabe-und-bussgelder-ab-inkrafttreten
+- GÖRG, GModG-Übersicht (17.07.2026): https://www.goerg.de/de/aktuelles/veroeffentlichungen/17-07-2026/gebaeudemodernisierungsgesetz-gmodg-schafft-geg-ab-was-sich-aendert-und-was-bleibt
+- Stiftung Warentest (2014): https://www.test.de/Frage-und-Antwort-Eigentuemergemeinschaft-muss-Energieausweis-bezahlen-4751159-0/
+- KfW 308: https://www.baukostenplan.de/ratgeber/kfw-308-jung-kauft-alt-2026-neue-kreditbetraege ; https://www.baufi24.de/foerderung/kfw-308-jung-kauft-alt/
+- Wärmeplan Leonberg (Vorlage 2024/077): https://www.leonberg.de/ratsinformationssystem/wicket/resource/org.apache.wicket.Application/doc461362.pdf
+- Umweltministerium BW, FAQ Wärmeplanung: https://um.baden-wuerttemberg.de/de/klima-energie/waerme/kommunale-waermeplanung/faq-kommunale-waermeplanung
+
 ## 4. Gliederung (H1–H3) mit Stichpunkten je Abschnitt
 - **Title (≤ 60 Zeichen):** Energieausweis Eigentumswohnung: WEG, Pflichtangaben, Fristen
 - **Meta-Description (≤ 155 Zeichen):** Energieausweis beim Wohnungsverkauf: gilt fürs Gebäude, die WEG beschafft ihn, Sie legen ihn vor. § 80 und § 87 GModG, Kosten, Bußgeld, Musterschreiben an die Verwaltung.

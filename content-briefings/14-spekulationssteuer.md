@@ -78,6 +78,19 @@
 | Handwerkerleistungen § 35a EStG: Regierungsentwurf EStRefG 2027 senkt Abzug von 20 % auf 15 % und Höchstbetrag von 1.200 € auf 900 € (ZU PRÜFEN, Bundestag nicht abgeschlossen); Renovierung vor Verkauf 2026 noch mit 20 % | § 35a EStG (Entwurf) | marktthemen-2026.md Kap. 5a |
 | 10 % Bewertungsabschlag für vermietete Wohnimmobilien bei der Erbschaftsteuer | § 13d ErbStG | marktthemen-2026.md Kap. 5b |
 
+**Quellenliste für das Seitenende (Auswahl; auf der Seite mit Abrufdatum nennen, B3.6):**
+- § 23 EStG: https://www.gesetze-im-internet.de/estg/__23.html
+- Finanztip, Spekulationssteuer (akt. 09.07.2026): https://www.finanztip.de/spekulationssteuer-immobilienverkauf/
+- ImmoScout24, Spekulationssteuer (akt. 15.09.2026): https://www.immobilienscout24.de/wissen/verkaufen/spekulationssteuer.html
+- steuertipps.de, teilentgeltlicher Erwerb: https://www.steuertipps.de/wohnen-haus-vermietung/spekulationssteuer-immobilien/themen
+- Bundestag 08.10.2026 / Bundesrat 16.10.2026: https://hausbesitzer-news.de/recht-finanzen/spekulationsfrist-immobilien-abschaffen-aktueller-stand/ ; https://www.haufe.de/steuern/gesetzgebung-politik/bundesrat-nimmt-stellung-zum-einkommensteuerreformgesetz-2027_168_700990.html
+- Drei-Objekt-Grenze: https://www.steuerschroeder.de/blog/?p=78250 ; https://www.datev-magazin.de/nachrichten-steuern-recht/steuern/bfh-erweiterte-kuerzung-und-drei-objekt-grenze-bei-erstmaligen-grundstuecksveraeusserungen-im-sechsten-jahr-139443
+- AfA: https://www.immowelt.de/ratgeber/kaufen/afa-degressiv
+- BFH-Urteile (IX R 37/16, IX R 27/19, IX R 8/20, IX R 28/18, IX R 11/23): Volltexte über bundesfinanzhof.de vor Veröffentlichung prüfen
+- Grunderwerbsteuer BW: https://www.finanz.de/steuern/grunderwerbsteuer/baden-wuerttemberg/
+- Preise: https://www.immoportal.com/immobilienpreise/leonberg ; https://www.immoverkauf24.de/immobilienpreise/baden-wuerttemberg/pforzheim/
+- Rössler-Provision: Live-Seite roessler-immo.de (FAQ, Stand 19.10.2026)
+
 ## 4. Gliederung (H1–H3) mit Stichpunkten je Abschnitt
 - **Title (≤ 60 Zeichen):** Spekulationssteuer Eigentumswohnung: Frist, Ausnahmen, Beispiel
 - **Meta-Description (≤ 155 Zeichen):** Spekulationssteuer beim Wohnungsverkauf: Zehnjahresfrist, Eigennutzung, Erbe, Scheidung, Rücklage und AfA. Rechenbeispiel Leonberg mit 5 % Grunderwerbsteuer.
@@ -156,6 +169,10 @@
   - Sekundär: „Frühesten steuerfreien Verkaufstermin berechnen“
   - Abschluss-Band: „Zehn Jahre sind eine lange Zeit, aber kein Naturgesetz. Lassen Sie uns gemeinsam schauen, ob Verkaufen jetzt oder in zwei Jahren für Sie besser ist.“
 
+- **Zusätzliche FAQ (aus Nachtrag):**
+  1. Wird die Spekulationsfrist abgeschafft? Kurz: Nein; der Bundestag lehnte das am 08.10.2026 mit 446 zu 131 ab, der Bundesrat übernahm die Streichungsempfehlung am 16.10.2026 nicht.
+  2. Wie viele Wohnungen darf ich verkaufen, ohne gewerblich zu werden? Kurz: Faustregel nicht mehr als drei Objekte in fünf Jahren; bei Sanierung zählt die Frist ab Sanierungsende; unbedingte Verkaufsabsicht kann schon bei einem Objekt gewerblich sein; Steuerberater.
+  3. Fällt Umsatzsteuer beim Wohnungsverkauf an? Kurz: Nein, Grundstücksverkäufe sind umsatzsteuerfrei (§ 4 Nr. 9a UStG).
 - **Zusätzlicher H2 (aus Nachtrag), direkt nach „In Kürze“:** „Die Frist bleibt: Was Bundestag und Bundesrat im Oktober 2026 entschieden haben“ (ca. 200 Wörter): 08.10.2026 (131 zu 446), 16.10.2026, Scheidungs-Ausnahme nur als Vorschlag; Planungssicherheit für Eigentümer in der Region; Stand-Datum sichtbar.
 - **Technik und Pflege:**
   - Schema: Article, FAQPage, BreadcrumbList; Autorenbox; „Stand“-Vermerk prominent (Rechtsthema); Quellenliste am Seitenende.
@@ -181,3 +198,5 @@
 - Gibt es Kunden oder Bekannte mit Pendler-Zweitwohnung in Stuttgart, deren Fall (anonymisiert) als Beispiel dienen kann?
 - Sollen wir die Themen Spekulationsfrist-Beginn und Berechnung (IS24 hat vier Seiten) als Sprungmarken auf dieser Seite halten oder später trennen?
 - Fotos: Darfst du einen anonymisierten Auszug deines eigenen Kaufvertrags zeigen?
+- Planst du eigene Ankäufe oder Fix & Flip (Direktankauf)? Dann betrifft dich die Drei-Objekt-Grenze selbst; die Seite sollte das nicht verschweigen. Rechtsform und Steuerberatung geklärt?
+- Soll das Dossier-Beispiel D2 (270.000 € → 300.000 €, 42 % Grenzsteuersatz) oder das Briefing-Beispiel (250.000 € → 310.000 €, 35 %) auf die Seite? Beide mit 2,98 % Provision neu rechnen.

@@ -76,6 +76,20 @@
 | Bürokratierückbau GewO: Bundestag beschloss am 11.06.2026 (Drs. 21/3740), die Weiterbildungspflicht für Makler zu streichen; Bundesrat/Inkrafttreten ZU PRÜFEN | § 34c Abs. 2a GewO | https://www.wohnen-im-eigentum.de/politik/verwalter-sachkundenachweis |
 | Immobilienkaufverträge weiterhin nur in Präsenz beurkundbar (keine Videobeurkundung) | BeurkG | https://www.ihk.de/koeln/hauptnavigation/recht-steuern/recht/online-gruendungen-notarielle-beurkundung-durch-videokonferenz-5962580 |
 
+**Quellenliste für das Seitenende (Auswahl; auf der Seite mit Abrufdatum nennen, B3.6):**
+- §§ 656a, 656c, 656d BGB: https://www.gesetze-im-internet.de/bgb/__656a.html ; …/__656c.html ; …/__656d.html
+- § 34c GewO: https://www.gesetze-im-internet.de/gewo/__34c.html
+- BT-Drs. 19/15827: https://dserver.bundestag.de/btd/19/158/1915827.pdf
+- IHK Bodensee-Oberschwaben, Maklerrecht und Widerruf: https://www.ihk.de/bodensee-oberschwaben/branchen/vermittlergewerbe/makler-und-bautraeger/neue-gesetzliche-regelungen-fuer-immobilienmakler-4982344
+- ImmoScout24, Maklerprovision (akt. 09.09.2026): https://www.immobilienscout24.de/wissen/verkaufen/maklerprovision.html
+- immoverkauf24, Maklerprovision (akt. 23.07.2026): https://www.immoverkauf24.de/immobilienmakler/maklerprovision/
+- BGH PM 044/2025 (I ZR 32/24): https://www.bundesgerichtshof.de/SharedDocs/Pressemitteilungen/DE/2025/2025044.html
+- BGH PM 127/2026 (I ZR 111/25): https://www.bundesgerichtshof.de/SharedDocs/Pressemitteilungen/DE/2026/2026127.html
+- vzbv zur Provision nach Widerruf: https://www.vzbv.de/urteile/zur-maklerprovision-nach-widerruf
+- GwG-Pflichten: https://gwgimmo.de/blog/gwg/geldwaschegesetz-fur-immobilienmakler-pflichten-risiken-klare-handlungsempfehlungen-2026
+- Bürokratierückbau GewO: https://www.wohnen-im-eigentum.de/politik/verwalter-sachkundenachweis
+- Preise: https://www.immoportal.com/immobilienpreise/leonberg ; https://www.immoverkauf24.de/immobilienpreise/baden-wuerttemberg/pforzheim/
+
 ## 4. Gliederung (H1–H3) mit Stichpunkten je Abschnitt
 - **Title (≤ 60 Zeichen):** Maklerprovision Baden-Württemberg: Höhe, Vertrag, Rössler-Preis
 - **Meta-Description (≤ 155 Zeichen):** Maklerprovision in BW: üblich 3,57 % je Seite, bei mir 2,98 % inkl. USt. Beispiel 290.000 € Leonberg, Alleinauftrag, Widerruf, was im Preis steckt.

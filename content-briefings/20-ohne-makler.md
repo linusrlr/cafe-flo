@@ -74,6 +74,21 @@
 | ZU PRÜFEN: Inseratskosten privater Verkäufer bei ImmoScout24/Immowelt/Kleinanzeigen (Stand 2026) für die Kostentabelle | eigene Ergänzung | nicht belegt |
 | ZU PRÜFEN: Eigene Vermarktungsdauer in der Region, sobald Verkäufe vorliegen | 11.7 Nr. 4 | nicht belegt |
 
+**Quellenliste für das Seitenende (Auswahl; auf der Seite mit Abrufdatum nennen, B3.6):**
+- reduco.ai, Haus privat verkaufen ohne Makler (akt. 17.08.2026): https://reduco.ai/blog/immobilienverkauf/haus-verkaufen-ohne-makler
+- bodenrichtwerte-deutschland.de, Haus verkaufen ohne Makler (2026): https://www.bodenrichtwerte-deutschland.de/immobilienwissen/haus-verkaufen-ohne-makler
+- Homeday, Haus verkaufen ohne Makler: https://www.homeday.de/de/immobilienverkauf/haus-verkaufen-ohne-makler/
+- §§ 311b, 444, 656a bis 656d BGB; § 12 WEG: https://dejure.org/gesetze/WEG/12.html ; § 577 BGB: https://www.gesetze-im-internet.de/bgb/__577.html
+- § 80, § 87 GModG: https://www.gesetze-im-internet.de/geg/__80.html ; https://www.gesetze-im-internet.de/geg/__87.html ; energyausweis.de zu 2027: https://www.energyausweis.de/blog/gmodg-fuer-makler-inseratspflicht-vorlage-uebergabe-und-bussgelder-ab-inkrafttreten
+- § 16a GwG und GwG-Pflichten: https://gwgimmo.de/blog/gwg/geldwaschegesetz-fur-immobilienmakler-pflichten-risiken-klare-handlungsempfehlungen-2026
+- Präsenzbeurkundung (IHK Köln): https://www.ihk.de/koeln/hauptnavigation/recht-steuern/recht/online-gruendungen-notarielle-beurkundung-durch-videokonferenz-5962580
+- Grundbucheinsicht: https://www.bodenrichtwerte-deutschland.de/immobilienwissen/grundbuchamt
+- Vermarktungsdauer (ad-hoc-news 22.10.2026): https://ad-hoc-news.de/wirtschaft/immobilienmarkt-54-3-prozent-der-verkaeufe-dauern-laenger-als-sechs-monate/70395215
+- KfW 308: https://www.baukostenplan.de/ratgeber/kfw-308-jung-kauft-alt-2026-neue-kreditbetraege
+- Bauzinsen: https://www.drklein.de/zinsen.html ; https://www.interhyp.de/zinsen/
+- Preise: https://www.immoportal.com/immobilienpreise/leonberg ; https://www.engelvoelkers.com/de-de/immobilienpreise/baden-wuerttemberg/leonberg/
+- Rössler-Provision: Live-Seite roessler-immo.de (FAQ, Stand 19.10.2026)
+
 ## 4. Gliederung (H1–H3) mit Stichpunkten je Abschnitt
 - **Title (≤ 60 Zeichen):** Wohnung ohne Makler verkaufen: Ersparnis, Risiken, Hybrid
 - **Meta-Description (≤ 155 Zeichen):** Eigentumswohnung ohne Makler verkaufen: Sie sparen nur Ihre Provisionshälfte (8.642 € bei 290.000 €). Was es kostet, was Käufer 2026 fragen, und ein Hybrid-Angebot.
@@ -181,3 +196,5 @@
 - Deine eigene Wohnung: Hast du sie privat gekauft (ohne Makler)? Was lief gut, was nicht? Das wäre ein ehrliches Beispiel.
 - Nimmst du Reservierungsvereinbarungen oder Gebühren? Die Seite sagt „nein“; bestätigen.
 - Fotos: Schlüsselübergabe und Unterlagenstapel nachstellbar?
+- Welche Portale nutzt du selbst, und darf die Seite sagen, dass ein Rössler-Inserat auf denselben Portalen erscheint wie ein Privatinserat (also kein Reichweitenvorteil, sondern Aufbereitung und Prüfung)?
+- Wie reagierst du, wenn ein Privatverkäufer nach deiner kostenlosen Einschätzung doch allein verkauft? Bleibt die Einschätzung kostenlos? Das muss auf der Seite eindeutig stehen.

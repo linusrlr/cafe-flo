@@ -80,6 +80,20 @@
 | ZU PRÜFEN: Aktuelle Studie zu altersgerechtem Wohnen 2025/26 (nicht recherchiert) | marktthemen Kap. 18 Nr. 36 | nicht belegt |
 | ZU PRÜFEN: Schonvermögensbeträge SGB XII (Stand 2026) und Wohnflächengrenzen in der Praxis der Sozialämter | 10.5 | nicht belegt |
 
+**Quellenliste für das Seitenende (Auswahl; auf der Seite mit Abrufdatum nennen, B3.6):**
+- § 1850 BGB: https://www.gesetze-im-internet.de/bgb/__1850.html ; §§ 1030, 1041, 1047, 1093 BGB; § 29 GBO; §§ 90, 91, 102 SGB XII (Normtexte abrufen)
+- Verbraucherzentrale, Leibrente (16.12.2024): https://www.verbraucherzentrale.de/wissen/geld-versicherungen/altersvorsorge/verkauf-der-immobilie-gegen-rentenzahlung-leibrente-102201
+- Verbraucherzentrale Hamburg, Broschüre Immobilienrente 2023/2024: https://www.vzhh.de/sites/default/files/medien/136/dokumente/2023-2024_Verbraucherzentrale_Broschuere_Immobilienrente_Web_0.pdf
+- immo.info, Teilverkauf-Anbieter (akt. 22.10.2026): https://immo.info/immobilienrente-teilverkauf/teilverkauf-haus/
+- reduco.ai, Haus verkaufen und wohnen bleiben (akt. 16.08.2026): https://reduco.ai/blog/immobilienverkauf/haus-verkaufen-wohnen-bleiben
+- ImmoScout24, Pflegefall (akt. 22.08.2023): https://www.immobilienscout24.de/wissen/verkaufen/hausverkauf-bei-pflegefall.html ; Betreuer: https://www.immobilienscout24.de/wissen/verkaufen/immobilie-durch-betreuer-verkaufen.html ; Demenz: https://www.immobilienscout24.de/wissen/verkaufen/immobilie-bei-demenz-verkaufen.html
+- Notar-Pressemitteilung Vorsorgevollmacht: https://notar.de/fileadmin/user_upload_notarde/pressemitteilungen/presseportal_auf-eine-notarielle-vorsorgevollmacht-sollten-immo_3810744.pdf
+- IW/Sparda-Studie (Tagesspiegel 17.10.2026): https://www.tagesspiegel.de/wirtschaft/studie-zeigt-folgen-fur-die-preise-wenn-babyboomer-ihre-hauser-verkaufen-16169054.html
+- Rödl & Partner, BVerfG Erbschaftsteuer (12.08.2026): https://www.roedl.com/insights/bundesverfassungsgericht-prueft-erbschaftsteuer/
+- Wohneigentumsquote BW (StZ 13.01.2025): https://www.stuttgarter-zeitung.de/wirtschaft/baden-wuerttemberg-studie-anteil-der-wohneigentuemer-im-suedwesten-sinkt-79152177.html
+- Bauzinsen: https://www.drklein.de/zinsen.html
+- Preise: https://www.immoportal.com/immobilienpreise/leonberg ; https://www.engelvoelkers.com/de-de/immobilienpreise/baden-wuerttemberg/pforzheim/
+
 ## 4. Gliederung (H1–H3) mit Stichpunkten je Abschnitt
 - **Title (≤ 60 Zeichen):** Wohnung verkaufen im Alter: Vollverkauf, Wohnrecht, Pflegefall
 - **Meta-Description (≤ 155 Zeichen):** Eigentumswohnung im Alter verkaufen: Vollverkauf gegen Nießbrauch, Teilverkauf und Leibrente gerechnet, Pflegefall, Vollmacht und Betreuungsgericht. Ohne Verrentungsprodukte.

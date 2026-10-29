@@ -72,6 +72,20 @@
 | Kaufvertrag nur in Präsenz beim Notar (keine Videobeurkundung); getrennte Termine oder Vollmacht möglich (Notar klärt) | § 311b BGB | marktthemen-2026.md Kap. 8a |
 | Grundsteuer BW seit 2025 bodenwertbasiert; für ETW kleiner Posten (Beispiel 80 m² mit 150 m² Bodenanteil: ca. 150 bis 205 €/Jahr je nach Hebesatz); Leonberg 220 % (250 % ab 2027 geplant, ZU PRÜFEN), Ditzingen 250 %, Renningen 190 % | LGrStG BW | marktthemen-2026.md Kap. 4, Anhang D4 |
 
+**Quellenliste für das Seitenende (Auswahl; auf der Seite mit Abrufdatum nennen, B3.6):**
+- ImmoScout24, Verteilung Verkaufserlös bei Scheidung (akt. 20.08.2026): https://www.immobilienscout24.de/wissen/verkaufen/verteilung-verkaufserloes-immobilie-bei-scheidung.html
+- Homeday, Haus und Scheidung: https://www.homeday.de/de/immobilienverkauf/haus-und-scheidung/
+- Kanzlei Hasselbach, Teilungsversteigerung (16.05.2024): https://www.kanzlei-hasselbach.de/blog/teilungsversteigerung-bei-scheidung/
+- §§ 1363 ff., 1365, 1385, 1361b BGB; § 180 ZVG; § 3 Nr. 4/5 GrEStG (Normtexte auf gesetze-im-internet.de vor Veröffentlichung abrufen)
+- § 23 EStG: https://www.gesetze-im-internet.de/estg/__23.html
+- Bundesrat zum JStG 2026 / EStRefG 2027 (Haufe 19.10.2026): https://www.haufe.de/steuern/gesetzgebung-politik/bundesrat-nimmt-stellung-zum-einkommensteuerreformgesetz-2027_168_700990.html
+- Mietrechtspaket II (hib 835/2026): https://www.bundestag.de/presse/hib/kurzmeldungen-1224894
+- Grunderwerbsteuer BW: https://www.finanz.de/steuern/grunderwerbsteuer/baden-wuerttemberg/
+- Bauzinsen: https://www.drklein.de/zinsen.html ; https://www.interhyp.de/zinsen/
+- § 16a GwG: https://gwgimmo.de/blog/gwg/geldwaschegesetz-fur-immobilienmakler-pflichten-risiken-klare-handlungsempfehlungen-2026
+- Preise: https://www.immoverkauf24.de/immobilienpreise/baden-wuerttemberg/boeblingen-kreis/renningen/ ; https://www.immoportal.com/immobilienpreise/ditzingen
+- Rössler-Provision und Alleinauftrag: Live-Seite roessler-immo.de (FAQ, Stand 19.10.2026)
+
 ## 4. Gliederung (H1–H3) mit Stichpunkten je Abschnitt
 - **Title (≤ 60 Zeichen):** Wohnung bei Scheidung: Übernahme, Verkauf, Versteigerung
 - **Meta-Description (≤ 155 Zeichen):** Eigentumswohnung bei Trennung: Wer zahlt Hausgeld und Kredit, wie der Erlös verteilt wird, was eine Teilungsversteigerung kostet. Neutrale Einschätzung für beide.
@@ -144,6 +158,12 @@
   - Sekundär: „Checkliste für die ersten drei Monate herunterladen“
   - Abschluss-Band: „Je länger die Wohnung zwischen Ihnen steht, desto teurer wird sie: Hausgeld, Zinsen, Nerven. Ein belastbarer Wert ist der erste Schritt, den Sie gemeinsam gehen können.“
 
+- **Tabelle „Übernahme durch einen Partner: Finanzierung 2026“ (zu Weg 2):** Spalten Auszahlungsbetrag (Beispiel 85.000 € plus Übernahme Restschuld 120.000 € = 205.000 € Finanzierungsbedarf) / Zins 1,5 % (Altvertrag) / Zins 4,2 bis 4,5 % (Okt. 2026) / Monatsrate bei 2 % Tilgung; Quelle Dr. Klein/Interhyp; Hinweis: Bankfreigabe und Haushaltsrechnung entscheiden, keine Finanzberatung.
+- **Zusätzliche FAQ (aus Nachtrag):**
+  1. Gibt es eine Ausnahme von der Spekulationssteuer bei Scheidung? Kurz: Derzeit nicht; der Bundesrat hat sie am 25.09.2026 vorgeschlagen, die Bundesregierung prüft; Stand-Datum auf der Seite.
+  2. Können wir die Wohnung im Ausland per Video beurkunden lassen? Kurz: Nein, Immobilienkaufverträge werden in Präsenz beurkundet; Vollmacht in öffentlicher Form möglich, Notar klärt.
+  3. Darf mein Ex-Partner die Wohnung bar bezahlen, um schneller zu sein? Kurz: Nein, Barzahlung beim Immobilienkauf ist seit 01.04.2023 verboten (§ 16a GwG).
+  4. Was passiert mit dem Mietvertrag, wenn die Wohnung vermietet ist und einer übernimmt? Kurz: Der Mietvertrag läuft weiter; das Mietrechtspaket II soll § 566 BGB ausdrücklich auf Veräußerungen unter Miteigentümern erstrecken (Entwurf, Stand prüfen).
 - **Technik und Pflege:**
   - Schema: Article, FAQPage, BreadcrumbList; Autorenbox; „Stand“-Vermerk; Quellenliste am Seitenende.
   - Update-Trigger: Jahressteuergesetz 2026 (Scheidungs-Ausnahme § 23 EStG), Mietrechtspaket II, EZB-Sitzungen (Zins im Übernahme-Beispiel), Beschluss Hebesatz Leonberg 2027.
@@ -169,3 +189,6 @@
 - Wie gehst du mit Besichtigungen um, wenn ein Partner noch in der Wohnung wohnt und der andere nicht? Gibt es eine feste Regel (Termine über dich, nie allein)?
 - Bietest du die neutrale Wertermittlung ohne Verkaufsauftrag gegen Honorar an? Wenn ja, zu welchem Preis, und wie unterscheidet sie sich vom kostenlosen Verkaufsplan?
 - Fotos: Welche Neubauanlage in Renningen oder Ditzingen kannst du fotografieren?
+- Kennst du eine Bank oder einen Finanzierungsvermittler in der Region, der Übernahme-Finanzierungen nach Trennung (Entlassung eines Schuldners) routiniert abwickelt und genannt werden darf?
+- Wie lange dauerte bei dir oder in deinem Umfeld die Entlassung aus einem Kreditvertrag nach Trennung (Wochen, Unterlagen)? Erfahrungswert für den Zeitplan.
+- Hast du einen Fall gesehen, in dem ein Teilungsversteigerungsantrag als Druckmittel eingesetzt wurde und der freie Verkauf doch zustande kam? Anonymisiertes Beispiel möglich?
