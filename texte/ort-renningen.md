@@ -28,7 +28,7 @@ Häuser kosten in Renningen laut immoportal 4.365 €/m² [1], laut immoverkauf2
 
 Amtliche Kaufpreise: Für Renningen ist vermutlich ein Gutachterausschuss auf Ebene des Landkreises Böblingen zuständig; einen aktuellen Marktbericht habe ich online nicht gefunden. [ZU PRÜFEN: Zuständigkeit und Marktbericht.] [LINUS: Hast du Kontakt zum Gutachterausschuss im Landkreis Böblingen?]
 
-Mieten: ImmoScout24 nennt mehr als 13 €/m² mit einer Spanne von 12,65 bis 17,38 €/m² [3], Homeday 15,6 €/m² [8], Engel & Völkers 14,08 €/m² [7]. Das Landesgutachten zur Mietpreisbremse weist für 2022/23 eine Angebotsmiete von 12,63 €/m² aus, nur 12 Prozent mehr als 2017/18 [6]. Das ist der geringste Mietanstieg der fünf Orte, in denen ich arbeite. Renningen hatte 2022 8.235 Haushalte und 8.573 Wohnungen, davon 103 leer, Wohnungsversorgungsgrad 106,3 Prozent [6]. Es gibt also rechnerisch mehr Wohnungen als Haushalte. Das durchschnittliche Haushaltseinkommen lag 2023 bei 77.890 €, der höchste Wert der fünf Orte [6]. Zusammengefasst: viel neuer Wohnraum, zahlungskräftige Haushalte, entspannter Mietmarkt.
+Mieten: ImmoScout24 nennt mehr als 13 €/m² mit einer Spanne von 12,65 bis 17,38 €/m² [3], Homeday 15,6 €/m² [8], Engel & Völkers 14,08 €/m² [7]. Das Landesgutachten zur Mietpreisbremse weist für 2022/23 eine Angebotsmiete von 12,63 €/m² aus, nur 12 Prozent mehr als 2017/18 [6]. Das ist der geringste Mietanstieg der fünf Orte, in denen ich arbeite. Renningen hatte 2022 8.235 Haushalte und 8.573 Wohnungen, davon 103 leer, Wohnungsversorgungsgrad 106,3 Prozent [6]. Das durchschnittliche Haushaltseinkommen lag 2023 bei 77.890 €, in Leonberg bei 70.445 € und in Ditzingen bei 67.944 € [6]. Zusammengefasst: viel neuer Wohnraum, zahlungskräftige Haushalte, entspannter Mietmarkt.
 
 Für Kapitalanleger eine eigene Rechnung, keine Portalangabe: Bei 4.300 €/m² Kaufpreis und 15,6 €/m² Kaltmiete entspricht der Preis rund 23 Jahresmieten; mit 13 €/m² sind es rund 28. In Renningen rechnet sich eine Bestandswohnung für Anleger also nur, wenn der Kaufpreis am unteren Ende der Spanne liegt. Den Bodenrichtwert habe ich noch nicht abgerufen. [ZU PRÜFEN: Bodenrichtwerte Renningen und Malmsheim über BORIS-BW.]
 
@@ -36,7 +36,7 @@ Für Kapitalanleger eine eigene Rechnung, keine Portalangabe: Bei 4.300 €/m² 
 
 Wenn die Preisspanne vom Baujahr abhängt, muss ich bei Ihrer Wohnung zuerst klären, auf welcher Seite der Spanne sie steht. Dabei zählen vier Dinge.
 
-**Baujahr und Energieklasse.** Eine Wohnung aus einem Neubauprojekt der 2010er oder 2020er Jahre hat in der Regel Klasse A oder B, Fußbodenheizung und Dreifachverglasung. Eine Wohnung aus den 1970er oder 1980er Jahren hat oft Klasse E bis G. Beides hat seine Käufer: Die erste Gruppe zahlt für Komfort und niedrige Nebenkosten, die zweite Gruppe kann bei Klasse F, G oder H das KfW-Programm 308 mit bis zu 180.000 € zu 1,00 Prozent nutzen, wenn sie den Antrag vor dem Notartermin stellt und innerhalb von 54 Monaten saniert [9]. Eine schlechte Klasse ist deshalb 2026 kein Makel mehr, sondern eine Käufergruppe.
+**Baujahr und Energieklasse.** Neubau der 2010er und 2020er Jahre hat meist Klasse A oder B, Bestand der 1970er und 1980er Jahre oft E bis G. Beides hat seine Käufer: Die erste Gruppe zahlt für Komfort und niedrige Nebenkosten, die zweite Gruppe kann bei Klasse F, G oder H das KfW-Programm 308 mit bis zu 180.000 € zu 1,00 Prozent nutzen, wenn sie den Antrag vor dem Notartermin stellt und innerhalb von 54 Monaten saniert [9]. Eine schlechte Klasse ist deshalb 2026 kein Makel mehr, sondern eine Käufergruppe.
 
 **Aufzug und Tiefgarage.** Neubauanlagen haben beides, Bestandsanlagen der 1970er oft weder noch. Für Käufer ab 60, die ein Haus in Renningen verkauft haben und in eine Wohnung ziehen, ist der Aufzug Bedingung. Diese Gruppe kauft häufig ohne Kredit, was bei Zinsen von 4,20 Prozent für zehn Jahre (Dr. Klein, 29.10.2026) [10] ein Vorteil für den Verkäufer ist.
 
@@ -56,7 +56,7 @@ Renningen hat 18.728 Einwohner zum 31.12.2025 auf 30,1 km² und seit 1982 Stadtr
 
 ## Besonderheiten beim Wohnungsverkauf in Renningen
 
-**Sperrfrist drei Jahre, in Leonberg nebenan fünf.** Wer eine vermietete, nach Einzug des Mieters umgewandelte Wohnung kauft, darf wegen Eigenbedarfs erst nach drei Jahren kündigen (§ 577a Abs. 1 BGB) [14]. Baden-Württemberg verlängert diese Frist per Verordnung in bestimmten Gemeinden auf fünf Jahre. Leonberg, Böblingen und Sindelfingen stehen in der Liste, Renningen nicht [15]. In Renningen und Malmsheim gilt also die Dreijahresfrist. Das ist für einen Käufer mit Eigenbedarf ein Argument gegenüber Leonberg, und ich nenne es im Exposé. Die Verordnung gilt bis 31.12.2026; ein Entwurf für 2027 ist seit dem 22.09.2026 in der Anhörung [16]. Mehr dazu im Ratgeber [Vermietete Wohnung verkaufen](/ratgeber/vermietete-wohnung-verkaufen/).
+**Sperrfrist drei Jahre, in Leonberg nebenan fünf.** Wer eine vermietete, nach Einzug des Mieters umgewandelte Wohnung kauft, darf wegen Eigenbedarfs erst nach drei Jahren kündigen (§ 577a Abs. 1 BGB) [14]. Baden-Württemberg verlängert diese Frist per Verordnung in bestimmten Gemeinden auf fünf Jahre. Leonberg, Böblingen und Sindelfingen stehen in der Liste, Renningen nicht [15]. In Renningen und Malmsheim gilt also die Dreijahresfrist. Das ist für einen Käufer mit Eigenbedarf ein Argument gegenüber Leonberg, und ich nenne es im Exposé. Die Verordnung gilt bis 31.12.2026; ein Entwurf für 2027 ist seit dem 22.09.2026 in der Anhörung [16]. Den Ablauf beim Verkauf mit Mieter beschreibt der Ratgeber [Vermietete Wohnung verkaufen](/ratgeber/vermietete-wohnung-verkaufen/).
 
 **Keine Mietpreisbremse.** Renningen gehört nicht zu den 130 Gemeinden, in denen seit 01.01.2026 die Mietpreisbremse gilt, und auch nicht zum Entwurf ab 2027 [16]. Im Landesgutachten erfüllte Renningen drei von fünf Kriterien, die Mietbelastung lag mit 18,9 Prozent unter der Schwelle von 20,8 Prozent und der Versorgungsgrad mit 106,3 Prozent über 100 [6]. Für Anleger: Die Miete bei Neuvermietung ist frei vereinbar.
 
@@ -70,7 +70,7 @@ Renningen hat 18.728 Einwohner zum 31.12.2025 auf 30,1 km² und seit 1982 Stadtr
 
 ## Wer kauft Wohnungen in Renningen?
 
-**Beschäftigte am Bosch-Forschungscampus.** Bosch nannte im April 2018 rund 1.900 Beschäftigte für den Campus einschließlich des Betriebsteils Böblingen [21], Wikipedia rund 1.700 [11]. Eine aktuelle Zahl habe ich nicht gefunden, und ich erfinde keine. Was belegt ist: Bosch baut in der Sparte Cross-Domain Computing Solutions 3.500 Stellen ab, die Hälfte in Deutschland, und nennt dabei Renningen und Leonberg ausdrücklich; betriebsbedingte Kündigungen sind bis Ende 2027 ausgeschlossen [22]. Für Verkäufer heißt das: kurzfristig kein Druck auf dem Markt, mittelfristig weniger Zuzug von Ingenieuren. Ich setze bei der Vermarktung nicht allein auf diese Gruppe.
+**Beschäftigte am Bosch-Forschungscampus.** Bosch nannte im April 2018 rund 1.900 Beschäftigte für den Campus einschließlich des Betriebsteils Böblingen [21], Wikipedia rund 1.700 [11]. Eine aktuelle Zahl habe ich nicht gefunden. Was belegt ist: Bosch baut in der Sparte Cross-Domain Computing Solutions 3.500 Stellen ab, die Hälfte in Deutschland, und nennt dabei Renningen und Leonberg ausdrücklich; betriebsbedingte Kündigungen sind bis Ende 2027 ausgeschlossen [22]. Kurzfristig entsteht daraus kein Druck auf den Markt, mittelfristig weniger Zuzug. Ich setze bei der Vermarktung nicht allein auf diese Gruppe.
 
 **Pendler nach Stuttgart und nach Böblingen/Sindelfingen.** Laut Wikipedia arbeitet ein großer Teil der Renninger Beschäftigten auswärts, etwa in Sindelfingen oder Stuttgart [11]. Die S60 nach Böblingen und die S6 nach Stuttgart machen Renningen für beide Richtungen erreichbar. Diese Käufer vergleichen Renningen mit Leonberg und Weil der Stadt.
 
@@ -84,13 +84,13 @@ Renningen hat 18.728 Einwohner zum 31.12.2025 auf 30,1 km² und seit 1982 Stadtr
 
 Der erste Schritt ist die Einordnung: Steht Ihre Wohnung bei 3.900 oder bei 4.900 €/m²? Das kläre ich bei der Besichtigung anhand von Baujahr, Energieklasse, Aufzug, Stellplatz, Hausgeld und Rücklage, und ich lege Ihnen die Vergleichsangebote vor, auf die ich mich stütze. Daraus entsteht der schriftliche Verkaufsplan mit Preisvorschlag, Käufergruppe, Vorbereitung und Zeitplan. Sie entscheiden nach dem Lesen, ob ich die Vermarktung übernehme.
 
-Dann: Fotos, Exposé mit Gehzeit zum Bahnhof und Energieklasse an sichtbarer Stelle, Inserate, Einzelbesichtigungen mit Finanzierungsnachweis, Verhandlung, Notar, Übergabe. Bei 100 konkurrierenden Angeboten in Renningen [3] gewinnt die Wohnung, deren Preis zur richtigen Käufergruppe passt, nicht die mit dem höchsten Anfangspreis.
+Dann: Fotos, Exposé mit Gehzeit zum Bahnhof und Energieklasse an sichtbarer Stelle, Inserate, Einzelbesichtigungen mit Finanzierungsnachweis, Verhandlung, Notar, Übergabe. Bei 100 konkurrierenden Angeboten in Renningen [3] gewinnt die Wohnung, deren Preis zur Käufergruppe passt.
 
-**Was es kostet.** Meine Provision beträgt 2,98 Prozent des Kaufpreises einschließlich Umsatzsteuer, je Seite. Beispiel: 85 m² zu 4.300 €/m² ergeben 365.500 €. Davon 2,98 Prozent sind 10.891,90 € für Sie und derselbe Betrag für den Käufer. Fällig erst mit dem notariellen Kaufvertrag. Hintergrund im Ratgeber [Maklerprovision in Baden-Württemberg](/ratgeber/maklerprovision/).
+**Was es kostet.** 2,98 Prozent des Kaufpreises einschließlich Umsatzsteuer, von jeder Seite. Beispiel: 85 m² zu 4.300 €/m² ergeben 365.500 €. Davon 2,98 Prozent sind 10.891,90 € für Sie und derselbe Betrag für den Käufer. Fällig erst mit dem notariellen Kaufvertrag. Hintergrund im Ratgeber [Maklerprovision in Baden-Württemberg](/ratgeber/maklerprovision/).
 
 **Zweiter Weg: Direktankauf.** Wenn Sie keine Vermarktung wollen, prüfe ich einen Ankauf durch mich. Mein Angebot liegt unter dem Marktwert, weil mein Risiko und mein Gewinn darin stecken; das sage ich vorher. Details unter [Direktankauf](/direktankauf/).
 
-Meine Erlaubnis nach § 34c GewO ist beantragt. Makleraufträge nehme ich an, sobald sie erteilt ist. Einschätzung und Verkaufsplan sind schon jetzt möglich.
+Noch ein Hinweis zum Stand: Die Erlaubnis nach § 34c GewO habe ich beantragt; einen Vermarktungsauftrag kann ich erst nach Erteilung annehmen. Die Einordnung Ihrer Wohnung in die Renninger Preisspanne und den Verkaufsplan bekommen Sie schon jetzt.
 
 <!-- Abschnitt „Verkäufe und Stimmen aus Renningen“ erst nach ersten Abschlüssen -->
 
@@ -100,7 +100,7 @@ Meine Erlaubnis nach § 34c GewO ist beantragt. Makleraufträge nehme ich an, so
 Weil sie Verschiedenes messen. immoportal und Homeday mitteln die Inserate zum Stichtag, und wenn ein Neubauprojekt viele Einheiten inseriert, steigt der Wert auf 4.700 bis 5.000 €/m² [1][8]. Sprengnetter, ImmoScout24 und Engel & Völkers kommen auf 3.900 bis 4.050 €/m² [2][3][7]. Für eine Bestandswohnung ist die zweite Gruppe die bessere Orientierung. Keiner dieser Werte ist ein Verkaufspreis.
 
 ### Ist meine Wohnung aus den 1980er Jahren weniger wert als ein Neubau?
-Pro Quadratmeter in der Regel ja, aber der Abstand ist kleiner, als die Portalmittel vermuten lassen, wenn Rücklage, Zustand und Lage stimmen. Und sie hat eine eigene Käufergruppe: Familien, die mit KfW 308 zu 1,00 Prozent finanzieren und selbst sanieren wollen [9], und Käufer, denen ein Neubau-Hausgeld zu hoch ist. Ich sage Ihnen nach der Besichtigung, wo Ihre Wohnung in der Spanne liegt und warum.
+Pro Quadratmeter in der Regel ja, aber der Abstand ist kleiner, als die Portalmittel vermuten lassen, wenn Rücklage, Zustand und Lage stimmen. Und sie hat eigene Käufer: Familien mit KfW 308 [9] und Käufer, denen ein Neubau-Hausgeld zu hoch ist. Ich sage Ihnen nach der Besichtigung, wo Ihre Wohnung in der Spanne liegt und warum.
 
 ### Gilt in Renningen die verlängerte Sperrfrist?
 Nein. Renningen steht nicht in der Kündigungssperrfristverordnung Baden-Württemberg [15]. Es gilt die gesetzliche Frist von drei Jahren (§ 577a Abs. 1 BGB) [14]. In Leonberg, Böblingen und Sindelfingen sind es 2026 fünf Jahre [15].

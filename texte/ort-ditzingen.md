@@ -1,14 +1,14 @@
 ---
 url: /wohnung-verkaufen/ditzingen/
 title: Wohnung verkaufen in Ditzingen | Rössler Immobilien
-description: Eigentumswohnung in Ditzingen, Hirschlanden, Heimerdingen oder Schöckingen verkaufen: Angebotspreise 2026, Sperrfrist, Kosten. Ersteinschätzung von Linus Rössler.
+description: Wohnung in Ditzingen, Hirschlanden, Heimerdingen oder Schöckingen verkaufen: Angebotspreise 2026, Sperrfrist, Kosten. Einschätzung von Linus Rössler.
 stand: Oktober 2026
 status: Entwurf, nicht veröffentlicht
 ---
 # Wohnung verkaufen in Ditzingen
 *Stand: Oktober 2026 · Von Linus Rössler, Immobilienmakler für Eigentumswohnungen (Erlaubnis nach § 34c GewO beantragt)*
 
-Ditzingen ist der Ort in meinem Gebiet, bei dem die Portale am weitesten auseinanderliegen und bei dem die Rechtslage am häufigsten falsch wiedergegeben wird. Beides erkläre ich auf dieser Seite. Ich bin Linus Rössler, Immobilienmakler für Eigentumswohnungen. [LINUS: Gibt es einen persönlichen Bezug zu Ditzingen, Hirschlanden oder Heimerdingen? Ein Satz genügt.] Ditzingen hat einen S-Bahnhof, den laut Wikipedia mehr als 8.000 Pendler am Tag nutzen [1], den Stammsitz von Trumpf [2] und mit 101 Wohnungsangeboten bei ImmoScout24 [3] nach Leonberg den zweitgrößten Wohnungsmarkt, in dem ich arbeite. Dazu kommen drei Stadtteile mit eigenem Charakter: Hirschlanden, Heimerdingen und Schöckingen. Wenn Sie hier eine Wohnung besitzen, finden Sie unten die Preise mit Quelle und Stand, die Auflösung der Sperrfrist-Frage und ein Rechenbeispiel für die Kosten.
+Ditzingen ist der Ort in meinem Gebiet, bei dem die Portale am weitesten auseinanderliegen und bei dem die Rechtslage am häufigsten falsch wiedergegeben wird. Beides erkläre ich auf dieser Seite. Ich bin Linus Rössler und verkaufe Eigentumswohnungen, keine Häuser. [LINUS: Gibt es einen persönlichen Bezug zu Ditzingen, Hirschlanden oder Heimerdingen? Ein Satz genügt.] Ditzingen hat einen S-Bahnhof, den laut Wikipedia mehr als 8.000 Pendler am Tag nutzen [1], den Stammsitz von Trumpf [2] und mit 101 Wohnungsangeboten bei ImmoScout24 [3] nach Leonberg den zweitgrößten Wohnungsmarkt, in dem ich arbeite. Dazu kommen drei Stadtteile mit eigenem Charakter: Hirschlanden, Heimerdingen und Schöckingen. Wenn Sie hier eine Wohnung besitzen, finden Sie unten die Preise mit Quelle und Stand, die Auflösung der Sperrfrist-Frage und ein Rechenbeispiel für die Kosten.
 
 ## Der Markt für Eigentumswohnungen in Ditzingen (Stand Oktober 2026)
 
@@ -21,7 +21,7 @@ Ditzingen ist der Ort in meinem Gebiet, bei dem die Portale am weitesten auseina
 | Homeday Preisatlas [7] | 4.200 | keine Angabe | Q3 2026 | Umgebungstabelle, Methodik nicht genannt |
 | wohnungsboerse.net [8] | 4.795,73 | keine Angabe | Ende Mai 2026 | alle Kaufobjekte, also auch Häuser; nicht vergleichbar |
 
-Zwischen 3.686 und 4.796 €/m² liegen rund 30 Prozent. Das ist kein Fehler der Portale, sondern Folge von drei Dingen. Erstens zählt wohnungsboerse.net Häuser mit [8], und Häuser kosten in Ditzingen laut immoverkauf24 4.871,42 €/m² [5]. Zweitens fließen bei ImmoScout24 Angebote bis 6.525 €/m² ein [3], das sind Neubau- und Penthouse-Inserate. Drittens ist der immoportal-Wert von 3.818 auf 3.686 €/m² gefallen [4], während Sprengnetter ein Plus von 0,84 Prozent meldet [5]. Ein Portal misst, was gerade inseriert ist; das andere rechnet ein Modell. Wenn in einem Quartal mehr unsanierte Wohnungen aus den 1970er Jahren auf den Markt kommen, sinkt der Durchschnitt, ohne dass eine einzige Wohnung an Wert verloren hat.
+Zwischen 3.686 und 4.796 €/m² liegen rund 30 Prozent. Das ist kein Fehler der Portale, sondern Folge von drei Dingen. Erstens zählt wohnungsboerse.net Häuser mit [8], und Häuser kosten in Ditzingen laut immoverkauf24 4.871,42 €/m² [5]. Zweitens fließen bei ImmoScout24 Angebote bis 6.525 €/m² ein [3], das sind Neubau- und Penthouse-Inserate. Drittens ist der immoportal-Wert von 3.818 auf 3.686 €/m² gefallen [4], während Sprengnetter ein Plus von 0,84 Prozent meldet [5]. Ein Portal misst, was gerade inseriert ist; das andere rechnet ein Modell. Kommen in einem Quartal mehr unsanierte Wohnungen der 1970er Jahre auf den Markt, sinkt der Durchschnitt, ohne dass eine Wohnung an Wert verloren hat.
 
 Ein Inserat aus Hirschlanden zeigt, wie weit ein echtes Objekt vom Mittelwert entfernt sein kann: 3,5 Zimmer, 79 m², kernsaniert, 279.000 € [9]. Das sind 3.532 €/m², unter jedem Durchschnitt in der Tabelle, obwohl die Wohnung saniert ist. Alle Zahlen oben sind Angebotspreise, keine Verkaufspreise. Die amtlichen Kaufpreise führt der Gutachterausschuss, für Ditzingen vermutlich auf Ebene des Landkreises Ludwigsburg. [ZU PRÜFEN: zuständiger Gutachterausschuss für Ditzingen und Bezugsquelle des Marktberichts.] [LINUS: Marktbericht anfordern?]
 
@@ -35,7 +35,7 @@ Ditzingen ist Große Kreisstadt im Landkreis Ludwigsburg. Zur Einwohnerzahl gibt
 
 **Kernstadt.** Der Bahnhof liegt an der S6 und S62 Richtung Stuttgart-Feuerbach [1], die A 81 ist über die Ausfahrt Stuttgart-Feuerbach erreichbar [1]. Trumpf hat seinen Stammsitz hier, mit einem Gebäudekomplex an der A 81 für bis zu 1.800 Beschäftigte [1]. Für Verkäufer heißt das: Eine Wohnung, von der man zu Fuß zum Bahnhof kommt, hat eine andere Käufergruppe als eine Wohnung in Heimerdingen. Meine Beobachtung zum Bestand in der Kernstadt: [LINUS: bestätigen oder ersetzen. Welche Wohnanlagen aus den 1960er bis 1980er Jahren kennst du, wie hoch ist dort das Hausgeld, gibt es Anlagen mit anstehender Sanierung?]
 
-**Hirschlanden.** Der Stadtteil taucht in den Inseraten am häufigsten auf. Neben der kernsanierten Wohnung mit 79 m² für 279.000 € und 390 € Hausgeld im Monat [9] bot Von Poll im Oktober 2026 in Hirschlanden eine 4,5-Zimmer-Wohnung mit 108 m², Tiefgaragenplatz und zwei Balkonen für 362.000 € an [13]. Das sind 3.352 €/m², deutlich unter dem Sprengnetter-Mittel von 4.065 €/m² [5]. Ob das an der Lage, am Baujahr oder am Hausgeld liegt, lässt sich ohne Besichtigung nicht sagen. Meine Einschätzung ist, dass Hirschlanden für Familien interessant ist, die in der Kernstadt nichts finden. [LINUS: bestätigen. Gibt es in Hirschlanden Neubau-Eigentumswohnungen aus den 2010er Jahren mit Aufzug und Tiefgarage, und wie hoch ist dort das Hausgeld?]
+**Hirschlanden.** Der Stadtteil taucht in den Inseraten am häufigsten auf. Neben der kernsanierten Wohnung mit 79 m² für 279.000 € und 390 € Hausgeld im Monat [9] bot Von Poll im Oktober 2026 in Hirschlanden eine 4,5-Zimmer-Wohnung mit 108 m², Tiefgaragenplatz und zwei Balkonen für 362.000 € an [13]. Das sind 3.352 €/m², deutlich unter dem Sprengnetter-Mittel von 4.065 €/m² [5]. Meine Einschätzung ist, dass Hirschlanden für Familien interessant ist, die in der Kernstadt nichts finden. [LINUS: bestätigen. Gibt es in Hirschlanden Neubau-Eigentumswohnungen aus den 2010er Jahren mit Aufzug und Tiefgarage, und wie hoch ist dort das Hausgeld?]
 
 **Heimerdingen.** Der Bauträger iep wohnen aus Leonberg nennt ein Projekt in Ditzingen-Heimerdingen [14]. Das ist der einzige belegbare Hinweis auf Neubau, den ich für die Stadtteile gefunden habe. Ob Heimerdingen einen Bahnanschluss hat, prüfe ich vor Veröffentlichung. [ZU PRÜFEN: Strohgäubahn-Halt Heimerdingen und Takt.] Wer in Heimerdingen eine Bestandswohnung verkauft, konkurriert mit diesem Neubau um dieselben Käufer, und das bestimmt den Preis.
 
@@ -47,19 +47,19 @@ Ditzingen ist Große Kreisstadt im Landkreis Ludwigsburg. Zur Einwohnerzahl gibt
 
 **Keine Mietpreisbremse, aber nur knapp.** Ditzingen gehört nicht zu den 130 Gemeinden der Mietpreisbegrenzungsverordnung 2026 und auch nicht zum Entwurf ab 2027 [19]. Im Landesgutachten erfüllte die Stadt drei von fünf Kriterien; bei der Mietbelastung lag sie mit 20,7 Prozent um 0,1 Punkte unter der Schwelle von 20,8 Prozent [10]. Für Anleger heißt das: Bei Neuvermietung gilt in Ditzingen keine Obergrenze von zehn Prozent über der Vergleichsmiete, obwohl die Mietdynamik mit plus 21,8 Prozent seit 2017/18 der von Leonberg entspricht [10]. Bei der nächsten Neuberechnung kann sich das ändern.
 
-**Hausgeld als Prüfpunkt.** Das Inserat aus Hirschlanden nennt 390 € Hausgeld im Monat für 79 m² [9]. Das sind 4.680 € im Jahr oder 4,94 € je Quadratmeter und Monat. Ein Teil davon ist auf Mieter umlegbar, ein Teil nicht, und ein Teil geht in die Erhaltungsrücklage. Käufer, die rechnen, wollen die Aufteilung sehen. Ich lege sie im Exposé offen, weil ein hohes Hausgeld ohne Erklärung Interessenten abschreckt, ein hohes Hausgeld mit gut gefüllter Rücklage aber ein Verkaufsargument ist. Vermietet verkaufen ist in Ditzingen keine Ausnahme, sondern häufig. Der Ablauf steht im Ratgeber [Vermietete Wohnung verkaufen](/ratgeber/vermietete-wohnung-verkaufen/).
+**Hausgeld als Prüfpunkt.** Das Inserat aus Hirschlanden nennt 390 € Hausgeld im Monat für 79 m² [9]. Das sind 4.680 € im Jahr oder 4,94 € je Quadratmeter und Monat. Ein Teil davon ist auf Mieter umlegbar, ein Teil nicht, und ein Teil geht in die Erhaltungsrücklage. Käufer, die rechnen, wollen die Aufteilung sehen. Ich lege sie im Exposé offen, weil ein hohes Hausgeld ohne Erklärung Interessenten abschreckt, ein hohes Hausgeld mit gut gefüllter Rücklage aber ein Verkaufsargument ist. Der Ablauf beim Verkauf mit Mieter steht im Ratgeber [Vermietete Wohnung verkaufen](/ratgeber/vermietete-wohnung-verkaufen/).
 
 **Grundsteuer.** Die Stadt Ditzingen erhebt die Grundsteuer B vom 01.01.2026 bis 31.12.2028 mit 250 Prozent und senkt den Hebesatz ab 01.01.2029 auf 200 Prozent [20]. Seit 2025 gilt in Baden-Württemberg das Bodenwertmodell, das der Bundesfinanzhof am 20.05.2026 bestätigt hat [21]. Für eine Eigentumswohnung mit kleinem Bodenanteil ist die Grundsteuer ein kleiner Posten; im Vergleich mit Renningen (190 Prozent [20]) ist sie in Ditzingen etwas höher.
 
 **Grunderwerbsteuer 5 Prozent.** Der Käufer zahlt 5 Prozent [22]. Bei 320.000 € sind das 16.000 €. Wer mit den 6,5 Prozent aus überregionalen Ratgebern rechnet, plant 4.800 € zu viel ein.
 
-**Energieausweis.** Der Ausweis gilt für das Gebäude, die Verwaltung beschafft ihn (§ 80 GModG, ehemals GEG) [23]; die Pflichtangaben gehören in die Anzeige (§ 87 GModG) [23]. Mehr im Ratgeber [Energieausweis bei der Eigentumswohnung](/ratgeber/energieausweis/).
+**Energieausweis.** Der Ausweis gilt für das Gebäude, die Verwaltung beschafft ihn (§ 80 GModG, ehemals GEG) [23]; die Pflichtangaben gehören in die Anzeige (§ 87 GModG) [23]. Details zum Gebäudeausweis stehen im Ratgeber [Energieausweis bei der Eigentumswohnung](/ratgeber/energieausweis/).
 
 **Zuständigkeiten.** [ZU PRÜFEN: Amtsgericht Ludwigsburg für Grundbuch und Nachlass?] Landratsamt Ludwigsburg für Sozialamt und Gewerbeerlaubnis.
 
 ## Wer kauft Wohnungen in Ditzingen?
 
-**Beschäftigte von Trumpf.** Trumpf beschäftigt rund 6.500 Menschen am Stammsitz Ditzingen und an weiteren Standorten in der Region Stuttgart; weltweit waren es Ende Juni 2026 16.960, ein Jahr zuvor 18.303 [2]. Die Zahl sinkt also. Ich nenne sie trotzdem, weil Trumpf der größte Arbeitgeber vor Ort bleibt und weil ich lieber eine ehrliche Zahl mit Datum nenne als einen Satz über die „starke Wirtschaft“. Wie sich der Stellenrückgang auf die Preise auswirkt, kann ich nicht belegen, und ich behaupte es nicht.
+**Beschäftigte von Trumpf.** Trumpf beschäftigt rund 6.500 Menschen am Stammsitz Ditzingen und an weiteren Standorten in der Region Stuttgart; weltweit waren es Ende Juni 2026 16.960, ein Jahr zuvor 18.303 [2]. Die Zahl sinkt also. Ich nenne sie trotzdem, mit Datum, weil Trumpf der größte Arbeitgeber vor Ort bleibt. Wie sich der Stellenrückgang auf die Preise auswirkt, kann ich nicht belegen, und ich behaupte es nicht.
 
 **Pendler nach Stuttgart.** Mehr als 8.000 Menschen nutzen den Bahnhof täglich [1]. Für diese Gruppe zählt die Entfernung zum Bahnhof in Minuten zu Fuß, und ich schreibe sie ins Exposé. Wer in Stuttgart arbeitet und dort nicht kaufen kann, vergleicht Ditzingen mit Leonberg und Korntal-Münchingen.
 
@@ -71,22 +71,22 @@ Ditzingen ist Große Kreisstadt im Landkreis Ludwigsburg. Zur Einwohnerzahl gibt
 
 ## So verkaufe ich Ihre Wohnung in Ditzingen
 
-Ich komme zu Ihnen, sehe mir Wohnung, Haus und Unterlagen an und schreibe danach einen Verkaufsplan. Darin steht der Preisvorschlag mit den Vergleichsangeboten, auf die er sich stützt, die Käufergruppe, auf die ich ziele, die Vorbereitung, die sich lohnt, und ein Zeitplan. Bei vermieteten Wohnungen gehört die Sperrfrist mit Quelle hinein, bei Wohnungen der 1970er Jahre die Frage, ob die Energieklasse Förderkäufer anzieht. Sie entscheiden nach dem Lesen, ob ich die Vermarktung übernehme.
+Ich komme zu Ihnen, sehe mir Wohnung, Haus und Unterlagen an und schreibe danach einen Verkaufsplan. Darin steht der Preisvorschlag mit den Vergleichsangeboten, auf die er sich stützt, die Käufergruppe, auf die ich ziele, die Vorbereitung, die sich lohnt, und ein Zeitplan. Bei vermieteten Wohnungen gehört die Sperrfrist mit Quelle hinein, bei Wohnungen der 1970er Jahre die Frage, ob die Energieklasse Förderkäufer anzieht. Erst danach entscheiden Sie, ob Sie mich beauftragen.
 
-Die Vermarktung: Fotos, Exposé, Inserate, Einzelbesichtigungen mit Finanzierungsnachweis, Verhandlung, Begleitung zum Notar und zur Übergabe. Bei 101 konkurrierenden Angeboten im Ort [3] entscheidet die Vorbereitung darüber, ob Ihre Wohnung in den ersten Wochen Interessenten findet oder nach sechs Monaten noch inseriert ist.
+Die Vermarktung: Fotos, Exposé, Inserate, Einzelbesichtigungen mit Finanzierungsnachweis, Verhandlung, Begleitung zum Notar und zur Übergabe. Bei 101 konkurrierenden Angeboten im Ort [3] entscheidet die Vorbereitung über die ersten Wochen.
 
-**Was es kostet.** Meine Provision beträgt 2,98 Prozent des Kaufpreises einschließlich Umsatzsteuer, je Seite. Beispiel: 80 m² zu 4.000 €/m² ergeben 320.000 €. Davon 2,98 Prozent sind 9.536 € für Sie und derselbe Betrag für den Käufer. Fällig erst mit dem notariellen Kaufvertrag. Hintergrund im Ratgeber [Maklerprovision in Baden-Württemberg](/ratgeber/maklerprovision/).
+**Was es kostet.** Für Sie und für den Käufer je 2,98 Prozent des Kaufpreises, Umsatzsteuer eingeschlossen. Beispiel: 80 m² zu 4.000 €/m² ergeben 320.000 €. Davon 2,98 Prozent sind 9.536 € auf Ihrer Seite, derselbe Betrag auf der Käuferseite. Die Provision wird erst mit dem notariellen Kaufvertrag fällig. Wie sich das in Baden-Württemberg einordnet, steht im Ratgeber [Maklerprovision in Baden-Württemberg](/ratgeber/maklerprovision/).
 
 **Zweiter Weg: Direktankauf.** Wenn Sie keine Vermarktung wollen, prüfe ich einen Ankauf durch mich, zu einem Preis unter dem Marktwert, weil mein Risiko und mein Gewinn darin stecken. Das sage ich vorher. Details unter [Direktankauf](/direktankauf/).
 
-Meine Erlaubnis nach § 34c GewO ist beantragt. Makleraufträge nehme ich an, sobald sie erteilt ist. Einschätzung und Verkaufsplan sind schon jetzt möglich.
+Zum Stand meiner Zulassung: Die Erlaubnis nach § 34c GewO ist beantragt, Makleraufträge kann ich ab Erteilung annehmen. Für die Einschätzung Ihrer Ditzinger Wohnung und den Verkaufsplan müssen Sie nicht warten.
 
 <!-- Abschnitt „Verkäufe und Stimmen aus Ditzingen“ erst nach ersten Abschlüssen -->
 
 ## Häufige Fragen zum Wohnungsverkauf in Ditzingen
 
 ### Gilt in Ditzingen die fünfjährige Sperrfrist?
-Nach dem Text der Kündigungssperrfristverordnung vom 16.12.2025 nicht; Ditzingen steht nicht in § 1 [17]. Es gilt die gesetzliche Frist von drei Jahren (§ 577a Abs. 1 BGB) [16]. Die Liste des Mieterbunds sagt etwas anderes [18]. Ich halte mich an das Gesetzblatt und prüfe die Nachfolgeverordnung, sobald sie erscheint. [ZU PRÜFEN: siehe oben.]
+Nach dem Text der Kündigungssperrfristverordnung vom 16.12.2025 nicht; Ditzingen steht nicht in § 1 [17]. Maßgeblich ist die gesetzliche Dreijahresfrist nach § 577a Abs. 1 BGB [16]. Die Liste des Mieterbunds sagt etwas anderes [18]. Ich halte mich an das Gesetzblatt und prüfe die Nachfolgeverordnung, sobald sie erscheint. [ZU PRÜFEN: siehe oben.]
 
 ### Was ist meine Wohnung in Hirschlanden wert?
 Das lässt sich aus einem Portal-Mittelwert nicht ablesen. Zwei reale Angebote aus Hirschlanden lagen bei 3.352 und 3.532 €/m² [9][13], die Portale nennen für die ganze Stadt 3.686 bis 4.200 €/m² [4][5][6][7]. Der Wert Ihrer Wohnung hängt vom Baujahr, vom Hausgeld, von der Rücklage, von Aufzug und Stellplatz ab. Dafür komme ich vorbei. Die Einschätzung ist kostenlos.
@@ -101,11 +101,11 @@ Teilungserklärung mit Aufteilungsplan, Wirtschaftsplan, die letzte Jahresabrech
 Eine Zahl für Ditzingen habe ich noch nicht. Überregional lag die Vermarktungsdauer von Eigentumswohnungen im ersten Quartal 2026 bei durchschnittlich 90 Tagen in 24 Städten [27]. Eine Maklerumfrage vom Oktober 2026 meldet, dass 54,3 Prozent der Objekte länger als sechs Monate laufen, meist wegen überhöhter Angebotspreise; die Stichprobe ist unklar [28]. Bei 101 Angeboten in Ditzingen [3] gilt: Wer zu hoch einsteigt, wird übersehen.
 
 ### Was kostet der Verkauf?
-Für Sie 2,98 Prozent des Kaufpreises inklusive Umsatzsteuer, bei 320.000 € also 9.536 €. Dazu kommen bei Ihnen in der Regel keine weiteren Kosten; Notar und Grundbuch zahlt der Käufer, ebenso die Grunderwerbsteuer von 5 Prozent [22]. Kosten entstehen Ihnen nur, wenn Unterlagen fehlen, etwa ein Energieausweis, den die Gemeinschaft erst beschaffen muss, oder eine Löschungsbewilligung für eine alte Grundschuld.
+Für Sie 2,98 Prozent des Kaufpreises inklusive Umsatzsteuer, bei 320.000 € also 9.536 €. Dazu kommen bei Ihnen in der Regel keine weiteren Kosten; Notar und Grundbuch zahlt der Käufer, ebenso die Grunderwerbsteuer von 5 Prozent [22]. Kosten entstehen Ihnen nur, wenn Unterlagen fehlen, etwa ein Energieausweis oder die Löschung einer alten Grundschuld.
 
 ## Wohnung in Ditzingen kostenlos einschätzen lassen
 
-Rufen Sie mich an unter 0159 05844641 oder nutzen Sie das Formular unter [/wohnung-bewerten/](/wohnung-bewerten/). Ich melde mich innerhalb eines Werktags, sehe mir Ihre Wohnung an und sage Ihnen, in welcher Spanne ich sie sehe und warum. Kostenlos, ohne Verpflichtung, ohne Weitergabe Ihrer Daten.
+Telefon 0159 05844641, oder Sie schicken mir die Eckdaten Ihrer Wohnung über [/wohnung-bewerten/](/wohnung-bewerten/). Ich melde mich innerhalb eines Werktags, sehe mir Ihre Wohnung an und sage Ihnen, in welcher Spanne ich sie sehe und warum. Das kostet Sie nichts und verpflichtet Sie zu nichts; Ihre Daten bleiben bei mir.
 
 ## Weitere Orte
 
