@@ -377,7 +377,7 @@ Prüfpunkte:
 ### 9.3 Sonstiges
 
 - Preisangaben: Provision „inkl. USt“ wird genannt. Gut. Bei Erlaubniserteilung ggf. USt-IdNr. ergänzen oder den Kleinunternehmer-Status klarstellen (derzeit „liegt nicht vor“).
-- Sobald Exposés auf der Seite erscheinen: Pflichtangaben aus dem Energieausweis (GEG § 87) in jeder Anzeige, Widerrufsbelehrung für Maklerverträge im Fernabsatz, Provisionsangabe in Anzeigen.
+- Sobald Exposés auf der Seite erscheinen: Pflichtangaben aus dem Energieausweis in jeder Anzeige (§ 87 GModG, das Gebäudemodernisierungsgesetz hat das GEG zum 29.7.2026 abgelöst; ab 1.1.2027 gelten erweiterte Pflichtangaben, Bußgeld bis 10.000 Euro, siehe `../recherche/marktthemen-2026.md` Kapitel 2), Widerrufsbelehrung für Maklerverträge im Fernabsatz, Provisionsangabe in Anzeigen. Die FAQ-Antwort „Brauche ich einen Energieausweis?“ auf der Live-Seite ist inhaltlich noch richtig, nennt aber kein Gesetz; beim Umbau GModG und die Änderungen 2027 ergänzen.
 - Bildrechte der vier Motivbilder: nicht prüfbar. Falls Stockfotos, Lizenz dokumentieren; falls eigene, ist das ein Argument, es zu sagen („Fotos: eigene Aufnahmen aus der Region“).
 
 ---
