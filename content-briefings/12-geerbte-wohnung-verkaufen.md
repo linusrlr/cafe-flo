@@ -62,6 +62,19 @@
 | ZU PRÜFEN: Anzeigepflicht des Erwerbs beim Finanzamt binnen drei Monaten | § 30 ErbStG | A2 Nr. 6 |
 | ZU PRÜFEN: Nachlassgericht und Grundbuchamt für Leonberg, Renningen, Heimsheim (Amtsgericht Leonberg?), Ditzingen (Amtsgericht Ludwigsburg?), Pforzheim; Erbschaftsteuer-Finanzamt in BW (zentrale Zuständigkeit) | A2 Nr. 11 | nicht belegt |
 | ZU PRÜFEN: Aktuelle Marktberichte der Gutachterausschüsse (Leonberg, Enzkreis, Pforzheim) mit ETW-Kaufpreisen | A2 Nr. 12 | nicht belegt |
+| **Nachtrag aus marktthemen-2026.md (Stand 29.10.2026)** | | |
+| Erbschaftsteuer-Freibeträge unverändert seit 2009; BVerfG hat am 12./13.10.2026 mündlich verhandelt (Normenkontrollantrag Bayern 1 BvF 1/23; Verfassungsbeschwerde 1 BvR 804/22); Urteil offen; Reform der Bundesregierung verschoben (Quellen widersprüchlich, ZU PRÜFEN) | § 16 ErbStG; BVerfG | https://www.roedl.com/insights/bundesverfassungsgericht-prueft-erbschaftsteuer/ (12.08.2026) |
+| Familienheim: Ehegatte unbegrenzt, Kinder bis 200 m² Wohnfläche, zehn Jahre Selbstnutzung | § 13 Abs. 1 Nr. 4b/4c ErbStG | marktthemen-2026.md Kap. 5b (bestätigt die 200-m²-Angabe; im Gesetz gegenprüfen) |
+| 10 % Bewertungsabschlag für vermietete Wohnimmobilien | § 13d ErbStG | marktthemen-2026.md Kap. 5b |
+| Immobilienbewertung für die Erbschaftsteuer seit 01.01.2023 nach ImmoWertV-2021-Logik (JStG 2022): Regionalfaktor, Liegenschaftszins 3,5 % statt 5 % bei Mietwohngrundstücken, Gesamtnutzungsdauer 80 Jahre; tendenziell höhere Werte | §§ 182 ff. BewG | marktthemen-2026.md Kap. 5a, 5b |
+| Nachweis eines niedrigeren gemeinen Werts durch Gutachten oder zeitnahen Verkauf (innerhalb eines Jahres) | § 198 BewG | marktthemen-2026.md Kap. 5b |
+| Spekulationsfrist bleibt: Bundestag 08.10.2026 (131 zu 446), Bundesrat 16.10.2026; Erben treten in die Frist des Erblassers ein | § 23 EStG | https://hausbesitzer-news.de/recht-finanzen/spekulationsfrist-immobilien-abschaffen-aktueller-stand/ (17.10.2026) |
+| Mietrechtspaket II (Entwurf): „Kauf bricht nicht Miete“ (§ 566 BGB) ausdrücklich auch bei Erbauseinandersetzung; ZU PRÜFEN Inkrafttreten | BT-Drs. 21/6807 | https://www.bundestag.de/presse/hib/kurzmeldungen-1224894 (15.10.2026) |
+| Erbvolumen bis zu 400 Mrd. € pro Jahr (2012 bis 2027, inkl. Schenkungen); keine aktuellere amtliche Zahl | DIW/Hans-Böckler-Stiftung 2017 | https://www.diw.de/de/diw_01.c.560993.de/… (Kap. 13e) |
+| IW/Sparda-Studie (Oktober 2026): in 300 von 400 Kreisen übersteigen Eigentümerhaushalte 65+ rechnerisch die Mieterhaushalte 30 bis 44; Metropolregionen mit ausreichender junger Nachfrage; kein automatischer Preisverfall; Kreiswerte Böblingen/Enzkreis/Pforzheim ZU PRÜFEN (Paywall) | Studie | https://www.tagesspiegel.de/wirtschaft/studie-zeigt-folgen-fur-die-preise-wenn-babyboomer-ihre-hauser-verkaufen-16169054.html (17.10.2026) |
+| Barzahlungsverbot beim Immobilienkauf seit 01.04.2023; Identifizierung aller Erben als Verkäufer beim Makler | § 16a, § 11 GwG | https://gwgimmo.de/blog/gwg/geldwaschegesetz-fur-immobilienmakler-pflichten-risiken-klare-handlungsempfehlungen-2026 |
+| Immobilienkaufverträge müssen weiterhin in Präsenz beurkundet werden (keine Videobeurkundung); auswärtige Erben per Vollmacht | § 311b BGB; BeurkG | marktthemen-2026.md Kap. 8a |
+| Bauzinsen ca. 4,2 bis 4,5 % (Okt. 2026): Käufer, die einen Miterben auszahlen wollen, finanzieren teurer als 2025 (3,38 %) | Marktzins | https://www.drklein.de/zinsen.html |
 
 ## 4. Gliederung (H1–H3) mit Stichpunkten je Abschnitt
 - **Title (≤ 60 Zeichen):** Geerbte Wohnung verkaufen: Erbschein, WEG, Steuern (2026)
@@ -149,6 +162,12 @@
   - Unterzeile: „Auch wenn Sie nicht in der Region wohnen: Ich schaue mir Wohnung und Gebäude an, fordere die Unterlagen bei der Verwaltung an und schicke Ihnen eine schriftliche Einschätzung.“
   - Sekundär: „Fahrplan für die ersten zwölf Wochen als PDF“
   - Abschluss-Band: „Eine geerbte Wohnung ist keine Eile, aber sie kostet jeden Monat Hausgeld. Lassen Sie uns klären, was sie wert ist und was als Nächstes dran ist.“
+
+- **Technik und Pflege:**
+  - Schema: Article, FAQPage, BreadcrumbList; Autorenbox; „Stand“-Vermerk; Quellenliste am Seitenende.
+  - Update-Trigger: BVerfG-Urteil zur Erbschaftsteuer (1 BvF 1/23, 1 BvR 804/22), Mietrechtspaket II, Marktberichte der Gutachterausschüsse, jährliche Prüfung der Freibeträge.
+  - Pflichthinweis auf der Seite: „Ich erbringe keine Steuer- und Rechtsberatung“ im ersten Abschnitt, bei Erbschaftsteuer und bei Spekulationssteuer.
+  - Wortzahl-Verteilung: Kürze 120, sechs Wochen 250, Nachweis 300, WEG 450, Erbengemeinschaft 450, Erbschaftsteuer 450, Spekulationssteuer 300, Finanzamtswert 300, Entscheidung 250, Verkauf 250, FAQ 350, CTA 80 = ca. 3.550 Wörter.
 
 ## 6. Anti-Slop-Regeln für diese Seite
 - Keine Allgemeinplätze („Ein Erbe bringt Freude und Verantwortung“, „in dieser schweren Zeit“, „emotionale Entscheidung“). Verboten: „Trauer und Papierkram“, „Streit ums Erbe ist menschlich“, „wir nehmen Ihnen alles ab“.

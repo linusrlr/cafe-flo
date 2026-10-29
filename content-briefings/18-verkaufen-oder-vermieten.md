@@ -59,6 +59,22 @@
 | ZU PRÜFEN: Mietpreisbremse/Kappungsgrenze BW für die fünf Orte (Mieterhöhungspotenzial) | A2 Nr. 3 | nicht belegt |
 | ZU PRÜFEN: IW-Köln-Studie zu Mietrenditen (Primärquelle, Jahr, Städte) | 9.5 | nicht belegt |
 | ZU PRÜFEN: Annahmen für nicht umlagefähige Kosten, Instandhaltungsrücklage, Mietausfallwagnis in der Beispielrechnung (Linus liefert Erfahrungswerte) | eigene Annahmen | offen |
+| **Nachtrag aus marktthemen-2026.md (Stand 29.10.2026)** | | |
+| Mietpreisbremse (höchstens 10 % über Vergleichsmiete bei Neuvermietung): Leonberg ja (seit 2020, erneut ab 01.01.2026), Pforzheim ja (erstmals 2026), Ditzingen, Renningen, Heimsheim nein (je 3 von 5 Kriterien); MietBegrenzVO BW vom 16.12.2025 (GBl. Nr. 144), 130 Gemeinden, bis 31.12.2026; Entwurf ab 2027 (133 Gemeinden) in Anhörung seit 22.09.2026, fünf Orte unverändert; Bundesermächtigung bis 31.12.2029 | §§ 556d ff. BGB; MietBegrenzVO BW | https://mlw.baden-wuerttemberg.de/de/bauen-wohnen/wohnungsbau/mietpreisbremse ; https://www.umwelt-online.de/recht/bau/laender/bw/mietschv26.htm ; MLW-Einzeldaten Stand August 2025 (XLSX) |
+| Kriterien der Kulisse (FUB IGES-Gutachten 2025): mindestens 4 von 5 Indikatoren; Ditzingen scheiterte an der Mietbelastungsquote (20,7 % vs. Schwelle 20,8 %) | Gutachten | marktthemen-2026.md Kap. 1b |
+| Ausnahmen Mietpreisbremse: Erstvermietung nach 01.10.2014, erste Vermietung nach umfassender Modernisierung, Vormiete | §§ 556e, 556f BGB | marktthemen-2026.md Kap. 1b |
+| Kappungsgrenze 15 % in drei Jahren in den BW-Gebieten (Kappungsgrenzen-VO BW bis 31.12.2026, Verlängerung in Anhörung); Gemeindeliste ZU PRÜFEN | § 558 Abs. 3 BGB | marktthemen-2026.md Kap. 1b |
+| Mietrechtspaket II (Regierungsentwurf BT-Drs. 21/6807; 1. Lesung 09.07.2026; Anhörung 14.10.2026; 2./3. Lesung offen): Kurzzeitvermietung nur bis 6 Monate ausgenommen; Möblierungszuschlag gesondert ausweisen (Vermutung bis 10 % angemessen); Indexmiete in angespannten Gebieten nur zur Hälfte oberhalb 3 % Inflation; Schonfristzahlung heilt auch ordentliche Kündigung; Modernisierungs-Vereinfachung bis 20.000 €; § 566 auch bei Erbauseinandersetzung | Entwurf | https://www.bundestag.de/presse/hib/kurzmeldungen-1224894 (15.10.2026); https://www.haufe.de/immobilien/wirtschaft-politik/mietrechtsreform-2026_84342_684280.html |
+| Mieten 2026: Leonberg 15,41 €/m² (E&V Juni 2026) bzw. 12,76 (Immowelt ETW-Miete 7/2026); Ditzingen 15,51 (E&V); Renningen 14,08 (E&V); Heimsheim 13,10 (ohne-makler.net); Pforzheim Mietspiegel 2025 Ø 8,58 (+9,02 %), IVD Neuvertrag Bestand 9,60 / Neubau 11,00, Immowelt 10,47, certa 11,27 | Mietdaten | https://www.engelvoelkers.com/de-de/mietspiegel/baden-wuerttemberg/leonberg/ ; https://www.pforzheim.de/buerger/buergerservice/kommunale-statistikstelle/statistische-veroeffentlichungen/mietspiegel.html ; https://www.certa-gutachten.de/marktberichte/pforzheim-q1-2026 |
+| Angebotspreise E&V 26.10.2026: Leonberg 4.028 €/m² (+1,09 %), Ditzingen 3.843, Renningen 3.882, Pforzheim 2.941; Destatis Q2 2026: ETW Top-7 −0,4 %, dicht besiedelte ländliche Kreise −1,8 % | Preisdaten | https://www.engelvoelkers.com/de-de/immobilienpreise/baden-wuerttemberg/leonberg/ ; https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/09/PD26_336_61262.html |
+| Bauzinsen 10 Jahre ca. 4,2 bis 4,5 % (Okt. 2026; Vorjahr 3,38 %); Inflation 3,3 % (Sept. 2026); EZB Einlagensatz 2,50 % (29.10.2026) | Marktdaten | https://www.drklein.de/zinsen.html ; https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/10/PD26_364_611.html |
+| Spekulationsfrist bleibt (Bundestag 08.10.2026, Bundesrat 16.10.2026); Dossier-Beispiel D2: vermietete Leonberger Wohnung, Gewinn 34.450 €, Steuer ca. 14.470 € bei 42 % | § 23 EStG | marktthemen-2026.md Kap. 5, Anhang D2 |
+| KfW 308 (Klasse F/G/H, bis 180.000 € zu 1,00 %): Verkauf an Familien als Alternative zur Vermietung; nur bei schlechter Energieklasse | KfW 308 | https://www.baukostenplan.de/ratgeber/kfw-308-jung-kauft-alt-2026-neue-kreditbetraege (07.10.2026) |
+| GModG seit 29.07.2026: keine 65 %-Pflicht, kein Kesselverbot; Vermieter tragen ab 2028/2029 pauschal 50 % der Mehrkosten aus Netzentgelt, CO₂ und Biobrennstoff (§ 5a Abs. 3 CO2KostAufG); Wärmepumpen-Modernisierungskosten nur voll umlagefähig bei JAZ ≥ 2,5 | GModG; CO2KostAufG | https://www.bundesregierung.de/breg-de/aktuelles/neues-gebaeudemodernisierungsgesetz-2430284 |
+| Bosch baut in der Sparte CDC 3.500 Stellen ab (ca. die Hälfte in Deutschland), betroffen u. a. Leonberg und Renningen; betriebsbedingte Kündigungen bis mindestens Ende 2027 ausgeschlossen; Porsche 1.900 Stellen Region Stuttgart bis 2029; Stuttgarter Mieten in einzelnen Bezirken −2 €/m² (2024 → 2025) | Presse | https://www.stuttgarter-zeitung.de/lokales/boeblingen/stellenabbau-in-leonberg-und-renningen-boschler-entzuenden-feuer-79019794.html ; https://www.stuttgarter-nachrichten.de/inhalt.wohnpreise-in-der-region-stuttgart-was-bedeutet-der-umbruch-der-autoindustrie-fuer-den-stuttgarter-wohnungsmarkt.4092cdd2-fd08-4353-a223-08954d83d183.html (01.06.2026, Paywall) |
+| IW/Sparda-Studie Oktober 2026: kein automatischer Preisverfall durch Babyboomer-Verkäufe in Metropolregionen; IW-Prognose Median 3.024 €/m² (2025) → 4.092 €/m² (2035) nur als Studienaussage, keine eigene Prognose | Studie | https://www.tagesspiegel.de/wirtschaft/studie-zeigt-folgen-fur-die-preise-wenn-babyboomer-ihre-hauser-verkaufen-16169054.html (17.10.2026) |
+| Pforzheim: 45 % Einpersonenhaushalte, Bevölkerung leicht rückläufig (Arlinger 2025); Mietmarkt angespannt, Kaufmarkt verhalten (IVD Frühjahr 2026) | lokal | https://arlinger.de/wp-content/uploads/2026/06/ePaper-Badische-Neueste-Nachrichten.pdf ; https://www.konii.de/?p=211416 |
+| MLW-Gutachtendaten: Leerstand 2022 Leonberg 1,5 %, Pforzheim 1,8 %; Versorgungsgrad Leonberg 94,7 %, Pforzheim 95,5 % | amtlich | MLW BW Einzeldaten (XLSX, marktthemen-2026.md Kap. 1e) |
 
 ## 4. Gliederung (H1–H3) mit Stichpunkten je Abschnitt
 - **Title (≤ 60 Zeichen):** Wohnung verkaufen oder vermieten? Rechnung für Leonberg, Pforzheim
@@ -95,6 +111,12 @@
 - **H2: Nachfrage vor Ort: Wer mietet, wer kauft** (ca. 250 Wörter)
   - Arbeitgeber und Pendlerzahlen mit Quelle (GEZE, Trumpf, Bosch, Porsche mit Restrukturierungshinweis, Bahnhof Ditzingen 8.000 Pendler); IVD Pforzheim „Mietnachfrage hoch, Kaufmarkt verhalten“; keine Prognosen.
 
+- **H2: Mietpreisbremse und Kappungsgrenze: Leonberg und Pforzheim ja, Ditzingen, Renningen, Heimsheim nein** (ca. 350 Wörter)
+  - Tabelle der fünf Orte (in Kulisse 2026? / erfüllte Kriterien / Angebotsmiete 2022/23 laut Gutachten / Kappungsgrenze / Sperrfrist).
+  - Was das für die Vermietungsrechnung heißt: In Leonberg und Pforzheim höchstens 10 % über Vergleichsmiete bei Neuvermietung und 15 % in drei Jahren im Bestand; in den drei anderen Orten frei (nur allgemeine Regeln, § 558 BGB 20 %).
+  - Mietrechtspaket II als Ausblick (Möblierung, Kurzzeit, Index), mit Stand-Datum und ohne Prognose.
+  - Heizkosten-Umlage ab 2028/2029 (CO2KostAufG) als Vermieterkosten.
+
 - **H2: Der 10-Fragen-Check** (ca. 300 Wörter)
   - IS24-Fragen umformuliert plus WEG-Fragen: Steht eine Sanierung oder Sonderumlage an? Wie hoch ist der nicht umlagefähige Hausgeldanteil? Wohne ich weiter als 50 km entfernt? Will ich in fünf Jahren selbst wieder einziehen?
   - Scoring: eher verkaufen / eher vermieten / Gespräch.
@@ -128,6 +150,13 @@
   - Unterzeile: „Die eine Hälfte der Rechnung ist der Verkaufserlös. Den kann ich Ihnen belastbar nennen. Die andere Hälfte rechnen wir gemeinsam durch, mit Ihren Zahlen.“
   - Sekundär: „10-Fragen-Check starten“
   - Abschluss-Band: „Vermieten ist keine falsche Entscheidung. Es ist eine, die man mit dem Wirtschaftsplan in der Hand treffen sollte. Ich bringe ihn mit.“
+
+- **Tabelle „Mietregulierung je Ort 2026“:** Ort / Mietpreisbremse / Kappungsgrenze / Kündigungssperrfrist bei Umwandlung / Angebotsmiete 2022/23 (MLW) / Gültigkeit der Verordnungen.
+- **Technik und Pflege:**
+  - Schema: Article, FAQPage, BreadcrumbList; Autorenbox mit Vermietererfahrung; „Stand“-Vermerk; Quellenliste am Seitenende.
+  - Rechner und 10-Fragen-Check rein clientseitig, ohne Tracking.
+  - Update-Trigger: 01.01.2027 (MietBegrenzVO, Kappungsgrenzen-VO, KSpVO Nachfolge), Mietrechtspaket II, monatlich Zinsen, quartalsweise Mieten/Preise, Mietspiegel Pforzheim, Bosch-/Porsche-Meldungen.
+  - Wortzahl-Verteilung: Kürze 130, Rechnung 700, WEG 400, Anleger/Sperrfrist 350, Steuer 350, Nachfrage 250, Mietregulierung 350, Check 300, FAQ 350, CTA 80 = ca. 3.260 Wörter.
 
 ## 6. Anti-Slop-Regeln für diese Seite
 - Keine Allgemeinplätze („Immobilien sind eine sichere Anlage“, „Betongold“, „die Preise steigen langfristig immer“). Verboten: „passives Einkommen“, „Cashflow-Maschine“, „Vermieten ist Stress pur“, „Verkaufen Sie, solange die Preise hoch sind“.

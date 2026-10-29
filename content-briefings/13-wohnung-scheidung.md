@@ -61,6 +61,16 @@
 | Rössler-Provision 2,98 % je Seite inkl. USt | eigene Website | Analyse 01, 2.1 |
 | ZU PRÜFEN: Zuständiges Familiengericht und Vollstreckungsgericht für Leonberg, Renningen, Heimsheim, Ditzingen, Pforzheim | A2 Nr. 11 | nicht belegt |
 | ZU PRÜFEN: Gerichtskosten einer Teilungsversteigerung bei Verkehrswert 290.000 € (GKG-Tabelle) für ein regionales Beispiel | eigene Ergänzung | nicht belegt |
+| **Nachtrag aus marktthemen-2026.md (Stand 29.10.2026)** | | |
+| Bundesrat hat am 25.09.2026 zum Jahressteuergesetz 2026 eine Ausnahme von der Spekulationssteuer für Verkäufe infolge Scheidung/Trennung vorgeschlagen (BR-Drs. 447/26(B), Ziffer 2); Bundesregierung „wird prüfen“; derzeit kein Gesetz, Verkauf innerhalb zehn Jahren bleibt steuerpflichtig | § 23 EStG (Vorschlag) | https://www.haufe.de/steuern/gesetzgebung-politik/bundesrat-nimmt-stellung-zum-einkommensteuerreformgesetz-2027_168_700990.html (19.10.2026); marktthemen-2026.md Kap. 5a; ZU PRÜFEN Verlauf |
+| Spekulationsfrist insgesamt unverändert (Bundestag 08.10.2026, Bundesrat 16.10.2026) | § 23 EStG | https://hausbesitzer-news.de/recht-finanzen/spekulationsfrist-immobilien-abschaffen-aktueller-stand/ (17.10.2026) |
+| Verkauf des Miteigentumsanteils an den Ex-Ehegatten nach Auszug ist steuerpflichtig (BFH 2023) | BFH IX R 11/23 | marktthemen-2026.md Kap. 5c (bestätigt den Hinweis aus Thema 4); Volltext ZU PRÜFEN |
+| Mietrechtspaket II (Entwurf): § 566 BGB auch bei Veräußerung unter Miteigentümern (relevant, wenn die gemeinsame Wohnung vermietet ist und ein Partner übernimmt); ZU PRÜFEN Inkrafttreten | BT-Drs. 21/6807 | https://www.bundestag.de/presse/hib/kurzmeldungen-1224894 (15.10.2026) |
+| Bauzinsen ca. 4,2 bis 4,5 % (Dr. Klein Topzins 4,20 % am 29.10.2026, Vorjahr 3,38 %): Die Übernahme durch einen Partner wird teurer; Beispiel 300.000 € bei 2 % Tilgung: 875 €/Monat (1,5 %) vs. 1.625 €/Monat (4,5 %) | Marktzins | https://www.drklein.de/zinsen.html ; marktthemen-2026.md Kap. 10b |
+| Bundesbank: bis 2027 ca. 20 % des Wohnimmobilien-Kreditvolumens zu refinanzieren; Anschlussfinanzierung von 1 % auf über 4 % | Bundesbank via ad-hoc-news 22.10.2026 | https://ad-hoc-news.de/wirtschaft/immobilienmarkt-54-3-prozent-der-verkaeufe-dauern-laenger-als-sechs-monate/70395215 |
+| Barzahlungsverbot (seit 01.04.2023) und Identifizierungspflicht beider Eigentümer beim Makler | § 16a, § 11 GwG | https://gwgimmo.de/blog/gwg/geldwaschegesetz-fur-immobilienmakler-pflichten-risiken-klare-handlungsempfehlungen-2026 |
+| Kaufvertrag nur in Präsenz beim Notar (keine Videobeurkundung); getrennte Termine oder Vollmacht möglich (Notar klärt) | § 311b BGB | marktthemen-2026.md Kap. 8a |
+| Grundsteuer BW seit 2025 bodenwertbasiert; für ETW kleiner Posten (Beispiel 80 m² mit 150 m² Bodenanteil: ca. 150 bis 205 €/Jahr je nach Hebesatz); Leonberg 220 % (250 % ab 2027 geplant, ZU PRÜFEN), Ditzingen 250 %, Renningen 190 % | LGrStG BW | marktthemen-2026.md Kap. 4, Anhang D4 |
 
 ## 4. Gliederung (H1–H3) mit Stichpunkten je Abschnitt
 - **Title (≤ 60 Zeichen):** Wohnung bei Scheidung: Übernahme, Verkauf, Versteigerung
@@ -133,6 +143,12 @@
   - Unterzeile: „Sie bekommen beide dieselbe schriftliche Einschätzung mit denselben Vergleichswerten. Ob Sie danach verkaufen oder einer übernimmt, entscheiden Sie.“
   - Sekundär: „Checkliste für die ersten drei Monate herunterladen“
   - Abschluss-Band: „Je länger die Wohnung zwischen Ihnen steht, desto teurer wird sie: Hausgeld, Zinsen, Nerven. Ein belastbarer Wert ist der erste Schritt, den Sie gemeinsam gehen können.“
+
+- **Technik und Pflege:**
+  - Schema: Article, FAQPage, BreadcrumbList; Autorenbox; „Stand“-Vermerk; Quellenliste am Seitenende.
+  - Update-Trigger: Jahressteuergesetz 2026 (Scheidungs-Ausnahme § 23 EStG), Mietrechtspaket II, EZB-Sitzungen (Zins im Übernahme-Beispiel), Beschluss Hebesatz Leonberg 2027.
+  - Pflichthinweis „keine Rechts- und Steuerberatung“ im ersten Abschnitt und bei jedem Steuer-/Rechtsabschnitt.
+  - Wortzahl-Verteilung: Kürze 120, Grundbuch/Zugewinn 350, vier Wege 700, Trennungszeit 400, Steuern 350, neutrale Bewertung 300, Checkliste 200, FAQ 350, CTA 80 = ca. 2.850 Wörter; mit Zins-Beispiel in Weg 2 (+150) ca. 3.000.
 
 ## 6. Anti-Slop-Regeln für diese Seite
 - Keine Allgemeinplätze („Eine Scheidung ist eine schwere Zeit“, „Emotionen kochen hoch“, „gemeinsam Lösungen finden“). Verboten: „Rosenkrieg“, „Scherbenhaufen“, „fair für alle Seiten“, „wir vermitteln zwischen den Fronten“.

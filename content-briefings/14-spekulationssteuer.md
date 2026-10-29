@@ -58,7 +58,7 @@
 | Steuersatz: persönlicher Einkommensteuersatz; IS24-FAQ „maximal etwa 40 %“ ist unpräzise (nicht übernehmen) | alle Seiten | s. o. |
 | Teilentgeltlicher Erwerb (Miterben auszahlen): neue Frist für den entgeltlichen Teil; Kauf eines Erbanteils löst keine neue Frist aus | steuertipps.de | https://www.steuertipps.de/wohnen-haus-vermietung/spekulationssteuer-immobilien/themen |
 | Scheidung: Übertragung des Miteigentumsanteils an den Ex-Partner nach Auszug kann steuerpflichtig sein | Homeday; BFH IX R 11/23 vom 14.02.2023 | 4.5; Urteil ZU PRÜFEN (A2 Nr. 7) |
-| Gewerblicher Grundstückshandel: mehr als drei Objekte in fünf Jahren → Gewerbesteuer-Risiko | Drei-Objekt-Grenze, BFH-Richterrecht; BMF-Schreiben 26.03.2004 (IV A 6 – S 2240 – 46/04) | IS24 (H3 „Gewerblicher Immobilienhandel“); ZU PRÜFEN (A2 Nr. 9) |
+| Gewerblicher Grundstückshandel: mehr als drei Objekte in fünf Jahren → Gewerbesteuer-Risiko | Drei-Objekt-Grenze, BFH-Richterrecht; BMF-Schreiben 26.03.2004 (IV A 6 / S 2240 / 46/04) | IS24 (H3 „Gewerblicher Immobilienhandel“); ZU PRÜFEN (A2 Nr. 9) |
 | Rücklagenanteil: beim Kauf keine Anschaffungskosten, beim steuerpflichtigen Verkauf aus dem Veräußerungspreis herauszurechnen | ecovis-kso.com, IWW (lt. Suchergebnissen); BFH-Urteile zur Instandhaltungsrücklage (reduco verlinkt „3 BFH-Urteile“) | 8.5; 5.7 Nr. 1; ZU PRÜFEN: Aktenzeichen und aktuelle Rechtslage |
 | Grunderwerbsteuer BW 5 % gehört zu den Anschaffungsnebenkosten | 5 % | https://www.finanz.de/steuern/grunderwerbsteuer/baden-wuerttemberg/ |
 | Verkaufsnebenkosten (Makler, Notar für Löschung) mindern den Gewinn | § 23 Abs. 3 EStG; IS24 (Thema 2) | s. o. |
@@ -66,6 +66,17 @@
 | Rössler-Provision 2,98 % je Seite inkl. USt (Verkaufskosten im Beispiel) | eigene Website | Analyse 01, 2.1 |
 | ZU PRÜFEN: AfA-Satz für das Beispiel (2 % für Gebäude; Gebäudeanteil am Kaufpreis als Annahme) | eigene Annahme | mit Steuerberater abstimmen |
 | ZU PRÜFEN: Solidaritätszuschlag und Kirchensteuer auf den Steuerbetrag im Beispiel | eigene Ergänzung | mit Steuerberater abstimmen |
+| **Nachtrag aus marktthemen-2026.md (Stand 29.10.2026)** | | |
+| Spekulationsfrist bleibt: Bundestag lehnte Grünen-Entwurf (BT-Drs. 21/6637, geschätzte Mehreinnahmen ca. 6 Mrd. €) am 08.10.2026 mit 131 Ja zu 446 Nein ab; Bundesrat-Plenum übernahm Streichungsempfehlung des Finanzausschusses am 16.10.2026 nicht (BR-Drs. 507/26(B)); Regierungsentwurf EStRefG 2027 (BT-Drs. 21/8235) ohne Änderung des § 23 | § 23 EStG | https://hausbesitzer-news.de/recht-finanzen/spekulationsfrist-immobilien-abschaffen-aktueller-stand/ (17.10.2026); https://www.haufe.de/steuern/gesetzgebung-politik/bundesrat-nimmt-stellung-zum-einkommensteuerreformgesetz-2027_168_700990.html (19.10.2026) |
+| Bundesrat schlug am 25.09.2026 zum JStG 2026 eine Ausnahme für Verkäufe infolge Scheidung/Trennung vor (BR-Drs. 447/26(B), Ziffer 2); Bundesregierung prüft; ZU PRÜFEN Verlauf | Vorschlag | marktthemen-2026.md Kap. 5a |
+| Modellrechnung bei Wegfall der Frist (hausbesitzer-news, ledig, zvE 60.000 €): 150.000 € Gewinn → ca. 62.800 € zusätzliche ESt; 50.000 € → ca. 20.800 € (nur als Hintergrund, nicht auf die Seite) | Sekundärquelle | s. o. |
+| Lineare AfA: 2 % (Baujahr ab 1925), 2,5 % (vor 1925), 3 % (Fertigstellung ab 2023); degressive AfA 5 % vom Restwert für Wohngebäude mit Baubeginn 01.10.2023 bis 30.09.2029 (§ 7 Abs. 5a EStG); Sonder-AfA § 7b | § 7 Abs. 4, 5a, § 7b EStG | marktthemen-2026.md Kap. 5b; https://www.immowelt.de/ratgeber/kaufen/afa-degressiv |
+| Dossier-Rechenbeispiel D2: Leonberg 75 m², Kauf 2018 270.000 € (plus 7 % Nebenkosten 18.900 €), Verkauf 2026 300.000 €, AfA 2 % auf 80 % Gebäudeanteil = 34.560 €, Verkaufskosten 11.210 € (3,57 % plus 500 €) → Gewinn 34.450 €, Steuer ca. 14.470 € bei 42 % (ohne Soli/KiSt); nach zehn Jahren 0 € | § 23 EStG | marktthemen-2026.md Anhang D2 (mit Rössler-Provision 2,98 % neu rechnen) |
+| Drei-Objekt-Grenze: mehr als drei Objekte in ca. fünf Jahren → Vermutung gewerblicher Grundstückshandel (BFH GrS 1/98 vom 10.12.2001); bei Sanierung beginnt die Frist mit Abschluss der Sanierung (BFH IV R 57/01); sanierte Altbauten als Zählobjekte (BFH X R 18/18 vom 15.01.2020); unbedingte Veräußerungsabsicht kann schon ein Objekt gewerblich machen; Folgen: § 15 EStG, Gewerbesteuer (Freibetrag 24.500 €), keine AfA, Buchführung | BFH-Rechtsprechung | https://www.steuerschroeder.de/blog/?p=78250 ; https://www.iww.de/gstb/steuerrecht-aktuell/immobilien-gewerblicher-grundstueckshandel-erweiterungsbau-als-zaehlobjekt-und-weitere-fallstricke-f135017 |
+| Sonderfall BFH III R 14/23 (März 2025): erstmalige Verkäufe im sechsten Jahr ohne Vorbereitung in fünf Jahren im Einzelfall kein Grundstückshandel | BFH III R 14/23 | https://www.datev-magazin.de/nachrichten-steuern-recht/steuern/bfh-erweiterte-kuerzung-und-drei-objekt-grenze-bei-erstmaligen-grundstuecksveraeusserungen-im-sechsten-jahr-139443 (22.05.2025) |
+| Grundstücksverkäufe umsatzsteuerfrei (§ 4 Nr. 9a UStG); Wohnraumvermietung umsatzsteuerfrei (§ 4 Nr. 12 UStG) | UStG | marktthemen-2026.md Kap. 5b |
+| Handwerkerleistungen § 35a EStG: Regierungsentwurf EStRefG 2027 senkt Abzug von 20 % auf 15 % und Höchstbetrag von 1.200 € auf 900 € (ZU PRÜFEN, Bundestag nicht abgeschlossen); Renovierung vor Verkauf 2026 noch mit 20 % | § 35a EStG (Entwurf) | marktthemen-2026.md Kap. 5a |
+| 10 % Bewertungsabschlag für vermietete Wohnimmobilien bei der Erbschaftsteuer | § 13d ErbStG | marktthemen-2026.md Kap. 5b |
 
 ## 4. Gliederung (H1–H3) mit Stichpunkten je Abschnitt
 - **Title (≤ 60 Zeichen):** Spekulationssteuer Eigentumswohnung: Frist, Ausnahmen, Beispiel
@@ -144,6 +155,13 @@
   - Unterzeile: „Der Verkaufspreis entscheidet mit, ob sich Warten lohnt. Ich sage Ihnen, was Ihre Wohnung heute bringt. Die Steuer rechnet Ihr Steuerberater, gern mit meinen Zahlen.“
   - Sekundär: „Frühesten steuerfreien Verkaufstermin berechnen“
   - Abschluss-Band: „Zehn Jahre sind eine lange Zeit, aber kein Naturgesetz. Lassen Sie uns gemeinsam schauen, ob Verkaufen jetzt oder in zwei Jahren für Sie besser ist.“
+
+- **Zusätzlicher H2 (aus Nachtrag), direkt nach „In Kürze“:** „Die Frist bleibt: Was Bundestag und Bundesrat im Oktober 2026 entschieden haben“ (ca. 200 Wörter): 08.10.2026 (131 zu 446), 16.10.2026, Scheidungs-Ausnahme nur als Vorschlag; Planungssicherheit für Eigentümer in der Region; Stand-Datum sichtbar.
+- **Technik und Pflege:**
+  - Schema: Article, FAQPage, BreadcrumbList; Autorenbox; „Stand“-Vermerk prominent (Rechtsthema); Quellenliste am Seitenende.
+  - Update-Trigger: JStG 2026 (Scheidungs-Ausnahme), EStRefG 2027 (Handwerkerbonus, Tarif), neue BFH-Urteile zu § 23, jährliche Prüfung der Anlage-SO-Zeilen.
+  - Hinweis „keine Steuerberatung“ als festes Element über jedem Rechenbeispiel (Komponente, nicht Fließtext).
+  - Wortzahl-Verteilung: Kürze 130, Frist bleibt 200, Zehnjahresfrist 300, Eigennutzung 400, Sonderfälle 500, Gewinn 600, Freigrenze 200, Drei-Objekt 250, Anlage SO 120, Steuerberater 150, FAQ 350, CTA 80 = ca. 3.280 Wörter.
 
 ## 6. Anti-Slop-Regeln für diese Seite
 - Keine Allgemeinplätze („Steuern sind ein komplexes Thema“, „der Staat hält die Hand auf“, „Steuern sparen leicht gemacht“). Verboten: „Steuerfalle Nummer eins“, „so tricksen Sie das Finanzamt aus“, „Spekulationssteuer bis 25 %“ (immoportal-Fehler), „maximal 40 %“ (IS24, unpräzise).

@@ -69,6 +69,18 @@
 | ZU PRÜFEN: Mietpreisbremse/Kappungsgrenze BW für die fünf Orte (relevant für Anleger-Argument „Mieterhöhungspotenzial“) | A2 Nr. 3 | nicht belegt |
 | ZU PRÜFEN: Qualifizierter Mietspiegel Pforzheim (Stadt-Website), Leonberg nicht gefunden | B2.3 | nicht belegt |
 | ZU PRÜFEN: Lokaler Abschlag vermietet/frei für Leonberg oder Pforzheim (keine Auswertung gefunden; nur Stuttgart 12 %) | 2.5 | nicht belegt |
+| **Nachtrag aus marktthemen-2026.md (Stand 29.10.2026)** | | |
+| Mietpreisbremse (höchstens 10 % über ortsüblicher Vergleichsmiete, § 556d BGB) gilt 2026 in Leonberg (seit 2020) und erstmals in Pforzheim; nicht in Ditzingen, Renningen, Heimsheim (je 3 von 5 Kriterien); Verordnung vom 16.12.2025 (GBl. Nr. 144), 130 Gemeinden, bis 31.12.2026; Entwurf ab 2027 mit 133 Gemeinden in Anhörung (Ministerrat 22.09.2026), fünf Orte unverändert | §§ 556d bis 556g BGB; MietBegrenzVO BW | https://mlw.baden-wuerttemberg.de/de/bauen-wohnen/wohnungsbau/mietpreisbremse ; https://www.umwelt-online.de/recht/bau/laender/bw/mietschv26.htm ; MLW-Datensatz Stand August 2025 (XLSX, Kap. 1e) |
+| Ausnahmen Mietpreisbremse: Erstvermietung nach dem 01.10.2014, erste Vermietung nach umfassender Modernisierung, höhere Vormiete (§ 556e); ein belegbarer Ausnahmetatbestand ist ein Verkaufsargument gegenüber Anlegern | §§ 556e, 556f BGB | marktthemen-2026.md Kap. 1b, 1c |
+| Kappungsgrenze in den BW-Gebieten 15 % in drei Jahren statt 20 % (Kappungsgrenzenverordnung BW, bis 31.12.2026; Verlängerung ab 2027 in Anhörung); Gemeindeliste ZU PRÜFEN (identisch mit Mietpreisbremse?) | § 558 Abs. 3 BGB | marktthemen-2026.md Kap. 1b |
+| Kündigungssperrfrist-VO BW: Verlängerung ab 01.01.2027 als Entwurf seit 22.09.2026 in Anhörung | § 577a Abs. 2 BGB | marktthemen-2026.md Kap. 1a; Landtag BW Drs. 18/342 (https://www.landtag-bw.de/resource/blob/645672/023e90d4921b01b1f177f9df9cfceaa8/18_0342_D.pdf) |
+| MLW-Gutachtendaten (Angebotsmieten 2022/23, Nettokalt): Leonberg 13,31 €/m², Ditzingen 12,89, Renningen 12,63, Heimsheim 11,79, Pforzheim 10,04; Wohnungsversorgungsgrad Leonberg 94,7 %, Heimsheim 91,7 %, Pforzheim 95,5 %; Leerstand 2022 Leonberg 356 WE (1,5 %), Pforzheim 1.136 WE (1,8 %) | amtliche Gutachtendaten | MLW BW, Einzeldaten Stand August 2025 (XLSX, Kap. 1e) |
+| Pforzheim Mietspiegel 2025: Ø 8,58 €/m² nettokalt (+9,02 %); IVD Frühjahr 2026: Neuvertrag Bestand 9,60 €/m², Neubau 11,00 €/m²; Immowelt 8/2026: 10,47 €/m²; certa Q1 2026: 11,27 €/m² | Mietdaten | https://www.pforzheim.de/buerger/buergerservice/kommunale-statistikstelle/statistische-veroeffentlichungen/mietspiegel.html ; https://www.konii.de/?p=211416 ; https://www.certa-gutachten.de/marktberichte/pforzheim-q1-2026 |
+| Mieten Leonberg laut Engel & Völkers 15,41 €/m² (Juni 2026), Immowelt ETW-Miete 12,76 €/m² (7/2026); Ditzingen 15,51 (E&V); Renningen 14,08 (E&V); Heimsheim 13,10 (ohne-makler.net 2026) | Angebotsmieten | https://www.engelvoelkers.com/de-de/mietspiegel/baden-wuerttemberg/leonberg/ ; https://www.immowelt.de/immobilienpreise/mietpreise/baden-wurttemberg/leonberg-71229/ad08de5243 ; https://www.ohne-makler.net/mietspiegel/baden-wurttemberg/heimsheim/ |
+| Mietrechtspaket II (Regierungsentwurf BT-Drs. 21/6807, 1. Lesung 09.07.2026, Anhörung 14.10.2026, 2./3. Lesung offen): u. a. § 566 BGB auch bei Veräußerung unter Miteigentümern und Erbauseinandersetzung; Möblierungszuschlag gesondert ausweisen (Vermutung bis 10 %); Kurzzeitvermietung nur bis 6 Monate ausgenommen; Indexmiete gedämpft in angespannten Gebieten; ZU PRÜFEN Inkrafttreten | Entwurf | https://www.bundestag.de/presse/hib/kurzmeldungen-1224894 (15.10.2026); https://www.haufe.de/immobilien/wirtschaft-politik/mietrechtsreform-2026_84342_684280.html |
+| Spekulationsfrist bleibt (Bundestag 08.10.2026, Bundesrat 16.10.2026); Modellrechnung D2: vermietete 75-m²-Wohnung Leonberg, Kauf 2018 270.000 €, Verkauf 2026 300.000 €, AfA 34.560 €, Gewinn 34.450 €, Steuer ca. 14.470 € bei 42 % | § 23 EStG | marktthemen-2026.md Kap. 5, Anhang D2 |
+| Bauzinsen ca. 4,2 bis 4,5 % (Okt. 2026); Bundesbank: bis 2027 ca. 20 % des Wohnimmobilien-Kreditvolumens zu refinanzieren; Anleger prüfen Cashflow schärfer | Marktzins | https://www.drklein.de/zinsen.html ; https://ad-hoc-news.de/wirtschaft/immobilienmarkt-54-3-prozent-der-verkaeufe-dauern-laenger-als-sechs-monate/70395215 |
+| Barzahlungsverbot beim Immobilienkauf seit 01.04.2023 | § 16a GwG | https://gwgimmo.de/blog/gwg/geldwaschegesetz-fur-immobilienmakler-pflichten-risiken-klare-handlungsempfehlungen-2026 |
 
 ## 4. Gliederung (H1–H3) mit Stichpunkten je Abschnitt
 - **Title (≤ 60 Zeichen):** Vermietete Wohnung verkaufen: § 577 BGB, Sperrfrist, Faktor
@@ -155,6 +167,12 @@
   - Unterzeile: „Ich rechne Ihnen vor, was ein Anleger und was ein künftiger Selbstnutzer in Ihrer Lage zahlen würde, und wie die Sperrfrist Ihren Käuferkreis verändert.“
   - Sekundär: „Checkliste für Kapitalanleger herunterladen“
   - Abschluss-Band: „Sie haben einen Mieter, den Sie nicht verärgern wollen, und eine Wohnung, die Sie verkaufen wollen. Beides geht zusammen, wenn die Reihenfolge stimmt. Rufen Sie mich an.“
+
+- **Zusätzlicher H2 (aus Nachtrag):** „Mietpreisbremse und Kappungsgrenze: Was Anleger in Leonberg und Pforzheim einrechnen“ (ca. 300 Wörter, vor dem Faktor-Abschnitt): 10 %-Regel bei Neuvermietung, 15 % in drei Jahren im Bestand, Ausnahmen (§ 556e/f) belegen, Ditzingen/Renningen/Heimsheim ohne Bremse als Argument; Verordnungen bis 31.12.2026 mit Verlängerungsentwurf.
+- **Technik und Pflege:**
+  - Schema: Article, FAQPage, BreadcrumbList; Autorenbox mit Vermietererfahrung; „Stand“-Vermerk; Quellenliste am Seitenende.
+  - Update-Trigger: 01.01.2027 (KSpVO BW, MietBegrenzVO BW, Kappungsgrenzen-VO Nachfolge), Verabschiedung Mietrechtspaket II, jährlich neue IS24-Abschlagsauswertung, Mietspiegel Pforzheim.
+  - Wortzahl-Verteilung: Kürze 120, § 566 250, Vorkaufsrecht 500, Sperrfrist 400, Mietpreisbremse 300, Abschlag 350, Anleger 450, Unterlagen 200, Besichtigung 250, Steuer 200, Mieter 250, FAQ 350, CTA 80 = ca. 3.700 Wörter.
 
 ## 6. Anti-Slop-Regeln für diese Seite
 - Keine Allgemeinplätze („Mieter haben Rechte, die Sie kennen sollten“, „gut informiert ist halb verkauft“, „in Zeiten knappen Wohnraums“). Verboten: „Mieterschutz ist ein hohes Gut“, „win-win“, „Anleger lieben …“.

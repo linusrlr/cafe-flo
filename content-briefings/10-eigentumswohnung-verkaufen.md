@@ -70,7 +70,20 @@
 | ZU PRÜFEN: Zuständiges Grundbuchamt (Amtsgericht) für Leonberg, Renningen, Heimsheim, Ditzingen, Pforzheim; Online-Antrag Grundbuchauszug über Grundbuchportal BW | A2 Nr. 11 | nicht belegt |
 | ZU PRÜFEN: Ditzingen in der KSpVO-BW-Liste nicht enthalten, Mieterbund-Liste nennt Ditzingen; Nachfolgeverordnung ab 01.01.2027 | A2 Nr. 2 | https://mieterbund.de/service/mieterschutzverordnungen/kuendigungssperrfrist/ |
 | ZU PRÜFEN: Urteilsvolltexte BGH V ZR 257/16 und V ZR 209/12 (bisher nur Sekundärzitat reduco) | eigene Ergänzung | nicht belegt |
-| ZU PRÜFEN: Mietpreisbremsen-/Kappungsgrenzenverordnung BW, welche der fünf Orte enthalten | A2 Nr. 3 | nicht belegt |
+| Mietpreisbremse BW (MietBegrenzVO BW vom 16.12.2025, GBl. Nr. 144, 130 Gemeinden, gültig 01.01. bis 31.12.2026): Leonberg und Pforzheim enthalten, Ditzingen, Renningen, Heimsheim nicht; Entwurf ab 2027 (Ministerrat 22.09.2026) ohne Änderung für die fünf Orte | §§ 556d ff. BGB; MietBegrenzVO BW | marktthemen-2026.md Kap. 1; https://mlw.baden-wuerttemberg.de/de/bauen-wohnen/wohnungsbau/mietpreisbremse (abgerufen 29.10.2026) |
+| **Nachtrag aus marktthemen-2026.md (Stand 29.10.2026)** | | |
+| GModG hat das GEG ersetzt: Bundestag 10.07.2026, Verkündung BGBl. 2026 I Nr. 226 am 28.07.2026, Artikel 1 in Kraft seit 29.07.2026 (eine Quelle nennt 23.07.2026, ZU PRÜFEN); 65 %-Pflicht und 30-Jahre-Kesselverbot ersatzlos gestrichen | GModG | https://www.bundesregierung.de/breg-de/aktuelles/neues-gebaeudemodernisierungsgesetz-2430284 ; https://www.ikz.de/detail/news/detail/update-geg-reform-gmodg-bundestag-und-bundesrat-stimmen-zu/ (13.07.2026) |
+| Ab 01.01.2027 (Artikel 2 GModG) neue Inseratspflichtangaben: Ausweisart, Ausstellungsdatum, Jahres-Primärenergiebedarf statt Endenergie, Effizienzklasse, Baujahr, Energieträger; Bußgeld bis 10.000 € je Tatbestand (§ 108); alte Ausweise bleiben zehn Jahre gültig (§ 112 Abs. 3) | §§ 80, 87, 108, 112 GModG | https://www.energyausweis.de/blog/gmodg-fuer-makler-inseratspflicht-vorlage-uebergabe-und-bussgelder-ab-inkrafttreten ; https://eee-cloud.de/gmodg-energieausweise-immobilienanzeigen-2027/ |
+| Spekulationsfrist bleibt: Bundestag lehnte Abschaffung am 08.10.2026 mit 131 zu 446 ab; Bundesrat übernahm Streichungsempfehlung am 16.10.2026 nicht | § 23 EStG | https://hausbesitzer-news.de/recht-finanzen/spekulationsfrist-immobilien-abschaffen-aktueller-stand/ (17.10.2026); https://www.haufe.de/steuern/gesetzgebung-politik/bundesrat-nimmt-stellung-zum-einkommensteuerreformgesetz-2027_168_700990.html (19.10.2026) |
+| Barzahlungsverbot beim Immobilienkauf seit 01.04.2023; Notar beurkundet/vollzieht nur mit Nachweis unbarer Zahlung | § 16a GwG | https://gwgimmo.de/blog/gwg/geldwaschegesetz-fur-immobilienmakler-pflichten-risiken-klare-handlungsempfehlungen-2026 |
+| Makler müssen Verkäufer und Käufer identifizieren (Ausweis) | § 11 GwG; § 2 Abs. 1 Nr. 14 GwG | s. o. |
+| Kein Zurückbehaltungsrecht am laufenden Hausgeld | BGH 14.11.2025, V ZR 190/24 | https://www.haufe.de/immobilien/verwaltung/bgh-rechtsprechungsuebersicht/wohnungseigentumsrecht_258_119076.html |
+| GdWE darf und muss ggf. Balkonsanierung beschließen, auch wenn die Teilungserklärung die Last den Eigentümern zuweist | BGH 24.04.2026, V ZR 102/24 | s. o.; ZU PRÜFEN im Volltext |
+| Bauzinsen 10 Jahre: ca. 4,2 bis 4,5 % effektiv (Dr. Klein Topzins 4,20 % am 29.10.2026, Vorjahr 3,38 %; Interhyp Ø 4,42 % am 15.10.2026); Käufer rechnen schärfer | Marktzins | https://www.drklein.de/zinsen.html ; https://www.interhyp.de/zinsen/ |
+| Angebotspreis ETW Leonberg laut Engel & Völkers 4.028 €/m² (26.10.2026, +1,09 % z. Vorjahr); Häuser Leonberg −5,9 % | Angebotsdaten | https://www.engelvoelkers.com/de-de/immobilienpreise/baden-wuerttemberg/leonberg/ |
+| Destatis Häuserpreisindex Q2 2026: +0,6 % z. Vorjahr; ETW Top-7 (inkl. Stuttgart) −0,4 %; ETW in dicht besiedelten ländlichen Kreisen −1,8 % | amtlich | https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/09/PD26_336_61262.html (24.09.2026) |
+| Maklerumfrage: 54,3 % der Objekte länger als sechs Monate in Vermarktung (Vorjahr 32,7 %); Urheber und Stichprobe unklar, ZU PRÜFEN; Hausgold/Handelsblatt: Inserate bis fast neun Wochen online (Jan. bis Mai 2026) | Umfrage | https://ad-hoc-news.de/wirtschaft/immobilienmarkt-54-3-prozent-der-verkaeufe-dauern-laenger-als-sechs-monate/70395215 (22.10.2026) |
+| ZU PRÜFEN: Bürokratierückbau GewO (Bundestag 11.06.2026) streicht Weiterbildungspflicht für Makler; Bundesrat und Inkrafttreten offen | § 34c Abs. 2a GewO | https://www.wohnen-im-eigentum.de/politik/verwalter-sachkundenachweis |
 
 ## 4. Gliederung (H1–H3) mit Stichpunkten je Abschnitt
 - **Title (≤ 60 Zeichen):** Eigentumswohnung verkaufen: Ablauf, WEG-Unterlagen, Kosten (2026)
@@ -168,6 +181,13 @@
   - Unter dem Button: „Ich melde mich innerhalb eines Werktags telefonisch. Keine Portale, keine Weitergabe Ihrer Daten.“ (Antwortzeit mit Linus abstimmen.)
   - Sekundär (Textlink): „Unterlagen-Checkliste als PDF herunterladen (ohne Anmeldung)“
   - Abschluss-Band: „Sie wollen wissen, was Ihre Wohnung in Leonberg, Ditzingen oder Pforzheim heute bringt? Ich schaue mir Wohnung und Gebäude an und sage Ihnen, was realistisch ist.“
+
+- **Technik und Pflege:**
+  - Schema: Article (author Person Linus Rössler, datePublished, dateModified), FAQPage für den FAQ-Block, BreadcrumbList; RealEstateAgent-Entität per @id referenzieren (B3.3).
+  - Autorenbox mit Foto, § 34c-Status, eigener Wohnung als Erfahrungsnachweis (B3.6).
+  - Sichtbarer Vermerk „Stand: Monat Jahr, zuletzt geprüft am …“ und Quellenliste am Seitenende (Gesetze, Gutachterausschuss, Portale, marktthemen-2026.md Kap. 18).
+  - Update-Trigger im Redaktionskalender: 01.01.2027 (Artikel 2 GModG, neue Inseratspflichtangaben; Nachfolge der KSpVO BW und MietBegrenzVO BW), Dezember 2026 (EZB-Sitzung, Bauzinsen), Quartalsende (Portalpreise), Erteilung der § 34c-Erlaubnis.
+  - Wortzahl-Verteilung: Kürze 120, Ablauf 450, Unterlagen 600, Verwalterzustimmung 300, Hausgeld 450, Kosten 400, Steuer 200, Vermietet 250, Käufer 250, Makler 150, FAQ 400, CTA 100 = ca. 3.670 Wörter.
 
 ## 6. Anti-Slop-Regeln für diese Seite
 - Keine Allgemeinplätze („Der Verkauf einer Immobilie ist eine wichtige Entscheidung“, „in der heutigen Zeit“, „gut vorbereitet ist halb verkauft“). Verboten sind auch: „Ihr kompetenter Partner“, „rundum sorglos“, „maximaler Erlös“, „stressfrei“, „Traumkäufer“.

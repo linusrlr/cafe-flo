@@ -63,6 +63,23 @@
 | Bestehende Website-FAQ: Energieausweis als Gebäudeausweis über die Hausverwaltung, Pflichtangaben in der Anzeige | eigene Website | Analyse 01, 2.1 |
 | ZU PRÜFEN: Wärmeplanung und Fernwärme je Ort (Pforzheim SWP, Leonberg kommunale Wärmeplanung, Ditzingen, Renningen, Heimsheim) | 7.7 Nr. 6; B2.6 | nicht belegt |
 | ZU PRÜFEN: § 88 GModG Ausstellungsberechtigte; § 108 GModG Bußgeld | A2 Nr. 1 | nicht belegt |
+| **Nachtrag aus marktthemen-2026.md (Stand 29.10.2026), Pflichtquelle für diese Seite** | | |
+| GModG-Verfahren: Kabinett 13.05.2026, Bundestag 10.07.2026 (namentlich), Bundesrat 10.07.2026 ohne Vermittlungsausschuss, Verkündung BGBl. 2026 I Nr. 226 am 28.07.2026, Artikel 1 in Kraft seit 29.07.2026 (eine Quelle: 23.07.2026, ZU PRÜFEN); Artikel 2 (Energieausweise, §§ 79 bis 88, DIN/TS 18599:2025-10) ab 01.01.2027 | GModG | https://www.bundesregierung.de/breg-de/aktuelles/neues-gebaeudemodernisierungsgesetz-2430284 ; https://www.gmodg.bund.de/GModG/DE/Home/startseite/GModG_News/GModG_News-node.html ; https://www.ikz.de/detail/news/detail/update-geg-reform-gmodg-bundestag-und-bundesrat-stimmen-zu/ (13.07.2026) |
+| 65 %-Erneuerbare-Pflicht (§ 71 GEG a. F.) und Betriebsverbot für über 30 Jahre alte Öl-/Gaskessel (§ 72 GEG a. F.) ersatzlos gestrichen; freie Heizungswahl (§ 42 GModG); Übergangsfrist bis 31.10.2026 laut Görg ZU PRÜFEN | §§ 42, 72 GModG | https://www.goerg.de/de/aktuelles/veroeffentlichungen/17-07-2026/gebaeudemodernisierungsgesetz-gmodg-schafft-geg-ab-was-sich-aendert-und-was-bleibt ; https://www.ebnerstolz.de/de/unser-angebot/leistungen/rechtsberatung/energierecht/gebaeudemodernisierungsgesetz-verabschiedet-109427.html (14.07.2026) |
+| Bio-Treppe für neue fossile Heizungen: 10 % ab 01.01.2029, 15 % ab 2030, 30 % ab 2035, 60 % ab 2040; Alternativen Solarthermie oder Wärmepumpen-Hybrid; Grüngasquote für Inverkehrbringer ab 2028 (§ 42a), Gesetz bis 01.12.2026 | § 43 GModG | s. o. |
+| Neue Inseratspflichtangaben ab 01.01.2027: Ausweisart, Ausstellungsdatum, Jahres-Primärenergiebedarf (ersetzt Endenergie), Effizienzklasse, Baujahr, wesentliche Energieträger | § 87 GModG (Art. 2) | https://www.energyausweis.de/blog/gmodg-fuer-makler-inseratspflicht-vorlage-uebergabe-und-bussgelder-ab-inkrafttreten ; https://eee-cloud.de/gmodg-energieausweise-immobilienanzeigen-2027/ |
+| Bußgeld bis 10.000 € je Tatbestand (Nr. 18 Vorlage, Nr. 19 Übergabe, Nr. 21 Inseratsangaben); praktisch größeres Risiko: UWG-Abmahnungen (BGH 05.10.2017, I ZR 232/16), Vertragsstrafen 3.000 bis 5.000 € je Verstoß | § 108 GModG | energyausweis.de, s. o. |
+| Vor Inkrafttreten ausgestellte Ausweise bleiben bis Ablauf der zehn Jahre gültig, mit den alten Pflichtangaben (Endenergie) | § 112 Abs. 3, § 79 Abs. 3 GModG | s. o. |
+| Primärenergiefaktoren ab 2027 (Anlage 4): Strom 1,8 → 1,5; Holz/Pellets 0,2 → 0,7; Fernwärme pauschal 0,7; Erdgas/Heizöl 1,1; Folge: Wärmepumpen-/Fernwärmegebäude rechnerisch besser, Pellets schlechter | Anlage 4 GModG | https://www.das-ingenieurbuero.com/blog/gmodg-energieausweise-neu-2026/ (akt. 29.09.2026) |
+| Verbrauchsausweis ab 2027: Verbrauchsdaten über 24 Monate, jüngste Periode höchstens 18 Monate alt; nur bei ausschließlicher Wohnnutzung; 31 Pflichtangaben im Ausweis (§ 85, Zahl aus dem Entwurf, ZU PRÜFEN); Baudenkmale brauchen ab 2027 einen Ausweis | §§ 82, 85 GModG | s. o. |
+| Skala Wohngebäude bleibt A+ bis H; EU-Skala A bis G zunächst nur Nichtwohngebäude | Anlagen 10/10a GModG | s. o. |
+| Timing-Hinweis: Wer 2026 noch einen Verbrauchsausweis nach altem Recht erstellen lässt, hat ihn zehn Jahre gültig mit den einfacheren Pflichtangaben; ab 2027 müssen Exposé-Vorlagen umgestellt werden | eigene Ableitung aus § 112 | marktthemen-2026.md Kap. 2c |
+| EPBD (EU) 2024/1275: Umsetzungsfrist 29.05.2026 verpasst, Umsetzung über GModG; keine gebäudescharfe Sanierungspflicht für Wohngebäude; Mindeststandards (MEPS) nur Nichtwohngebäude (schlechteste 16 % bis 2030, 26 % bis 2033); Nullemissionsgebäude alle Neubauten ab 2030; Solarpflicht Wohnneubau 2030 | EPBD; GModG | https://www.goerg.de/… (s. o.); https://reduco.ai/blog/sanierungspflicht-mehrfamilienhaus-2026 |
+| BEG-Heizungsförderung (KfW 458) seit 21.07.2026: Einkommensbonus 40 % (zvE unter 30.000 €), 30 % (bis 40.000 €), 10 % (bis 50.000 €); Kinderzuschlag −10.000 € Einkommen; förderfähige Kosten max. 28.000 € (vorher 30.000 €), halbjährlich −750 €; Grund-/Maximalförderung ZU PRÜFEN (KfW-Merkblatt); BEG „bis mindestens 2029“ | BEG EM | https://www.bundesregierung.de/breg-de/aktuelles/neues-gebaeudemodernisierungsgesetz-2430284 |
+| KfW 308 „Jung kauft Alt“: seit 03.08.2026 Kredit 140.000/160.000/180.000 € (1/2/ab 3 Kinder) zu 1,00 % effektiv (35 Jahre) bzw. 0,01 % (10 Jahre, Konditionen 06.10.2026); Voraussetzung Energieausweis Klasse F, G oder H, Einkommensgrenze 90.000 € + 10.000 €/Kind, Antrag vor Notarvertrag, Sanierung binnen 54 Monaten; Verkaufsargument für Wohnungen schlechter Klassen | KfW 308 | https://www.baukostenplan.de/ratgeber/kfw-308-jung-kauft-alt-2026-neue-kreditbetraege (07.10.2026); https://www.baufi24.de/foerderung/kfw-308-jung-kauft-alt/ ; Zins tagesaktuell ZU PRÜFEN |
+| Wärmeplanung: Leonberg (Große Kreisstadt) Wärmeplan-Entwurf 19.02.2024, 9 Eignungsgebiete für Wärmenetze, Beschlussvorlage 2024/077; endgültiger Beschluss ZU PRÜFEN; Pforzheim: Wärmeplan laut Anbieter-Blog abgeschlossen, Fernwärmeausbau u. a. Brötzingen, Stadtmitte, Nord-/Oststadt, „jeder zweite Einwohner“ mit Fernwärme, alles ZU PRÜFEN (Stadt/SWP); Wärmeplan begründet keinen Anschlusszwang | WPG; KlimaG BW | https://www.leonberg.de/ratsinformationssystem/wicket/resource/org.apache.wicket.Application/doc461362.pdf ; https://www.enter.de/blog/waermepumpe-pforzheim (unbestätigt) |
+| Mieterschutz GModG: Vermieter tragen pauschal 50 % der Mehrkosten aus Netzentgelt, CO₂ und Biobrennstoff (§ 5a Abs. 3 CO2KostAufG n. F.); Wärmepumpen-Modernisierung nur voll umlagefähig bei Jahresarbeitszahl ≥ 2,5 | CO2KostAufG | marktthemen-2026.md Kap. 2b |
+| ZU PRÜFEN: Fortbestand der Nachrüstpflichten bei Eigentümerwechsel (Dämmung oberste Geschossdecke, Rohrleitungen, § 47 GEG a. F., zwei Jahre nach Erwerb) im GModG | § 47 | marktthemen-2026.md Kap. 18 Nr. 2 |
 
 ## 4. Gliederung (H1–H3) mit Stichpunkten je Abschnitt
 - **Title (≤ 60 Zeichen):** Energieausweis Eigentumswohnung: WEG, Pflichtangaben, Fristen
@@ -104,6 +121,17 @@
   - Hinweis, dass reduco-Tabelle ohne Quelle nicht verwendet wird.
   - Käuferfrage 2026: Heizung (Gas, Alter), Wärmeplanung der Kommune, Fernwärme in Pforzheim; nach Prüfung lokal konkretisieren.
 
+- **H2: Was sich mit dem GModG geändert hat und was am 1. Januar 2027 kommt** (ca. 400 Wörter)
+  - Seit 29.07.2026: keine 65 %-Pflicht, kein 30-Jahre-Kesselverbot, freie Heizungswahl; Bio-Treppe ab 2029 (10/15/30/60 %); was das für Käuferfragen zu Gasheizungen in 1970er- bis 1990er-Anlagen heißt („Heizung muss raus“ ist vom Tisch, Betriebskosten steigen ab 2029).
+  - Ab 01.01.2027: Primärenergiebedarf und Ausstellungsdatum im Inserat; neue Primärenergiefaktoren (Fernwärme 0,7, Strom 1,5, Pellets 0,7); alte Ausweise bleiben gültig (§ 112 Abs. 3).
+  - Entscheidungshilfe: Ausweis noch 2026 erstellen lassen (zehn Jahre gültig, einfachere Angaben) oder 2027 mit Primärenergie (bei Fernwärme/Wärmepumpe rechnerisch günstiger).
+  - EU-Mythos entkräften: keine Sanierungspflicht für Wohngebäude (EPBD, MEPS nur Nichtwohngebäude).
+
+- **H2: Klasse F, G oder H: Warum eine schlechte Klasse 2026 ein Verkaufsargument sein kann (KfW 308)** (ca. 300 Wörter)
+  - KfW 308 „Jung kauft Alt“: bis 180.000 € zu 1,00 % für Familien, nur bei Klasse F bis H, Antrag vor dem Notartermin, Sanierung in 54 Monaten.
+  - Rechenbeispiel aus dem Dossier D3 (Pforzheim, 230.000 €, 160.000 € KfW zu 1 % plus Bank 4,3 % → Zinsersparnis Jahr 1 ca. 5.280 €); Zielkonflikt: energetisch sanieren vor Verkauf nimmt Familien dieses Argument.
+  - Exposé-Hinweis für Linus: Klasse und KfW-308-Fähigkeit nennen, Zeitplan für den Antrag einplanen.
+
 - **H2: Häufige Fragen** (ca. 350 Wörter, Abschnitt 5)
 - **H2: Nächster Schritt** (ca. 80 Wörter, CTA)
 
@@ -134,6 +162,12 @@
   - Unterzeile: „Beim Termin prüfe ich, ob für Ihr Gebäude ein gültiger Ausweis vorliegt. Wenn nicht, schreibe ich Ihre Verwaltung an.“
   - Sekundär: „Musterschreiben an die Hausverwaltung herunterladen“
   - Abschluss-Band: „Der Energieausweis ist der häufigste Grund, warum ein Inserat Wochen später online geht als geplant. Lassen Sie uns das früh klären.“
+
+- **Zusätzliche FAQ (aus Nachtrag):** „Muss ich meine 30 Jahre alte Gasheizung vor dem Verkauf austauschen?“ Kurz: Nein, das Betriebsverbot wurde mit dem GModG zum 29.07.2026 gestrichen. / „Bleibt mein alter Energieausweis 2027 gültig?“ Kurz: Ja, zehn Jahre ab Ausstellung mit den bisherigen Angaben (§ 112 Abs. 3 GModG). / „Muss ich meine Wohnung wegen der EU sanieren?“ Kurz: Nein, für Wohngebäude gibt es keine individuelle Sanierungspflicht.
+- **Technik und Pflege:**
+  - Schema: Article, FAQPage, BreadcrumbList; Autorenbox; „Stand“-Vermerk mit Datum; Quellenliste am Seitenende (Gesetz, Bundesregierung, GModG-Portal, Verbraucherzentrale, KfW).
+  - Update-Trigger: 01.01.2027 (Artikel 2 GModG, Exposé-Vorlagen umstellen), 01.12.2026 (Grüngasquote-Gesetz), KfW-308-Zins monatlich, BEG-Deckel halbjährlich, Wärmeplan-Beschlüsse Leonberg/Pforzheim, Verbrauchsausweis-Datenregel ab 2027.
+  - Wortzahl-Verteilung: Kürze 120, Gebäudeausweis 250, Zuständigkeit 500, Bedarf/Verbrauch 300, Anzeige 300, Zeitplan 300, Preis 300, GModG 400, KfW 308 300, FAQ 400, CTA 80 = ca. 3.250 Wörter.
 
 ## 6. Anti-Slop-Regeln für diese Seite
 - Keine Allgemeinplätze („Energieeffizienz wird immer wichtiger“, „in Zeiten der Energiewende“, „Nachhaltigkeit zählt“). Verboten: „Energieausweis leicht gemacht“, „Klimaschutz beginnt zu Hause“, „grüne Wohnung“.

@@ -67,6 +67,22 @@
 | Website-Formular heute: Name (Pflicht), Telefon, E-Mail, Ort, Wohnfläche, vermietet/frei, Vorhaben; Antwort nur „Gesendet“ | Ist-Zustand | Analyse 01, 6.1 und 6.2 |
 | ZU PRÜFEN: Marktberichte der Gutachterausschüsse Leonberg, Enzkreis, Pforzheim, LK Ludwigsburg/Böblingen (ETW-Kaufpreise); BORIS-BW-Link | A2 Nr. 12 | nicht belegt |
 | ZU PRÜFEN: Zuständiger Gutachterausschuss für Ditzingen und Renningen | B2.4 | nicht belegt |
+| **Nachtrag aus marktthemen-2026.md (Stand 29.10.2026)** | | |
+| Destatis Häuserpreisindex Q2 2026 (PM 336, 24.09.2026): gesamt +0,6 % z. Vorjahr, +0,3 % z. Vorquartal; ETW Top-7 (inkl. Stuttgart) −0,4 %; ETW kreisfreie Großstädte außerhalb der Metropolen +2,0 % (Pforzheim-Typ); ETW dicht besiedelte ländliche Kreise −1,8 % (Kreis Böblingen/Enzkreis, Zuordnung ZU PRÜFEN) | amtlich | https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/09/PD26_336_61262.html |
+| vdp-Index Q2 2026 (transaktionsbasiert): Wohnen +1,9 %, ETW +2,6 % z. Vorjahr (Sekundärquelle); Q3 Mitte November 2026 | vdp | https://www.haufe.de/immobilien/investment/vdp-immobilienpreisindex_256_515900.html |
+| Engel & Völkers (26.10.2026): ETW Leonberg 4.028 €/m² (+1,09 %); Ditzingen 3.843 €/m² (+0,64 %; Spanne 2021 bis 2026: 3.748 bis 4.351); Renningen 3.882 €/m² (+1,33 %; 3.772 bis 4.348); Pforzheim 2.941 €/m² (−0,15 %; Stadtteile 2.864 Nordstadt bis 3.201 Dillweißenstein); Häuser Leonberg 4.505 €/m² (−5,9 %) | Angebotsdaten | https://www.engelvoelkers.com/de-de/immobilienpreise/baden-wuerttemberg/leonberg/ ; …/ditzingen/ ; …/renningen/ ; …/pforzheim/ |
+| Immowelt: Leonberg 4.061 €/m² (8/2026); Pforzheim 3.168 €/m² (10/2026; 2025: 3.113); ImmoScout24 Atlas Leonberg 4.062 €/m² | Angebotsdaten | https://www.immowelt.de/immobilienpreise/baden-wurttemberg/leonberg-71229/ad08de5243 ; https://www.immowelt.de/immobilienpreise/baden-wurttemberg/pforzheim-75172/ad08de5724 |
+| certa Gutachten, Marktbericht Pforzheim Q1 2026: ETW Ø 3.023 €/m² (Spanne 1.951 bis 4.519); Innenstadt-West 3.500 bis 4.400, modernisierte Altbauten Östliche Karl-Friedrich-Straße bis 4.500; Huchenfeld ab 2.000; Kaufmarkt „stabil, leicht positiv“, Mietmarkt „deutlich dynamischer“ | Sachverständigenbericht | https://www.certa-gutachten.de/marktberichte/pforzheim-q1-2026 (22.04.2026, akt. 06.07.2026) |
+| Stuttgart ETW ca. 4.820 €/m² (E&V Q3 2026; Vorjahr 4.863); Böblingen ca. 4.000 bis 4.100 €/m² (−0,9 bis −3,5 %) | Angebotsdaten | https://www.engelvoelkers.com/de-de/immobilienpreise/baden-wuerttemberg/stuttgart/ ; …/boeblingen/ |
+| Bauzinsen 10 Jahre: Dr. Klein Topzins 4,20 % (29.10.2026; Vorjahr 3,38 %), Interhyp Ø 4,42 % (15.10.2026), Bundesbank Effektivzins 4,04 % (August 2026); bei 350.000 € Kredit ca. 230 € mehr Monatsrate als vor einem Jahr; EZB Einlagensatz 2,50 % (29.10.2026) | Marktzins | https://www.drklein.de/zinsen.html ; https://www.interhyp.de/zinsen/ ; https://denkstrom.org/artikel/ezb-laesst-leitzinsen-unveraendert/ |
+| Vermarktungsdauer: Hausgold/Handelsblatt (Jan. bis Mai 2026) bis fast neun Wochen Inseratsdauer, Spreizung Faktor 3; Maklerumfrage Okt. 2026: 54,3 % der Objekte über sechs Monate, 70 % der Makler halten Angebotspreise für 10 bis 30 % überhöht (Urheber unklar, ZU PRÜFEN) | Umfragen | https://www.handelsblatt.com/finanzen/immobilien/immobilien-in-welchen-staedten-finden-eigentuemer-am-schnellsten-einen-kaeufer/100260831.html (Paywall); https://ad-hoc-news.de/wirtschaft/immobilienmarkt-54-3-prozent-der-verkaeufe-dauern-laenger-als-sechs-monate/70395215 |
+| KfW 308 „Jung kauft Alt“ (seit 03.08.2026: 140.000 bis 180.000 € zu 1,00 % eff., nur Klasse F/G/H, Antrag vor Notarvertrag): Wohnungen schlechter Klassen gewinnen die Familienzielgruppe; energetische Sanierung vor Verkauf kann dieses Argument nehmen | KfW 308 | https://www.baukostenplan.de/ratgeber/kfw-308-jung-kauft-alt-2026-neue-kreditbetraege (07.10.2026) |
+| GModG seit 29.07.2026: keine 65 %-Pflicht, kein Kesselverbot nach 30 Jahren; entlastet Bewertung von Objekten Baujahr 1960 bis 1990 mit alter Heizung; ab 2029 Bio-Treppe | GModG | https://www.bundesregierung.de/breg-de/aktuelles/neues-gebaeudemodernisierungsgesetz-2430284 |
+| BGH WEG-Serie 2025/26 mit Bewertungsrelevanz: kein Zurückbehaltungsrecht am Hausgeld (14.11.2025, V ZR 190/24); GdWE darf/muss Balkonsanierung beschließen (24.04.2026, V ZR 102/24); Wechsel des Kostenverteilungsschlüssels per Mehrheit eingeschränkt (24.04.2026, V ZR 50/25); keine Pflicht zu drei Vergleichsangeboten (27.03.2026, V ZR 7/25); GdWE haftet bei unterlassenen Maßnahmen (27.02.2026, V ZR 18/25); Klimagerät auf Balkon beschlussfähig (17.07.2026, V ZR 162/25); Balkonkraftwerk privilegiert seit 17.10.2024 (§ 20 Abs. 2 Nr. 5 WEG); Daten/Az. aus Sekundärquellen ZU PRÜFEN | BGH | https://www.haufe.de/immobilien/verwaltung/bgh-rechtsprechungsuebersicht/wohnungseigentumsrecht_258_119076.html |
+| Zertifizierter Verwalter (Anspruch seit 01.12.2023, § 26a WEG); virtuelle Versammlung (§ 23 Abs. 1a WEG seit 17.10.2024); angemessene Erhaltungsrücklage ohne gesetzliche Mindesthöhe (§ 19 Abs. 2 Nr. 4 WEG) | WEG | marktthemen-2026.md Kap. 7b |
+| MLW-Gutachtendaten: Wohnungsversorgungsgrad Leonberg 94,7 %, Heimsheim 91,7 %, Pforzheim 95,5 %; Leerstand 2022 Leonberg 1,5 %, Pforzheim 1,8 % | amtlich (Gutachten 2025) | MLW BW Einzeldaten (XLSX, marktthemen-2026.md Kap. 1e) |
+| Grundsteuer BW (Bodenwertmodell seit 2025) für ETW gering: Beispiel 80 m² mit 150 m² Bodenanteil ca. 150 bis 205 €/Jahr; BFH 20.05.2026 (II R 26/24, II R 27/24) hält das Modell für verfassungsgemäß | LGrStG BW | marktthemen-2026.md Kap. 4, Anhang D4 |
+| Bodenrichtwert Heimsheim laut miete-aktuell.de ca. 732 €/m² (widerspricht bodenrichtwerte-deutschland.de 235 €/m²; ZU PRÜFEN über BORIS-BW) | Aggregatoren | https://www.miete-aktuell.de/bodenrichtwert-grundstueckspreise/Heimsheim/Heimsheim/ |
 
 ## 4. Gliederung (H1–H3) mit Stichpunkten je Abschnitt
 - **Title (≤ 60 Zeichen):** Wohnung bewerten lassen: Leonberg, Ditzingen, Pforzheim
@@ -107,6 +123,11 @@
 - **H2: Was nach Ihrer Anfrage passiert** (ca. 150 Wörter)
   - Vier Schritte mit Zeitangaben (Rückruf, Termin, Unterlagen, schriftliche Einschätzung/Verkaufsplan); Erwartungsmanagement laut Analyse 01, 6.2.
 
+- **H2: Marktlage im Herbst 2026: Zinsen, Preise, Vermarktungsdauer** (ca. 350 Wörter)
+  - Bauzinsen 4,2 bis 4,5 % (Vorjahr 3,38 %), Destatis Q2 2026 (+0,6 % gesamt, Stuttgart-ETW −0,4 %), E&V Leonberg +1,09 %, Häuser −5,9 %; Vermarktungsdauer-Umfragen mit Vorbehalt; Folge: realistischer Preis statt Portal-Wunschpreis.
+  - KfW 308 als Nachfrageeffekt für Klasse F/G/H; GModG-Entlastung für alte Heizungen; BGH-Urteile, die gut geführte WEGs wertvoller machen.
+  - Quartalsweise aktualisieren, Stand-Datum prominent.
+
 - **H2: Häufige Fragen** (ca. 350 Wörter, Abschnitt 5)
 - **Abschluss-CTA** (zweites Formular oder Sprungmarke nach oben)
 
@@ -140,6 +161,12 @@
   - Unter dem Button: „Rückruf innerhalb eines Werktags. Keine Weitergabe an Portale oder Dritte.“
   - Sekundär: „Lieber anrufen? [Telefonnummer], auch abends.“ (Erreichbarkeit mit Linus klären.)
   - Abschluss-Band: „Zwei Portale, zwei Zahlen, 60.000 € dazwischen? Ich schaue mir Wohnung, Gebäude und Unterlagen an und sage Ihnen, wo Ihre Wohnung in Leonberg, Ditzingen oder Pforzheim wirklich steht.“
+
+- **Technik und Pflege:**
+  - Schema: Service/Offer für die kostenlose Einschätzung (wie IS24), Article für den Ratgeberteil, FAQPage, BreadcrumbList; keine Selbstbewertung per aggregateRating (B3.3).
+  - Formular serverseitig (kontakt.php erweitern), Danke-Seite mit Zählung, Bestätigungsmail; kein Cookie-Banner nötig (Analyse 01, 9.2).
+  - Update-Trigger: Quartal (immoportal, immoverkauf24, E&V, Immowelt), 15. jeden Monats (Interhyp-Zinsupdate), Mitte November 2026 (vdp Q3), Mitte Dezember 2026 (Destatis Q3), Marktberichte der Gutachterausschüsse.
+  - Wortzahl-Verteilung: Intro 80, Preise 400, Verfahren 400, Faktoren 700, Vergleich 400, Gutachten 200, Unterlagen 200, Ablauf 150, Marktlage 350, FAQ 350 = ca. 3.230 Wörter.
 
 ## 6. Anti-Slop-Regeln für diese Seite
 - Keine Allgemeinplätze („Der Wert einer Immobilie hängt von vielen Faktoren ab“, „Lage, Lage, Lage“, „in 2 Minuten zum Wert“). Verboten: „exakter Marktwert“, „taggenau“, „KI-gestützte Bewertung“, „Top-Preis garantiert“.

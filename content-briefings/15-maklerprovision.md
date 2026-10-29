@@ -63,6 +63,18 @@
 | ZU PRÜFEN: Weiterbildungspflicht 20 Stunden in drei Jahren | § 34c Abs. 2a GewO | A2 Nr. 10 |
 | ZU PRÜFEN: BGH-Rechtsprechung zu Laufzeiten von Alleinaufträgen in AGB (üblich max. sechs Monate) | 6.7 Nr. 3 | nicht belegt |
 | ZU PRÜFEN: Status und Datum der § 34c-Erlaubnis von Linus; erteilende Behörde | Analyse 01, 9.1 | offen |
+| **Nachtrag aus marktthemen-2026.md (Stand 29.10.2026)** | | |
+| BGH: Halbteilungsgrundsatz (§ 656c BGB) gilt analog, wenn ein Dritter (z. B. Ehefrau) den Maklervertrag schließt; ungleiche Provisionen → Maklervertrag unwirksam | BGH 06.03.2025, I ZR 32/24 (teils als I ZR 138/24 zitiert, ZU PRÜFEN) | https://www.bundesgerichtshof.de/SharedDocs/Pressemitteilungen/DE/2025/2025044.html ; https://datenbank.nwb.de/Dokument/1064889/ |
+| BGH: Maßgeblich ist, ob das Objekt bei Abschluss des Maklervertrags für den Makler erkennbar ein Einfamilienhaus (bzw. eine Wohnung) ist; Zweifamilienhaus ist keines; spätere Eigennutzungsabsicht ändert nichts | BGH 16.07.2026, I ZR 111/25 (PM 127/2026) | https://www.bundesgerichtshof.de/SharedDocs/Pressemitteilungen/DE/2026/2026127.html |
+| Rechtsfolge eines Verstoßes gegen § 656c: Gesamtnichtigkeit des Maklervertrags, Rückzahlung der vollen Provision | BGH-Linie 2025/2026 | https://www.osborneclarke.com/de/insights/bgh-urteilsbesprechungen-gesamtnichtigkeit-einer-vereinbarung-ueber-die-maklerkosten-und |
+| Reservierungsvereinbarung in AGB (1 % des Kaufpreises) unwirksam; Rückzahlung | BGH 20.04.2023, I ZR 113/22 | marktthemen-2026.md Kap. 7b (Vorwissen, keine neue Entscheidung 2025/26) |
+| Kein Bestellerprinzip beim Kauf beschlossen; Bestellerprinzip gilt nur bei Vermietung (seit 01.06.2015) | § 2 Abs. 1a WoVermRG | marktthemen-2026.md Kap. 8a; ZU PRÜFEN ältere Anträge |
+| Übliche Provision BW 3,57 % je Seite auch laut Dr. Klein 2026 | Portalangabe | https://www.drklein.de/maklerprovision.html |
+| Makler sind GwG-Verpflichtete: Risikoanalyse, Identifizierung bei Kauf stets (§ 11 GwG), goAML-Registrierung seit 01.01.2024, Aufbewahrung 5 Jahre (§ 8 GwG), Verdachtsmeldung (§ 43 GwG) | § 2 Abs. 1 Nr. 14 GwG | https://gwgimmo.de/blog/gwg/geldwaschegesetz-fur-immobilienmakler-pflichten-risiken-klare-handlungsempfehlungen-2026 ; https://onoffice.com/blog/branchennews/geldwaeschegesetz-darauf-muessen-sie-als-immobilienmakler-achten/ |
+| Barzahlungsverbot beim Immobilienkauf seit 01.04.2023 (auch Kryptowerte, Gold) | § 16a GwG | s. o. |
+| EU-Geldwäscheverordnung (AMLR, VO (EU) 2024/1624) gilt ab 10.07.2027 unmittelbar; Bargeldobergrenze 10.000 € (Vorwissen, ZU PRÜFEN) | AMLR | marktthemen-2026.md Kap. 8a, 8b |
+| Bürokratierückbau GewO: Bundestag beschloss am 11.06.2026 (Drs. 21/3740), die Weiterbildungspflicht für Makler zu streichen; Bundesrat/Inkrafttreten ZU PRÜFEN | § 34c Abs. 2a GewO | https://www.wohnen-im-eigentum.de/politik/verwalter-sachkundenachweis |
+| Immobilienkaufverträge weiterhin nur in Präsenz beurkundbar (keine Videobeurkundung) | BeurkG | https://www.ihk.de/koeln/hauptnavigation/recht-steuern/recht/online-gruendungen-notarielle-beurkundung-durch-videokonferenz-5962580 |
 
 ## 4. Gliederung (H1–H3) mit Stichpunkten je Abschnitt
 - **Title (≤ 60 Zeichen):** Maklerprovision Baden-Württemberg: Höhe, Vertrag, Rössler-Preis
@@ -102,7 +114,14 @@
   - Modell A: 2,98 % Verkäufer + 2,98 % Käufer. Modell B: Verkäufer trägt beides (5,96 % bei Rössler, „Käufer provisionsfrei“), ggf. höherer Angebotspreis. Rechenbeispiel 290.000 €: A: 8.642 € Verkäufer; B: 17.284 € Verkäufer, Käufer 0 €; wann B sinnvoll sein kann (Anlegerkäufer rechnen Gesamtkosten, Eigennutzer vergleichen Angebotspreise), eigene Einschätzung von Linus, als solche gekennzeichnet.
   - Hinweis: „Keine Verkäuferprovision“-Werbung bedeutet nach § 656c BGB, dass auch der Käufer nichts zahlen darf, wenn der Makler für den Verkäufer unentgeltlich tätig ist; sonst muss der Verkäufer mindestens gleich viel zahlen (§ 656d). Sachlich erklären, Wettbewerber nicht nennen.
 
-- **H2: Wann keine Provision anfällt** (ca. 250 Wörren)
+- **H2: Was der BGH 2025 und 2026 zur Halbteilung entschieden hat** (ca. 250 Wörter)
+  - I ZR 32/24 (Dritter schließt den Vertrag), I ZR 111/25 (Erkennbarkeit bei Vertragsschluss, Zweifamilienhaus), Gesamtnichtigkeit als Folge; Reservierungsgebühr-Urteil I ZR 113/22 als Hinweis, warum Rössler keine Reservierungsgebühr nimmt (bestätigen lassen).
+  - Konsequenz für Verkäufer: Ein Maklervertrag mit ungleicher Provision ist nichtig; Transparenz schützt beide Seiten.
+
+- **H2: Ausweis, Geldwäsche, Bargeld: Warum ich Sie identifizieren muss** (ca. 200 Wörter)
+  - § 11 GwG Identifizierung, § 16a GwG Barzahlungsverbot seit 01.04.2023, Aufbewahrung fünf Jahre, AMLR ab 10.07.2027; Datenschutzhinweis (die Live-Seite nennt das GwG bereits, Analyse 01, 9.2).
+
+- **H2: Wann keine Provision anfällt** (ca. 250 Wörter)
   - Kein Kaufvertrag; Käufer nicht durch Makler nachgewiesen/vermittelt; wirksamer Widerruf ohne vorzeitigen Beginn; unwirksamer Vertrag (Formverstoß, Vollabwälzung); Rückforderung § 812 BGB.
   - Vorkaufsrecht des Mieters: Mieter zahlt Provision (LG Köln), Link zu 11-vermietete-wohnung-verkaufen.md.
 
@@ -143,6 +162,12 @@
   - Unterzeile: „Sie wissen jetzt, was ich koste. Jetzt schauen wir, was Ihre Wohnung bringt.“
   - Sekundär: „Muster-Maklervertrag mit Widerrufsbelehrung ansehen (PDF)“
   - Abschluss-Band: „2,98 % inkl. USt je Seite, kein Vorschuss, kein Kleingedrucktes. Wenn Sie wissen wollen, ob sich das für Ihre Wohnung in Leonberg, Ditzingen oder Pforzheim rechnet, rufen Sie mich an.“
+
+- **Technik und Pflege:**
+  - Schema: Article, FAQPage, BreadcrumbList; Autorenbox mit § 34c-Status; „Stand“-Vermerk; Quellenliste am Seitenende.
+  - Update-Trigger: Erteilung der § 34c-Erlaubnis, Bundesrat zum Bürokratierückbau GewO (Weiterbildungspflicht), AMLR 10.07.2027, neue BGH-Urteile zu § 656c, jährliche Prüfung der „üblichen Sätze“ (IS24, IHK, Dr. Klein).
+  - Provisionsrechner ohne Cookies und ohne Datenübertragung (reines Frontend).
+  - Wortzahl-Verteilung: Kürze 120, Gesetz 300, üblich 300, Rössler-Preis 350, Leistungskatalog 400, Vertrag 600, Modellwahl 350, BGH 250, GwG 200, keine Provision 250, Steuer 120, § 34c 150, FAQ 350, CTA 80 = ca. 3.820 Wörter.
 
 ## 6. Anti-Slop-Regeln für diese Seite
 - Keine Allgemeinplätze („Ein guter Makler ist sein Geld wert“, „Qualität hat ihren Preis“, „faire Provision“). Verboten: „günstigster Makler der Region“, „Provision sparen leicht gemacht“, „Makler zocken ab“, „Rundum-Sorglos-Paket“.
