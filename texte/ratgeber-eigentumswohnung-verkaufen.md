@@ -1,7 +1,7 @@
 ---
 url: /ratgeber/eigentumswohnung-verkaufen/
 title: Eigentumswohnung verkaufen: Ablauf, WEG-Unterlagen, Kosten (2026)
-description: Wohnung verkaufen in Leonberg, Ditzingen, Pforzheim: 12 WEG-Unterlagen, Verwalterzustimmung, 5 % Grunderwerbsteuer, Beispiel 290.000 €. Kostenlos einschätzen.
+description: Wohnung verkaufen in Leonberg, Pforzheim: 12 WEG-Unterlagen, Verwalterzustimmung, 5 % Grunderwerbsteuer, Beispiel 290.000 €. Kostenlos einschätzen.
 stand: Oktober 2026
 status: Entwurf, nicht veröffentlicht
 ---
@@ -88,7 +88,7 @@ Die Teilungserklärung legt fest, was Ihnen gehört, was allen gehört und was S
 ### Energieausweis über die WEG
 Der Energieausweis gilt für das Gebäude. Liegt keiner vor, ist beim Verkauf einer auszustellen; Sie legen ihn spätestens bei der Besichtigung vor und übergeben ihn nach dem Kaufvertrag (§ 80 Abs. 3 und 4 GModG, ehemals GEG) [8]. Weil die Gemeinschaft ihn beschafft, sprechen Sie drei bis sechs Monate vorher mit der Verwaltung.
 
-Das Gesetz heißt seit dem Sommer anders: Das Gebäudemodernisierungsgesetz (GModG) hat das GEG abgelöst, verkündet im BGBl. 2026 I Nr. 226, in Kraft seit dem 29. Juli 2026 [27] [ZU PRÜFEN: eine Quelle nennt den 23. Juli]. Für Verkäufer älterer Wohnungen zählt eine Änderung: Die 65-%-Pflicht für neue Heizungen und das Betriebsverbot für über 30 Jahre alte Kessel sind gestrichen [27]. Das Argument „die Heizung muss sowieso raus“ fällt bei Anlagen der 1970er- und 1980er-Jahre weg, auch wenn Käufer künftige Heizkosten weiter einrechnen. Ab dem 1. Januar 2027 gelten neue Pflichtangaben in Inseraten (§ 87 GModG: Ausweisart, Ausstellungsdatum, Primärenergiebedarf statt Endenergie, Klasse, Baujahr, Energieträger), Verstöße kosten bis zu 10.000 € (§ 108), ältere Ausweise bleiben zehn Jahre gültig (§ 112 Abs. 3) [28]. Braucht Ihre Gemeinschaft 2026 ohnehin einen neuen Verbrauchsausweis, lohnt es sich, ihn noch dieses Jahr zu bestellen. Mehr im Ratgeber [Energieausweis bei der Eigentumswohnung](/ratgeber/energieausweis/).
+Das Gesetz heißt seit dem Sommer anders: Das Gebäudemodernisierungsgesetz (GModG) hat das GEG abgelöst, verkündet im BGBl. 2026 I Nr. 226, in Kraft seit dem 29. Juli 2026 [27] [ZU PRÜFEN: eine Quelle nennt den 23. Juli]. Für Verkäufer älterer Wohnungen zählt eine Änderung: Die 65-%-Pflicht für neue Heizungen und das Betriebsverbot für über 30 Jahre alte Kessel sind gestrichen [27]. Das Argument „die Heizung muss sowieso raus“ fällt bei Anlagen der 1970er- und 1980er-Jahre weg, auch wenn Käufer künftige Heizkosten weiter einrechnen. Schon heute gehören Ausweisart, Energiekennwert, Energieträger, Baujahr und Klasse in jede Anzeige (§ 87 Abs. 1 GModG) [9]. Ab dem 1. Januar 2027 kommen Ausstellungsdatum und Primärenergiebedarf statt Endenergie hinzu, Verstöße kosten bis zu 10.000 € (§ 108), ältere Ausweise bleiben zehn Jahre gültig (§ 112 Abs. 3) [28]. Braucht Ihre Gemeinschaft 2026 ohnehin einen neuen Verbrauchsausweis, lohnt es sich, ihn noch dieses Jahr zu bestellen. Mehr im Ratgeber [Energieausweis bei der Eigentumswohnung](/ratgeber/energieausweis/).
 
 > **Wohnung kostenlos einschätzen lassen**
 > Ich schaue mir Wohnung und Gebäude an und sage Ihnen, was realistisch ist. [Zum Formular](/wohnung-bewerten/) oder Telefon [LINUS: Nummer, Erreichbarkeit, Antwortzeit bestätigen]. Keine Portale, keine Weitergabe Ihrer Daten.
