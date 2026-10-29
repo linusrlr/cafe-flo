@@ -89,3 +89,17 @@ Aus Digest und Marktthemen-Dossier ergeben sich sofort Newsletter- und Artikelan
 - Wärmepumpen-Test der Stiftung Warentest: Argument für Verkäufer mit Gasheizung in der WEG.
 
 Jede dieser Meldungen ist zugleich ein Anlass, eine bestehende Ratgeberseite um einen datierten Absatz „Aktuell“ zu ergänzen. Das hält die Seiten lebendig, ohne jedes Mal einen neuen Artikel zu brauchen.
+
+## 8. Redaktionsplan-Vorschlag aus dem Marktthemen-Dossier
+
+`../recherche/marktthemen-2026.md` enthält in Kapitel 15 eine Gesamttabelle aller 55 Themen mit Stand, Frist und Relevanz für Verkäufer und Fix & Flip, in Kapitel 16 die 15 priorisierten Artikelideen mit Suchvolumen-Einschätzung und in Anhang H fertige Artikel-Briefings für die fünf wichtigsten. Die fünf dringendsten (Stand 29.10.2026):
+
+1. Spekulationsfrist bleibt (Bundestag 8.10.2026, Bundesrat 16.10.2026): Entwarnung mit Rechenbeispiel für Leonberg.
+2. Heizungsgesetz abgelöst: Gebäudemodernisierungsgesetz seit 29.7.2026, 65-%-Pflicht gestrichen, neue Energieausweis- und Inseratspflichten ab 1.1.2027 (Bußgeld bis 10.000 Euro). Betrifft jede Verkaufsanzeige ab Januar.
+3. Bauzinsen um 4,2 bis 4,5 % (Jahreshoch), EZB hält am 29.10.2026: monatliche Zins-Rubrik mit drei regionalen Rechenbeispielen.
+4. KfW 308 „Jung kauft Alt“ seit 3.8.2026: bis 180.000 Euro zu rund 1 % für Wohnungen der Klassen F bis H, Antrag vor dem Notar. Das stärkste Verkaufsargument für unsanierte Wohnungen in Pforzheim und Leonberg.
+5. Mietpreisbremse-Kulisse BW: Leonberg und Pforzheim ja, Ditzingen, Renningen, Heimsheim nein; Verordnung läuft 31.12.2026 aus, Entwurf ab 2027 in Anhörung. Exklusive Ortskarte mit den Kriterien aus dem Landesgutachten.
+
+Vorgeschlagener Monatsrhythmus (ein Leitartikel, ein Zins-Update, eine Lokalzahl): November Spekulationsfrist + Zinsen + Mietpreisbremse-Karte; Dezember Energieausweis 2027 + EZB + Grundsteuer-Hebesätze 2027; Januar Marktbericht Leonberg/Pforzheim + Jung kauft Alt + Mietrecht II; Februar Erben und Babyboomer + Lagarde-Nachfolge; März Sanierungskosten + Heizungsgesetz in der Praxis; April Vermarktungsdauer + Drei-Objekt-Grenze.
+
+Vor jeder Veröffentlichung die Prüfliste in Kapitel 18 des Dossiers abarbeiten (103 Stellen sind dort als unbestätigt markiert, u. a. KfW-Tageszinsen, § 250 BauGB in BW, Hebesätze Pforzheim/Heimsheim).
