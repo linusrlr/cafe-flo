@@ -1,36 +1,18 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Rössler Immobilien – Arbeits- und Recherche-Repo
 
-## Getting Started
+Dieses Repository (ehemals „Café Flo“, alter Inhalt entfernt) dient als Arbeits- und Recherche-Ablage für die Webseite https://roessler-immo.de/ (Rössler Immobilien, Linus Rössler). Der Code der Live-Seite liegt noch lokal und wird später hier abgelegt.
 
-First, run the development server:
+## Ordner
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+| Ordner | Inhalt |
+|---|---|
+| `analyse-aktuelle-webseite/` | Analyse der bestehenden Seite, Wettbewerbsvergleich, priorisierte Maßnahmen, Seitenplan, Radar-Konzept. **Hier anfangen** (`README.md` dort). |
+| `recherche/` | Rohdaten der Wettbewerbs- und Themenrecherche (regional, München, Großstädte, überregional, Ratgeber-Themen, lokale Marktdaten, Feeds, aktuelle Marktthemen). Lang, belegt mit Zitaten und URLs. |
+| `content-briefings/` | Je geplante Unterseite ein Briefing: Ziel, Suchintention, Gliederung, Pflichtfakten mit Rechtsgrundlagen, Quellen, CTAs. Grundlage für das spätere Bauen der Seiten. |
+| `radar/` | Werkzeug zur Gesetzes- und Marktbeobachtung (RSS-Aggregator mit Schlagwortfilter) samt Digests. |
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Arbeitsweise
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- Alles auf Deutsch.
+- Recherche vor Umsetzung: Unterseiten werden erst gebaut, wenn Briefing und Quellen vorliegen (gegen generische KI-Texte).
+- Jede Behauptung in den Dokumenten ist mit Quelle oder wörtlichem Zitat belegt; Unklares ist als „nicht prüfbar“ markiert.

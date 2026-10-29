@@ -1,0 +1,16 @@
+[
+  {"name": "Bundestag – hib (heute im bundestag)", "category": "Gesetzgebung", "url": "https://www.bundestag.de/static/appdata/includes/rss/hib.rss", "prio": 5},
+  {"name": "Bundestag – Pressemitteilungen", "category": "Gesetzgebung", "url": "https://www.bundestag.de/static/appdata/includes/rss/pressemitteilungen.rss", "prio": 4},
+  {"name": "Bundesregierung – Aktuelles", "category": "Gesetzgebung", "url": "https://www.bundesregierung.de/service/rss/breg-de/1151244/feed.xml", "prio": 4},
+  {"name": "IVD – Immobilienverband", "category": "Branche", "url": "https://www.ivd.net/feed/", "prio": 5, "filter": false},
+  {"name": "GdW – Wohnungswirtschaft", "category": "Branche", "url": "https://www.gdw.de/rss", "prio": 3},
+  {"name": "vdp – Pfandbriefbanken", "category": "Markt/Zinsen", "url": "https://www.pfandbrief.de/rss", "prio": 3},
+  {"name": "Handelsblatt – Immobilien", "category": "Markt/Zinsen", "url": "https://www.handelsblatt.com/contentexport/feed/immobilien", "prio": 4, "filter": false},
+  {"name": "Spiegel – Wirtschaft/Service", "category": "Markt/Zinsen", "url": "https://www.spiegel.de/wirtschaft/service/index.rss", "prio": 2},
+  {"name": "test.de – alles", "category": "Verbraucher", "url": "https://www.test.de/rss/alles/", "prio": 2},
+  {"name": "EZB – Presse", "category": "Markt/Zinsen", "url": "https://www.ecb.europa.eu/rss/press.html", "prio": 4},
+  {"name": "Bundesnetzagentur – Presse", "category": "Energie/Sanierung", "url": "https://www.bundesnetzagentur.de/SiteGlobals/Functions/RSSFeed/DE/RSSNewsfeed/RSSNewsfeed_Pressemitteilungen.xml", "prio": 1},
+  {"name": "Google News – Grunderwerbsteuer", "category": "News-Suche", "url": "https://news.google.com/rss/search?q=Grunderwerbsteuer&hl=de&gl=DE&ceid=DE:de", "prio": 3, "filter": false},
+  {"name": "Google News – Wohnungseigentumsgesetz", "category": "News-Suche", "url": "https://news.google.com/rss/search?q=Wohnungseigentumsgesetz+OR+WEG-Recht&hl=de&gl=DE&ceid=DE:de", "prio": 3, "filter": false},
+  {"name": "Google News – Immobilienmarkt Region Stuttgart", "category": "News-Suche", "url": "https://news.google.com/rss/search?q=Immobilien+(Leonberg+OR+Pforzheim+OR+Ditzingen+OR+Renningen+OR+Heimsheim)&hl=de&gl=DE&ceid=DE:de", "prio": 4, "filter": false}
+]
