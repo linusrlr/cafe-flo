@@ -150,7 +150,7 @@ Für die Nettorendite werden die nicht umlagefähigen Kosten abgezogen, also Ver
 Dazu kommt 2026 der Zins: Zehnjährige Baufinanzierungen kosteten Ende Oktober 2026 rund 4,2 bis 4,5 % effektiv, ein Jahr zuvor 3,38 % [26]. Ein Anleger, der zu 4,4 % finanziert und 4,4 % Bruttorendite erzielt, hat vor Kosten und Steuern eine Null. Deshalb zählt eine belegbare Miete nahe am Markt mehr als jedes Adjektiv im Exposé. Die Bundesbank rechnet zudem damit, dass bis 2027 rund 20 % des Wohnimmobilien-Kreditvolumens refinanziert werden müssen [26]; es kommen also auch Verkäufer unter Druck auf den Markt, mit denen Sie konkurrieren.
 
 > **Vermietete Wohnung kostenlos einschätzen lassen**
-> Ich rechne Ihnen vor, was ein Anleger und was ein künftiger Selbstnutzer in Ihrer Lage zahlen würde, und wie die Sperrfrist Ihren Käuferkreis verändert. [Zum Formular](/wohnung-bewerten/), Feld „vermietet“ ist dort vorgesehen. [LINUS: Telefonnummer und Antwortzeit ergänzen.]
+> Ich rechne Ihnen vor, was ein Anleger und was ein künftiger Selbstnutzer in Ihrer Lage zahlen würde, und wie die Sperrfrist Ihren Käuferkreis verändert. [Zum Formular](/wohnung-bewerten/), Feld „vermietet“ ist dort vorgesehen. Telefon 0159 05844641, Antwort innerhalb eines Werktags.
 
 ## Unterlagen für Anleger
 
@@ -225,7 +225,7 @@ Ja. Er tritt in den Kaufvertrag zu denselben Bedingungen ein, und dazu gehört d
 Als zumutbar gilt laut ImmoScout24 etwa ein Termin pro Woche von rund zwei Stunden, angekündigt und nicht an Sonn- und Feiertagen ohne Zustimmung [12]. Ich fasse Interessenten zu Sammelterminen zusammen und zeige vermietete Wohnungen oft erst nach einer Vorentscheidung anhand der Unterlagen.
 
 ## Hinweis
-Ich erbringe keine Rechts- und keine Steuerberatung, insbesondere keine Mietrechtsberatung zu Kündigung, Eigenbedarf oder Mieterhöhung. Dafür sind Anwalt, Mieterverein oder Haus & Grund sowie Ihr Steuerberater zuständig. Gesetzes- und Verordnungsangaben geben den Stand vom Oktober 2026 wieder; die Kündigungssperrfrist- und die Mietpreisbegrenzungsverordnung laufen am 31. Dezember 2026 aus, Nachfolgeverordnungen sind in Vorbereitung. Mieten und Preise sind Angebotswerte von Portalen, keine Abschlüsse. Meine Erlaubnis nach § 34c GewO ist beantragt; Einschätzungen gebe ich ab sofort, Makleraufträge nehme ich nach Erteilung an.
+Ich erbringe keine Rechts- und keine Steuerberatung, insbesondere keine Mietrechtsberatung zu Kündigung, Eigenbedarf oder Mieterhöhung. Dafür sind Anwalt, Mieterverein oder Haus & Grund sowie Ihr Steuerberater zuständig. Gesetzes- und Verordnungsangaben geben den Stand vom Oktober 2026 wieder; die Kündigungssperrfrist- und die Mietpreisbegrenzungsverordnung laufen am 31. Dezember 2026 aus, Nachfolgeverordnungen sind in Vorbereitung. Mieten und Preise sind Angebotswerte von Portalen, keine Abschlüsse.
 
 ## Nächster Schritt
 
@@ -233,7 +233,7 @@ Sie haben einen Mieter, den Sie nicht verärgern wollen, und eine Wohnung, die S
 
 **[Vermietete Wohnung kostenlos einschätzen lassen](/wohnung-bewerten/)**
 Ich rechne Ihnen vor, was ein Anleger und was ein künftiger Selbstnutzer in Ihrer Lage zahlen würde, und wie die Sperrfrist Ihren Käuferkreis verändert.
-Oder Sie laden die [Checkliste für Kapitalanleger](/ratgeber/vermietete-wohnung-verkaufen/checkliste-anleger.pdf) herunter. [LINUS: Checkliste als PDF muss noch erstellt werden; Telefonnummer ergänzen.]
+Oder Sie laden die [Checkliste für Kapitalanleger](/ratgeber/vermietete-wohnung-verkaufen/checkliste-anleger.pdf) herunter. [LINUS: Checkliste als PDF muss noch erstellt werden.] Telefon 0159 05844641.
 
 ## Vor Ort
 - [Wohnung verkaufen in Leonberg](/wohnung-verkaufen/leonberg/): fünf Jahre Sperrfrist, Mietpreisbremse seit 2020, Angebotsmieten zwischen 12,76 und 15,78 €/m² je nach Quelle.

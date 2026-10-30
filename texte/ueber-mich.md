@@ -40,7 +40,7 @@ Die Stationen im Einzelnen:
 - [LINUS: Station Projektcontrolling, Arbeitgeber oder Branche, Zeitraum, was Sie dort konkret gemacht haben]
 - [LINUS: Station Wohnungsbewertung, Arbeitgeber oder Branche, Zeitraum, wie viele Wohnungen Sie dort bewertet haben]
 - [LINUS: Kauf der eigenen Wohnung, Jahr]
-- 2026: Gründung von Rössler Immobilien, Antrag auf die Maklererlaubnis nach § 34c GewO
+- 2026: Gründung von Rössler Immobilien
 
 Aus dem Controlling bringe ich die Gewohnheit mit, Annahmen aufzuschreiben und nachzurechnen. Aus der Bewertung die Erfahrung, dass bei Eigentumswohnungen nicht die Wohnung allein zählt, sondern das Gebäude, die Rücklage und die Beschlüsse der Gemeinschaft.
 
@@ -84,7 +84,7 @@ Die fünf Orte hängen zusammen. Leonberg, Ditzingen und Renningen liegen an der
 2. **Schriftlicher Verkaufsplan vor der Vermarktung.** Keine Veröffentlichung, bevor Preis, Käufergruppen und Vorbereitung auf Papier stehen und Sie zugestimmt haben.
 3. **Provision 2,98 % je Seite, nur bei Notarvertrag.** Keine Vorkosten, keine Pauschalen, kein Honorar ohne Abschluss.
 4. **Einzelbesichtigungen nur mit geprüfter Finanzierung.** Vor einem Einzeltermin frage ich, wie der Kauf finanziert werden soll, und bitte um einen Nachweis.
-5. **Wöchentlicher Stand per E-Mail oder Anruf.** Anfragen, Besichtigungen, Rückmeldungen, nächste Schritte. Auch wenn in einer Woche wenig passiert ist.
+5. **Wöchentlicher Stand per E-Mail oder Anruf.** Anfragen, Besichtigungen, Rückmeldungen, nächste Schritte.
 
 Wenn ich eine dieser Zusagen nicht halte, sagen Sie es mir. Ich bin Einzelmakler, es gibt niemanden, auf den ich das schieben könnte.
 

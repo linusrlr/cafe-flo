@@ -1,4 +1,4 @@
-# Briefing: Ortsseite Pforzheim – „Wohnung verkaufen in Pforzheim“
+# Briefing: Ortsseite Pforzheim („Wohnung verkaufen in Pforzheim“)
 
 Quellen: `../recherche/themen-und-lokal.md` (B2 Daten, B3 Aufbau), `../recherche/regional.md` (Garant Pforzheim, Schürrer & Fleischer Pforzheim, Gäu Pforzheimer Stadtteilseiten), `../recherche/staedte.md` (PORTIMMO Pforzheim-Seite). Struktur wie `30-ortsseite-leonberg.md`; hier nur die Pforzheim-spezifischen Inhalte.
 

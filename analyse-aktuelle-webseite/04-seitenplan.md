@@ -6,7 +6,7 @@ Stand: 30. Oktober 2026. Abgeleitet aus `02-wettbewerb.md`, den Themen-Benchmark
 
 ## 1. Prinzipien
 
-1. **Wenige Seiten mit Substanz statt vieler Templates.** 5 Ortsseiten, 12 Ratgeber, 6 Leistungs- und Personenseiten im ersten Jahr. Keine Straßen- oder PLZ-Seiten, keine Glossare, keine News.
+1. **Wenige Seiten mit Substanz statt vieler Templates.** 5 Ortsseiten, 12 Ratgeber (R-08 als Lead-Seite `/wohnung-bewerten/`), 6 Leistungs- und Personenseiten im ersten Jahr. Keine Straßen- oder PLZ-Seiten, keine Glossare, keine News.
 2. **Jede Seite hat einen Anlass, einen Beweis und einen nächsten Schritt.** Anlass = Lebenssituation oder Frage; Beweis = Zahl mit Quelle, Beispiel, Referenz; nächster Schritt = Einschätzung anfordern, anrufen, Direktankauf prüfen.
 3. **Eigentumswohnung ist das Thema jeder Seite.** Haus-Themen kommen nur als Abgrenzung vor.
 4. **Fakten nur mit Quelle und Stand.** Rechtsgrundlagen mit Paragraf, Marktzahlen mit Portal/Stichtag, Prüfpunkte sichtbar markiert, bis sie geklärt sind.
@@ -27,11 +27,30 @@ Stand: 30. Oktober 2026. Abgeleitet aus `02-wettbewerb.md`, den Themen-Benchmark
 /wohnung-bewerten/                  Lead-Seite mit mehrstufigem Formular
 /wohnung-bewerten/danke/            Bestätigung (noindex)
 /ratgeber/                          Hub mit vier Rubriken
-/ratgeber/<slug>/                   12 Ratgeber (Liste unten)
+/ratgeber/<slug>/                   11 Ratgeber (Slugs unten; R-08 liegt unter /wohnung-bewerten/)
 /ueber-mich/                        Person, Werdegang, Arbeitsweise, Zusagen
 /kontakt/                           Telefon, Formular, Erreichbarkeit, Rückrufwunsch
 /impressum/  /datenschutz/  /widerruf/   Pflichtseiten (Widerrufsbelehrung Maklervertrag als eigene Seite)
 ```
+
+Verbindliche Slugs der Ratgeber (Stand Oktober 2026, in allen Texten unter `texte/` so verlinkt):
+
+| Nr. | URL | Textdatei |
+|---|---|---|
+| R-01 | `/ratgeber/eigentumswohnung-verkaufen/` | texte/ratgeber-eigentumswohnung-verkaufen.md |
+| R-02 | `/ratgeber/vermietete-wohnung-verkaufen/` | texte/ratgeber-vermietete-wohnung-verkaufen.md |
+| R-03 | `/ratgeber/geerbte-wohnung-verkaufen/` | texte/ratgeber-geerbte-wohnung-verkaufen.md |
+| R-04 | `/ratgeber/wohnung-scheidung/` | texte/ratgeber-wohnung-scheidung.md |
+| R-05 | `/ratgeber/spekulationssteuer/` | texte/ratgeber-spekulationssteuer.md |
+| R-06 | `/ratgeber/maklerprovision/` | texte/ratgeber-maklerprovision.md |
+| R-07 | `/ratgeber/energieausweis/` | texte/ratgeber-energieausweis.md |
+| R-08 | `/wohnung-bewerten/` (Bewertungsratgeber ist in die Lead-Seite integriert, kein eigener Ratgeber-Slug) | texte/wohnung-bewerten.md |
+| R-09 | `/ratgeber/verkaufen-oder-vermieten/` | texte/ratgeber-verkaufen-oder-vermieten.md |
+| R-10 | `/ratgeber/verkauf-im-alter/` | texte/ratgeber-verkauf-im-alter.md |
+| R-11 | `/ratgeber/ohne-makler-verkaufen/` | texte/ratgeber-ohne-makler.md |
+| R-12 | `/ratgeber/sofortankauf-vs-makler/` | texte/ratgeber-sofortankauf-vs-makler.md |
+
+Ortsseiten: `/wohnung-verkaufen/<ort>/` mit `leonberg`, `pforzheim`, `heimsheim`, `ditzingen`, `renningen`.
 
 Navigation (Desktop, 6 Punkte): Wohnung verkaufen · Wohnung bewerten · Direktankauf · Ratgeber · Über mich · Kontakt, dazu Telefonnummer. Mobil zusätzlich Telefon-Icon dauerhaft.
 
@@ -41,12 +60,12 @@ Footer: NAP, Einzugsgebiet mit fünf Ortslinks, Ratgeber-Rubriken, Impressum/Dat
 
 | Nr. | Seite | Briefing | Priorität | Welle |
 |---|---|---|---|---|
-| S-01 | Start (Umbau: Hero mobil, „Was führt Sie zu mir?“-Kacheln, Zusagen, Orte, Ratgeber-Teaser, FAQ) | 01-start (folgt) | Hoch | 1 |
-| S-02 | Wohnung verkaufen (Hub: Ablauf, Verkaufsplan, Provision, Unterlagen, FAQ, Lebenssituationen) | 02-wohnung-verkaufen (folgt), Basis 10 | Hoch | 1 |
+| S-01 | Start (Umbau: Hero mobil, „Was führt Sie zu mir?“-Kacheln, Zusagen, Orte, Ratgeber-Teaser, FAQ) | kein eigenes Briefing; Text `texte/start.md` | Hoch | 1 |
+| S-02 | Wohnung verkaufen (Hub: Ablauf, Verkaufsplan, Provision, Unterlagen, FAQ, Lebenssituationen) | kein eigenes Briefing, Basis 10; Text `texte/wohnung-verkaufen.md` | Hoch | 1 |
 | S-03 | Wohnung bewerten (Funnel) | 17-wohnungsbewertung | Hoch | 1 |
 | S-04 | Direktankauf (Umbau) | 21-sofortankauf-vs-makler | Hoch | 1 |
-| S-05 | Über mich (Ausbau) | 05-ueber-mich (folgt) | Hoch | 1 |
-| S-06 | Kontakt (Erreichbarkeit, Rückruf) | 06-kontakt (folgt) | Hoch | 1 |
+| S-05 | Über mich (Ausbau) | kein eigenes Briefing; Text `texte/ueber-mich.md` | Hoch | 1 |
+| S-06 | Kontakt (Erreichbarkeit, Rückruf) | kein eigenes Briefing; Text `texte/kontakt.md` | Hoch | 1 |
 | O-01 | Ortsseite Leonberg | 30 | Hoch | 2 |
 | O-02 | Ortsseite Pforzheim | 31 | Hoch | 2 |
 | O-03 | Ortsseite Heimsheim | 32 | Mittel | 2 |

@@ -1,5 +1,5 @@
 ---
-url: /ratgeber/wohnung-verkaufen-im-alter/
+url: /ratgeber/verkauf-im-alter/
 title: Wohnung verkaufen im Alter: Wohnrecht, Teilverkauf, Pflege
 description: Eigentumswohnung im Alter verkaufen: Vollverkauf gegen Nießbrauch, Teilverkauf und Leibrente mit Zahlen aus Leonberg gerechnet, Pflegefall, Vollmacht, Betreuungsgericht. Ohne Verrentungsprodukte.
 stand: Oktober 2026
@@ -165,7 +165,7 @@ Was ich in diesem Fall liefere: den schriftlichen Verkaufsplan mit Preisspanne, 
 
 <!-- Checkliste als PDF ohne E-Mail-Pflicht: „Unterlagen für Bevollmächtigte und Betreuer beim Wohnungsverkauf“: notarielle Vollmacht oder Betreuerausweis, Kontakt Betreuungsgericht, Verkehrswertgutachten, Grundbuchauszug, Teilungserklärung, Protokolle der letzten drei Versammlungen, Vermögensbericht, Hausgeldabrechnung, Wirtschaftsplan, Energieausweis, Mietvertrag falls vermietet, Ausweis für die Identifizierung nach § 11 GwG. -->
 
-**[Button: Checkliste für Bevollmächtigte und Betreuer herunterladen → /ratgeber/wohnung-verkaufen-im-alter/checkliste-betreuer.pdf]** [LINUS: PDF muss noch erstellt werden.]
+**[Button: Checkliste für Bevollmächtigte und Betreuer herunterladen → /ratgeber/verkauf-im-alter/checkliste-betreuer.pdf]** [LINUS: PDF muss noch erstellt werden.]
 
 ## Barrierefrei umziehen: Angebot und Nachfrage in der Region
 
@@ -231,7 +231,7 @@ Beim Vollverkauf der Erlös abzüglich dessen, was Sie verbrauchen; je Kind sind
 
 ## Hinweis
 
-Ich erbringe keine Rechts-, Steuer-, Sozialrechts- oder Finanzberatung. Vollmacht, Betreuung, Nießbrauchvertrag und Kaufvertrag gehören zum Notar oder Anwalt, Schenkung und Erbschaft zum Steuerberater, Hilfe zur Pflege zum Pflegestützpunkt oder Sozialverband, Kredite zur Bank oder Verbraucherzentrale. Abschläge in diesem Text sind rechnerische Werte nach Bewertungsrecht, keine Marktpreise. Schonvermögensbeträge und Zuständigkeiten sind vor Veröffentlichung zu prüfen. Preise sind Angebotswerte von Portalen, keine Abschlüsse. Meine Erlaubnis nach § 34c GewO ist beantragt; Einschätzungen gebe ich ab sofort, Makleraufträge nehme ich nach Erteilung an.
+Ich erbringe keine Rechts-, Steuer-, Sozialrechts- oder Finanzberatung. Vollmacht, Betreuung, Nießbrauchvertrag und Kaufvertrag gehören zum Notar oder Anwalt, Schenkung und Erbschaft zum Steuerberater, Hilfe zur Pflege zum Pflegestützpunkt oder Sozialverband, Kredite zur Bank oder Verbraucherzentrale. Abschläge in diesem Text sind rechnerische Werte nach Bewertungsrecht, keine Marktpreise. Schonvermögensbeträge und Zuständigkeiten sind vor Veröffentlichung zu prüfen. Preise sind Angebotswerte von Portalen, keine Abschlüsse.
 
 ## Nächster Schritt
 

@@ -35,7 +35,7 @@ Mein Hauptweg ist die Vermittlung. Dann bestimmt der Markt den Preis, und das is
 
 ## In welcher Rolle ich stehe
 
-Bei einem Eigenankauf bin ich Ihr Vertragspartner auf der Käuferseite. Mein Angebot berücksichtigt meine Kosten, Risiken und den geplanten Gewinn. Eine zusätzliche unabhängige Einschätzung können Sie jederzeit einholen. [1]
+Bei einem Eigenankauf bin ich Ihr Vertragspartner auf der Käuferseite. Mein Angebot berücksichtigt meine Kosten, Risiken und den geplanten Gewinn. Eine zusätzliche unabhängige Einschätzung können Sie jederzeit einholen. Wenn ich Ihnen stattdessen einen anderen Investor vorstelle, erfahren Sie vorher, von wem ich dafür eine Vergütung erhalte. [1]
 
 Das heißt konkret: Als Makler verdiene ich an einem hohen Preis. Als Käufer verdiene ich an einem niedrigen. Ich habe hier also ein eigenes Interesse, und das sollen Sie wissen, bevor Sie mit mir sprechen. Deshalb gelten feste Regeln:
 - Erst die Einschätzung als Makler, dann das Ankaufsangebot.
@@ -58,13 +58,15 @@ Trifft keiner dieser Punkte zu, bringt Ihnen die Vermittlung in der Regel mehr. 
 
 ## In drei Schritten
 
-[ZU PRÜFEN: Wortlaut der drei Schritte von der Live-Seite roessler-immo.de (Ansicht „Direktankauf“, Abschnitt „In drei Schritten“) einsetzen; der folgende Text ist die ergänzte Fassung.]
+<!-- Wortlaut der drei Schritte von der Live-Seite (Ansicht „Direktankauf“), unverändert übernommen. -->
 
-**1. Sie schicken mir die Eckdaten.** Ort, Baujahr, Wohnfläche, Zustand und ob die Wohnung vermietet ist. Das geht über das Kurzformular unten oder am Telefon. Ich melde mich innerhalb von [LINUS: Zeitangabe, z. B. „einem Werktag“].
+**1. Wohnung vorstellen.** Nennen Sie mir Ort, Größe, Zustand und ob die Wohnung vermietet ist.
 
-**2. Ich sehe mir Wohnung und Unterlagen an.** Neben der Wohnung prüfe ich das Gebäude: geplante Arbeiten, Rücklage, beschlossene Sonderumlagen. Danach bekommen Sie zuerst die schriftliche Einschätzung, was eine Vermittlung bringt. Dauer bis dahin: [LINUS: Zeitangabe].
+**2. Objekt prüfen.** Bei Interesse vereinbaren wir eine Besichtigung und besprechen die Unterlagen sowie Ihren gewünschten Zeitplan.
 
-**3. Sie bekommen mein schriftliches Angebot.** Mit Kaufpreis, Abschlag in Prozent, Bedenkzeit und geplantem Notartermin. Nehmen Sie an, bereitet der Notar den Vertrag vor. Vom Angebot bis zum Notartermin: [LINUS: Zeitangabe]. Vom Notartermin bis zum Geldeingang vergehen beim Wohnungsverkauf üblicherweise 4 bis 12 Wochen [6]. [LINUS: Geht es bei dir schneller, weil keine Bankfinanzierung des Käufers abgewartet werden muss?]
+**3. Angebot besprechen.** Kann ich Ihnen ein Angebot machen, erläutere ich Kaufpreis und Bedingungen. Sie entscheiden, ob Sie darauf eingehen möchten.
+
+Ergänzend zu den drei Schritten: Die Eckdaten können Sie über das Kurzformular unten oder am Telefon schicken; ich melde mich innerhalb von [LINUS: Zeitangabe, z. B. „einem Werktag“]. Bei der Prüfung sehe ich mir neben der Wohnung das Gebäude an: geplante Arbeiten, Rücklage, beschlossene Sonderumlagen. Bevor ich ein Angebot mache, bekommen Sie die schriftliche Einschätzung, was eine Vermittlung bringt. Dauer bis dahin: [LINUS: Zeitangabe]. Das Angebot erhalten Sie schriftlich, mit Kaufpreis, Abschlag in Prozent, Bedenkzeit und geplantem Notartermin. Vom Angebot bis zum Notartermin: [LINUS: Zeitangabe]. Vom Notartermin bis zum Geldeingang vergehen beim Wohnungsverkauf üblicherweise 4 bis 12 Wochen [6]. [LINUS: Geht es bei dir schneller, weil keine Bankfinanzierung des Käufers abgewartet werden muss?]
 
 ## So kommt mein Angebot zustande
 
@@ -90,14 +92,14 @@ Erzielt die Vermittlung nur 95 % des Marktpreises, also 275.500 €, bleiben Ihn
 
 ## Welche Wohnungen infrage kommen
 
-[ZU PRÜFEN: Wortlaut des Abschnitts „Welche Wohnungen infrage kommen“ von der Live-Seite einsetzen und mit dem folgenden Profil abgleichen.]
+<!-- Die drei Zeilen Objektart, Region, Zustand sind der unveränderte Wortlaut der Live-Seite; die Zeilen darunter sind Ergänzungen. -->
 
 | Kriterium | Profil |
 |---|---|
-| Art | Eigentumswohnungen, keine Häuser, keine Grundstücke |
-| Orte | Heimsheim, Leonberg, Ditzingen, Renningen, Pforzheim |
-| Zustand | gepflegt oder sanierungsbedürftig; der Zustand fließt in den Preis ein |
-| Nutzung | frei oder vermietet; bei Mietern gelten Mietvertrag und Sperrfrist weiter |
+| Objektart | Eigentumswohnungen, vermietet oder frei. |
+| Region | Heimsheim, Leonberg, Ditzingen, Renningen, Pforzheim und direkte Umgebung. |
+| Zustand | Renovierungsbedürftige Wohnungen schaue ich mir ebenfalls an. Entscheidend sind Umfang der Arbeiten, Zustand des Gebäudes und die Wirtschaftlichkeit des Ankaufs. |
+| Vermietung | Bei Mietern gelten Mietvertrag und Sperrfrist weiter |
 | Gemeinschaft | Unterlagen der Verwaltung müssen vorliegen: Protokolle, Wirtschaftsplan, Abrechnungen, Rücklage |
 | Kaufpreis | [LINUS: Obergrenze?] |
 | Anzahl | [LINUS: Wie viele Ankäufe im Jahr sind realistisch?] |
@@ -108,10 +110,10 @@ Eine Grenze nenne ich offen: Mehr als drei Verkäufe in rund fünf Jahren machen
 
 | Merkmal | Vermittlung | Direktankauf |
 |---|---|---|
-| Wer kauft | ein Käufer vom Markt | ich selbst |
+| Käufer | Interessenten vom Markt | Ich selbst |
+| Vermarktung | Öffentlich, nach Vereinbarung | Keine öffentliche Ausschreibung |
+| Provision | 2,98 % je Seite | Keine Maklerprovision |
 | Preis | Marktpreis, Angebote mit meiner Einschätzung | unter Marktpreis, Abschlag in Prozent |
-| Provision für Sie | 2,98 % inkl. USt [1] | keine [7] |
-| Inserat | ja | nein |
 | Besichtigungen | ja, mit Interessenten | ein Termin mit mir |
 | Dauer bis Notar | drei bis fünf Monate [10] | [LINUS: Zeitangabe] |
 | Finanzierungsrisiko des Käufers | wird vor dem Notar geprüft | [LINUS: Eigenkapital oder Bank?] |
@@ -149,7 +151,19 @@ Unter dem Formular: Datenschutzhinweis, Honeypot gegen Spam und eine Fehlermeldu
 
 ## Häufige Fragen
 
-[ZU PRÜFEN: Die vier bestehenden Fragen der Live-Seite wörtlich übernehmen; hier stehen Ergänzungen.]
+<!-- Die ersten vier Fragen sind der unveränderte Wortlaut der Live-Seite; ab „Ist das Angebot verbindlich“ folgen Ergänzungen. -->
+
+### Wie kommt Ihr Kaufangebot zustande?
+Ich berücksichtige den Zustand, nötige Arbeiten, laufende Kosten und die geplante Nutzung. Mein Kaufangebot kann deshalb vom Preis abweichen, der sich bei einer Vermarktung erzielen lässt. Eine Markteinschätzung erläutere ich Ihnen getrennt vom Angebot.
+
+### Wie schnell geht das?
+Nach Sichtung der Unterlagen kann ich Ihnen sagen, welche Prüfungen noch offen sind. Ein Notartermin lässt sich abstimmen, sobald Preis, Finanzierung und Vertragsbedingungen geklärt sind.
+
+### Was passiert mit meinem Mieter?
+Der Käufer tritt in das bestehende Mietverhältnis ein. Für mich ist eine vermietete Wohnung kein Hindernis.
+
+### Welche Kosten entstehen mir?
+Beim Eigenankauf berechne ich keine Maklerprovision. Die übrige Kostenverteilung wird im Kaufvertrag geregelt. Üblicherweise trägt der Käufer die Beurkundung und Eigentumsumschreibung; beim Verkäufer können zum Beispiel Kosten für die Löschung bestehender Belastungen anfallen.
 
 ### Ist das Angebot verbindlich, und muss ich annehmen?
 Nein. Sie bekommen ein schriftliches Angebot mit Bedenkzeit. Sie entscheiden, ob Sie annehmen, verhandeln oder ablehnen. Gebunden sind Sie erst mit dem Notarvertrag.
@@ -159,9 +173,6 @@ Ja, das geht in beide Richtungen. Sie können mit der Vermittlung beginnen und, 
 
 ### Zahlen Sie bar?
 Nein. Barzahlung beim Immobilienkauf ist verboten (§ 16a GwG) [4]. Der Kaufpreis wird überwiesen.
-
-### Zahle ich beim Direktankauf Provision?
-Nein. Ich kaufe selbst und vermittle nichts. Es gibt keine Provision für Sie [7].
 
 ### Brauche ich einen Energieausweis?
 Ja. Ihre Pflicht, den Ausweis vorzulegen und zu übergeben, gilt auch, wenn ich kaufe (§ 80 GModG) [14].

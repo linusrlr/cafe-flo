@@ -1,7 +1,7 @@
 ---
 url: /
 title: Wohnung verkaufen in Leonberg, Heimsheim & Pforzheim | Rössler Immobilien
-description: Linus Rössler verkauft Eigentumswohnungen in Heimsheim, Leonberg, Ditzingen, Renningen und Pforzheim. Schriftlicher Verkaufsplan, Provision 2,98 % je Seite, kostenlose Ersteinschätzung innerhalb eines Werktags.
+description: Linus Rössler verkauft Eigentumswohnungen in Heimsheim, Leonberg, Ditzingen, Renningen und Pforzheim. Schriftlicher Verkaufsplan, Provision 2,98 % je Seite, Antwort innerhalb eines Werktags, kostenlose Ersteinschätzung.
 stand: Oktober 2026
 status: Entwurf
 ---

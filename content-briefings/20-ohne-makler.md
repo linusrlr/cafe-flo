@@ -3,7 +3,7 @@
 > Thema 11 aus dem Recherche-Dossier. Quellen für alle Fakten: `/home/user/cafe-flo/recherche/themen-und-lokal.md` (Abschnitte 0.1, 0.3, 1.5, 2.5, 6.5, 7.5, 11.1 bis 11.7, B2.1, A1, A2, A5, A6/R11, A7) und `/home/user/cafe-flo/recherche/marktthemen-2026.md` (Kapitel 2 Energieausweis 2027, Kapitel 7 BGH Maklerrecht, Kapitel 8 Geldwäsche/Barzahlungsverbot/Präsenzbeurkundung, Kapitel 10 Zinsen, Kapitel 11 Vermarktungsdauer, Kapitel 14 KfW 308, Kapitel 18 Prüfliste) sowie `/home/user/cafe-flo/analyse-aktuelle-webseite/01-analyse.md` Abschnitt 2.1 (Provision 2,98 %, sieben Schritte). Stand der Recherche: 29.10.2026.
 
 ## 1. Zweck und Zielgruppe
-- **URL (geplant):** /ratgeber/wohnung-ohne-makler-verkaufen/
+- **URL (geplant):** /ratgeber/ohne-makler-verkaufen/
 - **Seitentyp:** Ratgeber mit Leistungsanteil (Hybrid-Angebot: Einzelleistungen)
 - **Wer liest das:**
   - Person A: Ingenieur, 42, Renningen-Malmsheim, 3-Zimmer-Wohnung Baujahr 2010, will „die 10.000 € Provision sparen“, hat Zeit am Wochenende, kennt Kleinanzeigen. Fragt: Wie viel spare ich wirklich? Was kostet es mich? Wo liegen die Fallen?

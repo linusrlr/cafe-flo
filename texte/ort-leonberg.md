@@ -52,7 +52,7 @@ Leonberg besteht aus der Kernstadt mit Eltingen (1938 eingemeindet und mit der K
 
 **Kündigungssperrfrist fünf Jahre.** Wer eine vermietete Wohnung verkauft, die nach Beginn des Mietverhältnisses in Wohnungseigentum umgewandelt wurde, muss wissen: In Leonberg beträgt die Sperrfrist für Eigenbedarfskündigungen 2026 fünf Jahre statt der gesetzlichen drei. Leonberg steht in § 1 der Kündigungssperrfristverordnung Baden-Württemberg vom 16. Dezember 2025, die vom 1. Januar bis zum 31. Dezember 2026 gilt [10]. Ein Entwurf für die Verlängerung ab 2027 ist in der Anhörung [11] [ZU PRÜFEN: Nachfolgeverordnung]. Ein Käufer, der selbst einziehen will, kann das in solchen Fällen erst nach fünf Jahren; das verändert die Käufergruppe und den Preis. In Renningen und Heimsheim gilt dagegen die Dreijahresfrist [10]. Details im Ratgeber [Vermietete Wohnung verkaufen](/ratgeber/vermietete-wohnung-verkaufen/).
 
-**Mietpreisbremse und Kappungsgrenze.** Leonberg ist seit dem 1. Januar 2026 erneut in der Gebietskulisse der Mietpreisbegrenzungsverordnung Baden-Württemberg; die Stadt erfüllt vier von fünf Kriterien des Landesgutachtens, darunter einen Wohnungsversorgungsgrad von 94,7 % und eine Mietbelastung von 21,0 % [11]. Bei Neuvermietung darf die Miete höchstens 10 % über der ortsüblichen Vergleichsmiete liegen, im Bestand gilt eine Kappungsgrenze von 15 % in drei Jahren [11] [ZU PRÜFEN: Gemeindeliste der Kappungsgrenzenverordnung 2026]. Ditzingen, Renningen und Heimsheim sind nicht in der Kulisse [11]. Für Anleger, die eine vermietete Leonberger Wohnung kaufen, ist die rechtlich zulässige Miete deshalb Teil der Kalkulation. Wer verkauft, belegt sie am besten mit Vormiete, Modernisierungsnachweis oder Baujahr nach Oktober 2014.
+**Mietpreisbremse und Kappungsgrenze.** Leonberg ist seit dem 1. Januar 2026 erneut in der Gebietskulisse der Mietpreisbegrenzungsverordnung Baden-Württemberg; die Stadt erfüllt vier von fünf Kriterien des Landesgutachtens, darunter einen Wohnungsversorgungsgrad von 94,7 % und eine Mietbelastung von 21,0 % [11]. Bei Neuvermietung darf die Miete höchstens 10 % über der ortsüblichen Vergleichsmiete liegen, im Bestand gilt eine Kappungsgrenze von 15 % in drei Jahren [11] [ZU PRÜFEN: Gemeindeliste der Kappungsgrenzenverordnung 2026]. Ditzingen, Renningen und Heimsheim sind nicht in der Kulisse [11]. Für Anleger, die eine vermietete Leonberger Wohnung kaufen, ist die rechtlich zulässige Miete deshalb Teil der Kalkulation. Wer verkauft, belegt sie mit Vormiete, Modernisierungsnachweis oder Baujahr nach Oktober 2014.
 
 **Grunderwerbsteuer 5 %.** Baden-Württemberg erhebt seit dem 5. November 2011 5,0 % [12]. Sie trägt der Käufer; bei 292.500 € sind das 14.625 €. Viele überregionale Ratgeber rechnen mit 6,5 %, das ist für Leonberg falsch.
 
@@ -62,7 +62,7 @@ Leonberg besteht aus der Kernstadt mit Eltingen (1938 eingemeindet und mit der K
 
 **Förderung für Käufer von Wohnungen mit schlechter Energieklasse.** Ein Punkt, der 2026 gegen die Intuition läuft: Hat Ihre Wohnung einen Energieausweis der Klasse F, G oder H, können Familien mit Kind sie über das KfW-Programm 308 „Jung kauft Alt“ finanzieren, seit dem 3. August 2026 mit bis zu 140.000 € (ein Kind), 160.000 € (zwei) oder 180.000 € (ab drei Kindern) zu 1,00 % effektiv bei 35 Jahren Laufzeit [14]. Am Markt kosten zehnjährige Darlehen Ende Oktober 2026 rund 4,2 % [15]. Bedingungen: Antrag vor dem notariellen Kaufvertrag, Selbstnutzung, Einkommensgrenzen, Sanierung innerhalb von 54 Monaten [14] [ZU PRÜFEN: tagesaktueller KfW-Zinssatz]. Für unsanierte Wohnungen in Ramtel oder Eltingen ist das ein Käuferargument, das ich im Exposé nenne und beim Zeitplan berücksichtige.
 
-**Hausgeld, Rücklage, Sonderumlage.** Die Höhe der Rücklage und beschlossene, noch nicht fällige Sonderumlagen gehen direkt in den Preis ein. Ich lese vor jeder Einschätzung Wirtschaftsplan, Vermögensbericht und die Protokolle der letzten drei Versammlungen. Was ich dabei prüfe, steht im Ratgeber [Was ist meine Wohnung wert?](/ratgeber/wohnungsbewertung/).
+**Hausgeld, Rücklage, Sonderumlage.** Die Höhe der Rücklage und beschlossene, noch nicht fällige Sonderumlagen gehen direkt in den Preis ein. Ich lese vor jeder Einschätzung Wirtschaftsplan, Vermögensbericht und die Protokolle der letzten drei Versammlungen. Was ich dabei prüfe, steht im Ratgeber [Was ist meine Wohnung wert?](/wohnung-bewerten/).
 
 **Dauer.** Eine feste Verkaufsdauer kann ich nicht zusagen. ImmoScout24 nennt für die Vermarktung drei bis fünf Monate, Homeday sechs bis zwölf; eine Auswertung von GREIX und IfW Kiel für 24 Städte kam im 1. Quartal 2026 auf durchschnittlich 90 Tage [21]. Eine Maklerumfrage vom Oktober 2026 meldet, dass 54,3 % der Objekte länger als sechs Monate in der Vermarktung sind, meist wegen überhöhter Angebotspreise [22] [ZU PRÜFEN: Urheber und Stichprobe der Umfrage]. Meine Lehre daraus ist einfach: Der Preis am ersten Tag entscheidet über die Dauer.
 
@@ -74,7 +74,7 @@ Leonberg besteht aus der Kernstadt mit Eltingen (1938 eingemeindet und mit der K
 
 **Kapitalanleger.** Mit einem Faktor von 20 bis 25 kaufen Anleger in Leonberg nicht wegen der Rendite, sondern wegen der Vermietbarkeit: Leerstand 1,5 %, rechnerisches Angebotsdefizit von 1.344 Wohnungen laut Landesgutachten [11]. Vermietete Wohnungen werden mit Abschlag gehandelt; ImmoScout24 hat für Stuttgart im Herbst 2025 einen Median-Abschlag von 12 % gegenüber freien Wohnungen ermittelt [19]. Für Leonberg gibt es keine eigene Auswertung.
 
-**Käufer ab 65.** Wer sein Haus in Heimsheim, Rutesheim oder Renningen verkauft, sucht oft eine Wohnung mit Aufzug und ebenerdiger Dusche in S-Bahn-Nähe und kauft ohne Finanzierung. Diese Gruppe ist zinsunabhängig und für Wohnungen in Bahnhofsnähe die wichtigste. Nach meiner Beobachtung scheitert der Verkauf an diese Gruppe am häufigsten am fehlenden Aufzug.
+**Käufer ab 65.** Wer sein Haus in Heimsheim, Rutesheim oder Renningen verkauft, sucht oft eine Wohnung mit Aufzug und ebenerdiger Dusche in S-Bahn-Nähe und kauft ohne Finanzierung. Diese Gruppe ist zinsunabhängig und für Wohnungen in Bahnhofsnähe die wichtigste. Nach meiner Beobachtung scheitert der Verkauf an diese Gruppe am häufigsten am fehlenden Aufzug. [LINUS: Beobachtung bestätigen oder streichen.]
 
 Aus diesen vier Gruppen leite ich für jede Wohnung ab, wen ich zuerst anspreche und welche Unterlagen im Exposé nach vorn gehören.
 
@@ -87,7 +87,7 @@ Aus diesen vier Gruppen leite ich für jede Wohnung ab, wen ich zuerst anspreche
 
 **Provision.** 2,98 % des Kaufpreises einschließlich Umsatzsteuer, je Seite, fällig nur bei beurkundetem Kaufvertrag [24]. Beispiel: Eine Wohnung mit 75 m² zu 3.900 €/m² kostet 292.500 €; die Provision der Verkäuferseite beträgt dann 8.716,50 €. Den Alleinauftrag schließe ich für sechs Monate; die Bedingungen stehen im Ratgeber [Maklerprovision in Baden-Württemberg](/ratgeber/maklerprovision/). Den vollständigen Ablauf mit Unterlagenliste finden Sie unter [Eigentumswohnung verkaufen: Ablauf, Unterlagen, Kosten](/ratgeber/eigentumswohnung-verkaufen/).
 
-Bis zur Erteilung meiner Erlaubnis nach § 34c GewO nehme ich keine Makleraufträge an. Die Einschätzung Ihrer Wohnung kann ich schon jetzt vornehmen.
+Die Einschätzung Ihrer Wohnung bekommen Sie sofort.
 
 <!-- H2 „Verkäufe und Stimmen aus Leonberg“: erst nach ersten Abschlüssen. Nichts erfinden. -->
 
@@ -115,7 +115,7 @@ Provision 2,98 % inkl. USt [24], Löschung einer Grundschuld (rund 220 bis 350 �
 
 Ich sehe mir Ihre Wohnung an, lese die Unterlagen der Gemeinschaft und sage Ihnen schriftlich, was sie im Leonberger Markt bringt und an wen ich sie verkaufen würde. Kostenlos, Antwort innerhalb eines Werktags.
 
-[Wohnung in Leonberg einschätzen lassen](/wohnung-bewerten/) · Telefon [LINUS: Telefonnummer] · [Rückruf vereinbaren](/kontakt/)
+[Wohnung in Leonberg einschätzen lassen](/wohnung-bewerten/) · Telefon 0159 05844641 · [Rückruf vereinbaren](/kontakt/)
 
 Rössler Immobilien, Linus Rössler [LINUS: Anschrift und Erreichbarkeit für den NAP-Block]
 

@@ -72,7 +72,7 @@ Microcopy: „Letzter Schritt. Name und ein Kontaktweg genügen.“
 | Name | Text | | Pflicht | „Vor- und Nachname, damit ich Sie richtig anspreche.“ |
 | E-Mail | E-Mail | | Pflicht, wenn kein Telefon | „Für die schriftliche Einschätzung als PDF.“ |
 | Telefon | Telefon | | Pflicht, wenn keine E-Mail | „Für Rückfragen. Ein Anruf, kein Verkaufsgespräch.“ |
-| Beste Rückrufzeit | Auswahl | vormittags, nachmittags, abends 18 bis 20 Uhr, samstags, egal | optional | „Ich rufe nur in diesem Fenster an.“ [LINUS: Erreichbarkeit abends und samstags verbindlich?] |
+| Bevorzugte Rückrufzeit | Auswahl | vormittags, nachmittags, abends 18 bis 20 Uhr, samstags, egal | optional | „Ich rufe nur in diesem Fenster an.“ [LINUS: Erreichbarkeit abends und samstags verbindlich?] |
 | Nachricht | Textfeld | | optional | „Was ich noch wissen sollte: beschlossene Sonderumlage, geplante Arbeiten, Streit in der Gemeinschaft, Wunschtermin.“ |
 | Datenschutz | Hinweistext, kein Häkchen nötig | | | Satz siehe unten |
 
@@ -308,7 +308,7 @@ Sie liefert einen Korridor aus Angebotsdaten. Verschiedene Portale weichen für 
 
 ## Hinweis
 
-Ich erstelle keine Verkehrswertgutachten, das ist Sache eines Sachverständigen, und ich erbringe keine Steuer- oder Rechtsberatung, insbesondere nicht zum Wert für das Finanzamt oder zur Genehmigung durch ein Betreuungsgericht. Alle Preise auf dieser Seite sind Angebotspreise von Portalen oder Marktberichten mit dem genannten Stand, keine Kaufpreise und kein Marktwert Ihrer Wohnung. Meine Einschätzung ist interessengeleitet, weil ich am Verkauf verdiene; deshalb begründe ich sie schriftlich. Meine Erlaubnis nach § 34c GewO ist beantragt; Einschätzungen gebe ich ab sofort, Vermarktungsaufträge nehme ich nach Erteilung an.
+Ich erstelle keine Verkehrswertgutachten, das ist Sache eines Sachverständigen, und ich erbringe keine Steuer- oder Rechtsberatung, insbesondere nicht zum Wert für das Finanzamt oder zur Genehmigung durch ein Betreuungsgericht. Alle Preise auf dieser Seite sind Angebotspreise von Portalen oder Marktberichten mit dem genannten Stand, keine Kaufpreise und kein Marktwert Ihrer Wohnung. Meine Einschätzung ist interessengeleitet, weil ich am Verkauf verdiene; deshalb begründe ich sie schriftlich.
 
 ## Nächster Schritt
 

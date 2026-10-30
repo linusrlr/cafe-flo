@@ -90,7 +90,7 @@ Dann: Fotos, Exposé mit Gehzeit zum Bahnhof und Energieklasse an sichtbarer Ste
 
 **Zweiter Weg: Direktankauf.** Wenn Sie keine Vermarktung wollen, prüfe ich einen Ankauf durch mich. Mein Angebot liegt unter dem Marktwert, weil mein Risiko und mein Gewinn darin stecken; das sage ich vorher. Details unter [Direktankauf](/direktankauf/).
 
-Noch ein Hinweis zum Stand: Die Erlaubnis nach § 34c GewO habe ich beantragt; einen Vermarktungsauftrag kann ich erst nach Erteilung annehmen. Die Einordnung Ihrer Wohnung in die Renninger Preisspanne und den Verkaufsplan bekommen Sie schon jetzt.
+Die Einordnung Ihrer Wohnung in die Renninger Preisspanne und den Verkaufsplan bekommen Sie sofort.
 
 <!-- Abschnitt „Verkäufe und Stimmen aus Renningen“ erst nach ersten Abschlüssen -->
 

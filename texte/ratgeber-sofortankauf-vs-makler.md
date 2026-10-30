@@ -128,7 +128,7 @@ Rechenweg Maklerverkauf: 275.500 € minus 8.209,90 € ergibt 267.290,10 €; 2
 
 Rechenweg: 209.950 € minus 6.256,51 € ergibt 203.693,49 €; 221.000 € minus 6.585,80 € ergibt 214.414,20 €. In Pforzheim streuen die Preise stark, von 1.951 bis 4.519 €/m² [11]. Genau dort suchen Ankäufer ihre Marge. Für unsanierte Wohnungen gibt es außerdem eine Käufergruppe, die ein Ankäufer nicht bezahlt: Familien mit KfW 308 finanzieren Wohnungen der Klassen F, G und H mit bis zu 180.000 € zu 1,00 % [18].
 
-**Was kostet Warten?** Das hängt von Ihrer Lage ab. Ein Beispiel aus der Anschlussfinanzierung: Bei 400.000 € Kredit steigt die Rate von 667 € im Monat bei 1 % Zins und 1 % Tilgung auf rund 1.790 € bei 4 % und 2 % [7]. Drei Monate kosten dann rund 5.370 €. Das ist weniger als die kleinste Differenz oben von rund 6.300 €. Das Beispiel gilt aber für einen Kredit von 400.000 €, nicht für Ihre Wohnung. Rechnen Sie mit Ihrer eigenen Rate und Ihrem Hausgeld.
+**Was kostet Warten?** Das hängt von Ihrer Lage ab. Ein Beispiel aus der Anschlussfinanzierung: Bei 400.000 € Kredit steigt die Rate von 667 € im Monat bei 1 % Zins und 1 % Tilgung auf rund 1.790 € bei 4 % und 2 %, gerechnet auf die nach zehn Jahren verbleibende Restschuld von rund 358.000 € [7]. Drei Monate kosten dann rund 5.370 €. Das ist weniger als die kleinste Differenz oben von rund 6.300 €. Das Beispiel gilt aber für einen Kredit von 400.000 €, nicht für Ihre Wohnung. Rechnen Sie mit Ihrer eigenen Rate und Ihrem Hausgeld.
 
 [ZU PRÜFEN: Sofortankauf-Untergrenze 60 % im Vergleich ist eine Setzung aus dem Briefing; die Quelle nennt 40 %. Bei 40 % läge der Erlös in Leonberg bei 116.000 €.]
 

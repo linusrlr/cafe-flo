@@ -1,4 +1,4 @@
-# Briefing: Ortsseite Renningen – „Wohnung verkaufen in Renningen“
+# Briefing: Ortsseite Renningen („Wohnung verkaufen in Renningen“)
 
 Quellen: `../recherche/themen-und-lokal.md` (B1.6, B2), `../recherche/regional.md` (Gäu-Büro Renningen; Verzeichnis-Makler Kirchberger, DC Immobilien, Jasmin Kauffmann, RENNER), `../recherche/staedte.md`. Struktur wie Leonberg-Briefing.
 

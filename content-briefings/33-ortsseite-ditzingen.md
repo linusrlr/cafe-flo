@@ -1,4 +1,4 @@
-# Briefing: Ortsseite Ditzingen – „Wohnung verkaufen in Ditzingen“
+# Briefing: Ortsseite Ditzingen („Wohnung verkaufen in Ditzingen“)
 
 Quellen: `../recherche/themen-und-lokal.md` (B1.5, B2), `../recherche/regional.md` (Gäu-Büro Ditzingen, Engel & Völkers deckt Hirschlanden/Schöckingen/Heimerdingen ab), `../recherche/staedte.md` (PORTIMMO Ditzingen-Seite). Struktur wie Leonberg-Briefing.
 

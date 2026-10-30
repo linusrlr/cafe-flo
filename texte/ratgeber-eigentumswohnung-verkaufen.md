@@ -88,7 +88,7 @@ Die Teilungserklärung legt fest, was Ihnen gehört, was allen gehört und was S
 ### Energieausweis über die WEG
 Der Energieausweis gilt für das Gebäude. Liegt keiner vor, ist beim Verkauf einer auszustellen; Sie legen ihn spätestens bei der Besichtigung vor und übergeben ihn nach dem Kaufvertrag (§ 80 Abs. 3 und 4 GModG, ehemals GEG) [8]. Weil die Gemeinschaft ihn beschafft, sprechen Sie drei bis sechs Monate vorher mit der Verwaltung.
 
-Das Gesetz heißt seit dem Sommer anders: Das Gebäudemodernisierungsgesetz (GModG) hat das GEG abgelöst, verkündet im BGBl. 2026 I Nr. 226, in Kraft seit dem 29. Juli 2026 [27] [ZU PRÜFEN: eine Quelle nennt den 23. Juli]. Für Verkäufer älterer Wohnungen zählt eine Änderung: Die 65-%-Pflicht für neue Heizungen und das Betriebsverbot für über 30 Jahre alte Kessel sind gestrichen [27]. Das Argument „die Heizung muss sowieso raus“ fällt bei Anlagen der 1970er- und 1980er-Jahre weg, auch wenn Käufer künftige Heizkosten weiter einrechnen. Schon heute gehören Ausweisart, Energiekennwert, Energieträger, Baujahr und Klasse in jede Anzeige (§ 87 Abs. 1 GModG) [9]. Ab dem 1. Januar 2027 kommen Ausstellungsdatum und Primärenergiebedarf statt Endenergie hinzu, Verstöße kosten bis zu 10.000 € (§ 108), ältere Ausweise bleiben zehn Jahre gültig (§ 112 Abs. 3) [28]. Braucht Ihre Gemeinschaft 2026 ohnehin einen neuen Verbrauchsausweis, lohnt es sich, ihn noch dieses Jahr zu bestellen. Mehr im Ratgeber [Energieausweis bei der Eigentumswohnung](/ratgeber/energieausweis/).
+Das Gesetz heißt seit dem Sommer anders: Das Gebäudemodernisierungsgesetz (GModG) hat das GEG abgelöst, verkündet im BGBl. 2026 I Nr. 226, in Kraft seit dem 29. Juli 2026 [27]. Für Verkäufer älterer Wohnungen zählt eine Änderung: Die 65-%-Pflicht für neue Heizungen und das Betriebsverbot für über 30 Jahre alte Kessel sind gestrichen [27]. Das Argument „die Heizung muss sowieso raus“ fällt bei Anlagen der 1970er- und 1980er-Jahre weg, auch wenn Käufer künftige Heizkosten weiter einrechnen. Schon heute gehören Ausweisart, Energiekennwert, Energieträger, Baujahr und Klasse in jede Anzeige (§ 87 Abs. 1 GModG) [9]. Ab dem 1. Januar 2027 kommen Ausstellungsdatum und Primärenergiebedarf statt Endenergie hinzu, Verstöße kosten bis zu 10.000 € (§ 108), ältere Ausweise bleiben zehn Jahre gültig (§ 112 Abs. 3) [28]. Braucht Ihre Gemeinschaft 2026 ohnehin einen neuen Verbrauchsausweis, lohnt es sich, ihn noch dieses Jahr zu bestellen. Mehr im Ratgeber [Energieausweis bei der Eigentumswohnung](/ratgeber/energieausweis/).
 
 > **Wohnung kostenlos einschätzen lassen**
 > Ich schaue mir Wohnung und Gebäude an und sage Ihnen, was realistisch ist. [Zum Formular](/wohnung-bewerten/) oder Telefon [LINUS: Nummer, Erreichbarkeit, Antwortzeit bestätigen]. Keine Portale, keine Weitergabe Ihrer Daten.
@@ -210,7 +210,7 @@ Nach mehr als zehn Jahren zwischen Kauf und Verkauf oder bei Eigennutzung im Ver
 Ja. Der Notar löst die Restschuld aus dem Kaufpreis ab und lässt die Grundschuld löschen, je nach Höhe für 217,50 bis 342,50 € plus 20 € Beglaubigung [2]. Planen Sie die Vorfälligkeitsentschädigung ein; für Immobiliardarlehen gibt es keinen gesetzlichen Deckel [2].
 
 ## Hinweis
-Ich erbringe keine Rechts- und keine Steuerberatung. Angaben zu Gesetzen und Urteilen geben den Stand vom Oktober 2026 wieder und ersetzen keine Prüfung durch Notar, Anwalt oder Steuerberater. Preisangaben sind Angebotspreise der genannten Portale, keine Kaufpreise. Meine Erlaubnis nach § 34c GewO ist beantragt; Einschätzungen gebe ich ab sofort, Makleraufträge nehme ich nach Erteilung an.
+Ich erbringe keine Rechts- und keine Steuerberatung. Angaben zu Gesetzen und Urteilen geben den Stand vom Oktober 2026 wieder und ersetzen keine Prüfung durch Notar, Anwalt oder Steuerberater. Preisangaben sind Angebotspreise der genannten Portale, keine Kaufpreise.
 
 ## Nächster Schritt: erst die Unterlagen, dann der Preis
 
@@ -218,7 +218,7 @@ Sie wollen wissen, was Ihre Wohnung in Leonberg, Ditzingen oder Pforzheim heute 
 
 **[Wohnung kostenlos einschätzen lassen](/wohnung-bewerten/)**
 Ich melde mich innerhalb eines Werktags telefonisch. Keine Portale, keine Weitergabe Ihrer Daten.
-Oder Sie laden die [Unterlagen-Checkliste als PDF](/ratgeber/eigentumswohnung-verkaufen/checkliste.pdf) herunter, ohne Anmeldung. [LINUS: Checkliste erstellen; Telefonnummer ergänzen.]
+Oder Sie laden die [Unterlagen-Checkliste als PDF](/ratgeber/eigentumswohnung-verkaufen/checkliste.pdf) herunter, ohne Anmeldung. [LINUS: Checkliste erstellen.] Telefon 0159 05844641.
 
 ## Vor Ort
 - [Wohnung verkaufen in Leonberg](/wohnung-verkaufen/leonberg/): fünf Jahre Sperrfrist, Mietpreisbremse, S6, Gutachterausschuss vor Ort.

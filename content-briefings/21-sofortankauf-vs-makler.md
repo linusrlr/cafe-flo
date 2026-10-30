@@ -3,7 +3,7 @@
 > Thema 12 aus dem Recherche-Dossier. Quellen für alle Fakten: `/home/user/cafe-flo/recherche/themen-und-lokal.md` (Abschnitte 0.3, 1.5, 2.5, 12.1 bis 12.7, B1.4 (Namensnähe Rössle), B2.1, A2, A5, A6/R12, A7), `/home/user/cafe-flo/recherche/marktthemen-2026.md` (Kapitel 5 Drei-Objekt-Grenze/gewerblicher Grundstückshandel/Umsatzsteuer, Kapitel 8 Barzahlungsverbot/GwG/Präsenzbeurkundung, Kapitel 10 Zinsen und Anschlussfinanzierungswelle, Kapitel 11 Vermarktungsdauer und Preisspannen, Kapitel 13 Erbwelle/Babyboomer, Kapitel 14 KfW 308, Anhang D1 Fix-&-Flip-Rechnung, Kapitel 18 Prüfliste) und `/home/user/cafe-flo/analyse-aktuelle-webseite/01-analyse.md` (Abschnitte 2.1 „In welcher Rolle ich stehe“, 2.2 Interessenkonflikt, 6.2 Ankauf-Formular, 10 Nr. 12). Stand der Recherche: 29.10.2026.
 
 ## 1. Zweck und Zielgruppe
-- **URL (geplant):** /ratgeber/sofortankauf-oder-makler/
+- **URL (geplant):** /ratgeber/sofortankauf-vs-makler/
 - **Seitentyp:** Ratgeber (Aufklärungs- und Vergleichsseite) mit Leistungsbezug zu /direktankauf/ und /wohnung-verkaufen/
 - **Wer liest das:**
   - Person A: Erbe, 50, Hamburg, hat die Wohnung der Mutter in Leonberg-Ramtel (Baujahr 1972, 68 m²) geerbt, will „das schnell hinter sich bringen“, hat eine Postkarte „Wir kaufen Ihre Wohnung in 24 Stunden“ im Briefkasten gefunden und googelt „Wohnung Sofortankauf“.

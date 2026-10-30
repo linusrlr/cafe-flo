@@ -1,4 +1,4 @@
-# Briefing: Ortsseite Heimsheim – „Wohnung verkaufen in Heimsheim“
+# Briefing: Ortsseite Heimsheim („Wohnung verkaufen in Heimsheim“)
 
 Quellen: `../recherche/themen-und-lokal.md` (B1.4, B2), `../recherche/regional.md` (Gäu-Heimsheim-Seite als Negativbeispiel: Copy-Paste von Leonberg, leere Kundenstimmen), Namenskollision „Immobilien Roland Rössle“ (01-analyse.md 7.4). Struktur wie Leonberg-Briefing.
 

@@ -3,7 +3,7 @@
 > Thema 10 aus dem Recherche-Dossier. Quellen für alle Fakten: `/home/user/cafe-flo/recherche/themen-und-lokal.md` (Abschnitte 0.3, 10.1 bis 10.7, 3.5 (Schenkung, Freibeträge), B2.1, B2.5, A1 (§ 1850 BGB), A2, A5, A6/R10, A7) und `/home/user/cafe-flo/recherche/marktthemen-2026.md` (Kapitel 5 Erbschaftsteuer/BVerfG, Kapitel 10 Bauzinsen, Kapitel 13 Babyboomer/Erbwelle/Wohneigentumsquote/Stellenabbau, Kapitel 14 KfW 159, Kapitel 18 Prüfliste). Stand der Recherche: 29.10.2026.
 
 ## 1. Zweck und Zielgruppe
-- **URL (geplant):** /ratgeber/wohnung-verkaufen-im-alter/
+- **URL (geplant):** /ratgeber/verkauf-im-alter/
 - **Seitentyp:** Ratgeber (Rechts- und Sozialrechtsthema; Hinweis „keine Rechts-, Steuer- und Finanzberatung“ sichtbar)
 - **Wer liest das:**
   - Person A: Witwe, 78, Leonberg-Eltingen, 3-Zimmer-Wohnung im 3. OG ohne Aufzug, Baujahr 1974, abbezahlt. Die Treppe wird zum Problem, die Tochter in Renningen drängt zum Umzug ins Betreute Wohnen. Fragen: Verkaufen oder behalten und vermieten? Was ist mit dem Angebot „Teilverkauf“ aus der Zeitungsbeilage? Was bleibt den Kindern?

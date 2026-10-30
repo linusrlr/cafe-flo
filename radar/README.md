@@ -1,4 +1,4 @@
-# Radar – Gesetzes- und Marktbeobachtung
+# Radar: Gesetzes- und Marktbeobachtung
 
 Kleines Werkzeug ohne Abhängigkeiten (nur Python 3), das RSS-/Atom-Feeds einliest, nach Schlagwörtern filtert und einen Markdown-Digest schreibt. Es ist der „Rohstoff-Lieferant“ für den Newsletter (eigene Infrastruktur von Linus) und für Ratgeber-/SEO-Artikel.
 

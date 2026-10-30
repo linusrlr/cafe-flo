@@ -11,11 +11,12 @@ Bestandsaufnahme der Live-Seite https://roessler-immo.de/ (Rössler Immobilien, 
 | `03-massnahmen.md` | 20 priorisierte Maßnahmen (Hoch/Mittel/Niedrig) mit Umsetzungsschritten, Akzeptanzkriterien, Session-Reihenfolge und Erfolgskriterien. | … man umsetzt. Jede Maßnahme (M1 bis M20) ist eigenständig abarbeitbar. |
 | `04-seitenplan.md` | Zielstruktur, Seitenliste mit Priorität und Wellen, Templates für Ratgeber, Ortsseiten, Leistungsseiten, Funnel, „Über mich“, Direktankauf; Pflichtbausteine. | … man eine Seite baut oder plant. |
 | `05-radar.md` | Konzept für die Gesetzes- und Marktbeobachtung: Ebenen, 77 geprüfte Feeds, Newsletter ohne Feed, Werkzeug `../radar/`, Wochenablauf, Automatisierungsvorschlag, erster Themenvorrat. | … man Newsletter und aktuelle Artikel aufsetzt. |
+| `06-review.md` | Lektorat und Fachprüfung aller Textentwürfe (30.10.2026): behobene Mängel, offene Mängel, konsolidierter Fragenkatalog für Linus (`[LINUS]`), wichtigste `[ZU PRÜFEN]`-Punkte. | … man Linus die offenen Fragen vorlegt oder einen Text final macht. |
 
 ## Zugehörige Ordner im Repo
 
 - `../content-briefings/`: je geplante Seite ein Briefing mit Zielgruppe, Suchintention, Faktentabelle mit Quellen, Gliederung, Elementen, Anti-Slop-Regeln und offenen Fragen an Linus. Vorlage `_vorlage.md`.
-- `../texte/`: Textentwürfe der Seiten auf Basis der Briefings (Ich-Form, Fakten mit Quelle, Platzhalter `[LINUS: …]` für Praxiswissen, `[ZU PRÜFEN: …]` für ungeklärte Angaben).
+- `../texte/`: 22 Textentwürfe (Start, Leistungsseiten, fünf Ortsseiten, elf Ratgeber, Kontakt, Über mich) auf Basis der Briefings (Ich-Form, Fakten mit Quelle, Platzhalter `[LINUS: …]` für Praxiswissen, `[ZU PRÜFEN: …]` für ungeklärte Angaben).
 - `../recherche/`: Rohdaten aller Recherchen mit Zitaten, URLs, Sitemaps, Funnel-Protokollen, lokalen Marktdaten, Feed-Prüfprotokoll und Marktthemen-Dossier 2026.
 - `../radar/`: lauffähiges Radar-Werkzeug (Python, ohne Abhängigkeiten) mit Feeds, Schlagwörtern und Digests.
 

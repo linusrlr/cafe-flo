@@ -44,7 +44,7 @@ Sie erhalten einen schriftlichen Verkaufsplan mit Preisspanne, Käufergruppen un
 
 ### 3. Unterlagen
 
-Ich prüfe die vorhandenen Unterlagen und stelle zusammen, was fehlt. Mit Ihrer Vollmacht fordere ich Dokumente bei den zuständigen Stellen an. Dieser Schritt dauert erfahrungsgemäß am längsten: zwei bis acht Wochen, je nachdem, wie schnell Hausverwaltung und Grundbuchamt antworten [2]. Deshalb beginne ich damit sofort nach dem ersten Gespräch, nicht erst nach dem Verkaufsplan.
+Ich prüfe die vorhandenen Unterlagen und stelle zusammen, was fehlt. Mit Ihrer Vollmacht fordere ich Dokumente bei den zuständigen Stellen an. Dieser Schritt dauert meist am längsten: zwei bis acht Wochen, je nachdem, wie schnell Hausverwaltung und Grundbuchamt antworten [2]. Deshalb beginne ich damit sofort nach dem ersten Gespräch, nicht erst nach dem Verkaufsplan.
 
 ### 4. Vorbereitung und Exposé
 
@@ -142,7 +142,7 @@ Wenn Sie den Käufer schon kennen, brauchen Sie mich nicht für die Suche. Dann 
 
 ## Häufige Fragen {#haeufige-fragen}
 
-<!-- FAQPage-Schema. Die ersten zehn Fragen sind die bestehenden Texte der Live-Seite; in zwei Antworten wurde ein Gedankenstrich durch ein Komma bzw. einen Punkt ersetzt. -->
+<!-- FAQPage-Schema. Die ersten zehn Fragen sind die bestehenden Texte der Live-Seite; in zwei Antworten wurde ein Gedankenstrich durch ein Komma bzw. einen Punkt ersetzt (Stilregel). Die Antwort „Wie lange dauert ein Verkauf?“ ist nach den beiden Originalsätzen um eine Orientierung mit Quellen ergänzt (ab „Zur Orientierung“). Abgleich mit dem Live-HTML am 30.10.2026: sonst wortgleich. -->
 
 ### Was kostet mich der Verkauf?
 

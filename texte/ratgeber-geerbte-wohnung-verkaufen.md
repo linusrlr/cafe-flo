@@ -129,7 +129,7 @@ Den Erwerb müssen Sie dem Finanzamt innerhalb von drei Monaten anzeigen (§ 30 
 Und ein Hinweis zur Lage im Herbst 2026: Das Bundesverfassungsgericht hat am 12. und 13. Oktober 2026 über die Erbschaftsteuer verhandelt, unter anderem über den Normenkontrollantrag Bayerns (1 BvF 1/23), der die seit 2009 unveränderten Freibeträge angreift [21]. Ein Urteil liegt nicht vor; eine Reform der Bundesregierung ist nach widersprüchlichen Quellen verschoben [21] [ZU PRÜFEN: Stand der Reform]. Bis dahin gelten die Tabellen oben. Ich erbringe keine Steuerberatung; die Berechnung für Ihren Fall macht Ihr Steuerberater.
 
 > **Geerbte Wohnung kostenlos einschätzen lassen**
-> Auch wenn Sie nicht in der Region wohnen: Ich schaue mir Wohnung und Gebäude an, fordere die Unterlagen bei der Verwaltung an und schicke Ihnen eine schriftliche Einschätzung. [Zum Formular](/wohnung-bewerten/), Anlass „Erbe“. [LINUS: Telefonnummer und Antwortzeit ergänzen.]
+> Auch wenn Sie nicht in der Region wohnen: Ich schaue mir Wohnung und Gebäude an, fordere die Unterlagen bei der Verwaltung an und schicke Ihnen eine schriftliche Einschätzung. [Zum Formular](/wohnung-bewerten/), Anlass „Erbe“. Telefon 0159 05844641, Antwort innerhalb eines Werktags.
 
 ## Spekulationssteuer: Sie erben die Frist des Erblassers
 
@@ -199,7 +199,7 @@ Vorrangig im Vergleichswertverfahren mit Kaufpreisen des Gutachterausschusses; d
 Ja. Ich übernehme den Kontakt zur Verwaltung, die Besichtigungen und die Übergabe vor Ort und schicke Ihnen nach jedem Schritt eine Rückmeldung. Den Notartermin können Sie per Vollmacht wahrnehmen; die Beurkundung selbst findet in Präsenz statt, die Form der Vollmacht klärt der Notar [24].
 
 ## Hinweis
-Ich erbringe keine Steuer- und keine Rechtsberatung. Fragen zu Ausschlagung, Erbschein, Erbauseinandersetzung und Vollmachten gehören zu Notar oder Anwalt, Fragen zur Erbschaftsteuer, zum teilentgeltlichen Erwerb und zur Spekulationssteuer zum Steuerberater. Freibeträge, Steuersätze und Fristen geben den Stand vom Oktober 2026 wieder; das Bundesverfassungsgericht verhandelt über die Erbschaftsteuer, ein Urteil steht aus. Preise sind Angebotswerte von Portalen, keine Abschlüsse. Meine Erlaubnis nach § 34c GewO ist beantragt; Einschätzungen gebe ich ab sofort, Makleraufträge nehme ich nach Erteilung an.
+Ich erbringe keine Steuer- und keine Rechtsberatung. Fragen zu Ausschlagung, Erbschein, Erbauseinandersetzung und Vollmachten gehören zu Notar oder Anwalt, Fragen zur Erbschaftsteuer, zum teilentgeltlichen Erwerb und zur Spekulationssteuer zum Steuerberater. Freibeträge, Steuersätze und Fristen geben den Stand vom Oktober 2026 wieder; das Bundesverfassungsgericht verhandelt über die Erbschaftsteuer, ein Urteil steht aus. Preise sind Angebotswerte von Portalen, keine Abschlüsse.
 
 ## Nächster Schritt
 
@@ -207,7 +207,7 @@ Eine geerbte Wohnung ist keine Eile, aber sie kostet jeden Monat Hausgeld. Lasse
 
 **[Geerbte Wohnung kostenlos einschätzen lassen](/wohnung-bewerten/)**
 Auch wenn Sie nicht in der Region wohnen: Ich schaue mir Wohnung und Gebäude an, fordere die Unterlagen bei der Verwaltung an und schicke Ihnen eine schriftliche Einschätzung.
-Oder Sie laden den [Fahrplan für die ersten zwölf Wochen als PDF](/ratgeber/geerbte-wohnung-verkaufen/fahrplan.pdf) herunter. [LINUS: PDF muss noch erstellt werden; Telefonnummer ergänzen.]
+Oder Sie laden den [Fahrplan für die ersten zwölf Wochen als PDF](/ratgeber/geerbte-wohnung-verkaufen/fahrplan.pdf) herunter. [LINUS: PDF muss noch erstellt werden.] Telefon 0159 05844641.
 
 ## Vor Ort
 - [Wohnung verkaufen in Leonberg](/wohnung-verkaufen/leonberg/): Gutachterausschuss am Belforter Platz liefert die Vergleichswerte, die das Finanzamt ansetzt; Anlagen der 1960er bis 1980er in Eltingen und Ramtel sind typische Erbwohnungen.

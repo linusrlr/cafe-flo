@@ -163,7 +163,7 @@ Die Grenze sage ich ebenso offen: Im streitigen Verfahren zählt das Gutachten e
 7. Unterlagen sichern. Teilungserklärung, Protokolle der letzten drei Eigentümerversammlungen, Wirtschaftsplan, Jahresabrechnung, Kreditvertrag, Kaufvertrag mit Datum der Beurkundung. Beide bekommen Kopien.
 8. Keine einseitigen Schritte. Kein Inserat, kein Makler, kein Gespräch mit Kaufinteressenten ohne den anderen.
 
-Die Liste gibt es als PDF: [Checkliste für die ersten drei Monate herunterladen](/ratgeber/wohnung-scheidung/checkliste/). [LINUS: PDF muss noch erstellt werden; Link erst nach Erstellung aktivieren.]
+Die Liste gibt es als PDF: [Checkliste für die ersten drei Monate herunterladen](/ratgeber/wohnung-scheidung/checkliste.pdf). [LINUS: PDF muss noch erstellt werden; Link erst nach Erstellung aktivieren.]
 
 <a id="haeufige-fragen"></a>
 ## Häufige Fragen
@@ -194,7 +194,7 @@ Ich bewerte für beide mit denselben Unterlagen und verkaufe nur mit Auftrag bei
 Je länger die Wohnung zwischen Ihnen steht, desto teurer wird sie: Hausgeld, Zinsen, Nerven. Ein belastbarer Wert ist der erste Schritt, den Sie gemeinsam gehen können.
 
 [Wohnung neutral einschätzen lassen, für beide](/wohnung-bewerten/)
-Sie bekommen beide dieselbe schriftliche Einschätzung mit denselben Vergleichswerten. Ob Sie danach verkaufen oder einer übernimmt, entscheiden Sie. Antwort innerhalb eines Werktags, telefonisch unter [LINUS: Telefonnummer].
+Sie bekommen beide dieselbe schriftliche Einschätzung mit denselben Vergleichswerten. Ob Sie danach verkaufen oder einer übernimmt, entscheiden Sie. Antwort innerhalb eines Werktags, telefonisch unter 0159 05844641.
 
 ## Hinweis
 

@@ -60,11 +60,11 @@ Pforzheim gliedert sich in die Kernstadt, zu der auch Brötzingen und Dillweiße
 
 **Brötzingen, Dillweißenstein, Au, Südweststadt.** Mittleres Preisniveau um 3.000 €/m² [2]. Die Südweststadt ist nach meiner Beobachtung der Stadtteil, in dem Eigentumswohnungen aus den 1970er und 1980er Jahren mit Hausgeld und Rücklage als Preisthema am häufigsten auf den Markt kommen. [LINUS: Eigene Beobachtung ergänzen oder streichen.]
 
-**Eingemeindete Orte Büchenbronn, Eutingen, Huchenfeld, Hohenwart, Würm.** Büchenbronn und Eutingen liegen preislich auf Kernstadtniveau, Huchenfeld und Hohenwart darunter [2]; für Würm nennt immoportal 2.730 €/m² [1]. Eigentumswohnungen sind hier seltener; die Portale bilden ihre Durchschnitte aus wenigen Angeboten, entsprechend vorsichtig lese ich diese Zahlen. Käufer kommen nach meiner Beobachtung aus dem Ort selbst oder pendeln mit dem Auto.
+**Eingemeindete Orte Büchenbronn, Eutingen, Huchenfeld, Hohenwart, Würm.** Büchenbronn und Eutingen liegen preislich auf Kernstadtniveau, Huchenfeld und Hohenwart darunter [2]; für Würm nennt immoportal 2.730 €/m² [1]. Eigentumswohnungen sind hier seltener; die Portale bilden ihre Durchschnitte aus wenigen Angeboten, entsprechend vorsichtig lese ich diese Zahlen. Käufer kommen nach meiner Beobachtung aus dem Ort selbst oder pendeln mit dem Auto. [LINUS: Beobachtung bestätigen oder streichen.]
 
 ## Vermietete Wohnung in Pforzheim verkaufen
 
-In keinem anderen Ort meines Gebiets ist der Anteil vermieteter Wohnungen im Angebot nach meiner Beobachtung so hoch wie in Pforzheim. Drei Dinge müssen Verkäufer wissen.
+In keinem anderen Ort meines Gebiets ist der Anteil vermieteter Wohnungen im Angebot nach meiner Beobachtung so hoch wie in Pforzheim. [LINUS: Beobachtung bestätigen oder streichen.] Drei Dinge müssen Verkäufer wissen.
 
 **Kündigungssperrfrist fünf Jahre.** Pforzheim steht in § 1 der Kündigungssperrfristverordnung Baden-Württemberg vom 16. Dezember 2025. Wer eine Wohnung kauft, die nach Beginn des Mietverhältnisses in Wohnungseigentum umgewandelt wurde, kann sich erst nach fünf Jahren auf Eigenbedarf berufen; die Verordnung gilt bis zum 31. Dezember 2026, die Verlängerung ist in der Anhörung [12] [ZU PRÜFEN: Nachfolgeverordnung]. Das gilt im ganzen Stadtkreis, also in allen 15 Stadtteilen.
 
@@ -115,14 +115,14 @@ Die Gegenrede: Die Bevölkerung Pforzheims ist laut Arlinger Baugenossenschaft l
 
 **Direktankauf als zweiter Weg.** Für vermietete Wohnungen in Pforzheim prüfe ich auf Wunsch auch einen Ankauf durch mich selbst, ohne Inserat und Besichtigungen. Ein Ankaufsangebot liegt in der Regel unter dem, was die Vermarktung am Markt bringt, weil ich Kosten, Risiko und Gewinn einrechne; das sage ich offen, und Sie können jederzeit eine zweite Einschätzung einholen. Welcher Weg passt, klären wir vor dem Auftrag: [Direktankauf prüfen](/direktankauf/). [LINUS: Ist Direktankauf in Pforzheim dein Schwerpunkt? Dann rückt dieser Absatz nach oben.]
 
-Bis zur Erteilung meiner Erlaubnis nach § 34c GewO nehme ich keine Makleraufträge an. Die Einschätzung Ihrer Wohnung kann ich schon jetzt vornehmen.
+Die Einschätzung Ihrer Wohnung bekommen Sie sofort.
 
 <!-- H2 „Verkäufe und Stimmen aus Pforzheim“: erst nach ersten Abschlüssen. Nichts erfinden. -->
 
 ## Häufige Fragen zum Wohnungsverkauf in Pforzheim
 
 **Welche Stadtteile sind gefragt?**
-Bei Eigennutzern die Hanglagen Buckenberg und Südoststadt mit den höchsten Angebotspreisen [2]; bei Anlegern die Kernstadt, weil dort Kaufpreis und Miete im besten Verhältnis stehen [2][3]. Innerhalb eines Stadtteils entscheidet der Zustand mehr als die Adresse.
+Bei Eigennutzern die Hanglagen Buckenberg und Südoststadt mit den höchsten Angebotspreisen [2]; bei Anlegern die Kernstadt, weil dort Kaufpreis und Miete in einem günstigen Verhältnis stehen [2][3]. Innerhalb eines Stadtteils entscheidet der Zustand mehr als die Adresse.
 
 **Was bringt eine vermietete Wohnung?**
 Das hängt von der Miete im Vertrag ab. Bei 10,88 €/m² ergibt eine 75-m²-Wohnung für 221.000 € eine Bruttorendite von rund 4,4 %, bei der Mietspiegelmiete von 8,58 €/m² nur 3,5 % (eigene Rechnung aus Portaldaten) [6][9]. Anleger zahlen für die höhere, rechtlich zulässige Miete.
@@ -143,7 +143,7 @@ Wenn Sie schnell und ohne Besichtigungen verkaufen wollen, kann er passen. Der P
 
 Ich sehe mir Ihre Wohnung an, lese Mietvertrag und Verwaltungsunterlagen und sage Ihnen schriftlich, was sie im Pforzheimer Markt bringt und an wen. Kostenlos, Antwort innerhalb eines Werktags.
 
-[Wohnung in Pforzheim einschätzen lassen](/wohnung-bewerten/) · Telefon [LINUS: Telefonnummer] · [Rückruf vereinbaren](/kontakt/)
+[Wohnung in Pforzheim einschätzen lassen](/wohnung-bewerten/) · Telefon 0159 05844641 · [Rückruf vereinbaren](/kontakt/)
 
 Rössler Immobilien, Linus Rössler [LINUS: Anschrift und Erreichbarkeit für den NAP-Block]
 

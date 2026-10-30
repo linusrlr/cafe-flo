@@ -18,7 +18,7 @@ Warum ich diese Seite trotzdem schreibe: Die Steuer entscheidet mit, ob Sie jetz
 - Steuerfrei bleibt, wer die Wohnung seit dem Kauf durchgehend selbst bewohnt hat oder im Jahr des Verkaufs und in den beiden Jahren davor (§ 23 Abs. 1 Satz 1 Nr. 1 Satz 3 EStG) [1]. Angebrochene Jahre zählen [2].
 - Erben und Beschenkte übernehmen die Frist des Vorbesitzers (§ 23 Abs. 1 Satz 3 EStG) [1].
 - Bei vermieteten Wohnungen erhöht die Abschreibung den Gewinn, weil sie die Anschaffungskosten mindert (§ 23 Abs. 3 Satz 4 EStG) [1]. Im Leonberger Beispiel unten ergäben sich rund 68.300 € Gewinn und bei 35 % Grenzsteuersatz rund 23.900 € Steuer.
-- Die Freigrenze liegt bei 1.000 € Gesamtgewinn im Jahr; ein Euro mehr, und der ganze Gewinn ist steuerpflichtig [1][2]. Der Steuersatz ist Ihr persönlicher Einkommensteuersatz, es gibt keinen festen Satz.
+- Steuerfrei bleibt ein Gesamtgewinn unter 1.000 € im Jahr (Freigrenze); ab 1.000 € ist der ganze Gewinn steuerpflichtig [1][2]. Der Steuersatz ist Ihr persönlicher Einkommensteuersatz, es gibt keinen festen Satz.
 - Die Frist bleibt: Bundestag und Bundesrat haben ihre Streichung im Oktober 2026 nicht beschlossen [13][14].
 
 ## Inhalt
@@ -221,7 +221,7 @@ Eine Zweitwohnung, die jederzeit nutzbar ist und nicht vermietet wird, gilt als 
 Zehn Jahre sind eine lange Zeit, aber kein Naturgesetz. Lassen Sie uns gemeinsam schauen, ob Verkaufen jetzt oder in zwei Jahren für Sie besser ist.
 
 [Wohnung kostenlos einschätzen lassen](/wohnung-bewerten/)
-Der Verkaufspreis entscheidet mit, ob sich Warten lohnt. Ich sage Ihnen, was Ihre Wohnung heute bringt. Die Steuer rechnet Ihr Steuerberater, gern mit meinen Zahlen. Telefon: [LINUS: Telefonnummer], Antwort innerhalb eines Werktags.
+Der Verkaufspreis entscheidet mit, ob sich Warten lohnt. Ich sage Ihnen, was Ihre Wohnung heute bringt. Die Steuer rechnet Ihr Steuerberater, gern mit meinen Zahlen. Telefon: 0159 05844641, Antwort innerhalb eines Werktags.
 
 ## Hinweis
 

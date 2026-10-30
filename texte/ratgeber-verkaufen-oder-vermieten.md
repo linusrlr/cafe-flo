@@ -116,7 +116,7 @@ Das Paar aus Leonberg, Kaufvertrag März 2019, selbst bewohnt bis zum Umzug im H
 | Vermietung ab Herbst 2026, Verkauf 2028 | steuerpflichtig | Zehnjahresfrist läuft bis März 2029; Eigennutzung im Verkaufsjahr 2028 fehlt; die Abschreibung der Jahre 2026 bis 2028 mindert die Anschaffungskosten und erhöht den Gewinn (§ 23 Abs. 3 Satz 4 EStG) [12] |
 | Vermietung, Verkauf nach März 2029 | steuerfrei | Frist abgelaufen; die Abschreibung spielt für § 23 dann keine Rolle mehr [12] |
 
-Zur Größenordnung: Angenommen, der Gewinn nach Zurechnung der Abschreibung beträgt 20.000 €, dann sind bei einem Grenzsteuersatz von 35 % rund 7.000 € Steuer fällig. Die Freigrenze von 1.000 € im Jahr hilft nicht, ein Euro darüber macht den ganzen Gewinn steuerpflichtig (§ 23 Abs. 3 Satz 5 EStG) [12]. Ein ausgerechnetes Beispiel mit Abschreibung und Rücklage steht im Ratgeber [Spekulationssteuer bei der Eigentumswohnung](/ratgeber/spekulationssteuer/).
+Zur Größenordnung: Angenommen, der Gewinn nach Zurechnung der Abschreibung beträgt 20.000 €, dann sind bei einem Grenzsteuersatz von 35 % rund 7.000 € Steuer fällig. Die Freigrenze hilft nicht: Steuerfrei bleiben nur Gewinne unter 1.000 € im Jahr, ab 1.000 € ist der ganze Gewinn steuerpflichtig (§ 23 Abs. 3 Satz 5 EStG) [12]. Ein ausgerechnetes Beispiel mit Abschreibung und Rücklage steht im Ratgeber [Spekulationssteuer bei der Eigentumswohnung](/ratgeber/spekulationssteuer/).
 
 Was die Tabelle zeigt: Für dieses Paar gibt es ein Zeitfenster bis Jahresende 2026 und eines ab Frühjahr 2029. Dazwischen liegt eine Zone, in der ein Verkauf Steuer kostet. Wer vermietet, sollte das Enddatum der Frist im Kalender haben. Für den Witwer aus Eutingen, der die Wohnung seit Jahrzehnten besitzt, spielt § 23 keine Rolle; Mieteinnahmen sind aber in beiden Fällen Einkünfte, die versteuert werden.
 
@@ -180,7 +180,7 @@ Beantworten Sie jede Frage mit Ja oder Nein. Jede Antwort gibt einen Punkt für 
 <a id="praxis"></a>
 ## Aus meiner Praxis
 
-Ich vermiete selbst eine Wohnung, die ich gekauft und renoviert habe. Was ich daraus gelernt habe, passt in drei Sätze: Der nicht umlagefähige Teil des Hausgelds ist höher, als man beim Kauf denkt. Die Eigentümerversammlung entscheidet über mein Geld, nicht ich. Und ein guter Mieter ist mehr wert als 50 € mehr Miete. [LINUS: Konkrete Zahlen aus Ihrer Wohnung, anonymisiert: Miete, Hausgeld gesamt und davon nicht umlagefähig, Rücklagenzuführung, Instandhaltung der letzten drei Jahre, Leerstandstage, Zeitaufwand pro Jahr. Darf das auf die Seite?]
+Ich vermiete selbst eine Wohnung, die ich gekauft und renoviert habe. Was ich daraus gelernt habe, passt in drei Sätze: Der nicht umlagefähige Teil des Hausgelds ist höher, als man beim Kauf denkt. Die Eigentümerversammlung entscheidet über mein Geld, nicht ich. Und ein guter Mieter ist mehr wert als 50 € mehr Miete. [LINUS: Die drei Sätze sind ein Formulierungsvorschlag, bitte bestätigen oder ersetzen. Konkrete Zahlen aus Ihrer Wohnung, anonymisiert: Miete, Hausgeld gesamt und davon nicht umlagefähig, Rücklagenzuführung, Instandhaltung der letzten drei Jahre, Leerstandstage, Zeitaufwand pro Jahr. Darf das auf die Seite?]
 
 <a id="haeufige-fragen"></a>
 ## Häufige Fragen
@@ -208,7 +208,7 @@ Nicht umlagefähiges Hausgeld (Verwaltung, Rücklage, Instandhaltung Gemeinschaf
 
 ## Hinweis
 
-Ich erbringe keine Anlage-, Steuer- oder Mietrechtsberatung. Die Alternativverzinsung des Erlöses ist eine Rechenannahme, keine Empfehlung; Fragen zur Spekulationssteuer klärt Ihr Steuerberater, Fragen zu Mieterhöhung, Mietpreisbremse und Kündigung ein Anwalt, der Mieterverein oder Haus & Grund. Alle Preise und Mieten sind Angebotswerte von Portalen mit dem genannten Stand, keine Abschlüsse. Die Mietpreisbegrenzungs-, Kappungsgrenzen- und Kündigungssperrfristverordnung laufen am 31. Dezember 2026 aus; Nachfolgeverordnungen sind in der Anhörung. Meine Erlaubnis nach § 34c GewO ist beantragt; Einschätzungen gebe ich ab sofort, Vermarktungsaufträge nehme ich nach Erteilung an.
+Ich erbringe keine Anlage-, Steuer- oder Mietrechtsberatung. Die Alternativverzinsung des Erlöses ist eine Rechenannahme, keine Empfehlung; Fragen zur Spekulationssteuer klärt Ihr Steuerberater, Fragen zu Mieterhöhung, Mietpreisbremse und Kündigung ein Anwalt, der Mieterverein oder Haus & Grund. Alle Preise und Mieten sind Angebotswerte von Portalen mit dem genannten Stand, keine Abschlüsse. Die Mietpreisbegrenzungs-, Kappungsgrenzen- und Kündigungssperrfristverordnung laufen am 31. Dezember 2026 aus; Nachfolgeverordnungen sind in der Anhörung.
 
 ## Nächster Schritt
 

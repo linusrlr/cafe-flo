@@ -184,7 +184,7 @@ Verkaufen Sie innerhalb der Zehnjahresfrist steuerpflichtig, mindert die Provisi
 
 ## Erlaubnis nach § 34c GewO und Weiterbildung
 
-Wer gewerbsmäßig Verträge über Wohnräume vermittelt oder die Gelegenheit dazu nachweist, braucht die Erlaubnis der zuständigen Behörde (§ 34c Abs. 1 S. 1 Nr. 1 GewO) [20]. Voraussetzungen sind Zuverlässigkeit und geordnete Vermögensverhältnisse. Meine Erlaubnis ist beantragt; Einschätzungen gebe ich ab sofort, Makleraufträge nehme ich an, sobald sie erteilt ist. [LINUS: Bei welcher Behörde beantragt, erwartetes Datum? Nach Erteilung: Datum und Behörde hier eintragen und den Vorbehalt auf allen Seiten entfernen.]
+Wer gewerbsmäßig Verträge über Wohnräume vermittelt oder die Gelegenheit dazu nachweist, braucht die Erlaubnis der zuständigen Behörde (§ 34c Abs. 1 S. 1 Nr. 1 GewO) [20]. Voraussetzungen sind Zuverlässigkeit und geordnete Vermögensverhältnisse. [LINUS: Bei welcher Behörde beantragt, erwartetes Datum? Nach Erteilung: Datum und Behörde hier eintragen und den Vorbehalt auf allen Seiten entfernen.]
 
 Zur Weiterbildung: Bisher gilt für Makler eine Pflicht von 20 Stunden in drei Jahren (§ 34c Abs. 2a GewO) [21] [ZU PRÜFEN: Wortlaut]. Der Bundestag hat am 11. Juni 2026 ein Gesetz zum Bürokratierückbau in der Gewerbeordnung beschlossen, das diese Pflicht für Makler streicht [21] [ZU PRÜFEN: Bundesrat, Verkündung und Inkrafttreten]. Ob die Pflicht fällt oder nicht: Ich bilde mich weiter und nenne die Nachweise in der Autorenbox. [LINUS: Weiterbildungsnachweise (Stunden, Anbieter, Jahr) und ob eine Vermögensschadenhaftpflicht besteht, die genannt werden darf.]
 
@@ -215,7 +215,7 @@ Innerhalb von 14 Tagen nach ordnungsgemäßer Belehrung können Sie widerrufen; 
 Sie beauftragen nur einen Makler und verpflichten sich, Interessenten, die sich direkt bei Ihnen melden, an ihn zu verweisen. Dafür ist der Makler verpflichtet, tätig zu werden. Laufzeit, Verlängerung und Kündigung müssen klar geregelt sein; bei mir sechs Monate, Verlängerung um drei Monate, vier Wochen Kündigungsfrist [19].
 
 ## Hinweis
-Ich erbringe keine Rechtsberatung, insbesondere nicht zu Maklerverträgen mit anderen Maklern, zu Rückforderungen oder zu Widerrufen gegenüber Dritten; dafür sind Verbraucherzentrale oder Anwalt zuständig. Steuerliche Angaben ersetzen keine Steuerberatung. Die Angaben zu üblichen Provisionssätzen stammen von Portalen und der IHK, eine amtliche Statistik für Baden-Württemberg gibt es nicht. Stand der Gesetze und Urteile: Oktober 2026. Meine Erlaubnis nach § 34c GewO ist beantragt; Einschätzungen gebe ich ab sofort, Makleraufträge nehme ich nach Erteilung an.
+Ich erbringe keine Rechtsberatung, insbesondere nicht zu Maklerverträgen mit anderen Maklern, zu Rückforderungen oder zu Widerrufen gegenüber Dritten; dafür sind Verbraucherzentrale oder Anwalt zuständig. Steuerliche Angaben ersetzen keine Steuerberatung. Die Angaben zu üblichen Provisionssätzen stammen von Portalen und der IHK, eine amtliche Statistik für Baden-Württemberg gibt es nicht. Stand der Gesetze und Urteile: Oktober 2026.
 
 ## Nächster Schritt
 
@@ -223,7 +223,7 @@ Ich erbringe keine Rechtsberatung, insbesondere nicht zu Maklerverträgen mit an
 
 **[Wohnung kostenlos einschätzen lassen](/wohnung-bewerten/)**
 Sie wissen jetzt, was ich koste. Jetzt schauen wir, was Ihre Wohnung bringt.
-Oder Sie sehen sich den [Muster-Maklervertrag mit Widerrufsbelehrung als PDF](/ratgeber/maklerprovision/mustervertrag.pdf) an. [LINUS: PDF freigeben oder Link streichen; Telefonnummer ergänzen.]
+Oder Sie sehen sich den [Muster-Maklervertrag mit Widerrufsbelehrung als PDF](/ratgeber/maklerprovision/mustervertrag.pdf) an. [LINUS: PDF freigeben oder Link streichen.] Telefon 0159 05844641.
 
 ## Vor Ort
 - [Wohnung verkaufen in Leonberg](/wohnung-verkaufen/leonberg/): Beispiel 290.000 €, Provision 8.642 € je Seite; die meisten Makler vor Ort nennen ihren Satz nicht.

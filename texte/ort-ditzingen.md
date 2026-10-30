@@ -79,7 +79,7 @@ Die Vermarktung: Fotos, Exposé, Inserate, Einzelbesichtigungen mit Finanzierung
 
 **Zweiter Weg: Direktankauf.** Wenn Sie keine Vermarktung wollen, prüfe ich einen Ankauf durch mich, zu einem Preis unter dem Marktwert, weil mein Risiko und mein Gewinn darin stecken. Das sage ich vorher. Details unter [Direktankauf](/direktankauf/).
 
-Zum Stand meiner Zulassung: Die Erlaubnis nach § 34c GewO ist beantragt, Makleraufträge kann ich ab Erteilung annehmen. Für die Einschätzung Ihrer Ditzinger Wohnung und den Verkaufsplan müssen Sie nicht warten.
+Die Einschätzung Ihrer Ditzinger Wohnung und den Verkaufsplan bekommen Sie sofort.
 
 <!-- Abschnitt „Verkäufe und Stimmen aus Ditzingen“ erst nach ersten Abschlüssen -->
 

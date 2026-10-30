@@ -1,4 +1,4 @@
-# Briefing: Ortsseite Leonberg – „Wohnung verkaufen in Leonberg“
+# Briefing: Ortsseite Leonberg („Wohnung verkaufen in Leonberg“)
 
 Quellen: `../recherche/themen-und-lokal.md` (Teil B: lokale Daten, B3 Ortsseiten-Aufbau), `../recherche/regional.md` (Von-Poll-Stadtteil-Raster, Garant-FAQ, Gäu-Ortsseiten als Gegenbeispiel), `../recherche/staedte.md` (PORTIMMO-Leonberg-Seite, AusBlick-Datenblock). Alle Zahlen sind Angebotspreise von Portalen mit Stand; vor Veröffentlichung gegen die Quelle prüfen und das Datum nennen.
 

@@ -84,7 +84,7 @@ Die Vermarktung umfasst Fotos, Exposé, Inserate, Einzelbesichtigungen, die ich 
 
 **Zweiter Weg: Direktankauf.** Wenn Sie keine Besichtigungen und keine öffentliche Vermarktung wollen, prüfe ich einen Ankauf durch mich. Das Angebot liegt dann unter dem erzielbaren Marktpreis, weil mein Risiko und mein Gewinn eingerechnet sind. Ich sage das vorher, nicht hinterher. Details unter [Direktankauf](/direktankauf/).
 
-Meine Erlaubnis nach § 34c GewO ist beantragt. Makleraufträge nehme ich an, sobald sie erteilt ist. Die Einschätzung Ihrer Wohnung und der Verkaufsplan sind schon jetzt möglich.
+Die Einschätzung Ihrer Wohnung und den Verkaufsplan bekommen Sie sofort.
 
 <!-- Abschnitt „Verkäufe und Stimmen aus Heimsheim“ erst nach ersten Abschlüssen -->
 
