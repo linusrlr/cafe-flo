@@ -35,7 +35,8 @@ Mein Hauptweg ist die Vermittlung. Dann bestimmt der Markt den Preis, und das is
 
 ## In welcher Rolle ich stehe
 
-Bei einem Eigenankauf bin ich Ihr Vertragspartner auf der Käuferseite. Mein Angebot berücksichtigt meine Kosten, Risiken und den geplanten Gewinn. Eine zusätzliche unabhängige Einschätzung können Sie jederzeit einholen. Wenn ich Ihnen stattdessen einen anderen Investor vorstelle, erfahren Sie vorher, von wem ich dafür eine Vergütung erhalte. [1]
+Bei einem Eigenankauf bin ich Ihr Vertragspartner auf der Käuferseite. Mein Angebot berücksichtigt meine Kosten, Risiken und den geplanten Gewinn. Eine zusätzliche unabhängige Einschätzung können Sie jederzeit einholen. Andere Käufer oder Investoren stelle ich erst vor, wenn meine Erlaubnis nach § 34c GewO erteilt ist. Dann erfahren Sie vorher, von wem ich dafür eine Vergütung erhalte. [1]
+<!-- Nach Erteilung wieder der Live-Satz: „Wenn ich Ihnen stattdessen einen anderen Investor vorstelle, erfahren Sie vorher, von wem ich dafür eine Vergütung erhalte.“ (07-recht-erlaubnis.md, Abschnitt 9) -->
 <!-- RECHT: Einen anderen Investor gegen Vergütung vorzustellen ist Nachweis oder Vermittlung und erst nach Erteilung der Erlaubnis nach § 34c GewO zulässig (analyse-aktuelle-webseite/07-recht-erlaubnis.md, Abschnitt 2). Bis zur Erteilung den vorigen Satz ersetzen durch Baustein C: „Andere Käufer oder Investoren stelle ich erst vor, wenn meine Erlaubnis nach § 34c GewO erteilt ist. Dann erfahren Sie vorher, von wem ich dafür eine Vergütung erhalte.“ -->
 
 Das heißt konkret: Als Makler verdiene ich an einem hohen Preis. Als Käufer verdiene ich an einem niedrigen. Ich habe hier also ein eigenes Interesse, und das sollen Sie wissen, bevor Sie mit mir sprechen. Deshalb gelten feste Regeln:
@@ -126,7 +127,7 @@ Eine Grenze nenne ich offen: Mehr als drei Verkäufe in rund fünf Jahren machen
 
 Seit dem 1. April 2023 ist Barzahlung beim Immobilienkauf verboten, auch in Kryptowerten oder Gold (§ 16a GwG) [4]. Der Notar beurkundet und vollzieht den Vertrag nur, wenn die unbare Zahlung nachgewiesen ist [4]. Ich zahle den Kaufpreis deshalb per Überweisung. Wer Ihnen „Bargeld sofort“ verspricht, verspricht etwas, das es legal nicht gibt.
 
-Als Makler bin ich nach dem Geldwäschegesetz verpflichtet, meine Vertragspartner zu identifizieren (§ 11 GwG) [4]. Beim Notar werden beide Seiten identifiziert [4]. Bringen Sie zum Termin Ihren Personalausweis oder Reisepass mit. Der Kaufvertrag wird in Präsenz beurkundet, nicht per Video [12]. [ZU PRÜFEN: Umfang der eigenen GwG-Pflichten beim Eigenankauf, in dem ich Käufer und nicht Vermittler bin]
+Bei jedem Wohnungskauf prüft der Notar die Identität beider Seiten nach dem Geldwäschegesetz [4]. Beim Notar werden beide Seiten identifiziert [4]. Bringen Sie zum Termin Ihren Personalausweis oder Reisepass mit. Der Kaufvertrag wird in Präsenz beurkundet, nicht per Video [12]. [ZU PRÜFEN: Umfang der eigenen GwG-Pflichten beim Eigenankauf, in dem ich Käufer und nicht Vermittler bin]
 
 ## Ankauf prüfen lassen: das Kurzformular
 
