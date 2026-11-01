@@ -22,8 +22,8 @@ Telefonisch erreichen Sie mich [LINUS: Zeiten, zum Beispiel Montag bis Freitag 9
 
 Ich habe kein Ladengeschäft. Termine finden bei Ihnen in der Wohnung statt oder, wenn Sie nicht vor Ort wohnen, telefonisch oder per Video [LINUS: welches Videotool, datenschutzkonform?]. Treffen sind in Heimsheim, Leonberg, Ditzingen, Renningen und Pforzheim ohne Anfahrtskosten möglich.
 
-Ersteinschätzungen und Beratungsgespräche biete ich ab sofort an, Vermarktungsaufträge nehme ich ab Erteilung der Erlaubnis nach § 34c GewO an.
-<!-- Einziger Erlaubnis-Hinweis auf dieser Seite. Nach Erteilung entfernen. -->
+Meine Erlaubnis als Immobilienmakler nach § 34c GewO ist beantragt, aber noch nicht erteilt. Bis dahin vermittle ich keine Wohnungen und schließe keine Maklerverträge ab. Die kostenlose Ersteinschätzung Ihrer Wohnung und ein erstes Gespräch sind schon jetzt möglich, unverbindlich.
+<!-- Einziger Erlaubnis-Hinweis auf dieser Seite. Nach Erteilung entfernen. Wortlaut nach analyse-aktuelle-webseite/07-recht-erlaubnis.md, Baustein A. Vor Veröffentlichung von einer Anwältin/einem Anwalt für Gewerberecht prüfen lassen. -->
 
 ## Drei Wege zu mir
 

@@ -1,0 +1,893 @@
+# fakten.yaml: zentrale Datei für alle veränderlichen Fakten von roessler-immo.de
+#
+# Zweck: Werte, die sich ändern (Provision, Fristen, Verordnungen, Hebesätze,
+# Preise, Mieten, Zinsen, Förderkonditionen, Kontaktdaten, Erlaubnisstatus),
+# stehen nur hier. Texte in texte/*.md binden sie per Platzhalter ein:
+#   {{fakten.sperrfrist.leonberg}}              -> wert
+#   {{fakten.sperrfrist.leonberg.gueltig_bis}}  -> 31.12.2026 (Datum de-DE)
+#   {{fakten.angebotspreise_etw.leonberg.immoportal.stand}}
+# Regeln für Auflösung und Build-Checks: bauplan/01-technik.md, Abschnitt 5.
+#
+# Aufbau eines Eintrags (Blatt = Objekt mit Feld "wert"):
+#   wert:          Anzeige-String, genau so, wie er im Text erscheint (deutsches Zahlformat)
+#   zahl:          optional, maschinenlesbar (Punkt als Dezimaltrenner), für Rechnungen/JSON-LD
+#   quelle:        Kurzangabe der Quelle (Titel, Herausgeber)
+#   url:           optional, Quelle als URL
+#   stand:         ISO-Datum (YYYY-MM-DD), an dem der Wert zuletzt geprüft bzw. veröffentlicht wurde.
+#                  Quartalswerte: letzter Tag des Quartals; stand_text nennt die Originalangabe.
+#   stand_text:    optional, Anzeigeform des Stands ("2. Quartal 2026")
+#   gueltig_bis:   optional, ISO-Datum, bis zu dem der Wert rechtlich gilt
+#   stichtag:      optional, ISO-Datum, ab dem sich etwas ändert (Text muss dann umgeschrieben werden)
+#   pruefintervall_monate: optional, überschreibt die 6-Monats-Regel (Zinsen 1, Portalpreise 3)
+#   status:        geprueft | zu_pruefen | offen   (zu_pruefen/offen auf veröffentlichter Seite = Build-Fehler)
+#   hinweis:       optional, interne Notiz, wird nie gerendert
+#   verwendet_in:  Liste der Textdateien (Basename ohne .md), die den Wert heute enthalten.
+#
+# verwendet_in wurde am 2026-11-01 per grep über texte/*.md UND texte/_langfassung/*.md ermittelt
+# (Ortsseiten liegen derzeit nur in _langfassung/, eine parallele Session kürzt die Texte).
+# Nach Abschluss der Kürzung neu erzeugen: `npm run fakten:verwendung` (Skript in 01-technik.md 5.5).
+# Die grep-Muster je Eintrag stehen im Feld "muster", damit das Skript sie wiederverwenden kann.
+
+_meta:
+  ermittelt_am: 2026-11-01
+  pruefintervall_monate_standard: 6
+  vorwarnung_gueltig_bis_tage: 45
+  zeitzone: Europe/Berlin
+
+# ---------------------------------------------------------------------------
+# 1. Firma, Kontakt, Erlaubnis
+# ---------------------------------------------------------------------------
+firma:
+  name:
+    wert: "Rössler Immobilien"
+    quelle: "Impressum Live-Seite"
+    stand: 2026-10-19
+    status: geprueft
+    verwendet_in: [alle]
+  inhaber:
+    wert: "Linus Rössler"
+    quelle: "Impressum Live-Seite"
+    stand: 2026-10-19
+    status: geprueft
+    verwendet_in: [alle]
+  telefon:
+    wert: "0159 05844641"
+    e164: "+4915905844641"
+    schema: "+49 159 05844641"
+    href: "tel:+4915905844641"
+    quelle: "Live-Seite, Kontakt"
+    stand: 2026-10-19
+    status: geprueft
+    muster: '05844641'
+    verwendet_in: [direktankauf, kontakt, ort-ditzingen, ort-heimsheim, ort-leonberg, ort-pforzheim, ort-renningen, ratgeber-eigentumswohnung-verkaufen, ratgeber-energieausweis, ratgeber-geerbte-wohnung-verkaufen, ratgeber-maklerprovision, ratgeber-ohne-makler, ratgeber-sofortankauf-vs-makler, ratgeber-spekulationssteuer, ratgeber-verkauf-im-alter, ratgeber-verkaufen-oder-vermieten, ratgeber-vermietete-wohnung-verkaufen, ratgeber-wohnung-scheidung, start, ueber-mich, wohnung-bewerten, wohnung-verkaufen]
+  email:
+    wert: "linus@roessler-immo.de"
+    quelle: "Live-Seite, Kontakt"
+    stand: 2026-10-19
+    status: geprueft
+    muster: 'linus@roessler-immo\.de'
+    verwendet_in: [kontakt, ratgeber-verkauf-im-alter, start, ueber-mich, wohnung-bewerten, wohnung-verkaufen]
+  domain:
+    wert: "https://roessler-immo.de"
+    quelle: "DNS/Live-Seite"
+    stand: 2026-10-29
+    status: geprueft
+    verwendet_in: [layout]
+  anschrift:
+    wert: null
+    quelle: "Entscheidung Linus (03-massnahmen M6 Punkt 3)"
+    stand: 2026-11-01
+    status: offen
+    hinweis: "Impressum nennt heute Am Rück 19, 97618 Niederlauer. Bis zur Standortentscheidung im Footer keine Anschrift, nur Servicegebiet. Ortsseiten haben dafür [LINUS]-Marker."
+    verwendet_in: [kontakt, ort-leonberg, footer, impressum]
+  erreichbarkeit:
+    wert: null
+    quelle: "Entscheidung Linus"
+    stand: 2026-11-01
+    status: offen
+    hinweis: "Vorschlag in kontakt.md: Mo bis Fr 9 bis 20 Uhr, Sa 10 bis 16 Uhr. Wird auch für openingHours im JSON-LD genutzt."
+    verwendet_in: [kontakt, start, footer]
+  antwortzeit:
+    wert: "innerhalb eines Werktags"
+    quelle: "Zusage Linus (start.md, Fünf Zusagen)"
+    stand: 2026-10-30
+    status: geprueft
+    verwendet_in: [start, kontakt, wohnung-bewerten, ueber-mich, cta-block]
+  einschaetzung_frist:
+    wert: "innerhalb von zwei Werktagen"
+    quelle: "wohnung-bewerten.md"
+    stand: 2026-10-30
+    status: offen
+    hinweis: "[LINUS] in wohnung-bewerten.md: ab Eingang oder ab Telefonat? Verbindlich festlegen."
+    verwendet_in: [wohnung-bewerten, kontakt]
+  orte:
+    wert: "Heimsheim, Leonberg, Ditzingen, Renningen und Pforzheim"
+    liste: [heimsheim, leonberg, ditzingen, renningen, pforzheim]
+    quelle: "Positionierung"
+    stand: 2026-10-30
+    status: geprueft
+    verwendet_in: [alle]
+
+erlaubnis:
+  status:
+    wert: "beantragt"
+    werte_moeglich: [beantragt, erteilt]
+    quelle: "Live-Seite, Impressum"
+    stand: 2026-10-19
+    status: geprueft
+    hinweis: "Bei 'erteilt' schalten Komponenten automatisch um (AuthorBox, ErlaubnisHinweis, Impressum). Datum und Behörde dann unten füllen."
+    muster: 'beantragt'
+    verwendet_in: [direktankauf, ort-ditzingen, ort-heimsheim, ort-leonberg, ort-pforzheim, ort-renningen, ratgeber-eigentumswohnung-verkaufen, ratgeber-energieausweis, ratgeber-geerbte-wohnung-verkaufen, ratgeber-maklerprovision, ratgeber-ohne-makler, ratgeber-sofortankauf-vs-makler, ratgeber-spekulationssteuer, ratgeber-verkauf-im-alter, ratgeber-verkaufen-oder-vermieten, ratgeber-vermietete-wohnung-verkaufen, ratgeber-wohnung-scheidung, start, ueber-mich, wohnung-bewerten, wohnung-verkaufen]
+  text_autorzeile:
+    wert: "Immobilienmakler für Eigentumswohnungen (Erlaubnis nach § 34c GewO beantragt)"
+    wert_erteilt: "Immobilienmakler für Eigentumswohnungen, Erlaubnis nach § 34c GewO"
+    quelle: "Autorzeile der Texte"
+    stand: 2026-10-30
+    status: geprueft
+    verwendet_in: [alle Inhaltsseiten, AuthorBox]
+  hinweis_lang:
+    wert: "Meine Erlaubnis nach § 34c GewO ist beantragt. Ersteinschätzungen und Beratungsgespräche biete ich ab sofort an, Vermarktungsaufträge nehme ich ab Erteilung der Erlaubnis an."
+    quelle: "start.md, kontakt.md (M6 Punkt 1)"
+    stand: 2026-10-30
+    status: geprueft
+    hinweis: "Darf laut M6 nur auf Start, Kontakt, Wohnung verkaufen und Impressum erscheinen (Komponente ErlaubnisHinweis)."
+    verwendet_in: [start, kontakt, wohnung-verkaufen, impressum]
+  behoerde:
+    wert: null
+    status: offen
+    stand: 2026-11-01
+    quelle: "Erlaubnisbescheid"
+    verwendet_in: [impressum, strukturierte-daten]
+  erteilt_am:
+    wert: null
+    status: offen
+    stand: 2026-11-01
+    quelle: "Erlaubnisbescheid"
+    verwendet_in: [impressum, strukturierte-daten]
+
+# ---------------------------------------------------------------------------
+# 2. Provision und Vertrag
+# ---------------------------------------------------------------------------
+provision:
+  satz:
+    wert: "2,98 %"
+    zahl: 0.0298
+    langform: "2,98 % des Kaufpreises einschließlich Umsatzsteuer je Seite"
+    quelle: "Eigene Vergütungsvereinbarung Rössler Immobilien; FAQ Live-Seite"
+    stand: 2026-10-19
+    status: geprueft
+    muster: '2,98'
+    verwendet_in: [direktankauf, ort-ditzingen, ort-heimsheim, ort-leonberg, ort-pforzheim, ort-renningen, ratgeber-eigentumswohnung-verkaufen, ratgeber-energieausweis, ratgeber-geerbte-wohnung-verkaufen, ratgeber-maklerprovision, ratgeber-ohne-makler, ratgeber-sofortankauf-vs-makler, ratgeber-spekulationssteuer, ratgeber-verkauf-im-alter, ratgeber-verkaufen-oder-vermieten, ratgeber-vermietete-wohnung-verkaufen, ratgeber-wohnung-scheidung, start, ueber-mich, wohnung-bewerten, wohnung-verkaufen]
+  beispiel_290000:
+    wert: "8.642 €"
+    zahl: 8642
+    rechnung: "290.000 × 0,0298"
+    quelle: "berechnet aus provision.satz"
+    stand: 2026-10-30
+    status: geprueft
+    hinweis: "Wird bei Änderung von provision.satz automatisch neu berechnet (Build rechnet zahl nach und bricht bei Abweichung ab)."
+    muster: '8\.642'
+    verwendet_in: [direktankauf, ratgeber-eigentumswohnung-verkaufen, ratgeber-geerbte-wohnung-verkaufen, ratgeber-maklerprovision, ratgeber-ohne-makler, ratgeber-sofortankauf-vs-makler, ratgeber-verkauf-im-alter, start, wohnung-verkaufen]
+  ueblich_bw:
+    wert: "3,57 %"
+    langform: "üblicherweise zwischen 3,57 % und 7,14 % (gesamt)"
+    quelle: "ImmoScout24, Maklerverzeichnis Leonberg"
+    url: "https://www.immobilienscout24.de/anbieter/immobilienmakler/de/baden-wuerttemberg/boeblingen-kreis/leonberg"
+    stand: 2026-10-29
+    status: geprueft
+    muster: '3,57'
+    verwendet_in: [ratgeber-maklerprovision, ratgeber-ohne-makler]
+  alleinauftrag:
+    wert: "sechs Monate, Verlängerung um drei Monate, vier Wochen Kündigungsfrist"
+    quelle: "FAQ Live-Seite roessler-immo.de"
+    stand: 2026-10-19
+    status: geprueft
+    muster: 'Alleinauftrag'
+    verwendet_in: [direktankauf, ort-leonberg, ratgeber-maklerprovision, ratgeber-wohnung-scheidung, wohnung-verkaufen]
+
+# ---------------------------------------------------------------------------
+# 3. Steuern
+# ---------------------------------------------------------------------------
+grunderwerbsteuer_bw:
+  wert: "5 %"
+  zahl: 0.05
+  langform: "5,0 % seit dem 5. November 2011"
+  quelle: "Stadt Karlsruhe/service-bw; finanz.de, Grunderwerbsteuer Baden-Württemberg"
+  url: "https://www.finanz.de/steuern/grunderwerbsteuer/baden-wuerttemberg/"
+  stand: 2026-10-29
+  status: geprueft
+  hinweis: "Primärquelle (Landesgesetz über den Steuersatz der Grunderwerbsteuer) bei nächster Prüfung verlinken. Texte warnen ausdrücklich vor 6,5 % aus überregionalen Ratgebern; diese Zahl bleibt literal im Text."
+  muster: '(Grunderwerbsteuer|GrESt)[^.]{0,60}5( |,0 ?)%|5 ?% Grunderwerbsteuer|5,0 ?%'
+  verwendet_in: [direktankauf, ort-leonberg, ort-pforzheim, ratgeber-eigentumswohnung-verkaufen, ratgeber-energieausweis, ratgeber-geerbte-wohnung-verkaufen, ratgeber-ohne-makler, ratgeber-sofortankauf-vs-makler, ratgeber-spekulationssteuer, ratgeber-wohnung-scheidung, wohnung-verkaufen]
+
+spekulationsfrist:
+  frist:
+    wert: "zehn Jahre"
+    zahl: 10
+    rechtsgrundlage: "§ 23 Abs. 1 Satz 1 Nr. 1 EStG (Ausnahme Eigennutzung im Verkaufsjahr und den zwei Vorjahren)"
+    quelle: "§ 23 EStG; Finanztip, Spekulationssteuer, aktualisiert 09.07.2026"
+    url: "https://www.gesetze-im-internet.de/estg/__23.html"
+    stand: 2026-10-29
+    status: geprueft
+    muster: 'Zehnjahresfrist|§ 23 EStG'
+    verwendet_in: [direktankauf, ratgeber-eigentumswohnung-verkaufen, ratgeber-geerbte-wohnung-verkaufen, ratgeber-maklerprovision, ratgeber-ohne-makler, ratgeber-sofortankauf-vs-makler, ratgeber-spekulationssteuer, ratgeber-verkaufen-oder-vermieten, ratgeber-vermietete-wohnung-verkaufen, ratgeber-wohnung-scheidung, ueber-mich]
+  freigrenze:
+    wert: "1.000 €"
+    zahl: 1000
+    langform: "Gesamtgewinn unter 1.000 € im Jahr bleibt steuerfrei; ab 1.000 € ist der ganze Gewinn steuerpflichtig (Freigrenze, kein Freibetrag)"
+    rechtsgrundlage: "§ 23 Abs. 3 Satz 5 EStG"
+    quelle: "§ 23 EStG; Finanztip, aktualisiert 09.07.2026"
+    url: "https://www.gesetze-im-internet.de/estg/__23.html"
+    stand: 2026-10-29
+    status: geprueft
+    muster: 'Freigrenze'
+    verwendet_in: [ratgeber-eigentumswohnung-verkaufen, ratgeber-geerbte-wohnung-verkaufen, ratgeber-spekulationssteuer, ratgeber-verkaufen-oder-vermieten, ratgeber-vermietete-wohnung-verkaufen]
+
+# ---------------------------------------------------------------------------
+# 4. Mietrecht: Kündigungssperrfrist, Mietpreisbremse, Kappungsgrenze
+# ---------------------------------------------------------------------------
+sperrfrist:
+  verordnung:
+    wert: "Kündigungssperrfristverordnung Baden-Württemberg vom 16.12.2025"
+    fundstelle: "GBl. 2025 Nr. 146 vom 19.12.2025"
+    quelle: "Gesetzblatt BW"
+    url: "https://www.landtag-bw.de/resource/blob/611984/7e993deafc1547ab553a30dfe14a9333/GBl2025146.pdf"
+    stand: 2026-10-29
+    gueltig_ab: 2026-01-01
+    gueltig_bis: 2026-12-31
+    status: zu_pruefen
+    hinweis: "Nachfolgeverordnung ab 01.01.2027: Entwurf der Gebietskulissen seit Ministerrat 22.09.2026 in Anhörung. Vor 31.12.2026 prüfen und alle Einträge unten aktualisieren."
+    muster: 'GBl\. 2025 Nr\. 146|Kündigungssperrfristverordnung'
+    verwendet_in: [ort-ditzingen, ort-heimsheim, ort-leonberg, ort-pforzheim, ort-renningen, ratgeber-eigentumswohnung-verkaufen, ratgeber-geerbte-wohnung-verkaufen, ratgeber-ohne-makler, ratgeber-verkaufen-oder-vermieten, ratgeber-vermietete-wohnung-verkaufen, start]
+  gesetzlich:
+    wert: "drei Jahre"
+    zahl: 3
+    rechtsgrundlage: "§ 577a Abs. 1 BGB"
+    quelle: "BGB"
+    url: "https://www.gesetze-im-internet.de/bgb/__577a.html"
+    stand: 2026-10-29
+    status: geprueft
+    muster: '§ 577a|Dreijahresfrist|3 Jahre Sperrfrist'
+    verwendet_in: [ort-ditzingen, ort-heimsheim, ort-leonberg, ort-renningen, ratgeber-eigentumswohnung-verkaufen, ratgeber-geerbte-wohnung-verkaufen, ratgeber-verkaufen-oder-vermieten, ratgeber-vermietete-wohnung-verkaufen, start]
+  leonberg:
+    wert: "fünf Jahre"
+    zahl: 5
+    rechtsgrundlage: "§ 1 KSpVO BW vom 16.12.2025 (ganze Stadt, alle Stadtteile)"
+    quelle: "GBl. 2025 Nr. 146"
+    url: "https://www.landtag-bw.de/resource/blob/611984/7e993deafc1547ab553a30dfe14a9333/GBl2025146.pdf"
+    stand: 2026-10-29
+    gueltig_bis: 2026-12-31
+    status: geprueft
+    muster: 'Leonberg[^.]{0,120}(fünf Jahre|fünfjährig|5 Jahre)|(fünf Jahre|5 Jahre)[^.]{0,80}Leonberg|Sperrfrist 5 Jahre'
+    verwendet_in: [ort-ditzingen, ort-heimsheim, ort-leonberg, ort-pforzheim, ort-renningen, ratgeber-eigentumswohnung-verkaufen, ratgeber-geerbte-wohnung-verkaufen, ratgeber-ohne-makler, ratgeber-verkauf-im-alter, ratgeber-verkaufen-oder-vermieten, ratgeber-vermietete-wohnung-verkaufen, start]
+  pforzheim:
+    wert: "fünf Jahre"
+    zahl: 5
+    rechtsgrundlage: "§ 1 KSpVO BW vom 16.12.2025"
+    quelle: "GBl. 2025 Nr. 146"
+    url: "https://www.landtag-bw.de/resource/blob/611984/7e993deafc1547ab553a30dfe14a9333/GBl2025146.pdf"
+    stand: 2026-10-29
+    gueltig_bis: 2026-12-31
+    status: geprueft
+    muster: 'Pforzheim[^.]{0,120}(fünf Jahre|fünfjährig|5 Jahre)|(fünf Jahre|5 Jahre)[^.]{0,80}Pforzheim'
+    verwendet_in: [ort-heimsheim, ort-pforzheim, ratgeber-eigentumswohnung-verkaufen, ratgeber-geerbte-wohnung-verkaufen, ratgeber-ohne-makler, ratgeber-verkaufen-oder-vermieten, ratgeber-vermietete-wohnung-verkaufen, start]
+  heimsheim:
+    wert: "drei Jahre"
+    zahl: 3
+    rechtsgrundlage: "§ 577a Abs. 1 BGB; Heimsheim nicht in § 1 KSpVO BW"
+    quelle: "GBl. 2025 Nr. 146"
+    stand: 2026-10-29
+    gueltig_bis: 2026-12-31
+    status: geprueft
+    hinweis: "gueltig_bis gesetzt, weil die Aussage 'nicht in der Verordnung' an der Laufzeit der Verordnung hängt."
+    muster: 'Heimsheim[^.]{0,120}(drei Jahre|3 Jahre)|(drei Jahre|3 Jahre)[^.]{0,80}Heimsheim'
+    verwendet_in: [ort-heimsheim, ort-leonberg, ort-renningen, ratgeber-eigentumswohnung-verkaufen, ratgeber-geerbte-wohnung-verkaufen, ratgeber-verkaufen-oder-vermieten, ratgeber-vermietete-wohnung-verkaufen, start]
+  renningen:
+    wert: "drei Jahre"
+    zahl: 3
+    rechtsgrundlage: "§ 577a Abs. 1 BGB; Renningen nicht in § 1 KSpVO BW"
+    quelle: "GBl. 2025 Nr. 146"
+    stand: 2026-10-29
+    gueltig_bis: 2026-12-31
+    status: geprueft
+    muster: 'Renningen[^.]{0,120}(drei Jahre|3 Jahre)|(drei Jahre|3 Jahre)[^.]{0,80}Renningen|Renningen steht nicht in der Kündigungssperrfrist'
+    verwendet_in: [ort-heimsheim, ort-leonberg, ort-renningen, ratgeber-eigentumswohnung-verkaufen, ratgeber-geerbte-wohnung-verkaufen, ratgeber-verkaufen-oder-vermieten, ratgeber-vermietete-wohnung-verkaufen, start]
+  ditzingen:
+    wert: "drei Jahre"
+    zahl: 3
+    rechtsgrundlage: "§ 577a Abs. 1 BGB; Ditzingen laut Gesetzblatt nicht in § 1 KSpVO BW"
+    quelle: "GBl. 2025 Nr. 146; abweichend: Deutscher Mieterbund, Übersicht Kündigungssperrfrist-Verordnungen, Stand 06/2026 (nennt Ditzingen)"
+    url: "https://mieterbund.de/service/mieterschutzverordnungen/kuendigungssperrfrist/"
+    stand: 2026-10-29
+    gueltig_bis: 2026-12-31
+    status: zu_pruefen
+    hinweis: "Quellenkonflikt Gesetzblatt vs. Mieterbund. ort-ditzingen.md und start.md tragen [ZU PRÜFEN]."
+    muster: 'Ditzingen[^.]{0,200}(Sperrfrist|Kündigungssperr)|(Sperrfrist|Kündigungssperr)[^.]{0,200}Ditzingen'
+    verwendet_in: [ort-ditzingen, ort-heimsheim, ort-renningen, ratgeber-eigentumswohnung-verkaufen, ratgeber-vermietete-wohnung-verkaufen, start]
+
+mietpreisbremse:
+  verordnung:
+    wert: "Mietpreisbegrenzungsverordnung Baden-Württemberg vom 16.12.2025"
+    fundstelle: "GBl. 2025 Nr. 144, 130 Gemeinden"
+    quelle: "Ministerium für Landesentwicklung und Wohnen BW"
+    url: "https://mlw.baden-wuerttemberg.de/de/bauen-wohnen/wohnungsbau/mietpreisbremse"
+    stand: 2026-10-29
+    gueltig_ab: 2026-01-01
+    gueltig_bis: 2026-12-31
+    status: zu_pruefen
+    hinweis: "Entwurf der Gebietskulisse ab 2027 (Ministerrat 22.09.2026, Anhörung). Laut Entwurf: Ditzingen, Heimsheim, Renningen weiterhin nicht enthalten."
+    muster: 'GBl\.? (2025 )?Nr\. 144|Mietpreisbegrenzungsverordnung|Mietpreisbremse'
+    verwendet_in: [ort-ditzingen, ort-heimsheim, ort-leonberg, ort-pforzheim, ort-renningen, ratgeber-eigentumswohnung-verkaufen, ratgeber-verkaufen-oder-vermieten, ratgeber-vermietete-wohnung-verkaufen]
+  regel:
+    wert: "höchstens 10 % über der ortsüblichen Vergleichsmiete bei Neuvermietung"
+    rechtsgrundlage: "§ 556d BGB"
+    quelle: "BGB; MLW BW"
+    stand: 2026-10-29
+    status: geprueft
+    verwendet_in: [ort-leonberg, ort-pforzheim, ratgeber-verkaufen-oder-vermieten, ratgeber-vermietete-wohnung-verkaufen]
+  leonberg:
+    wert: "gilt"
+    langform: "seit dem 1. Januar 2026 erneut in der Gebietskulisse (vier von fünf Kriterien)"
+    quelle: "MPBVO BW 2025; MLW BW, Einzeldaten Stand August 2025"
+    stand: 2026-10-29
+    gueltig_bis: 2026-12-31
+    status: geprueft
+    verwendet_in: [ort-ditzingen, ort-heimsheim, ort-leonberg, ort-renningen, ratgeber-eigentumswohnung-verkaufen, ratgeber-verkaufen-oder-vermieten, ratgeber-vermietete-wohnung-verkaufen]
+  pforzheim:
+    wert: "gilt"
+    langform: "seit dem 1. Januar 2026 erstmals in der Gebietskulisse (vier von fünf Kriterien)"
+    quelle: "MPBVO BW 2025; MLW BW, Einzeldaten Stand August 2025"
+    stand: 2026-10-29
+    gueltig_bis: 2026-12-31
+    status: geprueft
+    verwendet_in: [ort-ditzingen, ort-pforzheim, ratgeber-eigentumswohnung-verkaufen, ratgeber-verkaufen-oder-vermieten, ratgeber-vermietete-wohnung-verkaufen]
+  ditzingen:
+    wert: "gilt nicht"
+    langform: "nicht in der Verordnung 2026 und nicht im Entwurf ab 2027 (drei von fünf Kriterien, Mietbelastung 20,7 % bei Schwelle 20,8 %)"
+    quelle: "MPBVO BW 2025; Entwurf 22.09.2026; MLW BW Einzeldaten"
+    stand: 2026-10-29
+    gueltig_bis: 2026-12-31
+    status: geprueft
+    verwendet_in: [ort-ditzingen, ort-leonberg]
+  heimsheim:
+    wert: "gilt nicht"
+    langform: "nicht in der Verordnung 2026 und nicht im Entwurf ab 2027 (Mietbelastung 18,9 %)"
+    quelle: "MPBVO BW 2025; Entwurf 22.09.2026; MLW BW Einzeldaten"
+    stand: 2026-10-29
+    gueltig_bis: 2026-12-31
+    status: geprueft
+    verwendet_in: [ort-heimsheim, ort-leonberg]
+  renningen:
+    wert: "gilt nicht"
+    langform: "nicht in der Verordnung 2026 und nicht im Entwurf ab 2027 (Mietbelastung 18,9 %, Versorgungsgrad 106,3 %)"
+    quelle: "MPBVO BW 2025; Entwurf 22.09.2026; MLW BW Einzeldaten"
+    stand: 2026-10-29
+    gueltig_bis: 2026-12-31
+    status: geprueft
+    verwendet_in: [ort-renningen, ort-leonberg]
+
+kappungsgrenze:
+  wert: "15 % in drei Jahren"
+  rechtsgrundlage: "§ 558 Abs. 3 BGB in Verbindung mit der Kappungsgrenzenverordnung BW (sonst 20 %)"
+  quelle: "Kappungsgrenzenverordnung BW, verlängert bis 31.12.2026"
+  stand: 2026-10-29
+  gueltig_bis: 2026-12-31
+  status: zu_pruefen
+  hinweis: "Eigene Gemeindeliste, Identität mit Mietpreisbremse-Kulisse nicht geprüft."
+  muster: 'Kappungsgrenze'
+  verwendet_in: [ort-ditzingen, ort-leonberg, ort-renningen, ratgeber-verkaufen-oder-vermieten, ratgeber-vermietete-wohnung-verkaufen]
+
+# ---------------------------------------------------------------------------
+# 5. Grundsteuer
+# ---------------------------------------------------------------------------
+grundsteuer:
+  modell:
+    wert: "Bodenwertmodell (Fläche × Bodenrichtwert), seit 2025"
+    rechtsgrundlage: "LGrStG BW; BFH II R 26/24 und II R 27/24"
+    quelle: "beck-aktuell, BFH: Bodenwert ist Grundstückswert"
+    url: "https://www.beck-aktuell.de/heute-im-recht/rechtsprechung/bfh-iir26-24-grundsteuer-baden-wuerttemberg-bodenwert-grundstueck-wert-2026-05-20"
+    stand: 2026-10-29
+    status: zu_pruefen
+    hinweis: "Datumskonflikt: ort-leonberg nennt Urteil vom 22. April 2026, ort-ditzingen/ort-heimsheim/Ratgeber nennen 20.05.2026 (Datum des beck-Artikels). Urteilsdatum auf bundesfinanzhof.de klären und hier als urteil_am eintragen."
+    urteil_am: null
+    muster: 'II R 26/24|Bundesfinanzhof[^.]{0,40}(bestätigt|Modell)'
+    verwendet_in: [ort-ditzingen, ort-heimsheim, ort-leonberg, ort-renningen, ratgeber-geerbte-wohnung-verkaufen, ratgeber-wohnung-scheidung]
+  hebesatz:
+    leonberg:
+      wert: "220 %"
+      zahl: 220
+      quelle: "Stadt Leonberg, Vorlage 2026/083 Hebesätze ab 01.01.2027"
+      url: "https://www.leonberg.de/ratsinformationssystem/wicket/resource/org.apache.wicket.Application/doc527126.pdf"
+      stand: 2026-10-29
+      gueltig_bis: 2026-12-31
+      status: geprueft
+      muster: 'Hebesatz von 220|Leonberg[^.]{0,40}220|220 %'
+      verwendet_in: [ort-leonberg, ort-renningen, ratgeber-eigentumswohnung-verkaufen, ratgeber-wohnung-scheidung]
+    leonberg_ab_2027:
+      wert: "250 %"
+      zahl: 250
+      quelle: "Stadt Leonberg, Vorlage 2026/083"
+      stand: 2026-10-29
+      stichtag: 2027-01-01
+      status: zu_pruefen
+      hinweis: "Nur Vorlage; Gemeinderatsbeschluss vom 19.05.2026 prüfen."
+      muster: '250 ?% ab|250 % ab dem|Anhebung auf 250|ab 2027 sind 250'
+      verwendet_in: [ort-leonberg, ort-renningen, ratgeber-wohnung-scheidung]
+    ditzingen:
+      wert: "250 %"
+      zahl: 250
+      quelle: "Stadt Ditzingen, Steuern und Gebühren"
+      url: "https://www.ditzingen.de/service-rathaus/steuern-gebuehren-1"
+      stand: 2026-10-29
+      gueltig_ab: 2026-01-01
+      gueltig_bis: 2028-12-31
+      folgewert: "200 % ab 01.01.2029"
+      status: geprueft
+      muster: 'Ditzingen[^.]{0,40}250|250 Prozent'
+      verwendet_in: [ort-ditzingen, ort-renningen, ratgeber-eigentumswohnung-verkaufen, ratgeber-wohnung-scheidung]
+    renningen:
+      wert: "190 %"
+      zahl: 190
+      quelle: "Stadt Renningen, Grund- und Gewerbesteuer"
+      url: "https://www.renningen.de/wirtschaft/wirtschaftsstandort/grund-gewerbesteuer/"
+      stand: 2026-10-29
+      status: geprueft
+      muster: '190 ?%'
+      verwendet_in: [ort-ditzingen, ort-renningen, ratgeber-eigentumswohnung-verkaufen, ratgeber-wohnung-scheidung]
+    pforzheim:
+      wert: "348 %"
+      zahl: 348
+      quelle: "hebesatz.grundsteuer.de, Übersicht Baden-Württemberg (amtlich unbestätigt)"
+      url: "https://hebesatz.grundsteuer.de/baden-wuerttemberg"
+      stand: 2026-10-29
+      status: zu_pruefen
+      hinweis: "Amtlichen Hebesatz Grundsteuer B bei der Stadt Pforzheim prüfen."
+      muster: '348 ?%'
+      verwendet_in: [ort-pforzheim]
+    heimsheim:
+      wert: null
+      quelle: "nicht gefunden; Dossier nennt 330 % (Stand 2023)"
+      stand: 2026-10-29
+      status: offen
+      hinweis: "Bei der Stadt Heimsheim erfragen."
+      muster: 'Hebesatz[^.]*Heimsheim|330 ?%'
+      verwendet_in: [ort-heimsheim]
+
+# ---------------------------------------------------------------------------
+# 6. Angebotspreise Eigentumswohnungen je Ort und Quelle (Angebotspreise, keine Kaufpreise)
+#    Grundlage der Komponente PriceTable (::preistabelle). pruefintervall_monate: 3
+# ---------------------------------------------------------------------------
+angebotspreise_etw:
+  _quellen:
+    immoportal:
+      name: "immoportal.com"
+      url_muster: "https://www.immoportal.com/immobilienpreise/{ort}"
+    immoverkauf24:
+      name: "immoverkauf24, Daten Sprengnetter"
+    engel_voelkers:
+      name: "Engel & Völkers"
+    immoscout24:
+      name: "ImmoScout24 Regional"
+      hinweis: "ohne Datum, Seite kennzeichnet Angaben als KI-gestützt"
+    immowelt:
+      name: "Immowelt"
+  leonberg:
+    immoportal:
+      wert: "3.733 €/m²"
+      zahl: 3733
+      spanne: "3.093 bis 4.814 €/m²"
+      vorjahr: "3.825 €/m²"
+      quelle: "immoportal.com, Immobilienpreise Leonberg"
+      url: "https://www.immoportal.com/immobilienpreise/leonberg"
+      stand: 2026-10-01
+      pruefintervall_monate: 3
+      status: geprueft
+      muster: '3\.733'
+      verwendet_in: [direktankauf, ort-leonberg, ratgeber-eigentumswohnung-verkaufen, ratgeber-energieausweis, ratgeber-geerbte-wohnung-verkaufen, ratgeber-maklerprovision, ratgeber-ohne-makler, ratgeber-spekulationssteuer, ratgeber-verkauf-im-alter, ratgeber-verkaufen-oder-vermieten, ratgeber-vermietete-wohnung-verkaufen, start, wohnung-bewerten, wohnung-verkaufen]
+    immoverkauf24:
+      wert: "4.042,68 €/m²"
+      zahl: 4042.68
+      veraenderung: "+0,17 % zum Vorjahr"
+      quelle: "immoverkauf24 (Sprengnetter), Immobilienpreise Leonberg"
+      url: "https://www.immoverkauf24.de/immobilienpreise/baden-wuerttemberg/boeblingen-kreis/leonberg/"
+      stand: 2026-06-30
+      stand_text: "2. Quartal 2026"
+      pruefintervall_monate: 3
+      status: geprueft
+      muster: '4\.042'
+      verwendet_in: [direktankauf, ort-heimsheim, ort-leonberg, ratgeber-eigentumswohnung-verkaufen, ratgeber-energieausweis, ratgeber-maklerprovision, ratgeber-spekulationssteuer, ratgeber-verkauf-im-alter, ratgeber-verkaufen-oder-vermieten, ratgeber-vermietete-wohnung-verkaufen, start, wohnung-bewerten, wohnung-verkaufen]
+    engel_voelkers:
+      wert: "4.028 €/m²"
+      zahl: 4028
+      veraenderung: "+1,09 % zum Vorjahr"
+      quelle: "Engel & Völkers, Immobilienpreise Leonberg"
+      url: "https://www.engelvoelkers.com/de-de/immobilienpreise/baden-wuerttemberg/leonberg/"
+      stand: 2026-10-26
+      pruefintervall_monate: 3
+      status: geprueft
+      muster: '4\.028'
+      verwendet_in: [ort-leonberg, ratgeber-eigentumswohnung-verkaufen, ratgeber-verkaufen-oder-vermieten, wohnung-bewerten]
+    immoscout24:
+      wert: "über 4.000 €/m²"
+      spanne: "3.700 bis 6.800 €/m², 175 Angebote"
+      quelle: "ImmoScout24 Regional, Leonberg"
+      url: "https://www.immobilienscout24.de/regional/de/baden-wuerttemberg/boeblingen-kreis/leonberg/"
+      stand: 2026-10-29
+      stand_text: "ohne Datum, abgerufen 29.10.2026"
+      pruefintervall_monate: 3
+      status: geprueft
+      verwendet_in: [ort-leonberg, wohnung-bewerten]
+    immowelt:
+      wert: "4.061 €/m²"
+      zahl: 4061
+      quelle: "Immowelt, Immobilienpreise Leonberg"
+      url: "https://www.immowelt.de/immobilienpreise/baden-wurttemberg/leonberg-71229/ad08de5243"
+      stand: 2026-08-31
+      stand_text: "August 2026"
+      pruefintervall_monate: 3
+      status: geprueft
+      muster: '4\.061'
+      verwendet_in: [ort-leonberg, wohnung-bewerten]
+  heimsheim:
+    immoportal:
+      wert: "3.212 €/m²"
+      zahl: 3212
+      spanne: "2.479 bis 4.218 €/m²"
+      vorjahr: "3.243 €/m²"
+      quelle: "immoportal.com, Immobilienpreise Heimsheim"
+      stand: 2026-10-01
+      pruefintervall_monate: 3
+      status: zu_pruefen
+      hinweis: "Späterer Abruf derselben Seite nannte 3.655 €/m² (ort-heimsheim Quelle 19)."
+      muster: '3\.212'
+      verwendet_in: [ort-heimsheim, wohnung-bewerten]
+    immoverkauf24:
+      wert: "3.623,00 €/m²"
+      zahl: 3623
+      veraenderung: "+2,89 % zum Vorjahr"
+      quelle: "immoverkauf24 (Sprengnetter)"
+      stand: 2026-06-30
+      stand_text: "2. Quartal 2026"
+      pruefintervall_monate: 3
+      status: geprueft
+      muster: '3\.623'
+      verwendet_in: [ort-heimsheim, wohnung-bewerten]
+    engel_voelkers:
+      wert: null
+      quelle: "keine Angabe für Heimsheim"
+      stand: 2026-10-26
+      status: geprueft
+      verwendet_in: [wohnung-bewerten]
+    immoscout24:
+      wert: "mehr als 3.600 €/m²"
+      spanne: "3.550 bis 5.340 €/m², 10 Angebote"
+      quelle: "ImmoScout24 Regional"
+      stand: 2026-10-29
+      stand_text: "ohne Datum, abgerufen 29.10.2026"
+      pruefintervall_monate: 3
+      status: geprueft
+      verwendet_in: [ort-heimsheim, wohnung-bewerten]
+  ditzingen:
+    immoportal:
+      wert: "3.686 €/m²"
+      zahl: 3686
+      spanne: "2.961 bis 4.848 €/m²"
+      vorjahr: "3.818 €/m²"
+      quelle: "immoportal.com"
+      stand: 2026-10-01
+      pruefintervall_monate: 3
+      status: geprueft
+      muster: '3\.686'
+      verwendet_in: [ort-ditzingen, ratgeber-maklerprovision, wohnung-bewerten]
+    immoverkauf24:
+      wert: "4.065,13 €/m²"
+      zahl: 4065.13
+      veraenderung: "+0,84 % zum Vorjahr"
+      quelle: "immoverkauf24 (Sprengnetter)"
+      stand: 2026-06-30
+      stand_text: "2. Quartal 2026"
+      pruefintervall_monate: 3
+      status: geprueft
+      muster: '4\.065'
+      verwendet_in: [ort-ditzingen, ratgeber-maklerprovision, wohnung-bewerten]
+    engel_voelkers:
+      wert: "3.843 €/m²"
+      zahl: 3843
+      veraenderung: "+0,64 % zum Vorjahr"
+      quelle: "Engel & Völkers"
+      stand: 2026-10-26
+      pruefintervall_monate: 3
+      status: geprueft
+      muster: '3\.843'
+      verwendet_in: [ort-ditzingen, wohnung-bewerten]
+    immoscout24:
+      wert: "über 4.000 €/m²"
+      spanne: "3.590 bis 6.525 €/m², 101 Angebote"
+      quelle: "ImmoScout24 Regional"
+      stand: 2026-10-29
+      stand_text: "ohne Datum, abgerufen 29.10.2026"
+      pruefintervall_monate: 3
+      status: geprueft
+      verwendet_in: [ort-ditzingen, wohnung-bewerten]
+  renningen:
+    immoportal:
+      wert: "4.986 €/m²"
+      zahl: 4986
+      spanne: "4.130 bis 6.429 €/m²"
+      vorjahr: "5.574 €/m²"
+      quelle: "immoportal.com"
+      stand: 2026-10-01
+      pruefintervall_monate: 3
+      status: geprueft
+      hinweis: "Neubau-Ausreißer; Texte ordnen den Wert ausdrücklich ein."
+      muster: '4\.986'
+      verwendet_in: [ort-renningen, ratgeber-wohnung-scheidung, wohnung-bewerten]
+    immoverkauf24:
+      wert: "4.054,25 €/m²"
+      zahl: 4054.25
+      veraenderung: "+0,74 % zum Vorjahr"
+      quelle: "immoverkauf24 (Sprengnetter)"
+      stand: 2026-06-30
+      stand_text: "2. Quartal 2026"
+      pruefintervall_monate: 3
+      status: geprueft
+      muster: '4\.054'
+      verwendet_in: [ort-renningen, ratgeber-wohnung-scheidung, wohnung-bewerten]
+    engel_voelkers:
+      wert: "3.882 €/m²"
+      zahl: 3882
+      veraenderung: "+1,33 % zum Vorjahr"
+      quelle: "Engel & Völkers"
+      stand: 2026-10-26
+      pruefintervall_monate: 3
+      status: geprueft
+      muster: '3\.882'
+      verwendet_in: [ort-renningen, wohnung-bewerten]
+    immoscout24:
+      wert: "über 4.030 €/m²"
+      spanne: "3.667 bis 6.177 €/m², 100 Angebote"
+      quelle: "ImmoScout24 Regional"
+      stand: 2026-10-29
+      stand_text: "ohne Datum, abgerufen 29.10.2026"
+      pruefintervall_monate: 3
+      status: geprueft
+      verwendet_in: [ort-renningen, wohnung-bewerten]
+  pforzheim:
+    immoportal:
+      wert: "2.928 €/m²"
+      zahl: 2928
+      spanne: "2.283 bis 3.621 €/m²"
+      vorjahr: "2.939 €/m²"
+      quelle: "immoportal.com, Immobilienpreise Pforzheim"
+      url: "https://www.immoportal.com/immobilienpreise/pforzheim"
+      stand: 2026-10-01
+      pruefintervall_monate: 3
+      status: geprueft
+      muster: '2\.928'
+      verwendet_in: [ort-pforzheim, ratgeber-eigentumswohnung-verkaufen, ratgeber-geerbte-wohnung-verkaufen, ratgeber-maklerprovision, ratgeber-ohne-makler, ratgeber-spekulationssteuer, ratgeber-verkaufen-oder-vermieten, ratgeber-vermietete-wohnung-verkaufen, start, wohnung-bewerten]
+    immoverkauf24:
+      wert: "3.010,44 €/m²"
+      zahl: 3010.44
+      spanne: "Stadtteile 2.647,60 bis 3.262,81 €/m²"
+      veraenderung: "+0,82 % zum Vorjahr"
+      quelle: "immoverkauf24 (Sprengnetter), Immobilienpreise Pforzheim"
+      url: "https://www.immoverkauf24.de/immobilienpreise/baden-wuerttemberg/pforzheim/"
+      stand: 2026-06-30
+      stand_text: "2. Quartal 2026"
+      pruefintervall_monate: 3
+      status: geprueft
+      hinweis: "Stadtteilwerte (14 Stadtteile) bleiben als Tabelle in wohnung-bewerten/ort-pforzheim; bei Umzug in Daten: angebotspreise_etw.pforzheim.stadtteile."
+      muster: '3\.010'
+      verwendet_in: [ort-pforzheim, ratgeber-eigentumswohnung-verkaufen, ratgeber-geerbte-wohnung-verkaufen, ratgeber-maklerprovision, ratgeber-ohne-makler, ratgeber-spekulationssteuer, ratgeber-verkaufen-oder-vermieten, ratgeber-vermietete-wohnung-verkaufen, start, wohnung-bewerten]
+    engel_voelkers:
+      wert: "2.941 €/m²"
+      zahl: 2941
+      spanne: "Stadtteile 2.864 bis 3.201 €/m²"
+      veraenderung: "−0,15 % zum Vorjahr"
+      quelle: "Engel & Völkers"
+      stand: 2026-10-26
+      pruefintervall_monate: 3
+      status: geprueft
+      muster: '2\.941'
+      verwendet_in: [ort-pforzheim, ratgeber-verkaufen-oder-vermieten, wohnung-bewerten]
+    immowelt:
+      wert: "3.168 €/m²"
+      zahl: 3168
+      vorjahr: "3.113 €/m²"
+      quelle: "Immowelt"
+      stand: 2026-10-31
+      stand_text: "Oktober 2026"
+      pruefintervall_monate: 3
+      status: geprueft
+      verwendet_in: [ort-pforzheim]
+    certa:
+      wert: "3.023 €/m²"
+      zahl: 3023
+      spanne: "1.951 bis 4.519 €/m²"
+      quelle: "certa, Marktbericht Pforzheim"
+      stand: 2026-03-31
+      stand_text: "1. Quartal 2026"
+      pruefintervall_monate: 3
+      status: geprueft
+      muster: '3\.023'
+      verwendet_in: [ort-pforzheim, wohnung-bewerten]
+
+# ---------------------------------------------------------------------------
+# 7. Mieten je Ort (Angebotsmieten nettokalt)
+# ---------------------------------------------------------------------------
+mieten:
+  leonberg:
+    wert: "12,76 bis 15,78 €/m²"
+    details: "Immowelt 12,76 (Juli 2026); Engel & Völkers 15,41; wohnungsboerse.net 15,78 (Mai 2026); ImmoScout24 über 13, Spanne 12 bis 19; Landesgutachten 2022/23: 13,31"
+    quelle: "Immowelt, Engel & Völkers, wohnungsboerse.net, ImmoScout24, MLW BW"
+    stand: 2026-10-29
+    status: zu_pruefen
+    hinweis: "wohnungsboerse.net nur aus Suchergebnis [ZU PRÜFEN] in ort-leonberg."
+    muster: '12,76|15,78|15,41'
+    verwendet_in: [ort-leonberg, ratgeber-verkauf-im-alter, ratgeber-verkaufen-oder-vermieten, ratgeber-vermietete-wohnung-verkaufen, wohnung-bewerten]
+  heimsheim:
+    wert: "12 bis 16 €/m²"
+    details: "ImmoScout24 etwa 12, Spanne 12 bis 16; ohne-makler.net 13,10 (2026); Landesgutachten 2022/23: 11,79"
+    quelle: "ImmoScout24, ohne-makler.net, MLW BW"
+    stand: 2026-10-29
+    status: geprueft
+    muster: '13,10|12 bis 16 €'
+    verwendet_in: [ort-heimsheim, wohnung-bewerten]
+  ditzingen:
+    wert: "13 bis 15,5 €/m²"
+    details: "ImmoScout24 über 13, Spanne 11,60 bis 18,30; Homeday 14,5; Engel & Völkers 15,51; Landesgutachten 2022/23: 12,89"
+    quelle: "ImmoScout24, Homeday, Engel & Völkers, MLW BW"
+    stand: 2026-10-29
+    status: geprueft
+    muster: '11,60 bis 18,30|15,51 €'
+    verwendet_in: [ort-ditzingen, wohnung-bewerten]
+  renningen:
+    wert: "13 bis 15,6 €/m²"
+    details: "ImmoScout24 über 13, Spanne 12,65 bis 17,38; Homeday 15,6; Engel & Völkers 14,08; Landesgutachten 2022/23: 12,63"
+    quelle: "ImmoScout24, Homeday, Engel & Völkers, MLW BW"
+    stand: 2026-10-29
+    status: geprueft
+    muster: '12,65 bis 17,38|14,08'
+    verwendet_in: [ort-renningen, wohnung-bewerten]
+  pforzheim:
+    wert: "8,58 bis 11,27 €/m²"
+    details: "Mietspiegel 2025: 8,58 (Durchschnitt, qualifiziert); IVD Frühjahr 2026: 9,60 Bestand / 11,00 Neubau; Immowelt 10,47 (Aug. 2026); ohne-makler.net 10,88; certa 11,27 (Q1 2026)"
+    quelle: "Stadt Pforzheim Mietspiegel 2025, IVD, Immowelt, ohne-makler.net, certa"
+    stand: 2026-10-29
+    status: geprueft
+    muster: '10,47|10,88|11,27|9,60 €'
+    verwendet_in: [ort-pforzheim, ratgeber-verkaufen-oder-vermieten, ratgeber-vermietete-wohnung-verkaufen, wohnung-bewerten]
+  mietspiegel_pforzheim:
+    wert: "8,58 €/m²"
+    zahl: 8.58
+    langform: "qualifizierter Mietspiegel 2025, Durchschnitt nettokalt, +9,02 %"
+    quelle: "Stadt Pforzheim, qualifizierter Mietspiegel 2025"
+    stand: 2025-12-31
+    stand_text: "Mietspiegel 2025"
+    pruefintervall_monate: 12
+    status: geprueft
+    muster: '8,58'
+    verwendet_in: [ort-pforzheim, ratgeber-verkaufen-oder-vermieten, ratgeber-vermietete-wohnung-verkaufen, wohnung-bewerten]
+
+# ---------------------------------------------------------------------------
+# 8. Finanzierung: Bauzins, KfW 308
+# ---------------------------------------------------------------------------
+bauzins:
+  topzins_10j:
+    wert: "4,20 %"
+    zahl: 4.20
+    quelle: "Dr. Klein, Zinsen (Topzins 10 Jahre)"
+    url: "https://www.drklein.de/zinsen.html"
+    stand: 2026-10-29
+    pruefintervall_monate: 1
+    status: geprueft
+    muster: '4,20 ?%|4,2 bis 4,5|rund 4,2 ?%'
+    verwendet_in: [ort-ditzingen, ort-heimsheim, ort-leonberg, ort-pforzheim, ort-renningen, ratgeber-eigentumswohnung-verkaufen, ratgeber-energieausweis, ratgeber-geerbte-wohnung-verkaufen, ratgeber-ohne-makler, ratgeber-sofortankauf-vs-makler, ratgeber-spekulationssteuer, ratgeber-verkauf-im-alter, ratgeber-verkaufen-oder-vermieten, ratgeber-vermietete-wohnung-verkaufen, ratgeber-wohnung-scheidung, wohnung-bewerten]
+  durchschnitt_10j:
+    wert: "4,42 %"
+    zahl: 4.42
+    quelle: "Interhyp, Zins-Update Oktober 2026"
+    url: "https://www.interhyp.de/zinsen/"
+    stand: 2026-10-15
+    pruefintervall_monate: 1
+    status: geprueft
+    muster: '4,42'
+    verwendet_in: [ort-leonberg, ort-pforzheim, ratgeber-eigentumswohnung-verkaufen, ratgeber-energieausweis, ratgeber-verkauf-im-alter, ratgeber-verkaufen-oder-vermieten, ratgeber-vermietete-wohnung-verkaufen, ratgeber-wohnung-scheidung, wohnung-bewerten]
+  spanne_text:
+    wert: "rund 4,2 bis 4,5 %"
+    quelle: "abgeleitet aus topzins_10j und durchschnitt_10j"
+    stand: 2026-10-29
+    pruefintervall_monate: 1
+    status: geprueft
+    verwendet_in: [ratgeber-sofortankauf-vs-makler, ratgeber-wohnung-scheidung, ratgeber-verkauf-im-alter]
+  vorjahr_10j:
+    wert: "3,38 %"
+    zahl: 3.38
+    quelle: "Dr. Klein, Topzins Oktober 2025"
+    url: "https://www.drklein.de/zinsen.html"
+    stand: 2026-10-29
+    pruefintervall_monate: 1
+    status: geprueft
+    hinweis: "Wandert mit topzins_10j: bei jeder Aktualisierung den Vorjahreswert desselben Monats eintragen."
+    muster: '3,38'
+    verwendet_in: [ort-ditzingen, ort-heimsheim, ort-renningen, ratgeber-eigentumswohnung-verkaufen, ratgeber-geerbte-wohnung-verkaufen, ratgeber-ohne-makler, ratgeber-spekulationssteuer, ratgeber-verkauf-im-alter, ratgeber-verkaufen-oder-vermieten, ratgeber-vermietete-wohnung-verkaufen, ratgeber-wohnung-scheidung, wohnung-bewerten]
+
+kfw_308:
+  programm:
+    wert: "KfW-Programm 308 „Jung kauft Alt“"
+    quelle: "KfW"
+    url: "https://www.kfw.de/308"
+    stand: 2026-10-06
+    status: geprueft
+    muster: 'KfW[- ]?(Programm )?308|Jung kauft Alt'
+    verwendet_in: [ort-ditzingen, ort-heimsheim, ort-leonberg, ort-pforzheim, ort-renningen, ratgeber-eigentumswohnung-verkaufen, ratgeber-energieausweis, ratgeber-ohne-makler, ratgeber-sofortankauf-vs-makler, ratgeber-verkaufen-oder-vermieten, start, wohnung-bewerten, wohnung-verkaufen]
+  zins:
+    wert: "1,00 % effektiv"
+    zahl: 1.00
+    langform: "1,00 % effektiv bei 35 Jahren Laufzeit"
+    quelle: "KfW, Konditionen vom 06.10.2026; baukostenplan.de, Stand 07.10.2026"
+    stand: 2026-10-06
+    pruefintervall_monate: 1
+    status: zu_pruefen
+    hinweis: "Texte tragen [ZU PRÜFEN: tagesaktueller KfW-Zinssatz]. Am Veröffentlichungstag im KfW-Konditionenanzeiger prüfen, dann status geprueft."
+    muster: '1,00 ?%'
+    verwendet_in: [ort-ditzingen, ort-heimsheim, ort-leonberg, ort-pforzheim, ort-renningen, ratgeber-eigentumswohnung-verkaufen, ratgeber-energieausweis, ratgeber-ohne-makler, ratgeber-sofortankauf-vs-makler, ratgeber-verkaufen-oder-vermieten, start, wohnung-bewerten, wohnung-verkaufen]
+  hoechstbetraege:
+    wert: "140.000 / 160.000 / 180.000 €"
+    langform: "bis zu 140.000 € (ein Kind), 160.000 € (zwei Kinder), 180.000 € (ab drei Kindern)"
+    gueltig_ab: 2026-08-03
+    quelle: "KfW; baukostenplan.de"
+    url: "https://www.baukostenplan.de/ratgeber/kfw-308-jung-kauft-alt-2026-neue-kreditbetraege"
+    stand: 2026-10-06
+    pruefintervall_monate: 3
+    status: geprueft
+    muster: '140\.000'
+    verwendet_in: [ort-heimsheim, ort-leonberg, ort-pforzheim, ort-renningen, ratgeber-eigentumswohnung-verkaufen, ratgeber-energieausweis, start, wohnung-bewerten, wohnung-verkaufen]
+  voraussetzungen:
+    wert: "Energieausweis Klasse F, G oder H; Selbstnutzung; Antrag vor dem notariellen Kaufvertrag; Sanierung innerhalb von 54 Monaten; Einkommensgrenze 90.000 € (ein Kind) plus 10.000 € je weiterem Kind"
+    quelle: "KfW; baukostenplan.de"
+    stand: 2026-10-06
+    pruefintervall_monate: 3
+    status: geprueft
+    verwendet_in: [ort-ditzingen, ort-heimsheim, ort-leonberg, ort-pforzheim, ort-renningen, ratgeber-eigentumswohnung-verkaufen, ratgeber-energieausweis]
+
+# ---------------------------------------------------------------------------
+# 9. Gebäudemodernisierungsgesetz (GModG, löst das GEG ab)
+# ---------------------------------------------------------------------------
+gmodg:
+  verkuendung:
+    wert: "BGBl. 2026 I Nr. 226 vom 28.07.2026"
+    beschluss_bundestag: 2026-07-10
+    quelle: "Bundesgesetzblatt; ratgeber-energieausweis Quelle 7"
+    stand: 2026-10-29
+    status: geprueft
+    muster: 'GModG'
+    verwendet_in: [direktankauf, ort-ditzingen, ort-heimsheim, ort-leonberg, ort-pforzheim, ort-renningen, ratgeber-eigentumswohnung-verkaufen, ratgeber-energieausweis, ratgeber-geerbte-wohnung-verkaufen, ratgeber-ohne-makler, ratgeber-sofortankauf-vs-makler, ratgeber-verkaufen-oder-vermieten, wohnung-bewerten, wohnung-verkaufen]
+  in_kraft_artikel_1:
+    wert: "29. Juli 2026"
+    datum: 2026-07-29
+    langform: "Artikel 1 gilt seit dem 29. Juli 2026: freie Heizungswahl (§ 42), 65-%-Pflicht und Betriebsverbot für alte Kessel gestrichen, Bio-Treppe für neue fossile Heizungen ab 2029 (§ 43)"
+    quelle: "BGBl. 2026 I Nr. 226"
+    stand: 2026-10-29
+    status: geprueft
+    muster: '29\.0?7\.2026|29\. Juli 2026'
+    verwendet_in: [ratgeber-eigentumswohnung-verkaufen, ratgeber-energieausweis, ratgeber-ohne-makler, ratgeber-verkaufen-oder-vermieten, wohnung-bewerten]
+  aenderungen_2027:
+    wert: "1. Januar 2027"
+    stichtag: 2027-01-01
+    langform: "Artikel 2 (§§ 79 bis 88): neue Rechenverfahren und Energieausweise; in Anzeigen Ausstellungsdatum und Jahres-Primärenergiebedarf statt Endenergie; Primärenergiefaktoren Strom 1,8 auf 1,5, Holz/Pellets 0,2 auf 0,7, Fernwärme pauschal 0,7, Erdgas/Heizöl 1,1; vor 2027 ausgestellte Ausweise bleiben zehn Jahre gültig (§ 112 Abs. 3)"
+    quelle: "BGBl. 2026 I Nr. 226, Anlage 4 GModG; Verbraucherzentrale, Stand 31.08.2026"
+    stand: 2026-10-29
+    status: geprueft
+    hinweis: "Ab Stichtag müssen alle Sätze im Futur ('ab dem 1. Januar 2027 kommen ... dazu') ins Präsens; Build warnt ab 45 Tage vorher."
+    muster: 'GModG[^.]*(1\.|01\.)0?1\.2027|(1\.|01\.)0?1\.2027[^.]*(Energieausweis|Primärenergie|Pflichtangaben)|Ab dem 1\. Januar 2027|was kommt am 1\. Januar 2027'
+    verwendet_in: [ratgeber-eigentumswohnung-verkaufen, ratgeber-energieausweis, ratgeber-ohne-makler]
+  bussgeld:
+    wert: "bis zu 10.000 €"
+    rechtsgrundlage: "§ 108 GModG"
+    quelle: "Verbraucherzentrale, Stand 31.08.2026"
+    stand: 2026-10-29
+    status: zu_pruefen
+    hinweis: "Betrag und Nummern des Bußgeldkatalogs im Gesetzestext prüfen."
+    muster: '10\.000 ?€ Bußgeld|Bußgeld[^.]{0,40}10\.000'
+    verwendet_in: [ratgeber-energieausweis, ratgeber-ohne-makler]

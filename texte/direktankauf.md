@@ -36,6 +36,7 @@ Mein Hauptweg ist die Vermittlung. Dann bestimmt der Markt den Preis, und das is
 ## In welcher Rolle ich stehe
 
 Bei einem Eigenankauf bin ich Ihr Vertragspartner auf der Käuferseite. Mein Angebot berücksichtigt meine Kosten, Risiken und den geplanten Gewinn. Eine zusätzliche unabhängige Einschätzung können Sie jederzeit einholen. Wenn ich Ihnen stattdessen einen anderen Investor vorstelle, erfahren Sie vorher, von wem ich dafür eine Vergütung erhalte. [1]
+<!-- RECHT: Einen anderen Investor gegen Vergütung vorzustellen ist Nachweis oder Vermittlung und erst nach Erteilung der Erlaubnis nach § 34c GewO zulässig (analyse-aktuelle-webseite/07-recht-erlaubnis.md, Abschnitt 2). Bis zur Erteilung den vorigen Satz ersetzen durch Baustein C: „Andere Käufer oder Investoren stelle ich erst vor, wenn meine Erlaubnis nach § 34c GewO erteilt ist. Dann erfahren Sie vorher, von wem ich dafür eine Vergütung erhalte.“ -->
 
 Das heißt konkret: Als Makler verdiene ich an einem hohen Preis. Als Käufer verdiene ich an einem niedrigen. Ich habe hier also ein eigenes Interesse, und das sollen Sie wissen, bevor Sie mit mir sprechen. Deshalb gelten feste Regeln:
 - Erst die Einschätzung als Makler, dann das Ankaufsangebot.

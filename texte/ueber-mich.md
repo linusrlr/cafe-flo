@@ -74,8 +74,8 @@ Die fünf Orte hängen zusammen. Leonberg, Ditzingen und Renningen liegen an der
 - Wirtschaftsingenieur [LINUS: Abschluss, Hochschule, Jahr]
 - Berufserfahrung in Projektcontrolling und Wohnungsbewertung [LINUS: Jahre]
 - [LINUS: Weiterbildungen, Zertifikate, Mitgliedschaft IVD oder BVFI geplant?]
-- Die Maklererlaubnis nach § 34c Abs. 1 Satz 1 Nr. 1 GewO ist bei der IHK für München und Oberbayern beantragt [ZU PRÜFEN: Sitz/Behörde nach Standortentscheidung; bei Sitz in Baden-Württemberg erteilt das Landratsamt oder die Stadt]. Ersteinschätzungen und Beratungsgespräche biete ich ab sofort an, Vermarktungsaufträge nehme ich ab Erteilung der Erlaubnis an.
-<!-- Einziger Erlaubnis-Hinweis auf dieser Seite. Nach Erteilung: Behörde, Datum und ggf. Erlaubnisnummer nennen, Vorbehalt streichen. -->
+- Die Erlaubnis als Immobilienmakler nach § 34c Abs. 1 Satz 1 Nr. 1 GewO ist bei der IHK für München und Oberbayern beantragt und noch nicht erteilt [ZU PRÜFEN: Behörde nach Standortentscheidung; bei Sitz in Baden-Württemberg ist die IHK des Bezirks zuständig, nicht Landratsamt oder Stadt, siehe analyse-aktuelle-webseite/07-recht-erlaubnis.md]. Bis dahin vermittle ich keine Wohnungen und schließe keine Maklerverträge ab. Die kostenlose Ersteinschätzung und ein erstes Gespräch sind schon jetzt möglich.
+<!-- Einziger Erlaubnis-Hinweis auf dieser Seite. Nach Erteilung: Behörde, Datum und ggf. Erlaubnisnummer nennen, Vorbehalt streichen (Baustein F in 07-recht-erlaubnis.md). Wortlaut nach Baustein B. Vor Veröffentlichung von einer Anwältin/einem Anwalt für Gewerberecht prüfen lassen. -->
 - Als Makler unterliege ich der Makler- und Bauträgerverordnung und dem Geldwäschegesetz; deshalb muss ich Vertragsparteien vor dem Abschluss identifizieren.
 
 ## Meine fünf Zusagen

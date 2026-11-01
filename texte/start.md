@@ -17,8 +17,8 @@ Heimsheim · Leonberg · Ditzingen · Renningen · Pforzheim
 **[Button: Wohnung kostenlos einschätzen lassen → /wohnung-bewerten/]**
 **[Button: So arbeite ich → /wohnung-verkaufen/]**
 
-Meine Erlaubnis nach § 34c GewO ist beantragt. Ersteinschätzungen und Beratungsgespräche biete ich ab sofort an, Vermarktungsaufträge nehme ich ab Erteilung der Erlaubnis an.
-<!-- Dieser Satz steht auf der Startseite nur hier. Am Tag der Erteilung entfernen. -->
+Meine Erlaubnis als Immobilienmakler nach § 34c GewO ist beantragt, aber noch nicht erteilt. Bis dahin vermittle ich keine Wohnungen und schließe keine Maklerverträge ab. Die kostenlose Ersteinschätzung Ihrer Wohnung und ein erstes Gespräch sind schon jetzt möglich, unverbindlich.
+<!-- Dieser Satz steht auf der Startseite nur hier. Am Tag der Erteilung entfernen. Wortlaut nach analyse-aktuelle-webseite/07-recht-erlaubnis.md, Baustein A. Vor Veröffentlichung von einer Anwältin/einem Anwalt für Gewerberecht prüfen lassen. -->
 
 <!-- Google-Bewertungen: erst ab 5 echten Bewertungen -->
 

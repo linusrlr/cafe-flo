@@ -13,8 +13,8 @@ status: Entwurf
 
 Von der Preiseinschätzung über die Vermarktung bis zur Übergabe bin ich Ihr Ansprechpartner. Ich bereite die Unterlagen auf, betreue die Interessenten und halte Sie über Anfragen, Besichtigungen und Angebote auf dem Laufenden. Ich verkaufe ausschließlich Eigentumswohnungen, in Heimsheim, Leonberg, Ditzingen, Renningen und Pforzheim.
 
-Meine Erlaubnis nach § 34c GewO ist beantragt. Ersteinschätzungen und Beratungsgespräche biete ich ab sofort an, Vermarktungsaufträge nehme ich ab Erteilung der Erlaubnis an.
-<!-- Einziger Erlaubnis-Hinweis auf dieser Seite. Am Tag der Erteilung entfernen. -->
+Meine Erlaubnis als Immobilienmakler nach § 34c GewO ist beantragt, aber noch nicht erteilt. Bis dahin vermittle ich keine Wohnungen und schließe keine Maklerverträge ab. Die kostenlose Ersteinschätzung Ihrer Wohnung und ein erstes Gespräch sind schon jetzt möglich, unverbindlich.
+<!-- Einziger Erlaubnis-Hinweis auf dieser Seite. Am Tag der Erteilung entfernen. Wortlaut nach analyse-aktuelle-webseite/07-recht-erlaubnis.md, Baustein A. Vor Veröffentlichung von einer Anwältin/einem Anwalt für Gewerberecht prüfen lassen. -->
 
 **[Button: Wohnung kostenlos einschätzen lassen → /wohnung-bewerten/]**
 **[Button: Anrufen → tel:+4915905844641]**
