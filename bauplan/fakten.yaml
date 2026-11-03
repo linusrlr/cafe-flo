@@ -109,41 +109,95 @@ firma:
     verwendet_in: [alle]
 
 erlaubnis:
+  # Quelle aller Texte hier: analyse-aktuelle-webseite/07-recht-erlaubnis.md, Abschnitt 9 (Bausteine A bis F).
+  # Keine Rechtsberatung; vor Veröffentlichung anwaltlich prüfen lassen (07-recht-erlaubnis.md Abschnitt 11).
+  # UMSTELLUNG NACH ERTEILUNG AN EINER STELLE: status.wert auf "erteilt", erteilt_am und behoerde füllen.
+  # Die Komponente ErlaubnisHinweis wählt dann automatisch die *_erteilt-Fassung bzw. blendet A/B/C/D aus.
   status:
     wert: "beantragt"
     werte_moeglich: [beantragt, erteilt]
-    quelle: "Live-Seite, Impressum"
-    stand: 2026-10-19
+    quelle: "07-recht-erlaubnis.md (Ausgangslage); Live-Impressum"
+    stand: 2026-11-01
     status: geprueft
-    hinweis: "Bei 'erteilt' schalten Komponenten automatisch um (AuthorBox, ErlaubnisHinweis, Impressum). Datum und Behörde dann unten füllen."
+    hinweis: "Antrag bei der IHK für München und Oberbayern (Sitz Niederlauer). Bei Sitzverlegung nach BW ist die IHK zuständig, NICHT Landratsamt/Stadt (07-recht-erlaubnis.md Abschnitt 6)."
     muster: 'beantragt'
     verwendet_in: [direktankauf, ort-ditzingen, ort-heimsheim, ort-leonberg, ort-pforzheim, ort-renningen, ratgeber-eigentumswohnung-verkaufen, ratgeber-energieausweis, ratgeber-geerbte-wohnung-verkaufen, ratgeber-maklerprovision, ratgeber-ohne-makler, ratgeber-sofortankauf-vs-makler, ratgeber-spekulationssteuer, ratgeber-verkauf-im-alter, ratgeber-verkaufen-oder-vermieten, ratgeber-vermietete-wohnung-verkaufen, ratgeber-wohnung-scheidung, start, ueber-mich, wohnung-bewerten, wohnung-verkaufen]
-  text_autorzeile:
-    wert: "Immobilienmakler für Eigentumswohnungen (Erlaubnis nach § 34c GewO beantragt)"
-    wert_erteilt: "Immobilienmakler für Eigentumswohnungen, Erlaubnis nach § 34c GewO"
-    quelle: "Autorzeile der Texte"
-    stand: 2026-10-30
-    status: geprueft
-    verwendet_in: [alle Inhaltsseiten, AuthorBox]
-  hinweis_lang:
-    wert: "Meine Erlaubnis nach § 34c GewO ist beantragt. Ersteinschätzungen und Beratungsgespräche biete ich ab sofort an, Vermarktungsaufträge nehme ich ab Erteilung der Erlaubnis an."
-    quelle: "start.md, kontakt.md (M6 Punkt 1)"
-    stand: 2026-10-30
-    status: geprueft
-    hinweis: "Darf laut M6 nur auf Start, Kontakt, Wohnung verkaufen und Impressum erscheinen (Komponente ErlaubnisHinweis)."
-    verwendet_in: [start, kontakt, wohnung-verkaufen, impressum]
   behoerde:
-    wert: null
-    status: offen
+    wert: "IHK für München und Oberbayern"
+    anschrift: "Balanstraße 55-59, 81541 München"
+    quelle: "07-recht-erlaubnis.md Abschnitt 6 und Baustein D"
     stand: 2026-11-01
-    quelle: "Erlaubnisbescheid"
-    verwendet_in: [impressum, strukturierte-daten]
+    status: zu_pruefen
+    hinweis: "Anschrift [ZU PRÜFEN] laut Gutachten. Nach Sitzverlegung: IHK Region Stuttgart (Leonberg, Renningen, Ditzingen) oder IHK Nordschwarzwald (Heimsheim, Pforzheim), vor Antrag telefonisch bestätigen."
+    verwendet_in: [impressum, ueber-mich, strukturierte-daten]
+  beantragt_am:
+    wert: null
+    quelle: "Antragsunterlagen Linus"
+    stand: 2026-11-01
+    status: offen
+    hinweis: "Platzhalter [Datum] in Baustein D."
+    verwendet_in: [impressum]
   erteilt_am:
     wert: null
-    status: offen
-    stand: 2026-11-01
     quelle: "Erlaubnisbescheid"
-    verwendet_in: [impressum, strukturierte-daten]
+    stand: 2026-11-01
+    status: offen
+    verwendet_in: [impressum, ueber-mich, footer, strukturierte-daten]
+  text_autorzeile:
+    wert: "Immobilienmakler für Eigentumswohnungen (Erlaubnis nach § 34c GewO beantragt)"
+    wert_erteilt: "Immobilienmakler für Eigentumswohnungen (Erlaubnis nach § 34c GewO)"
+    quelle: "07-recht-erlaubnis.md Abschnitt 8 (Bylines unverändert zulässig) und Baustein F"
+    stand: 2026-11-01
+    status: geprueft
+    verwendet_in: [SeitenMeta, AuthorBox, alle Inhaltsseiten]
+  baustein_a:
+    wert: "Meine Erlaubnis als Immobilienmakler nach § 34c GewO ist beantragt, aber noch nicht erteilt. Bis dahin vermittle ich keine Wohnungen und schließe keine Maklerverträge ab. Die kostenlose Ersteinschätzung Ihrer Wohnung und ein erstes Gespräch sind schon jetzt möglich, unverbindlich."
+    wert_erteilt: null
+    seiten: [start, wohnung-verkaufen, kontakt]
+    quelle: "07-recht-erlaubnis.md Baustein A"
+    stand: 2026-11-01
+    status: geprueft
+    hinweis: "Nach Erteilung entfällt A ersatzlos (Baustein F). In start.md, wohnung-verkaufen.md, kontakt.md seit 01.11.2026 literal eingesetzt; bei Migration durch ::erlaubnis{baustein=a} ersetzen."
+    verwendet_in: [start, wohnung-verkaufen, kontakt]
+  baustein_b:
+    wert: "Die Erlaubnis als Immobilienmakler nach § 34c Abs. 1 Satz 1 Nr. 1 GewO ist bei der {{fakten.erlaubnis.behoerde}} beantragt und noch nicht erteilt. Bis dahin vermittle ich keine Wohnungen und schließe keine Maklerverträge ab. Die kostenlose Ersteinschätzung und ein erstes Gespräch sind schon jetzt möglich."
+    wert_erteilt: "Immobilienmakler mit Erlaubnis nach § 34c GewO, erteilt am {{fakten.erlaubnis.erteilt_am}} durch die {{fakten.erlaubnis.behoerde}}."
+    seiten: [ueber-mich]
+    quelle: "07-recht-erlaubnis.md Bausteine B und F"
+    stand: 2026-11-01
+    status: geprueft
+    verwendet_in: [ueber-mich, footer]
+  baustein_c:
+    wert: "Andere Käufer oder Investoren stelle ich erst vor, wenn meine Erlaubnis nach § 34c GewO erteilt ist. Dann erfahren Sie vorher, von wem ich dafür eine Vergütung erhalte."
+    wert_erteilt: "Wenn ich Ihnen stattdessen einen anderen Investor vorstelle, erfahren Sie vorher, von wem ich dafür eine Vergütung erhalte."
+    seiten: [direktankauf]
+    quelle: "07-recht-erlaubnis.md Baustein C; wert_erteilt = Live-Wortlaut (Baustein F)"
+    stand: 2026-11-01
+    status: geprueft
+    hinweis: "In direktankauf.md steht noch der Live-Satz mit Kommentar; Live-Satz ist vor Erteilung erlaubnispflichtig und muss bei Migration durch ::erlaubnis{baustein=c} ersetzt werden."
+    verwendet_in: [direktankauf]
+  baustein_d:
+    wert: "Erlaubnis nach § 34c Abs. 1 Satz 1 Nr. 1 GewO (Immobilienmakler): beantragt am {{fakten.erlaubnis.beantragt_am}} bei der {{fakten.erlaubnis.behoerde}}, {{fakten.erlaubnis.behoerde.anschrift}}; noch nicht erteilt. Bis zur Erteilung vermittle ich keine Verträge über Grundstücke oder Wohnungen, weise keine Gelegenheiten zum Abschluss solcher Verträge nach und schließe keine Maklerverträge ab. Kostenlose Ersteinschätzungen und der Ankauf von Wohnungen auf eigene Rechnung sind davon nicht berührt."
+    seiten: [impressum]
+    quelle: "07-recht-erlaubnis.md Baustein D"
+    stand: 2026-11-01
+    status: geprueft
+    verwendet_in: [impressum]
+  baustein_e:
+    wert: "Erlaubnis nach § 34c Abs. 1 Satz 1 Nr. 1 GewO (Immobilienmakler), erteilt am {{fakten.erlaubnis.erteilt_am}} durch {{fakten.erlaubnis.behoerde}}, {{fakten.erlaubnis.behoerde.anschrift}}. Zuständige Aufsichtsbehörde: {{fakten.erlaubnis.behoerde}}, {{fakten.erlaubnis.behoerde.anschrift}}. Berufsrechtliche Regelungen: § 34c Gewerbeordnung, Makler- und Bauträgerverordnung (MaBV), abrufbar unter www.gesetze-im-internet.de."
+    seiten: [impressum]
+    quelle: "07-recht-erlaubnis.md Baustein E"
+    stand: 2026-11-01
+    status: geprueft
+    hinweis: "Ersetzt D nach Erteilung. Floskel 'Berufsbezeichnung … verliehen in der Bundesrepublik Deutschland' entfällt. USt-IdNr. falls vorhanden ergänzen."
+    verwendet_in: [impressum]
+  baustein_f:
+    wert: "Nach Erteilung: A und D entfallen bzw. werden durch E ersetzt, B wechselt auf die Vertrauenszeile, C auf den Live-Wortlaut, Bylines auf text_autorzeile.wert_erteilt."
+    quelle: "07-recht-erlaubnis.md Baustein F"
+    stand: 2026-11-01
+    status: geprueft
+    hinweis: "Beschreibt die Umschaltlogik der Komponente ErlaubnisHinweis; wird nicht gerendert."
+    verwendet_in: [ErlaubnisHinweis]
 
 # ---------------------------------------------------------------------------
 # 2. Provision und Vertrag

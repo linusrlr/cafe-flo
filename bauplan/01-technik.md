@@ -196,6 +196,7 @@ Hinweis: Bild-Pfade im Frontmatter sind relativ zur Markdown-Datei, also `../sit
 | Abschnitt „Formular … (Spezifikation)“ in `wohnung-bewerten.md`, „Ankauf prüfen lassen: das Kurzformular“ in `direktankauf.md`, Feldliste in `kontakt.md` | ersetzt durch `::formular{typ="bewertung"}` bzw. `ankauf`, `kontakt`; die Feldtabellen wandern nach `site/src/data/formulare.json` |
 | „Text für die Danke-Seite“ in `wohnung-bewerten.md` und `kontakt.md` | eigene Texte `danke-bewertung.md`, `danke-kontakt.md`, `danke-ankauf.md` (`typ: danke`) |
 | Preistabellen in `wohnung-bewerten.md` und Ortsseiten | `::preistabelle{orte="alle"}` bzw. `::preistabelle{ort="leonberg"}` |
+| Erlaubnis-Hinweis literal (Baustein A in start, wohnung-verkaufen, kontakt; B in ueber-mich, seit 01.11.2026 eingesetzt) und Investor-Satz plus Kommentar mit Baustein C in direktankauf | `::erlaubnis{baustein="a"}` bzw. `b`, `c`; Impressum erhält `d` |
 | manuelle Abschnitte `## Inhalt` mit Sprunglinks | gelöscht, `inhaltsverzeichnis: true` erzeugt sie aus den H2 |
 | literale Faktenwerte (2,98 %, fünf Jahre, 4,20 % …) | Platzhalter; Skript schlägt Ersetzungen anhand der `muster` aus `fakten.yaml` vor (`--vorschlag`), Mensch bestätigt jede Stelle |
 
@@ -221,6 +222,7 @@ Fehlende Texte, die in Session 1 neu angelegt werden: `impressum.md`, `datenschu
 | `::formular{typ="bewertung"}` | Formular | Komponente `Formular` |
 | `::preistabelle{ort="leonberg"}` | Preistabelle | Komponente `PriceTable` |
 | `::cta{variante="mitte"}` | CTA-Block | Komponente `CtaBlock` |
+| `::erlaubnis{baustein="a"}` | Erlaubnis-Hinweis A bis E | Komponente `ErlaubnisHinweis` (Abschnitt 6) |
 | `:::kacheln` … `:::` um eine Liste | Kachelraster (Orte, Lebenssituationen, Zusagen) | `<ul class="kacheln">` |
 | Markdown-Tabelle | Tabelle | `<div class="tabelle" role="region" tabindex="0" aria-label="{vorherige Überschrift}">`, `th scope="col"`; leere Kopfzelle erhält `<span class="sr-only">Merkmal</span>` (`rehype/tabellen`, behebt axe `empty-table-header` und `scrollable-region-focusable`) |
 | externe URL | Link | `rel="noopener"`, kein `target="_blank"`, kein `nofollow` (Quellen sind Belege); nackte URLs in Quellenlisten werden verlinkt (`rehype/externe-links`) |
@@ -327,6 +329,8 @@ Platzhalter funktionieren in Fließtext, Tabellenzellen, Linktexten, Überschrif
 
 Komponenten (Header, Footer, CtaBlock, JSON-LD, PHP-Mails) lesen dieselbe Datei direkt über `src/lib/fakten.ts` bzw. eine beim Build erzeugte `php/lib/fakten.json` (nur `firma` und `erlaubnis`).
 
+Faktenwerte dürfen selbst Platzhalter enthalten (die Bausteine B, D, E verweisen auf `erlaubnis.behoerde`, `erteilt_am`). `loese` löst rekursiv auf, maximal 3 Ebenen, Zyklus = Build-Fehler. Ist ein referenzierter Wert `null`/`offen` (z. B. `beantragt_am`), gilt der Baustein als ungeprüft (Abschnitt 5.4) und blockiert die Veröffentlichung der Seite, die ihn nutzt.
+
 ### 5.2 Auflösung
 
 ```ts
@@ -403,7 +407,7 @@ Alle in `site/src/components/`. Props in Klammern. Keine Komponente lädt extern
 | Fußnoten-Rendering (`remark/fussnoten`) | Regex `/\[(\d{1,2})\](?!\()/` auf Textknoten, aufeinanderfolgende `[2][4]` zusammengefasst; nicht in Code, nicht in Links. `id="fn-{n}-{k}"` (k = Vorkommen). | hochgestellt per `<sup>`, Schrift 0,75 em, Trefferfläche über `padding` vergrößert |
 | `Breadcrumbs` (`pfad`) | aus URL-Segmenten: `/ratgeber/x/` → Start › Ratgeber › kurztitel; `/wohnung-verkaufen/leonberg/` → Start › Wohnung verkaufen › Leonberg. Nicht auf Start. | `<nav aria-label="Brotkrumen"><ol>`, letztes Element `aria-current="page"` ohne Link; BreadcrumbList aus denselben Daten |
 | `Inhaltsverzeichnis` (`headings`) | alle H2 außer Quellen/FAQ-Unterpunkten; mobil eingeklappt als `<details>` „Inhalt“ | `<nav aria-label="Inhalt">` |
-| `ErlaubnisHinweis` | Text `fakten.erlaubnis.hinweis_lang`, nur wenn `status: beantragt`; nur auf start, kontakt, wohnung-verkaufen, impressum (M6) | |
+| `ErlaubnisHinweis` (`baustein`: `a`/`b`/`c`/`d`/`e`) | **Zentraler Baustein, einzige Quelle für Erlaubnis-Aussagen.** Text aus `fakten.erlaubnis.baustein_<x>` (Wortlaut aus `analyse-aktuelle-webseite/07-recht-erlaubnis.md` Abschnitt 9). Umschaltlogik nach Baustein F: Ist `fakten.erlaubnis.status` = `beantragt`, rendert er `wert`; bei `erteilt` rendert er `wert_erteilt`, und A entfällt ersatzlos, D wird durch E ersetzt, B wird zur Vertrauenszeile, C zum Live-Wortlaut. Einsatz: A auf start, wohnung-verkaufen, kontakt (je genau einmal); B auf ueber-mich (nach Erteilung zusätzlich im Footer); C auf direktankauf im Abschnitt „In welcher Rolle ich stehe“; D/E auf impressum. In Texten über die Direktive `::erlaubnis{baustein="a"}`. `check-inhalte` meldet einen Fehler, wenn ein Text den Erlaubnis-Wortlaut literal enthält (Muster `Erlaubnis[^.]{0,60}(beantragt|noch nicht erteilt)` außerhalb der Autorzeile) oder Formulierungen aus der Vermeiden-Liste von 07-recht-erlaubnis.md Abschnitt 9 („Beratungsgespräch“, „Verkaufsplan sofort“, „Investor vorstellen“, „jetzt beauftragen“), solange `status: beantragt`. | `<p class="hinweis-erlaubnis">`, kein `role="alert"` |
 | `Formular` (`typ`: `kontakt`/`bewertung`/`ankauf`) | Felder aus `src/data/formulare.json`. **Ohne JS:** alle Schritte als `<fieldset>` untereinander mit `<legend>` „Schritt 1 von 4: Wo liegt die Wohnung?“, ein Absende-Button, normaler POST an `/bewertung.php` bzw. `/kontakt.php`. **Mit JS** (`scripts/formular.ts`): ein Fieldset sichtbar, „Weiter“/„Zurück“ (`type="button"`), `<progress max="4">` plus Text „Schritt 2 von 4“ in `aria-live="polite"`, Fokus auf die Legend des neuen Schritts, Prüfung je Schritt per Constraint Validation API, `history.pushState({schritt:n}, '', '?schritt=n#formular')` und `popstate`, damit der Browser-Zurück-Button einen Schritt zurückgeht. Absenden per `fetch` mit `Accept: application/json`, Erfolg → `location.assign(antwort.weiter)`, Fehler → Feldfehler, Fehlerzusammenfassung oben mit Links, Sprung zum ersten fehlerhaften Schritt; Netzwerkfehler → wörtlicher Fehlertext aus `wohnung-bewerten.md`. Keine Zwischenspeicherung (Microcopy: „gespeichert wird erst beim Absenden“). Honeypot und Zeitfeld nach 02-formular-backend.md. | jedes Feld mit `<label for>`; Pflicht mit `required` und sichtbarem „(Pflicht)“; Fehler `aria-invalid="true"` + `aria-describedby`; `autocomplete` (`name`, `email`, `tel`, `street-address`); Zahlenfelder `inputmode="numeric"`; `type="button"` an allen Nicht-Submit-Buttons |
 | `Footer` | NAP-Block (`fakten.firma`: Name, Telefon, E-Mail, Anschrift erst nach M6, Erreichbarkeit), „Einsatzgebiet“ mit fünf Ortslinks (nur veröffentlichte), Ratgeber-Rubriken, `<nav aria-label="Rechtliches">` (Impressum, Datenschutz, Widerruf), „Stand der Marktdaten: {jüngstes stand aus angebotspreise_etw}“ | Telefon mit `&nbsp;` (`0159&nbsp;05844641`) |
 | `RatgeberListe` | Hub `/ratgeber/`: vier Rubriken, Karten aus der Collection (`kurztitel`, `description`, `stand`) | Liste, Überschriften H2 je Rubrik |
@@ -422,7 +426,7 @@ Alle Seiten entstehen aus `src/pages/[...pfad].astro` (Pfad = Frontmatter `url`)
 | URL | Text | Nr. | typ | Zusätzliches Schema | Index | Welle |
 |---|---|---|---|---|---|---|
 | `/` | `start.md` | S-01 | start | FAQPage | ja | 1 |
-| `/wohnung-verkaufen/` | `wohnung-verkaufen.md` | S-02 | leistung | Service (Vermittlung), FAQPage | ja | 1 |
+| `/wohnung-verkaufen/` | `wohnung-verkaufen.md` | S-02 | leistung | FAQPage; Service (Vermittlung) erst nach Erteilung der Erlaubnis | ja | 1 |
 | `/wohnung-bewerten/` | `wohnung-bewerten.md` | S-03 / R-08 | bewertung | Service (Ersteinschätzung), Article (Teil B), FAQPage (beide Blöcke) | ja | 1 |
 | `/wohnung-bewerten/danke/` | `danke-bewertung.md` | | danke | keins | noindex | 1 |
 | `/direktankauf/` | `direktankauf.md` | S-04 | ankauf | Service (Direktankauf), FAQPage | ja | 1 |
@@ -779,7 +783,7 @@ HSTS-Reihenfolge: zuerst `www`-Umleitung und Zertifikat für beide Namen testen 
     "prebuild": "node scripts/check-inhalte.mjs && node scripts/check-fakten.mjs",
     "build": "astro build && node scripts/csp-hashes.mjs --pruefen && node scripts/precompress.mjs",
     "build:vorschau": "SITE_MODE=vorschau astro build --outDir dist-vorschau",
-    "test:statisch": "html-validate \"dist/**/*.html\" && node scripts/check-schema.mjs && node scripts/check-budget.mjs && lychee --config tests/lychee.toml --offline \"dist/**/*.html\"",
+    "test:statisch": "html-validate \"dist/**/*.html\" && node scripts/check-schema.mjs && node scripts/check-budget.mjs && lychee --config tests/lychee.toml --offline --root-dir \"$PWD/dist\" \"dist/**/*.html\"",
     "test:e2e": "playwright test -c tests/playwright.config.ts",
     "test:lh": "lhci autorun --config=tests/lighthouserc.cjs",
     "fakten:verwendung": "node scripts/fakten-verwendung.mjs --schreiben",
@@ -853,7 +857,9 @@ Vorschau: `build:vorschau` wird auf Wunsch nach `vorschau.roessler-immo.de` (Bas
 
 | Entscheidung (Linus) | Wirkung | Bis |
 |---|---|---|
-| Standort/Impressum (M6 Punkt 3) | `fakten.firma.anschrift`, NAP im Footer, `address` im JSON-LD, Datenschutz-Aufsichtsbehörde | vor Session 1 |
+| Standort/Impressum (M6 Punkt 3) | `fakten.firma.anschrift`, NAP im Footer, `address` im JSON-LD, Datenschutz-Aufsichtsbehörde (BayLDA oder LfDI BW), `fakten.erlaubnis.behoerde` (bei Sitz in BW die IHK, nicht Landratsamt/Stadt; 07-recht-erlaubnis.md Abschnitt 6) | vor Session 1 |
+| Anwaltliche Prüfung der Bausteine A bis E (07-recht-erlaubnis.md Abschnitt 11) | `status` der Bausteine bleibt bis dahin fachlich offen; Livegang der Welle 1 erst danach | vor Livegang Welle 1 |
+| Erteilung der Erlaubnis | `fakten.erlaubnis.status: erteilt`, `erteilt_am`, `behoerde` setzen, Build, Deploy; keine Textdatei anfassen | sobald Bescheid da |
 | WhatsApp ja/nein (M10 Punkt 4) | vierter Kontaktweg, Datenschutzerklärung, kein Skript nötig (`https://wa.me/…`-Link) | vor Session 2 |
 | Fotos beim Ankauf-Formular, Anzahl | Upload ja/nein, `client_max_body_size`, Mailgröße | Session 2 |
 | Erreichbarkeit | `fakten.firma.erreichbarkeit`, `openingHoursSpecification` | Session 2 |
