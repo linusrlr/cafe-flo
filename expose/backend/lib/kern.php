@@ -336,10 +336,7 @@ function anfrage(): never
 
     // Spam: scheinbarer Erfolg, kein Vertrag, keine Mail
     $t = feld('t', 12); $js = feld('js', 2);
-    if (feld('website') !== '' || ($js === '1' && $t !== '' && (int)$t < 4000)) {
-        log_zeile('anfrage', 'spam');
-        weiter($o['urls']['danke']['frist']);
-    }
+    if (feld('website') !== '') { log_zeile('anfrage', 'spam:honeypot'); weiter($o['urls']['danke']['frist']); }
 
     if (feld('fassung', 80) !== $o['fassung']) {
         log_zeile('anfrage', 'fehler:fassung');
@@ -365,6 +362,8 @@ function anfrage(): never
         if ($noetig && $ja) $erklaerungen[] = ['id' => $e['id'], 'version' => $e['version'], 'sha256' => $e['sha256'], 'text' => $e['text'], 'bestaetigt' => true];
     }
     if ($f) { log_zeile('anfrage', 'fehler:validierung'); fehler(422, 'Bitte prüfen Sie die markierten Angaben.', $f); }
+    // Zeitprüfung erst nach der Validierung: Menschen, die sich vertippen, sehen Fehlermeldungen statt eines Scheinerfolgs
+    if ($js === '1' && $t !== '' && (int)$t < 4000) { log_zeile('anfrage', 'spam:zeit'); weiter($o['urls']['danke']['frist']); }
 
     if (!erlaube('mail:' . email_hash($email) . ':' . $slug, cfg()['limits']['email'] ?? [[3, 86400]])) {
         log_zeile('anfrage', 'limit:email');

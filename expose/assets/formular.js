@@ -62,9 +62,31 @@
     if (erstes) erstes.focus();
   }
 
+  function pruefeLokal() {
+    var f = {};
+    if (!wert('name')) f.name = 'Bitte geben Sie Ihren Vor- und Nachnamen an.';
+    if (!wert('email')) f.email = 'Bitte geben Sie Ihre E-Mail-Adresse an.';
+    else if (!form.elements.email.checkValidity()) f.email = 'Bitte prüfen Sie die E-Mail-Adresse, zum Beispiel name@beispiel.de.';
+    if (wert('telefon') && !form.elements.telefon.checkValidity()) f.telefon = 'Bitte prüfen Sie die Telefonnummer. Erlaubt sind Ziffern, Leerzeichen und + ( ) / -.';
+    if (form.querySelector('input[name=beginn]') && !beginn()) f.beginn = 'Bitte wählen Sie, wann Sie das Exposé erhalten möchten.';
+    form.querySelectorAll('input[type=checkbox][required]').forEach(function (c) {
+      if (!c.checked) f[c.name] = 'Bitte bestätigen Sie diese Erklärung, sonst kann ich das Exposé nicht freigeben.';
+    });
+    return f;
+  }
+
   form.addEventListener('submit', function (ev) {
     form.elements.t.value = String(Date.now() - start);
     form.elements.js.value = '1';
+    var lokal = pruefeLokal();
+    form.classList.add('versucht');
+    if (Object.keys(lokal).length) {
+      ev.preventDefault();
+      meldung.textContent = 'Bitte prüfen Sie die markierten Angaben.';
+      meldung.hidden = false;
+      zeigeFehler(lokal);
+      return;
+    }
     if (!window.fetch || !window.FormData) return; // normaler POST
     ev.preventDefault();
     var knopf = form.querySelector('button[type=submit]');

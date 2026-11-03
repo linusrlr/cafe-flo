@@ -14,7 +14,7 @@
 <rect x="960" y="700" width="200" height="70" fill="#8C6D4F"/>
 <circle cx="1130" cy="380" r="0" fill="none"/>
 <g font-family="Arial, Helvetica, sans-serif">
-<rect x="40" y="890" width="250" height="70" fill="#16233D" opacity=".88"/>
-<text x="70" y="937" font-size="30" fill="#fff" font-weight="700" letter-spacing="2">MUSTERBILD · WOHNZIMMER</text>
+<rect x="40" y="40" width="250" height="70" fill="#16233D" opacity=".88"/>
+<text x="70" y="87" font-size="30" fill="#fff" font-weight="700" letter-spacing="2">MUSTERBILD · WOHNZIMMER</text>
 </g>
 </svg>

@@ -301,24 +301,21 @@ function anfordern(c) {
 <div class="hp" aria-hidden="true"><label for="f-website">Bitte leer lassen</label><input id="f-website" name="website" type="text" tabindex="-1" autocomplete="off"></div>
 
 <fieldset>
-<span class="schritt">1 · Kontakt</span>
-<legend>Wie erreiche ich Sie?</legend>
+<legend><span class="schritt">1 · Kontakt</span>Wie erreiche ich Sie?</legend>
 <div class="feld"><label for="f-name">Vor- und Nachname</label><input id="f-name" name="name" type="text" required maxlength="80" autocomplete="name"></div>
 <div class="feld"><label for="f-email">E-Mail-Adresse</label><input id="f-email" name="email" type="email" required maxlength="254" autocomplete="email"><p class="hilfe">Hierhin schicke ich Vertragstexte, Widerrufsbelehrung und den Link zum Exposé.</p></div>
 <div class="feld"><label for="f-telefon">Telefon <span class="opt">(freiwillig, für Rückfragen und Besichtigungstermin)</span></label><input id="f-telefon" name="telefon" type="tel" maxlength="30" autocomplete="tel" pattern="[0-9 +\\(\\)\\/\\-]{6,30}"></div>
 </fieldset>
 
 ${c.mitVertrag ? `<fieldset>
-<span class="schritt">2 · Vertrag</span>
-<legend>Maklervertrag und Widerrufsrecht</legend>
+<legend><span class="schritt">2 · Vertrag</span>Maklervertrag und Widerrufsrecht</legend>
 <details class="text"><summary>${esc(rt['maklervertrag-kaeufer'].titel)} lesen (Fassung ${esc(rt['maklervertrag-kaeufer'].version)})</summary><div class="prosa">${rt['maklervertrag-kaeufer'].html}</div></details>
 <details class="text"><summary>Widerrufsbelehrung und Muster-Widerrufsformular lesen (Fassung ${esc(rt.widerrufsbelehrung.version)})</summary><div class="prosa">${rt.widerrufsbelehrung.html}${rt.widerrufsformular.html}</div></details>
 ${immer.filter((e) => e.id !== 'vertraulichkeit').map((e) => erklaerungHtml(e, c)).join('\n')}
 </fieldset>
 
 <fieldset data-feld="beginn">
-<span class="schritt">3 · Zeitpunkt</span>
-<legend>${esc(c.beginn.frage)}</legend>
+<legend><span class="schritt">3 · Zeitpunkt</span>${esc(c.beginn.frage)}</legend>
 ${c.beginn.optionen.map((op) => `<div class="radio"><input type="radio" id="b-${op.wert}" name="beginn" value="${op.wert}" required><label for="b-${op.wert}"><strong>${esc(op.label)}</strong><span class="klein">${op.wert === 'nach_frist' ? esc(op.hilfe).replace(esc(c.freigabe.ab_text), `<span data-ab-datum>${esc(c.freigabe.ab_text)}</span>`) : esc(op.hilfe)}</span></label></div>`).join('\n')}
 <div id="sofort-erklaerungen">
 <p class="hilfe" style="margin-top:14px"><strong>Nur bei „Sofort“:</strong> Diese beiden Erklärungen sind nötig, damit ich vor Ablauf der Widerrufsfrist beginnen darf.</p>
@@ -327,14 +324,12 @@ ${sofort.map((e) => erklaerungHtml(e, c)).join('\n')}
 </fieldset>` : ''}
 
 <fieldset>
-<span class="schritt">${c.mitVertrag ? '4' : '2'} · Vertraulichkeit</span>
-<legend>Umgang mit dem Exposé</legend>
+<legend><span class="schritt">${c.mitVertrag ? '4' : '2'} · Vertraulichkeit</span>Umgang mit dem Exposé</legend>
 ${immer.filter((e) => e.id === 'vertraulichkeit').map((e) => erklaerungHtml(e, c)).join('\n')}
 </fieldset>
 
 <fieldset>
-<span class="schritt">${c.mitVertrag ? '5' : '3'} · Prüfen und abschließen</span>
-<legend>Ihre Angaben prüfen</legend>
+<legend><span class="schritt">${c.mitVertrag ? '5' : '3'} · Prüfen und abschließen</span>Ihre Angaben prüfen</legend>
 <div id="zusammenfassung" class="zusammenfassung" hidden aria-live="polite"></div>
 ${pflichtinfo}
 <p class="klein" style="margin-top:14px">Datenschutz: Ich verarbeite Ihre Angaben, um den Vertrag zu schließen und Ihnen das Exposé zu schicken (Art. 6 Abs. 1 lit. b DSGVO), und protokolliere Ihre Erklärungen als Nachweis (Art. 6 Abs. 1 lit. f DSGVO). Keine Weitergabe an Dritte, keine Cookies. Details im <a href="/expose-recht/datenschutz/" target="_blank" rel="noopener">Datenschutzhinweis zum Exposé</a>.</p>

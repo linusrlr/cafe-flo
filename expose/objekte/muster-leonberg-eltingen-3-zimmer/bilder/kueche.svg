@@ -13,7 +13,7 @@
 <rect x="860" y="290" width="300" height="190" fill="#BFD7EA" stroke="#fff" stroke-width="12"/>
 <line x1="520" y1="530" x2="520" y2="760" stroke="#C8CED8" stroke-width="4"/><line x1="660" y1="530" x2="660" y2="760" stroke="#C8CED8" stroke-width="4"/><line x1="800" y1="530" x2="800" y2="760" stroke="#C8CED8" stroke-width="4"/><line x1="940" y1="530" x2="940" y2="760" stroke="#C8CED8" stroke-width="4"/><line x1="1080" y1="530" x2="1080" y2="760" stroke="#C8CED8" stroke-width="4"/>
 <g font-family="Arial, Helvetica, sans-serif">
-<rect x="40" y="890" width="155" height="70" fill="#16233D" opacity=".88"/>
-<text x="70" y="937" font-size="30" fill="#fff" font-weight="700" letter-spacing="2">MUSTERBILD · KÜCHE</text>
+<rect x="40" y="40" width="155" height="70" fill="#16233D" opacity=".88"/>
+<text x="70" y="87" font-size="30" fill="#fff" font-weight="700" letter-spacing="2">MUSTERBILD · KÜCHE</text>
 </g>
 </svg>
