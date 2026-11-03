@@ -119,12 +119,13 @@ Alle Preiswerte sind Angebotspreise, abgerufen im Oktober 2026 (zuletzt 29.10.20
 
 <!-- Zu prüfen:
 - Neubau-Erklärung der Preisspanne: Welche Neubauprojekte in Renningen und Malmsheim wurden 2024 bis 2026 vermarktet (Bauträger, Einheiten, Preise)? Ohne Beleg bleibt die Erklärung eine Vermutung; der Text formuliert sie deshalb als „spricht für meine Erklärung“.
-- Kündigungssperrfrist und Mietpreisbremse: Entwurf ab 2027 (Ministerrat 22.09.2026, Anhörung); Renningen laut Langfassung auch dort nicht enthalten.
-- Leonberg: Anhebung des Hebesatzes auf 250 % ab 2027, Beschluss Gemeinderat 19.05.2026.
-- Zuständiger Gutachterausschuss und Marktbericht.
+- Erledigt 03.11.2026: Entwurf der KSpVO, Kappungsgrenzen- und Mietpreisbegrenzungsverordnung 01.01.2027 bis 31.12.2029 (Ministerrat 22.09.2026, Anhörung bis 13.10.2026, 133 Gemeinden) gelesen: Leonberg und Pforzheim enthalten, Ditzingen, Renningen, Heimsheim nicht. Beschluss steht aus (analyse-aktuelle-webseite/08-faktenpruefung.md).
+- Leonberg: Die Vorlage der Stadt sah 250 % ab 2027 vor; laut Stuttgarter Zeitung vom 30.05.2026 fand das im Gemeinderat keine Mehrheit. Endgültigen Satz abwarten (Ratsinformationssystem am 03.11.2026 wegen Bot-Schutz nicht lesbar).
+- Erledigt 03.11.2026: Gemeinsamer Gutachterausschuss Renningen, Rutesheim und Weissach, Geschäftsstelle Stadt Renningen; Grundstücksmarktbericht 2023 in gekürzter Fassung auf renningen.de (https://www.renningen.de/stadtentwicklung/grundstuecke-immobilien/grundstuecksbewertung/grundstuecksmarktbericht-2023-gekuerzte-version-homepage.pdf), neuerer Bericht nicht gefunden.
 - Bodenrichtwerte Renningen und Malmsheim über BORIS-BW.
 - Fahrzeit S6 Renningen bis Stuttgart Hbf (ca. 31 Minuten, Einzelbeleg Januar 2026) beim VVS bestätigen; auf der Kurzfassung weggelassen.
 - Einwohnerzahl 18.728 (31.12.2025) gegen Originaltabelle des Statistischen Landesamts; auf der Kurzfassung nicht genannt.
-- Grundbuch und Nachlass: Amtsgericht Leonberg?
+- Erledigt 03.11.2026: Nachlass Amtsgericht Leonberg (Amtsgerichtsbezirk laut Statistischem Landesamt); Grundbuch Amtsgericht Waiblingen (GBFührÜV BW 17, 2015).
 - Vermarktungsdauer GREIX (90 Tage) und Maklerumfrage 54,3 %: Originalquellen; auf der Kurzfassung nicht genannt.
+- KfW-Zins (03.11.2026 versucht): kfw.de zeigt auf der Programmseite 308 nur Platzhalter; die KfW-Pressemitteilung vom 30.07.2026 nennt zum Start 0,53 % effektiv (35 Jahre, 10 Jahre Zinsbindung), der Text 1,00 % nach baukostenplan.de (07.10.2026). Zinssatz am Veröffentlichungstag auf kfw.de/308 ablesen; Marker bleibt.
 -->

@@ -6,10 +6,10 @@
     "node": ">=22"
   },
   "scripts": {
-    "dev": "SITE_MODE=vorschau astro dev",
-    "vorschau": "SITE_MODE=vorschau astro build --outDir dist-vorschau && node scripts/nach-build.mjs dist-vorschau",
+    "dev": "ASTRO_TELEMETRY_DISABLED=1 SITE_MODE=vorschau astro dev",
+    "vorschau": "ASTRO_TELEMETRY_DISABLED=1 SITE_MODE=vorschau astro build --outDir dist-vorschau && node scripts/nach-build.mjs dist-vorschau",
     "vorschau:start": "node scripts/server.mjs dist-vorschau",
-    "build:prod": "SITE_MODE=produktion astro build && node scripts/nach-build.mjs dist",
+    "build:prod": "ASTRO_TELEMETRY_DISABLED=1 SITE_MODE=produktion astro build && node scripts/nach-build.mjs dist",
     "offen": "node scripts/offen.mjs",
     "test:statisch": "node scripts/check-statisch.mjs dist && html-validate --config tests/htmlvalidate.json \"dist/**/*.html\"",
     "test:e2e": "playwright test -c tests/playwright.config.mjs",

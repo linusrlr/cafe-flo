@@ -1,0 +1,21 @@
+---
+import Basis from '../layouts/Basis.astro';
+import { seiteFuer, rendere, alleSeiten, istGebaut } from '../lib/inhalte.mjs';
+const seite = seiteFuer('/404/');
+const r = rendere(seite);
+const ziele = [['/wohnung-verkaufen/', 'Wohnung verkaufen'], ['/wohnung-bewerten/', 'Wohnung bewerten'], ['/direktankauf/', 'Direktankauf'], ['/kontakt/', 'Kontakt']].filter(([u]) => istGebaut(u));
+const ratgeber = alleSeiten().filter((s) => s.gebaut && s.typ === 'ratgeber');
+---
+<Basis titel={r.titel} beschreibung={r.beschreibung} url="/404/" noindex={true} marker={r.marker.length}>
+  <section class="hero"><div class="htext">
+    <h1 set:html={r.h1Html} />
+    {r.hero.lead && <Fragment set:html={r.hero.lead} />}
+    {r.hero.actions && <Fragment set:html={r.hero.actions} />}
+  </div></section>
+  {(ziele.length > 0 || ratgeber.length > 0) && (
+    <section><div class="wrap prosa">
+      <h2>Nach Thema suchen</h2>
+      <ul>{[...ziele, ...ratgeber.map((s) => [s.url, s.kurztitel])].map(([u, t]) => <li><a href={u}>{t}</a></li>)}</ul>
+    </div></section>
+  )}
+</Basis>

@@ -116,14 +116,14 @@ Angebotspreise, abgerufen bis 29.10.2026.
 -->
 
 <!-- Zu prüfen:
-- Kündigungssperrfrist und Mietpreisbremse: Entwurf der Gebietskulisse ab 2027 (Ministerrat 22.09.2026, Anhörung); Heimsheim laut Langfassung auch dort nicht enthalten.
-- Gutachterausschuss Enzkreis: URL und Zuständigkeit für Heimsheim.
-- Hebesatz Grundsteuer B Heimsheim 2026 bei der Stadt erfragen (im Dossier nur 330 % von 2023); erst dann auf die Seite.
+- Erledigt 03.11.2026: Entwurf der KSpVO, Kappungsgrenzen- und Mietpreisbegrenzungsverordnung 01.01.2027 bis 31.12.2029 (Ministerrat 22.09.2026, Anhörung bis 13.10.2026, 133 Gemeinden) gelesen: Leonberg und Pforzheim enthalten, Ditzingen, Renningen, Heimsheim nicht. Beschluss steht aus (analyse-aktuelle-webseite/08-faktenpruefung.md).
+- Gutachterausschuss Enzkreis: Mitgliedschaft Heimsheims am 03.11.2026 online nicht belegt; Zweckverband in Mühlacker bleibt Annahme, telefonisch klären.
+- Hebesatz Grundsteuer B Heimsheim: am 03.11.2026 keine Satzung online gefunden; Stuttgarter Zeitung nennt 143 % (Jahr unklar, aufkommensneutraler Bereich 130 bis 144 %). Bei der Stadt erfragen, erst dann auf die Seite.
 - Bodenrichtwert: 235 €/m² (bodenrichtwerte-deutschland.de) und rund 732 €/m² (miete-aktuell.de) widersprechen sich; gegen BORIS-BW abgleichen, bis dahin kein Wert auf der Seite.
 - Einwohnerzahl 5.531 (31.12.2025) gegen Originaltabelle des Statistischen Landesamts; auf der Kurzfassung nicht genannt.
 - Rutesheim: Lage und Kreiszugehörigkeit (Landkreis Böblingen).
 - Schleglerschloss, Fachwerkkern, Sanierungsgebiet: vor jeder Nennung prüfen.
 - Radweg Heimsheim bis Mönsheim entlang der A 8 (Stuttgarter Zeitung): URL und Datum; hier weggelassen.
-- Grundbuch und Nachlass: Amtsgericht Maulbronn oder Amtsgericht Pforzheim für Heimsheim.
+- Erledigt 03.11.2026: Heimsheim gehört zum Amtsgerichtsbezirk Maulbronn (Statistisches Landesamt, GSAG1101); das Grundbuch führt das Amtsgericht Maulbronn (GBFührÜV BW 17 vom 25.11.2015).
 - Vermarktungsdauer GREIX/IfW Kiel (90 Tage) und Maklerumfrage 54,3 %: Originalquellen; auf der Kurzfassung nicht genannt.
 -->

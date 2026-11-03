@@ -32,8 +32,8 @@ function quellDateien() {
   const liste = [
     ...mdDateien(path.join(REPO, 'texte')),
     ...mdDateien(path.join(REPO, 'texte/aktuell')),
-    ...mdDateien(path.join(SITE, 'src/content/recht')),
-    ...mdDateien(path.join(SITE, 'src/content/seiten')),
+    ...mdDateien(path.join(SITE, 'inhalte/recht')),
+    ...mdDateien(path.join(SITE, 'inhalte/seiten')),
   ];
   if (process.env.EXTRA_INHALTE) liste.push(...mdDateien(path.resolve(SITE, process.env.EXTRA_INHALTE)));
   return liste;
@@ -447,9 +447,9 @@ function hastUmbau(baum, seite, ctx) {
       ids.add(n.properties.id);
     } else slugger.slug(titel);
     const alias = translit(n.properties.id);
-    if (alias !== n.properties.id && !ids.has(alias) && eltern) {
+    if (alias !== n.properties.id && !ids.has(alias)) {
       ids.add(alias);
-      eltern.children.splice(index, 0, el('span', { id: alias, className: ['anker'] }));
+      n.children.unshift(el('span', { id: alias, className: ['anker'] }));
     }
   });
 

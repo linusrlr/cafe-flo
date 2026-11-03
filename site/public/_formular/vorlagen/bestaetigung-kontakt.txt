@@ -1,0 +1,16 @@
+Guten Tag {name},
+
+ich habe Ihre Nachricht erhalten und melde mich {antwortzeit}, meist telefonisch{rueckruf_satz}.
+
+So geht es weiter:
+1. Ich rufe Sie an. Wir sprechen etwa 15 Minuten über Ihre Wohnung, Ihren Zeitplan und Ihre Fragen. Sie müssen nichts vorbereiten.
+2. Bei Bedarf vereinbaren wir einen Termin vor Ort. Hilfreich, aber nicht nötig: die letzte Hausgeldabrechnung, das letzte Protokoll der Eigentümerversammlung und der Grundriss.
+3. Sie erhalten eine schriftliche Ersteinschätzung mit Preisspanne und Begründung. Kostenlos, ohne Verpflichtung, ohne Weitergabe Ihrer Daten.
+
+Sie möchten nicht warten? Telefon {telefon}.
+
+Viele Grüße
+{inhaber}
+{firma} · roessler-immo.de · {telefon}
+
+{fusszeile}

@@ -42,7 +42,8 @@ nav.main a{font-size:.88rem;color:var(--fg-soft);text-decoration:none;padding:8p
 nav.main a:hover{color:var(--fg)}
 nav.main a[aria-current]{color:var(--fg);font-weight:600;box-shadow:inset 0 -2px 0 currentColor}
 .topnum{font-size:.88rem;color:var(--fg-soft);text-decoration:none;white-space:nowrap}
-.kopf-rechts{display:flex;align-items:center;gap:4px}
+.kopf-rechts{display:flex;align-items:center;gap:4px;order:3}
+nav.main{order:2;margin-left:auto}
 .telicon{display:none;align-items:center;justify-content:center;width:44px;height:44px;color:var(--navy);border-radius:50%}
 .telicon svg{width:22px;height:22px}
 .burger,.burger-link{display:none;background:none;border:none;cursor:pointer;padding:10px;margin-right:-10px;min-width:44px;min-height:44px;align-items:center;justify-content:center;flex-direction:column;gap:5px;color:var(--fg);font:inherit;font-size:.88rem;text-decoration:none}
@@ -59,7 +60,7 @@ body.navopen .navscrim{opacity:1;pointer-events:auto}
   .burger-link{display:flex}.burger-link[hidden]{display:none}
   .telicon{display:inline-flex}
   .topnum{display:none}
-  nav.main{display:none;width:100%;border-top:1px solid var(--line);margin-top:8px;padding-top:6px}
+  nav.main{display:none;width:100%;border-top:1px solid var(--line);margin-top:8px;padding-top:6px;order:4;margin-left:0}
   nav.main.open{display:block}
   nav.main ul{flex-direction:column;align-items:stretch;gap:0}
   nav.main a{padding:13px 2px;font-size:1rem;border-bottom:1px solid var(--line)}
@@ -146,26 +147,25 @@ h3{font-size:1.08rem;font-weight:600}
 .prosa li + li{margin-top:6px}
 .prosa .tablewrap,.prosa .faq,.prosa ul.kacheln,.prosa .formular-box{max-width:none}
 .band.dark .prosa p,.band.dark .prosa li{color:var(--on-navy-mute)}
-.anker{display:block;position:relative}
+.anker{position:relative}
 sup.fn{font-size:.72em;line-height:0;padding:0 1px}
 sup.fn a{text-decoration:none;padding:2px 2px;color:var(--navy);font-weight:600}
 .band.dark sup.fn a{color:var(--on-navy)}
 
 /* Schritte (wie .items der Live-Seite) */
 ol.schritte{list-style:none;padding:0;counter-reset:schritt;border-top:1px solid var(--line)}
-ol.schritte > li{counter-increment:schritt;display:grid;grid-template-columns:2.4rem 1fr;gap:20px;padding-block:20px;border-bottom:1px solid var(--line);margin:0}
-ol.schritte > li::before{content:counter(schritt,decimal-leading-zero);font-family:var(--display);font-size:.92rem;color:var(--navy);font-weight:700;padding-top:2px;font-variant-numeric:tabular-nums}
-ol.schritte > li > *{grid-column:2}
-@media (max-width:520px){ol.schritte > li{grid-template-columns:1fr;gap:4px}ol.schritte > li > *{grid-column:1}}
+ol.schritte > li{counter-increment:schritt;position:relative;padding:20px 0 20px 3.4rem;border-bottom:1px solid var(--line);margin:0}
+ol.schritte > li::before{content:counter(schritt,decimal-leading-zero);position:absolute;left:0;top:21px;font-family:var(--display);font-size:.92rem;color:var(--navy);font-weight:700;font-variant-numeric:tabular-nums}
+@media (max-width:520px){ol.schritte > li{padding-left:2.6rem}}
 .band.dark ol.schritte{border-color:rgba(255,255,255,.2)}
 .band.dark ol.schritte > li{border-color:rgba(255,255,255,.2)}
 .band.dark ol.schritte > li::before{color:#fff}
 
 /* Kacheln (wie .cards der Live-Seite) */
 ul.kacheln{list-style:none;padding:0;display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:20px}
-ul.kacheln > li{border:1px solid var(--line);background:var(--bg);padding:26px;margin:0;display:flex;flex-direction:column;gap:10px}
-ul.kacheln > li > strong:first-child{font-family:var(--display);font-size:1.12rem;font-weight:700;color:var(--fg)}
-ul.kacheln > li a{font-weight:600;color:var(--fg);text-decoration:none;margin-top:auto}
+ul.kacheln > li{border:1px solid var(--line);background:var(--bg);padding:24px 26px;margin:0}
+ul.kacheln > li > strong:first-child{display:block;margin-bottom:8px;font-family:var(--display);font-size:1.12rem;font-weight:700;color:var(--fg)}
+ul.kacheln > li a{font-weight:600;color:var(--fg);text-decoration:none;display:table;margin-top:12px;padding:4px 0}
 ul.kacheln > li a:hover{text-decoration:underline}
 
 /* Tabellen */

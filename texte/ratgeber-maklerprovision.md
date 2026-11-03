@@ -134,7 +134,7 @@ In der Region gibt es Werbung mit „keine Verkäuferprovision“. Arbeitet ein 
 
 ## Was der BGH 2025 und 2026 entschieden hat
 
-- Am 6. März 2025: Die Halbteilung gilt auch, wenn ein Dritter, im Fall die Ehefrau des Käufers, den Maklervertrag schließt; bei ungleichen Provisionen ist der Maklervertrag unwirksam (I ZR 32/24) [21] [ZU PRÜFEN: Das Aktenzeichen wird teils als I ZR 138/24 zitiert].
+- Am 6. März 2025: Die Halbteilung gilt auch, wenn ein Dritter, im Fall die Ehefrau des Verkäufers, den Maklervertrag schließt; bei ungleichen Provisionen ist der Maklervertrag unwirksam (I ZR 32/24) [21].
 - Am 16. Juli 2026: Es kommt darauf an, ob das Objekt bei Vertragsschluss erkennbar ein Einfamilienhaus oder eine Wohnung ist; ein Zweifamilienhaus mit zwei gleichwertigen Wohnungen fällt nicht darunter (I ZR 111/25) [22].
 
 Die Folge eines Verstoßes ist die Gesamtnichtigkeit des Maklervertrags mit Rückzahlung der vollen Provision [23]. Für Eigentumswohnungen ist die Lage einfach: Halbteilung immer, wenn der Käufer Verbraucher ist.
@@ -147,7 +147,7 @@ Immobilienmakler sind Verpflichtete nach dem Geldwäschegesetz. Ich muss Sie und
 
 Der Kaufvertrag wird weiterhin in Präsenz beim Notar beurkundet; eine Videobeurkundung gibt es für Immobilien nicht [28].
 
-Ab dem 10. Juli 2027 gilt zusätzlich die EU-Geldwäscheverordnung mit einer europaweiten Bargeldobergrenze von 10.000 € [27] [ZU PRÜFEN: Geltungsbeginn und Schwellenwerte in der Verordnung]. Wie ich Ihre Daten verarbeite, steht in der [Datenschutzerklärung](/datenschutz/).
+Ab dem 10. Juli 2027 gilt zusätzlich die EU-Geldwäscheverordnung mit einer europaweiten Bargeldobergrenze von 10.000 € für Händler und Dienstleister (Art. 80 der Verordnung) [27]. Wie ich Ihre Daten verarbeite, steht in der [Datenschutzerklärung](/datenschutz/).
 
 ## Wann keine Provision anfällt, und wann Sie mich nicht brauchen
 
@@ -249,13 +249,13 @@ Telefon 0159 05844641.
 18. Rössler Immobilien, FAQ der Website roessler-immo.de, Stand 19.10.2026 (2,98 % inkl. USt je Seite; bei 300.000 € 8.940 €; Alleinauftrag sechs Monate, Verlängerung drei Monate, vier Wochen Kündigungsfrist; Widerrufsrecht)
 19. § 34c GewO: https://www.gesetze-im-internet.de/gewo/__34c.html (abgerufen 29.10.2026)
 20. § 34c Abs. 2a GewO in der aktuellen Fassung (Weiterbildungspflicht 20 Stunden in drei Kalenderjahren nur noch für Gewerbetreibende nach Abs. 1 S. 1 Nr. 4, Wohnimmobilienverwalter): https://www.gesetze-im-internet.de/gewo/__34c.html ; IHK Region Stuttgart, „Immobilienmakler: Zugang zum Beruf“ (Wegfall der Weiterbildungspflicht für Makler zum 24.07.2026): https://www.ihk.de/stuttgart/fuer-unternehmen/recht-und-steuern/gewerberecht/immomakler-682400 (abgerufen 01.11.2026); siehe analyse-aktuelle-webseite/07-recht-erlaubnis.md
-21. BGH, Urteil vom 06.03.2025, I ZR 32/24 (Halbteilung bei Vertragsschluss durch Dritten): Pressemitteilung 044/2025: https://www.bundesgerichtshof.de/SharedDocs/Pressemitteilungen/DE/2025/2025044.html ; NWB: https://datenbank.nwb.de/Dokument/1064889/ ; Aktenzeichen teils als I ZR 138/24 zitiert, ZU PRÜFEN
+21. BGH, Urteil vom 06.03.2025, I ZR 32/24 (Halbteilung bei Vertragsschluss durch Dritten): Pressemitteilung 044/2025: https://www.bundesgerichtshof.de/SharedDocs/Pressemitteilungen/DE/2025/2025044.html ; NWB: https://datenbank.nwb.de/Dokument/1064889/  (Aktenzeichen I ZR 32/24 und Datum laut Pressemitteilung des BGH bestätigt, abgerufen 03.11.2026; Maklervertrag schloss die Ehefrau des Verkäufers)
 22. BGH, Urteil vom 16.07.2026, I ZR 111/25 (Erkennbarkeit bei Vertragsschluss, Zweifamilienhaus): Pressemitteilung 127/2026: https://www.bundesgerichtshof.de/SharedDocs/Pressemitteilungen/DE/2026/2026127.html ; Hantke & Partner: https://www.hantkepartner.de/3033/maklerrecht-bgh-konkretisiert-den-halbteilungsgrundsatz-bei-maklerprovisionen-bgh-i-zr-111-25/
 23. Gesamtnichtigkeit bei Verstoß gegen § 656c BGB: Osborne Clarke, BGH-Urteilsbesprechungen: https://www.osborneclarke.com/de/insights/bgh-urteilsbesprechungen-gesamtnichtigkeit-einer-vereinbarung-ueber-die-maklerkosten-und
 24. BGH, Urteil vom 20.04.2023, I ZR 113/22 (Reservierungsvereinbarung in AGB unwirksam), nach marktthemen-2026.md Kap. 7b
 25. Bestellerprinzip nur bei Vermietung (§ 2 Abs. 1a WoVermRG, seit 01.06.2015); kein Bestellerprinzip beim Kauf beschlossen: marktthemen-2026.md Kap. 8a; ZU PRÜFEN frühere Anträge
 26. Geldwäschegesetz: § 2 Abs. 1 Nr. 14, § 8, § 11, § 16a, § 43 GwG; goAML-Registrierung seit 01.01.2024: gwgimmo.de, „Geldwäschegesetz für Immobilienmakler 2026“: https://gwgimmo.de/blog/gwg/geldwaschegesetz-fur-immobilienmakler-pflichten-risiken-klare-handlungsempfehlungen-2026 ; onOffice: https://onoffice.com/blog/branchennews/geldwaeschegesetz-darauf-muessen-sie-als-immobilienmakler-achten/
-27. EU-Geldwäscheverordnung (AMLR, VO (EU) 2024/1624), Geltung ab 10.07.2027, Bargeldobergrenze 10.000 €: marktthemen-2026.md Kap. 8a und 8b (Vorwissen, ZU PRÜFEN)
+27. EU-Geldwäscheverordnung (AMLR, VO (EU) 2024/1624), Art. 80 Abs. 1 (Barzahlung höchstens 10.000 € für Personen, die mit Gütern handeln oder Dienstleistungen erbringen), Geltung ab 10.07.2027: Amtsblatt der EU, https://eur-lex.europa.eu/eli/reg/2024/1624/oj ; Wortlaut Art. 80 nach springlex.eu: https://www.springlex.eu/de/packages/aml/amlr-regulation/article-80/ (abgerufen 03.11.2026)
 28. Präsenzbeurkundung von Immobilienkaufverträgen, keine Videobeurkundung: IHK Köln: https://www.ihk.de/koeln/hauptnavigation/recht-steuern/recht/online-gruendungen-notarielle-beurkundung-durch-videokonferenz-5962580
 29. Angebotspreise Eigentumswohnungen 2026: Leonberg 3.733 €/m² (immoportal, 01.10.2026: https://www.immoportal.com/immobilienpreise/leonberg ) und 4.042,68 €/m² (immoverkauf24, Q2 2026: https://www.immoverkauf24.de/immobilienpreise/baden-wuerttemberg/boeblingen-kreis/leonberg/ ); Pforzheim 2.928 €/m² (immoportal) und 3.010,44 €/m² (immoverkauf24: https://www.immoverkauf24.de/immobilienpreise/baden-wuerttemberg/pforzheim/ ); Ditzingen 3.686 €/m² (immoportal) und 4.065,13 €/m² (immoverkauf24); Nordstadt-Inserat 105.000 € (Recherche B2.5)
 30. Analyse der Live-Website roessler-immo.de, Abschnitt 2.1 (Stand 19.10.2026), und Wettbewerbsanalyse 02-wettbewerb.md: kaum ein Makler in der Region nennt seine Provision auf der Website

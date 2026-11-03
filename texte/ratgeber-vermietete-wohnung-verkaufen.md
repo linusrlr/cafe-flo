@@ -73,7 +73,7 @@ Baden-Württemberg hat sie mit der Kündigungssperrfristverordnung vom 16. Dezem
 |---|---|---|---|
 | Leonberg | 5 Jahre | § 2 KSpVO BW | Verlängerung ab 2027 in Anhörung [9] |
 | Pforzheim | 5 Jahre | § 2 KSpVO BW | wie Leonberg |
-| Ditzingen | 3 Jahre nach Verordnungstext | § 577a Abs. 1 BGB | [ZU PRÜFEN: Der Deutsche Mieterbund führt Ditzingen in seiner Liste [8]; im Gesetzblatt steht es nicht.] |
+| Ditzingen | 3 Jahre | § 577a Abs. 1 BGB | nicht in § 1 der Verordnung [7]; die Liste des Mieterbunds nennt es abweichend [8] |
 | Renningen | 3 Jahre | § 577a Abs. 1 BGB | nicht in der Verordnung |
 | Heimsheim | 3 Jahre | § 577a Abs. 1 BGB | nicht in der Verordnung |
 
@@ -111,7 +111,7 @@ Ein Anleger rechnet mit der Miete, die er in drei oder fünf Jahren verlangen da
 | Renningen | nein | 20 % in drei Jahren | 3 Jahre |
 | Heimsheim | nein | 20 % in drei Jahren | 3 Jahre |
 
-[ZU PRÜFEN: Die Kappungsgrenzenverordnung BW (15 %) hat eine eigene Gemeindeliste; ob sie mit der Mietpreisbremse-Kulisse identisch ist, ist nicht geprüft. Bis dahin gilt die Tabelle für Leonberg und Pforzheim unter Vorbehalt.]
+Die Kappungsgrenze von 15 % hat eine eigene Verordnung. Der Entwurf ab 2027 legt ihre Gemeinden ausdrücklich im Gleichlauf mit der Mietpreisbremse fest und nennt Leonberg und Pforzheim [21]. [ZU PRÜFEN: Wortlaut der Kappungsgrenzenverordnung 2026, GBl. 2025 Nr. 145, für Leonberg und Pforzheim]
 
 Drei Ausnahmen von der Mietpreisbremse sind für Verkäufer bares Geld, wenn sie belegt sind: Erstvermietung nach dem 1. Oktober 2014, erste Vermietung nach umfassender Modernisierung (§ 556f BGB) und eine höhere Vormiete (§ 556e BGB) [20]. Der Nachweis gehört in die Verkaufsunterlagen. Für Ditzingen, Renningen und Heimsheim gilt das Argument umgekehrt: keine Bremse, 20 % Kappungsgrenze, drei Jahre Sperrfrist. Für Anleger, die aus Stuttgart oder Leonberg ausweichen, ist das ein Grund, etwa in Heimsheim zu kaufen.
 
@@ -246,7 +246,7 @@ Ich rechne Ihnen vor, was ein Anleger und was ein künftiger Selbstnutzer zahlen
 6. § 577a BGB, Kündigungsbeschränkung bei Wohnungsumwandlung: https://www.gesetze-im-internet.de/bgb/__577a.html (abgerufen 29.10.2026)
 7. Kündigungssperrfristverordnung Baden-Württemberg (KSpVO BW) vom 16.12.2025, GBl. 2025 Nr. 146 vom 19.12.2025: https://www.landtag-bw.de/resource/blob/611984/7e993deafc1547ab553a30dfe14a9333/GBl2025146.pdf
 8. Deutscher Mieterbund, Übersicht Kündigungssperrfrist-Verordnungen (nennt Ditzingen): https://mieterbund.de/service/mieterschutzverordnungen/kuendigungssperrfrist/
-9. Verlängerung der KSpVO BW ab 01.01.2027, Entwurf in Anhörung seit 22.09.2026: Landtag BW, Drs. 18/342: https://www.landtag-bw.de/resource/blob/645672/023e90d4921b01b1f177f9df9cfceaa8/18_0342_D.pdf ; marktthemen-2026.md Kap. 1a
+9. Verlängerung der KSpVO BW vom 01.01.2027 bis 31.12.2029, Entwurf (Ministerrat 22.09.2026, Anhörung bis 13.10.2026; fünf Jahre in 133 Gemeinden, Leonberg und Pforzheim enthalten, Ditzingen, Renningen, Heimsheim nicht): https://beteiligungsportal.baden-wuerttemberg.de/fileadmin/redaktion/beteiligungsportal/Dokumente/2026/260922_Verlaengerung_der_KuendigungssperrfristVO.pdf ; Verfahrensstand: https://beteiligungsportal.baden-wuerttemberg.de/de/mitmachen/lp-18/mietpreisbegrenzung (abgerufen 03.11.2026); Landtag BW, Drs. 18/342: https://www.landtag-bw.de/resource/blob/645672/023e90d4921b01b1f177f9df9cfceaa8/18_0342_D.pdf
 10. ImmoScout24, Pressemitteilung vom 10.11.2025, „Vermietete Eigentumswohnungen bis zu 33 Prozent günstiger als unvermietete“ (Angebotsdaten Juli bis Oktober 2025, Medianpreise, 42 Städte): https://www.immobilienscout24.de/unternehmen/news-medien/news/default-title/vermietete-eigentumswohnungen-bis-zu-33-prozent-guenstiger-als-unvermietete/
 11. ImmoScout24, „Vermietete Wohnung verkaufen“, aktualisiert 27.08.2026 (Abschlag „20 bis 30 Prozent“, Besichtigungen, § 566 BGB): https://www.immobilienscout24.de/wissen/verkaufen/vermietete-wohnung-verkaufen.html ; Homeday („bis zu 30 Prozent“), Seite zum Abrufzeitpunkt nicht erreichbar
 12. immoportal.com, Renditeformeln und Faustwerte für Kapitalanleger: https://www.immoportal.com/node/100171
@@ -258,7 +258,7 @@ Ich rechne Ihnen vor, was ein Anleger und was ein künftiger Selbstnutzer zahlen
 18. IVD-CityReport Pforzheim Frühjahr 2026 („zweigeteilt: Kaufmarkt verhalten, Mietnachfrage hoch“), nach Konii: https://www.konii.de/?p=211416
 19. Mietpreisbegrenzungsverordnung Baden-Württemberg vom 16.12.2025 (GBl. Nr. 144), 130 Gemeinden, gültig 01.01. bis 31.12.2026; Entwurf ab 2027 (Ministerrat 22.09.2026); Einzeldaten und Kriterien je Gemeinde: Ministerium für Landesentwicklung und Wohnen BW: https://mlw.baden-wuerttemberg.de/de/bauen-wohnen/wohnungsbau/mietpreisbremse (abgerufen 29.10.2026); Verordnungstext: https://www.umwelt-online.de/recht/bau/laender/bw/mietschv26.htm ; MLW-Datensatz „Einzeldaten aller Städte und Gemeinden, Stand August 2025“ (XLSX), ausgewertet in marktthemen-2026.md Kap. 1b
 20. §§ 556d bis 556g BGB (Mietpreisbremse, Ausnahmen § 556e und § 556f), nach marktthemen-2026.md Kap. 1b; Gesetzestext vor Veröffentlichung auf gesetze-im-internet.de gegenprüfen
-21. Kappungsgrenze § 558 Abs. 3 BGB (20 % in drei Jahren); Kappungsgrenzenverordnung BW (15 % in den bestimmten Gebieten, verlängert bis 31.12.2026, Verlängerung ab 2027 in Anhörung), nach marktthemen-2026.md Kap. 1b; Gemeindeliste ZU PRÜFEN
+21. Kappungsgrenze § 558 Abs. 3 BGB (20 % in drei Jahren); Kappungsgrenzenverordnung BW (15 % in den bestimmten Gebieten, verlängert bis 31.12.2026, Verlängerung ab 2027 in Anhörung), nach marktthemen-2026.md Kap. 1b; Kappungsgrenzenverordnung vom 16.12.2025, GBl. 2025 Nr. 145 (Wortlaut nicht abgerufen); Entwurf ab 01.01.2027 im Gleichlauf mit der Mietpreisbegrenzungsverordnung, Leonberg und Pforzheim enthalten: https://beteiligungsportal.baden-wuerttemberg.de/fileadmin/redaktion/beteiligungsportal/Dokumente/2026/260922_Verlaengerung_der_KappungsgrenzenVO.pdf (abgerufen 03.11.2026)
 22. § 23 EStG: https://www.gesetze-im-internet.de/estg/__23.html ; Abstimmungen Bundestag 08.10.2026 und Bundesrat 16.10.2026: hausbesitzer-news.de, 17.10.2026: https://hausbesitzer-news.de/recht-finanzen/spekulationsfrist-immobilien-abschaffen-aktueller-stand/ ; Haufe, 19.10.2026: https://www.haufe.de/steuern/gesetzgebung-politik/bundesrat-nimmt-stellung-zum-einkommensteuerreformgesetz-2027_168_700990.html ; Modellrechnung: marktthemen-2026.md, Anhang D2
 23. § 28 Abs. 4 WEG (Vermögensbericht), zitiert nach reduco.ai [1]
 24. Rössler Immobilien, FAQ der Website roessler-immo.de, Stand 19.10.2026 (Provision 2,98 % inkl. USt je Seite)

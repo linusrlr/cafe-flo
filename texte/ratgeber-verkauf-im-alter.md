@@ -23,7 +23,7 @@ Zu meiner Rolle: Ich vermittle keine Verrentungsprodukte, keinen Teilverkauf und
 - Der Vollverkauf bringt den Marktpreis. Bei 290.000 € in Leonberg bleiben nach meiner Provision rund 281.000 € [21].
 - Ein Nießbrauch oder Wohnrecht senkt den Preis rechnerisch nach Bewertungsrecht: für eine 72-jährige Eigentümerin in Leonberg bei 975 € Monatsmiete um rund 42 %, mit 85 Jahren um rund 22 % [24]. Das ist ein Steuerwert, kein Marktpreis.
 - Beim Teilverkauf zahlen Sie ein Nutzungsentgelt ab 4,99 % im Jahr. Laut Sachverständigenrat für Verbraucherfragen bleiben von 200.000 € Teilkaufpreis am Ende 72.000 € [5].
-- Im Pflegefall gilt ein Schonvermögen von 10.000 € je Person; die selbst bewohnte angemessene Wohnung ist geschützt [8] [ZU PRÜFEN: Beträge Stand 2026].
+- Im Pflegefall gilt ein Schonvermögen von 10.000 € je Person; die selbst bewohnte angemessene Wohnung ist geschützt [8].
 - Ein Betreuer braucht für den Verkauf die Genehmigung des Betreuungsgerichts. Eine private Vorsorgevollmacht reicht dem Grundbuchamt nicht (§ 29 GBO) [14].
 
 ## Inhalt
@@ -118,13 +118,13 @@ reduco rechnet bei 120.000 € Bedarf über 15 Jahre: Das Darlehen ist rund 69.0
 
 ## Pflegefall: Muss ich die Wohnung verkaufen, wenn ich ins Heim ziehe?
 
-Die Hilfe zur Pflege nach dem SGB XII ist nachrangig. Das Sozialamt zahlt erst, wenn Rente, Pflegeversicherung und Vermögen nicht reichen. Geschützt sind nach § 90 Abs. 2 SGB XII ein Schonvermögen von 10.000 € je Person, 20.000 € bei Ehepaaren, und ein angemessenes Hausgrundstück, solange Sie oder Ihr Ehepartner darin wohnen [8] [ZU PRÜFEN: Beträge Stand 2026; ImmoScout24 nennt noch veraltete 5.000 €].
+Die Hilfe zur Pflege nach dem SGB XII ist nachrangig. Das Sozialamt zahlt erst, wenn Rente, Pflegeversicherung und Vermögen nicht reichen. Geschützt sind nach § 90 Abs. 2 SGB XII ein Schonvermögen von 10.000 € je Person, 20.000 € bei Ehepaaren, und ein angemessenes Hausgrundstück, solange Sie oder Ihr Ehepartner darin wohnen (§ 90 Abs. 2 Nr. 8 und 9 SGB XII; § 1 der Verordnung zu § 90 Abs. 2 Nr. 9 SGB XII) [8].
 
 Als Orientierung für „angemessen“ nennt ImmoScout24 120 m² für vier Personen, 20 m² weniger je fehlender Person, für einen allein lebenden Ehepartner bis 70 m² [8] [ZU PRÜFEN: Praxis der Sozialämter in Baden-Württemberg].
 
-Zieht der Pflegebedürftige dauerhaft ins Heim und niemand bleibt in der Wohnung, entfällt der Schutz. Es muss aber nicht sofort der Verkauf sein: Das Amt kann die Hilfe als Darlehen gewähren und sich mit einer Grundschuld absichern (§ 91 SGB XII) [9]. Das verschafft Zeit.
+Zieht der Pflegebedürftige dauerhaft ins Heim und niemand bleibt in der Wohnung, entfällt der Schutz. Es muss aber nicht sofort der Verkauf sein: Ist ein sofortiger Verkauf nicht möglich oder wäre er eine Härte, soll das Amt die Hilfe als Darlehen leisten; es kann verlangen, dass der Rückzahlungsanspruch zum Beispiel mit einer Grundschuld gesichert wird (§ 91 SGB XII) [9]. Das verschafft Zeit.
 
-Nach dem Tod haften die Erben drei Jahre lang für die gewährte Sozialhilfe (§ 102 SGB XII) [10].
+Nach dem Tod müssen die Erben die Sozialhilfe der letzten zehn Jahre vor dem Erbfall ersetzen, soweit sie das Dreifache des Grundbetrags übersteigt, und zwar mit dem Wert des Nachlasses; der Anspruch erlischt drei Jahre nach dem Tod (§ 102 SGB XII) [10].
 
 Zwei Punkte, die Angehörige oft falsch einschätzen. Kinder zahlen Elternunterhalt erst ab 100.000 € Bruttojahreseinkommen je Kind (Angehörigen-Entlastungsgesetz, seit 1.1.2020) [8]. Und eine Schenkung an die Kinder in den letzten zehn Jahren schützt nicht, weil der Rückforderungsanspruch auf das Sozialamt übergeht.
 
@@ -253,9 +253,9 @@ Ich melde mich innerhalb eines Werktags, meist telefonisch. Telefon 0159 0584464
 5. Sachverständigenrat für Verbraucherfragen, Gutachten Gsell/Artz vom 25.11.2024 (Teilverkauf: von 200.000 € bleiben 72.000 €), zitiert nach reduco [4]; Verbraucherzentrale Hamburg, Broschüre „Immobilienrente“ 2023/2024 („teuer“, „Risiko einseitig“). https://www.vzhh.de/sites/default/files/medien/136/dokumente/2023-2024_Verbraucherzentrale_Broschuere_Immobilienrente_Web_0.pdf
 6. Verbraucherzentrale, Einordnung Wohnrecht gegen Nießbrauch (geringerer Abzug, Nutzen im Pflegefall), laut Rechercheprotokoll themen-und-lokal.md 10.5 [ZU PRÜFEN: genaue Fundstelle auf verbraucherzentrale.de].
 7. Verbraucherzentrale, „Verkauf der Immobilie gegen Rentenzahlung (Leibrente)“, Stand 16.12.2024: Formel Nettowert minus Wohnwert, Beispiel 250.000 € minus 144.000 € = 106.000 € bzw. 588 €/Monat, Zeitrenten, Grundbuchabsicherung. https://www.verbraucherzentrale.de/wissen/geld-versicherungen/altersvorsorge/verkauf-der-immobilie-gegen-rentenzahlung-leibrente-102201
-8. ImmoScout24, „Umzug ins Pflegeheim: Haus verkaufen oder behalten?“, aktualisiert 22.08.2023: Nachrang der Hilfe zur Pflege, Schonvermögen § 90 Abs. 2 Nr. 8 und 9 SGB XII, Wohnflächen-Orientierung, Angehörigen-Entlastungsgesetz 100.000 €, § 528 BGB. https://www.immobilienscout24.de/wissen/verkaufen/hausverkauf-bei-pflegefall.html ; Schonvermögen 10.000 € je Person nach Pflegewegweiser NRW 2024 (Rechercheprotokoll 10.5) [ZU PRÜFEN: Stand 2026].
-9. § 91 SGB XII (Darlehensgewährung), nach gegen-hartz.de (Rechercheprotokoll 10.5) [ZU PRÜFEN: Normtext und Voraussetzungen].
-10. § 102 SGB XII (Erbenhaftung, drei Jahre), Rechercheprotokoll 10.5 [ZU PRÜFEN: Normtext].
+8. ImmoScout24, „Umzug ins Pflegeheim: Haus verkaufen oder behalten?“, aktualisiert 22.08.2023: Nachrang der Hilfe zur Pflege, Schonvermögen § 90 Abs. 2 Nr. 8 und 9 SGB XII, Wohnflächen-Orientierung, Angehörigen-Entlastungsgesetz 100.000 €, § 528 BGB. https://www.immobilienscout24.de/wissen/verkaufen/hausverkauf-bei-pflegefall.html ; Schonvermögen 10.000 € je volljähriger Person (ImmoScout24 nennt veraltet 5.000 €): § 1 Nr. 1 der Verordnung zur Durchführung des § 90 Abs. 2 Nr. 9 SGB XII, Fassung seit 01.01.2023, https://www.gesetze-im-internet.de/bshg_88abs2dv_1988/__1.html ; § 90 SGB XII: https://www.gesetze-im-internet.de/sgb_12/__90.html (abgerufen 03.11.2026).
+9. § 91 SGB XII (Darlehen bei Vermögen, dessen sofortige Verwertung nicht möglich ist oder eine Härte wäre; dingliche Sicherung möglich): https://www.gesetze-im-internet.de/sgb_12/__91.html (abgerufen 03.11.2026)
+10. § 102 SGB XII (Kostenersatz durch Erben: Kosten der letzten zehn Jahre vor dem Erbfall über dem Dreifachen des Grundbetrags, Haftung mit dem Nachlasswert, Erlöschen drei Jahre nach dem Tod): https://www.gesetze-im-internet.de/sgb_12/__102.html (abgerufen 03.11.2026)
 11. BGH zur Pflicht des Betreuers, den Verkehrswert sorgfältig zu ermitteln (in der Regel Gutachten), nach IWW-Auszug (Rechercheprotokoll 10.5) [ZU PRÜFEN: Aktenzeichen].
 12. ImmoScout24, „Immobilie bei Demenz verkaufen“ (Geschäftsfähigkeit bei Beurkundung). https://www.immobilienscout24.de/wissen/verkaufen/immobilie-bei-demenz-verkaufen.html ; „Immobilienverkauf durch Betreuer“. https://www.immobilienscout24.de/wissen/verkaufen/immobilie-durch-betreuer-verkaufen.html
 13. § 1850 BGB (Genehmigung des Betreuungsgerichts für Verfügung über ein Grundstück, Nr. 1, und Verpflichtung dazu, Nr. 5). https://www.gesetze-im-internet.de/bgb/__1850.html (abgerufen 29.10.2026)
@@ -282,10 +282,10 @@ Ich melde mich innerhalb eines Werktags, meist telefonisch. Telefon 0159 0584464
 
 <!-- Prüfpunkte:
 - IW-Studie: Kreiswerte für Böblingen, Enzkreis und Pforzheim (Paywall).
-- § 91 SGB XII: Voraussetzungen der Darlehensgewährung.
+- Erledigt 03.11.2026: § 91 und § 102 SGB XII im Wortlaut geprüft, Text präzisiert; Schonbetrag 10.000 € je volljähriger Person in § 1 der Verordnung zu § 90 Abs. 2 Nr. 9 SGB XII bestätigt.
 - BGH-Aktenzeichen zur Pflicht des Betreuers, den Verkehrswert zu ermitteln.
 - Pflegestützpunkte: Landkreis Böblingen (Leonberg, Renningen), Landkreis Ludwigsburg (Ditzingen), Enzkreis (Heimsheim), Stadt Pforzheim. Danach Adressen in den Fahrplan.
 - Sozialämter: Landratsamt Böblingen, Landratsamt Ludwigsburg, Landratsamt Enzkreis, Stadt Pforzheim.
-- Zuständige Betreuungsgerichte für die fünf Orte, vermutlich Amtsgericht Leonberg (Leonberg, Renningen, Heimsheim?), Amtsgericht Ludwigsburg (Ditzingen), Amtsgericht Pforzheim; Erfahrungswerte zur Dauer der Genehmigung.
+- Zuständige Betreuungsgerichte nach Amtsgerichtsbezirk (Statistisches Landesamt, GSAG1101, geprüft 03.11.2026): Amtsgericht Leonberg (Leonberg, Renningen), Amtsgericht Maulbronn (Heimsheim, nicht Leonberg), Amtsgericht Ludwigsburg (Ditzingen), Amtsgericht Pforzheim; offen bleibt, ob Betreuungssachen konzentriert sind; Erfahrungswerte zur Dauer der Genehmigung.
 - Zuständigkeit Landkreis Ludwigsburg für Sozialamt und Betreuungsgericht bei Ditzingen.
 -->

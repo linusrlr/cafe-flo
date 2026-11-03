@@ -1,0 +1,13 @@
+---
+// Vorlage für PHP ohne JS (02-formular-backend.md 7): PHP ersetzt die beiden Kommentar-Platzhalter.
+import Basis from '../layouts/Basis.astro';
+import { firma, telefonNbsp } from '../lib/fakten.mjs';
+---
+<Basis titel="Bitte prüfen Sie Ihre Angaben | Rössler Immobilien" beschreibung="Ihre Anfrage konnte noch nicht gesendet werden. Bitte prüfen Sie die markierten Angaben." url="/formular-fehler/" noindex={true}>
+  <section class="hero"><div class="htext">
+    <h1>Ihre Anfrage ist noch nicht angekommen.</h1>
+    <div class="fehler-zusammenfassung"><Fragment set:html="<!--FEHLERLISTE-->" /></div>
+    <Fragment set:html="<!--ZURUECK-->" />
+    <p class="lede">Ihre Eingaben sind in den meisten Browsern noch vorhanden, wenn Sie mit der Zurück-Taste des Browsers zurückgehen. Oder rufen Sie mich an: <a href={firma.telefonHref}>{telefonNbsp}</a>.</p>
+  </div></section>
+</Basis>

@@ -297,8 +297,10 @@ sperrfrist:
     stand: 2026-10-29
     gueltig_ab: 2026-01-01
     gueltig_bis: 2026-12-31
-    status: zu_pruefen
-    hinweis: "Nachfolgeverordnung ab 01.01.2027: Entwurf der Gebietskulissen seit Ministerrat 22.09.2026 in Anhörung. Vor 31.12.2026 prüfen und alle Einträge unten aktualisieren."
+    status: geprueft
+    nachfolge_entwurf: "Verlängerung 01.01.2027 bis 31.12.2029, fünf Jahre in 133 Gemeinden (Leonberg, Pforzheim enthalten; Ditzingen, Renningen, Heimsheim nicht); Ministerrat 22.09.2026, Anhörung bis 13.10.2026"
+    nachfolge_url: "https://beteiligungsportal.baden-wuerttemberg.de/fileadmin/redaktion/beteiligungsportal/Dokumente/2026/260922_Verlaengerung_der_KuendigungssperrfristVO.pdf"
+    hinweis: "Wortlaut 2026 am 03.11.2026 geprüft (130 Gemeinden). Nachfolgeverordnung ist nur Entwurf; nach Beschluss im Gesetzblatt prüfen und Einträge unten aktualisieren (08-faktenpruefung.md)."
     muster: 'GBl\. 2025 Nr\. 146|Kündigungssperrfristverordnung'
     verwendet_in: [ort-ditzingen, ort-heimsheim, ort-leonberg, ort-pforzheim, ort-renningen, ratgeber-eigentumswohnung-verkaufen, ratgeber-geerbte-wohnung-verkaufen, ratgeber-ohne-makler, ratgeber-verkaufen-oder-vermieten, ratgeber-vermietete-wohnung-verkaufen, start]
   gesetzlich:
@@ -360,10 +362,10 @@ sperrfrist:
     rechtsgrundlage: "§ 577a Abs. 1 BGB; Ditzingen laut Gesetzblatt nicht in § 1 KSpVO BW"
     quelle: "GBl. 2025 Nr. 146; abweichend: Deutscher Mieterbund, Übersicht Kündigungssperrfrist-Verordnungen, Stand 06/2026 (nennt Ditzingen)"
     url: "https://mieterbund.de/service/mieterschutzverordnungen/kuendigungssperrfrist/"
-    stand: 2026-10-29
+    stand: 2026-11-03
     gueltig_bis: 2026-12-31
-    status: zu_pruefen
-    hinweis: "Quellenkonflikt Gesetzblatt vs. Mieterbund. ort-ditzingen.md und start.md tragen [ZU PRÜFEN]."
+    status: geprueft
+    hinweis: "Am 03.11.2026 im Wortlaut geprüft: Ditzingen nicht in § 1 KSpVO BW und nicht im Entwurf ab 2027. Maßgeblich ist das Gesetzblatt; Mieterbund-Angabe abweichend."
     muster: 'Ditzingen[^.]{0,200}(Sperrfrist|Kündigungssperr)|(Sperrfrist|Kündigungssperr)[^.]{0,200}Ditzingen'
     verwendet_in: [ort-ditzingen, ort-heimsheim, ort-renningen, ratgeber-eigentumswohnung-verkaufen, ratgeber-vermietete-wohnung-verkaufen, start]
 
@@ -431,11 +433,12 @@ mietpreisbremse:
 kappungsgrenze:
   wert: "15 % in drei Jahren"
   rechtsgrundlage: "§ 558 Abs. 3 BGB in Verbindung mit der Kappungsgrenzenverordnung BW (sonst 20 %)"
-  quelle: "Kappungsgrenzenverordnung BW, verlängert bis 31.12.2026"
-  stand: 2026-10-29
+  quelle: "Kappungsgrenzenverordnung BW vom 16.12.2025, GBl. 2025 Nr. 145, verlängert bis 31.12.2026; Entwurf ab 01.01.2027"
+  url: "https://beteiligungsportal.baden-wuerttemberg.de/fileadmin/redaktion/beteiligungsportal/Dokumente/2026/260922_Verlaengerung_der_KappungsgrenzenVO.pdf"
+  stand: 2026-11-03
   gueltig_bis: 2026-12-31
   status: zu_pruefen
-  hinweis: "Eigene Gemeindeliste, Identität mit Mietpreisbremse-Kulisse nicht geprüft."
+  hinweis: "Entwurf ab 2027 bestimmt die Gebiete im Gleichlauf mit der Mietpreisbegrenzungsverordnung (133 Gemeinden, Leonberg und Pforzheim enthalten). Wortlaut der Fassung 2026 (GBl. 2025 Nr. 145) am 03.11.2026 nicht gefunden."
   muster: 'Kappungsgrenze'
   verwendet_in: [ort-ditzingen, ort-leonberg, ort-renningen, ratgeber-verkaufen-oder-vermieten, ratgeber-vermietete-wohnung-verkaufen]
 
@@ -466,13 +469,14 @@ grundsteuer:
       muster: 'Hebesatz von 220|Leonberg[^.]{0,40}220|220 %'
       verwendet_in: [ort-leonberg, ort-renningen, ratgeber-eigentumswohnung-verkaufen, ratgeber-wohnung-scheidung]
     leonberg_ab_2027:
-      wert: "250 %"
-      zahl: 250
-      quelle: "Stadt Leonberg, Vorlage 2026/083"
-      stand: 2026-10-29
+      wert: null
+      vorschlag_verwaltung: "250 %"
+      quelle: "Stadt Leonberg, Vorlage 2026/083; Stuttgarter Zeitung, 30.05.2026 (Vorschlag fand im Gemeinderat keine Mehrheit)"
+      url: "https://www.stuttgarter-zeitung.de/lokales/boeblingen/finanznoete-in-leonberg-grundsteuer-debatte-das-erste-scheitern-von-tobias-degode-79234632.html"
+      stand: 2026-11-03
       stichtag: 2027-01-01
-      status: zu_pruefen
-      hinweis: "Nur Vorlage; Gemeinderatsbeschluss vom 19.05.2026 prüfen."
+      status: offen
+      hinweis: "Wert geändert am 03.11.2026: 250 % war nur Vorschlag und wurde laut StZ nicht beschlossen. Endgültigen Hebesatz ab 2027 eintragen (Ratsinformationssystem mit Bot-Schutz)."
       muster: '250 ?% ab|250 % ab dem|Anhebung auf 250|ab 2027 sind 250'
       verwendet_in: [ort-leonberg, ort-renningen, ratgeber-wohnung-scheidung]
     ditzingen:
@@ -499,11 +503,11 @@ grundsteuer:
     pforzheim:
       wert: "348 %"
       zahl: 348
-      quelle: "hebesatz.grundsteuer.de, Übersicht Baden-Württemberg (amtlich unbestätigt)"
-      url: "https://hebesatz.grundsteuer.de/baden-wuerttemberg"
-      stand: 2026-10-29
-      status: zu_pruefen
-      hinweis: "Amtlichen Hebesatz Grundsteuer B bei der Stadt Pforzheim prüfen."
+      quelle: "Stadt Pforzheim, Grundsteuerreform (Hebesatz B 348 v. H. ab 2025, Beschluss Dezember 2024)"
+      url: "https://www.pforzheim.de/buerger/gemeinderat/haushalt/grundsteuerreform.html"
+      stand: 2026-11-03
+      gueltig_ab: 2025-01-01
+      status: geprueft
       muster: '348 ?%'
       verwendet_in: [ort-pforzheim]
     heimsheim:
@@ -511,7 +515,7 @@ grundsteuer:
       quelle: "nicht gefunden; Dossier nennt 330 % (Stand 2023)"
       stand: 2026-10-29
       status: offen
-      hinweis: "Bei der Stadt Heimsheim erfragen."
+      hinweis: "Bei der Stadt Heimsheim erfragen. 03.11.2026: keine Satzung online; Stuttgarter Zeitung nennt 143 % (Jahr unklar)."
       muster: 'Hebesatz[^.]*Heimsheim|330 ?%'
       verwendet_in: [ort-heimsheim]
 
@@ -891,7 +895,7 @@ kfw_308:
     stand: 2026-10-06
     pruefintervall_monate: 1
     status: zu_pruefen
-    hinweis: "Texte tragen [ZU PRÜFEN: tagesaktueller KfW-Zinssatz]. Am Veröffentlichungstag im KfW-Konditionenanzeiger prüfen, dann status geprueft."
+    hinweis: "Texte tragen [ZU PRÜFEN: tagesaktueller KfW-Zinssatz]. Am Veröffentlichungstag im KfW-Konditionenanzeiger prüfen, dann status geprueft. 03.11.2026: kfw.de-Programmseite zeigt nur Platzhalter; KfW-Pressemitteilung vom 30.07.2026 nennt zum Start 0,53 % effektiv (35 Jahre, 10 Jahre Zinsbindung); 1,00 % stammt nur aus baukostenplan.de."
     muster: '1,00 ?%'
     verwendet_in: [ort-ditzingen, ort-heimsheim, ort-leonberg, ort-pforzheim, ort-renningen, ratgeber-eigentumswohnung-verkaufen, ratgeber-energieausweis, ratgeber-ohne-makler, ratgeber-sofortankauf-vs-makler, ratgeber-verkaufen-oder-vermieten, start, wohnung-bewerten, wohnung-verkaufen]
   hoechstbetraege:
@@ -946,10 +950,10 @@ gmodg:
     verwendet_in: [ratgeber-eigentumswohnung-verkaufen, ratgeber-energieausweis, ratgeber-ohne-makler]
   bussgeld:
     wert: "bis zu 10.000 €"
-    rechtsgrundlage: "§ 108 GModG"
-    quelle: "Verbraucherzentrale, Stand 31.08.2026"
-    stand: 2026-10-29
-    status: zu_pruefen
-    hinweis: "Betrag und Nummern des Bußgeldkatalogs im Gesetzestext prüfen."
+    rechtsgrundlage: "§ 108 Abs. 1 Nr. 21 in Verbindung mit Abs. 2 Nr. 2 GModG (Pflichtangaben nach § 87 Abs. 1)"
+    quelle: "gesetze-im-internet.de, § 108 GModG (aktuelle Fassung)"
+    url: "https://www.gesetze-im-internet.de/geg/__108.html"
+    stand: 2026-11-03
+    status: geprueft
     muster: '10\.000 ?€ Bußgeld|Bußgeld[^.]{0,40}10\.000'
     verwendet_in: [ratgeber-energieausweis, ratgeber-ohne-makler]

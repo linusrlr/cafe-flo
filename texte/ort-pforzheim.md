@@ -35,7 +35,7 @@ Bei der Miete reicht die Spanne vom Durchschnitt des städtischen Mietspiegels 2
 
 - **Sperrfrist fünf Jahre im ganzen Stadtkreis.** Pforzheim steht in § 1 der Kündigungssperrfristverordnung, die 2026 gilt [7]. Wer eine nach Mietbeginn umgewandelte Wohnung kauft, kann deshalb erst nach fünf Jahren Eigenbedarf anmelden, in der Kernstadt genauso wie in Büchenbronn oder Würm.
 - **Mietpreisbremse, neu seit 2026.** Bei Neuvermietung darf die Miete nicht mehr als 10 Prozent über der ortsüblichen Vergleichsmiete liegen; ausgenommen sind Wohnungen, die nach dem 1. Oktober 2014 erstmals vermietet wurden, und Wohnungen nach umfassender Modernisierung [8]. Dokumentieren Sie die bisherige Miete und Modernisierungen, denn eine zulässige Vormiete über dem Mietspiegel ist für den Käufer bares Geld.
-- **Hebesatz.** Vergleichsportale geben für die Grundsteuer B 348 Prozent [ZU PRÜFEN: amtlicher Hebesatz der Stadt Pforzheim] an [9]. Weil Baden-Württemberg seit 2025 nach dem Bodenwert rechnet, ist die Grundsteuer bei einer Eigentumswohnung ein kleiner Posten.
+- **Hebesatz 348 Prozent.** Die Stadt erhebt die Grundsteuer B seit 2025 mit 348 Prozent [9]. Weil Baden-Württemberg seit 2025 nach dem Bodenwert rechnet, ist die Grundsteuer bei einer Eigentumswohnung ein kleiner Posten.
 - **Käufer mit knappem Budget.** Das durchschnittliche Haushaltseinkommen liegt laut Landesgutachten bei 51.550 Euro, niedriger als in den anderen vier Orten meines Gebiets [8]. Eigennutzer suchen Wohnungen unter 250.000 Euro und finanzieren knapp, jede Zinsänderung wirkt hier stärker als in Leonberg.
 - **Viele Bestände mit Energieklasse F bis H.** Wohnungen aus den 1950er bis 1970er Jahren haben in Pforzheim oft eine dieser Klassen. Familien mit Kind bekommen dafür seit dem 3. August 2026 über KfW 308 bis zu 140.000, 160.000 oder 180.000 Euro zu 1,00 Prozent [ZU PRÜFEN: tagesaktueller KfW-Zinssatz] effektiv, wenn sie den Antrag vor dem Notarvertrag stellen [10]. Den Notartermin plane ich so, dass dafür Zeit bleibt.
 
@@ -107,7 +107,7 @@ Alle Preise sind Angebotspreise mit Stand, für Pforzheim zuletzt am 29. Oktober
 6. Stadt Pforzheim, Mietspiegel 2025 (Durchschnitt 8,58 €/m² nettokalt, +9,02 %), https://www.pforzheim.de/buerger/buergerservice/kommunale-statistikstelle/statistische-veroeffentlichungen/mietspiegel.html
 7. Kündigungssperrfristverordnung Baden-Württemberg vom 16.12.2025, GBl. 2025 Nr. 146 vom 19.12.2025, https://www.landtag-bw.de/resource/blob/611984/7e993deafc1547ab553a30dfe14a9333/GBl2025146.pdf
 8. Mietpreisbegrenzungsverordnung Baden-Württemberg vom 16.12.2025 (GBl. Nr. 144); Ministerium für Landesentwicklung und Wohnen BW, „Mietpreisbremse: Einzeldaten aller Städte und Gemeinden, Stand August 2025“ (Gutachten FUB IGES; Haushaltseinkommen), https://mlw.baden-wuerttemberg.de/de/bauen-wohnen/wohnungsbau/mietpreisbremse; §§ 556d ff. BGB
-9. hebesatz.grundsteuer.de, Übersicht Baden-Württemberg (Pforzheim 348 %, amtlich unbestätigt), https://hebesatz.grundsteuer.de/baden-wuerttemberg
+9. Stadt Pforzheim, Grundsteuerreform (Hebesätze ab 2025: Grundsteuer B 348 vom Hundert, Grundsteuer A 517 vom Hundert, Gemeinderatsbeschluss Dezember 2024), https://www.pforzheim.de/buerger/gemeinderat/haushalt/grundsteuerreform.html (abgerufen 03.11.2026)
 10. KfW, Programm 308 „Jung kauft Alt“, Konditionen vom 06.10.2026 (Kredithöchstbeträge seit 03.08.2026), nach recherche/marktthemen-2026.md Kap. 14
 11. Arlinger Baugenossenschaft, ePaper Badische Neueste Nachrichten, Juni 2026 (45 % Einpersonenhaushalte), https://arlinger.de/wp-content/uploads/2026/06/ePaper-Badische-Neueste-Nachrichten.pdf
 12. Rössler Immobilien, FAQ Provision 2,98 % inkl. USt je Seite, https://roessler-immo.de (Stand Oktober 2026)
@@ -125,12 +125,13 @@ Alle Preise sind Angebotspreise mit Stand, für Pforzheim zuletzt am 29. Oktober
 -->
 
 <!-- Zu prüfen:
-- Kündigungssperrfrist: Nachfolgeverordnung ab 01.01.2027 (Entwurf in der Anhörung).
+- Erledigt 03.11.2026: Entwurf der KSpVO, Kappungsgrenzen- und Mietpreisbegrenzungsverordnung 01.01.2027 bis 31.12.2029 (Ministerrat 22.09.2026, Anhörung bis 13.10.2026, 133 Gemeinden) gelesen: Leonberg und Pforzheim enthalten, Ditzingen, Renningen, Heimsheim nicht. Beschluss steht aus (analyse-aktuelle-webseite/08-faktenpruefung.md).
 - ImmoScout24-Regionalseite Pforzheim war beim Abruf nicht erreichbar; nachholen.
-- Destatis: Zuordnung des Stadtkreises Pforzheim zum Kreistyp „kreisfreie Großstädte“ (+2,0 % im 2. Quartal 2026); auf der Kurzfassung nicht genannt.
+- Erledigt 03.11.2026: Pforzheim ist laut BBSR-Referenztabelle 2025 eine kreisfreie Großstadt (kleine kreisfreie Großstadt); Destatis-Wert +2,0 % (Eigentumswohnungen, 2. Quartal 2026) gilt für diesen Kreistyp. Auf der Kurzfassung weiter nicht genannt.
 - Fernwärme: Stand des kommunalen Wärmeplans und des SWP-Fernwärmeausbaus je Stadtteil.
 - Studierendenzahl der Hochschule Pforzheim mit Quelle (Käufergruppe Eltern von Studierenden, hier weggelassen).
 - Beispielinserat Südweststadt (44 m², 164.000 €, 3.727 €/m²): Inserat und Datum; hier weggelassen.
 - Zwangsversteigerungen (Beispiele 50.000 und 113.000 €, Argetra): Quelle sichern; hier weggelassen.
 - Einwohnerzahl 134.422 gegen Originaltabelle des Statistischen Landesamts; auf der Kurzfassung nicht genannt.
+- KfW-Zins (03.11.2026 versucht): kfw.de zeigt auf der Programmseite 308 nur Platzhalter; die KfW-Pressemitteilung vom 30.07.2026 nennt zum Start 0,53 % effektiv (35 Jahre, 10 Jahre Zinsbindung), der Text 1,00 % nach baukostenplan.de (07.10.2026). Zinssatz am Veröffentlichungstag auf kfw.de/308 ablesen; Marker bleibt.
 -->

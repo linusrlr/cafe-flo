@@ -1,0 +1,2 @@
+# Erlaubte Inline-Skripte (CSP script-src). Erzeugt von scripts/nach-build.mjs; in deploy/nginx-roessler-immo.conf eintragen.
+'sha256-RDlDVFY8ZvdvKqxJX3/NFpyK7ltg/jNCIFAqn5NQ0xs='

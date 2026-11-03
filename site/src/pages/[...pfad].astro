@@ -1,0 +1,167 @@
+---
+import { Picture, getImage } from 'astro:assets';
+import Basis from '../layouts/Basis.astro';
+import Formular from '../components/Formular.astro';
+import { alleSeiten, rendere, istGebaut, pruefeProduktion, VORSCHAU, BASIS_URL, RUBRIKEN, ICON_TEL } from '../lib/inhalte.mjs';
+import { firma, telefonNbsp, autorzeile } from '../lib/fakten.mjs';
+import { graph, brotkrumen } from '../lib/schema.mjs';
+import { toHtml } from 'hast-util-to-html';
+import neubau from '../assets/neubau.jpg';
+import architektur from '../assets/architektur.jpg';
+import altbau from '../assets/altbau.jpg';
+import daecher from '../assets/daecher.jpg';
+import portrait from '../assets/portrait.jpg';
+
+export function getStaticPaths() {
+  if (!VORSCHAU) {
+    const fehler = pruefeProduktion();
+    if (fehler.length) {
+      throw new Error(`\n\nProduktions-Build abgebrochen: ${fehler.length} offene Stelle(n) auf Seiten aus veroeffentlichen.yaml.\n` +
+        `Liste mit Fragen-Zuordnung: npm run offen\n\n` + fehler.map((f) => '  ' + f).join('\n') + '\n');
+    }
+  }
+  return alleSeiten()
+    .filter((s) => s.gebaut && s.typ !== 'fehler')
+    .map((s) => ({ params: { pfad: s.url === '/' ? undefined : s.url.slice(1, -1) }, props: { url: s.url } }));
+}
+
+const seite = alleSeiten().find((s) => s.url === Astro.props.url);
+const r = rendere(seite);
+const typ = seite.typ;
+
+// Hero-Bilder (Design der Live-Seite: Split-Hero). Ortsfotos folgen nach dem Fototermin (M12).
+const BILDER = {
+  start: [neubau, 'Wohngebäude mit Eigentumswohnungen an einer Grünfläche'],
+  leistung: [architektur, 'Wohngebäude mit Dachterrasse'],
+  ankauf: [altbau, 'Älteres Wohnhaus mit Sanierungsbedarf'],
+  bewertung: [neubau, 'Wohngebäude mit Eigentumswohnungen an einer Grünfläche'],
+  ort: [daecher, 'Dächer einer gewachsenen Altstadt von oben'],
+  person: [portrait, 'Linus Rössler'],
+};
+const bild = BILDER[typ];
+const heroArt = bild ? 'split' : typ === 'kontakt' ? 'dunkel' : 'text';
+const ogBildUrl = bild ? BASIS_URL + (await getImage({ src: bild[0], width: 1200, format: 'webp' })).src : null;
+
+const tel = toHtml(ICON_TEL);
+const ueberMichOk = istGebaut('/ueber-mich/');
+const zeigeMeta = ['leistung', 'ankauf', 'bewertung', 'ort', 'ratgeber', 'aktuell'].includes(typ);
+const zeigeAutor = ['leistung', 'ankauf', 'bewertung', 'ort', 'ratgeber', 'aktuell'].includes(typ);
+const krumen = seite.url === '/' ? [] : brotkrumen(seite);
+
+// Standard-Buttons, wenn das Intro keine eigenen hat
+let standardButtons = null;
+if (!r.hero.actions && ['ankauf', 'bewertung', 'ort', 'person'].includes(typ)) {
+  const ziel = typ === 'bewertung' ? ['#formular', 'Wohnung kostenlos einschätzen lassen'] : typ === 'ankauf' ? ['#ankauf-formular', 'Ankauf prüfen lassen'] : istGebaut('/wohnung-bewerten/') ? ['/wohnung-bewerten/', 'Wohnung kostenlos einschätzen lassen'] : null;
+  standardButtons = { ziel };
+}
+// Hub: Liste der Kinder
+const hubTyp = typ === 'hub' ? (seite.url === '/aktuell/' ? 'aktuell' : 'ratgeber') : null;
+const kinder = hubTyp ? alleSeiten().filter((s) => s.gebaut && s.typ === hubTyp).sort((a, b) => (a.reihenfolge ?? 99) - (b.reihenfolge ?? 99) || b.standIso.localeCompare(a.standIso)) : [];
+const gruppen = hubTyp === 'ratgeber'
+  ? Object.entries(RUBRIKEN).map(([k, t]) => ({ id: k, titel: t, liste: kinder.filter((s) => s.rubrik === k) })).filter((g) => g.liste.length)
+  : hubTyp ? [{ id: 'meldungen', titel: 'Meldungen', liste: kinder }] : [];
+
+const jsonld = VORSCHAU ? graph(seite, r, ogBildUrl) : graph(seite, r, ogBildUrl);
+const sektionKlasse = (a) => a.art === 'kontakt' ? 'band dark kontakt-abschnitt' : a.art === 'quellen' ? 'band quellen-abschnitt' : a.art === 'inhalt' ? 'inhalt-abschnitt' : a.kacheln ? 'band' : '';
+---
+<Basis titel={r.titel} beschreibung={r.beschreibung} url={seite.url} noindex={seite.noindex} jsonld={jsonld}
+  ogTyp={['ratgeber', 'aktuell'].includes(typ) ? 'article' : 'website'} marker={r.marker.length}
+  anrufleiste={!['bewertung', 'danke'].includes(typ)} hashUmleitung={seite.url === '/'}>
+  <div class={typ === 'recht' ? 'recht' : undefined}>
+  <section class={`hero${heroArt === 'dunkel' ? ' band dark' : ''}`}>
+    {heroArt === 'split' ? (
+      <div class="hsplit">
+        <div class="pane">
+          {krumen.length > 0 && <nav class="brotkrumen" aria-label="Brotkrumen"><ol>{krumen.map((k, i) => i < krumen.length - 1 && istGebaut(k.url) ? <li><a href={k.url}>{k.name}</a></li> : <li aria-current={i === krumen.length - 1 ? 'page' : undefined}>{k.name}</li>)}</ol></nav>}
+          <h1 id={r.h1Id} set:html={r.h1Html} />
+          {zeigeMeta && <p class="meta">Stand: {seite.standText} · Lesezeit {r.lesezeit} Minuten · Von {ueberMichOk ? <a href="/ueber-mich/">Linus Rössler</a> : 'Linus Rössler'}, {autorzeile()}</p>}
+          {r.hero.lead && <Fragment set:html={r.hero.lead} />}
+          {r.hero.region && <Fragment set:html={r.hero.region} />}
+          {r.hero.actions && <Fragment set:html={r.hero.actions} />}
+          {standardButtons && (
+            <div class="actions">
+              {standardButtons.ziel && <a class="btn btn-primaer" href={standardButtons.ziel[0]}>{standardButtons.ziel[1]}</a>}
+              <a class={`btn ${standardButtons.ziel ? 'line btn-sekundaer' : 'btn-primaer'}`} href={firma.telefonHref}><Fragment set:html={tel} />Anrufen</a>
+            </div>
+          )}
+          {r.hero.hinweis && <Fragment set:html={r.hero.hinweis} />}
+        </div>
+        <div class={`pic${typ === 'person' ? ' portrait' : ''}`}>
+          <Picture src={bild[0]} alt={bild[1]} formats={['avif', 'webp']} widths={[480, 800, 1200, 1600].filter((w) => w <= bild[0].width)} sizes="(min-width: 841px) 50vw, 100vw" loading="eager" fetchpriority="high" decoding="async" />
+        </div>
+      </div>
+    ) : (
+      <div class="htext">
+        {krumen.length > 0 && <nav class="brotkrumen" aria-label="Brotkrumen"><ol>{krumen.map((k, i) => i < krumen.length - 1 && istGebaut(k.url) ? <li><a href={k.url}>{k.name}</a></li> : <li aria-current={i === krumen.length - 1 ? 'page' : undefined}>{k.name}</li>)}</ol></nav>}
+        {typ === 'recht' && <p class="eyebrow">Pflichtangaben</p>}
+        <h1 id={r.h1Id} set:html={r.h1Html} />
+        {zeigeMeta && <p class="meta">Stand: {seite.standText} · Lesezeit {r.lesezeit} Minuten · Von {ueberMichOk ? <a href="/ueber-mich/">Linus Rössler</a> : 'Linus Rössler'}, {autorzeile()}</p>}
+        {r.hero.lead && <Fragment set:html={r.hero.lead} />}
+        {r.hero.region && <Fragment set:html={r.hero.region} />}
+        {r.hero.actions && <Fragment set:html={r.hero.actions} />}
+        {r.hero.hinweis && <Fragment set:html={r.hero.hinweis} />}
+        {heroArt === 'dunkel' && <div class="actions"><a class="btn" href={firma.telefonHref}><Fragment set:html={tel} />Anrufen</a><a class="btn line" href="#formular">Nachricht schreiben</a></div>}
+      </div>
+    )}
+  </section>
+
+  {r.intro.length > 0 && (
+    <section class="intro-abschnitt">
+      <div class="wrap prosa">
+        {r.intro.map((t) => t.formular ? <Formular typ={t.formular} seite={seite.url} /> : <Fragment set:html={t.html} />)}
+      </div>
+    </section>
+  )}
+
+  {gruppen.length > 0 && (
+    <section class="band">
+      <div class="wrap">
+        {gruppen.map((g) => (
+          <div class="hubgruppe">
+            <h2 id={g.id}>{g.titel}</h2>
+            <ul class="hubliste">
+              {g.liste.map((s) => { const d = rendere(s); return <li><a href={s.url}>{s.kurztitel}</a><p>{d.beschreibung}</p><small>Stand: {s.standText}</small></li>; })}
+            </ul>
+          </div>
+        ))}
+      </div>
+    </section>
+  )}
+  {hubTyp && !gruppen.length && <section><div class="wrap prosa"><p>Die ersten Beiträge erscheinen in Kürze.</p></div></section>}
+
+  {r.abschnitte.map((a) => (
+    <>
+      {a.art === 'quellen' && zeigeAutor && (
+        <section>
+          <div class="wrap">
+            <div class="autorbox">
+              <Picture src={portrait} alt="Linus Rössler" formats={['avif', 'webp']} widths={[96, 192]} sizes="72px" loading="lazy" />
+              <div>
+                <p class="nm">{firma.inhaber}</p>
+                <p>{autorzeile()}</p>
+                {ueberMichOk && <p><a href="/ueber-mich/">Mehr über mich</a></p>}
+              </div>
+            </div>
+          </div>
+        </section>
+      )}
+      <section class={sektionKlasse(a) || undefined}>
+        {a.art === 'kontakt' ? (
+          <div class="wrap mecard">
+            <Picture class="avatar" src={portrait} alt="Linus Rössler" formats={['avif', 'webp']} widths={[240, 400]} sizes="200px" loading="lazy" />
+            <div class="prosa">
+              <Fragment set:html={a.kopfHtml} />
+              {a.teile.map((t) => t.formular ? <Formular typ={t.formular} seite={seite.url} /> : <Fragment set:html={t.html} />)}
+            </div>
+          </div>
+        ) : (
+          <div class="wrap prosa">
+            <Fragment set:html={a.kopfHtml} />
+            {a.teile.map((t) => t.formular ? <Formular typ={t.formular} seite={seite.url} /> : <Fragment set:html={t.html} />)}
+          </div>
+        )}
+      </section>
+    </>
+  ))}
+  </div>
+</Basis>

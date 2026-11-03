@@ -1,0 +1,100 @@
+---
+// Formular aus src/data/formulare.json. Ohne JS: alle Schritte untereinander, normaler POST.
+// Mit JS (scripts/formular.js): Schritte, Zurück-Taste (pushState), Fetch mit JSON-Antwort.
+import def from '../data/formulare.json';
+import { firma, telefonNbsp } from '../lib/fakten.mjs';
+import { istGebaut } from '../lib/inhalte.mjs';
+const { typ, seite } = Astro.props;
+const f = def[typ];
+const jahr = new Date().getFullYear();
+const schritte = f.schritte;
+const mehrstufig = schritte.length > 1;
+const id = (n) => `f-${typ}-${n}`;
+const maxWert = (m) => (m === 'jahr+3' ? jahr + 3 : m);
+const datenschutzOk = istGebaut('/datenschutz/');
+---
+<div class="formular-box" id={f.anker}>
+  <form method="post" action={f.endpunkt} novalidate={false} data-formular={typ} data-zeit-min={f.zeit_min_ms} class={mehrstufig ? 'mehrstufig' : undefined} data-fehler-versand={def.texte.fehler_versand} data-fehler-pruefen={def.texte.fehler_pruefen}>
+    {f.einleitung && <p class="microcopy">{f.einleitung}</p>}
+    <div class="fehler-zusammenfassung" tabindex="-1" hidden></div>
+    {mehrstufig && <div class="fortschritt" hidden><span aria-live="polite" class="schritt-status">Schritt 1 von {schritte.length}</span><progress max={schritte.length} value="1">Schritt 1 von {schritte.length}</progress></div>}
+    {schritte.map((s, i) => (
+      <fieldset class={mehrstufig ? 'schritt' : 'flach'} data-schritt={i + 1}>
+        {s.legende ? <legend tabindex="-1">{s.legende}</legend> : <legend class="sr-only">Ihre Angaben</legend>}
+        {s.microcopy && <p class="microcopy">{s.microcopy}</p>}
+        {s.felder.map((n) => {
+          const d = f.felder[n];
+          const hilfeId = d.hilfe ? `${id(n)}-hilfe` : null;
+          const fehlerId = `${id(n)}-fehler`;
+          const beschr = [hilfeId, fehlerId].filter(Boolean).join(' ');
+          const zusatz = d.pflicht ? ' (Pflicht)' : d.kontaktweg ? ' (E-Mail oder Telefon)' : '';
+          const sichtbar = d.sichtbar_wenn ? JSON.stringify(d.sichtbar_wenn) : undefined;
+          if (d.typ === 'mehrfach') return (
+            <fieldset class="gruppe feld" data-feld={n} data-sichtbar-wenn={sichtbar} aria-describedby={beschr}>
+              <legend>{d.label}</legend>
+              {Object.entries(d.optionen).map(([w, l]) => (
+                <label class="wahl"><input type="checkbox" name={`${n}[]`} value={w} /> {l}</label>
+              ))}
+              {d.hilfe && <p class="hilfe" id={hilfeId}>{d.hilfe}</p>}
+              <p class="fehlertext" id={fehlerId}></p>
+            </fieldset>
+          );
+          if (d.typ === 'checkbox') return (
+            <div class="feld" data-feld={n}>
+              <label class="wahl"><input type="checkbox" id={id(n)} name={n} value={d.wert} checked={d.vorausgewaehlt} /> {d.label}</label>
+              <p class="fehlertext" id={fehlerId}></p>
+            </div>
+          );
+          return (
+            <div class="feld" data-feld={n} data-sichtbar-wenn={sichtbar}>
+              <label for={id(n)}>{d.label}<span class="pflicht">{zusatz}</span></label>
+              {d.typ === 'auswahl' ? (
+                <select id={id(n)} name={n} required={d.pflicht} aria-describedby={beschr}>
+                  <option value="">bitte wählen</option>
+                  {Object.entries(d.optionen).map(([w, l]) => <option value={w}>{l}</option>)}
+                </select>
+              ) : d.typ === 'textfeld' ? (
+                <textarea id={id(n)} name={n} maxlength={d.max} aria-describedby={beschr}></textarea>
+              ) : d.typ === 'zahl' ? (
+                <span class="einheit">
+                  <input id={id(n)} name={n} type="number" inputmode={d.dezimal ? 'decimal' : 'numeric'} step={d.dezimal ? '0.1' : '1'} min={d.min} max={maxWert(d.max)} aria-describedby={beschr} />
+                  {d.einheit && <span aria-hidden="true">{d.einheit}</span>}
+                </span>
+              ) : (
+                <input id={id(n)} name={n}
+                  type={d.typ === 'email' ? 'email' : d.typ === 'tel' ? 'tel' : 'text'}
+                  autocomplete={d.autocomplete} maxlength={d.max} required={d.pflicht}
+                  pattern={d.typ === 'tel' ? '[0-9+()/\\- ]{6,30}' : undefined}
+                  aria-describedby={beschr} />
+              )}
+              {d.hilfe && <p class="hilfe" id={hilfeId}>{d.hilfe}</p>}
+              <p class="fehlertext" id={fehlerId}></p>
+            </div>
+          );
+        })}
+        {mehrstufig && (
+          <div class="schritt-nav" hidden>
+            {i > 0 && <button type="button" class="btn line" data-zurueck>Zurück</button>}
+            {i < schritte.length - 1 && <button type="button" class="btn" data-weiter>{s.weiter ?? 'Weiter'}</button>}
+          </div>
+        )}
+      </fieldset>
+    ))}
+    <input type="hidden" name="formular" value={typ} />
+    <input type="hidden" name="v" value={f.version} />
+    <input type="hidden" name="seite" value={seite} />
+    <input type="hidden" name="t" value="" />
+    <input type="hidden" name="js" value="0" />
+    <div class="hp" aria-hidden="true">
+      <label for={id('website')}>Bitte leer lassen</label>
+      <input id={id('website')} name="website" type="text" tabindex="-1" autocomplete="off" />
+    </div>
+    <div class="formular-fuss">
+      <div><button type="submit" class="btn btn-primaer" data-absenden>{f.button}</button></div>
+      {f.unter_button && <p class="note">{f.unter_button}</p>}
+      <p class="note">Lieber anrufen? <a href={firma.telefonHref}>{telefonNbsp}</a></p>
+      <p class="note">{def.texte.datenschutz} {datenschutzOk ? <>Details in der <a href="/datenschutz/">Datenschutzerklärung</a>.</> : null}</p>
+    </div>
+  </form>
+</div>
+<script src="../scripts/formular.js"></script>

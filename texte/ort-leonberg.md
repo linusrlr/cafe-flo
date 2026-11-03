@@ -35,7 +35,7 @@ Zur Miete stehen Leonberger Wohnungen bei 12,76 €/m² (Immowelt, Juli 2026) bi
 
 - **Sperrfrist fünf Jahre.** Wer eine vermietete Wohnung kauft, die nach Beginn des Mietverhältnisses in Wohnungseigentum umgewandelt wurde, kann in Leonberg erst nach fünf statt nach drei Jahren Eigenbedarf geltend machen. Die Landesverordnung gilt vom 1. Januar bis 31. Dezember 2026 für die ganze Stadt [6]. Für Käufer, die selbst einziehen wollen, ändert das die Rechnung, deshalb kläre ich den Punkt vor dem Exposé.
 - **Mietpreisbremse.** Leonberg ist seit dem 1. Januar 2026 erneut in der Gebietskulisse, bei Neuvermietung darf die Miete nicht mehr als 10 Prozent über der ortsüblichen Vergleichsmiete liegen [7]. Anleger kalkulieren deshalb mit der rechtlich zulässigen Miete; als Verkäufer belegen Sie sie mit Vormiete, Modernisierungsnachweis oder einem Baujahr nach Oktober 2014.
-- **Hebesatz 220 Prozent.** Eine Vorlage der Stadt sieht für die Grundsteuer ab 1. Januar 2027 einen Hebesatz von 250 Prozent [ZU PRÜFEN: Gemeinderatsbeschluss vom 19. Mai 2026] vor [8]. Bei einer Eigentumswohnung mit kleinem Bodenanteil bleibt das ein kleiner Posten, nach dem Bescheid fragen Käufer trotzdem.
+- **Hebesatz 220 Prozent.** Die Stadtverwaltung hat für die Grundsteuer ab 1. Januar 2027 einen Hebesatz von 250 Prozent vorgeschlagen [8]; laut Stuttgarter Zeitung fand das im Gemeinderat im Mai 2026 keine Mehrheit [14]. Welcher Satz ab 2027 gilt, nenne ich, sobald er beschlossen ist [ZU PRÜFEN: Hebesatz ab 2027 nach endgültigem Beschluss]. Bei einer Eigentumswohnung mit kleinem Bodenanteil bleibt das ein kleiner Posten, nach dem Bescheid fragen Käufer trotzdem.
 - **Käufer.** Ein großer Teil kommt von außen: Pendler entlang der S6 nach Stuttgart und Beschäftigte von GEZE, Porsche in Weissach oder Bosch in Renningen. Bosch baut in der Sparte Cross-Domain Computing Solutions Stellen ab, betroffen ist auch Leonberg, betriebsbedingte Kündigungen sind bis Ende 2027 ausgeschlossen [9]. Käufer aus diesem Umfeld finanzieren vorsichtiger als vor zwei Jahren.
 - **Ältere Anlagen.** Bei Wohnungen aus den 1960er bis 1990er Jahren bestimmen Rücklage, Protokolle und Energieklasse den Preis stärker als die Ausstattung. Hat das Gebäude die Klasse F, G oder H, können Familien mit Kind seit August 2026 über KfW 308 zu 1,00 Prozent [ZU PRÜFEN: tagesaktueller KfW-Zinssatz] effektiv finanzieren [10]. Anleger kaufen in Leonberg wegen der Vermietbarkeit, nicht wegen der Rendite: Nach meiner Rechnung aus Portaldaten zahlen sie 20 bis 25 Jahresmieten.
 
@@ -110,6 +110,7 @@ Preisangaben sind Angebotspreise mit dem genannten Stand, für Leonberg zuletzt 
 11. Wikipedia, „Leonberg“ (Stadtgliederung, Eingemeindungen, S-Bahn), https://de.wikipedia.org/wiki/Leonberg
 12. Rössler Immobilien, FAQ Provision 2,98 % inkl. USt je Seite, https://roessler-immo.de (Stand Oktober 2026)
 13. reduco.ai, „Eigentumswohnung verkaufen 2026: Ablauf, Kosten, ohne Makler“, aktualisiert 17.08.2026 (Notartermin bis Geldeingang 4 bis 12 Wochen, Grundschuldlöschung 217,50 € bzw. 342,50 €), https://reduco.ai/blog/immobilienverkauf/wohnung-verkaufen-ablauf; ImmoScout24 „drei bis fünf Monate“ und Homeday „sechs bis zwölf Monate“ nach recherche/themen-und-lokal.md 1.5
+14. Stuttgarter Zeitung, „Finanznöte in Leonberg: Grundsteuer-Debatte, das erste Scheitern von Tobias Degode“, 30.05.2026, https://www.stuttgarter-zeitung.de/lokales/boeblingen/finanznoete-in-leonberg-grundsteuer-debatte-das-erste-scheitern-von-tobias-degode-79234632.html (abgerufen 03.11.2026)
 
 <!-- Fragen an Linus:
 - Bestand: Stimmt es, dass ein großer Teil der Wohnungen in Ramtel, Eltingen und am Silberberg aus den 1960er bis 1990er Jahren stammt? Welche Baujahre, Wohnanlagen und Hausgeld-Spannen hast du bei Besichtigungen gesehen?
@@ -121,11 +122,12 @@ Preisangaben sind Angebotspreise mit dem genannten Stand, für Leonberg zuletzt 
 -->
 
 <!-- Zu prüfen:
-- Kündigungssperrfrist: Nachfolgeverordnung ab 01.01.2027 (Entwurf in der Anhörung, Ministerrat 22.09.2026).
+- Erledigt 03.11.2026: Entwurf der KSpVO, Kappungsgrenzen- und Mietpreisbegrenzungsverordnung 01.01.2027 bis 31.12.2029 (Ministerrat 22.09.2026, Anhörung bis 13.10.2026, 133 Gemeinden) gelesen: Leonberg und Pforzheim enthalten, Ditzingen, Renningen, Heimsheim nicht. Beschluss steht aus (analyse-aktuelle-webseite/08-faktenpruefung.md).
 - Höfingen: eigener S-Bahn-Halt laut Wikipedia, gegen VVS-Fahrplan prüfen.
-- Mietpreisbremse: Gemeindeliste der Kappungsgrenzenverordnung 2026 (Langfassung nennt 15 % in drei Jahren; hier weggelassen, bis geprüft).
+- Kappungsgrenze: Entwurf ab 2027 nennt Leonberg (Gleichlauf mit der Mietpreisbremse); Kappungsgrenzenverordnung 2026 (GBl. 2025 Nr. 145) am 03.11.2026 nicht im Wortlaut gefunden. Weiter weggelassen.
 - Fahrzeit S6 Leonberg bis Stuttgart Hbf (ca. 25 Minuten, nur Einzelbeleg) und Bericht der Stuttgarter Zeitung über Verspätungen am Bahnhof Leonberg: beide hier weggelassen, bis VVS bzw. Artikel und Datum vorliegen.
 - Bodenrichtwert 766 €/m² (01.01.2025) über BORIS-BW und Stichtag 01.01.2026 prüfen; auf der Kurzfassung nicht genannt.
 - Einwohnerzahl 49.514 gegen Originaltabelle des Statistischen Landesamts; auf der Kurzfassung nicht genannt.
 - Maklerumfrage 54,3 % länger als sechs Monate: Urheber und Stichprobe; auf der Kurzfassung nicht genannt.
+- KfW-Zins (03.11.2026 versucht): kfw.de zeigt auf der Programmseite 308 nur Platzhalter; die KfW-Pressemitteilung vom 30.07.2026 nennt zum Start 0,53 % effektiv (35 Jahre, 10 Jahre Zinsbindung), der Text 1,00 % nach baukostenplan.de (07.10.2026). Zinssatz am Veröffentlichungstag auf kfw.de/308 ablesen; Marker bleibt.
 -->

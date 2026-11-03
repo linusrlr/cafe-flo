@@ -126,14 +126,15 @@ Preisangaben sind Angebotspreise; Stand je Quelle, abgerufen bis 29.10.2026.
 -->
 
 <!-- Zu prüfen:
-- Sperrfrist: Mieterbund-Liste erneut lesen; möglicherweise bezieht sie sich auf eine frühere Verordnung oder auf die Mietpreisbremse. Vor Veröffentlichung Stand der Nachfolgeverordnung ab 01.01.2027 prüfen.
+- Erledigt 03.11.2026: Ditzingen steht nicht in § 1 KSpVO BW (GBl. 2025 Nr. 146, 130 Gemeinden, im Wortlaut gelesen) und nicht im Entwurf ab 2027; die Mieterbund-Liste weicht ab, maßgeblich ist das Gesetzblatt.
 - Mietanstieg 21,8 % (10,58 auf 12,89 €/m²): Die Langfassung nennt einmal den Zeitraum 2011 bis 2022, einmal „seit 2017/18“. Im Landesgutachten den Zeitraum klären; die Kurzfassung nennt deshalb keinen.
-- Zuständiger Gutachterausschuss für Ditzingen (vermutlich Landkreis Ludwigsburg) und Bezugsquelle des Marktberichts.
+- Gutachterausschuss teilweise erledigt 03.11.2026: Gemeinsamer Gutachterausschuss Strohgäu, Geschäftsstelle Stadt Ditzingen, Am Laien 1 (Gebührensatzung der Stadt Ditzingen, https://www.ditzingen.de/fileadmin/Dateien/Dateien/Ortsrecht/6.01Gutachterausschussgebuehrensatzung.pdf). Offen: aktueller Marktbericht online nicht gefunden.
 - Inserat Hirschlanden (3,5 Zimmer, 79 m², kernsaniert, 279.000 €, 3.532 €/m², Hausgeld 390 €/Monat): Inserat-URL nachtragen; bis dahin auf der Kurzfassung weggelassen.
 - iep wohnen: Projekt-URL und Stand für Heimerdingen.
 - Strohgäubahn-Halt Heimerdingen und Takt.
 - Bodenrichtwert Ditzingen und Stadtteile über BORIS-BW, Stichtag 01.01.2025.
 - Einwohnerzahl: 22.551 (Wikipedia, 31.12.2025), 25.318 (onlinestreet, 31.12.2023), „mehr als 24.000“ (Stadtbroschüre); Originaltabelle des Statistischen Landesamts. Auf der Kurzfassung nicht genannt.
-- Grundbuch und Nachlass: Amtsgericht Ludwigsburg?
+- Nachlass teilweise erledigt 03.11.2026: Ditzingen gehört zum Amtsgerichtsbezirk Ludwigsburg (Statistisches Landesamt, Regionalschlüsselverzeichnis GSAG1101). Offen: Grundbuchamt (vermutlich Amtsgericht Waiblingen wie Gerlingen und Korntal-Münchingen, nicht belegt).
 - Maklerumfrage 54,3 % länger als sechs Monate: Urheber und Stichprobe; auf der Kurzfassung nicht genannt.
+- KfW-Zins (03.11.2026 versucht): kfw.de zeigt auf der Programmseite 308 nur Platzhalter; die KfW-Pressemitteilung vom 30.07.2026 nennt zum Start 0,53 % effektiv (35 Jahre, 10 Jahre Zinsbindung), der Text 1,00 % nach baukostenplan.de (07.10.2026). Zinssatz am Veröffentlichungstag auf kfw.de/308 ablesen; Marker bleibt.
 -->

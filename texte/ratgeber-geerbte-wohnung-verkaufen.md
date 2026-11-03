@@ -41,8 +41,8 @@ Die Ausschlagungsfrist beträgt sechs Wochen ab dem Zeitpunkt, an dem Sie vom Er
 | Frist | Was | Wo | Rechtsgrundlage |
 |---|---|---|---|
 | 6 Wochen ab Kenntnis | Ausschlagung, sonst Annahme | Nachlassgericht | § 1944 BGB |
-| 3 Monate ab Kenntnis | Anzeige des Erwerbs beim Finanzamt | Erbschaftsteuer-Finanzamt | § 30 ErbStG [19] [ZU PRÜFEN: Frist und Ausnahmen im Gesetz, etwa bei eröffnetem notariellem Testament] |
-| 2 Jahre ab Erbfall | Grundbuchberichtigung gebührenfrei | Grundbuchamt | Nr. 14110 KV GNotKG [4] [ZU PRÜFEN: Norm und Voraussetzungen, auf den ausgewerteten Seiten nicht zitiert] |
+| 3 Monate ab Kenntnis | Anzeige des Erwerbs beim Finanzamt | Erbschaftsteuer-Finanzamt | § 30 Abs. 1 ErbStG; gehört eine Wohnung zum Erbe, auch bei eröffnetem notariellem Testament (§ 30 Abs. 3 ErbStG) [19] |
+| 2 Jahre ab Erbfall | Grundbuchberichtigung gebührenfrei | Grundbuchamt | Anmerkung 1 zu Nr. 14110 KV GNotKG: Antrag der Erben binnen zwei Jahren seit dem Erbfall beim Grundbuchamt [4] |
 | 10 Jahre ab Kauf durch den Erblasser | Spekulationsfrist | Einkommensteuer | § 23 Abs. 1 S. 3 EStG |
 | laufend ab Todestag | Hausgeld | Hausverwaltung | § 28 WEG |
 
@@ -117,7 +117,7 @@ Drei Beispiele, jeweils ohne weiteres Erbe:
 
 Bei Kindern ist die Wohnung in der Region meist steuerfrei, bei Nichten, Neffen und Geschwistern fast nie. Zwei Regeln können die Steuer senken. Ist die Wohnung vermietet, setzt das Finanzamt nur 90 % des Werts an (§ 13d ErbStG) [8].
 
-Und wer das Familienheim des Erblassers selbst bezieht und zehn Jahre bewohnt, bleibt steuerfrei; für Kinder gilt das bis 200 m² Wohnfläche (§ 13 Abs. 1 Nr. 4b und 4c ErbStG) [7] [ZU PRÜFEN: Grenze und Voraussetzungen im Gesetz; eine Portalseite nennt „rund 150 m²“, das ist nicht zu übernehmen].
+Und wer das Familienheim des Erblassers selbst bezieht und zehn Jahre bewohnt, bleibt steuerfrei; für Kinder gilt das bis 200 m² Wohnfläche (§ 13 Abs. 1 Nr. 4b und 4c ErbStG) [7]. Voraussetzung ist, dass der Erblasser selbst darin gewohnt hat und Sie unverzüglich selbst einziehen.
 
 Das Bundesverfassungsgericht hat am 12. und 13. Oktober 2026 über die Erbschaftsteuer verhandelt, unter anderem über den Normenkontrollantrag Bayerns gegen die unveränderten Freibeträge. Ein Urteil liegt nicht vor; bis dahin gelten die Tabellen oben. Ich erbringe keine Steuerberatung; die Berechnung für Ihren Fall macht Ihr Steuerberater.
 
@@ -137,11 +137,11 @@ Gewinne unter 1.000 € im Kalenderjahr bleiben steuerfrei (Freigrenze). Die Fri
 
 Das Finanzamt bewertet die Wohnung nach dem Bewertungsgesetz, seit dem 1. Januar 2023 mit Parametern aus der Immobilienwertermittlungsverordnung 2021, was tendenziell höhere Werte ergibt [13].
 
-Für Eigentumswohnungen gilt vorrangig das Vergleichswertverfahren; der Bundesfinanzhof hat im März 2026 den Vorrang der Vergleichspreise der Gutachterausschüsse bestätigt (II R 6/23) [11].
+Für Eigentumswohnungen schreibt das Gesetz grundsätzlich das Vergleichswertverfahren vor (§ 182 Abs. 2 BewG). Der Bundesfinanzhof hat im März 2026 entschieden, dass die Vergleichspreise der Gutachterausschüsse in der Regel ohne weitere Ermittlungen zugrunde gelegt werden dürfen (II R 6/23) [11].
 
 Die Zahl des Finanzamts kommt also aus der Kaufpreissammlung des Gutachterausschusses, nicht aus einem Portal und nicht von mir. Zuständig sind der Gutachterausschuss der Stadt Leonberg (Belforter Platz 1, 07152 990-3119), für Heimsheim der Gemeinsame Gutachterausschuss im Enzkreis in Mühlacker und der Gutachterausschuss der Stadt Pforzheim [14].
 
-Halten Sie den Wert für zu hoch, können Sie einen niedrigeren gemeinen Wert nachweisen, durch ein Gutachten oder einen zeitnahen Verkauf innerhalb eines Jahres (§ 198 BewG) [12] [ZU PRÜFEN: Voraussetzungen und Jahresfrist im Gesetz]. Meine Einschätzung ist kein solches Gutachten und wird vom Finanzamt nicht anerkannt. Das sage ich offen, damit Sie nicht mit meinem Verkaufsplan zum Finanzamt gehen. Ob der Kaufpreis aus einem Verkauf als Nachweis dient, besprechen Sie mit dem Steuerberater, bevor Sie den Notartermin festlegen.
+Halten Sie den Wert für zu hoch, können Sie einen niedrigeren gemeinen Wert nachweisen, durch ein Gutachten oder durch einen Kaufpreis, der innerhalb eines Jahres vor oder nach dem Todestag im gewöhnlichen Geschäftsverkehr zustande kam, wenn sich die Verhältnisse seitdem nicht geändert haben (§ 198 Abs. 2 und 3 BewG) [12]. Meine Einschätzung ist kein solches Gutachten und wird vom Finanzamt nicht anerkannt. Das sage ich offen, damit Sie nicht mit meinem Verkaufsplan zum Finanzamt gehen. Ob der Kaufpreis aus einem Verkauf als Nachweis dient, besprechen Sie mit dem Steuerberater, bevor Sie den Notartermin festlegen.
 
 **Verkaufen, vermieten oder einziehen?** Nicht jede geerbte Wohnung muss verkauft werden. Drei Fragen helfen, und alle hängen am Gebäude. Was steht in den Protokollen? Eine Anlage mit beschlossener Fassadensanierung ist etwas anderes als eine mit gefüllter Rücklage. Wo wohnen die Erben? Wer von Hamburg aus in Leonberg vermietet, braucht jemanden vor Ort für Übergaben, Handwerker und Versammlungen. Will jemand einziehen, zählt die Familienheim-Regel. Die Zahlen rechnet der Ratgeber [Verkaufen oder vermieten?](/ratgeber/verkaufen-oder-vermieten/) durch.
 
@@ -216,22 +216,22 @@ Auch wenn Sie nicht in der Region wohnen: Ich schaue mir Wohnung und Gebäude an
 1. § 1944 BGB (Ausschlagungsfrist sechs Wochen), zitiert nach wohnglück [3]; Gesetzestext vor Veröffentlichung auf gesetze-im-internet.de gegenprüfen
 2. ImmoScout24, „Geerbtes Haus verkaufen: Steuer“, aktualisiert 20.08.2026: https://www.immobilienscout24.de/wissen/verkaufen/geerbtes-haus-verkaufen-steuer.html
 3. wohnglück, „Geerbtes Haus verkaufen“ (ohne Datum): https://wohnglueck.de/artikel/geerbtes-haus-verkaufen-70484
-4. Gebührenfreiheit der Grundbuchberichtigung innerhalb von zwei Jahren, Nr. 14110 KV GNotKG (auf den ausgewerteten Seiten nicht zitiert), ZU PRÜFEN
+4. GNotKG, Anlage 1, Nr. 14110 KV mit Anmerkung 1 (keine Gebühr für die Eintragung von Erben des eingetragenen Eigentümers, wenn der Antrag binnen zwei Jahren seit dem Erbfall beim Grundbuchamt eingereicht wird): https://www.gesetze-im-internet.de/gnotkg/anlage_1.html (abgerufen 03.11.2026)
 5. Freibeträge § 16 ErbStG: Finanztip, „Erbschaftsteuer“, aktualisiert 07.08.2026: https://www.finanztip.de/erbschaftssteuer/ ; übereinstimmend ImmoScout24 [2] und wohnglück [3]
 6. Steuersätze § 19 ErbStG: ImmoScout24 [2], wohnglück [3], Finanztip [5], übereinstimmend
-7. Familienheim § 13 Abs. 1 Nr. 4b und 4c ErbStG (zehn Jahre Selbstnutzung, Kinder bis 200 m²): ImmoScout24 [2]; aroundhome, aktualisiert 04.09.2026: https://www.aroundhome.de/immobilienverkauf/geerbtes-haus-verkaufen/ ; marktthemen-2026.md Kap. 5b; ZU PRÜFEN im Gesetz
+7. Familienheim § 13 Abs. 1 Nr. 4b und 4c ErbStG (zehn Jahre Selbstnutzung, Kinder bis 200 m²): ImmoScout24 [2]; aroundhome, aktualisiert 04.09.2026: https://www.aroundhome.de/immobilienverkauf/geerbtes-haus-verkaufen/ ; marktthemen-2026.md Kap. 5b; Gesetzestext § 13 Abs. 1 Nr. 4b und 4c ErbStG (Kinder: Wohnfläche bis 200 Quadratmeter): https://www.gesetze-im-internet.de/erbstg_1974/__13.html (abgerufen 03.11.2026)
 8. § 13d ErbStG (10 % Abschlag für vermietete Wohnimmobilien), nach marktthemen-2026.md Kap. 5b; Gesetzestext gegenprüfen
 9. § 23 EStG (Abs. 1 S. 3 Zurechnung beim unentgeltlichen Erwerb; Abs. 3 S. 5 Freigrenze): https://www.gesetze-im-internet.de/estg/__23.html (abgerufen 29.10.2026); Finanztip, „Spekulationssteuer“, aktualisiert 09.07.2026: https://www.finanztip.de/spekulationssteuer-immobilienverkauf/
 10. steuertipps.de, Spekulationssteuer Immobilien (teilentgeltlicher Erwerb, Erbteilskauf, Vermächtnis): https://www.steuertipps.de/wohnen-haus-vermietung/spekulationssteuer-immobilien/themen
-11. BFH, Urteil vom 11.03.2026, II R 6/23 (Vorrang der Vergleichspreise der Gutachterausschüsse), nach Ebner Stolz, 29.06.2026: https://www.ebnerstolz.de/de/unser-angebot/leistungen/steuerberatung/nachfolgeplanung/vergleichspreise-immobilienbewertung-erbschaft-und-schenkungsteuer-108656.html ; Volltext ZU PRÜFEN
-12. § 198 BewG (Nachweis des niedrigeren gemeinen Werts durch Gutachten oder zeitnahen Verkauf), nach marktthemen-2026.md Kap. 5b; ZU PRÜFEN
+11. BFH, Urteil vom 11.03.2026, II R 6/23 (Finanzgericht darf die Vergleichspreise der Gutachterausschüsse nach § 183 BewG in der Regel ohne weitere Ermittlungen zugrunde legen), nach Der Betrieb, „BFH zur richterlichen Kontrolle im Vergleichswertverfahren“: https://der-betrieb.de/meldungen/bfh-zur-richterlichen-kontrolle-im-vergleichswertverfahren/ (abgerufen 03.11.2026) und Ebner Stolz, 29.06.2026: https://www.ebnerstolz.de/de/unser-angebot/leistungen/steuerberatung/nachfolgeplanung/vergleichspreise-immobilienbewertung-erbschaft-und-schenkungsteuer-108656.html ; Volltext ZU PRÜFEN
+12. § 198 BewG (Abs. 2 Gutachten des Gutachterausschusses oder zertifizierter Sachverständiger, Abs. 3 Kaufpreis innerhalb eines Jahres vor oder nach dem Bewertungsstichtag bei unveränderten Verhältnissen): https://www.gesetze-im-internet.de/bewg/__198.html ; § 182 Abs. 2 BewG: https://www.gesetze-im-internet.de/bewg/__182.html (beide abgerufen 03.11.2026)
 13. §§ 182 ff. BewG, Anpassung durch das Jahressteuergesetz 2022 ab 01.01.2023, nach marktthemen-2026.md Kap. 5a und 5b
 14. Gutachterausschüsse: Stadt Leonberg, Belforter Platz 1, 71229 Leonberg, gutachterausschuss@leonberg.de, 07152 990-3119: https://www.leonberg.de/Rathaus/Verwaltung/Gutachterausschuss ; Kontaktdaten laut https://www.bodenrichtwerte-deutschland.de/boris/bw/leonberg ; Gemeinsamer Gutachterausschuss im Enzkreis, Mühlacker, gutachter@gua-enzkreis.de; Stadt Pforzheim, Immobilienmarktbericht 2021/22: https://www.pforzheim.de/fileadmin/user_upload/bauen/Gutachterausschuss/Immobilienmarktbericht_2021_22_Internet.pdf
 15. Wohnungseigentumsgesetz: § 12 (Veräußerungsbeschränkung): https://dejure.org/gesetze/WEG/12.html ; § 18 Abs. 4 (Einsichtsrecht), § 28 (Wirtschaftsplan, Abrechnung, Vermögensbericht), zitiert nach reduco.ai, „Wohnung verkaufen: Ablauf“, aktualisiert 17.08.2026: https://reduco.ai/blog/immobilienverkauf/wohnung-verkaufen-ablauf
 16. § 10 Abs. 1 Nr. 2 ZVG (Vorrecht der Gemeinschaft für Hausgeldforderungen in der Zwangsversteigerung), zitiert nach reduco.ai [15]
 17. Angebotspreise Eigentumswohnungen: immoportal.com (Stichtag 01.10.2026): https://www.immoportal.com/immobilienpreise/leonberg ; https://www.immoportal.com/immobilienpreise/pforzheim ; immoverkauf24 (Sprengnetter, Q2 2026): https://www.immoverkauf24.de/immobilienpreise/baden-wuerttemberg/boeblingen-kreis/leonberg/ ; https://www.immoverkauf24.de/immobilienpreise/baden-wuerttemberg/pforzheim/
 18. Rössler Immobilien, FAQ der Website roessler-immo.de, Stand 19.10.2026 (Provision 2,98 % inkl. USt je Seite)
-19. § 30 ErbStG (Anzeigepflicht innerhalb von drei Monaten), ZU PRÜFEN (Recherche A2 Nr. 6)
+19. § 30 ErbStG (Abs. 1 Anzeige binnen drei Monaten nach Kenntnis; Abs. 3 keine Ausnahme, wenn Grundbesitz zum Erwerb gehört): https://www.gesetze-im-internet.de/erbstg_1974/__30.html (abgerufen 03.11.2026)
 20. BVerfG, mündliche Verhandlung 12./13.10.2026, 1 BvF 1/23 und 1 BvR 804/22; Freibeträge unverändert seit 2009: Rödl & Partner, „Bundesverfassungsgericht prüft Erbschaftsteuer“, 12.08.2026: https://www.roedl.com/insights/bundesverfassungsgericht-prueft-erbschaftsteuer/ ; marktthemen-2026.md Kap. 5a
 21. Spekulationsfrist bleibt (Bundestag 08.10.2026, 131 zu 446; Bundesrat 16.10.2026): hausbesitzer-news.de, 17.10.2026: https://hausbesitzer-news.de/recht-finanzen/spekulationsfrist-immobilien-abschaffen-aktueller-stand/
 22. § 566 BGB (Kauf bricht nicht Miete), zitiert nach ImmoScout24 und reduco.ai [15]; Mietrechtspaket II, BT-Drs. 21/6807 (§ 566 auch bei Erbauseinandersetzung), Deutscher Bundestag, hib vom 15.10.2026: https://www.bundestag.de/presse/hib/kurzmeldungen-1224894 ; ZU PRÜFEN Inkrafttreten
@@ -250,10 +250,10 @@ Auch wenn Sie nicht in der Region wohnen: Ich schaue mir Wohnung und Gebäude an
 -->
 
 <!-- Prüfpunkte:
-- Zuständigkeiten für die fünf Orte: Nachlassgericht und Grundbuchamt für Leonberg, Renningen und Heimsheim (Amtsgericht Leonberg?), für Ditzingen (Amtsgericht Ludwigsburg?) und für Pforzheim; zuständiges Finanzamt für die Erbschaftsteuer in Baden-Württemberg (zentrale Zuständigkeit?).
+- Zuständigkeiten teilweise erledigt 03.11.2026 (08-faktenpruefung.md): Nachlassgericht nach Amtsgerichtsbezirk: Leonberg und Renningen AG Leonberg, Heimsheim AG Maulbronn, Ditzingen AG Ludwigsburg, Pforzheim AG Pforzheim. Grundbuch: Leonberg und Renningen AG Waiblingen, Heimsheim und Pforzheim AG Maulbronn; Ditzingen offen. Offen: Erbschaftsteuer-Finanzamt in BW.
 - Mietrechtspaket II (BT-Drs. 21/6807) will § 566 BGB ausdrücklich auch auf die Erbauseinandersetzung erstrecken; Inkrafttreten prüfen (Satz in der Kurzfassung gestrichen).
 - Erbschaftsteuerreform der Bundesregierung: nach widersprüchlichen Quellen verschoben; Stand prüfen.
-- BFH II R 6/23: Volltext prüfen, bisher nur nach einer Kanzleimeldung.
-- Gutachterausschüsse für Ditzingen (Landkreis Ludwigsburg) und Renningen (Landkreis Böblingen); aktuelle Marktberichte aller Ausschüsse, für Pforzheim liegt online nur der Bericht 2021/22 vor.
+- BFH II R 6/23 vom 11.03.2026: Aussage nach zwei übereinstimmenden Fachmeldungen (Ebner Stolz, Der Betrieb) präzisiert (03.11.2026); BFH-Volltext nicht abgerufen.
+- Gutachterausschüsse erledigt 03.11.2026: Ditzingen Gemeinsamer Gutachterausschuss Strohgäu (Sitz Ditzingen), Renningen Gemeinsamer Gutachterausschuss Renningen, Rutesheim und Weissach (Bericht 2023 gekürzt online). Offen: aktuelle Berichte für Leonberg und Pforzheim (online nur 2021/22).
 - IW-Studie (Oktober 2026, 300 von 400 Kreisen): Kreiswerte für Böblingen, Enzkreis und Pforzheim (Paywall); Absatz in der Kurzfassung gestrichen.
 -->
