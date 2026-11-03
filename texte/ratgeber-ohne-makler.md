@@ -67,7 +67,7 @@ Diese Posten fallen beim Privatverkauf typischerweise an:
 | Home Staging (optional) | 1.000 bis 5.000 € | [4] |
 | Gesamt | ca. 2.000 bis 10.000 € | [4] |
 
-Eine zweite Quelle setzt allein für Portal und Fotos 130 bis 700 € an [3]. [ZU PRÜFEN: aktuelle Preise privater Inserate 2026 bei ImmoScout24, Immowelt und Kleinanzeigen] [LINUS: Hast du aktuelle Paketpreise der Portale für Privatanbieter?]
+Eine zweite Quelle setzt allein für Portal und Fotos 130 bis 700 € an [3]. [ZU PRÜFEN: aktuelle Preise privater Inserate 2026 bei ImmoScout24, Immowelt und Kleinanzeigen]
 
 Bei der Eigentumswohnung ist der Energieausweis ein Sonderfall. Er gilt für das ganze Gebäude, die Gemeinschaft beschafft ihn per Beschluss, und die Kosten werden nach Anteilen verteilt [9]. Sie zahlen also meist nur Ihren Anteil, müssen aber auf den Beschluss warten.
 
@@ -105,7 +105,7 @@ Hinein gehören Grundriss, Wohnfläche, Pflichtangaben zum Energieausweis, das H
 Portale, Kleinanzeigen und ein Aushang sind die üblichen Wege. Nehmen Sie keine Reservierungsgebühr. Der BGH hat eine solche Vereinbarung in Allgemeinen Geschäftsbedingungen für unwirksam erklärt (Urteil vom 20.04.2023, I ZR 113/22) [19].
 
 ### Schritt 6: Anfragen filtern
-Nach dem Inserat melden sich Interessenten, aber auch Besichtigungstouristen, Ankäufer mit „kaufe sofort“ und Makler, die sich als Käufer ausgeben. Fragen Sie am Telefon nach Finanzierung, Zeitrahmen und Eigenkapital, bevor Sie einen Termin geben. [LINUS: Hast du auf eigene Inserate Ankäufer-Anfragen bekommen? Ein anonymisiertes Beispiel würde hier helfen.]
+Nach dem Inserat melden sich Interessenten, aber auch Besichtigungstouristen, Ankäufer mit „kaufe sofort“ und Makler, die sich als Käufer ausgeben. Fragen Sie am Telefon nach Finanzierung, Zeitrahmen und Eigenkapital, bevor Sie einen Termin geben.
 
 ### Schritt 7: Besichtigungen
 Legen Sie den Energieausweis aus [10]. Sammeltermine sparen Zeit. Ist die Wohnung vermietet, stimmen Sie die Termine mit dem Mieter ab. Mehr dazu im [Ratgeber zur vermieteten Wohnung](/ratgeber/vermietete-wohnung-verkaufen/).
@@ -131,7 +131,7 @@ Käufer sind 2026 gut informiert. Für jede Frage brauchen Sie eine Unterlage, n
 | Bekomme ich KfW 308? | Familien können Wohnungen der Klassen F, G und H mit bis zu 180.000 € zu 1,00 % finanzieren [17] | Energieausweis |
 | Was zahle ich an Steuer? | Grunderwerbsteuer in Baden-Württemberg 5 %, Notar und Grundbuch trägt üblicherweise der Käufer [21] | keine |
 
-Dazu kommen Fragen nach Stellplatz, Wallbox und Balkonkraftwerk. [LINUS: Welche fünf bis zehn Fragen stellen Käufer bei deinen Besichtigungen in Leonberg und Pforzheim am häufigsten, möglichst wörtlich? Eigene Erfahrung wird als solche gekennzeichnet.]
+Dazu kommen Fragen nach Stellplatz, Wallbox und Balkonkraftwerk.
 
 ## Zehn typische Fehler
 
@@ -183,17 +183,17 @@ In diesen Fällen rate ich eher ab:
 
 Meine Einschätzung: Steht der Käufer fest, brauchen Sie keinen Makler. Dann brauchen Sie einen belegten Preis, vollständige Unterlagen und einen Notar. Muss der Käufer erst gefunden werden, entscheidet die Vermarktung über den Preis. Dort verdiene ich meine Provision.
 
-Laut einer Umfrage einer Kreissparkassen-Tochter von 2025 unter rund 500 Eigentümern wählen 67 % den Maklerweg [7]. Eine amtliche Zahl gibt es nicht [7]. [LINUS: Hast du deine eigene Wohnung privat gekauft? Was lief gut, was nicht? Ein ehrliches Beispiel würde hier helfen.]
+Laut einer Umfrage einer Kreissparkassen-Tochter von 2025 unter rund 500 Eigentümern wählen 67 % den Maklerweg [7]. Eine amtliche Zahl gibt es nicht [7].
 
 ## Hybrid: Einzelleistungen bei Rössler Immobilien
 
 Zwischen „alles selbst“ und „alles abgeben“ liegt ein Mittelweg. Sie verkaufen selbst und buchen einzelne Leistungen:
 
-| Leistung | Was Sie bekommen | Preis |
+| Leistung | Was Sie bekommen | Preis [LINUS: Festpreise je Einzelleistung eintragen] |
 |---|---|---|
-| Bewertung mit schriftlichem Verkaufsplan | Preisvorschlag mit Begründung, Käufergruppen, Vorbereitung, Zeitplan | [LINUS: Festpreis] |
-| Exposé mit Unterlagen-Check | Exposé mit Pflichtangaben, Prüfung der Verwaltungsunterlagen auf Lücken | [LINUS: Festpreis] |
-| Notarkoordination und Käuferprüfung | Prüfung der Finanzierungsbestätigung, Abstimmung mit Notar und Verwaltung | [LINUS: Festpreis] |
+| Bewertung mit schriftlichem Verkaufsplan | Preisvorschlag mit Begründung, Käufergruppen, Vorbereitung, Zeitplan | Festpreis |
+| Exposé mit Unterlagen-Check | Exposé mit Pflichtangaben, Prüfung der Verwaltungsunterlagen auf Lücken | Festpreis |
+| Notarkoordination und Käuferprüfung | Prüfung der Finanzierungsbestätigung, Abstimmung mit Notar und Verwaltung | Festpreis |
 | Komplettvermittlung | Vermarktung, Besichtigungen, Verhandlung, Notar | 2,98 % je Seite inkl. USt [2] |
 
 Die Einzelleistungen kosten einen Festpreis und hängen nicht vom Verkauf ab. Sie sind keine Provision. [ZU PRÜFEN: Rechtsform der Einzelleistungen durch einen Anwalt prüfen lassen, damit kein Maklervertrag mit Provisionsfolge nach §§ 656a bis 656d BGB entsteht. Die Box erst veröffentlichen, wenn Preise und Rechtsform geklärt sind.]
@@ -224,7 +224,7 @@ Nein. Beim beurkundeten Kaufvertrag gibt es kein Widerrufsrecht [3]. Ein Rücktr
 Die Vermarktung von Eigentumswohnungen dauerte im ersten Quartal 2026 im Schnitt 90 Tage, gemessen in 24 Städten [5]. Eine andere Übersicht nennt ohne Makler 6 bis 12 Monate, mit Makler 3 bis 6 Monate; das ist ein Richtwert ohne Quelle [4]. Vom Notartermin bis zum Geldeingang vergehen 4 bis 12 Wochen [5].
 
 ### Kann ich nur einzelne Leistungen buchen?
-Ja, zum Beispiel die Bewertung mit Verkaufsplan, das Exposé oder die Notarkoordination zum Festpreis. [LINUS: Preise nach Freigabe eintragen.]
+Ja, zum Beispiel die Bewertung mit Verkaufsplan, das Exposé oder die Notarkoordination zum Festpreis.
 
 ## Hinweis
 Ich erbringe keine Rechtsberatung, insbesondere nicht zu Kaufvertragsklauseln, Haftungsausschlüssen oder Maklerklauseln in fremden Verträgen; dafür sind Notar oder Anwalt zuständig. Steuerliche Angaben ersetzen keine Steuerberatung. Bonitätsauskünfte über Dritte gebe ich nicht. Die Kostenspannen stammen aus Ratgeberseiten von Portalen, die Umfragewerte sind nicht amtlich. Stand der Gesetze und Urteile: Oktober 2026.
@@ -236,7 +236,7 @@ Ich erbringe keine Rechtsberatung, insbesondere nicht zu Kaufvertragsklauseln, H
 **[Wohnung kostenlos einschätzen lassen, auch wenn Sie selbst verkaufen](/wohnung-bewerten/)**
 Ein falscher Preis kostet beim Privatverkauf schnell mehr als die Provision. Die Einschätzung kostet nichts und verpflichtet Sie zu nichts.
 
-Oder: [Einzelleistungen anfragen (Bewertung, Exposé, Notarkoordination)](/kontakt/) [LINUS: Checkliste „Privatverkauf einer Eigentumswohnung“ als PDF freigeben oder Link streichen.]
+Oder: [Einzelleistungen anfragen (Bewertung, Exposé, Notarkoordination)](/kontakt/)
 
 ## Vor Ort
 - [Wohnung verkaufen in Renningen](/wohnung-verkaufen/renningen/): Wer in Malmsheim selbst verkaufen will, findet dort die Sperrfristlage und die Preisstreuung der Portale.
@@ -277,3 +277,13 @@ Oder: [Einzelleistungen anfragen (Bewertung, Exposé, Notarkoordination)](/konta
 21. Grunderwerbsteuer Baden-Württemberg 5 %: https://www.finanz.de/steuern/grunderwerbsteuer/baden-wuerttemberg/ ; Kostentragung Käufer § 448 Abs. 2 BGB nach reduco [5]
 22. § 23 EStG: https://www.gesetze-im-internet.de/estg/__23.html ; Spekulationsfrist bleibt, Bundestag 08.10.2026: https://hausbesitzer-news.de/recht-finanzen/spekulationsfrist-immobilien-abschaffen-aktueller-stand/
 23. Angebotspreise Eigentumswohnungen 2026: Leonberg 3.733 bis 4.043 €/m², Pforzheim 2.928 bis 3.010 €/m² (immoportal, immoverkauf24): https://www.immoportal.com/immobilienpreise/leonberg ; Engel & Völkers Leonberg 26.10.2026: https://www.engelvoelkers.com/de-de/immobilienpreise/baden-wuerttemberg/leonberg/ ; Streuung bis ca. 30 % (Renningen) laut Recherche-Dossier
+
+<!-- Fragen an Linus (aus dem Text verschoben, wörtlich):
+- Kosten des Privatverkaufs, Portal und Fotos (nach dem ZU-PRÜFEN-Vermerk): [LINUS: Hast du aktuelle Paketpreise der Portale für Privatanbieter?]
+- Nach dem Inserat, Anfragen filtern: [LINUS: Hast du auf eigene Inserate Ankäufer-Anfragen bekommen? Ein anonymisiertes Beispiel würde hier helfen.]
+- Besichtigung, Käuferfragen (nach „Stellplatz, Wallbox und Balkonkraftwerk“): [LINUS: Welche fünf bis zehn Fragen stellen Käufer bei deinen Besichtigungen in Leonberg und Pforzheim am häufigsten, möglichst wörtlich? Eigene Erfahrung wird als solche gekennzeichnet.]
+- Nach der Kreissparkassen-Umfrage (67 % Maklerweg): [LINUS: Hast du deine eigene Wohnung privat gekauft? Was lief gut, was nicht? Ein ehrliches Beispiel würde hier helfen.]
+- Tabelle Einzelleistungen, Spalte Preis (Zellen jetzt „Festpreis“, ein sichtbarer Marker im Spaltenkopf): Bewertung mit schriftlichem Verkaufsplan [LINUS: Festpreis]; Exposé mit Unterlagen-Check [LINUS: Festpreis]; Notarkoordination und Käuferprüfung [LINUS: Festpreis]
+- FAQ „Kann ich nur einzelne Leistungen buchen?“: [LINUS: Preise nach Freigabe eintragen.]
+- Nächster Schritt, nach dem Link „Einzelleistungen anfragen“: [LINUS: Checkliste „Privatverkauf einer Eigentumswohnung“ als PDF freigeben oder Link streichen.]
+-->

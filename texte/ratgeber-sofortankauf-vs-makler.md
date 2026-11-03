@@ -38,7 +38,7 @@ Auf meiner Website steht dazu: „Bei einem Eigenankauf bin ich Ihr Vertragspart
 Daraus folgen meine Regeln:
 - Zuerst bekommen Sie eine schriftliche Einschätzung, was die Wohnung bei einer Vermittlung bringt. Erst danach mache ich ein Ankaufsangebot.
 - Ich nenne den Abschlag gegenüber dieser Einschätzung in Prozent.
-- Sie haben Bedenkzeit. [LINUS: Wie lange? Vorschlag aus dem Briefing: 14 Tage. Gibt es eine Bindefrist für dein Angebot?]
+- Sie haben Bedenkzeit.
 - Ich empfehle Ihnen schriftlich eine zweite Meinung, etwa vom Gutachterausschuss oder einem anderen Makler.
 - Keine 24-Stunden-Fristen, keine „nicht verhandelbaren“ Angebote, kein Druck.
 
@@ -46,7 +46,7 @@ Daraus folgen meine Regeln:
 
 Bei einem eigenen Ankauf gibt es keine Provision und keine Halbteilung, denn ich vermittle nichts; ich kaufe [24]. Die Vermittlung bleibt mein Hauptweg. Der Direktankauf ist die Ausnahme für Fälle, in denen Sie keine öffentliche Vermarktung wollen. Details stehen auf der Seite [Direktankauf](/direktankauf/).
 
-Eine Klarstellung zum Namen: Rössler Immobilien (Linus Rössler) ist nicht „Immobilien Roland Rössle“ in Heimsheim und nicht „Rössler Immobilien“ in Hausen in Bayern [22]. [LINUS: Soll diese Klarstellung hier stehen oder nur auf /ueber-mich/?]
+Eine Klarstellung zum Namen: Rössler Immobilien (Linus Rössler) ist nicht „Immobilien Roland Rössle“ in Heimsheim und nicht „Rössler Immobilien“ in Hausen in Bayern [22].
 
 ## So arbeiten Ankäufer: 24-Stunden-Angebote, Weiterverkauf, Klauseln
 
@@ -141,7 +141,7 @@ Es gibt echte Gründe für Tempo:
 - Eine Anschlussfinanzierung, die nicht mehr tragbar ist. Laut Bundesbank sind bis 2027 rund 20 % des Kreditvolumens für Wohnimmobilien neu zu finanzieren, mit Zinsen von rund 2,5 % auf über 4 % [7].
 - Pflegekosten, die sofort fällig sind
 
-Machen Sie trotzdem die Gegenprobe: Reicht ein beschleunigter Maklerverkauf? Mit vorbereiteten Unterlagen und einem bewussten Preis halte ich 6 bis 10 Wochen bis zum Notartermin für möglich. [ZU PRÜFEN: Das ist eine Annahme aus dem Briefing, keine belegte Zahl.] [LINUS: Deckt sich das mit deiner Erfahrung?] Reicht das, ist der Abschlag unnötig. Vom Notartermin bis zum Geldeingang vergehen ohnehin 4 bis 12 Wochen [8]. Diese Zeit spart auch ein Ankäufer nur teilweise.
+Machen Sie trotzdem die Gegenprobe: Reicht ein beschleunigter Maklerverkauf? Mit vorbereiteten Unterlagen und einem bewussten Preis halte ich 6 bis 10 Wochen bis zum Notartermin für möglich. [ZU PRÜFEN: Das ist eine Annahme aus dem Briefing, keine belegte Zahl.] Reicht das, ist der Abschlag unnötig. Vom Notartermin bis zum Geldeingang vergehen ohnehin 4 bis 12 Wochen [8]. Diese Zeit spart auch ein Ankäufer nur teilweise.
 
 Meine Regel: Einen Direktankauf biete ich erst an, wenn Sie den Maklerpreis kennen und trotzdem Tempo wollen.
 
@@ -187,7 +187,7 @@ Der Ankäufer zahlt 5 % Grunderwerbsteuer, Notar, Zinsen, Sanierung und gegebene
 In meiner Recherche habe ich für die Region nur immopaka in Stuttgart gefunden [5]. Die meisten Anbieter arbeiten bundesweit. Ich kaufe in Einzelfällen selbst an, mit offenem Abschlag.
 
 ### Kauft Rössler Immobilien meine Wohnung selbst?
-In Einzelfällen ja. Zuerst bekommen Sie eine schriftliche Einschätzung als Makler, dann ein Angebot mit Abschlag in Prozent, Bedenkzeit und der Empfehlung einer zweiten Meinung. Der Maklerverkauf ist der Regelfall. [LINUS: Gibt es eine Obergrenze beim Kaufpreis oder bei der Zahl der Ankäufe im Jahr?]
+In Einzelfällen ja. Zuerst bekommen Sie eine schriftliche Einschätzung als Makler, dann ein Angebot mit Abschlag in Prozent, Bedenkzeit und der Empfehlung einer zweiten Meinung. Der Maklerverkauf ist der Regelfall.
 
 ### Kann ich die Wohnung bar bezahlt bekommen?
 Nein. Barzahlung beim Immobilienkauf ist seit dem 1. April 2023 verboten, auch in Kryptowerten oder Gold (§ 16a GwG) [14].
@@ -262,3 +262,10 @@ Oder: [Beschleunigten Verkauf anfragen](/kontakt/) · nachgeordnet: [Direktankau
 25. reduco.ai, „Haus verkaufen ohne Makler“ (kein Widerrufsrecht beim Notarvertrag): https://reduco.ai/blog/immobilienverkauf/haus-verkaufen-ohne-makler ; Kosten Privatverkauf 2.000 bis 10.000 € und 6 bis 12 Monate (Richtwert): https://www.bodenrichtwerte-deutschland.de/immobilienwissen/haus-verkaufen-ohne-makler
 26. § 23 EStG: https://www.gesetze-im-internet.de/estg/__23.html
 27. § 80 GModG: https://www.gesetze-im-internet.de/geg/__80.html
+
+<!-- Fragen an Linus (aus dem Text verschoben, wörtlich):
+- Regeln, „Sie haben Bedenkzeit.“: [LINUS: Wie lange? Vorschlag aus dem Briefing: 14 Tage. Gibt es eine Bindefrist für dein Angebot?]
+- Klarstellung zum Namen (Roland Rössle, Hausen in Bayern): [LINUS: Soll diese Klarstellung hier stehen oder nur auf /ueber-mich/?]
+- Gegenprobe beschleunigter Maklerverkauf, „6 bis 10 Wochen bis zum Notartermin“: [LINUS: Deckt sich das mit deiner Erfahrung?]
+- FAQ zum eigenen Ankauf („Der Maklerverkauf ist der Regelfall.“): [LINUS: Gibt es eine Obergrenze beim Kaufpreis oder bei der Zahl der Ankäufe im Jahr?]
+-->

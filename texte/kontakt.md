@@ -20,7 +20,7 @@ E-Mail linus@roessler-immo.de
 
 Telefonisch erreichen Sie mich [LINUS: Zeiten, zum Beispiel Montag bis Freitag 9 bis 20 Uhr, Samstag 10 bis 16 Uhr]. Wenn ich in einer Besichtigung bin, rufe ich am selben Tag zurück. Termine vor Ort mache ich auch abends und samstags [LINUS: bestätigen, auch sonntags?].
 
-Ich habe kein Ladengeschäft. Termine finden bei Ihnen in der Wohnung statt oder, wenn Sie nicht vor Ort wohnen, telefonisch oder per Video [LINUS: welches Videotool, datenschutzkonform?]. Treffen sind in Heimsheim, Leonberg, Ditzingen, Renningen und Pforzheim ohne Anfahrtskosten möglich.
+Ich habe kein Ladengeschäft. Termine finden bei Ihnen in der Wohnung statt oder, wenn Sie nicht vor Ort wohnen, telefonisch oder per Video. Treffen sind in Heimsheim, Leonberg, Ditzingen, Renningen und Pforzheim ohne Anfahrtskosten möglich.
 
 Meine Erlaubnis als Immobilienmakler nach § 34c GewO ist beantragt, aber noch nicht erteilt. Bis dahin vermittle ich keine Wohnungen und schließe keine Maklerverträge ab. Die kostenlose Ersteinschätzung Ihrer Wohnung und ein erstes Gespräch sind schon jetzt möglich, unverbindlich.
 <!-- Einziger Erlaubnis-Hinweis auf dieser Seite. Nach Erteilung entfernen. Wortlaut nach analyse-aktuelle-webseite/07-recht-erlaubnis.md, Baustein A. Vor Veröffentlichung von einer Anwältin/einem Anwalt für Gewerberecht prüfen lassen. -->
@@ -30,8 +30,6 @@ Meine Erlaubnis als Immobilienmakler nach § 34c GewO ist beantragt, aber noch n
 1. **Anrufen.** 0159 05844641. Wenn Sie es eilig haben oder lieber reden als schreiben. **[Button: Anrufen → tel:+4915905844641]**
 2. **Nachricht schreiben.** Das Formular unten. Eine Telefonnummer oder E-Mail-Adresse genügt für die Rückmeldung.
 3. **Einschätzung anfordern.** Wenn Sie wissen wollen, was Ihre Wohnung heute bringt: Sie beantworten ein paar Fragen zur Wohnung, ich schaue sie mir an und schreibe Ihnen eine Preisspanne mit Begründung. **[Button: Wohnung kostenlos einschätzen lassen → /wohnung-bewerten/]**
-
-[LINUS: WhatsApp ja/nein. Falls ja: Link https://wa.me/4915905844641 als vierter Weg und Abschnitt in der Datenschutzerklärung ergänzen (Meta, Drittland).]
 
 ## Nachricht schreiben
 
@@ -82,7 +80,7 @@ Ich habe Ihre Nachricht erhalten und melde mich innerhalb eines Werktags, meist 
 
 1. **Ich rufe Sie an.** Wir sprechen etwa 15 Minuten über Ihre Wohnung, Ihren Zeitplan und Ihre Fragen. Sie müssen nichts vorbereiten.
 2. **Wir vereinbaren bei Bedarf einen Termin vor Ort.** Dort sehe ich mir Wohnung und Gebäude an. Hilfreich, aber nicht nötig: die letzte Hausgeldabrechnung, das letzte Protokoll der Eigentümerversammlung und der Grundriss.
-3. **Sie erhalten eine schriftliche Ersteinschätzung.** Mit Preisspanne und Begründung, innerhalb von zwei Werktagen nach dem Termin [LINUS: Frist bestätigen]. Kostenlos, ohne Verpflichtung, ohne Weitergabe Ihrer Daten.
+3. **Sie erhalten eine schriftliche Ersteinschätzung.** Mit Preisspanne und Begründung, innerhalb von zwei Werktagen nach dem Termin. Kostenlos, ohne Verpflichtung, ohne Weitergabe Ihrer Daten.
 
 Sie möchten nicht warten? Telefon 0159 05844641.
 
@@ -93,3 +91,9 @@ Bis dahin lesen Sie vielleicht, [wie ich eine Wohnung verkaufe → /wohnung-verk
 <!-- Voraussetzung: DKIM und DMARC für roessler-immo.de einrichten, sonst landet die Bestätigung im Spam (M15). -->
 
 <!-- Quellen: Diese Seite enthält keine externen Zahlen. -->
+
+<!-- Fragen an Linus (aus dem Text verschoben, wörtlich):
+- Erreichbarkeit, Termine per Video: [LINUS: welches Videotool, datenschutzkonform?]
+- Drei Wege zu mir: [LINUS: WhatsApp ja/nein. Falls ja: Link https://wa.me/4915905844641 als vierter Weg und Abschnitt in der Datenschutzerklärung ergänzen (Meta, Drittland).]
+- Danke-Text, Schritt 3 („innerhalb von zwei Werktagen nach dem Termin“): [LINUS: Frist bestätigen] (dieselbe Frist ist oben unter „Was nach Ihrer Anfrage passiert“ sichtbar markiert; Antwort an beiden Stellen übernehmen)
+-->

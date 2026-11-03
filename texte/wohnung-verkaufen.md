@@ -48,11 +48,11 @@ Ich prüfe die vorhandenen Unterlagen und stelle zusammen, was fehlt. Mit Ihrer 
 
 ### 4. Vorbereitung und Exposé
 
-Wir stimmen ab, was für die Präsentation vorbereitet werden soll. Anschließend entstehen Fotos, Grundriss und Exposé. Die Fotos mache ich bei Tageslicht nach Absprache mit Ihnen oder Ihrem Mieter [LINUS: selbst oder Fotograf?]. Ins Exposé gehören die Pflichtangaben aus dem Energieausweis nach § 87 GModG, ehemals GEG [3]; ohne sie darf keine Anzeige erscheinen.
+Wir stimmen ab, was für die Präsentation vorbereitet werden soll. Anschließend entstehen Fotos, Grundriss und Exposé. Die Fotos mache ich bei Tageslicht nach Absprache mit Ihnen oder Ihrem Mieter. Ins Exposé gehören die Pflichtangaben aus dem Energieausweis nach § 87 GModG, ehemals GEG [3]; ohne sie darf keine Anzeige erscheinen.
 
 ### 5. Vermarktung
 
-Ich veröffentliche das Angebot auf Immobilienportalen und bearbeite die Anfragen. Wir besprechen regelmäßig die Resonanz und bei Bedarf Anpassungen der Vermarktung. Konkret heißt das: Veröffentlichung auf [LINUS: welche Portale], Vorabinformation an vorgemerkte Interessenten, sobald es welche gibt, und jeden [LINUS: Wochentag] eine kurze Nachricht an Sie mit Anfragen, Besichtigungen und Rückmeldungen.
+Ich veröffentliche das Angebot auf Immobilienportalen und bearbeite die Anfragen. Wir besprechen regelmäßig die Resonanz und bei Bedarf Anpassungen der Vermarktung. Konkret heißt das: Veröffentlichung auf [LINUS: welche Portale], Vorabinformation an vorgemerkte Interessenten, sobald es welche gibt, und jede Woche eine kurze Nachricht an Sie mit Anfragen, Besichtigungen und Rückmeldungen.
 
 ### 6. Besichtigungen und Verhandlung
 
@@ -77,7 +77,6 @@ So sieht der Plan aus, den Sie bekommen:
 - **Unterlagen.** Was vorliegt, was angefordert ist, was fehlt, mit Datum.
 - **Zeitplan.** Von der Freigabe bis zum geplanten Notartermin, mit den Punkten, an denen Sie entscheiden.
 
-[LINUS: Muster-Verkaufsplan anonymisiert bereitstellen]
 <!-- Muster-PDF als Download ohne Pflicht-Kontaktdaten (M8). Bis dahin eine stilisierte Abbildung des Deckblatts. -->
 
 ## Was der Verkauf kostet
@@ -98,21 +97,21 @@ Zwei Hinweise dazu. Erstens: Überregionale Ratgeber rechnen die Grunderwerbsteu
 
 ## Unterlagen und wer sie hat
 
-Die Hälfte der Unterlagen haben Sie nicht, sondern die Hausverwaltung. Deshalb fange ich mit der Anfrage dort an. Die Dauer ist ein Erfahrungswert [LINUS: je Zeile prüfen und mit eigenen Werten ersetzen].
+Die Hälfte der Unterlagen haben Sie nicht, sondern die Hausverwaltung. Deshalb fange ich mit der Anfrage dort an.
 
-| Dokument | Quelle | Typische Dauer |
+| Dokument | Quelle | Typische Dauer [LINUS: Dauer je Zeile mit eigenen Erfahrungswerten eintragen] |
 |---|---|---|
-| Grundbuchauszug, nicht älter als drei Monate | Grundbuchamt beim Amtsgericht [ZU PRÜFEN: zuständiges Amtsgericht je Ort], Antrag auch online über das Grundbuchportal | [LINUS: Tage bis Wochen] |
-| Teilungserklärung mit Aufteilungsplan und Gemeinschaftsordnung | Ihre Kaufunterlagen; sonst Verwaltung oder Grundbuchamt | [LINUS] |
-| Protokolle der letzten drei Eigentümerversammlungen | Hausverwaltung, § 24 Abs. 6 WEG [9] | [LINUS] |
-| Beschluss-Sammlung | Hausverwaltung, § 24 Abs. 7 WEG [9] | [LINUS] |
-| Wirtschaftsplan und letzte Jahresabrechnungen | Hausverwaltung, § 28 WEG [9] | [LINUS] |
-| Vermögensbericht mit Ihrem Rücklagenanteil | Hausverwaltung, § 28 Abs. 4 WEG [9] | [LINUS] |
-| Nachweis zu beschlossenen Sonderumlagen und Stand Ihres Hausgeldkontos | Hausverwaltung | [LINUS] |
-| Energieausweis für das Gebäude | Hausverwaltung oder WEG; falls keiner vorliegt, lasse ich ihn ausstellen, § 80 GModG [3] | [LINUS; Neuausstellung Verbrauchsausweis meist wenige Tage] |
-| Grundriss und Wohnflächenberechnung | Ihre Kaufunterlagen oder Bauakte; fehlt beides, lasse ich den Grundriss neu zeichnen | [LINUS] |
-| Verwalterbestellung und ggf. Verwalterzustimmung | Hausverwaltung, § 12 WEG, nur bei Veräußerungsbeschränkung [9] | [LINUS] |
-| Gebäudeversicherungsnachweis | Hausverwaltung | [LINUS] |
+| Grundbuchauszug, nicht älter als drei Monate | Grundbuchamt beim Amtsgericht [ZU PRÜFEN: zuständiges Amtsgericht je Ort], Antrag auch online über das Grundbuchportal | |
+| Teilungserklärung mit Aufteilungsplan und Gemeinschaftsordnung | Ihre Kaufunterlagen; sonst Verwaltung oder Grundbuchamt |  |
+| Protokolle der letzten drei Eigentümerversammlungen | Hausverwaltung, § 24 Abs. 6 WEG [9] |  |
+| Beschluss-Sammlung | Hausverwaltung, § 24 Abs. 7 WEG [9] |  |
+| Wirtschaftsplan und letzte Jahresabrechnungen | Hausverwaltung, § 28 WEG [9] |  |
+| Vermögensbericht mit Ihrem Rücklagenanteil | Hausverwaltung, § 28 Abs. 4 WEG [9] |  |
+| Nachweis zu beschlossenen Sonderumlagen und Stand Ihres Hausgeldkontos | Hausverwaltung |  |
+| Energieausweis für das Gebäude | Hausverwaltung oder WEG; falls keiner vorliegt, lasse ich ihn ausstellen, § 80 GModG [3] | Neuausstellung Verbrauchsausweis meist wenige Tage |
+| Grundriss und Wohnflächenberechnung | Ihre Kaufunterlagen oder Bauakte; fehlt beides, lasse ich den Grundriss neu zeichnen |  |
+| Verwalterbestellung und ggf. Verwalterzustimmung | Hausverwaltung, § 12 WEG, nur bei Veräußerungsbeschränkung [9] |  |
+| Gebäudeversicherungsnachweis | Hausverwaltung |  |
 | Mietvertrag, Mietaufstellung, Kautionsnachweis (bei vermieteter Wohnung) | Sie als Vermieter | sofort |
 
 Zögert die Verwaltung, haben Sie als Eigentümer ein Einsichtsrecht in die Verwaltungsunterlagen nach § 18 Abs. 4 WEG [9]. Darauf weise ich im Zweifel freundlich hin.
@@ -136,7 +135,7 @@ Eine ehrliche Gegenüberstellung. Ein Makler hat Nachteile, und ich nenne sie.
 | Zeitaufwand für Sie | hoch, über mehrere Monate | ein Termin vor Ort, Freigabe des Plans, Entscheidungen, Notartermin |
 | Haftung für Fehler in Anzeige und Exposé | bei Ihnen, zum Beispiel fehlende Energieausweis-Angaben [3] | bei mir |
 
-Wenn Sie den Käufer schon kennen, brauchen Sie mich nicht für die Suche. Dann können wir über eine kleinere Leistung reden, etwa Preisprüfung und Begleitung bis zum Notar [LINUS: eigenes Angebot dafür? Pauschale?]. Mehr dazu unter [Ohne Makler verkaufen → /ratgeber/maklerprovision/].
+Wenn Sie den Käufer schon kennen, brauchen Sie mich nicht für die Suche. Dann können wir über eine kleinere Leistung reden, etwa Preisprüfung und Begleitung bis zum Notar. Mehr dazu unter [Ohne Makler verkaufen → /ratgeber/ohne-makler-verkaufen/].
 
 <!-- Referenzen: erst nach ersten Abschlüssen -->
 
@@ -158,7 +157,7 @@ Grundbuchauszug, Teilungserklärung, Grundriss und Wohnflächenberechnung, Energ
 
 ### Wie lange dauert ein Verkauf?
 
-Eine Einschätzung gebe ich Ihnen nach Besichtigung und Sichtung der Unterlagen. Lage, Zustand, Angebotspreis und die Finanzierung der Käufer beeinflussen den Zeitraum. Zur Orientierung: Im ersten Quartal 2026 lag die Vermarktungsdauer von Eigentumswohnungen in 24 deutschen Städten im Durchschnitt bei rund 90 Tagen [2], ImmoScout24 nennt für den gesamten Verkauf drei bis fünf Monate [10]. Dazu kommen vier bis zwölf Wochen vom Notartermin bis zum Geldeingang [2]. [LINUS: eigene Einschätzung für die Region mit Begründung]
+Eine Einschätzung gebe ich Ihnen nach Besichtigung und Sichtung der Unterlagen. Lage, Zustand, Angebotspreis und die Finanzierung der Käufer beeinflussen den Zeitraum. Zur Orientierung: Im ersten Quartal 2026 lag die Vermarktungsdauer von Eigentumswohnungen in 24 deutschen Städten im Durchschnitt bei rund 90 Tagen [2], ImmoScout24 nennt für den gesamten Verkauf drei bis fünf Monate [10]. Dazu kommen vier bis zwölf Wochen vom Notartermin bis zum Geldeingang [2].
 
 ### Entscheide ich selbst, welches Angebot ich annehme?
 
@@ -190,7 +189,7 @@ Ja, und das ist bei geerbten oder vermieteten Wohnungen eher die Regel als die A
 
 ### Verkaufen Sie auch diskret?
 
-Ja, wenn Sie das möchten, zum Beispiel weil Ihr Mieter oder die Nachbarn noch nichts erfahren sollen. Dann erscheint die Wohnung nicht auf Portalen, sondern ich spreche gezielt Interessenten an, die ich vorgemerkt habe, und Kontakte aus meinem Umfeld. Dazu ein ehrlicher Satz: Weniger Reichweite bedeutet weniger Wettbewerb um Ihre Wohnung, und das kann den Preis kosten. Wir legen vorher fest, wie lange wir diskret suchen und wann wir gegebenenfalls öffentlich gehen. [LINUS: gibt es schon vorgemerkte Interessenten? Nur nennen, wenn ja, und dann mit Zahl]
+Ja, wenn Sie das möchten, zum Beispiel weil Ihr Mieter oder die Nachbarn noch nichts erfahren sollen. Dann erscheint die Wohnung nicht auf Portalen, sondern ich spreche gezielt Interessenten an, die ich vorgemerkt habe, und Kontakte aus meinem Umfeld. Dazu ein ehrlicher Satz: Weniger Reichweite bedeutet weniger Wettbewerb um Ihre Wohnung, und das kann den Preis kosten. Wir legen vorher fest, wie lange wir diskret suchen und wann wir gegebenenfalls öffentlich gehen.
 
 ### Was ändert sich beim Energieausweis ab 2027?
 
@@ -228,3 +227,14 @@ Rechts- und Steuerfragen beantworte ich nur so weit, wie sie den Verkaufsablauf 
 9. Wohnungseigentumsgesetz: § 12 (Veräußerungsbeschränkung, Verwalterzustimmung), § 18 Abs. 4 (Einsichtsrecht), § 24 Abs. 6 und 7 (Protokolle, Beschluss-Sammlung), § 28 (Wirtschaftsplan, Jahresabrechnung, Vermögensbericht). https://dejure.org/gesetze/WEG/12.html ; https://www.gesetze-im-internet.de/woeigg/
 10. ImmoScout24, „Wohnung verkaufen“, aktualisiert 2.1.2026: Dauer „drei bis fünf Monate“. https://www.immobilienscout24.de/wissen/verkaufen/wohnung-verkaufen.html
 11. Gebäudemodernisierungsgesetz (GModG), BGBl. 2026 I Nr. 226 vom 28.7.2026: Artikel 2 (§§ 79 bis 88, neue Energieausweise und Inseratsangaben) in Kraft ab 1.1.2027; § 112 Abs. 3 (Weitergeltung alter Ausweise bis Ablauf der zehn Jahre). https://www.bundesregierung.de/breg-de/aktuelles/neues-gebaeudemodernisierungsgesetz-2430284 ; https://www.energyausweis.de/blog/gmodg-fuer-makler-inseratspflicht-vorlage-uebergabe-und-bussgelder-ab-inkrafttreten [ZU PRÜFEN: Paragrafen in der verkündeten Fassung]
+
+<!-- Fragen an Linus (aus dem Text verschoben, wörtlich):
+- Schritt 4, Fotos: [LINUS: selbst oder Fotograf?]
+- Schritt 5, Vermarktung: [LINUS: Wochentag] (für die wöchentliche Nachricht an den Verkäufer; im Text jetzt „jede Woche“)
+- Nach der Liste „So sieht der Plan aus“: [LINUS: Muster-Verkaufsplan anonymisiert bereitstellen]
+- Unterlagen, Satz vor der Tabelle („Die Dauer ist ein Erfahrungswert“, im Text entfernt): [LINUS: je Zeile prüfen und mit eigenen Werten ersetzen]
+- Unterlagen-Tabelle, Spalte „Typische Dauer“ (Zellen geleert, ein sichtbarer Marker im Spaltenkopf): Grundbuchauszug [LINUS: Tage bis Wochen]; Teilungserklärung, Protokolle, Beschluss-Sammlung, Wirtschaftsplan und Jahresabrechnungen, Vermögensbericht, Sonderumlagen und Hausgeldkonto, Grundriss und Wohnflächenberechnung, Verwalterbestellung und Verwalterzustimmung, Gebäudeversicherungsnachweis: je [LINUS]; Energieausweis: [LINUS; Neuausstellung Verbrauchsausweis meist wenige Tage]
+- „Privat oder mit mir?“, kleinere Leistung bei bekanntem Käufer (Preisprüfung und Begleitung bis zum Notar): [LINUS: eigenes Angebot dafür? Pauschale?]
+- FAQ „Wie lange dauert ein Verkauf?“: [LINUS: eigene Einschätzung für die Region mit Begründung]
+- FAQ „Verkaufen Sie auch diskret?“: [LINUS: gibt es schon vorgemerkte Interessenten? Nur nennen, wenn ja, und dann mit Zahl]
+-->

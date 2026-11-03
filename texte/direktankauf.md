@@ -42,7 +42,7 @@ Bei einem Eigenankauf bin ich Ihr Vertragspartner auf der Käuferseite. Mein Ang
 Das heißt konkret: Als Makler verdiene ich an einem hohen Preis. Als Käufer verdiene ich an einem niedrigen. Ich habe hier also ein eigenes Interesse, und das sollen Sie wissen, bevor Sie mit mir sprechen. Deshalb gelten feste Regeln:
 - Erst die Einschätzung als Makler, dann das Ankaufsangebot.
 - Der Abschlag steht in Prozent im Angebot.
-- Sie haben Bedenkzeit. [LINUS: Wie viele Tage? Vorschlag: 14. Wie lange ist dein Angebot bindend?]
+- Sie haben Bedenkzeit.
 - Keine 24-Stunden-Fristen, keine „nicht verhandelbaren“ Angebote.
 
 Ein Ankauf ist kein Maklergeschäft. Es fällt keine Provision an, weder für Sie noch für mich als Käufer [7].
@@ -68,7 +68,7 @@ Trifft keiner dieser Punkte zu, bringt Ihnen die Vermittlung in der Regel mehr. 
 
 **3. Angebot besprechen.** Kann ich Ihnen ein Angebot machen, erläutere ich Kaufpreis und Bedingungen. Sie entscheiden, ob Sie darauf eingehen möchten.
 
-Ergänzend zu den drei Schritten: Die Eckdaten können Sie über das Kurzformular unten oder am Telefon schicken; ich melde mich innerhalb von [LINUS: Zeitangabe, z. B. „einem Werktag“]. Bei der Prüfung sehe ich mir neben der Wohnung das Gebäude an: geplante Arbeiten, Rücklage, beschlossene Sonderumlagen. Bevor ich ein Angebot mache, bekommen Sie die schriftliche Einschätzung, was eine Vermittlung bringt. Dauer bis dahin: [LINUS: Zeitangabe]. Das Angebot erhalten Sie schriftlich, mit Kaufpreis, Abschlag in Prozent, Bedenkzeit und geplantem Notartermin. Vom Angebot bis zum Notartermin: [LINUS: Zeitangabe]. Vom Notartermin bis zum Geldeingang vergehen beim Wohnungsverkauf üblicherweise 4 bis 12 Wochen [6]. [LINUS: Geht es bei dir schneller, weil keine Bankfinanzierung des Käufers abgewartet werden muss?]
+Ergänzend zu den drei Schritten: Die Eckdaten können Sie über das Kurzformular unten oder am Telefon schicken; ich melde mich innerhalb von [LINUS: Zeitangabe, z. B. „einem Werktag“]. Bei der Prüfung sehe ich mir neben der Wohnung das Gebäude an: geplante Arbeiten, Rücklage, beschlossene Sonderumlagen. Bevor ich ein Angebot mache, bekommen Sie die schriftliche Einschätzung, was eine Vermittlung bringt. Dauer bis dahin: [LINUS: Zeitangabe]. Das Angebot erhalten Sie schriftlich, mit Kaufpreis, Abschlag in Prozent, Bedenkzeit und geplantem Notartermin. Vom Angebot bis zum Notartermin: [LINUS: Zeitangabe]. Vom Notartermin bis zum Geldeingang vergehen beim Wohnungsverkauf üblicherweise 4 bis 12 Wochen [6].
 
 ## So kommt mein Angebot zustande
 
@@ -86,7 +86,7 @@ Der Kaufpreis ist ein Beispiel für rund 75 m² aus Angebotspreisen 2026 [9]. Di
 | Ihre Provision (2,98 %) | 8.642 € [1] | 0 € | 0 € |
 | Erlös für Sie | 281.358 € | 261.000 € | 217.500 € |
 | Unterschied zur Vermittlung | | 20.358 € | 63.858 € |
-| Dauer bis Notar | drei bis fünf Monate [10] | [LINUS: Zeitangabe] | [LINUS: Zeitangabe] |
+| Dauer bis Notar | drei bis fünf Monate [10] | laut Angebot (geplanter Notartermin) | laut Angebot (geplanter Notartermin) |
 
 Erzielt die Vermittlung nur 95 % des Marktpreises, also 275.500 €, bleiben Ihnen nach Provision 267.290,10 € [1][3]. Der Unterschied zum Direktankauf mit 10 % Abschlag schrumpft dann auf 6.290,10 €.
 
@@ -103,10 +103,8 @@ Erzielt die Vermittlung nur 95 % des Marktpreises, also 275.500 €, bleiben Ihn
 | Zustand | Renovierungsbedürftige Wohnungen schaue ich mir ebenfalls an. Entscheidend sind Umfang der Arbeiten, Zustand des Gebäudes und die Wirtschaftlichkeit des Ankaufs. |
 | Vermietung | Bei Mietern gelten Mietvertrag und Sperrfrist weiter |
 | Gemeinschaft | Unterlagen der Verwaltung müssen vorliegen: Protokolle, Wirtschaftsplan, Abrechnungen, Rücklage |
-| Kaufpreis | [LINUS: Obergrenze?] |
-| Anzahl | [LINUS: Wie viele Ankäufe im Jahr sind realistisch?] |
 
-Eine Grenze nenne ich offen: Mehr als drei Verkäufe in rund fünf Jahren machen einen Käufer steuerlich zum gewerblichen Grundstückshändler [11]. Ich kaufe deshalb nicht jede Wohnung, die mir angeboten wird. [LINUS: Mit Steuerberater geklärt? Eigene Rechtsform für Ankäufe?]
+Eine Grenze nenne ich offen: Mehr als drei Verkäufe in rund fünf Jahren machen einen Käufer steuerlich zum gewerblichen Grundstückshändler [11]. Ich kaufe deshalb nicht jede Wohnung, die mir angeboten wird.
 
 ## Vermittlung oder Direktankauf im Vergleich
 
@@ -117,8 +115,7 @@ Eine Grenze nenne ich offen: Mehr als drei Verkäufe in rund fünf Jahren machen
 | Provision | 2,98 % je Seite | Keine Maklerprovision |
 | Preis | Marktpreis, Angebote mit meiner Einschätzung | unter Marktpreis, Abschlag in Prozent |
 | Besichtigungen | ja, mit Interessenten | ein Termin mit mir |
-| Dauer bis Notar | drei bis fünf Monate [10] | [LINUS: Zeitangabe] |
-| Finanzierungsrisiko des Käufers | wird vor dem Notar geprüft | [LINUS: Eigenkapital oder Bank?] |
+| Dauer bis Notar | drei bis fünf Monate [10] | laut Angebot (geplanter Notartermin) |
 | Meine Rolle | Ihr Makler, Interesse an hohem Preis | Ihr Vertragspartner, Interesse an niedrigem Preis |
 | Zweite Meinung | möglich | ausdrücklich empfohlen |
 | Notar, Überweisung, Identifizierung | ja | ja |
@@ -145,8 +142,8 @@ Das Formular ist getrennt vom allgemeinen Kontaktformular und fragt, was ich fü
 | Vermietet oder frei | Auswahl | nein | bei „vermietet“ Zusatzfeld Kaltmiete pro Monat |
 | Hausgeld pro Monat | Zahl | nein | |
 | Gewünschter Zeitpunkt | Auswahl: so bald wie möglich, in 3 Monaten, später, offen | nein | |
-| Fotos | Upload, bis [LINUS: Anzahl] Bilder | nein | „Handyfotos genügen.“ |
-| Einschätzung als Vermittlung | Kontrollkästchen „Ich möchte zuerst wissen, was eine Vermittlung bringt.“ | [LINUS: Pflicht oder vorausgewählt?] | |
+| Fotos | Upload | nein | „Handyfotos genügen.“ |
+| Einschätzung als Vermittlung | Kontrollkästchen „Ich möchte zuerst wissen, was eine Vermittlung bringt.“ | | |
 | Nachricht | Textfeld | nein | |
 
 Unter dem Formular: Datenschutzhinweis, Honeypot gegen Spam und eine Fehlermeldung mit Telefonnummer, falls der Versand scheitert. Button: „Ankauf prüfen lassen“.
@@ -171,7 +168,7 @@ Beim Eigenankauf berechne ich keine Maklerprovision. Die übrige Kostenverteilun
 Nein. Sie bekommen ein schriftliches Angebot mit Bedenkzeit. Sie entscheiden, ob Sie annehmen, verhandeln oder ablehnen. Gebunden sind Sie erst mit dem Notarvertrag.
 
 ### Erst Vermittlung, dann Ankauf?
-Ja, das geht in beide Richtungen. Sie können mit der Vermittlung beginnen und, wenn sich kein passender Käufer findet, über einen Ankauf sprechen. Oder Sie lehnen mein Ankaufsangebot ab und lassen die Wohnung vermitteln. [LINUS: Wie gehst du mit einem laufenden Alleinauftrag um, wenn du dann selbst kaufst? Fällt dann keine Provision an? Bitte ausdrücklich bestätigen, und rechtlich prüfen lassen.]
+Ja, das geht in beide Richtungen. Sie können mit der Vermittlung beginnen und, wenn sich kein passender Käufer findet, über einen Ankauf sprechen. Oder Sie lehnen mein Ankaufsangebot ab und lassen die Wohnung vermitteln.
 
 ### Zahlen Sie bar?
 Nein. Barzahlung beim Immobilienkauf ist verboten (§ 16a GwG) [4]. Der Kaufpreis wird überwiesen.
@@ -232,3 +229,16 @@ Erst die Einschätzung, dann das Angebot. Mit Abschlag in Prozent und Bedenkzeit
 13. Analyse der Live-Website, 01-analyse.md, Abschnitt 6.2 (eigenes Ankauf-Formular empfohlen) und Seitenplan 04-seitenplan.md, Abschnitt 5.6
 14. § 80 GModG: https://www.gesetze-im-internet.de/geg/__80.html
 15. § 23 EStG: https://www.gesetze-im-internet.de/estg/__23.html
+
+<!-- Fragen an Linus (aus dem Text verschoben, wörtlich):
+- „Sie haben Bedenkzeit.“: [LINUS: Wie viele Tage? Vorschlag: 14. Wie lange ist dein Angebot bindend?]
+- Ablauf nach den drei Schritten, nach „4 bis 12 Wochen“: [LINUS: Geht es bei dir schneller, weil keine Bankfinanzierung des Käufers abgewartet werden muss?]
+- Rechenbeispiel Leonberg und Vergleichstabelle, Zeile „Dauer bis Notar“, Spalte Direktankauf: je [LINUS: Zeitangabe]. Im Text jetzt „laut Angebot (geplanter Notartermin)“; die Zahl steht als sichtbarer Marker im Ablauf („Vom Angebot bis zum Notartermin“). Nach Antwort in beide Tabellen übernehmen.
+- Tabelle „Welche Wohnungen infrage kommen“, Zeile „Kaufpreis“ (Zeile entfernt): [LINUS: Obergrenze?]
+- Tabelle „Welche Wohnungen infrage kommen“, Zeile „Anzahl“ (Zeile entfernt): [LINUS: Wie viele Ankäufe im Jahr sind realistisch?]
+- Drei-Objekt-Grenze: [LINUS: Mit Steuerberater geklärt? Eigene Rechtsform für Ankäufe?]
+- Vergleichstabelle, Zeile „Finanzierungsrisiko des Käufers“ (Zeile entfernt; Vermittlung: „wird vor dem Notar geprüft“): [LINUS: Eigenkapital oder Bank?]
+- Formular, Feld „Fotos“: Upload, bis [LINUS: Anzahl] Bilder
+- Formular, Feld „Einschätzung als Vermittlung“, Spalte Pflicht: [LINUS: Pflicht oder vorausgewählt?]
+- FAQ zum Wechsel zwischen Vermittlung und Ankauf: [LINUS: Wie gehst du mit einem laufenden Alleinauftrag um, wenn du dann selbst kaufst? Fällt dann keine Provision an? Bitte ausdrücklich bestätigen, und rechtlich prüfen lassen.]
+-->
