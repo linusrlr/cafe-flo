@@ -165,8 +165,8 @@ ol.schritte > li::before{content:counter(schritt,decimal-leading-zero);position:
 ul.kacheln{list-style:none;padding:0;display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:20px}
 ul.kacheln > li{border:1px solid var(--line);background:var(--bg);padding:24px 26px;margin:0}
 ul.kacheln > li > strong:first-child{display:block;margin-bottom:8px;font-family:var(--display);font-size:1.12rem;font-weight:700;color:var(--fg)}
-ul.kacheln > li a{font-weight:600;color:var(--fg);text-decoration:none;display:table;margin-top:12px;padding:4px 0}
-ul.kacheln > li a:hover{text-decoration:underline}
+ul.kacheln > li > a{font-weight:600;color:var(--fg);text-decoration:none;display:table;margin-top:12px;padding:4px 0}
+ul.kacheln > li > a:hover{text-decoration:underline}
 
 /* Tabellen */
 .tablewrap{overflow-x:auto;border:1px solid var(--line)}
@@ -297,3 +297,4 @@ footer .klein{grid-column:1/-1;font-size:.8rem;border-top:1px solid var(--line);
 @media (prefers-reduced-motion:reduce){*{transition:none!important;animation:none!important}}
 @media print{.top,.anrufleiste,footer,.formular-box,.navscrim,.vorschau-banner{display:none!important}
   ol.quellen a[href^="http"]::after{content:" (" attr(href) ")"}}
+[hidden]{display:none!important}

@@ -75,15 +75,16 @@ const sektionKlasse = (a) => a.art === 'kontakt' ? 'band dark kontakt-abschnitt'
           {krumen.length > 0 && <nav class="brotkrumen" aria-label="Brotkrumen"><ol>{krumen.map((k, i) => i < krumen.length - 1 && istGebaut(k.url) ? <li><a href={k.url}>{k.name}</a></li> : <li aria-current={i === krumen.length - 1 ? 'page' : undefined}>{k.name}</li>)}</ol></nav>}
           <h1 id={r.h1Id} set:html={r.h1Html} />
           {zeigeMeta && <p class="meta">Stand: {seite.standText} · Lesezeit {r.lesezeit} Minuten · Von {ueberMichOk ? <a href="/ueber-mich/">Linus Rössler</a> : 'Linus Rössler'}, {autorzeile()}</p>}
-          {r.hero.lead && <Fragment set:html={r.hero.lead} />}
-          {r.hero.region && <Fragment set:html={r.hero.region} />}
-          {r.hero.actions && <Fragment set:html={r.hero.actions} />}
+          {/* Standard-Buttons vor dem Lead, damit H1 und CTA mobil im ersten Bildschirm stehen (T-VIEW) */}
           {standardButtons && (
             <div class="actions">
               {standardButtons.ziel && <a class="btn btn-primaer" href={standardButtons.ziel[0]}>{standardButtons.ziel[1]}</a>}
               <a class={`btn ${standardButtons.ziel ? 'line btn-sekundaer' : 'btn-primaer'}`} href={firma.telefonHref}><Fragment set:html={tel} />Anrufen</a>
             </div>
           )}
+          {r.hero.lead && <Fragment set:html={r.hero.lead} />}
+          {r.hero.region && <Fragment set:html={r.hero.region} />}
+          {r.hero.actions && <Fragment set:html={r.hero.actions} />}
           {r.hero.hinweis && <Fragment set:html={r.hero.hinweis} />}
         </div>
         <div class={`pic${typ === 'person' ? ' portrait' : ''}`}>

@@ -34,7 +34,7 @@ Tätigkeit: Immobilienmakler, erlaubnispflichtig nach § 34c Abs. 1 Satz 1 Nr. 1
 
 ::erlaubnis{baustein="d"}
 
-Aktenzeichen des Erlaubnisbescheids: [LINUS: Aktenzeichen aus dem Bescheid]
+Aktenzeichen des Erlaubnisbescheids: {{fakten.erlaubnis.aktenzeichen}}
 
 [LINUS: Zuständige IHK laut Bescheid bestätigen (Name und Anschrift) und in bauplan/fakten.yaml unter erlaubnis.behoerde eintragen, dazu erlaubnis.erteilt_am]
 

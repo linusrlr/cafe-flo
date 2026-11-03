@@ -211,11 +211,11 @@ function vorverarbeite(seite, ctx) {
   t = t.replace(/^<a id="([a-z0-9-]+)"><\/a>[ \t]*$/gm, (_, id) => tok('A', id));
   // 3. Direktiven ::formular{typ="…"} und ::erlaubnis{baustein="…"} (für neue Texte)
   t = t.replace(/^::formular\{typ="?(\w+)"?\}\s*$/gm, (_, x) => tok('X', x));
-  t = t.replace(/^::erlaubnis\{baustein="?([a-e])"?\}\s*$/gm, (_, x) => tok('E', x));
+  t = t.replace(/^::erlaubnis\{baustein="?([a-e])"?\}\s*$/gm, (_, x, off, ganz) => tok('E', `${x}:${zeileVon(ganz, off) + seite.zeilenOffset}`));
   // 4. Platzhalter {{fakten.…}} auflösen (Fehler bei unbekanntem Pfad, Probleme werden zu Markern)
   t = loeseText(t);
   // 5. Erlaubnis-Sätze, die literal im Text stehen, durch den Baustein ersetzen
-  for (const w of bekannteWortlaute()) t = t.replace(wsRegex(w.text), () => tok('E', w.baustein));
+  for (const w of bekannteWortlaute()) t = t.replace(wsRegex(w.text), (_, off, ganz) => tok('E', `${w.baustein}:${zeileVon(ganz, off) + seite.zeilenOffset}`));
   // 5b. Nach Erteilung (Baustein F): Byline-Zusatz „beantragt“ entfällt, wo er noch im Fließtext steht
   if (erlaubnisErteilt) t = t.replace(/Erlaubnis nach § 34c GewO beantragt/g, 'Erlaubnis nach § 34c GewO');
   // 6. Marker
@@ -393,9 +393,10 @@ function hastUmbau(baum, seite, ctx) {
         });
         out.push(el('sup', { className: ['fn'] }, kids));
       } else if (art === 'E') {
-        const roh = bausteinRoh(inhalt);
-        ctx.bausteine.push(inhalt);
-        if (roh) out.push(el('span', { className: ['erlaubnis'], dataBaustein: inhalt }, inlineAusText(loeseText(roh), null)));
+        const [b, z] = inhalt.split(':');
+        const roh = bausteinRoh(b);
+        ctx.bausteine.push(b);
+        if (roh) out.push(el('span', { className: ['erlaubnis'], dataBaustein: b }, inlineAusText(loeseText(roh), z ? +z : null)));
       } else if (art === 'X') out.push(el('span', { dataFormular: inhalt }));
       else if (art === 'A') out.push(el('span', { id: inhalt, className: ['anker'] }));
       // 'P' wurde im mdast entfernt
@@ -617,6 +618,10 @@ export function rendere(seite) {
 
   // Gliederung: H1, Intro (bis zur ersten H2), Abschnitte je H2
   const top = hast.children.filter((c) => !(c.type === 'text' && !c.value.trim()));
+  // Anker-Zeilen direkt vor einer H2 gehören in deren Abschnitt
+  for (let i = top.length - 2; i >= 0; i--) {
+    if (klassen(top[i]).includes('anker') && /^h[1-6]$/.test(top[i + 1]?.tagName ?? '')) top[i + 1].children.unshift(top.splice(i, 1)[0]);
+  }
   let h1 = null;
   const intro = [];
   const abschnitte = [];

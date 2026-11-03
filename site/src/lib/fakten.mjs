@@ -59,7 +59,8 @@ export function loese(pfad, filter) {
 export function loeseText(s) {
   return String(s).replace(PLATZHALTER, (_, p, f) => {
     const r = loese(p, f);
-    if (r.problem === 'leer') return `[LINUS: Wert fehlt in bauplan/fakten.yaml: ${p}]`;
+    if (r.problem === 'leer' || /^\[(LINUS|ZU PRÜFEN)\]$/.test(r.text.trim())) return `[LINUS: Wert fehlt in bauplan/fakten.yaml: ${p}]`;
+    if (/\[(LINUS|ZU PRÜFEN)/.test(r.text)) return r.text;
     if (r.problem) return `${r.text} [ZU PRÜFEN: bauplan/fakten.yaml ${p} hat status ${r.problem}]`;
     return r.text;
   });
@@ -100,7 +101,7 @@ export function bausteinRoh(x) {
   if (x === 'd' || x === 'e') return e.baustein_e.wert; // Impressum: fehlende Angaben werden zu Markern und blockieren
   if (x === 'b') {
     // Vertrauenszeile: solange Datum/Behörde nicht geprüft eingetragen sind, schlichter Satz ohne Marker
-    const ok = e.erteilt_am.wert && e.behoerde.status === 'geprueft';
+    const ok = e.erteilt_am.status === 'geprueft' && e.behoerde.status === 'geprueft';
     return ok ? e.baustein_b.wert_erteilt : 'Immobilienmakler mit Erlaubnis nach § 34c GewO.';
   }
   return e[`baustein_${x}`]?.wert_erteilt ?? null;

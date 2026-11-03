@@ -38,7 +38,7 @@ function organisation() {
   };
 }
 function person() {
-  const credential = erlaubnisErteilt && F.erlaubnis.erteilt_am.wert && F.erlaubnis.behoerde.status === 'geprueft'
+  const credential = erlaubnisErteilt && F.erlaubnis.erteilt_am.status === 'geprueft' && F.erlaubnis.behoerde.status === 'geprueft'
     ? { '@type': 'EducationalOccupationalCredential', name: 'Erlaubnis nach § 34c Abs. 1 Satz 1 Nr. 1 GewO (Immobilienmakler)',
         credentialCategory: 'Gewerbeerlaubnis', dateCreated: String(F.erlaubnis.erteilt_am.wert),
         recognizedBy: { '@type': 'Organization', name: F.erlaubnis.behoerde.wert } }

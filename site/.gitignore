@@ -1,0 +1,8 @@
+node_modules/
+dist/
+dist-vorschau/
+tests/.daten/
+test-results/
+playwright-report/
+.lighthouse/
+.astro/
