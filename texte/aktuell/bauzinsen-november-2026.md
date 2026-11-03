@@ -13,7 +13,7 @@ status: Entwurf
 
 **Kurzantwort:** Zehnjährige Baudarlehen kosten Anfang November 2026 je nach Beleihung rund 4,1 bis 4,5 % effektiv (Interhyp, Angebote 26.10. bis 1.11.2026) [1]. Dr. Klein nennt als Topzins für zehn Jahre 4,20 %, ein Jahr zuvor waren es 3,38 % [2]. Die EZB hat am 29. Oktober 2026 die Leitzinsen nicht verändert [3][4]. Eine Wohnung für 300.000 Euro in Leonberg kostet mit 80 % Finanzierung und 2 % Tilgung rund 1.250 Euro im Monat.
 
-Ich schreibe diese Übersicht jeden Monat, weil der Zins für Käufer und Verkäufer meiner Region mehr verändert als jede Preisstatistik. Die Rechenbeispiele unten sind Annahmen mit offengelegten Werten, keine Finanzierungsberatung.
+Diese Übersicht erscheint monatlich. Die Rechenbeispiele sind Annahmen mit offengelegten Werten.
 
 ## Wo stehen die Bauzinsen Anfang November 2026?
 
@@ -83,10 +83,6 @@ Was ich Verkäufern daraus ableite: Käufer rechnen heute mit 4 bis 4,5 %, und j
 
 **Wie hoch sind die Bauzinsen im November 2026?**
 Für zehn Jahre rund 4,1 bis 4,5 % effektiv, je nach Beleihung und Anbieter [1][2].
-
-**Sinken die Zinsen nach der EZB-Pause?**
-Kurzfristig erwarten die Banken im Interhyp-Panel überwiegend gleichbleibende Zinsen [1]. Eine Garantie gibt es nicht.
-
 **Lohnt es sich, auf niedrigere Zinsen zu warten?**
 Das kann niemand sicher sagen. Ein Viertelprozentpunkt macht bei 240.000 Euro Darlehen rund 50 Euro im Monat aus; ein höherer Kaufpreis in einem Jahr kann das schnell aufheben.
 

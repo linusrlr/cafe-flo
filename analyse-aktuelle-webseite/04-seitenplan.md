@@ -6,7 +6,7 @@ Stand: 30. Oktober 2026. Abgeleitet aus `02-wettbewerb.md`, den Themen-Benchmark
 
 ## 1. Prinzipien
 
-1. **Wenige Seiten mit Substanz statt vieler Templates.** 5 Ortsseiten, 12 Ratgeber (R-08 als Lead-Seite `/wohnung-bewerten/`), 6 Leistungs- und Personenseiten im ersten Jahr. Keine Straßen- oder PLZ-Seiten, keine Glossare, keine News.
+1. **Wenige Seiten mit Substanz statt vieler Templates.** 5 Ortsseiten, 12 Ratgeber (R-08 als Lead-Seite `/wohnung-bewerten/`), 6 Leistungs- und Personenseiten im ersten Jahr. Keine Straßen- oder PLZ-Seiten, keine Glossare, keine allgemeinen News (Ausnahme: datierte Meldungen mit Ratgeber-Bezug unter `/aktuell/`, siehe Abschnitt 8).
 2. **Jede Seite hat einen Anlass, einen Beweis und einen nächsten Schritt.** Anlass = Lebenssituation oder Frage; Beweis = Zahl mit Quelle, Beispiel, Referenz; nächster Schritt = Einschätzung anfordern, anrufen, Direktankauf prüfen.
 3. **Eigentumswohnung ist das Thema jeder Seite.** Haus-Themen kommen nur als Abgrenzung vor.
 4. **Fakten nur mit Quelle und Stand.** Rechtsgrundlagen mit Paragraf, Marktzahlen mit Portal/Stichtag, Prüfpunkte sichtbar markiert, bis sie geklärt sind.
@@ -138,3 +138,18 @@ Struktur nach PORTIMMO: Wann sinnvoll (4 Situationen) → 3 Schritte (bestehend)
 - Welle 1: alle sechs Seiten live, Lighthouse mobil ≥ 90, erste Anfragen über `/wohnung-bewerten/`.
 - Welle 2: Ortsseiten Leonberg und Pforzheim plus R-01, R-02, R-03, R-06, R-08 live; Search Console zeigt Impressionen für „wohnung verkaufen leonberg“.
 - Welle 3–4: restliche Seiten; monatliche Pflege nach Radar-Digest.
+
+## 8. Aktuelles (`/aktuell/`)
+
+Ergänzt am 3. November 2026.
+
+- **Zweck:** datierte Meldungen zu Gesetzen, Zinsen und Lokalzahlen, die Ratgeber und Ortsseiten nicht jedes Mal umschreiben müssen. Jede Meldung verlinkt auf mindestens einen passenden Ratgeber und auf `/wohnung-bewerten/`; der betroffene Ratgeber bekommt im Gegenzug einen datierten Absatz „Aktuell“ mit Link auf die Meldung. Rhythmus monatlich, abgestimmt mit dem Newsletter (Leitartikel, Zins-Update, Lokalzahl) und der Radar-Auswertung (`05-radar.md`, Abschnitt 5).
+- **Template:** Frontmatter mit `url: /aktuell/<slug>/`, `title`, `description`, `stand`, `status`; H1, Autorenzeile mit Stand und Erlaubnis-Hinweis, Kurzantwort, 4 bis 6 H2 (mindestens zwei als Frage), eine Tabelle oder ein Rechenbeispiel mit regionalen Werten, kurze FAQ (3 bis 4 Fragen), Nächster Schritt, Hinweis, nummerierte Quellen mit Datum. Umfang 700 bis 1.100 Wörter. Schema `NewsArticle` mit `datePublished` und `dateModified`. Slugs ohne Jahreszahl, außer bei der monatlichen Zins-Rubrik (`bauzinsen-<monat>-<jahr>`); ältere Zins-Ausgaben bleiben als Archiv stehen und verlinken auf die neue. Hub `/aktuell/` listet die Meldungen absteigend nach Datum; Link im Footer, nicht in der Hauptnavigation.
+- **Erste drei Meldungen (Entwürfe, Stand 3.11.2026):**
+
+| URL | Datei | Verlinkt auf |
+|---|---|---|
+| `/aktuell/spekulationsfrist-bleibt/` | `texte/aktuell/spekulationsfrist-bleibt.md` | R-05, R-04, R-09, R-03, `/wohnung-bewerten/` |
+| `/aktuell/bauzinsen-november-2026/` | `texte/aktuell/bauzinsen-november-2026.md` | R-01, R-09, R-06 (Quelle), Ortsseiten Leonberg, Renningen, Pforzheim, `/wohnung-bewerten/` |
+| `/aktuell/mietpreisbremse-region/` | `texte/aktuell/mietpreisbremse-region.md` | R-02, R-09, alle fünf Ortsseiten, `/wohnung-bewerten/` |
+
