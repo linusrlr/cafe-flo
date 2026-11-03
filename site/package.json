@@ -1,0 +1,39 @@
+{
+  "name": "roessler-immo",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "dev": "SITE_MODE=vorschau astro dev",
+    "vorschau": "SITE_MODE=vorschau astro build --outDir dist-vorschau && node scripts/nach-build.mjs dist-vorschau",
+    "vorschau:start": "node scripts/server.mjs dist-vorschau",
+    "build:prod": "SITE_MODE=produktion astro build && node scripts/nach-build.mjs dist",
+    "offen": "node scripts/offen.mjs",
+    "test:statisch": "node scripts/check-statisch.mjs dist && html-validate --config tests/htmlvalidate.json \"dist/**/*.html\"",
+    "test:e2e": "playwright test -c tests/playwright.config.mjs",
+    "test:e2e:vorschau": "DIST=dist-vorschau playwright test -c tests/playwright.config.mjs",
+    "pruefen": "npm run build:prod && npm run test:statisch && npm run test:e2e && npm run vorschau && npm run test:e2e:vorschau",
+    "lighthouse": "node scripts/lighthouse.mjs",
+    "screenshots": "node scripts/screenshots.mjs",
+    "veroeffentlichen": "node scripts/vor-veroeffentlichen.mjs && npm run pruefen && bash ../deploy/deploy.sh"
+  },
+  "dependencies": {
+    "astro": "5.18.2",
+    "github-slugger": "2.0.0",
+    "hast-util-to-html": "9.0.6",
+    "remark-gfm": "4.0.1",
+    "remark-parse": "11.0.0",
+    "remark-rehype": "11.1.2",
+    "sharp": "0.35.5",
+    "unified": "11.0.5",
+    "yaml": "2.9.1"
+  },
+  "devDependencies": {
+    "@axe-core/playwright": "4.14.0",
+    "@playwright/test": "1.63.0",
+    "html-validate": "10.17.0",
+    "lighthouse": "13.6.0"
+  }
+}
