@@ -114,21 +114,21 @@ erlaubnis:
   # UMSTELLUNG NACH ERTEILUNG AN EINER STELLE: status.wert auf "erteilt", erteilt_am und behoerde füllen.
   # Die Komponente ErlaubnisHinweis wählt dann automatisch die *_erteilt-Fassung bzw. blendet A/B/C/D aus.
   status:
-    wert: "beantragt"
+    wert: "erteilt"
     werte_moeglich: [beantragt, erteilt]
-    quelle: "07-recht-erlaubnis.md (Ausgangslage); Live-Impressum"
-    stand: 2026-11-01
+    quelle: "Mitteilung Linus Rössler über den Koordinator, 03.11.2026; Bescheid liegt dem Projekt noch nicht vor"
+    stand: 2026-11-03
     status: geprueft
-    hinweis: "Antrag bei der IHK für München und Oberbayern (Sitz Niederlauer). Bei Sitzverlegung nach BW ist die IHK zuständig, NICHT Landratsamt/Stadt (07-recht-erlaubnis.md Abschnitt 6)."
+    hinweis: "Bis 02.11.2026 beantragt (Antrag bei der IHK für München und Oberbayern, Sitz Niederlauer). Erteilungsdatum, Aktenzeichen und ausstellende IHK fehlen noch ([LINUS], siehe FRAGEN-AN-LINUS.md). Texte in texte/ am 03.11.2026 auf die erteilte Erlaubnis umgestellt (analyse-aktuelle-webseite/08-faktenpruefung.md)."
     muster: 'beantragt'
     verwendet_in: [direktankauf, ort-ditzingen, ort-heimsheim, ort-leonberg, ort-pforzheim, ort-renningen, ratgeber-eigentumswohnung-verkaufen, ratgeber-energieausweis, ratgeber-geerbte-wohnung-verkaufen, ratgeber-maklerprovision, ratgeber-ohne-makler, ratgeber-sofortankauf-vs-makler, ratgeber-spekulationssteuer, ratgeber-verkauf-im-alter, ratgeber-verkaufen-oder-vermieten, ratgeber-vermietete-wohnung-verkaufen, ratgeber-wohnung-scheidung, start, ueber-mich, wohnung-bewerten, wohnung-verkaufen]
   behoerde:
-    wert: "IHK für München und Oberbayern"
-    anschrift: "Balanstraße 55-59, 81541 München"
-    quelle: "07-recht-erlaubnis.md Abschnitt 6 und Baustein D"
-    stand: 2026-11-01
-    status: zu_pruefen
-    hinweis: "Anschrift [ZU PRÜFEN] laut Gutachten. Nach Sitzverlegung: IHK Region Stuttgart (Leonberg, Renningen, Ditzingen) oder IHK Nordschwarzwald (Heimsheim, Pforzheim), vor Antrag telefonisch bestätigen."
+    wert: "[LINUS]"
+    anschrift: "[LINUS]"
+    quelle: "Erlaubnisbescheid (liegt dem Projekt noch nicht vor)"
+    stand: 2026-11-03
+    status: offen
+    hinweis: "Ausstellende IHK und Anschrift laut Bescheid eintragen. Der Antrag lag bei der IHK für München und Oberbayern, Balanstraße 55-59, 81541 München (Anschrift laut Gutachten ungeprüft); ob diese IHK erteilt hat, bestätigt Linus."
     verwendet_in: [impressum, ueber-mich, strukturierte-daten]
   beantragt_am:
     wert: null
@@ -138,11 +138,19 @@ erlaubnis:
     hinweis: "Platzhalter [Datum] in Baustein D."
     verwendet_in: [impressum]
   erteilt_am:
-    wert: null
+    wert: "[LINUS]"
     quelle: "Erlaubnisbescheid"
-    stand: 2026-11-01
+    stand: 2026-11-03
     status: offen
+    hinweis: "Erlaubnis laut Linus erteilt (Mitteilung 03.11.2026); Datum aus dem Bescheid eintragen."
     verwendet_in: [impressum, ueber-mich, footer, strukturierte-daten]
+  aktenzeichen:
+    wert: "[LINUS]"
+    quelle: "Erlaubnisbescheid"
+    stand: 2026-11-03
+    status: offen
+    hinweis: "Aktenzeichen bzw. Erlaubnisnummer laut Bescheid, für das Impressum (Baustein E)."
+    verwendet_in: [impressum]
   text_autorzeile:
     wert: "Immobilienmakler für Eigentumswohnungen (Erlaubnis nach § 34c GewO beantragt)"
     wert_erteilt: "Immobilienmakler für Eigentumswohnungen (Erlaubnis nach § 34c GewO)"

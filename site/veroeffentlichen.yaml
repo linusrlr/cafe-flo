@@ -1,0 +1,21 @@
+# Welche Seiten gehen live? Nur URLs aus dieser Liste werden im Produktions-Build
+# (npm run build:prod / npm run veroeffentlichen) gebaut, in die Sitemap aufgenommen und verlinkt.
+# Eine Seite darf erst hinein, wenn Linus sie gelesen hat und `npm run offen` für sie keine Marker mehr zeigt;
+# sonst bricht der Build mit Datei, Zeile und Markertext ab.
+# Danke-Seiten folgen automatisch ihrer Formularseite, 404 und Formular-Fehlerseite werden immer gebaut.
+#
+# Welle 1 (zum Freischalten das "#" vor der jeweiligen Zeile entfernen):
+seiten:
+#  - /
+#  - /wohnung-verkaufen/
+#  - /wohnung-bewerten/
+#  - /direktankauf/
+#  - /ueber-mich/
+#  - /kontakt/
+#  - /impressum/
+#  - /datenschutz/
+#  - /widerruf/
+#
+# Welle 2: /wohnung-verkaufen/leonberg/, /wohnung-verkaufen/pforzheim/, /wohnung-verkaufen/heimsheim/,
+#   /ratgeber/, /ratgeber/eigentumswohnung-verkaufen/, /ratgeber/vermietete-wohnung-verkaufen/,
+#   /ratgeber/geerbte-wohnung-verkaufen/, /ratgeber/maklerprovision/

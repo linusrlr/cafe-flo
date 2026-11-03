@@ -12,13 +12,17 @@ Diese Antworten ändern Seitenstruktur, Impressum, Rechtstexte oder Design.
   ☐ Niederlauer bleibt ☐ neue Adresse: ……………………………… ab (Datum): ………
   *Folgen:* Impressum, zuständige IHK (in Baden-Württemberg die IHK, nicht Landratsamt), Datenschutzaufsicht (BayLDA oder LfDI BW), Google-Unternehmensprofil, NAP-Block auf Ortsseiten und Kontakt.
 
-- [ ] **1.2 Stand der Maklererlaubnis.** Wann hast du die vollständigen Unterlagen bei der IHK München eingereicht? Ist ein Gewerbe angemeldet?
-  Unterlagen vollständig seit: ……… Erwartete Erteilung: ……… Gewerbe angemeldet ☐ ja, als: ……………… ☐ nein
-  *Warum:* Nach drei Monaten ab vollständigem Antrag gilt die Erlaubnis als erteilt (§ 6a GewO). Ohne Gewerbeanmeldung sind schon die kostenlosen Einschätzungen heikel.
+- [x] **1.2 Stand der Maklererlaubnis.** ~~Wann hast du die vollständigen Unterlagen bei der IHK München eingereicht?~~ Erledigt am 3. November 2026: Die Erlaubnis nach § 34c GewO ist erteilt. Noch offen aus dieser Frage: Ist ein Gewerbe angemeldet?
+  Gewerbe angemeldet ☐ ja, als: ……………… ☐ nein
+  *Warum:* Ohne Gewerbeanmeldung fehlt die Grundlage für Maklertätigkeit und Impressum.
 
-- [ ] **1.3 Bis zur Erteilung.** Einverstanden mit dieser Linie: kostenlose Ersteinschätzung und erstes Gespräch ja; keine Maklerverträge, keine Inserate, keine Käufer vorstellen; Verkaufsplan erst mit Maklervertrag?
-  ☐ einverstanden ☐ Verkaufsplan trotzdem vorher anbieten (Anwalt fragen) ☐ anders: ………
+- [x] **1.3 Bis zur Erteilung.** Erledigt am 3. November 2026, weil die Erlaubnis erteilt ist. Die Hinweise auf Start, Verkaufen und Kontakt sind entfernt, Über mich und Direktankauf sind umgestellt: Ich darf Käufer und Investoren vermitteln und sage vorher, von wem ich eine Vergütung erhalte.
+  ~~Einverstanden mit dieser Linie: kostenlose Ersteinschätzung und erstes Gespräch ja; keine Maklerverträge, keine Inserate, keine Käufer vorstellen; Verkaufsplan erst mit Maklervertrag?~~
   *Betrifft:* Hinweis auf Start, Verkaufen, Kontakt, Über mich; Impressum; Satz „anderen Investor vorstellen“ auf Direktankauf.
+
+- [ ] **1.3a Angaben zur § 34c-Erlaubnis (für Impressum).** Datum, Aktenzeichen und ausstellende IHK der § 34c-Erlaubnis?
+  Erteilt am: ……… Aktenzeichen: ……… Ausstellende IHK mit Anschrift: ………………………………
+  *Betrifft:* Impressum (Baustein E), Über mich, bauplan/fakten.yaml (erlaubnis.erteilt_am, .aktenzeichen, .behoerde).
 
 - [ ] **1.4 WhatsApp und Video.** WhatsApp als Kontaktweg?
   ☐ ja (dann Datenschutz-Abschnitt Meta, Drittland) ☐ nein. Videotool: ☐ keins ☐ ……………

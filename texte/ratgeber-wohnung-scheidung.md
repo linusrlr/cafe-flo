@@ -9,7 +9,7 @@ status: Entwurf, nicht veröffentlicht
 <!-- Langfassung vor der Kürzung: texte/_langfassung/ratgeber-wohnung-scheidung.md -->
 
 # Eigentumswohnung bei Trennung und Scheidung: Zugewinn, Übernahme, Verkauf oder Teilungsversteigerung
-*Stand: Oktober 2026 · Von Linus Rössler, Immobilienmakler für Eigentumswohnungen (Erlaubnis nach § 34c GewO beantragt)*
+*Stand: Oktober 2026 · Von Linus Rössler, Immobilienmakler für Eigentumswohnungen (Erlaubnis nach § 34c GewO)*
 
 **Kurzantwort:** Mit der gemeinsamen Wohnung haben Sie vier Wege: gemeinsam verkaufen, einer übernimmt und zahlt den anderen aus, behalten und vermieten oder Teilungsversteigerung. Der Erlös wird nach Grundbuchanteilen verteilt; wer mehr eingezahlt hat, gleicht das über den Zugewinn aus. Bis zur Entscheidung schulden beide Hausgeld und Kredit. Die Versteigerung kostet mehr und bringt in der Regel weniger als ein freier Verkauf. Am Anfang steht eine Zahl, die beide prüfen können.
 

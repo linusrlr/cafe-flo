@@ -10,7 +10,7 @@ status: Entwurf, nicht veröffentlicht
 
 # Energieausweis beim Verkauf der Eigentumswohnung: WEG-Zuständigkeit, Pflichtangaben, Fristen (GModG 2026)
 
-*Stand: Oktober 2026 · Von Linus Rössler, Immobilienmakler für Eigentumswohnungen (Erlaubnis nach § 34c GewO beantragt) · Lesezeit etwa 9 Minuten*
+*Stand: Oktober 2026 · Von Linus Rössler, Immobilienmakler für Eigentumswohnungen (Erlaubnis nach § 34c GewO) · Lesezeit etwa 9 Minuten*
 
 **Kurzantwort:** Beim Verkauf einer Eigentumswohnung brauchen Sie keinen eigenen Ausweis, sondern einen gültigen Energieausweis für das ganze Gebäude (§ 80 Abs. 3 GModG). Ihn beschafft die Eigentümergemeinschaft über die Verwaltung; die Kosten von etwa 50 bis 500 € werden nach Miteigentumsanteilen verteilt. Sie legen ihn spätestens bei der Besichtigung vor, und fünf Angaben daraus gehören in jede Anzeige. Planen Sie drei bis sechs Monate Vorlauf ein.
 

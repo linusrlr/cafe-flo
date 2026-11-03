@@ -1,0 +1,104 @@
+{
+  "_hinweis": "Felder einmal definiert: Astro rendert die Formulare daraus, PHP (public/_formular/kern.php) validiert damit. Wortlaute aus texte/wohnung-bewerten.md (Spezifikation), kontakt.md, direktankauf.md.",
+  "bewertung": {
+    "version": 1,
+    "endpunkt": "/bewertung.php",
+    "danke": "/wohnung-bewerten/danke/",
+    "anker": "formular",
+    "titel": "Wohnung kostenlos einschätzen lassen",
+    "einleitung": "Vier kurze Schritte, etwa zwei Minuten. Sie können jederzeit abbrechen; gespeichert wird erst beim Absenden.",
+    "button": "Wohnung kostenlos einschätzen lassen",
+    "unter_button": "Rückruf innerhalb eines Werktags. Keine Weitergabe an Portale oder Dritte.",
+    "zeit_min_ms": 8000,
+    "betreff_felder": ["ort", "stadtteil", "wohnflaeche", "nutzung", "rueckruf", "name"],
+    "schritte": [
+      { "legende": "Schritt 1 von 4: Wo liegt die Wohnung?", "weiter": "Weiter zur Wohnung", "felder": ["ort", "ort_sonst", "stadtteil", "strasse"] },
+      { "legende": "Schritt 2 von 4: Die Wohnung", "microcopy": "Ungefähre Angaben reichen. Was Sie nicht wissen, lassen Sie frei.", "weiter": "Weiter zu Zustand und Nutzung", "felder": ["wohnflaeche", "zimmer", "etage", "aufzug", "aussenflaechen", "stellplatz", "baujahr"] },
+      { "legende": "Schritt 3 von 4: Zustand, Nutzung, Zeitpunkt", "microcopy": "Diese Angaben entscheiden über die Spanne mehr als die Lage.", "weiter": "Weiter zu Ihren Kontaktdaten", "felder": ["zustand", "nutzung", "kaltmiete", "hausgeld", "zeitpunkt", "anlass"] },
+      { "legende": "Schritt 4 von 4: Wie erreiche ich Sie?", "microcopy": "Letzter Schritt. Name und ein Kontaktweg genügen.", "felder": ["name", "email", "telefon", "rueckruf", "nachricht"] }
+    ],
+    "felder": {
+      "ort": { "typ": "auswahl", "label": "Ort", "pflicht": true, "optionen": { "leonberg": "Leonberg", "heimsheim": "Heimsheim", "ditzingen": "Ditzingen", "renningen": "Renningen", "pforzheim": "Pforzheim", "anderer": "anderer Ort" }, "hilfe": "Ich arbeite in diesen fünf Orten. Liegt die Wohnung anderswo, sage ich Ihnen ehrlich, ob ich helfen kann." },
+      "ort_sonst": { "typ": "text", "label": "Welcher Ort?", "max": 80, "pflicht_wenn": { "ort": "anderer" }, "sichtbar_wenn": { "ort": "anderer" } },
+      "stadtteil": { "typ": "text", "label": "Stadtteil oder Ortsteil", "max": 80, "hilfe": "Hilft bei den Vergleichswerten. Pforzheim hat 14 Stadtteile mit unterschiedlichen Preisen." },
+      "strasse": { "typ": "text", "label": "Straße", "max": 120, "autocomplete": "street-address", "hilfe": "Ohne Hausnummer reicht. Die Adresse brauche ich erst, wenn wir uns treffen." },
+      "wohnflaeche": { "typ": "zahl", "label": "Wohnfläche", "einheit": "m²", "min": 10, "max": 500, "dezimal": true, "hilfe": "Wohnfläche laut Kaufvertrag oder Teilungserklärung. Balkon und Terrasse zählen in der Regel nur zu einem Viertel. Keller und Stellplatz zählen nicht." },
+      "zimmer": { "typ": "auswahl", "label": "Zimmer", "optionen": { "1": "1", "1.5": "1,5", "2": "2", "2.5": "2,5", "3": "3", "3.5": "3,5", "4": "4", "4.5": "4,5", "5plus": "5 und mehr" }, "hilfe": "Halbe Zimmer sind Räume unter 10 m²." },
+      "etage": { "typ": "auswahl", "label": "Etage", "optionen": { "ug": "Untergeschoss/Souterrain", "eg": "Erdgeschoss", "og1": "1. OG", "og2": "2. OG", "og3": "3. OG", "og4plus": "4. OG und höher", "dg": "Dachgeschoss" }, "hilfe": "Erdgeschoss mit Garten und Dachgeschoss mit Terrasse bitte unten bei Außenflächen angeben." },
+      "aufzug": { "typ": "auswahl", "label": "Aufzug", "optionen": { "ja": "ja", "nein": "nein", "unbekannt": "weiß nicht" }, "hilfe": "Ab dem dritten Stock ohne Aufzug verändert sich der Käuferkreis." },
+      "aussenflaechen": { "typ": "mehrfach", "label": "Außenflächen", "optionen": { "balkon": "Balkon", "loggia": "Loggia", "terrasse": "Terrasse", "garten": "Garten", "keine": "keine" }, "hilfe": "Mehrere Angaben möglich." },
+      "stellplatz": { "typ": "auswahl", "label": "Stellplatz", "optionen": { "keiner": "keiner", "aussen": "Außenstellplatz", "carport": "Carport", "garage": "Garage", "tiefgarage": "Tiefgarage", "mehrere": "mehrere" }, "hilfe": "Ein Tiefgaragenplatz ist in Leonberg und Ditzingen oft ein eigenes Verkaufsargument." },
+      "baujahr": { "typ": "zahl", "label": "Baujahr", "min": 1800, "max": "jahr+3", "hilfe": "Das Baujahr des Gebäudes, steht im Energieausweis. Ungefähr reicht." },
+      "zustand": { "typ": "auswahl", "label": "Zustand der Wohnung", "optionen": { "modernisiert": "in den letzten zehn Jahren modernisiert (Bad, Böden, Elektrik oder Fenster)", "gepflegt": "gepflegt, weitgehend Originalzustand", "renovierungsbeduerftig": "renovierungsbedürftig" }, "hilfe": "Es gibt keine falsche Antwort. Eine renovierungsbedürftige Wohnung hat andere Käufer, nicht keine." },
+      "nutzung": { "typ": "auswahl", "label": "Nutzung", "optionen": { "selbst": "selbst bewohnt", "vermietet": "vermietet", "leer": "leer" }, "hilfe": "Bei vermieteten Wohnungen rechne ich zusätzlich mit der Miete." },
+      "kaltmiete": { "typ": "zahl", "label": "Kaltmiete je Monat", "einheit": "€", "min": 0, "max": 10000, "sichtbar_wenn": { "nutzung": "vermietet" }, "hilfe": "Nettokaltmiete ohne Nebenkosten, aus dem Mietvertrag oder der letzten Mieterhöhung." },
+      "hausgeld": { "typ": "zahl", "label": "Hausgeld je Monat", "einheit": "€", "min": 0, "max": 3000, "hilfe": "Steht im Wirtschaftsplan oder auf dem Kontoauszug. Wichtig, weil Käufer den nicht umlagefähigen Anteil einrechnen." },
+      "zeitpunkt": { "typ": "auswahl", "label": "Zeitpunkt", "optionen": { "bald": "möglichst bald", "sechs_monate": "in den nächsten sechs Monaten", "orientieren": "zunächst orientieren" }, "hilfe": "„Zunächst orientieren“ ist eine ehrliche Antwort. Dann bekommen Sie die Einschätzung und keinen Anruf alle zwei Wochen." },
+      "anlass": { "typ": "auswahl", "label": "Anlass", "optionen": { "verkauf": "Verkauf geplant", "erbe": "Wohnung geerbt", "trennung": "Trennung oder Scheidung", "umzug_alter": "Umzug oder Alter", "anlage": "Kapitalanlage auflösen", "direktankauf": "Direktankauf prüfen", "orientieren": "nur orientieren", "sonstiges": "Sonstiges" }, "hilfe": "Der Anlass ändert, worauf ich achte: Bei einem Erbfall zum Beispiel auf den Wert fürs Finanzamt, bei einer Trennung auf eine Zahl, die beide prüfen können." },
+      "name": { "typ": "name", "label": "Name", "pflicht": true, "max": 80, "autocomplete": "name", "hilfe": "Vor- und Nachname, damit ich Sie richtig anspreche." },
+      "email": { "typ": "email", "label": "E-Mail", "max": 254, "autocomplete": "email", "kontaktweg": true, "hilfe": "Für die schriftliche Einschätzung als PDF." },
+      "telefon": { "typ": "tel", "label": "Telefon", "max": 30, "autocomplete": "tel", "kontaktweg": true, "hilfe": "Für Rückfragen. Ein Anruf, kein Verkaufsgespräch." },
+      "rueckruf": { "typ": "auswahl", "label": "Bevorzugte Rückrufzeit", "optionen": { "vormittags": "vormittags", "nachmittags": "nachmittags", "abends": "abends 18 bis 20 Uhr", "samstags": "samstags", "egal": "egal" }, "hilfe": "Ich rufe nur in diesem Fenster an." },
+      "nachricht": { "typ": "textfeld", "label": "Nachricht", "max": 3000, "hilfe": "Was ich noch wissen sollte: beschlossene Sonderumlage, geplante Arbeiten, Streit in der Gemeinschaft, Wunschtermin." }
+    }
+  },
+  "kontakt": {
+    "version": 1,
+    "endpunkt": "/kontakt.php",
+    "danke": "/kontakt/danke/",
+    "anker": "formular",
+    "button": "Nachricht senden",
+    "zeit_min_ms": 3000,
+    "betreff_felder": ["ort", "vorhaben", "rueckruf", "name"],
+    "schritte": [
+      { "felder": ["name", "telefon", "email", "ort", "wohnflaeche", "vermietet", "vorhaben", "rueckruf", "anlass", "nachricht"] }
+    ],
+    "felder": {
+      "name": { "typ": "name", "label": "Name", "pflicht": true, "max": 80, "autocomplete": "name" },
+      "telefon": { "typ": "tel", "label": "Telefon", "max": 30, "autocomplete": "tel", "kontaktweg": true },
+      "email": { "typ": "email", "label": "E-Mail", "max": 254, "autocomplete": "email", "kontaktweg": true },
+      "ort": { "typ": "text", "label": "Ort der Wohnung", "max": 80 },
+      "wohnflaeche": { "typ": "zahl", "label": "Wohnfläche ca.", "einheit": "m²", "min": 10, "max": 500, "dezimal": true },
+      "vermietet": { "typ": "auswahl", "label": "Vermietet oder frei", "optionen": { "vermietet": "vermietet", "frei": "frei", "wird_frei": "wird frei" } },
+      "vorhaben": { "typ": "auswahl", "label": "Was Sie vorhaben", "optionen": { "verkaufen": "verkaufen lassen", "ankauf": "Ankauf prüfen lassen", "orientieren": "zunächst orientieren" } },
+      "rueckruf": { "typ": "auswahl", "label": "Rückruf am liebsten", "optionen": { "vormittags": "vormittags", "nachmittags": "nachmittags", "abends": "abends 18 bis 20 Uhr" } },
+      "anlass": { "typ": "auswahl", "label": "Anlass", "optionen": { "geerbt": "geerbt", "trennung": "Trennung", "umzug": "Umzug", "alter": "Alter", "anlage": "Anlage auflösen", "sonstiges": "sonstiges" } },
+      "nachricht": { "typ": "textfeld", "label": "Ihre Nachricht", "max": 3000 }
+    }
+  },
+  "ankauf": {
+    "version": 1,
+    "endpunkt": "/kontakt.php",
+    "danke": "/direktankauf/danke/",
+    "anker": "ankauf-formular",
+    "button": "Ankauf prüfen lassen",
+    "zeit_min_ms": 3000,
+    "betreff_felder": ["ort", "baujahr", "wohnflaeche", "zeitpunkt", "name"],
+    "schritte": [
+      { "felder": ["name", "telefon", "email", "ort", "ort_sonst", "baujahr", "wohnflaeche", "etage", "zustand", "nutzung", "kaltmiete", "hausgeld", "zeitpunkt", "vermittlung_zuerst", "nachricht"] }
+    ],
+    "felder": {
+      "name": { "typ": "name", "label": "Name", "pflicht": true, "max": 80, "autocomplete": "name" },
+      "telefon": { "typ": "tel", "label": "Telefon", "max": 30, "autocomplete": "tel", "kontaktweg": true, "hilfe": "Ich melde mich meist telefonisch." },
+      "email": { "typ": "email", "label": "E-Mail", "max": 254, "autocomplete": "email", "kontaktweg": true },
+      "ort": { "typ": "auswahl", "label": "Ort der Wohnung", "pflicht": true, "optionen": { "heimsheim": "Heimsheim", "leonberg": "Leonberg", "ditzingen": "Ditzingen", "renningen": "Renningen", "pforzheim": "Pforzheim", "anderer": "anderer Ort" } },
+      "ort_sonst": { "typ": "text", "label": "Welcher Ort?", "max": 80, "pflicht_wenn": { "ort": "anderer" }, "sichtbar_wenn": { "ort": "anderer" } },
+      "baujahr": { "typ": "zahl", "label": "Baujahr", "min": 1800, "max": "jahr+3", "hilfe": "Ungefähr reicht." },
+      "wohnflaeche": { "typ": "zahl", "label": "Wohnfläche", "einheit": "m²", "min": 10, "max": 500, "dezimal": true },
+      "etage": { "typ": "auswahl", "label": "Etage", "optionen": { "eg": "Erdgeschoss", "og1_3": "1. bis 3. OG", "og4plus": "4. OG oder höher", "dg": "Dachgeschoss" } },
+      "zustand": { "typ": "auswahl", "label": "Zustand", "optionen": { "gepflegt": "gepflegt", "renovierungsbeduerftig": "renovierungsbedürftig", "sanierungsbeduerftig": "sanierungsbedürftig", "unbekannt": "weiß nicht" } },
+      "nutzung": { "typ": "auswahl", "label": "Vermietet oder frei", "optionen": { "vermietet": "vermietet", "frei": "frei" } },
+      "kaltmiete": { "typ": "zahl", "label": "Kaltmiete pro Monat", "einheit": "€", "min": 0, "max": 10000, "sichtbar_wenn": { "nutzung": "vermietet" } },
+      "hausgeld": { "typ": "zahl", "label": "Hausgeld pro Monat", "einheit": "€", "min": 0, "max": 3000 },
+      "zeitpunkt": { "typ": "auswahl", "label": "Gewünschter Zeitpunkt", "optionen": { "bald": "so bald wie möglich", "drei_monate": "in 3 Monaten", "spaeter": "später", "offen": "offen" } },
+      "vermittlung_zuerst": { "typ": "checkbox", "label": "Ich möchte zuerst wissen, was eine Vermittlung bringt.", "wert": "ja", "vorausgewaehlt": true },
+      "nachricht": { "typ": "textfeld", "label": "Nachricht", "max": 3000 }
+    }
+  },
+  "texte": {
+    "datenschutz": "Ihre Angaben verwende ich nur, um Ihre Anfrage zu beantworten und die Einschätzung zu erstellen. Ich gebe sie nicht an Portale, andere Makler oder sonstige Dritte weiter und lösche sie, wenn Sie das wünschen.",
+    "fehler_versand": "Die Anfrage konnte nicht gesendet werden. Rufen Sie mich an unter 0159 05844641 oder schreiben Sie an linus@roessler-immo.de.",
+    "fehler_pruefen": "Bitte prüfen Sie die markierten Angaben.",
+    "limit": "Sie haben in kurzer Zeit mehrere Anfragen gesendet. Bitte rufen Sie mich an: 0159 05844641."
+  }
+}

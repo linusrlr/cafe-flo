@@ -15,7 +15,7 @@ In Pforzheim werden Eigentumswohnungen im Oktober 2026 im Mittel für rund 2.900
 **[Button: Wohnung in Pforzheim kostenlos einschätzen lassen → /wohnung-bewerten/]**
 **[Button: Anrufen: 0159 05844641 → tel:+4915905844641]**
 
-*Linus Rössler, Makler für Eigentumswohnungen in Pforzheim und im Enzkreis · Stand Oktober 2026 · Erlaubnis nach § 34c GewO beantragt · [Über mich](/ueber-mich/)*
+*Linus Rössler, Makler für Eigentumswohnungen in Pforzheim und im Enzkreis · Stand Oktober 2026 · Erlaubnis nach § 34c GewO · [Über mich](/ueber-mich/)*
 
 ## Was Wohnungen in Pforzheim kosten
 

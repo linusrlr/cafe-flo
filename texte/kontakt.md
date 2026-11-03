@@ -22,9 +22,6 @@ Telefonisch erreichen Sie mich [LINUS: Zeiten, zum Beispiel Montag bis Freitag 9
 
 Ich habe kein Ladengeschäft. Termine finden bei Ihnen in der Wohnung statt oder, wenn Sie nicht vor Ort wohnen, telefonisch oder per Video. Treffen sind in Heimsheim, Leonberg, Ditzingen, Renningen und Pforzheim ohne Anfahrtskosten möglich.
 
-Meine Erlaubnis als Immobilienmakler nach § 34c GewO ist beantragt, aber noch nicht erteilt. Bis dahin vermittle ich keine Wohnungen und schließe keine Maklerverträge ab. Die kostenlose Ersteinschätzung Ihrer Wohnung und ein erstes Gespräch sind schon jetzt möglich, unverbindlich.
-<!-- Einziger Erlaubnis-Hinweis auf dieser Seite. Nach Erteilung entfernen. Wortlaut nach analyse-aktuelle-webseite/07-recht-erlaubnis.md, Baustein A. Vor Veröffentlichung von einer Anwältin/einem Anwalt für Gewerberecht prüfen lassen. -->
-
 ## Drei Wege zu mir
 
 1. **Anrufen.** 0159 05844641. Wenn Sie es eilig haben oder lieber reden als schreiben. **[Button: Anrufen → tel:+4915905844641]**

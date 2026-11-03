@@ -9,7 +9,7 @@ status: Entwurf, nicht veröffentlicht
 <!-- Langfassung vor der Kürzung: texte/_langfassung/ratgeber-maklerprovision.md -->
 
 # Maklerprovision in Baden-Württemberg: Höhe, Aufteilung, Vertrag, und was Rössler Immobilien kostet
-*Stand: Oktober 2026 · Lesezeit ca. 11 Minuten · Von Linus Rössler, Immobilienmakler für Eigentumswohnungen (Erlaubnis nach § 34c GewO beantragt)*
+*Stand: Oktober 2026 · Lesezeit ca. 11 Minuten · Von Linus Rössler, Immobilienmakler für Eigentumswohnungen (Erlaubnis nach § 34c GewO)*
 
 **Kurzantwort:** In Baden-Württemberg sind 3,57 % des Kaufpreises je Seite inklusive Umsatzsteuer üblich, zusammen bis 7,14 %; eine gesetzliche Obergrenze gibt es nicht. Seit dem 23. Dezember 2020 zahlt der Käufer einer Wohnung höchstens so viel wie der Verkäufer (§ 656c BGB). Bei mir zahlen Sie 2,98 % inklusive Umsatzsteuer, bei 290.000 € also 8.642 €, und nur, wenn ein notarieller Kaufvertrag zustande kommt.
 
@@ -272,7 +272,7 @@ Telefon 0159 05844641.
 - FAQ „Muss ich zahlen, wenn ich den Käufer selbst finde?“: nach Klärung des Alleinauftrags (sichtbarer Marker im Abschnitt Maklervertrag) die eindeutige Antwort für Rössler eintragen.
 - FAQ „Fallen bei Nicht-Verkauf Kosten an?“: Aufwandsentschädigung bei Rückzug ausschließen oder beziffern (hängt am sichtbaren Marker in „Das Wichtigste in Kürze“).
 - Reservierungsgebühr: „Ich nehme keine Reservierungsgebühr“ bitte bestätigen.
-- Erlaubnis nach § 34c GewO: Bei welcher Behörde beantragt, erwartetes Datum? Nach Erteilung Datum und Behörde eintragen und den Vorbehalt in der Byline entfernen (Baustein laut analyse-aktuelle-webseite/07-recht-erlaubnis.md).
+- Erledigt 03.11.2026: Erlaubnis nach § 34c GewO laut Linus erteilt, Vorbehalt in der Byline entfernt. Offen: Datum, Aktenzeichen und ausstellende IHK für das Impressum (FRAGEN-AN-LINUS.md).
 - Weiterbildung: Nachweise (Stunden, Anbieter, Jahr) für die Autorenbox, und ob eine Vermögensschadenhaftpflicht besteht, die genannt werden darf.
 -->
 

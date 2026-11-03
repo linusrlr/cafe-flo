@@ -9,7 +9,7 @@ status: Entwurf, nicht veröffentlicht
 <!-- Hinweise zur Umsetzung: H1 bleibt wörtlich (Live-Seite). Direktankauf ist nachgeordnet zur Vermittlung (Analyse 01, 2.2 und 10 Nr. 12). Eigenes Kurzformular statt Kontaktformular (Analyse 01, 6.2). Vergleichstabelle mit Kopfzelle und per Tastatur erreichbar (Analyse 01, 8.4). JSON-LD: Service, FAQPage, BreadcrumbList. -->
 
 # Ich prüfe den direkten Ankauf Ihrer Wohnung.
-*Stand: Oktober 2026 · Lesezeit ca. 8 Minuten · Von Linus Rössler, Immobilienmakler für Eigentumswohnungen (Erlaubnis nach § 34c GewO beantragt)*
+*Stand: Oktober 2026 · Lesezeit ca. 8 Minuten · Von Linus Rössler, Immobilienmakler für Eigentumswohnungen (Erlaubnis nach § 34c GewO)*
 
 Mein Hauptweg ist die Vermittlung. Dann bestimmt der Markt den Preis, und das ist meist der bessere Preis für Sie. Manche Eigentümer wollen aber kein Inserat, keine Besichtigungen und keine Monate des Wartens. Für passende Wohnungen in Heimsheim, Leonberg, Ditzingen, Renningen und Pforzheim komme ich dann selbst als Käufer infrage. Auf dieser Seite steht, wann das sinnvoll ist, wie mein Angebot zustande kommt und was Sie dabei weniger bekommen.
 
@@ -35,9 +35,8 @@ Mein Hauptweg ist die Vermittlung. Dann bestimmt der Markt den Preis, und das is
 
 ## In welcher Rolle ich stehe
 
-Bei einem Eigenankauf bin ich Ihr Vertragspartner auf der Käuferseite. Mein Angebot berücksichtigt meine Kosten, Risiken und den geplanten Gewinn. Eine zusätzliche unabhängige Einschätzung können Sie jederzeit einholen. Andere Käufer oder Investoren stelle ich erst vor, wenn meine Erlaubnis nach § 34c GewO erteilt ist. Dann erfahren Sie vorher, von wem ich dafür eine Vergütung erhalte. [1]
-<!-- Nach Erteilung wieder der Live-Satz: „Wenn ich Ihnen stattdessen einen anderen Investor vorstelle, erfahren Sie vorher, von wem ich dafür eine Vergütung erhalte.“ (07-recht-erlaubnis.md, Abschnitt 9) -->
-<!-- RECHT: Einen anderen Investor gegen Vergütung vorzustellen ist Nachweis oder Vermittlung und erst nach Erteilung der Erlaubnis nach § 34c GewO zulässig (analyse-aktuelle-webseite/07-recht-erlaubnis.md, Abschnitt 2). Bis zur Erteilung den vorigen Satz ersetzen durch Baustein C: „Andere Käufer oder Investoren stelle ich erst vor, wenn meine Erlaubnis nach § 34c GewO erteilt ist. Dann erfahren Sie vorher, von wem ich dafür eine Vergütung erhalte.“ -->
+Bei einem Eigenankauf bin ich Ihr Vertragspartner auf der Käuferseite. Mein Angebot berücksichtigt meine Kosten, Risiken und den geplanten Gewinn. Eine zusätzliche unabhängige Einschätzung können Sie jederzeit einholen. Wenn ich Ihnen stattdessen einen anderen Käufer oder Investor vorstelle, erfahren Sie vorher, von wem ich dafür eine Vergütung erhalte. [1]
+<!-- 03.11.2026: Erlaubnis nach § 34c GewO laut Linus erteilt; Live-Satz (Baustein C, wert_erteilt) wieder eingesetzt. Die Vorstellung anderer Käufer oder Investoren gegen Vergütung ist Nachweis oder Vermittlung und damit erst seit der Erteilung zulässig (07-recht-erlaubnis.md, Abschnitt 2). Datum, Aktenzeichen und IHK: [LINUS], siehe FRAGEN-AN-LINUS.md. -->
 
 Das heißt konkret: Als Makler verdiene ich an einem hohen Preis. Als Käufer verdiene ich an einem niedrigen. Ich habe hier also ein eigenes Interesse, und das sollen Sie wissen, bevor Sie mit mir sprechen. Deshalb gelten feste Regeln:
 - Erst die Einschätzung als Makler, dann das Ankaufsangebot.

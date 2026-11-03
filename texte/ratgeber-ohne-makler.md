@@ -6,7 +6,7 @@ stand: Oktober 2026
 status: Entwurf, nicht veröffentlicht
 ---
 # Eigentumswohnung ohne Makler verkaufen: Was Sie wirklich sparen, was Sie riskieren, und ein Hybrid-Angebot
-*Stand: Oktober 2026 · Lesezeit ca. 15 Minuten · Von Linus Rössler, Immobilienmakler für Eigentumswohnungen (Erlaubnis nach § 34c GewO beantragt)*
+*Stand: Oktober 2026 · Lesezeit ca. 15 Minuten · Von Linus Rössler, Immobilienmakler für Eigentumswohnungen (Erlaubnis nach § 34c GewO)*
 
 Sie überlegen, Ihre Wohnung selbst zu verkaufen. Das ist erlaubt, und in manchen Fällen ist es die richtige Entscheidung. Ich bin Makler, also verdiene ich nichts, wenn Sie allein verkaufen. Deshalb rechne ich Ihnen hier offen vor, was Sie sparen, was der Alleingang kostet und wo bei einer Eigentumswohnung die Fallen liegen. Wenn sich der Privatverkauf für Sie lohnt, sage ich das. Wenn Sie nur einzelne Teile abgeben wollen, finden Sie am Ende einen Mittelweg.
 

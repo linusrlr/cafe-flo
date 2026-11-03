@@ -10,7 +10,7 @@ status: Entwurf, nicht veröffentlicht
 
 # Eigentumswohnung verkaufen oder vermieten? Entscheidungshilfe mit Zahlen aus der Region
 
-*Stand: Oktober 2026 · Von Linus Rössler, Immobilienmakler für Eigentumswohnungen und selbst Vermieter einer Wohnung (Erlaubnis nach § 34c GewO beantragt) · Lesezeit etwa 10 Minuten*
+*Stand: Oktober 2026 · Von Linus Rössler, Immobilienmakler für Eigentumswohnungen und selbst Vermieter einer Wohnung (Erlaubnis nach § 34c GewO) · Lesezeit etwa 10 Minuten*
 
 **Kurzantwort:** Eine 75-m²-Wohnung in Leonberg bringt verkauft heute rund 283.500 € netto. Vermietet bleiben im selben Beispiel rund 3,5 % im Jahr vor Steuern, und eine einzige größere Sonderumlage kann den Vorteil aufzehren. Vermieten lohnt vor allem, wenn die Zehnjahresfrist noch läuft, Sie die Wohnung später selbst brauchen oder die Gemeinschaft solide aufgestellt ist.
 

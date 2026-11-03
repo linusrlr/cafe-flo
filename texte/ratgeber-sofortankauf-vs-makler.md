@@ -6,7 +6,7 @@ stand: Oktober 2026
 status: Entwurf, nicht veröffentlicht
 ---
 # Wohnung sofort verkaufen: Sofortankauf oder Makler? Was Ankäufer zahlen, wie Sie seriöse Anbieter erkennen, und was mein eigener Direktankauf bedeutet
-*Stand: Oktober 2026 · Lesezeit ca. 14 Minuten · Von Linus Rössler, Immobilienmakler für Eigentumswohnungen (Erlaubnis nach § 34c GewO beantragt)*
+*Stand: Oktober 2026 · Lesezeit ca. 14 Minuten · Von Linus Rössler, Immobilienmakler für Eigentumswohnungen (Erlaubnis nach § 34c GewO)*
 
 Vielleicht lag eine Postkarte im Briefkasten: „Wir kaufen Ihre Wohnung in 24 Stunden.“ Vielleicht drängt eine Trennung, ein Erbe oder eine auslaufende Finanzierung. Dann klingt ein Sofortankauf nach Ruhe. Diese Seite erklärt, wie Ankäufer rechnen, wie weit ihre Angebote laut Quellen unter dem Marktwert liegen und woran Sie ein seriöses Angebot erkennen. Vorher sage ich Ihnen, warum ich bei diesem Thema nicht neutral bin.
 

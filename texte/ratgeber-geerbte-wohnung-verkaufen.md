@@ -9,7 +9,7 @@ status: Entwurf, nicht veröffentlicht
 <!-- Langfassung vor der Kürzung: texte/_langfassung/ratgeber-geerbte-wohnung-verkaufen.md -->
 
 # Geerbte Eigentumswohnung verkaufen: Erbschein, Grundbuch, Erbengemeinschaft und Steuern, Schritt für Schritt
-*Stand: Oktober 2026 · Lesezeit ca. 12 Minuten · Von Linus Rössler, Immobilienmakler für Eigentumswohnungen (Erlaubnis nach § 34c GewO beantragt)*
+*Stand: Oktober 2026 · Lesezeit ca. 12 Minuten · Von Linus Rössler, Immobilienmakler für Eigentumswohnungen (Erlaubnis nach § 34c GewO)*
 
 **Kurzantwort:** Eine geerbte Eigentumswohnung können Sie verkaufen, sobald Sie Ihr Erbrecht nachweisen: mit Erbschein oder mit notariellem Testament samt Eröffnungsprotokoll. In einer Erbengemeinschaft müssen alle Erben zustimmen, und bis zum Verkauf tragen die Erben das Hausgeld. Kinder zahlen auf eine Wohnung im Wert bis 400.000 € keine Erbschaftsteuer, sofern sonst nichts vererbt wird. Die Spekulationsfrist läuft ab dem Kauf durch den Erblasser weiter.
 

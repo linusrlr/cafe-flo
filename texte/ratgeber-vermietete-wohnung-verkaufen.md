@@ -9,7 +9,7 @@ status: Entwurf, nicht veröffentlicht
 <!-- Langfassung vor der Kürzung: texte/_langfassung/ratgeber-vermietete-wohnung-verkaufen.md -->
 
 # Vermietete Wohnung verkaufen: Vorkaufsrecht, Kündigungssperrfrist, Preis und Käufer in Leonberg, Pforzheim und Umgebung
-*Stand: Oktober 2026 · Lesezeit ca. 11 Minuten · Von Linus Rössler, Immobilienmakler für Eigentumswohnungen (Erlaubnis nach § 34c GewO beantragt)*
+*Stand: Oktober 2026 · Lesezeit ca. 11 Minuten · Von Linus Rössler, Immobilienmakler für Eigentumswohnungen (Erlaubnis nach § 34c GewO)*
 
 **Kurzantwort:** Eine vermietete Eigentumswohnung können Sie verkaufen, ohne dass der Mieter ausziehen oder zustimmen muss; der Käufer übernimmt den Mietvertrag unverändert (§ 566 BGB). Prüfen müssen Sie, ob der Mieter ein Vorkaufsrecht hat und ob eine Kündigungssperrfrist gilt, in Leonberg und Pforzheim 2026 fünf Jahre nach einer Umwandlung. Käufer sind meist Anleger; in Stuttgart lag der Angebotsabschlag gegenüber freien Wohnungen 2025 bei 12 %.
 

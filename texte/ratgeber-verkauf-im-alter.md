@@ -10,7 +10,7 @@ status: Entwurf, nicht veröffentlicht
 
 # Wohnung verkaufen im Alter: Vollverkauf, Wohnrecht, Nießbrauch, Teilverkauf oder Leibrente im Vergleich
 
-*Stand: Oktober 2026 · Lesezeit ca. 11 Minuten · Von Linus Rössler, Immobilienmakler für Eigentumswohnungen (Erlaubnis nach § 34c GewO beantragt)*
+*Stand: Oktober 2026 · Lesezeit ca. 11 Minuten · Von Linus Rössler, Immobilienmakler für Eigentumswohnungen (Erlaubnis nach § 34c GewO)*
 
 **Kurzantwort:** Wer im Alter in eine passendere Wohnung umziehen will, sollte in der Regel voll verkaufen. Das bringt den Marktpreis, bei 290.000 € in Leonberg nach meiner Provision rund 281.000 €. Nießbrauch oder Wohnrecht senken den Preis im Leonberger Beispiel rechnerisch um rund 22 bis 51 %, je nach Alter, und beim Teilverkauf zahlen Sie laufend Nutzungsentgelt. Im Pflegefall ist die selbst bewohnte Wohnung geschützt, solange Sie oder Ihr Ehepartner darin wohnen.
 

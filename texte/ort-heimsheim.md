@@ -15,7 +15,7 @@ Eigentumswohnungen in Heimsheim werden im Oktober 2026 im Mittel für rund 3.200
 **[Button: Wohnung in Heimsheim kostenlos einschätzen lassen → /wohnung-bewerten/]**
 **[Button: Anrufen: 0159 05844641 → tel:+4915905844641]**
 
-*Linus Rössler, Makler für Eigentumswohnungen in Heimsheim und im Heckengäu · Stand Oktober 2026 · Erlaubnis nach § 34c GewO beantragt · [Über mich](/ueber-mich/)*
+*Linus Rössler, Makler für Eigentumswohnungen in Heimsheim und im Heckengäu · Stand Oktober 2026 · Erlaubnis nach § 34c GewO · [Über mich](/ueber-mich/)*
 
 Heimsheim steht in meiner Ortsliste an erster Stelle. [LINUS: Persönlichen Bezug zu Heimsheim in ein bis zwei Sätzen ergänzen: Wohnort, Familie, eigene Wohnung? Ohne diesen Satz fehlt der Seite ihr Kern.]
 

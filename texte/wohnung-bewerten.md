@@ -10,7 +10,7 @@ status: Entwurf, nicht veröffentlicht
 
 # Was ist meine Eigentumswohnung wert? Bewertung in Leonberg, Heimsheim, Ditzingen, Renningen und Pforzheim
 
-*Stand: Oktober 2026 · Von Linus Rössler, Immobilienmakler für Eigentumswohnungen (Erlaubnis nach § 34c GewO beantragt)*
+*Stand: Oktober 2026 · Von Linus Rössler, Immobilienmakler für Eigentumswohnungen (Erlaubnis nach § 34c GewO)*
 
 <!-- ===================== TEIL A: LEAD-SEITE ===================== -->
 

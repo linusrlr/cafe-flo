@@ -9,7 +9,7 @@ status: Entwurf, nicht veröffentlicht
 <!-- Langfassung vor der Kürzung: texte/_langfassung/ratgeber-eigentumswohnung-verkaufen.md -->
 
 # Eigentumswohnung verkaufen: Ablauf, Unterlagen und Kosten in Leonberg, Heimsheim, Ditzingen, Renningen und Pforzheim
-*Stand: Oktober 2026 · Lesezeit ca. 11 Minuten · Von Linus Rössler, Immobilienmakler für Eigentumswohnungen (Erlaubnis nach § 34c GewO beantragt)*
+*Stand: Oktober 2026 · Lesezeit ca. 11 Minuten · Von Linus Rössler, Immobilienmakler für Eigentumswohnungen (Erlaubnis nach § 34c GewO)*
 
 **Kurzantwort:** Eine Eigentumswohnung verkaufen Sie in sechs Phasen: Unterlagen, Preis, Vermarktung, Besichtigungen, Notartermin, Übergabe. Beginnen Sie mit den rund zwölf Unterlagen, von denen die Hälfte bei der Hausverwaltung liegt. Allein die Vermarktung dauerte im ersten Quartal 2026 in 24 Städten im Schnitt 90 Tage. Als Verkäufer zahlen Sie vor allem die Maklerprovision, bei mir 2,98 % inklusive Umsatzsteuer; Grunderwerbsteuer, Notar und Grundbuch trägt der Käufer.
 

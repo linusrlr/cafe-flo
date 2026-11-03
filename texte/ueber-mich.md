@@ -74,8 +74,8 @@ Die fünf Orte hängen zusammen. Leonberg, Ditzingen und Renningen liegen an der
 - Wirtschaftsingenieur [LINUS: Abschluss, Hochschule, Jahr]
 - Berufserfahrung in Projektcontrolling und Wohnungsbewertung [LINUS: Jahre]
 - [LINUS: Weiterbildungen, Zertifikate, Mitgliedschaft IVD oder BVFI geplant?]
-- Die Erlaubnis als Immobilienmakler nach § 34c Abs. 1 Satz 1 Nr. 1 GewO ist bei der IHK für München und Oberbayern beantragt und noch nicht erteilt [ZU PRÜFEN: Behörde nach Standortentscheidung; bei Sitz in Baden-Württemberg ist die IHK des Bezirks zuständig, nicht Landratsamt oder Stadt, siehe analyse-aktuelle-webseite/07-recht-erlaubnis.md]. Bis dahin vermittle ich keine Wohnungen und schließe keine Maklerverträge ab. Die kostenlose Ersteinschätzung und ein erstes Gespräch sind schon jetzt möglich.
-<!-- Einziger Erlaubnis-Hinweis auf dieser Seite. Nach Erteilung: Behörde, Datum und ggf. Erlaubnisnummer nennen, Vorbehalt streichen (Baustein F in 07-recht-erlaubnis.md). Wortlaut nach Baustein B. Vor Veröffentlichung von einer Anwältin/einem Anwalt für Gewerberecht prüfen lassen. -->
+- Ich habe die Erlaubnis als Immobilienmakler nach § 34c Abs. 1 Satz 1 Nr. 1 GewO, erteilt am [LINUS: Datum] durch die [LINUS: ausstellende IHK], Aktenzeichen [LINUS: Aktenzeichen]. Ich vermittle Eigentumswohnungen an Käufer und stelle Ihnen auf Wunsch Investoren vor; von wem ich dabei eine Vergütung erhalte, erfahren Sie immer vorher.
+<!-- 03.11.2026: Erlaubnis laut Linus erteilt (Baustein B, wert_erteilt). Datum, IHK und Aktenzeichen aus dem Bescheid eintragen (fakten.erlaubnis.erteilt_am, .behoerde, .aktenzeichen). Vor Veröffentlichung von einer Anwältin/einem Anwalt für Gewerberecht prüfen lassen. -->
 - Als Makler unterliege ich der Makler- und Bauträgerverordnung und dem Geldwäschegesetz; deshalb muss ich Vertragsparteien vor dem Abschluss identifizieren.
 
 ## Meine fünf Zusagen

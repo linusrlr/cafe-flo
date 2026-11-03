@@ -9,7 +9,7 @@ status: Entwurf, nicht veröffentlicht
 <!-- Langfassung vor der Kürzung: texte/_langfassung/ratgeber-spekulationssteuer.md -->
 
 # Spekulationssteuer beim Verkauf der Eigentumswohnung: Frist, Ausnahmen, Rechenbeispiel (Stand 2026)
-*Stand: Oktober 2026 · Von Linus Rössler, Immobilienmakler für Eigentumswohnungen (Erlaubnis nach § 34c GewO beantragt)*
+*Stand: Oktober 2026 · Von Linus Rössler, Immobilienmakler für Eigentumswohnungen (Erlaubnis nach § 34c GewO)*
 
 **Kurzantwort:** Verkaufen Sie Ihre Wohnung innerhalb von zehn Jahren nach dem Kauf, versteuern Sie den Gewinn mit Ihrem persönlichen Einkommensteuersatz. Es zählen die Daten der notariellen Kaufverträge. Steuerfrei bleibt der Verkauf, wenn Sie die Wohnung im Verkaufsjahr und in den beiden Jahren davor selbst bewohnt haben. Erben übernehmen die Frist des Erblassers. Bei vermieteten Wohnungen erhöht die Abschreibung den Gewinn. Die Frist bleibt auch nach den Beschlüssen vom Oktober 2026 bestehen.
 

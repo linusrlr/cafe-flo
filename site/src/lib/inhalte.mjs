@@ -15,7 +15,7 @@ import remarkGfm from 'remark-gfm';
 import remarkRehype from 'remark-rehype';
 import { toHtml } from 'hast-util-to-html';
 import GithubSlugger from 'github-slugger';
-import { REPO, loeseText, bausteinRoh, bekannteWortlaute, ORTE, firma } from './fakten.mjs';
+import { REPO, loeseText, bausteinRoh, erlaubnisErteilt, bekannteWortlaute, ORTE, firma } from './fakten.mjs';
 
 export const SITE = path.join(REPO, 'site');
 export const MODUS = process.env.SITE_MODE === 'vorschau' ? 'vorschau' : 'produktion';
@@ -204,7 +204,7 @@ const wsRegex = (s) => new RegExp(s.trim().split(/\s+|(?=[.,;:])/).filter(Boolea
 function vorverarbeite(seite, ctx) {
   let t = seite.body;
   // 1. Formular-Spezifikation (Kommentarblock in wohnung-bewerten.md) wird zum Formular
-  t = t.replace(/<!--[^]*?SPEZIFIKATION FÜR DIE ENTWICKLUNG[^]*?-->/g, (k) => '\n' + tok('X', 'bewertung') + '\n' + '\n'.repeat(Math.max(0, k.split('\n').length - 3)));
+  t = t.replace(/<!--(?:(?!-->)[^])*?SPEZIFIKATION FÜR DIE ENTWICKLUNG[^]*?-->/g, (k) => '\n' + tok('X', 'bewertung') + '\n' + '\n'.repeat(Math.max(0, k.split('\n').length - 3)));
   // 2. HTML-Kommentare entfernen, Zeilenzahl erhalten
   t = t.replace(/<!--[^]*?-->/g, (k) => '\n'.repeat(k.split('\n').length - 1));
   // 2b. Anker-Zeilen <a id="x"></a> (sonst schluckt der HTML-Block die folgende Überschrift)
@@ -216,6 +216,8 @@ function vorverarbeite(seite, ctx) {
   t = loeseText(t);
   // 5. Erlaubnis-Sätze, die literal im Text stehen, durch den Baustein ersetzen
   for (const w of bekannteWortlaute()) t = t.replace(wsRegex(w.text), () => tok('E', w.baustein));
+  // 5b. Nach Erteilung (Baustein F): Byline-Zusatz „beantragt“ entfällt, wo er noch im Fließtext steht
+  if (erlaubnisErteilt) t = t.replace(/Erlaubnis nach § 34c GewO beantragt/g, 'Erlaubnis nach § 34c GewO');
   // 6. Marker
   const funde = findeMarker(t);
   for (let i = funde.length - 1; i >= 0; i--) {
@@ -243,7 +245,8 @@ function mdastUmbau(baum, seite, ctx) {
   // a) Byline "*Stand: … · Von Linus Rössler …*" unter der H1 entfernen (SeitenMeta erzeugt sie)
   for (let i = 0; i < k.length; i++) {
     const n = k[i];
-    if (n.type === 'paragraph' && n.children.length === 1 && n.children[0].type === 'emphasis' && /^Stand:/.test(textVon(n))) { k.splice(i, 1); i--; }
+    // auch die Variante der Ortsseiten: "*Linus Rössler, Makler … · Stand Oktober 2026 · Erlaubnis … · [Über mich](/ueber-mich/)*"
+    if (i < 4 && n.type === 'paragraph' && n.children.length === 1 && n.children[0].type === 'emphasis' && /(^Stand:|· Stand )/.test(textVon(n))) { k.splice(i, 1); i--; }
   }
   // b) Abschnitte "Text für …" (Danke-Text-Vorlagen in kontakt.md) entfernen
   for (let i = 0; i < k.length; i++) {
@@ -641,7 +644,7 @@ export function rendere(seite) {
     if (!hero.region && ortsZeile(n)) { addKlasse(n, 'region'); hero.region = n; }
     else if (!hero.actions && !restIntro.length && klassen(n).includes('cta-reihe')) hero.actions = n;
     else if (!hero.hinweis && !restIntro.length && klassen(n).includes('hinweis-erlaubnis')) hero.hinweis = n;
-    else if (!hero.lead && n.tagName === 'p' && !n.properties?.dataFormular && !klassen(n).includes('marker-absatz')) { addKlasse(n, 'lede'); hero.lead = n; }
+    else if (!hero.lead && !restIntro.length && n.tagName === 'p' && !n.properties?.dataFormular && !klassen(n).includes('marker-absatz')) { addKlasse(n, 'lede'); hero.lead = n; }
     else restIntro.push(n);
   }
   const woerter = hText(hast).split(/\s+/).filter(Boolean).length;
