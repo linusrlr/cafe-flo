@@ -1,0 +1,17 @@
+{
+  "extends": ["html-validate:recommended"],
+  "rules": {
+    "no-inline-style": "error",
+    "require-sri": "off",
+    "no-trailing-whitespace": "off",
+    "long-title": ["warn", { "maxlength": 80 }],
+    "tel-non-breaking": "error",
+    "valid-id": ["error", { "relaxed": true }],
+    "no-redundant-role": "off",
+    "attribute-boolean-style": "off",
+    "attribute-empty-style": "off",
+    "void-style": "off",
+    "doctype-style": "off",
+    "no-implicit-button-type": "error"
+  }
+}

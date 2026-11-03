@@ -1,0 +1,15 @@
+{
+  "name": "roessler-expose",
+  "private": true,
+  "type": "module",
+  "description": "Exposé-Generator und Freigabe-Ablauf für roessler-immo.de",
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "bauen": "node lib/generator.mjs",
+    "bauen:produktion": "node lib/generator.mjs --produktion",
+    "test": "node tests/test.mjs"
+  },
+  "dependencies": {
+    "yaml": "2.9.1"
+  }
+}

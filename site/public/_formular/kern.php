@@ -65,7 +65,8 @@ function fehlerSeite(int $code, string $listeHtml, string $seite): never {
   $vorlage = @file_get_contents(konfig()['webroot'] . '/formular-fehler/index.html');
   $zurueck = '<p><a class="btn btn-primaer" href="' . htmlspecialchars($seite) . '#' . (str_starts_with($seite, '/direktankauf/') ? 'ankauf-formular' : 'formular') . '">Zurück zum Formular</a></p>';
   if (!$vorlage) { echo "<!doctype html><html lang=\"de\"><meta charset=\"utf-8\"><title>Fehler</title>$listeHtml$zurueck"; exit; }
-  echo str_replace(['<!--FEHLERLISTE-->', '<!--ZURUECK-->'], [$listeHtml, $zurueck], $vorlage);
+  echo str_replace(['<div class="fehler-zusammenfassung" data-platzhalter="fehlerliste"></div>', '<div data-platzhalter="zurueck"></div>'],
+    ['<div class="fehler-zusammenfassung">' . $listeHtml . '</div>', $zurueck], $vorlage);
   exit;
 }
 function antworte500(bool $json): never {

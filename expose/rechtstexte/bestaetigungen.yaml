@@ -1,0 +1,59 @@
+# Wortlaut der Erklärungen im Freigabe-Formular.
+# Der Generator setzt die Platzhalter ein, berechnet je Erklärung einen SHA-256-Wert und
+# schreibt Text, Version und Prüfwert in die Formularseite UND in die Backend-Datei.
+# Das Backend protokolliert genau diesen Wortlaut. Ändert sich ein Text, Version erhöhen.
+# Keine Erklärung ist vorausgewählt (Prüfung im Test). Datenschutz ist bewusst KEIN Häkchen
+# (Art. 6 Abs. 1 lit. b DSGVO, keine Einwilligung; recherche.md 1.5).
+#
+# [ENTWURF: vor Einsatz anwaltlich prüfen lassen.]
+
+version: "2026-11-03.1"
+
+erklaerungen:
+  - id: maklervertrag
+    wann: immer
+    text: >-
+      Ich schließe mit {{firma.name}} ({{firma.inhaber}}) den Maklervertrag für Kaufinteressenten
+      zum Objekt „{{objekt.titel}}“ (Nr. {{objekt.nummer}}). Kaufe ich die Wohnung infolge des
+      Nachweises oder der Vermittlung, zahle ich eine Provision von {{provision.kaeufer_text}} des
+      Kaufpreises einschließlich Umsatzsteuer, fällig mit Abschluss des notariellen Kaufvertrags.
+      Die Vertragsbedingungen habe ich gelesen.
+    link: maklervertrag
+
+  - id: widerrufsbelehrung
+    wann: immer
+    text: >-
+      Ich habe die Widerrufsbelehrung und das Muster-Widerrufsformular zur Kenntnis genommen.
+      Beides erhalte ich mit der Bestätigungs-E-Mail zusätzlich als Text zum Aufbewahren.
+    link: widerrufsbelehrung
+
+  - id: vertraulichkeit
+    wann: immer
+    text: >-
+      Ich behandle das vollständige Exposé und die Anschrift der Wohnung vertraulich und gebe
+      sie nur an Personen weiter, die mich beim Kauf beraten oder finanzieren.
+    link: weitergabeverbot
+
+  - id: vorzeitig_verlangen
+    wann: sofort
+    text: >-
+      Ich verlange ausdrücklich, dass {{firma.name}} schon vor Ablauf der 14-tägigen
+      Widerrufsfrist mit der Maklerleistung beginnt und mir das vollständige Exposé mit der
+      Anschrift der Wohnung sofort schickt.
+
+  - id: vorzeitig_kenntnis
+    wann: sofort
+    text: >-
+      Mir ist bekannt: Widerrufe ich den Vertrag, nachdem die Leistung begonnen hat, muss ich
+      für die bis dahin erbrachten Leistungen einen angemessenen Betrag als Wertersatz zahlen.
+      Mein Widerrufsrecht erlischt, sobald die Maklerleistung vollständig erbracht ist.
+
+beginn:
+  frage: "Wann möchten Sie das vollständige Exposé erhalten?"
+  optionen:
+    - wert: sofort
+      label: "Sofort"
+      hilfe: "Sie erhalten den Link gleich per E-Mail. Dafür bestätigen Sie unten zwei weitere Erklärungen."
+    - wert: nach_frist
+      label: "Nach Ablauf der Widerrufsfrist"
+      hilfe: "Der Link in der E-Mail funktioniert ab {{freigabe.ab_text}}. Bis dahin können Sie ohne Folgen widerrufen."

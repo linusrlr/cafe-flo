@@ -1,0 +1,191 @@
+# ==========================================================================
+#  MUSTER-OBJEKT. ALLE WERTE SIND FREI ERFUNDEN („Muster“).
+#  Dient nur zum Testen von Generator, Formular und Druck.
+#  Es gibt diese Wohnung nicht. Nie veröffentlichen.
+# ==========================================================================
+# Feldbeschreibung: objekte/_vorlage/objekt.yaml
+
+muster: true
+status: entwurf            # entwurf | veroeffentlicht | reserviert | verkauft
+nummer: "MUSTER-001"
+titel: "Muster: 3-Zimmer-Wohnung mit Südwest-Balkon in Leonberg-Eltingen"
+teaser: >-
+  Muster: 78 m² im 2. Obergeschoss eines Hauses mit zwölf Wohnungen, Baujahr 1972.
+  Bad 2019 erneuert, Fenster 2016, Balkon nach Südwesten. Tiefgaragenplatz für 15.000 €
+  zusätzlich. Bezugsfrei nach Absprache.
+
+lage:
+  ort: "Leonberg"
+  stadtteil: "Eltingen"
+  plz: "71229"
+  strasse: "Musterweg"
+  hausnummer: "12"
+  lage_im_haus: "2. Obergeschoss links"
+  text: >-
+    Muster: Wohnstraße mit Tempo 30 im Süden von Eltingen. Grundschule, Bäcker und
+    Bushaltestelle liegen in der Nähe (Entfernungen unten). Die S-Bahn fährt ab Leonberg
+    Bahnhof nach Stuttgart.
+  entfernungen:
+    - ziel: "Bushaltestelle (Muster)"
+      weg: "300 m, 4 Minuten zu Fuß"
+    - ziel: "Grundschule (Muster)"
+      weg: "650 m, 8 Minuten zu Fuß"
+    - ziel: "S-Bahnhof Leonberg (Muster)"
+      weg: "2,1 km, 7 Minuten mit dem Rad"
+  entfernungen_quelle: "Muster: gemessen mit OpenStreetMap-Routenplaner, Stand der Messung eintragen"
+
+preis:
+  kaufpreis: 289000
+  stellplatz:
+    art: "Tiefgaragenstellplatz"
+    kaufpreis: 15000
+    im_kaufpreis: false
+
+provision:
+  # Doppeltätigkeit: Käufer und Verkäufer zahlen gleich viel (§ 656c BGB).
+  # Käufer 0 bedeutet: provisionsfrei für Käufer, kein Maklervertrag mit dem Käufer.
+  kaeufer_prozent: 2.98
+  verkaeufer_prozent: 2.98
+
+wohnung:
+  wohnflaeche: 78.4
+  wohnflaeche_grundlage: "Muster: Wohnflächenberechnung nach WoFlV aus der Teilungserklärung 1972, Balkon zu einem Viertel angerechnet"
+  zimmer: 3
+  schlafzimmer: 2
+  badezimmer: 1
+  gaeste_wc: false
+  etage: 2
+  etagen_gesamt: 4
+  aufzug: false
+  typ: "Etagenwohnung"
+  balkon: "Balkon, 6,2 m², Südwest"
+  keller: "Kellerabteil, ca. 5 m²"
+  einbaukueche: "Einbauküche von 2014, im Kaufpreis enthalten"
+  zustand: "gepflegt"
+  nutzung:
+    vermietet: false
+    frei_ab: "nach Absprache, frühestens 01.03.2027 (Muster)"
+  heizung: "Gas-Zentralheizung, Kessel 2011 (Muster)"
+  ausstattung:
+    - was: "Bad mit Dusche, Fliesen und Sanitär erneuert"
+      jahr: 2019
+      beleg: "Muster: Rechnung Sanitärbetrieb liegt vor"
+    - was: "Kunststofffenster mit Zweifachverglasung"
+      jahr: 2016
+      beleg: "Muster: Beschluss der Eigentümerversammlung 2015, Protokoll"
+    - was: "Parkett Eiche in Wohn- und Schlafzimmer"
+      jahr: 2014
+      beleg: "Muster: Angabe Verkäufer"
+    - was: "Elektroleitungen in der Wohnung"
+      jahr: 1972
+      beleg: "Muster: ursprünglich, nicht erneuert"
+
+gebaeude:
+  baujahr: 1972
+  einheiten: 12
+  denkmalschutz: false
+
+energieausweis:
+  vorhanden: true
+  art: "verbrauch"            # verbrauch | bedarf
+  kennwert: 128               # kWh/(m²·a), Wert laut Ausweis
+  warmwasser_enthalten: true
+  energietraeger: "Erdgas"
+  baujahr_laut_ausweis: 1972
+  effizienzklasse: "D"
+  ausgestellt_am: 2021-05-14
+  gueltig_bis: 2031-05-13
+
+weg:
+  miteigentumsanteil: "68,4/1.000 (Muster)"
+  verwaltung: "Muster-Hausverwaltung, Leonberg"
+  hausgeld_monat: 385
+  hausgeld_umlagefaehig_monat: 240
+  ruecklage_zufuehrung_monat: 70
+  ruecklage_gesamt: 96000
+  ruecklage_stand: 2025-12-31
+  ruecklage_quelle: "Muster: Vermögensbericht 2025 (§ 28 Abs. 4 WEG)"
+  letzte_versammlung: 2026-06-18
+  sonderumlagen:
+    - jahr: 2024
+      betrag_anteil: 1850
+      zweck: "Muster: Dachrinnen und Fallrohre"
+      status: "bezahlt"
+  beschluesse:
+    - datum: 2026-06-18
+      inhalt: "Muster: Fassadenanstrich 2027, Finanzierung aus der Rücklage"
+      kosten_anteil: "voraussichtlich keine Sonderumlage"
+  sondernutzungsrechte: "Muster: keine"
+  verwalterzustimmung: "Muster: laut Teilungserklärung nicht erforderlich"
+
+beschreibung: |
+  Muster: Die Wohnung liegt im zweiten von vier Geschossen und ist über ein Treppenhaus ohne Aufzug erreichbar. Vom Flur gehen alle Räume ab. Das Wohnzimmer (24 m²) hat eine Fensterfront nach Südwesten und den Zugang zum Balkon.
+
+  Muster: Küche und Bad haben Fenster. Das Bad wurde 2019 erneuert (Dusche statt Wanne). Die Elektroleitungen sind von 1972; wer umfassend renovieren möchte, sollte sie einplanen.
+
+  Muster: Zur Wohnung gehören ein Kellerabteil und die Mitbenutzung von Waschküche und Fahrradraum. Ein Tiefgaragenstellplatz kann für 15.000 € dazugekauft werden.
+
+fotos:
+  - datei: "wohnzimmer.svg"
+    titel: "Muster: Wohnzimmer mit Fensterfront nach Südwesten"
+    oeffentlich: true
+    rechte: "Musterbild, selbst gezeichnet"
+  - datei: "balkon.svg"
+    titel: "Muster: Balkon, 6,2 m²"
+    oeffentlich: true
+    rechte: "Musterbild, selbst gezeichnet"
+  - datei: "kueche.svg"
+    titel: "Muster: Küche mit Fenster, Einbauküche 2014"
+    oeffentlich: true
+    rechte: "Musterbild, selbst gezeichnet"
+  - datei: "bad.svg"
+    titel: "Muster: Bad, erneuert 2019"
+    oeffentlich: false
+    rechte: "Musterbild, selbst gezeichnet"
+  - datei: "schlafzimmer.svg"
+    titel: "Muster: Schlafzimmer, 13 m²"
+    oeffentlich: false
+    rechte: "Musterbild, selbst gezeichnet"
+  - datei: "haus.svg"
+    titel: "Muster: Ansicht von der Straße"
+    oeffentlich: false
+    rechte: "Musterbild, selbst gezeichnet"
+
+grundriss:
+  datei: "grundriss.svg"
+  quelle: "Muster: neu gezeichnet nach eigenem Aufmaß, nicht maßstäblich"
+
+rundgang_url: null
+
+dokumente:
+  - titel: "Energieausweis (Verbrauchsausweis)"
+    stand: "14.05.2021"
+    vorhanden: true
+    weitergabe: "liegt bei der Besichtigung aus, Kopie auf Anfrage"
+  - titel: "Teilungserklärung mit Aufteilungsplan"
+    stand: "1972, Nachtrag 1998"
+    vorhanden: true
+    weitergabe: "auf Anfrage"
+  - titel: "Protokolle der Eigentümerversammlungen 2024 bis 2026"
+    stand: "18.06.2026"
+    vorhanden: true
+    weitergabe: "auf Anfrage"
+  - titel: "Wirtschaftsplan 2026 und Jahresabrechnung 2025"
+    stand: "2026"
+    vorhanden: true
+    weitergabe: "auf Anfrage"
+  - titel: "Vermögensbericht 2025 (Stand der Erhaltungsrücklage)"
+    stand: "31.12.2025"
+    vorhanden: true
+    weitergabe: "auf Anfrage"
+  - titel: "Beschluss-Sammlung"
+    stand: "angefordert"
+    vorhanden: false
+    weitergabe: "folgt"
+  - titel: "Grundbuchauszug"
+    stand: "angefordert"
+    vorhanden: false
+    weitergabe: "nach Besichtigung"
+
+freigabe:
+  modus: null   # null = Standard aus firma.yaml

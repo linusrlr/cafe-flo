@@ -1,0 +1,13 @@
+{
+  "_hinweis": "Wörter, die ohne Beleg nichts aussagen. Der Generator warnt bei Treffern in Titel, Teaser, Lage und Beschreibung. Ersetzen durch prüfbare Fakten (Himmelsrichtung, Baujahr, Meter, Minuten, Material, Jahr).",
+  "woerter": [
+    "lichtdurchflutet", "lichtdurchflutete", "lichtdurchfluteten",
+    "gehobene Ausstattung", "gehobener Ausstattung", "hochwertig", "hochwertige", "hochwertiger", "hochwertigen",
+    "exklusiv", "exklusive", "exklusiven", "luxuriös", "luxuriöse",
+    "Traumwohnung", "Wohntraum", "Wohlfühloase", "Oase der Ruhe", "Juwel", "Rarität", "Highlight",
+    "ruhige und dennoch zentrale", "ruhig und doch zentral", "beste Lage", "Toplage", "Top-Lage", "begehrte Lage", "begehrten Lage",
+    "einzigartig", "einzigartige", "atemberaubend", "traumhaft", "traumhafte", "perfekt", "perfekte",
+    "gepflegte Anlage", "liebevoll", "charmant", "charmante", "großzügig geschnitten", "großzügige", "großzügiger",
+    "lassen Sie sich verzaubern", "nicht entgehen lassen", "Sie werden begeistert sein", "jetzt zugreifen", "verpassen Sie nicht"
+  ]
+}

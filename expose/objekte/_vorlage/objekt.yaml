@@ -1,0 +1,102 @@
+# Vorlage für ein neues Objekt.
+# 1. Ordner kopieren:  cp -r objekte/_vorlage objekte/<ort>-<stadtteil>-<zimmer>-zimmer
+#    (Ordnername = Adresse der Seite, nur a-z, 0-9 und Bindestrich, keine Hausnummer)
+# 2. Fotos und Grundriss in den Unterordner bilder/ legen (JPEG/WebP, max. 2000 px breit,
+#    je Datei möglichst unter 600 kB; SVG für Grundriss möglich).
+# 3. Alle Felder ausfüllen. Leere Angaben: null. Texte ohne Floskeln (README, Abschnitt 4).
+# 4. npm run bauen   → Fehler und Warnungen lesen.
+# Ordner, die mit „_“ beginnen, baut der Generator nicht.
+
+muster: false
+status: entwurf            # entwurf | veroeffentlicht | reserviert | verkauft
+nummer: null               # eigene Objektnummer, z. B. "RI-2027-001"
+titel: null                # max. 100 Zeichen (ImmoScout24), konkret: Zimmer, Besonderheit, Ort
+teaser: null               # 2 bis 4 Sätze für das Kurz-Exposé, nur prüfbare Fakten
+
+lage:
+  ort: null                # Heimsheim | Leonberg | Ditzingen | Renningen | Pforzheim | …
+  stadtteil: null
+  plz: null
+  strasse: null            # erscheint NUR im Voll-Exposé
+  hausnummer: null         # erscheint NUR im Voll-Exposé
+  lage_im_haus: null       # z. B. "2. Obergeschoss links"; nur Voll-Exposé
+  text: null               # 2 bis 4 Sätze, ohne Adresse
+  entfernungen: []         # - ziel: "S-Bahnhof Leonberg"  weg: "1,2 km, 15 Minuten zu Fuß"
+  entfernungen_quelle: null
+
+preis:
+  kaufpreis: null          # Zahl in Euro, ohne Punkte
+  stellplatz:
+    art: null              # Tiefgaragenstellplatz | Außenstellplatz | Garage | Carport | null
+    kaufpreis: null
+    im_kaufpreis: null     # true | false
+
+provision:
+  kaeufer_prozent: 2.98    # inkl. USt; muss bei Verbraucher-Käufern gleich verkaeufer_prozent sein (§ 656c BGB) oder 0
+  verkaeufer_prozent: 2.98 # laut Maklervertrag mit dem Verkäufer
+
+wohnung:
+  wohnflaeche: null        # m², laut Berechnung
+  wohnflaeche_grundlage: null   # z. B. "WoFlV, Berechnung Architekt 1998, Balkon zu 1/4"
+  zimmer: null
+  schlafzimmer: null
+  badezimmer: null
+  gaeste_wc: null
+  etage: null              # 0 = Erdgeschoss
+  etagen_gesamt: null
+  aufzug: null
+  typ: null                # Etagenwohnung | Dachgeschoss | Erdgeschoss | Maisonette | Penthouse | Souterrain
+  balkon: null             # z. B. "Balkon, 6 m², Süd"
+  keller: null
+  einbaukueche: null
+  zustand: null            # gepflegt | modernisiert | renovierungsbedürftig | saniert | neuwertig
+  nutzung:
+    vermietet: null        # true | false
+    kaltmiete_monat: null  # nur wenn vermietet
+    frei_ab: null
+  heizung: null
+  ausstattung: []          # - was: "Bad erneuert"  jahr: 2019  beleg: "Rechnung liegt vor"
+
+gebaeude:
+  baujahr: null
+  einheiten: null
+  denkmalschutz: null
+
+energieausweis:            # Pflichtangaben nach § 87 GModG, wenn ein Ausweis vorliegt
+  vorhanden: null          # true | false (false nur, wenn wirklich keiner vorliegt; dann sofort beauftragen, § 80 Abs. 3)
+  art: null                # verbrauch | bedarf
+  kennwert: null           # kWh/(m²·a), genau wie im Ausweis
+  warmwasser_enthalten: null   # nur bei Verbrauchsausweis
+  energietraeger: null     # wesentlicher Energieträger der Heizung laut Ausweis
+  baujahr_laut_ausweis: null
+  effizienzklasse: null    # A+ bis H, laut Ausweis
+  ausgestellt_am: null     # JJJJ-MM-TT (ab 01.01.2027 Pflichtangabe laut Haufe, ZU PRÜFEN)
+  gueltig_bis: null
+
+weg:
+  miteigentumsanteil: null
+  verwaltung: null
+  hausgeld_monat: null
+  hausgeld_umlagefaehig_monat: null
+  ruecklage_zufuehrung_monat: null
+  ruecklage_gesamt: null
+  ruecklage_stand: null
+  ruecklage_quelle: null   # z. B. "Vermögensbericht 2025 (§ 28 Abs. 4 WEG)"
+  letzte_versammlung: null
+  sonderumlagen: []        # - jahr: 2024  betrag_anteil: 1850  zweck: "…"  status: "bezahlt"
+  beschluesse: []          # - datum: 2026-06-18  inhalt: "…"  kosten_anteil: "…"
+  sondernutzungsrechte: null
+  verwalterzustimmung: null
+
+beschreibung: null         # Markdown, 3 bis 6 Absätze, für das Voll-Exposé
+
+fotos: []                  # - datei: "wohnzimmer.jpg"  titel: "Wohnzimmer, Südwest"  oeffentlich: true  rechte: "eigenes Foto, 12.10.2026"
+grundriss:
+  datei: null
+  quelle: null
+rundgang_url: null
+
+dokumente: []              # - titel: "Energieausweis"  stand: "14.05.2021"  vorhanden: true  weitergabe: "auf Anfrage"
+
+freigabe:
+  modus: null              # null = Standard aus firma.yaml | automatisch | manuell

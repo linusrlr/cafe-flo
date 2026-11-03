@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1000" width="1600" height="1000" role="img" aria-label="Musterbild: SCHLAFZIMMER">
+<rect width="1600" height="1000" fill="#E9EEF4"/>
+
+<polygon points="0,0 1600,0 1250,250 350,250" fill="#F7F9FB"/>
+<polygon points="350,250 1250,250 1250,760 350,760" fill="#F0EEF2"/>
+<polygon points="0,0 350,250 350,760 0,1000" fill="#DCE3EC"/>
+<polygon points="1600,0 1250,250 1250,760 1600,1000" fill="#D3DBE6"/>
+<polygon points="350,760 1250,760 1600,1000 0,1000" fill="#C9A97E"/>
+
+<rect x="560" y="300" width="480" height="260" fill="#BFD7EA" stroke="#fff" stroke-width="14"/>
+<rect x="500" y="620" width="600" height="160" rx="14" fill="#E5E9EF" stroke="#B8C1CE" stroke-width="5"/>
+<rect x="520" y="590" width="260" height="60" rx="16" fill="#FFFFFF"/><rect x="820" y="590" width="260" height="60" rx="16" fill="#FFFFFF"/>
+<g font-family="Arial, Helvetica, sans-serif">
+<rect x="40" y="890" width="288" height="70" fill="#16233D" opacity=".88"/>
+<text x="70" y="937" font-size="30" fill="#fff" font-weight="700" letter-spacing="2">MUSTERBILD · SCHLAFZIMMER</text>
+</g>
+</svg>

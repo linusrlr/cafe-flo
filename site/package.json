@@ -17,7 +17,8 @@
     "pruefen": "npm run build:prod && npm run test:statisch && npm run test:e2e && npm run vorschau && npm run test:e2e:vorschau",
     "lighthouse": "node scripts/lighthouse.mjs",
     "screenshots": "node scripts/screenshots.mjs",
-    "veroeffentlichen": "node scripts/vor-veroeffentlichen.mjs && npm run pruefen && bash ../deploy/deploy.sh"
+    "veroeffentlichen": "node scripts/vor-veroeffentlichen.mjs && npm run pruefen && bash ../deploy/deploy.sh",
+    "pruefen:test": "VEROEFFENTLICHEN=tests/veroeffentlichen.test.yaml EXTRA_INHALTE=tests/fixtures npm run pruefen"
   },
   "dependencies": {
     "astro": "5.18.2",

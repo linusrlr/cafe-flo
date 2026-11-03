@@ -90,6 +90,8 @@ body.navopen .navscrim{opacity:1;pointer-events:auto}
   .hsplit{grid-template-columns:1fr;min-height:0}
   .hsplit .pane{padding:22px 18px 28px;max-width:none;margin:0}
   .hsplit .pic{min-height:0;aspect-ratio:16/10;max-height:220px;width:100%}
+  /* mobil: Buttons direkt unter H1 und Metazeile, damit der CTA im ersten Bildschirm steht (M4) */
+  .hsplit .pane > .lede,.hsplit .pane > .region,.hsplit .pane > .hinweis{order:2}
 }
 .htext{max-width:var(--wrap);margin:0 auto;padding:56px 26px 56px}
 .htext > *{max-width:var(--prosa)}
@@ -130,7 +132,9 @@ h2{font-size:clamp(1.5rem,3.4vw,2.2rem);line-height:1.16}
 h3{font-size:1.08rem;font-weight:600}
 .band{background:var(--soft)}
 .band.dark{background:var(--navy);border-bottom:none}
-.band.dark h2,.band.dark h3{color:var(--on-navy)}
+.band.dark h1,.band.dark h2,.band.dark h3{color:var(--on-navy)}
+.band.dark .brotkrumen ol{color:var(--on-navy-mute)}
+.band.dark .lede{color:var(--on-navy-mute)}
 .band.dark p,.band.dark li{color:var(--on-navy-mute)}
 .band.dark a{color:var(--on-navy)}
 .band.dark strong{color:var(--on-navy)}
@@ -149,7 +153,7 @@ h3{font-size:1.08rem;font-weight:600}
 .band.dark .prosa p,.band.dark .prosa li{color:var(--on-navy-mute)}
 .anker{position:relative}
 sup.fn{font-size:.72em;line-height:0;padding:0 1px}
-sup.fn a{text-decoration:none;padding:2px 2px;color:var(--navy);font-weight:600}
+sup.fn a{text-decoration:underline;padding:2px 2px;color:var(--navy);font-weight:600}
 .band.dark sup.fn a{color:var(--on-navy)}
 
 /* Schritte (wie .items der Live-Seite) */
@@ -169,7 +173,7 @@ ul.kacheln > li > a{font-weight:600;color:var(--fg);text-decoration:none;display
 ul.kacheln > li > a:hover{text-decoration:underline}
 
 /* Tabellen */
-.tablewrap{overflow-x:auto;border:1px solid var(--line)}
+.tablewrap{overflow-x:auto;border:1px solid var(--line);border-bottom:1px solid var(--line)}
 .tablewrap:focus-visible{outline:3px solid var(--navy);outline-offset:2px}
 .compare{width:100%;border-collapse:collapse;font-size:.93rem;min-width:520px}
 .compare th,.compare td{text-align:left;padding:12px 14px;border-bottom:1px solid var(--line);vertical-align:top}
@@ -192,7 +196,7 @@ details[open] summary::after{content:"–"}
 .quellen-abschnitt .prosa{font-size:.9rem}
 ol.quellen li{color:var(--fg-soft)}
 ol.quellen a{word-break:break-all}
-ol.quellen a.zurueck{text-decoration:none;word-break:normal;padding:0 4px}
+ol.quellen a.zurueck{word-break:normal;padding:0 4px}
 li:target{background:#FFF7D6}
 
 /* Inhaltsverzeichnis */
@@ -217,7 +221,10 @@ li:target{background:#FFF7D6}
 /* Erlaubnis-Hinweis, Rechtstexte */
 .hinweis-erlaubnis{font-size:.92rem}
 .recht .prosa h2{font-size:1.15rem;margin-top:34px}
-.recht section > .wrap{padding-block:12px 64px}
+.recht section:not(.hero){border-bottom:0}
+.recht section:not(.hero) > .wrap{padding-block:4px 8px}
+.recht section:last-child > .wrap{padding-bottom:64px}
+.recht .prosa h2{font-size:1.15rem;margin-top:26px}
 
 /* Marker der Vorschau: gelb hervorgehoben */
 mark.marker{background:#FFE45C;color:#2B2200;padding:1px 5px;border-radius:2px;box-decoration-break:clone;-webkit-box-decoration-break:clone;font-weight:500;outline:1px solid #C9A800}

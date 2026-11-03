@@ -1,0 +1,47 @@
+# Firmendaten für Exposés, Rechtstexte und E-Mails.
+# Werte übernommen aus bauplan/fakten.yaml (Stand 03.11.2026). Der Generator vergleicht
+# Telefon, E-Mail und Provisionssatz mit fakten.yaml und warnt bei Abweichung.
+# [LINUS: …] = muss Linus ausfüllen. Im Produktionslauf (npm run bauen:produktion)
+# bricht der Generator ab, solange ein Marker in einer veröffentlichten Seite steht.
+
+name: "Rössler Immobilien"
+inhaber: "Linus Rössler"
+zeile: "Immobilienmakler für Eigentumswohnungen (Erlaubnis nach § 34c GewO)"
+telefon: "0159 05844641"
+telefon_href: "tel:+4915905844641"
+email: "linus@roessler-immo.de"
+web: "https://roessler-immo.de"
+# Pflicht in der Muster-Widerrufsbelehrung (Anlage 1 EGBGB): Name, Anschrift, Telefon, E-Mail.
+anschrift: "[LINUS: Postanschrift für Widerrufsbelehrung und Impressum]"
+erlaubnis:
+  behoerde: "[LINUS: ausstellende IHK laut Bescheid]"
+  erteilt_am: "[LINUS: Datum laut Bescheid]"
+ust_idnr: null
+# Datenschutz-Aufsicht hängt vom Sitz ab (07-recht-erlaubnis.md Abschnitt 6).
+datenschutz_aufsicht: "[LINUS: LfDI Baden-Württemberg oder BayLDA, je nach Sitz]"
+links:
+  impressum: "https://roessler-immo.de/impressum/"
+  datenschutz: "https://roessler-immo.de/datenschutz/"
+  wohnung_verkaufen: "https://roessler-immo.de/wohnung-verkaufen/"
+
+# Kaufnebenkosten für das Voll-Exposé (Baden-Württemberg)
+kaufnebenkosten:
+  grunderwerbsteuer:
+    prozent: 5.0
+    quelle: "bauplan/fakten.yaml, grunderwerbsteuer_bw (Stand 2026)"
+  notar_grundbuch:
+    text: "erfahrungsgemäß rund 1,5 bis 2 % des Kaufpreises (Schätzung; die genauen Kosten berechnet der Notar nach dem Gerichts- und Notarkostengesetz)"
+    quelle: "Schätzung, keine Primärquelle [ZU PRÜFEN vor erstem Einsatz]"
+
+# Exposé-Freigabe: Standard für alle Objekte (pro Objekt in objekt.yaml überschreibbar)
+freigabe:
+  # automatisch: Link kommt sofort bzw. nach Fristablauf per E-Mail
+  # manuell: Linus bekommt einen Freigabe-Link und schaltet jede Anfrage selbst frei
+  modus: "automatisch"
+  link_gueltig_tage: 30
+  # Zusätzliche Tage nach Ablauf der 14-tägigen Widerrufsfrist, bevor ein „nach Frist“-Link gilt
+  # (ein am letzten Tag abgeschickter Widerruf muss noch ankommen können).
+  karenz_tage: 2
+  # Beschriftung der Abschluss-Schaltfläche (§ 312j Abs. 3 BGB, BGH I ZR 159/24).
+  # Gesetzeswortlaut ist am sichersten. Nur nach anwaltlicher Prüfung ändern.
+  button_text: "zahlungspflichtig bestellen"

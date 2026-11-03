@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 820" width="1200" height="820" role="img" aria-label="Musterbild: Grundriss">
+<rect width="1200" height="820" fill="#fff"/>
+<g fill="none" stroke="#17233A" stroke-width="10">
+<rect x="80" y="80" width="900" height="560"/>
+<line x1="520" y1="80" x2="520" y2="640"/>
+<line x1="80" y1="380" x2="520" y2="380"/>
+<line x1="520" y1="300" x2="760" y2="300"/>
+<line x1="760" y1="80" x2="760" y2="300"/>
+<line x1="520" y1="460" x2="980" y2="460"/>
+<line x1="760" y1="460" x2="760" y2="640"/>
+</g>
+<rect x="980" y="160" width="130" height="380" fill="#F4F7FA" stroke="#17233A" stroke-width="5" stroke-dasharray="14 10"/>
+<g font-family="Arial, Helvetica, sans-serif" fill="#17233A" text-anchor="middle">
+<text x="300" y="220" font-size="30" font-weight="700">Wohnen</text><text x="300" y="258" font-size="24">24,1 m²</text>
+<text x="300" y="500" font-size="30" font-weight="700">Schlafen</text><text x="300" y="538" font-size="24">13,2 m²</text>
+<text x="640" y="180" font-size="28" font-weight="700">Küche</text><text x="640" y="216" font-size="22">8,9 m²</text>
+<text x="870" y="180" font-size="28" font-weight="700">Bad</text><text x="870" y="216" font-size="22">5,1 m²</text>
+<text x="740" y="390" font-size="28" font-weight="700">Flur</text><text x="740" y="426" font-size="22">9,8 m²</text>
+<text x="640" y="550" font-size="28" font-weight="700">Kind/Arbeit</text><text x="640" y="586" font-size="22">11,2 m²</text>
+<text x="870" y="550" font-size="26" font-weight="700">Abstell</text><text x="870" y="586" font-size="22">4,5 m²</text>
+<text x="1045" y="340" font-size="24" font-weight="700" transform="rotate(-90 1045 340)">Balkon 6,2 m² (¼ = 1,6 m²)</text>
+<text x="1080" y="740" font-size="26" font-weight="700">N ↑</text>
+</g>
+<g font-family="Arial, Helvetica, sans-serif"><rect x="80" y="700" width="760" height="70" fill="#16233D"/>
+<text x="110" y="746" font-size="28" fill="#fff" font-weight="700" letter-spacing="2">MUSTER · GRUNDRISS NICHT MASSSTÄBLICH</text></g>
+</svg>

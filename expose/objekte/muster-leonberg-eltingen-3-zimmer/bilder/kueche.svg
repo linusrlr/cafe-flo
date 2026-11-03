@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1000" width="1600" height="1000" role="img" aria-label="Musterbild: KÜCHE">
+<rect width="1600" height="1000" fill="#E9EEF4"/>
+
+<polygon points="0,0 1600,0 1250,250 350,250" fill="#F7F9FB"/>
+<polygon points="350,250 1250,250 1250,760 350,760" fill="#F2F4F7"/>
+<polygon points="0,0 350,250 350,760 0,1000" fill="#DCE3EC"/>
+<polygon points="1600,0 1250,250 1250,760 1600,1000" fill="#D3DBE6"/>
+<polygon points="350,760 1250,760 1600,1000 0,1000" fill="#B9BEC6"/>
+
+<rect x="380" y="520" width="840" height="240" fill="#FFFFFF" stroke="#C8CED8" stroke-width="4"/>
+<rect x="380" y="500" width="840" height="24" fill="#56657E"/>
+<rect x="380" y="270" width="380" height="150" fill="#FFFFFF" stroke="#C8CED8" stroke-width="4"/>
+<rect x="860" y="290" width="300" height="190" fill="#BFD7EA" stroke="#fff" stroke-width="12"/>
+<line x1="520" y1="530" x2="520" y2="760" stroke="#C8CED8" stroke-width="4"/><line x1="660" y1="530" x2="660" y2="760" stroke="#C8CED8" stroke-width="4"/><line x1="800" y1="530" x2="800" y2="760" stroke="#C8CED8" stroke-width="4"/><line x1="940" y1="530" x2="940" y2="760" stroke="#C8CED8" stroke-width="4"/><line x1="1080" y1="530" x2="1080" y2="760" stroke="#C8CED8" stroke-width="4"/>
+<g font-family="Arial, Helvetica, sans-serif">
+<rect x="40" y="890" width="155" height="70" fill="#16233D" opacity=".88"/>
+<text x="70" y="937" font-size="30" fill="#fff" font-weight="700" letter-spacing="2">MUSTERBILD · KÜCHE</text>
+</g>
+</svg>

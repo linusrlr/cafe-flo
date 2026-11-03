@@ -242,6 +242,20 @@ const ohneToken = (s) => s.replace(TOKEN, '').replace(/\s+/g, ' ').trim();
 
 function mdastUmbau(baum, seite, ctx) {
   const k = baum.children;
+  // Einfache Zeilenumbrüche in Absätzen sind in den Texten gewollt (Anschriften, Kontaktblöcke) → <br>
+  const umbrueche = (n) => {
+    if (!n.children) return;
+    for (let i = 0; i < n.children.length; i++) {
+      const c = n.children[i];
+      if (c.type === 'text' && c.value.includes('\n') && n.type !== 'heading' && n.type !== 'tableCell') {
+        const teile = c.value.split('\n');
+        const neu = teile.flatMap((t, j) => (j ? [{ type: 'break' }, { type: 'text', value: t }] : [{ type: 'text', value: t }]));
+        n.children.splice(i, 1, ...neu);
+        i += neu.length - 1;
+      } else umbrueche(c);
+    }
+  };
+  umbrueche(baum);
   // a) Byline "*Stand: … · Von Linus Rössler …*" unter der H1 entfernen (SeitenMeta erzeugt sie)
   for (let i = 0; i < k.length; i++) {
     const n = k[i];
@@ -353,7 +367,9 @@ function linkZiel(href) {
 
 function hastUmbau(baum, seite, ctx) {
   const slugger = new GithubSlugger();
-  const ids = new Set();
+  const RESERVIERT = ['inhalt', 'formular', 'ankauf-formular', 'hauptmenue', 'kopf', 'fussnav', 'navscrim'];
+  RESERVIERT.forEach((r) => slugger.slug(r));
+  const ids = new Set(RESERVIERT);
   walk(baum, (n) => { if (n.type === 'element' && n.properties?.id) ids.add(n.properties.id); });
 
   // Token in Textknoten ersetzen
@@ -417,6 +433,9 @@ function hastUmbau(baum, seite, ctx) {
     }
   });
 
+  // Telefonnummer nie umbrechen (01-analyse 8.4, html-validate tel-non-breaking)
+  walk(baum, (n) => { if (n.type === 'text' && n.value.includes(firma.telefon)) n.value = n.value.split(firma.telefon).join(firma.telefon.replace(/ /g, '\u00a0')); });
+
   // Blockebene: Absätze nur aus Formular / Baustein / Marker
   walk(baum, (n) => {
     if (!n.children) return;
@@ -440,6 +459,7 @@ function hastUmbau(baum, seite, ctx) {
   });
 
   // Überschriften-IDs (github-slugger wie in den Textlinks) plus umlautfreier Zweitanker
+  walk(baum, (n) => { if (n.type === 'element' && n.properties?.id) { ids.add(n.properties.id); slugger.slug(n.properties.id); } });
   walk(baum, (n, eltern, index) => {
     if (n.type !== 'element' || !/^h[1-6]$/.test(n.tagName)) return;
     const titel = hText(n).replace(/\s+/g, ' ').trim();
@@ -463,6 +483,7 @@ function hastUmbau(baum, seite, ctx) {
     if (titel === 'btn') n.properties.dataBtn = '1';
     if (titel === 'pfeil') n.children.push(txt(' '), el('span', { ariaHidden: 'true' }, [txt('→')]));
     if (titel === 'download') n.properties.download = true;
+    if (href.startsWith('tel:')) walk(n, (c) => { if (c.type === 'text') c.value = c.value.replace(/ /g, '\u00a0'); });
     if (/^https?:\/\//.test(href)) { n.properties.rel = 'noopener'; return; }
     if (href.startsWith('/')) {
       const z = linkZiel(href);
@@ -521,6 +542,7 @@ function hastUmbau(baum, seite, ctx) {
 
   // Tabellen: scrollbarer, fokussierbarer, benannter Container; scope; leere Kopfzellen
   let letzteUeberschrift = seite.kurztitel;
+  let tabNr = 0;
   walk(baum, (n, eltern, index) => {
     if (n.type === 'element' && /^h[2-4]$/.test(n.tagName)) letzteUeberschrift = hText(n).trim();
     if (n.type !== 'element' || n.tagName !== 'table' || !eltern) return;
@@ -531,7 +553,8 @@ function hastUmbau(baum, seite, ctx) {
       }
     });
     addKlasse(n, 'compare');
-    eltern.children[index] = el('div', { className: ['tablewrap', 'tabelle'], role: 'region', tabIndex: 0, ariaLabel: `Tabelle: ${letzteUeberschrift}` }, [n]);
+    tabNr++;
+    eltern.children[index] = el('section', { className: ['tablewrap', 'tabelle'], tabIndex: 0, ariaLabel: `Tabelle ${tabNr}: ${letzteUeberschrift}` }, [n]);
     return false;
   });
 
