@@ -117,7 +117,7 @@ Für eine Wohnung um 290.000 €, wie sie in Leonberg typisch ist, fallen die Ge
 
 Hier liegt der Unterschied zum Haus, und hier entstehen in der Praxis die ersten Rückstände.
 
-**Hausgeld.** Gegenüber der Wohnungseigentümergemeinschaft haften beide Miteigentümer für das Hausgeld, egal wer ausgezogen ist. Wer intern wie viel trägt, ist Vereinbarungssache. Nutzt ein Partner die Wohnung allein, kann dem anderen eine Nutzungsentschädigung zustehen; ein Sekundärhinweis spricht von der hälftigen ortsüblichen Miete [14]. Das regelt der Anwalt, ich nenne es nur, damit Sie die Frage stellen.
+**Hausgeld.** Gegenüber der Wohnungseigentümergemeinschaft haften beide Miteigentümer für das Hausgeld, egal wer ausgezogen ist. Wer intern wie viel trägt, ist Vereinbarungssache. Nutzt ein Partner die Wohnung in der Trennungszeit allein, kann der andere eine Vergütung für die Nutzung verlangen, soweit das der Billigkeit entspricht (§ 1361b Abs. 3 Satz 2 BGB) [14]. Wie hoch sie ist, hängt vom Einzelfall ab; ein Sekundärhinweis nennt die hälftige ortsübliche Miete [14]. Das regelt der Anwalt, ich nenne es nur, damit Sie die Frage stellen.
 
 **Sonderumlage.** Hat die Gemeinschaft eine Sonderumlage beschlossen, zum Beispiel für ein neues Dach, dann entscheidet die Fälligkeit, nicht der Beschluss, wer zahlt (BGH V ZR 257/16 vom 15. Dezember 2017). Raten, die nach dem Eigentumswechsel fällig werden, treffen den Käufer [7]. Vor dem Verkauf muss also klar sein, welche Raten noch Sie beide tragen und wie das im Kaufpreis berücksichtigt wird. Ich lese dafür die Protokolle der letzten drei Eigentümerversammlungen und den Wirtschaftsplan, bevor ich einen Preis nenne.
 
@@ -132,7 +132,7 @@ Ich bin kein Steuerberater. Was hier steht, soll Ihnen helfen, dem Steuerberater
 
 **Die Steuerfalle beim Verkauf an den Ex-Partner.** Wer eine Wohnung innerhalb von zehn Jahren nach dem Kauf verkauft, versteuert den Gewinn, es sei denn, er hat sie im Jahr des Verkaufs und in den beiden Jahren davor selbst bewohnt (§ 23 Abs. 1 Satz 1 Nr. 1 EStG) [4]. Die Übertragung eines Miteigentumsanteils an den Ex-Partner gegen Geld ist ein Verkauf. Und wer ausgezogen ist, nutzt die Wohnung nicht mehr selbst.
 
-Der Bundesfinanzhof hat genau diesen Fall entschieden [15] [ZU PRÜFEN: BFH IX R 11/23 vom 14. Februar 2023, Volltext und Aktenzeichen verifizieren].
+Der Bundesfinanzhof hat genau diesen Fall entschieden (Urteil vom 14. Februar 2023, IX R 11/21) [15].
 
 Ein Beispiel. Ein Paar kauft 2019 gemeinsam eine Wohnung in Ditzingen. Er zieht 2025 aus. 2026 überträgt er seine Hälfte für 85.000 € an sie. Für ihn ist das ein Verkauf innerhalb der Zehnjahresfrist, und seine Eigennutzung endete mit dem Auszug im Jahr 2025. Der Gewinn auf seine Hälfte kann steuerpflichtig sein. Für sie ist es ein Kauf, keine Veräußerung, sie zahlt keine Spekulationssteuer. Ob es im Einzelfall so kommt, hängt vom Datum des Kaufvertrags, vom Auszugsdatum und vom Gewinn ab. Das rechnet der Steuerberater.
 
@@ -140,7 +140,7 @@ Es gibt Bewegung: Der Bundesrat hat am 25. September 2026 zum Jahressteuergesetz
 
 **Grunderwerbsteuer.** Beim Verkauf an einen Dritten zahlt der Käufer in Baden-Württemberg 5 % Grunderwerbsteuer [17].
 
-Bei der Übertragung zwischen Ehegatten und bei der Vermögensauseinandersetzung nach der Scheidung ist der Erwerb nach meinem Kenntnisstand befreit [13] [ZU PRÜFEN: § 3 Nr. 4 und Nr. 5 GrEStG]. Das ist ein Argument für die Übernahme, das aber nur zieht, wenn die Spekulationssteuer nicht gegenläuft.
+Bei der Übertragung zwischen Ehegatten und bei der Vermögensauseinandersetzung nach der Scheidung ist der Erwerb von der Grunderwerbsteuer befreit (§ 3 Nr. 4 und Nr. 5 GrEStG) [13]. Das ist ein Argument für die Übernahme, das aber nur zieht, wenn die Spekulationssteuer nicht gegenläuft.
 
 <a id="neutrale-wertermittlung"></a>
 ## Eine Zahl, die beide akzeptieren: neutrale Wertermittlung
@@ -214,10 +214,10 @@ Was Ihre Wohnung am jeweiligen Ort bringt, mit Angebotspreisen und Stand: [Leonb
 10. gwgimmo.de, „Geldwäschegesetz für Immobilienmakler: Pflichten, Risiken, klare Handlungsempfehlungen 2026“ (§ 11, § 16a GwG), https://gwgimmo.de/blog/gwg/geldwaschegesetz-fur-immobilienmakler-pflichten-risiken-klare-handlungsempfehlungen-2026
 11. ImmoScout24, Pressemitteilung „Vermietete Eigentumswohnungen bis zu 33 Prozent günstiger als unvermietete“, 10.11.2025 (Stuttgart 12 %), https://www.immobilienscout24.de/unternehmen/news-medien/news/default-title/vermietete-eigentumswohnungen-bis-zu-33-prozent-guenstiger-als-unvermietete/
 12. Deutscher Bundestag, hib 835/2026, „Pro und Contra zu geplanten Neuregelungen im Mietrecht“, 15.10.2026 (Mietrechtspaket II, BT-Drs. 21/6807), https://www.bundestag.de/presse/hib/kurzmeldungen-1224894
-13. § 3 Nr. 4 und Nr. 5 GrEStG, Befreiung bei Erwerb durch den Ehegatten und bei Vermögensauseinandersetzung nach der Scheidung; Homeday [5] nennt die Befreiung ohne Norm [ZU PRÜFEN: Gesetzestext]
-14. cash-online, Hinweis auf Nutzungsentschädigung in Höhe der hälftigen ortsüblichen Miete (nur Suchergebnis, Sekundärhinweis) [ZU PRÜFEN: Primärquelle und § 1361b Abs. 3 BGB]
-15. BFH, Urteil vom 14.02.2023, IX R 11/23, Veräußerung des Miteigentumsanteils an den geschiedenen Ehegatten [ZU PRÜFEN: Aktenzeichen und Volltext]
-16. hausbesitzer-news.de, „Spekulationsfrist Immobilien: Abschaffung 2026? Aktueller Stand“, 17.10.2026 (Bundestag 08.10.2026, 131 zu 446; Bundesrat 25.09.2026, BR-Drs. 447/26(B), Scheidungsausnahme), https://hausbesitzer-news.de/recht-finanzen/spekulationsfrist-immobilien-abschaffen-aktueller-stand/; Haufe, „Bundesrat nimmt Stellung zum Einkommensteuerreformgesetz 2027“, 19.10.2026, https://www.haufe.de/steuern/gesetzgebung-politik/bundesrat-nimmt-stellung-zum-einkommensteuerreformgesetz-2027_168_700990.html [ZU PRÜFEN: Bundesrats-Protokolle]
+13. § 3 Nr. 4 und Nr. 5 GrEStG, Befreiung bei Erwerb durch den Ehegatten und bei Vermögensauseinandersetzung nach der Scheidung; https://www.gesetze-im-internet.de/grestg_1983/__3.html (abgerufen 03.11.2026)
+14. § 1361b Abs. 3 Satz 2 BGB (Vergütung für die Nutzung der Ehewohnung, soweit es der Billigkeit entspricht), https://www.gesetze-im-internet.de/bgb/__1361b.html (abgerufen 03.11.2026); Höhe „hälftige ortsübliche Miete“ nur nach cash-online (Suchergebnis, Sekundärhinweis)
+15. BFH, Urteil vom 14.02.2023, IX R 11/21, Veräußerung des Miteigentumsanteils an den geschiedenen Ehegatten (Vorinstanz FG München, 11 K 2405/19), https://www.bundesfinanzhof.de/de/entscheidung/entscheidungen-online/detail/pdf/STRE202310082?type=1646225765 (abgerufen 03.11.2026)
+16. hausbesitzer-news.de, „Spekulationsfrist Immobilien: Abschaffung 2026? Aktueller Stand“, 17.10.2026 (Bundestag 08.10.2026, 131 zu 446; Bundesrat 25.09.2026, BR-Drs. 447/26(B), Scheidungsausnahme), https://hausbesitzer-news.de/recht-finanzen/spekulationsfrist-immobilien-abschaffen-aktueller-stand/; Haufe, „Bundesrat nimmt Stellung zum Einkommensteuerreformgesetz 2027“, 19.10.2026, https://www.haufe.de/steuern/gesetzgebung-politik/bundesrat-nimmt-stellung-zum-einkommensteuerreformgesetz-2027_168_700990.html ; Primärquelle: Bundesrat, Stellungnahme zum Entwurf eines Jahressteuergesetzes 2026, BR-Drs. 447/26(B) vom 25.09.2026, Ziffer 2 (Scheidungsausnahme in § 23 EStG), https://dserver.bundestag.de/brd/2026/0447-26B.pdf (abgerufen 03.11.2026)
 17. finanz.de, Grunderwerbsteuer Baden-Württemberg 5,0 % seit 05.11.2011, https://www.finanz.de/steuern/grunderwerbsteuer/baden-wuerttemberg/
 
 <!-- Fragen an Linus:
@@ -232,14 +232,14 @@ Was Ihre Wohnung am jeweiligen Ort bringt, mit Angebotspreisen und Stand: [Leonb
 -->
 
 <!-- Prüfpunkte:
-- BFH IX R 11/23 vom 14.02.2023: Aktenzeichen passt nicht zum Datum (Register 2023, Entscheidung Februar 2023). Volltext und Aktenzeichen verifizieren.
-- § 3 Nr. 4 und Nr. 5 GrEStG im Gesetzestext verifizieren; Homeday nennt die Befreiung ohne Norm.
-- § 85a ZVG (keine Hälftegrenze im zweiten Termin): Norm bei Hasselbach nicht zitiert.
+- Erledigt 03.11.2026 (08-faktenpruefung.md): richtiges Aktenzeichen IX R 11/21, korrigiert.
+- Erledigt 03.11.2026: § 3 Nr. 4 und Nr. 5 GrEStG im Gesetzestext bestätigt.
+- Erledigt 03.11.2026: § 85a Abs. 2 Satz 2 ZVG bestätigt (im neuen Termin keine Versagung wegen der Hälftegrenze); steht derzeit nicht im sichtbaren Text.
 - Gerichtskosten der Teilungsversteigerung nach GKG-Tabelle für 290.000 € berechnen, bevor eine Zahl veröffentlicht wird.
-- Nutzungsentschädigung: Rechtsgrundlage § 1361b Abs. 3 BGB und Höhe prüfen, bisher nur cash-online als Sekundärquelle.
+- Nutzungsentschädigung: Rechtsgrundlage § 1361b Abs. 3 Satz 2 BGB bestätigt und eingesetzt (03.11.2026). Offen: Höhe, weiter nur Sekundärquelle; für die Zeit nach der Scheidung gilt eine andere Grundlage, das klärt der Anwalt.
 - Mietrechtspaket II (BT-Drs. 21/6807): Inkrafttreten prüfen.
-- Bundesrat-Vorschlag zur Scheidungsausnahme (BR-Drs. 447/26(B)): Verlauf im Gesetzgebungsverfahren prüfen. Text nennt „Jahressteuergesetz 2026“, die Haufe-Quelle „Einkommensteuerreformgesetz 2027“; Bezeichnung angleichen.
-- Zuständige Familien- und Vollstreckungsgerichte für Leonberg, Renningen, Heimsheim, Ditzingen und Pforzheim ermitteln (FAQ „Kann mein Ex-Partner den Verkauf erzwingen?“).
+- Bezeichnung erledigt 03.11.2026: BR-Drs. 447/26(B) ist die Stellungnahme zum Entwurf eines Jahressteuergesetzes 2026 (Text richtig); die Haufe-Quelle betrifft die getrennte Stellungnahme vom 16.10.2026 zum Einkommensteuerreformgesetz 2027 (BR-Drs. 507/26(B)). Offen: weiterer Verlauf des Jahressteuergesetzes 2026 im Bundestag.
+- Zuständige Familien- und Vollstreckungsgerichte: Amtsgerichtsbezirke laut Statistischem Landesamt (GSAG1101): Leonberg und Renningen AG Leonberg, Ditzingen AG Ludwigsburg, Heimsheim AG Maulbronn, Pforzheim AG Pforzheim. Offen: ob Familien- und Versteigerungssachen an andere Gerichte konzentriert sind (03.11.2026 nicht geklärt).
 - Präsenzbeurkundung und getrennte Termine mit dem Notar abstimmen.
 - Gestrichen in der Kürzung (siehe Langfassung): Immoportal-Wert Renningen 4.986 €/m², Ratenbeispiel 875 €/1.625 € und Bundesbank-Refinanzierung, Grundsteuer-Beispiel mit Hebesätzen, Hasselbach-Kostentabelle (als Fließtext erhalten), FAQ-Dubletten.
 -->

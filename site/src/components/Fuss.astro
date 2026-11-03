@@ -1,0 +1,41 @@
+---
+import { istGebaut, alleSeiten, RUBRIKEN, NAV } from '../lib/inhalte.mjs';
+import { firma, telefonNbsp, ORTE, standMarktdaten, F } from '../lib/fakten.mjs';
+const recht = [['/impressum/', 'Impressum'], ['/datenschutz/', 'Datenschutz'], ['/widerruf/', 'Widerruf']].filter(([u]) => istGebaut(u));
+const orte = Object.entries(ORTE).map(([k, n]) => ({ n, u: `/wohnung-verkaufen/${k}/` }));
+const nav = NAV.filter(([u]) => istGebaut(u));
+const stand = standMarktdaten();
+const rubriken = istGebaut('/ratgeber/') ? Object.entries(RUBRIKEN).filter(([k]) => alleSeiten().some((s) => s.gebaut && s.rubrik === k)) : [];
+---
+<footer>
+  <div class="wrap">
+    <div>
+      <h2>Kontakt</h2>
+      <p>{firma.name}, {firma.inhaber}<br>
+        Telefon <a href={firma.telefonHref}>{telefonNbsp}</a><br>
+        E-Mail <a href={`mailto:${firma.email}`}>{firma.email}</a>
+        {firma.erreichbarkeit && <><br>{firma.erreichbarkeit}</>}
+      </p>
+    </div>
+    <div>
+      <h2>Einsatzgebiet</h2>
+      <ul>{orte.map((o) => <li>{istGebaut(o.u) ? <a href={o.u}>Wohnung verkaufen in {o.n}</a> : o.n}</li>)}</ul>
+    </div>
+    {nav.length > 0 && (
+      <nav aria-label="Seiten" id="fussnav">
+        <h2>Seiten</h2>
+        <ul>{nav.map(([u, t]) => <li><a href={u}>{t}</a></li>)}</ul>
+      </nav>
+    )}
+    {rubriken.length > 0 && (
+      <div><h2>Ratgeber</h2><ul>{rubriken.map(([k, t]) => <li><a href={`/ratgeber/#${k}`}>{t}</a></li>)}</ul></div>
+    )}
+    {recht.length > 0 && (
+      <nav aria-label="Rechtliches">
+        <h2>Rechtliches</h2>
+        <ul>{recht.map(([u, t]) => <li><a href={u}>{t}</a></li>)}</ul>
+      </nav>
+    )}
+    <p class="klein">{stand && <>Stand der Marktdaten: {stand}. </>}Ohne Cookies, ohne Tracking.</p>
+  </div>
+</footer>

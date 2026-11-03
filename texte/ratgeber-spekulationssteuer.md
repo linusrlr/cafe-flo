@@ -46,7 +46,7 @@ Im Herbst 2026 gab es drei Anläufe, die Zehnjahresfrist zu streichen. Alle drei
 
 Am 8. Oktober 2026 lehnte der Bundestag den Gesetzentwurf der Grünen (BT-Drs. 21/6637) mit 131 Ja- zu 446 Nein-Stimmen ab [4].
 
-Der Finanzausschuss des Bundesrats hatte zum Einkommensteuerreformgesetz 2027 ebenfalls die Streichung empfohlen; das Plenum übernahm diese Empfehlung am 16. Oktober 2026 nicht. Der Regierungsentwurf des Einkommensteuerreformgesetzes 2027 (BT-Drs. 21/8235) enthält keine Änderung des § 23 EStG [5] [ZU PRÜFEN: Bundesrats-Protokoll, BR-Drs. 507/26(B)].
+Der Finanzausschuss des Bundesrats hatte zum Einkommensteuerreformgesetz 2027 ebenfalls die Streichung empfohlen; das Plenum übernahm diese Empfehlung am 16. Oktober 2026 nicht. Der Regierungsentwurf des Einkommensteuerreformgesetzes 2027 (BT-Drs. 21/8235) enthält keine Änderung des § 23 EStG [5].
 
 Ein Vorschlag ist noch offen: Der Bundesrat hat am 25. September 2026 zum Jahressteuergesetz 2026 eine Ausnahme für Verkäufe infolge von Scheidung oder Trennung angeregt (BR-Drs. 447/26(B)); die Bundesregierung will das prüfen [4]. Solange nichts beschlossen ist, gilt für Verkäufe nach einer Trennung die normale Frist.
 
@@ -95,7 +95,7 @@ Der Kauf eines Erbanteils als Ganzes wird nach Darstellung von steuertipps.de ni
 
 Wer nach der Trennung auszieht und dann seinen Miteigentumsanteil an den Ex-Partner überträgt, verkauft. Liegt der Verkauf innerhalb der zehn Jahre und ist die Eigennutzung mit dem Auszug beendet, kann der Gewinn auf den Anteil steuerpflichtig sein [8].
 
-Der Bundesfinanzhof hat diesen Fall entschieden [9] [ZU PRÜFEN: BFH IX R 11/23 vom 14. Februar 2023, Volltext]. Der Vorschlag des Bundesrats für eine Ausnahme (siehe oben) ist bislang nur ein Vorschlag. Was das für Hausgeld, Kredit und die Wertfrage bedeutet, steht im Ratgeber [Eigentumswohnung bei Trennung und Scheidung](/ratgeber/wohnung-scheidung/).
+Der Bundesfinanzhof hat diesen Fall entschieden [9]. Der Vorschlag des Bundesrats für eine Ausnahme (siehe oben) ist bislang nur ein Vorschlag. Was das für Hausgeld, Kredit und die Wertfrage bedeutet, steht im Ratgeber [Eigentumswohnung bei Trennung und Scheidung](/ratgeber/wohnung-scheidung/).
 
 ### Vorab-Schenkung an Kinder
 
@@ -118,7 +118,7 @@ Ein Vermieter hat 2018 eine 3-Zimmer-Wohnung mit etwa 77 m² in Leonberg-Ramtel 
 | + Grunderwerbsteuer 5 % | 12.500 € | Satz Baden-Württemberg [11] |
 | + Notar und Grundbuch beim Kauf | 3.750 € | Annahme 1,5 % |
 | = Anschaffungskosten | 266.250 € | |
-| − Abschreibung 2018 bis 2025 | 34.080 € | Annahme: Gebäudeanteil 80 % = 213.000 €, AfA 2 % = 4.260 €/Jahr, 8 Jahre [ZU PRÜFEN: AfA-Satz und Gebäudeanteil mit Steuerberater] [6] |
+| − Abschreibung 2018 bis 2025 | 34.080 € | Annahme: Gebäudeanteil 80 % = 213.000 €, AfA 2 % = 4.260 €/Jahr (§ 7 Abs. 4 Satz 1 Nr. 2 Buchst. b EStG, Gebäude fertiggestellt 1925 bis 2022), 8 Jahre [6] |
 | = geminderte Anschaffungskosten | 232.170 € | § 23 Abs. 3 Satz 4 EStG [3] |
 | Verkaufspreis 2026 | 310.000 € | Annahme |
 | − Provision Verkäuferseite 2,98 % | 9.238 € | [12] |
@@ -147,7 +147,7 @@ Die Angebotspreise für Wohnungen in Leonberg liegen 2026 ungefähr auf Vorjahre
 
 Die Bauzinsen für Käufer sind binnen eines Jahres von 3,38 % auf 4,20 % gestiegen (Dr. Klein Topzins 10 Jahre, Oktober 2025 und 29. Oktober 2026) [15].
 
-Der Destatis-Häuserpreisindex zeigt für Eigentumswohnungen in dicht besiedelten ländlichen Kreisen im 2. Quartal 2026 ein Minus von 1,8 % zum Vorjahr [16]. Ob ein Käufer 2028 mehr oder weniger zahlt als heute, ist offen. Die Steuer dagegen ist sicher. Wer frei entscheiden kann, legt Verkaufsplan und Steuerberechnung nebeneinander.
+Der Destatis-Häuserpreisindex zeigt für Eigentumswohnungen in kreisfreien Großstädten wie Pforzheim im 2. Quartal 2026 ein Plus von 2,0 % zum Vorjahr, in dicht besiedelten ländlichen Kreisen ein Minus von 1,8 % [16]. Die Landkreise Böblingen und Ludwigsburg und der Enzkreis zählen nach der Einteilung des Bundesinstituts für Bau-, Stadt- und Raumforschung zu den städtischen Kreisen; für sie nennt die Pressemitteilung keinen eigenen Wert [16]. Ob ein Käufer 2028 mehr oder weniger zahlt als heute, ist offen. Die Steuer dagegen ist sicher. Wer frei entscheiden kann, legt Verkaufsplan und Steuerberechnung nebeneinander.
 
 <a id="freigrenze"></a>
 ## Freigrenze 1.000 € und Verluste
@@ -161,7 +161,7 @@ Verluste aus einem Wohnungsverkauf innerhalb der Frist dürfen nur mit Gewinnen 
 <a id="drei-objekt-grenze"></a>
 ## Drei-Objekt-Grenze: Wann aus privat gewerblich wird
 
-Die Spekulationssteuer betrifft private Verkäufe. Davon zu trennen ist der gewerbliche Grundstückshandel. Wer mehr als drei Objekte innerhalb von etwa fünf Jahren verkauft, gilt nach der Rechtsprechung des Bundesfinanzhofs im Regelfall als gewerblicher Grundstückshändler (BFH GrS 1/98 vom 10. Dezember 2001), und jede Eigentumswohnung ist ein Zählobjekt [17]. Die Finanzverwaltung hat die Grundsätze in einem BMF-Schreiben zusammengefasst [ZU PRÜFEN: BMF-Schreiben vom 26. März 2004, IV A 6, S 2240, 46/04].
+Die Spekulationssteuer betrifft private Verkäufe. Davon zu trennen ist der gewerbliche Grundstückshandel. Wer mehr als drei Objekte innerhalb von etwa fünf Jahren verkauft, gilt nach der Rechtsprechung des Bundesfinanzhofs im Regelfall als gewerblicher Grundstückshändler (BFH GrS 1/98 vom 10. Dezember 2001), und jede Eigentumswohnung ist ein Zählobjekt [17]. Die Finanzverwaltung hat die Grundsätze in einem BMF-Schreiben zusammengefasst (BMF-Schreiben vom 26. März 2004, IV A 6, S 2240, 46/04, BStBl I 2004, 434) [17].
 
 Die Folgen sind erheblich: Einkünfte aus Gewerbebetrieb, Gewerbesteuer, keine Steuerfreiheit nach zehn Jahren, keine Abschreibung, Buchführungspflichten, und das unter Umständen rückwirkend für alle Verkäufe der vergangenen Jahre. Bei Sanierungen beginnt die Fünfjahresfrist erst mit dem Abschluss der Arbeiten (BFH IV R 57/01), und ein umfassend sanierter Altbau zählt auch dann als Objekt, wenn er lange gehalten wurde (BFH X R 18/18 vom 15. Januar 2020) [17].
 
@@ -222,20 +222,20 @@ Angebotspreise und Besonderheiten je Ort, als Grundlage für Ihre eigene Rechnun
 1. ImmoScout24, „Spekulationssteuer“, aktualisiert 15.09.2026 (Datum des notariellen Kaufvertrags, Neubau, Eigennutzung als „Hauptwohnsitz gemeldet“, gewerblicher Immobilienhandel), https://www.immobilienscout24.de/wissen/verkaufen/spekulationssteuer.html
 2. Finanztip, „Spekulationssteuer bei Immobilienverkauf“, aktualisiert 09.07.2026 (Freigrenze, „ein Jahr und zwei Tage“, FG Baden-Württemberg 8 K 2166/14, BFH IX R 37/16, IX R 27/19, IX R 8/20, Anlage SO), https://www.finanztip.de/spekulationssteuer-immobilienverkauf/
 3. § 23 EStG, Private Veräußerungsgeschäfte, https://www.gesetze-im-internet.de/estg/__23.html (abgerufen 29.10.2026)
-4. hausbesitzer-news.de, „Spekulationsfrist Immobilien: Abschaffung 2026? Aktueller Stand“, 17.10.2026 (Bundestag 08.10.2026, BT-Drs. 21/6637, 131 zu 446; Bundesrat 25.09.2026, BR-Drs. 447/26(B)), https://hausbesitzer-news.de/recht-finanzen/spekulationsfrist-immobilien-abschaffen-aktueller-stand/
-5. Haufe, „Bundesrat nimmt Stellung zum Einkommensteuerreformgesetz 2027“, 19.10.2026 (Bundesrat 16.10.2026, BR-Drs. 507/26(B); Regierungsentwurf BT-Drs. 21/8235; § 35a EStG im Entwurf), https://www.haufe.de/steuern/gesetzgebung-politik/bundesrat-nimmt-stellung-zum-einkommensteuerreformgesetz-2027_168_700990.html [ZU PRÜFEN: Bundesrats-Protokoll]
-6. AfA-Sätze § 7 Abs. 4 EStG (2 %, 2,5 %, 3 %) und § 13d ErbStG nach recherche/marktthemen-2026.md Kap. 5b; immowelt, Ratgeber „AfA degressiv“, https://www.immowelt.de/ratgeber/kaufen/afa-degressiv [ZU PRÜFEN: Gesetzestext § 7 EStG]
+4. hausbesitzer-news.de, „Spekulationsfrist Immobilien: Abschaffung 2026? Aktueller Stand“, 17.10.2026 (Bundestag 08.10.2026, BT-Drs. 21/6637, 131 zu 446; Bundesrat 25.09.2026, BR-Drs. 447/26(B)); Primärquelle: Stellungnahme des Bundesrates zum Entwurf eines Jahressteuergesetzes 2026, BR-Drs. 447/26(B), 1068. Sitzung am 25.09.2026, Ziffer 2 (§ 23 Abs. 1 Satz 1 Nr. 1 Satz 4 EStG neu, Scheidungsausnahme), https://dserver.bundestag.de/brd/2026/0447-26B.pdf (abgerufen 03.11.2026); https://hausbesitzer-news.de/recht-finanzen/spekulationsfrist-immobilien-abschaffen-aktueller-stand/
+5. Haufe, „Bundesrat nimmt Stellung zum Einkommensteuerreformgesetz 2027“, 19.10.2026 (Bundesrat 16.10.2026, BR-Drs. 507/26(B); Regierungsentwurf BT-Drs. 21/8235; § 35a EStG im Entwurf), https://www.haufe.de/steuern/gesetzgebung-politik/bundesrat-nimmt-stellung-zum-einkommensteuerreformgesetz-2027_168_700990.html ; Primärquellen: Empfehlungen der Ausschüsse, BR-Drs. 507/1/26 vom 05.10.2026, Ziffer 2 (Streichung der Zehnjahresfrist, Finanzausschuss), https://dserver.bundestag.de/brd/2026/0507-1-26.pdf ; Stellungnahme des Bundesrates, BR-Drs. 507/26(B), 1069. Sitzung am 16.10.2026, ohne Änderung des § 23 EStG, https://dserver.bundestag.de/brd/2026/0507-26B.pdf (beide abgerufen 03.11.2026)
+6. AfA-Sätze § 7 Abs. 4 Satz 1 Nr. 2 EStG: 3 % bei Fertigstellung nach dem 31.12.2022, 2 % bei Fertigstellung 1925 bis 2022, 2,5 % vor 1925, https://www.gesetze-im-internet.de/estg/__7.html (abgerufen 03.11.2026); § 13d ErbStG nach recherche/marktthemen-2026.md Kap. 5b; immowelt, Ratgeber „AfA degressiv“, https://www.immowelt.de/ratgeber/kaufen/afa-degressiv
 7. steuertipps.de, „Spekulationssteuer Immobilien“ (teilentgeltlicher Erwerb, Erbanteile), https://www.steuertipps.de/wohnen-haus-vermietung/spekulationssteuer-immobilien/themen
 8. Homeday, „Haus und Scheidung“ (Spekulationssteuer bei Übertragung auf den Ex-Partner), https://www.homeday.de/de/immobilienverkauf/haus-und-scheidung/
-9. BFH, Urteil vom 14.02.2023, IX R 11/23, Veräußerung des Miteigentumsanteils an den geschiedenen Ehegatten [ZU PRÜFEN: Aktenzeichen und Volltext]
+9. BFH, Urteil vom 14.02.2023, IX R 11/21, Veräußerung des Miteigentumsanteils an den geschiedenen Ehegatten (Vorinstanz FG München, 11 K 2405/19), https://www.bundesfinanzhof.de/de/entscheidung/entscheidungen-online/detail/pdf/STRE202310082?type=1646225765 (abgerufen 03.11.2026)
 10. immoportal.com, Immobilienpreise Leonberg, Stichtag 01.10.2026, https://www.immoportal.com/immobilienpreise/leonberg; immoverkauf24 (Daten Sprengnetter), Immobilienpreise Leonberg, Stand Q2 2026, https://www.immoverkauf24.de/immobilienpreise/baden-wuerttemberg/boeblingen-kreis/leonberg/
 11. finanz.de, Grunderwerbsteuer Baden-Württemberg 5,0 % seit 05.11.2011, https://www.finanz.de/steuern/grunderwerbsteuer/baden-wuerttemberg/
 12. Rössler Immobilien, FAQ Provision 2,98 % inkl. USt je Seite, https://roessler-immo.de (Stand Oktober 2026)
 13. reduco.ai, „Eigentumswohnung verkaufen 2026: Ablauf, Kosten, ohne Makler“, aktualisiert 17.08.2026 (Grundschuldlöschung nach GNotKG; Verweis auf drei BFH-Urteile zur Instandhaltungsrücklage), https://reduco.ai/blog/immobilienverkauf/wohnung-verkaufen-ablauf
 14. ecovis-kso.com und IWW, Beiträge zur steuerlichen Behandlung des Rücklagenanteils beim Kauf und Verkauf von Eigentumswohnungen (nur Suchergebnisse) [ZU PRÜFEN: Primärquellen und Aktenzeichen]
 15. Dr. Klein, Zinsen (Topzins 10 Jahre 4,20 % am 29.10.2026; 3,38 % im Oktober 2025), https://www.drklein.de/zinsen.html
-16. Destatis, Pressemitteilung 336 „Preise für Wohnimmobilien im 2. Quartal 2026: +0,6 %“, 24.09.2026, https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/09/PD26_336_61262.html [ZU PRÜFEN: Zuordnung des Landkreises Böblingen zum Kreistyp]
-17. steuerschroeder.de, „Gewerblicher Grundstückshandel: Voraussetzungen und Rechtsfolgen“ (BFH GrS 1/98 vom 10.12.2001, IV R 57/01), https://www.steuerschroeder.de/blog/?p=78250; IWW/GStB, „Gewerblicher Grundstückshandel: Erweiterungsbau als Zählobjekt und weitere Fallstricke“ (BFH X R 18/18 vom 15.01.2020), 22.12.2020, https://www.iww.de/gstb/steuerrecht-aktuell/immobilien-gewerblicher-grundstueckshandel-erweiterungsbau-als-zaehlobjekt-und-weitere-fallstricke-f135017
+16. Destatis, Pressemitteilung 336 „Preise für Wohnimmobilien im 2. Quartal 2026: +0,6 %“, 24.09.2026, https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/09/PD26_336_61262.html (abgerufen 03.11.2026); Kreistypen: BBSR, Referenztabelle Raumgliederungen 2025, Spalte „Siedlungsstruktureller Kreistyp“ (Böblingen, Ludwigsburg, Enzkreis: städtischer Kreis; Pforzheim: kreisfreie Großstadt), https://www.bbsr.bund.de/BBSR/DE/forschung/raumbeobachtung/Raumabgrenzungen/downloads/download-referenzen.html (abgerufen 03.11.2026)
+17. steuerschroeder.de, „Gewerblicher Grundstückshandel: Voraussetzungen und Rechtsfolgen“ (BFH GrS 1/98 vom 10.12.2001, IV R 57/01), https://www.steuerschroeder.de/blog/?p=78250; BMF-Schreiben vom 26.03.2004, IV A 6, S 2240, 46/04, BStBl I 2004, 434 (Fundstelle nach Kommentarliteratur und BFH, Beschluss X B 70/13; Volltext beim BMF nicht abgerufen); IWW/GStB, „Gewerblicher Grundstückshandel: Erweiterungsbau als Zählobjekt und weitere Fallstricke“ (BFH X R 18/18 vom 15.01.2020), 22.12.2020, https://www.iww.de/gstb/steuerrecht-aktuell/immobilien-gewerblicher-grundstueckshandel-erweiterungsbau-als-zaehlobjekt-und-weitere-fallstricke-f135017
 
 <!-- Fragen an Linus:
 - Fristenrechner: Hier soll der Fristenrechner stehen. Eingabe Datum des notariellen Kaufvertrags (bei Erbe oder Schenkung das Datum des Vorbesitzers), Ausgabe frühester steuerfreier Verkaufstermin, mit Hinweis „Stichtag mit Steuerberater prüfen“. Zweite Eingabe: seit wann selbst bewohnt? Willst du das selbst hosten, ohne Cookies, oder ein Widget einbinden? (Platzhalter im Abschnitt „Die Zehnjahresfrist“ entfernt; Rechner dort einsetzen, sobald er steht.)
@@ -247,12 +247,12 @@ Angebotspreise und Besonderheiten je Ort, als Grundlage für Ihre eigene Rechnun
 -->
 
 <!-- Prüfpunkte:
-- Bundesrats-Protokoll 16.10.2026 (BR-Drs. 507/26(B)) und Verlauf des Scheidungsvorschlags (BR-Drs. 447/26(B)) prüfen. Bezeichnung „Jahressteuergesetz 2026“ für den Vorschlag vom 25.09.2026 gegen die Quellen prüfen.
+- Erledigt 03.11.2026 (08-faktenpruefung.md): BR-Drs. 507/26(B) und 507/1/26 sowie 447/26(B) im Original gelesen; der Scheidungsvorschlag gehört zum Jahressteuergesetz 2026, die Streichungsempfehlung zum Einkommensteuerreformgesetz 2027. Weiterer Verlauf des Jahressteuergesetzes 2026 im Bundestag vor Veröffentlichung nachsehen.
 - Neubauwohnung (Datum des Kaufvertrags, nicht Fertigstellung): Darstellung von ImmoScout24 vor Veröffentlichung mit Steuerberater abgleichen.
-- BFH IX R 11/23 vom 14.02.2023: Aktenzeichen passt nicht zum Datum. Volltext und Aktenzeichen verifizieren.
-- AfA-Satz, Gebäudeanteil und § 7 Abs. 4 EStG im Gesetzestext prüfen; Soli und Kirchensteuer im Beispiel klären.
-- Rücklagenanteil: Primärquellen und Aktenzeichen der BFH-Urteile zur Instandhaltungsrücklage; reduco verweist auf drei BFH-Urteile.
-- BMF-Schreiben vom 26.03.2004 (IV A 6, S 2240, 46/04) zum gewerblichen Grundstückshandel verifizieren.
-- Destatis: Zuordnung des Landkreises Böblingen zum Kreistyp „dicht besiedelte ländliche Kreise“ prüfen.
+- Erledigt 03.11.2026: richtiges Aktenzeichen IX R 11/21 (bundesfinanzhof.de), korrigiert.
+- AfA-Satz erledigt 03.11.2026 (§ 7 Abs. 4 Satz 1 Nr. 2 Buchst. b EStG, 2 %). Offen: Gebäudeanteil bleibt Annahme; Soli und Kirchensteuer im Beispiel klären.
+- Rücklagenanteil: Primärquellen und Aktenzeichen der BFH-Urteile zur Instandhaltungsrücklage; reduco verweist auf drei BFH-Urteile. Am 03.11.2026 nicht recherchiert (Priorität niedriger), weiter offen.
+- Erledigt 03.11.2026: BMF-Schreiben vom 26.03.2004, BStBl I 2004, 434, in Kommentarliteratur und BFH X B 70/13 so zitiert.
+- Erledigt 03.11.2026: Böblingen ist laut BBSR ein städtischer Kreis, nicht dicht besiedelt ländlich; Text korrigiert.
 - Gestrichen in der Kürzung (siehe Langfassung): Beispiel 3 Pforzheim (Kauf 2017, Gewinn 50.099 €), Absatz zu § 35a EStG (Handwerkerleistungen 20 % bis 1.200 €, Entwurf 15 % und 900 €), FAQ-Dubletten (Datum, Erbe, Geschwister, Pendler-Zweitwohnung).
 -->

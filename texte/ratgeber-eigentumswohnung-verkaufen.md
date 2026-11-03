@@ -61,7 +61,7 @@ Die Fristen sind Erfahrungswerte aus der reduco-Auswertung, keine gesetzlichen V
 | Dokument | Wer hat es | Frist (Erfahrungswert) | Kosten | Rechtsgrundlage | Warum Käufer es wollen |
 |---|---|---|---|---|---|
 | Teilungserklärung mit Aufteilungsplan, Gemeinschaftsordnung | Ihr Kaufvertragsordner, sonst Grundbuchamt | Tage bis Wochen | Kopiegebühr | § 12 WEG | Sondernutzungsrechte, Kostenverteilung, Zustimmungspflicht |
-| Grundbuchauszug (max. 3 Monate alt) | Grundbuchamt | Tage bis Wochen | Gebühr | | Eigentum, Grundschulden |
+| Grundbuchauszug (max. 3 Monate alt) | Grundbuchamt: Amtsgericht Waiblingen für Leonberg und Renningen, Amtsgericht Maulbronn für Heimsheim und Pforzheim [31] | Tage bis Wochen | Gebühr | | Eigentum, Grundschulden |
 | Protokolle der letzten drei Versammlungen | Verwaltung | 1 bis 4 Wochen | meist kostenlos | § 24 Abs. 6 WEG | Sanierungsbeschlüsse, Streit, Hausgeldentwicklung |
 | Beschluss-Sammlung | Verwaltung | 1 bis 4 Wochen | meist kostenlos | § 24 Abs. 7 WEG | alle gültigen Beschlüsse |
 | Wirtschaftsplan | Verwaltung | 1 bis 2 Wochen | kostenlos | § 28 Abs. 1 WEG | Hausgeldhöhe |
@@ -130,13 +130,13 @@ Was Ihr Käufer zahlt, bestimmt Ihren Preis. Zehnjährige Baufinanzierungen kost
 
 Die Frist bleibt: Der Bundestag hat ihre Abschaffung am 8. Oktober 2026 abgelehnt, der Bundesrat ist am 16. Oktober nicht gefolgt [28]. Einzelheiten im Ratgeber [Spekulationssteuer bei der Eigentumswohnung](/ratgeber/spekulationssteuer/). Ich erbringe keine Steuerberatung.
 
-**Vermietet verkaufen.** Der Käufer übernimmt den Mietvertrag. Vorkaufsrecht des Mieters (§ 577 BGB) und Kündigungssperrfrist (§ 577a BGB) gelten nur, wenn die Wohnung erst nach Einzug des Mieters umgewandelt wurde. Die Sperrfrist beträgt drei Jahre, in Leonberg und Pforzheim 2026 fünf Jahre (Kündigungssperrfristverordnung BW, gültig bis 31.12.2026) [12].
+**Vermietet verkaufen.** Der Käufer übernimmt den Mietvertrag. Vorkaufsrecht des Mieters (§ 577 BGB) und Kündigungssperrfrist (§ 577a BGB) gelten nur, wenn die Wohnung erst nach Einzug des Mieters umgewandelt wurde. Die Sperrfrist beträgt drei Jahre, in Leonberg und Pforzheim 2026 fünf Jahre (Kündigungssperrfristverordnung BW, gültig bis 31.12.2026) [12]. Für 2027 bis 2029 sieht der Entwurf der Landesregierung für beide Städte wieder fünf Jahre vor, für Ditzingen, Renningen und Heimsheim nicht; beschlossen ist er noch nicht [12].
 
 | Ort | Sperrfrist 2026 | Mietpreisbremse 2026 |
 |---|---|---|
 | Leonberg | 5 Jahre | ja |
 | Pforzheim | 5 Jahre | ja, erstmals |
-| Ditzingen | 3 Jahre laut Verordnungstext [ZU PRÜFEN: Der Mieterbund nennt Ditzingen [13]; maßgeblich ist der Verordnungstext] | nein |
+| Ditzingen | 3 Jahre; Ditzingen steht nicht in § 1 der Verordnung [12], die Übersicht des Mieterbunds nennt es abweichend [13] | nein |
 | Renningen | 3 Jahre | nein |
 | Heimsheim | 3 Jahre | nein |
 
@@ -222,8 +222,8 @@ Ich melde mich innerhalb eines Werktags telefonisch. Keine Portale, keine Weiter
 
 1. § 12 WEG (Veräußerungsbeschränkung), Fassung WEMoG, in Kraft seit 01.12.2020: https://dejure.org/gesetze/WEG/12.html (abgerufen 29.10.2026)
 2. reduco.ai, „Wohnung verkaufen: Ablauf“, aktualisiert 17.08.2026: https://reduco.ai/blog/immobilienverkauf/wohnung-verkaufen-ablauf (Zeitspannen, Unterlagenliste, GNotKG-Beträge, Verwalterzustimmung, GREIX/IfW Kiel Q1 2026)
-3. BGH, Urteil vom 15.12.2017, V ZR 257/16 (Sonderumlage, Fälligkeit), zitiert nach [2]; Volltext prüfen
-4. BGH, Urteil vom 13.09.2013, V ZR 209/12 (keine Haftung des Erwerbers für Hausgeldrückstände), zitiert nach [2]; Volltext prüfen
+3. BGH, Urteil vom 15.12.2017, V ZR 257/16 (Erwerber haftet für eine nach dem Eigentumswechsel fällig werdende Sonderumlage, auch wenn sie vorher beschlossen wurde): https://dejure.org/2017,57429 ; Haufe, „Erwerber haftet für nach Eigentumswechsel fällige Sonderumlage“: https://www.haufe.de/immobilien/verwaltung/bgh-erwerber-haftet-fuer-sonderumlage_258_447614.html (abgerufen 03.11.2026)
+4. BGH, Urteil vom 13.09.2013, V ZR 209/12 (keine Haftung des Erwerbers für Hausgeldrückstände des Voreigentümers; Vorrecht nach § 10 Abs. 1 Nr. 2 ZVG ist kein dingliches Recht): Volltext https://rewis.io/urteile/urteil/umm-13-09-2013-v-zr-20912/ ; Haufe, „Wohnungskäufer haftet nicht für Altschulden“: https://www.haufe.de/immobilien/verwaltung/wohnungskaeufer-haftet-nicht-fuer-rueckstaendiges-hausgeld-wohngeld_258_198188.html (abgerufen 03.11.2026)
 5. Wohnungseigentumsgesetz (WEG): § 18 Abs. 4 (Einsichtsrecht), § 19 Abs. 2 Nr. 4 (Erhaltungsrücklage), § 24 Abs. 6 und 7 (Niederschrift, Beschluss-Sammlung), § 28 (Wirtschaftsplan, Jahresabrechnung, Vermögensbericht), zitiert nach [2]; Volltext auf gesetze-im-internet.de gegenprüfen
 6. § 311b Abs. 1 S. 1 BGB (Beurkundungspflicht) und § 448 Abs. 2 BGB (Kosten trägt der Käufer), zitiert nach [2] und anwalt.org, „Wohnung verkaufen“, aktualisiert 14.07.2026: https://www.anwalt.org/wohnung-verkaufen/
 7. Grunderwerbsteuer Baden-Württemberg 5,0 % seit 05.11.2011: Stadt Karlsruhe, service-bw: https://web1.karlsruhe.de/service/Buergerdienste/leistung.php?id=413 ; finanz.de: https://www.finanz.de/steuern/grunderwerbsteuer/baden-wuerttemberg/ (abgerufen 29.10.2026)
@@ -231,7 +231,7 @@ Ich melde mich innerhalb eines Werktags telefonisch. Keine Portale, keine Weiter
 9. § 87 GModG (ehemals GEG), Pflichtangaben in Immobilienanzeigen: https://www.gesetze-im-internet.de/geg/__87.html (abgerufen 29.10.2026)
 10. Verbraucherzentrale, „Energieausweis: Wer braucht ihn?“, Stand 31.08.2026: https://www.verbraucherzentrale.de/wissen/energie/energetische-sanierung/energieausweis-wer-braucht-ihn-24054
 11. § 23 EStG, Private Veräußerungsgeschäfte: https://www.gesetze-im-internet.de/estg/__23.html (abgerufen 29.10.2026)
-12. Kündigungssperrfristverordnung Baden-Württemberg (KSpVO BW) vom 16.12.2025, GBl. 2025 Nr. 146 vom 19.12.2025: https://www.landtag-bw.de/resource/blob/611984/7e993deafc1547ab553a30dfe14a9333/GBl2025146.pdf
+12. Kündigungssperrfristverordnung Baden-Württemberg (KSpVO BW) vom 16.12.2025, GBl. 2025 Nr. 146 vom 19.12.2025, § 1 (130 Gemeinden, darunter Leonberg und Pforzheim, nicht Ditzingen, Renningen, Heimsheim): https://www.landtag-bw.de/resource/blob/611984/7e993deafc1547ab553a30dfe14a9333/GBl2025146.pdf (abgerufen 03.11.2026); Entwurf der Verlängerung ab 01.01.2027 bis 31.12.2029 (133 Gemeinden, Leonberg und Pforzheim enthalten, Ditzingen, Renningen, Heimsheim nicht; Ministerrat 22.09.2026, Anhörung bis 13.10.2026): https://beteiligungsportal.baden-wuerttemberg.de/fileadmin/redaktion/beteiligungsportal/Dokumente/2026/260922_Verlaengerung_der_KuendigungssperrfristVO.pdf ; Verfahrensstand: https://beteiligungsportal.baden-wuerttemberg.de/de/mitmachen/lp-18/mietpreisbegrenzung (beide abgerufen 03.11.2026)
 13. Deutscher Mieterbund, Übersicht Kündigungssperrfrist-Verordnungen (nennt Ditzingen): https://mieterbund.de/service/mieterschutzverordnungen/kuendigungssperrfrist/
 14. ImmoScout24, „Wohnung verkaufen“, aktualisiert 02.01.2026: https://www.immobilienscout24.de/wissen/verkaufen/wohnung-verkaufen.html (Dauer „drei bis fünf Monate“, Kostentabelle mit 6,5 % Grunderwerbsteuer)
 15. Homeday, „Wohnung verkaufen“: https://www.homeday.de/de/immobilienverkauf/wohnung-verkaufen/ (Dauer „sechs bis zwölf Monate“)
@@ -250,6 +250,7 @@ Ich melde mich innerhalb eines Werktags telefonisch. Keine Portale, keine Weiter
 28. Spekulationsfrist bleibt: hausbesitzer-news.de, 17.10.2026: https://hausbesitzer-news.de/recht-finanzen/spekulationsfrist-immobilien-abschaffen-aktueller-stand/ ; Haufe, „Bundesrat nimmt Stellung zum Einkommensteuerreformgesetz 2027“, 19.10.2026: https://www.haufe.de/steuern/gesetzgebung-politik/bundesrat-nimmt-stellung-zum-einkommensteuerreformgesetz-2027_168_700990.html
 29. Mietpreisbegrenzungsverordnung Baden-Württemberg vom 16.12.2025 (GBl. Nr. 144), 130 Gemeinden, gültig 01.01. bis 31.12.2026; Entwurf ab 2027 (Ministerrat 22.09.2026): Ministerium für Landesentwicklung und Wohnen BW: https://mlw.baden-wuerttemberg.de/de/bauen-wohnen/wohnungsbau/mietpreisbremse (abgerufen 29.10.2026); Verordnungstext: https://www.umwelt-online.de/recht/bau/laender/bw/mietschv26.htm
 30. KfW 308 „Jung kauft Alt“, Kredithöchstbeträge seit 03.08.2026, Konditionen vom 06.10.2026: baukostenplan.de (Stand 07.10.2026): https://www.baukostenplan.de/ratgeber/kfw-308-jung-kauft-alt-2026-neue-kreditbetraege ; baufi24: https://www.baufi24.de/foerderung/kfw-308-jung-kauft-alt/ ; Zinssatz am Antragstag bei der KfW prüfen
+31. Grundbuchführung in Baden-Württemberg bei 13 Amtsgerichten (Amtsgericht Leonberg, Seite Grundbuchamt: https://amtsgericht-leonberg.justiz-bw.de/pb/,Lde/1197828_1198240_11719501_11694166); Grundbuchamt Leonberg dem Amtsgericht Waiblingen zugewiesen, Renningen in Anlage 2 beim Amtsgericht Waiblingen: GBl. 2016 Nr. 6, Art. 91: https://www.landtag-bw.de/resource/blob/75044/4cb3824c5536aa3dd148a4a19bb0da86/GBl201606.pdf ; Heimsheim beim Amtsgericht Maulbronn: GBFührÜV BW 17 vom 25.11.2015 (nach lexaris.de: https://lexaris.de/book/version/documentflat/head/1125134); Grundbuchamt Pforzheim dem Amtsgericht Maulbronn zugewiesen (2014, nach lexaris.de: https://lexaris.de/book/version/documentflat/head/1125155) (alle abgerufen 03.11.2026)
 
 <!-- Fragen an Linus:
 - Welche Dauer bis zum Notartermin hältst du in Leonberg bei marktgerechtem Preis für realistisch, und worauf stützt du das? Bitte als Einschätzung, nicht als Statistik.
@@ -262,6 +263,6 @@ Ich melde mich innerhalb eines Werktags telefonisch. Keine Portale, keine Weiter
 -->
 
 <!-- Prüfpunkte:
-- Welches Amtsgericht führt das Grundbuch für die fünf Orte, und kann der Auszug über das Grundbuchportal Baden-Württemberg online bestellt werden?
-- V ZR 257/16 und V ZR 209/12 liegen nur als Sekundärzitat bei reduco vor, V ZR 190/24 nach der Haufe-Übersicht. Volltexte vor Veröffentlichung prüfen.
+- Grundbuch teilweise erledigt 03.11.2026 (08-faktenpruefung.md): Leonberg und Renningen Amtsgericht Waiblingen, Heimsheim und Pforzheim Amtsgericht Maulbronn [31]. Offen: Ditzingen (vermutlich ebenfalls Waiblingen, nicht belegt) und ob der Auszug online bestellt werden kann.
+- Erledigt 03.11.2026: V ZR 257/16 und V ZR 209/12 bestätigt (Aktenzeichen, Datum, Kernaussage). Offen: V ZR 190/24 weiter nur nach der Haufe-Übersicht.
 -->

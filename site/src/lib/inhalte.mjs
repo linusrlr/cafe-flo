@@ -688,3 +688,7 @@ export function pruefeProduktion() {
 }
 
 export { firma };
+export const NAV = [
+  ['/wohnung-verkaufen/', 'Wohnung verkaufen'], ['/wohnung-bewerten/', 'Wohnung bewerten'], ['/direktankauf/', 'Direktankauf'],
+  ['/ratgeber/', 'Ratgeber'], ['/ueber-mich/', 'Über mich'], ['/kontakt/', 'Kontakt'],
+];

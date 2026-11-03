@@ -1,0 +1,31 @@
+---
+import { istGebaut, NAV } from '../lib/inhalte.mjs';
+import { firma, telefonNbsp } from '../lib/fakten.mjs';
+import { ICON_TEL } from '../lib/inhalte.mjs';
+import { toHtml } from 'hast-util-to-html';
+const { aktiv = '/' } = Astro.props;
+const punkte = NAV.filter(([u]) => istGebaut(u));
+const icon = toHtml(ICON_TEL);
+const startOk = istGebaut('/');
+---
+<div class="navscrim" id="navscrim" aria-hidden="true"></div>
+<header class="top" id="kopf">
+  <div class="wrap">
+    {startOk ? <a class="brand" href="/">Rössler<small>Immobilien</small></a> : <span class="brand">Rössler<small>Immobilien</small></span>}
+    <div class="kopf-rechts">
+      <a class="topnum" href={firma.telefonHref}>{telefonNbsp}</a>
+      <a class="telicon" href={firma.telefonHref} aria-label={`Anrufen: ${firma.telefon}`}><Fragment set:html={icon} /></a>
+      {punkte.length > 0 && <a class="burger-link" href="#fussnav">Menü</a>}
+      {punkte.length > 0 && <button class="burger" type="button" aria-expanded="false" aria-controls="hauptmenue" aria-label="Menü" hidden><span></span><span></span><span></span></button>}
+    </div>
+    {punkte.length > 0 && (
+      <nav class="main" id="hauptmenue" aria-label="Hauptnavigation">
+        <ul>
+          {punkte.map(([u, t]) => (
+            <li><a href={u} aria-current={aktiv === u ? 'page' : aktiv.startsWith(u) ? 'true' : undefined}>{t}</a></li>
+          ))}
+        </ul>
+      </nav>
+    )}
+  </div>
+</header>
