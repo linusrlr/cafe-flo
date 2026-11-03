@@ -10,6 +10,8 @@ Dieses Repository (ehemals „Café Flo“, alter Inhalt entfernt) dient als Arb
 | `recherche/` | Rohdaten der Wettbewerbs- und Themenrecherche (regional, München, Großstädte, überregional, Ratgeber-Themen, lokale Marktdaten, Feeds, aktuelle Marktthemen). Lang, belegt mit Zitaten und URLs. |
 | `content-briefings/` | Je geplante Unterseite ein Briefing: Ziel, Suchintention, Gliederung, Pflichtfakten mit Rechtsgrundlagen, Quellen, CTAs. Grundlage für die Texte. |
 | `texte/` | 22 Textentwürfe (Stand 30.10.2026, Prüfbericht in `analyse-aktuelle-webseite/06-review.md`) je Seite auf Basis der Briefings (Ich-Form, Fakten mit Quelle, Platzhalter `[LINUS: …]` und `[ZU PRÜFEN: …]`). Werden beim Bauen der Seiten übernommen und von Linus ergänzt. |
+| `bauplan/` | Technische Bau-Spezifikation: Stack (Astro, netcup/nginx), Content-Modell, Komponenten, Routen, Formular-Backend, JSON-LD-Vorlagen, Testplan, Bau-Sessions mit Definition of Done. `fakten.yaml` ist die zentrale Quelle für alle veränderlichen Fakten (Preise, Verordnungen, Erlaubnisstatus). **Für die Umsetzung hier anfangen** (`bauplan/README.md`). |
+| `FRAGEN-AN-LINUS.md` | Ankreuzbarer Fragenkatalog: 10 Fragen vor dem Bau, 25 vor der Veröffentlichung einzelner Seiten, Rest später. |
 | `radar/` | Werkzeug zur Gesetzes- und Marktbeobachtung (RSS-Aggregator mit Schlagwortfilter) samt Digests. |
 
 ## Deployment
