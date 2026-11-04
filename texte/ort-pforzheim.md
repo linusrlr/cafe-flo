@@ -37,7 +37,7 @@ Bei der Miete reicht die Spanne vom Durchschnitt des städtischen Mietspiegels 2
 - **Mietpreisbremse, neu seit 2026.** Bei Neuvermietung darf die Miete nicht mehr als 10 Prozent über der ortsüblichen Vergleichsmiete liegen; ausgenommen sind Wohnungen, die nach dem 1. Oktober 2014 erstmals vermietet wurden, und Wohnungen nach umfassender Modernisierung [8]. Dokumentieren Sie die bisherige Miete und Modernisierungen, denn eine zulässige Vormiete über dem Mietspiegel ist für den Käufer bares Geld.
 - **Hebesatz 348 Prozent.** Die Stadt erhebt die Grundsteuer B seit 2025 mit 348 Prozent [9]. Weil Baden-Württemberg seit 2025 nach dem Bodenwert rechnet, ist die Grundsteuer bei einer Eigentumswohnung ein kleiner Posten.
 - **Käufer mit knappem Budget.** Das durchschnittliche Haushaltseinkommen liegt laut Landesgutachten bei 51.550 Euro, niedriger als in den anderen vier Orten meines Gebiets [8]. Eigennutzer suchen Wohnungen unter 250.000 Euro und finanzieren knapp, jede Zinsänderung wirkt hier stärker als in Leonberg.
-- **Viele Bestände mit Energieklasse F bis H.** Wohnungen aus den 1950er bis 1970er Jahren haben in Pforzheim oft eine dieser Klassen. Familien mit Kind bekommen dafür seit dem 3. August 2026 über KfW 308 bis zu 140.000, 160.000 oder 180.000 Euro zu 1,00 Prozent [ZU PRÜFEN: tagesaktueller KfW-Zinssatz] effektiv, wenn sie den Antrag vor dem Notarvertrag stellen [10]. Den Notartermin plane ich so, dass dafür Zeit bleibt.
+- **Viele Bestände mit Energieklasse F bis H.** Wohnungen aus den 1950er bis 1970er Jahren haben in Pforzheim oft eine dieser Klassen. Familien mit Kind bekommen dafür seit dem 3. August 2026 über KfW 308 bis zu 140.000, 160.000 oder 180.000 Euro zu {{fakten.kfw_308.zins}} effektiv (Stand {{fakten.kfw_308.zins.stand}}), wenn sie den Antrag vor dem Notarvertrag stellen [10]. Den Notartermin plane ich so, dass dafür Zeit bleibt.
 
 ## Die Stadtteile
 
@@ -89,7 +89,7 @@ Rufen Sie mich an oder schreiben Sie mir, in welchem Stadtteil Ihre Wohnung lieg
 **[Button: Anrufen: 0159 05844641 → tel:+4915905844641]**
 
 Linus Rössler · Rössler Immobilien · Telefon 0159 05844641 · linus@roessler-immo.de
-[LINUS: Anschrift und Erreichbarkeit für den NAP-Block]
+{{fakten.firma.anschrift}} · telefonisch {{fakten.firma.erreichbarkeit}}
 
 ## Weitere Orte
 

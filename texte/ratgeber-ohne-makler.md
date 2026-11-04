@@ -25,7 +25,6 @@ Sie überlegen, Ihre Wohnung selbst zu verkaufen. Das ist erlaubt, und in manche
 - [Zehn typische Fehler](#zehn-typische-fehler)
 - [Rechtsfallen: Widerruf, Maklerklausel, Arglist, Energieausweis-Bußgeld](#rechtsfallen-widerruf-maklerklausel-arglist-energieausweis-bußgeld)
 - [Wann der Alleingang sinnvoll ist, und wann nicht](#wann-der-alleingang-sinnvoll-ist-und-wann-nicht)
-- [Hybrid: Einzelleistungen bei Rössler Immobilien](#hybrid-einzelleistungen-bei-rössler-immobilien)
 - [Häufige Fragen](#häufige-fragen)
 - [Nächster Schritt](#nächster-schritt)
 
@@ -50,7 +49,7 @@ In drei Fällen ist Ihre Ersparnis kleiner als gedacht [3]:
 - Der Käufer bringt einen eigenen Makler mit. Dann zahlt er dessen Provision und rechnet sie in sein Gebot ein.
 - Der Preis ist falsch. Ein Abschlag von 3 % kostet bei 290.000 € 8.700 € und damit mehr als meine Provision.
 
-[LINUS: Darf hier stehen, dass die kostenlose Einschätzung auch dann kostenlos bleibt, wenn der Eigentümer danach allein verkauft? Das muss eindeutig sein.]
+{{fakten.provision.ohne_abschluss}}
 
 ## Was der Privatverkauf kostet: Geld und Zeit
 
@@ -67,7 +66,7 @@ Diese Posten fallen beim Privatverkauf typischerweise an:
 | Home Staging (optional) | 1.000 bis 5.000 € | [4] |
 | Gesamt | ca. 2.000 bis 10.000 € | [4] |
 
-Eine zweite Quelle setzt allein für Portal und Fotos 130 bis 700 € an [3]. [ZU PRÜFEN: aktuelle Preise privater Inserate 2026 bei ImmoScout24, Immowelt und Kleinanzeigen]
+Eine zweite Quelle setzt allein für Portal und Fotos 130 bis 700 € an [3]. <!-- Vor dem nächsten Update: aktuelle Preise privater Inserate bei ImmoScout24, Immowelt, Kleinanzeigen abrufen. -->
 
 Bei der Eigentumswohnung ist der Energieausweis ein Sonderfall. Er gilt für das ganze Gebäude, die Gemeinschaft beschafft ihn per Beschluss, und die Kosten werden nach Anteilen verteilt [9]. Sie zahlen also meist nur Ihren Anteil, müssen aber auf den Beschluss warten.
 
@@ -96,7 +95,7 @@ Käufer und Bank wollen Protokolle der Eigentümerversammlungen, Wirtschaftsplan
 Portaldaten sind Angebotspreise. Für Leonberg nennen die Portale 3.733 bis 4.043 €/m², für Pforzheim 2.928 bis 3.010 €/m² [23]. Die Werte streuen je nach Portal um bis zu rund 30 % [23]. Nehmen Sie Vergleichsangebote mit Datum, die Daten des Gutachterausschusses und die Lage im Haus dazu. Der falsche Preis steht in einer Fehlerliste zum Privatverkauf an erster Stelle [4].
 
 ### Schritt 3: Energieausweis vor dem ersten Inserat
-Sie müssen den Ausweis spätestens bei der Besichtigung vorlegen und nach dem Vertrag übergeben (§ 80 GModG) [10]. Im Inserat auf einem Portal sind Pflichtangaben nötig, auch wenn Sie privat verkaufen; bei einem privaten Aushang nicht [10]. Ab dem 1. Januar 2027 kommen neue Pflichtangaben hinzu, etwa Primärenergiebedarf und Ausstellungsdatum. Alte Ausweise bleiben zehn Jahre gültig [11]. Weil die Gemeinschaft beschließen muss, planen Sie Vorlauf ein. [ZU PRÜFEN: Vorlauf von 3 bis 6 Monaten für den Gemeinschaftsbeschluss, im Briefing ohne eigene Quelle]
+Sie müssen den Ausweis spätestens bei der Besichtigung vorlegen und nach dem Vertrag übergeben (§ 80 GModG) [10]. Im Inserat auf einem Portal sind Pflichtangaben nötig, auch wenn Sie privat verkaufen; bei einem privaten Aushang nicht [10]. Ab dem 1. Januar 2027 kommen neue Pflichtangaben hinzu, etwa Primärenergiebedarf und Ausstellungsdatum. Alte Ausweise bleiben zehn Jahre gültig [11]. Weil die Gemeinschaft beschließen muss, planen Sie Vorlauf ein.
 
 ### Schritt 4: Das Exposé
 Hinein gehören Grundriss, Wohnfläche, Pflichtangaben zum Energieausweis, das Hausgeld mit umlagefähigem und nicht umlagefähigem Teil, die Rücklage laut Vermögensbericht und beschlossene Maßnahmen. Bei vermieteten Wohnungen nennen Sie die Kündigungssperrfrist: In Leonberg und Pforzheim beträgt sie 2026 fünf Jahre [12]. Liegt die Effizienzklasse bei F, G oder H, ist ein Hinweis auf das KfW-Programm 308 sinnvoll [17].
@@ -128,7 +127,7 @@ Käufer sind 2026 gut informiert. Für jede Frage brauchen Sie eine Unterlage, n
 | Wie hoch ist die Rücklage? | Die Rücklage wird nicht ausgezahlt, sie bleibt bei der Gemeinschaft [5] | Vermögensbericht |
 | Darf ich wegen Mängeln das Hausgeld zurückhalten? | Nein, laut BGH vom 14.11.2025 (V ZR 190/24) kein Zurückbehaltungsrecht [20] | keine |
 | Kann ich selbst einziehen? | Bei Mietern gilt die Sperrfrist, in Leonberg und Pforzheim 2026 fünf Jahre [12] | Mietvertrag |
-| Bekomme ich KfW 308? | Familien können Wohnungen der Klassen F, G und H mit bis zu 180.000 € zu 1,00 % finanzieren [17] | Energieausweis |
+| Bekomme ich KfW 308? | Familien können Wohnungen der Klassen F, G und H mit bis zu 180.000 € zu {{fakten.kfw_308.zins}} effektiv (Stand {{fakten.kfw_308.zins.stand}}) finanzieren [17] | Energieausweis |
 | Was zahle ich an Steuer? | Grunderwerbsteuer in Baden-Württemberg 5 %, Notar und Grundbuch trägt üblicherweise der Käufer [21] | keine |
 
 Dazu kommen Fragen nach Stellplatz, Wallbox und Balkonkraftwerk.
@@ -185,20 +184,20 @@ Meine Einschätzung: Steht der Käufer fest, brauchen Sie keinen Makler. Dann br
 
 Laut einer Umfrage einer Kreissparkassen-Tochter von 2025 unter rund 500 Eigentümern wählen 67 % den Maklerweg [7]. Eine amtliche Zahl gibt es nicht [7].
 
+<!-- Abschnitt „Hybrid: Einzelleistungen“ bis zur Klärung von Angebot, Festpreisen und Rechtsform ausgeblendet (LAPTOP-FRAGEBOGEN.md, Anwalt A3 und Nach dem Livegang N8). Wortlaut:
 ## Hybrid: Einzelleistungen bei Rössler Immobilien
 
 Zwischen „alles selbst“ und „alles abgeben“ liegt ein Mittelweg. Sie verkaufen selbst und buchen einzelne Leistungen:
 
-| Leistung | Was Sie bekommen | Preis [LINUS: Festpreise je Einzelleistung eintragen] |
+| Leistung | Was Sie bekommen | Preis |
 |---|---|---|
 | Bewertung mit schriftlichem Verkaufsplan | Preisvorschlag mit Begründung, Käufergruppen, Vorbereitung, Zeitplan | Festpreis |
 | Exposé mit Unterlagen-Check | Exposé mit Pflichtangaben, Prüfung der Verwaltungsunterlagen auf Lücken | Festpreis |
 | Notarkoordination und Käuferprüfung | Prüfung der Finanzierungsbestätigung, Abstimmung mit Notar und Verwaltung | Festpreis |
 | Komplettvermittlung | Vermarktung, Besichtigungen, Verhandlung, Notar | 2,98 % je Seite inkl. USt [2] |
 
-Die Einzelleistungen kosten einen Festpreis und hängen nicht vom Verkauf ab. Sie sind keine Provision. [ZU PRÜFEN: Rechtsform der Einzelleistungen durch einen Anwalt prüfen lassen, damit kein Maklervertrag mit Provisionsfolge nach §§ 656a bis 656d BGB entsteht. Die Box erst veröffentlichen, wenn Preise und Rechtsform geklärt sind.]
-
-[LINUS: Bietest du diese Einzelleistungen an? Welche Festpreise? Gibt es zusätzlich einen Besichtigungsservice?]
+Die Einzelleistungen kosten einen Festpreis und hängen nicht vom Verkauf ab. Sie sind keine Provision. (Rechtsform anwaltlich prüfen lassen, §§ 656a bis 656d BGB; Preise und Besichtigungsservice von Linus.)
+-->
 
 ## Häufige Fragen
 
@@ -236,7 +235,7 @@ Ich erbringe keine Rechtsberatung, insbesondere nicht zu Kaufvertragsklauseln, H
 **[Wohnung kostenlos einschätzen lassen, auch wenn Sie selbst verkaufen](/wohnung-bewerten/)**
 Ein falscher Preis kostet beim Privatverkauf schnell mehr als die Provision. Die Einschätzung kostet nichts und verpflichtet Sie zu nichts.
 
-Oder: [Einzelleistungen anfragen (Bewertung, Exposé, Notarkoordination)](/kontakt/)
+<!-- Oder: [Einzelleistungen anfragen (Bewertung, Exposé, Notarkoordination)](/kontakt/) -->
 
 ## Vor Ort
 - [Wohnung verkaufen in Renningen](/wohnung-verkaufen/renningen/): Wer in Malmsheim selbst verkaufen will, findet dort die Sperrfristlage und die Preisstreuung der Portale.
@@ -259,7 +258,7 @@ Oder: [Einzelleistungen anfragen (Bewertung, Exposé, Notarkoordination)](/konta
 3. reduco.ai, „Haus verkaufen ohne Makler“, aktualisiert 17.08.2026 (Ersparnis nur Verkäuferhälfte, 350.000 €: 10.430 bis 12.495 €; Portal und Fotos 130 bis 700 €; Bonitätsprüfung; §§ 311b, 438, 444 BGB; § 794 ZPO; Maklerklausel; kein Widerruf beim Notarvertrag): https://reduco.ai/blog/immobilienverkauf/haus-verkaufen-ohne-makler ; Satz 3,57 % je Seite: siehe Ratgeber Maklerprovision
 4. bodenrichtwerte-deutschland.de, „Haus verkaufen ohne Makler“ (2026): Kostentabelle, 100 bis 160 Stunden, 5.000 bis 8.000 € bei 50 €/h, 3 bis 6 bzw. 6 bis 12 Monate (Richtwert), zehn häufige Fehler: https://www.bodenrichtwerte-deutschland.de/immobilienwissen/haus-verkaufen-ohne-makler
 5. reduco.ai, „Wohnung verkaufen: Ablauf“, aktualisiert 17.08.2026 (90 Tage Vermarktung ETW Q1 2026, GREIX/IfW Kiel, 24 Städte; Notar bis Geldeingang 4 bis 12 Wochen; Verwalterzustimmung 20 bis 370 €; Sonderumlage nach Fälligkeit, BGH V ZR 257/16; Rücklage § 28 Abs. 4 WEG; Grundschuldlöschung 217,50 bis 342,50 € plus 20 €): https://reduco.ai/blog/immobilienverkauf/wohnung-verkaufen-ablauf
-6. ad-hoc-news, Maklerumfrage (54,3 % über sechs Monate, 70 % halten Angebotspreise für 10 bis 30 % überhöht), 22.10.2026, Urheber unklar: https://ad-hoc-news.de/wirtschaft/immobilienmarkt-54-3-prozent-der-verkaeufe-dauern-laenger-als-sechs-monate/70395215 [ZU PRÜFEN: Urheber der Umfrage]
+6. ad-hoc-news, Maklerumfrage (54,3 % über sechs Monate, 70 % halten Angebotspreise für 10 bis 30 % überhöht), 22.10.2026, Urheber unklar, im Text nur als Hinweis verwendet: https://ad-hoc-news.de/wirtschaft/immobilienmarkt-54-3-prozent-der-verkaeufe-dauern-laenger-als-sechs-monate/70395215
 7. immostage.ai, Verkaufsstrategien (KSK-Immobilien-Umfrage 2025, ca. 500 Eigentümer, 67 % Maklerweg; amtliche Zahl nicht gefunden): https://www.immostage.ai/bewertung/immobilie-verkaufen-strategien/
 8. § 12 WEG (Veräußerungsbeschränkung): https://dejure.org/gesetze/WEG/12.html
 9. reduco.ai, „Energieausweis für die Eigentumswohnung“ (§ 80 Abs. 3 GModG, Beschluss § 19 Abs. 1 WEG, Kosten § 16 Abs. 2 WEG): https://reduco.ai/blog/energieausweis/energieausweis-wohnung-eigentumswohnung
@@ -270,7 +269,7 @@ Oder: [Einzelleistungen anfragen (Bewertung, Exposé, Notarkoordination)](/konta
 14. IHK Köln, Präsenzbeurkundung, keine Videobeurkundung von Immobilienkaufverträgen: https://www.ihk.de/koeln/hauptnavigation/recht-steuern/recht/online-gruendungen-notarielle-beurkundung-durch-videokonferenz-5962580
 15. Grundbucheinsicht (§§ 12, 133 GBO): https://www.bodenrichtwerte-deutschland.de/immobilienwissen/grundbuchamt
 16. Bauzinsen 10 Jahre ca. 4,2 bis 4,5 %, Dr. Klein Topzins 4,20 % am 29.10.2026, Vorjahr 3,38 %: https://www.drklein.de/zinsen.html ; https://www.interhyp.de/zinsen/
-17. KfW 308 „Jung kauft Alt“ (bis 180.000 €, 1,00 %, Klasse F/G/H, Antrag vor Notarvertrag), 07.10.2026: https://www.baukostenplan.de/ratgeber/kfw-308-jung-kauft-alt-2026-neue-kreditbetraege
+17. KfW 308 „Jung kauft Alt“ (bis 180.000 €, Zins {{fakten.kfw_308.zins}} effektiv laut KfW-Konditionenanzeiger, Stand {{fakten.kfw_308.zins.stand}}, https://www.kfw-formularsammlung.de/KonditionenanzeigerINet/KonditionenAnzeiger ; Klasse F/G/H, Antrag vor Notarvertrag), 07.10.2026: https://www.baukostenplan.de/ratgeber/kfw-308-jung-kauft-alt-2026-neue-kreditbetraege
 18. Bundesregierung, Gebäudemodernisierungsgesetz seit 29.07.2026: https://www.bundesregierung.de/breg-de/aktuelles/neues-gebaeudemodernisierungsgesetz-2430284
 19. BGH, Urteil vom 20.04.2023, I ZR 113/22 (Reservierungsvereinbarung in AGB unwirksam), nach marktthemen-2026.md Kap. 7b
 20. Haufe, BGH-Rechtsprechungsübersicht Wohnungseigentumsrecht (V ZR 190/24 vom 14.11.2025): https://www.haufe.de/immobilien/verwaltung/bgh-rechtsprechungsuebersicht/wohnungseigentumsrecht_258_119076.html

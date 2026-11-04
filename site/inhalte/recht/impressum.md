@@ -14,10 +14,7 @@ status: entwurf
 
 Linus Rössler
 Rössler Immobilien
-Am Rück 19
-97618 Niederlauer
-
-[LINUS: Anschrift bestätigen oder neue Geschäftsadresse nach der Standortentscheidung eintragen (Frage 1.1)]
+{{fakten.firma.anschrift}}
 
 ## Kontakt
 
@@ -26,7 +23,7 @@ E-Mail: {{fakten.firma.email}}
 
 ## Umsatzsteuer
 
-Eine Umsatzsteuer-Identifikationsnummer nach § 27a UStG liegt derzeit nicht vor. [LINUS: USt-IdNr. vorhanden? Dann hier eintragen]
+{{fakten.firma.ust_idnr}}
 
 ## Tätigkeit und Erlaubnis nach § 34c GewO
 
@@ -36,11 +33,9 @@ Tätigkeit: Immobilienmakler, erlaubnispflichtig nach § 34c Abs. 1 Satz 1 Nr. 1
 
 Aktenzeichen des Erlaubnisbescheids: {{fakten.erlaubnis.aktenzeichen}}
 
-[LINUS: Zuständige IHK laut Bescheid bestätigen (Name und Anschrift) und in bauplan/fakten.yaml unter erlaubnis.behoerde eintragen, dazu erlaubnis.erteilt_am]
-
 ## Zuständige Kammer
 
-IHK Würzburg-Schweinfurt, Mainaustraße 33–35, 97082 Würzburg [LINUS: Bei Sitz in Baden-Württemberg die IHK des neuen Bezirks eintragen]
+{{fakten.firma.kammer}}
 
 ## Verbraucherstreitbeilegung
 

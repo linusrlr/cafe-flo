@@ -13,7 +13,7 @@ status: Entwurf
 
 **Kurzantwort:** Die zehnjährige Spekulationsfrist für vermietete Immobilien bleibt. Der Bundestag hat am 8. Oktober 2026 den Gesetzentwurf der Grünen zur Abschaffung mit 131 zu 446 Stimmen abgelehnt [1][2]. Der Bundesrat hat am 16. Oktober 2026 die Empfehlung seiner Ausschüsse, die Frist zu streichen, nicht in seine Stellungnahme zum Einkommensteuerreformgesetz 2027 übernommen [3]. Wer eine Wohnung länger als zehn Jahre hält oder selbst bewohnt, verkauft weiterhin steuerfrei. Offen ist nur eine geplante Ausnahme für Verkäufe nach einer Scheidung.
 
-Wer im Sommer die Schlagzeilen zur Abschaffung gelesen hat, fragt sich vielleicht, ob er schnell verkaufen muss, bevor die Steuerfreiheit fällt. Die Antwort ist nach dem Oktober klar: Nein, nicht wegen der Frist. [LINUS: ggf. eigene Erfahrung aus Gesprächen ergänzen] Hier steht, was genau beschlossen wurde und was für Ihre Planung folgt.
+Wer im Sommer die Schlagzeilen zur Abschaffung gelesen hat, fragt sich vielleicht, ob er schnell verkaufen muss, bevor die Steuerfreiheit fällt. Die Antwort ist nach dem Oktober klar: Nein, nicht wegen der Frist. <!-- Später ergänzen (N6): eigene Erfahrung aus Gesprächen. --> Hier steht, was genau beschlossen wurde und was für Ihre Planung folgt.
 
 ## Was hat der Bundestag am 8. Oktober 2026 beschlossen?
 
@@ -31,7 +31,7 @@ Damit gilt unverändert: Liegen zwischen dem notariellen Kaufvertrag beim Kauf u
 
 Ein Vorschlag liegt noch auf dem Tisch. Auf Antrag Baden-Württembergs hat der Bundesrat am 25. September 2026 zum Jahressteuergesetz 2026 angeregt, Verkäufe im Zusammenhang mit einer Scheidung steuerfrei zu stellen, wenn der verkaufende Ehegatte die Immobilie bis zum trennungsbedingten Auszug selbst bewohnt hat [7][8]. Bisher endet die Selbstnutzung nach der Rechtsprechung des Bundesfinanzhofs mit dem Auszug, auch wenn die Kinder in der Wohnung bleiben [7].
 
-Das ist noch kein geltendes Recht. Der Bundestag muss das Jahressteuergesetz 2026 beschließen, danach stimmt der Bundesrat abschließend zu [7] [ZU PRÜFEN: Termin der 2./3. Lesung, nach Verbandsangaben 13.11.2026; ob die Scheidungsregel im Beschluss enthalten ist]. Wer gerade in einer Trennung steckt und eine Wohnung innerhalb der zehn Jahre verkaufen will, sollte den Notartermin mit dem Steuerberater abstimmen. Mehr dazu im Ratgeber [Eigentumswohnung bei Trennung und Scheidung](/ratgeber/wohnung-scheidung/).
+Das ist noch kein geltendes Recht. Der Bundestag muss das Jahressteuergesetz 2026 beschließen, danach stimmt der Bundesrat abschließend zu [7]. Am 3. November 2026 war das noch nicht geschehen; ob die Scheidungsregel im Beschluss steht, ist offen. <!-- Nach der 2./3. Lesung (laut Verbandsangaben 13.11.2026) aktualisieren. --> Wer gerade in einer Trennung steckt und eine Wohnung innerhalb der zehn Jahre verkaufen will, sollte den Notartermin mit dem Steuerberater abstimmen. Mehr dazu im Ratgeber [Eigentumswohnung bei Trennung und Scheidung](/ratgeber/wohnung-scheidung/).
 
 Auch das Einkommensteuerreformgesetz 2027 ist noch im Bundestag [9]. Eine Rückkehr der Abschaffungsidee in diesem Verfahren halte ich nach zwei klaren Abstimmungen für unwahrscheinlich, ausschließen kann ich sie nicht.
 
@@ -74,8 +74,8 @@ Dieser Beitrag ist keine Steuerberatung. Stand der Gesetzgebung: 3. November 202
 1. hausbesitzer-news.de, „Spekulationsfrist Immobilien: Abschaffung 2026? Aktueller Stand“, Stand 17.10.2026 (BT-Drs. 21/6637, Abstimmung 8.10.2026: 131 Ja, 446 Nein, keine Enthaltung; BR-Drs. 507/1/26 vom 5.10.2026; BR-Drs. 507/26(B) vom 16.10.2026; BR-Drs. 447/26(B) vom 25.9.2026), https://hausbesitzer-news.de/recht-finanzen/spekulationsfrist-immobilien-abschaffen-aktueller-stand/
 2. immowelt, „Bundestag stoppt Vorstoß zur Abschaffung steuerfreier Immobilienverkäufe nach zehn Jahren“, 18.10.2026 (446 dagegen, 131 dafür; Empfehlung des Finanzausschusses), https://www.immowelt.de/ratgeber/news/verkaufen/bundestag-stoppt-vorstoss-zur-abschaffung-steuerfreier-immobilienverkaeufe-nach-zehn-jahren
 3. Haufe Steuern, „Bundesrat nimmt Stellung zum Einkommensteuerreformgesetz 2027“, 19.10.2026, https://www.haufe.de/steuern/gesetzgebung-politik/bundesrat-nimmt-stellung-zum-einkommensteuerreformgesetz-2027_168_700990.html
-4. Deutscher Bundestag, Drucksache 21/6637 (Gesetzentwurf Bündnis 90/Die Grünen), https://dserver.bundestag.de/btd/21/066/2106637.pdf [ZU PRÜFEN: Mehreinnahmen 6 Mrd. Euro im Wortlaut der Drucksache]
-5. recherche/marktthemen-2026.md, Kap. 5a (Regierungsentwurf EStRefG 2027, BT-Drs. 21/8235, ohne Änderung des § 23 EStG) [ZU PRÜFEN: Drucksache im Original]
+4. Deutscher Bundestag, Drucksache 21/6637 (Gesetzentwurf Bündnis 90/Die Grünen) vom 23.06.2026, Abschnitt D: Einkommensteueraufkommen steigt „um schätzungsweise 6 Mrd. Euro“, https://dserver.bundestag.de/btd/21/066/2106637.pdf (abgerufen 03.11.2026)
+5. Deutscher Bundestag, Drucksache 21/8235 vom 28.09.2026, Gesetzentwurf der Bundesregierung „Entwurf eines Einkommensteuerreformgesetzes 2027“; enthält keine Änderung des § 23 EStG (Volltext durchsucht am 03.11.2026), https://dserver.bundestag.de/btd/21/082/2108235.pdf
 6. § 23 EStG, Private Veräußerungsgeschäfte, https://www.gesetze-im-internet.de/estg/__23.html (abgerufen 29.10.2026)
 7. Landesregierung Baden-Württemberg, Pressemitteilung „Steuerbefreiung für Scheidungsimmobilien soll kommen“, 25.09.2026, https://www.baden-wuerttemberg.de/de/service/presse/pressemitteilung/pid/steuerbefreiung-fuer-scheidungsimmobilien-soll-kommen
 8. Kleeberg, „Jahressteuergesetz 2026: Bundesrat will Scheidungsimmobilien von der Steuer befreien“, 05.10.2026, https://www.kleeberg.de/en/2026/10/05/jahressteuergesetz-2026-bundesrat-will-scheidungsimmobilien-von-der-steuer-befreien/

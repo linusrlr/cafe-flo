@@ -37,7 +37,7 @@ Zur Miete werden Renninger Wohnungen für über 13 bis 15,6 €/m² kalt angebot
 - **Keine Mietpreisbremse, wenig Mietanstieg.** Die Angebotsmiete stieg laut Landesgutachten von 2017/18 bis 2022/23 nur um 12 Prozent auf 12,63 €/m², weniger als in den anderen vier Orten meines Gebiets [6]. Bei Neuvermietung ist die Miete frei vereinbar.
 - **Grundsteuer 190 Prozent.** Renningen erhebt die Grundsteuer B mit 190 Prozent, Leonberg mit 220 und Ditzingen mit 250 Prozent [7]. Für eine Wohnung ist der Betrag klein, aber Käufer vergleichen ihn, und Renningen steht dabei gut da.
 - **Käufer.** Beschäftigte am Bosch-Forschungscampus, Pendler mit der S6 nach Stuttgart und der S60 nach Böblingen und Familien: Das Haushaltseinkommen lag 2023 bei 77.890 Euro, in Leonberg bei 70.445 Euro [6]. Nach meiner Einschätzung kommen Käufer ab 60 dazu, die ihr Haus im Ort verkaufen, bleiben wollen und eine Wohnung mit Aufzug in Bahnhofsnähe suchen.
-- **Neubau und Bestand.** Neubauwohnungen haben in der Regel Aufzug, Tiefgarage und die Energieklasse A oder B, oft aber ein höheres Hausgeld bei noch kleiner Rücklage. Bestand der 1970er und 1980er Jahre hat oft Klasse E bis G; ab Klasse F können Familien KfW 308 mit bis zu 180.000 Euro zu 1,00 Prozent [ZU PRÜFEN: tagesaktueller KfW-Zinssatz] nutzen, wenn der Antrag vor dem Notartermin gestellt ist [8].
+- **Neubau und Bestand.** Neubauwohnungen haben in der Regel Aufzug, Tiefgarage und die Energieklasse A oder B, oft aber ein höheres Hausgeld bei noch kleiner Rücklage. Bestand der 1970er und 1980er Jahre hat oft Klasse E bis G; ab Klasse F können Familien KfW 308 mit bis zu 180.000 Euro zu {{fakten.kfw_308.zins}} effektiv (Stand {{fakten.kfw_308.zins.stand}}) nutzen, wenn der Antrag vor dem Notartermin gestellt ist [8].
 
 ## Renningen, Malmsheim und Ihinger Hof
 
@@ -85,7 +85,7 @@ Rufen Sie an oder nutzen Sie das Formular. Innerhalb eines Werktags melde ich mi
 **[Button: Anrufen: 0159 05844641 → tel:+4915905844641]**
 
 Linus Rössler · Rössler Immobilien · Telefon 0159 05844641 · linus@roessler-immo.de
-[LINUS: Anschrift und Erreichbarkeit für den NAP-Block]
+{{fakten.firma.anschrift}} · telefonisch {{fakten.firma.erreichbarkeit}}
 
 ## Weitere Orte
 
@@ -102,7 +102,7 @@ Alle Preiswerte sind Angebotspreise, abgerufen im Oktober 2026 (zuletzt 29.10.20
 5. Kündigungssperrfristverordnung Baden-Württemberg (KSpVO BW) vom 16.12.2025, GBl. 2025 Nr. 146, gültig 01.01.2026 bis 31.12.2026: https://www.landtag-bw.de/resource/blob/611984/7e993deafc1547ab553a30dfe14a9333/GBl2025146.pdf ; § 577a BGB: https://www.gesetze-im-internet.de/bgb/__577a.html
 6. Ministerium für Landesentwicklung und Wohnen BW, Mietpreisbremse, Einzeldaten aller Städte und Gemeinden, Stand August 2025 (Gutachten FUB IGES; Wohnungsbestand 2011 bis 2022, Angebotsmieten, Haushaltseinkommen 2023): https://mlw.baden-wuerttemberg.de/fileadmin/redaktion/m-mlw/intern/Dateien/03_Bauen-Wohnen/Wohnungsbau/Mietpreisbremse/2025/Mietpreisbremse-Einzeldaten_aller_Staedte_und_Gemeinden_Stand_August_2025.xlsx
 7. Stadt Renningen, Grund- und Gewerbesteuer (190 %): https://www.renningen.de/wirtschaft/wirtschaftsstandort/grund-gewerbesteuer/ ; Stadt Ditzingen, Steuern und Gebühren (250 %): https://www.ditzingen.de/service-rathaus/steuern-gebuehren-1 ; Stadt Leonberg, Vorlage 2026/083 (220 %): https://www.leonberg.de/ratsinformationssystem/wicket/resource/org.apache.wicket.Application/doc527126.pdf
-8. KfW 308 „Jung kauft Alt“, Kredithöchstbeträge seit 03.08.2026, Zins 1,00 % effektiv, Antrag vor Kaufvertrag, Stand 07.10.2026: https://www.baukostenplan.de/ratgeber/kfw-308-jung-kauft-alt-2026-neue-kreditbetraege
+8. KfW 308 „Jung kauft Alt“, Kredithöchstbeträge seit 03.08.2026, Antrag vor Kaufvertrag; Zins {{fakten.kfw_308.zins}} effektiv laut KfW-Konditionenanzeiger (Stand {{fakten.kfw_308.zins.stand}}): https://www.kfw-formularsammlung.de/KonditionenanzeigerINet/KonditionenAnzeiger ; Beträge laut baukostenplan.de, Stand 07.10.2026: https://www.baukostenplan.de/ratgeber/kfw-308-jung-kauft-alt-2026-neue-kreditbetraege
 9. Wikipedia, Artikel Renningen (Malmsheim seit 1972, S6/S60, Bahnhöfe, Bus 637), abgerufen 29.10.2026: https://de.wikipedia.org/wiki/Renningen
 10. Rössler Immobilien, FAQ Provision 2,98 % inkl. USt je Seite, https://roessler-immo.de (Stand Oktober 2026)
 11. Bosch Presse, Factsheet Forschungscampus Renningen („Rund 1 900 Mitarbeiter“), April 2018: https://www.bosch-presse.de/pressportal/de/media/dam_images/pi9990/factsheet_bosch-forschungscampus_renningen_de.pdf ; Stuttgarter Zeitung, „Stellenabbau in Leonberg und Renningen: Boschler entzünden Feuer“ (3.500 Stellen, Kündigungsschutz bis Ende 2027): https://www.stuttgarter-zeitung.de/lokales/boeblingen/stellenabbau-in-leonberg-und-renningen-boschler-entzuenden-feuer-79019794.html

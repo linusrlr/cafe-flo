@@ -1,6 +1,8 @@
 // npm run offen [-- --seite /kontakt/] [-- --kurz]
 // Listet alle offenen [LINUS: …]- und [ZU PRÜFEN: …]-Stellen mit Datei und Zeile, ordnet LINUS-Stellen den
-// Fragen aus FRAGEN-AN-LINUS.md zu (soweit erkennbar) und zeigt, welche Seiten aus veroeffentlichen.yaml blockiert sind.
+// Fragen aus LAPTOP-FRAGEBOGEN.md zu (sonst FRAGEN-AN-LINUS.md) und zeigt, welche Seiten aus veroeffentlichen.yaml blockiert sind.
+// Zuordnung im Fragebogen: über das fakten.yaml-Feld („Wert fehlt in bauplan/fakten.yaml: firma.anschrift“ → Frage, die `firma.anschrift` nennt)
+// oder über einen Verweis „Fragebogen A1“ im Markertext.
 import { readFileSync, existsSync } from 'node:fs';
 import path from 'node:path';
 
@@ -15,14 +17,17 @@ const gelb = (s) => (process.stdout.isTTY ? `\x1b[33m${s}\x1b[0m` : s);
 const gruen = (s) => (process.stdout.isTTY ? `\x1b[32m${s}\x1b[0m` : s);
 const rot = (s) => (process.stdout.isTTY ? `\x1b[31m${s}\x1b[0m` : s);
 
-// Fragen aus FRAGEN-AN-LINUS.md
-const fragenDatei = path.join(REPO_PFAD, 'FRAGEN-AN-LINUS.md');
+// Fragen aus LAPTOP-FRAGEBOGEN.md (bevorzugt) oder FRAGEN-AN-LINUS.md
+const fragebogenDatei = path.join(REPO_PFAD, 'LAPTOP-FRAGEBOGEN.md');
+const neuerBogen = existsSync(fragebogenDatei);
+const fragenDatei = neuerBogen ? fragebogenDatei : path.join(REPO_PFAD, 'FRAGEN-AN-LINUS.md');
 const fragen = [];
 if (existsSync(fragenDatei)) {
   const t = readFileSync(fragenDatei, 'utf8');
-  for (const m of t.matchAll(/^- \[[ x]\] \*\*(\d+\.\d+) ([^*]+)\*\*([^\n]*)\n((?:(?!^- \[).*\n?)*)/gm)) {
+  for (const m of t.matchAll(/^- \[[ x]\] \*\*(\d+\.\d+|A\d+) ([^*]+)\*\*([^\n]*)\n((?:(?!^- \[|^#).*\n?)*)/gm)) {
     const seiten = (m[3].match(/\(([^)]*)\)/) ?? [])[1] ?? '';
-    fragen.push({ nr: m[1], titel: m[2].trim().replace(/\.$/, ''), seiten: seiten.toLowerCase(), text: (m[2] + m[3] + m[4]).toLowerCase() });
+    const felder = [...(m[3] + m[4]).matchAll(/`([a-z0-9_]+\.[a-z0-9_.]+)`/g)].map((x) => x[1]);
+    fragen.push({ nr: m[1], titel: m[2].trim().replace(/\.$/, ''), seiten: seiten.toLowerCase(), felder, text: (m[2] + m[3] + m[4]).toLowerCase() });
   }
 }
 // feste Zuordnungen (Stichwort im Marker → Frage); danach Wortähnlichkeit
@@ -65,7 +70,16 @@ const REGELN = [
 ];
 const stamm = (s) => new Set((s.toLowerCase().match(/[a-zäöüß]{5,}/g) ?? []).map((w) => w.slice(0, 6)));
 function ordneZu(marker, seite) {
-  for (const [re, nr] of REGELN) if (re.test(marker.text)) return nr;
+  if (neuerBogen) {
+    const verweis = marker.text.match(/Fragebogen (\d+\.\d+|A\d+)/);
+    if (verweis && fragen.some((f) => f.nr === verweis[1])) return verweis[1];
+    const feld = marker.text.match(/fakten\.yaml: ([a-z0-9_.]+)/)?.[1];
+    if (feld) {
+      let best = null, laenge = 0;
+      for (const f of fragen) for (const x of f.felder) if ((feld === x || feld.startsWith(x + '.')) && x.length > laenge) { best = f.nr; laenge = x.length; }
+      if (best) return best;
+    }
+  } else for (const [re, nr] of REGELN) if (re.test(marker.text)) return nr;
   const ms = stamm(marker.text);
   let best = null, punkte = 0;
   for (const f of fragen) {
@@ -97,7 +111,7 @@ for (const s of seiten) {
 const zeile = ({ s, m }) => `    ${s.relDatei}:${m.zeile ?? '?'}  ${gelb(s.url)}  ${kurz ? m.text.slice(0, 110) + (m.text.length > 110 ? '…' : '') : m.text}`;
 
 if (!kurz || true) {
-  console.log(fett('\n=== [LINUS]-Stellen nach Fragen (FRAGEN-AN-LINUS.md) ===\n'));
+  console.log(fett(`\n=== [LINUS]-Stellen nach Fragen (${path.basename(fragenDatei)}) ===\n`));
   const reihenfolge = [...gruppen.keys()].sort((a, b) => (a === 'ohne') - (b === 'ohne') || a.localeCompare(b, 'de', { numeric: true }));
   for (const nr of reihenfolge) {
     const f = fragen.find((x) => x.nr === nr);

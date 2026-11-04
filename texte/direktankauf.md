@@ -41,7 +41,7 @@ Bei einem Eigenankauf bin ich Ihr Vertragspartner auf der Käuferseite. Mein Ang
 Das heißt konkret: Als Makler verdiene ich an einem hohen Preis. Als Käufer verdiene ich an einem niedrigen. Ich habe hier also ein eigenes Interesse, und das sollen Sie wissen, bevor Sie mit mir sprechen. Deshalb gelten feste Regeln:
 - Erst die Einschätzung als Makler, dann das Ankaufsangebot.
 - Der Abschlag steht in Prozent im Angebot.
-- Sie haben Bedenkzeit.
+- Sie haben {{fakten.ankauf.bedenkzeit}} Bedenkzeit.
 - Keine 24-Stunden-Fristen, keine „nicht verhandelbaren“ Angebote.
 
 Ein Ankauf ist kein Maklergeschäft. Es fällt keine Provision an, weder für Sie noch für mich als Käufer [7].
@@ -67,7 +67,7 @@ Trifft keiner dieser Punkte zu, bringt Ihnen die Vermittlung in der Regel mehr. 
 
 **3. Angebot besprechen.** Kann ich Ihnen ein Angebot machen, erläutere ich Kaufpreis und Bedingungen. Sie entscheiden, ob Sie darauf eingehen möchten.
 
-Ergänzend zu den drei Schritten: Die Eckdaten können Sie über das Kurzformular unten oder am Telefon schicken; ich melde mich innerhalb von [LINUS: Zeitangabe, z. B. „einem Werktag“]. Bei der Prüfung sehe ich mir neben der Wohnung das Gebäude an: geplante Arbeiten, Rücklage, beschlossene Sonderumlagen. Bevor ich ein Angebot mache, bekommen Sie die schriftliche Einschätzung, was eine Vermittlung bringt. Dauer bis dahin: [LINUS: Zeitangabe]. Das Angebot erhalten Sie schriftlich, mit Kaufpreis, Abschlag in Prozent, Bedenkzeit und geplantem Notartermin. Vom Angebot bis zum Notartermin: [LINUS: Zeitangabe]. Vom Notartermin bis zum Geldeingang vergehen beim Wohnungsverkauf üblicherweise 4 bis 12 Wochen [6].
+Ergänzend zu den drei Schritten: Die Eckdaten können Sie über das Kurzformular unten oder am Telefon schicken; ich melde mich {{fakten.firma.antwortzeit}}. Bei der Prüfung sehe ich mir neben der Wohnung das Gebäude an: geplante Arbeiten, Rücklage, beschlossene Sonderumlagen. Bevor ich ein Angebot mache, bekommen Sie die schriftliche Einschätzung, was eine Vermittlung bringt. Das Angebot erhalten Sie schriftlich, mit Kaufpreis, Abschlag in Prozent, Bedenkzeit und geplantem Notartermin. Wann der Notartermin geplant ist, steht im Angebot. <!-- Später ergänzen (N7): Dauer bis zur Einschätzung und vom Angebot bis zum Notartermin; dann auch in den Tabellen „Dauer bis Notar“. --> Vom Notartermin bis zum Geldeingang vergehen beim Wohnungsverkauf üblicherweise 4 bis 12 Wochen [6].
 
 ## So kommt mein Angebot zustande
 
@@ -89,7 +89,9 @@ Der Kaufpreis ist ein Beispiel für rund 75 m² aus Angebotspreisen 2026 [9]. Di
 
 Erzielt die Vermittlung nur 95 % des Marktpreises, also 275.500 €, bleiben Ihnen nach Provision 267.290,10 € [1][3]. Der Unterschied zum Direktankauf mit 10 % Abschlag schrumpft dann auf 6.290,10 €.
 
-[LINUS: In welchem Korridor liegt dein Angebot typischerweise unter deiner Maklereinschätzung? Darf eine Spanne hier stehen? Wie finanzierst du Ankäufe? Das bestimmt den Abschlag und gehört wahrheitsgemäß in diesen Abschnitt.]
+Welchen Abschlag ich bei Ihrer Wohnung ansetze, steht in Prozent in meinem schriftlichen Angebot.
+
+<!-- Später ergänzen (N7): typischer Korridor des Abschlags unter der Maklereinschätzung und Finanzierung der Ankäufe (Eigenkapital oder Bank). -->
 
 ## Welche Wohnungen infrage kommen
 
@@ -123,7 +125,7 @@ Eine Grenze nenne ich offen: Mehr als drei Verkäufe in rund fünf Jahren machen
 
 Seit dem 1. April 2023 ist Barzahlung beim Immobilienkauf verboten, auch in Kryptowerten oder Gold (§ 16a GwG) [4]. Der Notar beurkundet und vollzieht den Vertrag nur, wenn die unbare Zahlung nachgewiesen ist [4]. Ich zahle den Kaufpreis deshalb per Überweisung. Wer Ihnen „Bargeld sofort“ verspricht, verspricht etwas, das es legal nicht gibt.
 
-Bei jedem Wohnungskauf prüft der Notar die Identität beider Seiten nach dem Geldwäschegesetz [4]. Beim Notar werden beide Seiten identifiziert [4]. Bringen Sie zum Termin Ihren Personalausweis oder Reisepass mit. Der Kaufvertrag wird in Präsenz beurkundet, nicht per Video [12]. [ZU PRÜFEN: Umfang der eigenen GwG-Pflichten beim Eigenankauf, in dem ich Käufer und nicht Vermittler bin]
+Bei jedem Wohnungskauf prüft der Notar die Identität beider Seiten nach dem Geldwäschegesetz [4]. Beim Notar werden beide Seiten identifiziert [4]. Bringen Sie zum Termin Ihren Personalausweis oder Reisepass mit. Der Kaufvertrag wird in Präsenz beurkundet, nicht per Video [12]. <!-- Anwalt (LAPTOP-FRAGEBOGEN.md A4): Umfang der eigenen GwG-Pflichten beim Eigenankauf. Der Satz oben beschreibt nur die Prüfung durch den Notar. -->
 
 ## Ankauf prüfen lassen: das Kurzformular
 

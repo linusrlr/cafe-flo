@@ -17,7 +17,7 @@ Eigentumswohnungen in Heimsheim werden im Oktober 2026 im Mittel für rund 3.200
 
 *Linus Rössler, Makler für Eigentumswohnungen in Heimsheim und im Heckengäu · Stand Oktober 2026 · Erlaubnis nach § 34c GewO · [Über mich](/ueber-mich/)*
 
-Heimsheim steht in meiner Ortsliste an erster Stelle. [LINUS: Persönlichen Bezug zu Heimsheim in ein bis zwei Sätzen ergänzen: Wohnort, Familie, eigene Wohnung? Ohne diesen Satz fehlt der Seite ihr Kern.]
+Heimsheim steht in meiner Ortsliste an erster Stelle. <!-- Später ergänzen (N2): persönlicher Bezug zu Heimsheim in ein bis zwei Sätzen. -->
 
 ## Was Wohnungen in Heimsheim kosten
 
@@ -29,7 +29,7 @@ Heimsheim steht in meiner Ortsliste an erster Stelle. [LINUS: Persönlichen Bezu
 
 Weitere Quellen: immobilienpreise-2026.de nennt 3.626 €/m², ohne-makler.net 3.508 €/m² [4].
 
-Alle Werte sind Angebotspreise. Bei zehn Inseraten verschiebt ein einzelner Neubau oder eine unsanierte Wohnung der 1970er Jahre den Mittelwert spürbar; immoportal zeigte binnen weniger Wochen auch 3.655 €/m² [ZU PRÜFEN: immoportal erneut abrufen, Stichtagswert und Jahreswert gemischt?] [4]. Zum Vorjahr reichen die Angaben von minus 3 bis plus 3,1 Prozent, das ist kein Trend, sondern Rauschen.
+Alle Werte sind Angebotspreise. Bei zehn Inseraten verschiebt ein einzelner Neubau oder eine unsanierte Wohnung der 1970er Jahre den Mittelwert spürbar. Zum Vorjahr reichen die Angaben von minus 3 bis plus 3,1 Prozent, das ist kein Trend, sondern Rauschen.
 
 Amtliche Kaufpreise sammelt der Gemeinsame Gutachterausschuss im Enzkreis in Mühlacker, einen aktuellen Bericht für Heimsheim habe ich online nicht gefunden [5]. Zur Miete liegen Wohnungen laut ImmoScout24 bei etwa 12 bis 16 €/m² kalt.
 
@@ -85,7 +85,7 @@ Rufen Sie mich an oder schicken Sie mir die Eckdaten Ihrer Wohnung über das For
 **[Button: Anrufen: 0159 05844641 → tel:+4915905844641]**
 
 Linus Rössler · Rössler Immobilien · Telefon 0159 05844641 · linus@roessler-immo.de
-[LINUS: Anschrift und Erreichbarkeit für den NAP-Block]
+{{fakten.firma.anschrift}} · telefonisch {{fakten.firma.erreichbarkeit}}
 
 ## Weitere Orte
 
@@ -98,7 +98,7 @@ Angebotspreise, abgerufen bis 29.10.2026.
 1. immoportal.com, Immobilienpreise Heimsheim, Stichtag 01.10.2026 (Vorjahr 3.243 €/m²): https://www.immoportal.com/immobilienpreise/heimsheim
 2. immoverkauf24.de, Immobilienpreise Heimsheim (Powered by Sprengnetter), Stand Q2 2026 (+2,89 % zum Vorjahr): https://www.immoverkauf24.de/immobilienpreise/baden-wuerttemberg/enzkreis/heimsheim/ ; Vergleichswert Leonberg (4.042,68 €/m²): https://www.immoverkauf24.de/immobilienpreise/baden-wuerttemberg/boeblingen-kreis/leonberg/
 3. ImmoScout24 Regional, Heimsheim, ohne Datum, abgerufen 29.10.2026 (10 Angebote; Miete etwa 12 €/m², Spanne 12 bis 16 €/m²; Seite kennzeichnet Angaben als KI-gestützt): https://www.immobilienscout24.de/regional/de/baden-wuerttemberg/enzkreis/heimsheim/
-4. Weitere Portalabrufe Oktober 2026 (Dossier Marktthemen, Kap. 11): immobilienpreise-2026.de 3.626 €/m² (+3,1 %), https://www.immobilienpreise-2026.de/bw/heimsheim ; ohne-makler.net 3.508 €/m² (minus 3 %), https://www.ohne-makler.net/immobilienpreise/baden-wurttemberg/heimsheim/ ; immoportal, späterer Abruf 3.655 €/m², https://www.immoportal.com/immobilienpreise/heimsheim
+4. Weitere Portalabrufe Oktober 2026 (Dossier Marktthemen, Kap. 11): immobilienpreise-2026.de 3.626 €/m² (+3,1 %), https://www.immobilienpreise-2026.de/bw/heimsheim ; ohne-makler.net 3.508 €/m² (minus 3 %), https://www.ohne-makler.net/immobilienpreise/baden-wurttemberg/heimsheim/ ; immoportal am 03.11.2026 erneut abgerufen: 3.212,57 €/m², aktualisiert 01.11.2026 (ein früher notierter Wert von 3.655 €/m² war nicht reproduzierbar)
 5. Zweckverband Gemeinsamer Gutachterausschuss im Enzkreis, Mühlacker: https://gutachterausschuss-enzkreis.de
 6. Kündigungssperrfristverordnung Baden-Württemberg (KSpVO BW) vom 16.12.2025, GBl. 2025 Nr. 146, gültig 01.01.2026 bis 31.12.2026: https://www.landtag-bw.de/resource/blob/611984/7e993deafc1547ab553a30dfe14a9333/GBl2025146.pdf ; § 577a BGB: https://www.gesetze-im-internet.de/bgb/__577a.html
 7. Ministerium für Landesentwicklung und Wohnen BW, Mietpreisbremse, Einzeldaten aller Städte und Gemeinden, Stand August 2025 (Gutachten FUB IGES; Zensus 2022, Kaufkraft 2023): https://mlw.baden-wuerttemberg.de/fileadmin/redaktion/m-mlw/intern/Dateien/03_Bauen-Wohnen/Wohnungsbau/Mietpreisbremse/2025/Mietpreisbremse-Einzeldaten_aller_Staedte_und_Gemeinden_Stand_August_2025.xlsx

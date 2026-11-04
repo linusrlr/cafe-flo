@@ -75,18 +75,46 @@ firma:
     verwendet_in: [layout]
   anschrift:
     wert: null
-    quelle: "Entscheidung Linus (03-massnahmen M6 Punkt 3)"
-    stand: 2026-11-01
+    quelle: "Entscheidung Linus (LAPTOP-FRAGEBOGEN.md Frage 1.1)"
+    stand: 2026-11-03
     status: offen
-    hinweis: "Impressum nennt heute Am Rück 19, 97618 Niederlauer. Bis zur Standortentscheidung im Footer keine Anschrift, nur Servicegebiet. Ortsseiten haben dafür [LINUS]-Marker."
-    verwendet_in: [kontakt, ort-leonberg, footer, impressum]
+    hinweis: "Eine Zeile, z. B. \"Am Rück 19, 97618 Niederlauer\" (heutiges Impressum) oder die neue Geschäftsadresse. Erscheint per Platzhalter in Impressum, Datenschutz, Kontakt und den NAP-Blöcken der fünf Ortsseiten. Danach status: geprueft."
+    verwendet_in: [impressum, datenschutz, kontakt, ort-ditzingen, ort-heimsheim, ort-leonberg, ort-pforzheim, ort-renningen]
+  kammer:
+    wert: null
+    quelle: "folgt aus firma.anschrift (LAPTOP-FRAGEBOGEN.md Frage 1.1)"
+    stand: 2026-11-03
+    status: offen
+    hinweis: "Sitz Niederlauer: \"IHK Würzburg-Schweinfurt, Mainaustraße 33–35, 97082 Würzburg\" (heutiges Impressum). Sitz Leonberg, Renningen (Kreis Böblingen) oder Ditzingen (Kreis Ludwigsburg): IHK Region Stuttgart. Sitz Heimsheim (Enzkreis) oder Pforzheim: IHK Nordschwarzwald. Jeweils mit Anschrift."
+    verwendet_in: [impressum]
+  datenschutzaufsicht:
+    wert: null
+    quelle: "folgt aus firma.anschrift (LAPTOP-FRAGEBOGEN.md Frage 1.1)"
+    stand: 2026-11-03
+    status: offen
+    hinweis: "Satzteil nach \"Für meinen Sitz zuständig ist\". Sitz in Bayern: \"das Bayerische Landesamt für Datenschutzaufsicht, Promenade 18, 91522 Ansbach\" (heutige Datenschutzerklärung). Sitz in Baden-Württemberg: \"der Landesbeauftragte für den Datenschutz und die Informationsfreiheit Baden-Württemberg\" mit Anschrift laut baden-wuerttemberg.datenschutz.de."
+    verwendet_in: [datenschutz]
+  ust_idnr:
+    wert: null
+    quelle: "Linus (LAPTOP-FRAGEBOGEN.md Frage 1.3)"
+    stand: 2026-11-03
+    status: offen
+    hinweis: "Ganzer Satz für das Impressum. Ohne Nummer: \"Eine Umsatzsteuer-Identifikationsnummer nach § 27a UStG liegt nicht vor.\" Mit Nummer: \"Umsatzsteuer-Identifikationsnummer nach § 27a UStG: DE…\""
+    verwendet_in: [impressum]
   erreichbarkeit:
     wert: null
-    quelle: "Entscheidung Linus"
-    stand: 2026-11-01
+    quelle: "Entscheidung Linus (LAPTOP-FRAGEBOGEN.md Frage 2.1)"
+    stand: 2026-11-03
     status: offen
-    hinweis: "Vorschlag in kontakt.md: Mo bis Fr 9 bis 20 Uhr, Sa 10 bis 16 Uhr. Wird auch für openingHours im JSON-LD genutzt."
-    verwendet_in: [kontakt, start, footer]
+    hinweis: "Telefonzeiten als Satzteil ohne Punkt, z. B. \"Montag bis Freitag 9 bis 20 Uhr, Samstag 10 bis 16 Uhr\" (Vorschlag aus kontakt.md). Fuss.astro zeigt den Wert im Footer, sobald er nicht null ist."
+    verwendet_in: [kontakt, start, footer, ort-ditzingen, ort-heimsheim, ort-leonberg, ort-pforzheim, ort-renningen]
+  termine_vor_ort:
+    wert: null
+    quelle: "Entscheidung Linus (LAPTOP-FRAGEBOGEN.md Frage 2.1)"
+    stand: 2026-11-03
+    status: offen
+    hinweis: "Satzteil ohne Punkt, z. B. \"auch abends und samstags\". Steht nach \"Termine vor Ort mache ich\" (kontakt), \"60 bis 90 Minuten,\" (wohnung-bewerten) und \"innerhalb einer Woche an,\" (wohnung-verkaufen)."
+    verwendet_in: [kontakt, wohnung-bewerten, wohnung-verkaufen]
   antwortzeit:
     wert: "innerhalb eines Werktags"
     quelle: "Zusage Linus (start.md, Fünf Zusagen)"
@@ -95,10 +123,12 @@ firma:
     verwendet_in: [start, kontakt, wohnung-bewerten, ueber-mich, cta-block]
   einschaetzung_frist:
     wert: "innerhalb von zwei Werktagen"
-    quelle: "wohnung-bewerten.md"
-    stand: 2026-10-30
-    status: offen
-    hinweis: "[LINUS] in wohnung-bewerten.md: ab Eingang oder ab Telefonat? Verbindlich festlegen."
+    ab: null
+    nach_termin: null
+    quelle: "wohnung-bewerten.md, kontakt.md; Zählbeginn: Linus (LAPTOP-FRAGEBOGEN.md Frage 2.2)"
+    stand: 2026-11-03
+    status: geprueft
+    hinweis: "wert bleibt wie in den Texten. ab = Zählbeginn beim Bewertungsformular, Satzteil nach \"zählen ab\", z. B. \"Eingang Ihrer Anfrage\" oder \"unserem Telefonat\" (wohnung-bewerten). nach_termin = Frist nach einem Vor-Ort-Termin, Satzteil nach \"innerhalb von\", z. B. \"zwei Werktagen nach dem Termin\" (kontakt)."
     verwendet_in: [wohnung-bewerten, kontakt]
   orte:
     wert: "Heimsheim, Leonberg, Ditzingen, Renningen und Pforzheim"
@@ -246,6 +276,56 @@ provision:
     status: geprueft
     muster: 'Alleinauftrag'
     verwendet_in: [direktankauf, ort-leonberg, ratgeber-maklerprovision, ratgeber-wohnung-scheidung, wohnung-verkaufen]
+
+  festsatz:
+    wert: null
+    quelle: "Linus (LAPTOP-FRAGEBOGEN.md Frage 3.1)"
+    stand: 2026-11-03
+    status: offen
+    hinweis: "Ganzer Satz für ratgeber-maklerprovision (nach der Struktur-Begründung). Zum Beispiel: \"Der Satz ist fest und gilt bei jedem Kaufpreis; eine Mindestprovision gibt es nicht.\" Oder: \"Bei Kaufpreisen unter 150.000 € berechne ich mindestens … €.\""
+    verwendet_in: [ratgeber-maklerprovision]
+  mieterverkauf:
+    wert: null
+    quelle: "Linus (LAPTOP-FRAGEBOGEN.md Frage 3.1)"
+    stand: 2026-11-03
+    status: offen
+    hinweis: "Ganzer Satz für ratgeber-vermietete-wohnung-verkaufen, z. B. \"Meine Provision bleibt auch dann bei 2,98 % je Seite.\" oder \"Dann berechne ich … % statt 2,98 %, weil Vermarktung und Besichtigungen entfallen.\""
+    verwendet_in: [ratgeber-vermietete-wohnung-verkaufen]
+  eigenverkauf:
+    wert: null
+    quelle: "Linus (LAPTOP-FRAGEBOGEN.md Frage 3.2)"
+    stand: 2026-11-03
+    status: offen
+    hinweis: "Ganzer Satz für ratgeber-maklerprovision, Abschnitt Alleinauftrag. Zum Beispiel: \"Mein Alleinauftrag ist ein einfacher Alleinauftrag: Finden Sie selbst einen Käufer, zahlen Sie mir keine Provision.\""
+    verwendet_in: [ratgeber-maklerprovision]
+  ohne_abschluss:
+    wert: null
+    quelle: "Linus (LAPTOP-FRAGEBOGEN.md Frage 3.2)"
+    stand: 2026-11-03
+    status: offen
+    hinweis: "Ganzer Satz, z. B. \"Ziehen Sie den Auftrag zurück oder wird die Wohnung nicht verkauft, zahlen Sie nichts, auch keine Aufwandsentschädigung. Die kostenlose Einschätzung bleibt kostenlos, auch wenn Sie danach ohne Makler verkaufen.\" Steht in ratgeber-maklerprovision (Das Wichtigste in Kürze) und ratgeber-ohne-makler."
+    verwendet_in: [ratgeber-maklerprovision, ratgeber-ohne-makler]
+
+# ---------------------------------------------------------------------------
+# 2a. Zusagen im Verkauf und beim Direktankauf
+# ---------------------------------------------------------------------------
+zusagen:
+  finanzierungsnachweis:
+    wert: null
+    quelle: "Linus (LAPTOP-FRAGEBOGEN.md Frage 2.3)"
+    stand: 2026-11-03
+    status: offen
+    hinweis: "Satzteil nach \"verlange einen Nachweis\", z. B. \"vor dem Einzeltermin\" oder \"spätestens vor dem Kaufangebot\" (start.md, Zusage 4)."
+    verwendet_in: [start]
+
+ankauf:
+  bedenkzeit:
+    wert: null
+    quelle: "Linus (LAPTOP-FRAGEBOGEN.md Frage 4.1)"
+    stand: 2026-11-03
+    status: offen
+    hinweis: "Satzteil, z. B. \"mindestens 14 Tage\" (Vorschlag aus dem Briefing). Steht in \"Sie haben … Bedenkzeit\" auf direktankauf und ratgeber-sofortankauf-vs-makler und im Ablauf von ratgeber-verkauf-im-alter."
+    verwendet_in: [direktankauf, ratgeber-sofortankauf-vs-makler, ratgeber-verkauf-im-alter]
 
 # ---------------------------------------------------------------------------
 # 3. Steuern
@@ -438,7 +518,7 @@ kappungsgrenze:
   stand: 2026-11-03
   gueltig_bis: 2026-12-31
   status: zu_pruefen
-  hinweis: "Entwurf ab 2027 bestimmt die Gebiete im Gleichlauf mit der Mietpreisbegrenzungsverordnung (133 Gemeinden, Leonberg und Pforzheim enthalten). Wortlaut der Fassung 2026 (GBl. 2025 Nr. 145) am 03.11.2026 nicht gefunden."
+  hinweis: "Entwurf ab 2027 bestimmt die Gebiete im Gleichlauf mit der Mietpreisbegrenzungsverordnung (133 Gemeinden, Leonberg und Pforzheim enthalten). Wortlaut der Fassung 2026 (GBl. 2025 Nr. 145) am 03.11.2026 nicht gefunden; Mieterbund-Liste (Stand 10/2026, https://mieterbund.de/service/mieterschutzverordnungen/kappungsgrenze/) nennt Leonberg und Pforzheim, in den Texten so zitiert."
   muster: 'Kappungsgrenze'
   verwendet_in: [ort-ditzingen, ort-leonberg, ort-renningen, ratgeber-verkaufen-oder-vermieten, ratgeber-vermietete-wohnung-verkaufen]
 
@@ -603,8 +683,8 @@ angebotspreise_etw:
       quelle: "immoportal.com, Immobilienpreise Heimsheim"
       stand: 2026-10-01
       pruefintervall_monate: 3
-      status: zu_pruefen
-      hinweis: "Späterer Abruf derselben Seite nannte 3.655 €/m² (ort-heimsheim Quelle 19)."
+      status: geprueft
+      hinweis: "03.11.2026 erneut abgerufen: 3.212,57 €/m², aktualisiert 01.11.2026. Der früher notierte Wert 3.655 €/m² war nicht reproduzierbar und steht nicht mehr im Text."
       muster: '3\.212'
       verwendet_in: [ort-heimsheim, wohnung-bewerten]
     immoverkauf24:
@@ -888,22 +968,23 @@ kfw_308:
     muster: 'KfW[- ]?(Programm )?308|Jung kauft Alt'
     verwendet_in: [ort-ditzingen, ort-heimsheim, ort-leonberg, ort-pforzheim, ort-renningen, ratgeber-eigentumswohnung-verkaufen, ratgeber-energieausweis, ratgeber-ohne-makler, ratgeber-sofortankauf-vs-makler, ratgeber-verkaufen-oder-vermieten, start, wohnung-bewerten, wohnung-verkaufen]
   zins:
-    wert: "1,00 % effektiv"
-    zahl: 1.00
-    langform: "1,00 % effektiv bei 35 Jahren Laufzeit"
-    quelle: "KfW, Konditionen vom 06.10.2026; baukostenplan.de, Stand 07.10.2026"
-    stand: 2026-10-06
+    wert: "0,90 %"
+    zahl: 0.90
+    langform: "0,90 % effektiv bei 35 Jahren Laufzeit, fünf tilgungsfreien Jahren und zehn Jahren Zinsbindung"
+    quelle: "KfW-Konditionenanzeiger, Programm 308 (Wohneigentum für Familien – Bestandserwerb), Variante 35/5/10, gültig ab 29.10.2026"
+    url: "https://www.kfw-formularsammlung.de/KonditionenanzeigerINet/KonditionenAnzeiger"
+    stand: 2026-11-03
     pruefintervall_monate: 1
-    status: zu_pruefen
-    hinweis: "Texte tragen [ZU PRÜFEN: tagesaktueller KfW-Zinssatz]. Am Veröffentlichungstag im KfW-Konditionenanzeiger prüfen, dann status geprueft. 03.11.2026: kfw.de-Programmseite zeigt nur Platzhalter; KfW-Pressemitteilung vom 30.07.2026 nennt zum Start 0,53 % effektiv (35 Jahre, 10 Jahre Zinsbindung); 1,00 % stammt nur aus baukostenplan.de."
-    muster: '1,00 ?%'
+    status: geprueft
+    hinweis: "Am 03.11.2026 im Konditionenanzeiger abgelesen (maximaler Effektivzins; Varianten 10/10/10: 1,06 %, 25/3/10: 0,62 %). Zum Start am 03.08.2026 nannte die KfW-Pressemitteilung vom 30.07.2026 0,53 % (35 Jahre, 10 Jahre Zinsbindung); die früheren 1,00 % stammten nur aus baukostenplan.de. AM VERÖFFENTLICHUNGSTAG NEU ABLESEN (LAPTOP-FRAGEBOGEN.md, Abschnitt Veröffentlichungstag) und stand setzen. Hängt am Wert: Rechenbeispiel in ratgeber-energieausweis (Zinsen 1.440 €, Ersparnis 5.440 €) von Hand nachrechnen."
+    muster: '0,90 ?%'
     verwendet_in: [ort-ditzingen, ort-heimsheim, ort-leonberg, ort-pforzheim, ort-renningen, ratgeber-eigentumswohnung-verkaufen, ratgeber-energieausweis, ratgeber-ohne-makler, ratgeber-sofortankauf-vs-makler, ratgeber-verkaufen-oder-vermieten, start, wohnung-bewerten, wohnung-verkaufen]
   hoechstbetraege:
     wert: "140.000 / 160.000 / 180.000 €"
     langform: "bis zu 140.000 € (ein Kind), 160.000 € (zwei Kinder), 180.000 € (ab drei Kindern)"
     gueltig_ab: 2026-08-03
-    quelle: "KfW; baukostenplan.de"
-    url: "https://www.baukostenplan.de/ratgeber/kfw-308-jung-kauft-alt-2026-neue-kreditbetraege"
+    quelle: "KfW-Pressemitteilung vom 30.07.2026 (Förderhöchstbeträge ab 03.08.2026, Wortlaut am 03.11.2026 geprüft); baukostenplan.de"
+    url: "https://www.kfw.de/%C3%9Cber-die-KfW/Newsroom/Aktuelles/Pressemitteilungen-Details_903168.html"
     stand: 2026-10-06
     pruefintervall_monate: 3
     status: geprueft

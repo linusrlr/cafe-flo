@@ -21,7 +21,7 @@ status: Entwurf, nicht veröffentlicht
 - Es gibt keinen Ausweis für Ihre Wohnung, nur einen für das Gebäude. Beim Verkauf von Wohnungseigentum muss einer vorliegen (§ 80 Abs. 3 GModG, ehemals GEG) [1].
 - Die Gemeinschaft beschafft ihn über die Verwaltung und trägt die Kosten nach Miteigentumsanteilen (§ 16 Abs. 2 WEG) [5]. Sie legen ihn spätestens bei der Besichtigung vor.
 - In jeder kommerziellen Anzeige stehen fünf Pflichtangaben (§ 87 Abs. 1 GModG) [2]. Ab dem 1. Januar 2027 kommen Ausstellungsdatum und Primärenergiebedarf dazu.
-- Ein Ausweis gilt zehn Jahre. Vor 2027 ausgestellte Ausweise bleiben bis zum Ablauf gültig (§ 112 Abs. 3 GModG) [9].
+- Ein Ausweis gilt zehn Jahre. Vor 2027 ausgestellte Ausweise bleiben nach der Übergangsregel bis zum Ablauf gültig [9].
 - Ein Verbrauchsausweis kostet 50 bis 100 €, ein Bedarfsausweis 300 bis 500 € [4]. Fehlende Vorlage oder Angaben können bis zu 10.000 € Bußgeld kosten.
 
 ## Inhalt
@@ -116,7 +116,7 @@ Deshalb beginne ich mit dem Ausweis im ersten Gespräch, nicht erst beim Exposé
 | Monat 2 bis 4 | Ausstellung. Ein Verbrauchsausweis geht nach Eingang der Daten meist schnell, ein Bedarfsausweis mit Ortstermin dauert länger. |
 | danach | Pflichtangaben ins Exposé, Inserat, Aushang bei der Besichtigung. |
 
-Das Musterschreiben können Sie selbst verwenden. Wenn Sie mich beauftragt haben, schreibe ich die Verwaltung mit Ihrer Vollmacht an und fasse nach. [LINUS: Soll das Schreiben in Ihrem Namen oder im Namen des Eigentümers formuliert sein? Vor Veröffentlichung von einem Anwalt gegenlesen lassen?]
+Das Musterschreiben können Sie selbst verwenden. Wenn Sie mich beauftragt haben, schreibe ich die Verwaltung mit Ihrer Vollmacht an und fasse nach. Das Muster ist eine Formulierungshilfe, keine Rechtsberatung. <!-- Anwalt (LAPTOP-FRAGEBOGEN.md A3): Musterschreiben gegenlesen lassen. -->
 
 > **Musterschreiben an die Hausverwaltung**
 >
@@ -144,7 +144,7 @@ Immowelt hat am 19. März 2026 Angebotspreise bundesweit nach Effizienzklasse ve
 
 Das sind bundesweite Angebotsdaten. Vor Ort entscheiden Heizung, Rücklage und Beschlusslage oft mehr als der Buchstabe.
 
-Käufer fragen 2026 bei Besichtigungen eher: „Was für eine Heizung, wie alt, und was plant die Gemeinschaft?“ In Pforzheim kommt die Fernwärme dazu; die Stadt gilt als weitgehend mit Fernwärme der Stadtwerke versorgt [14]. Leonberg hat einen Wärmeplan mit neun Eignungsgebieten für Wärmenetze erarbeitet, die Beschlussvorlage stammt vom Frühjahr 2024. Ein Wärmeplan begründet keinen Anschlusszwang.
+Käufer fragen 2026 bei Besichtigungen eher: „Was für eine Heizung, wie alt, und was plant die Gemeinschaft?“ In Pforzheim kommt die Fernwärme dazu; laut einem Anbieter-Blog ist die Stadt weitgehend mit Fernwärme der Stadtwerke versorgt [14]. Leonberg hat einen Wärmeplan mit neun Eignungsgebieten für Wärmenetze erarbeitet, die Beschlussvorlage stammt vom Frühjahr 2024. Ein Wärmeplan begründet keinen Anschlusszwang.
 
 <a id="gmodg"></a>
 ## Was hat sich mit dem GModG geändert, und was kommt am 1. Januar 2027?
@@ -164,7 +164,7 @@ Und ein Mythos: Die EU-Gebäuderichtlinie verpflichtet keinen Wohnungseigentüme
 <a id="kfw-308"></a>
 ## Klasse F, G oder H: Warum eine schlechte Klasse 2026 ein Verkaufsargument sein kann
 
-Das klingt verkehrt, ist aber Förderlogik. Das KfW-Programm 308 „Jung kauft Alt“ finanziert Familien seit dem 3. August 2026 mit bis zu 140.000 € bei einem Kind, 160.000 € bei zwei und 180.000 € ab drei Kindern, zu 1,00 % effektiv bei 35 Jahren (Konditionen vom 6. Oktober 2026) [13] [ZU PRÜFEN: Zinssatz am Veröffentlichungstag auf kfw.de].
+Das klingt verkehrt, ist aber Förderlogik. Das KfW-Programm 308 „Jung kauft Alt“ finanziert Familien seit dem 3. August 2026 mit bis zu 140.000 € bei einem Kind, 160.000 € bei zwei und 180.000 € ab drei Kindern, zu {{fakten.kfw_308.zins}} effektiv bei 35 Jahren (KfW-Konditionen, Stand {{fakten.kfw_308.zins.stand}}) [13].
 
 Voraussetzungen: ein Energieausweis der Klasse F, G oder H, höchstens 90.000 € zu versteuerndes Haushaltseinkommen bei einem Kind plus 10.000 € je weiterem Kind, der Antrag vor dem Notarvertrag und die Sanierung innerhalb von 54 Monaten.
 
@@ -172,17 +172,17 @@ Ein Rechenbeispiel für Pforzheim: Eine 77-m²-Wohnung in Klasse G kostet 230.00
 
 | Darlehen | Betrag | Zins | Zinsen im ersten Jahr |
 |---|---|---|---|
-| KfW 308, zwei Kinder | 160.000 € | 1,00 % | 1.600 € |
+| KfW 308, zwei Kinder | 160.000 € | {{fakten.kfw_308.zins}} | 1.440 € |
 | Bankdarlehen | 51.804 € | 4,30 % (Annahme zwischen Dr. Klein 4,20 % und Interhyp 4,42 %) | 2.228 € |
-| Summe | 211.804 € | | 3.828 € |
+| Summe | 211.804 € | | 3.668 € |
 | Zum Vergleich: alles bei der Bank | 211.804 € | 4,30 % | 9.108 € |
-| Ersparnis im ersten Jahr | | | 5.280 € |
+| Ersparnis im ersten Jahr | | | 5.440 € |
 
-Für Verkäufer ergibt sich ein Zielkonflikt. Wer vor dem Verkauf auf Klasse E oder besser saniert, nimmt Familien dieses Argument. Wer die Wohnung in Klasse G lässt, spricht Käufer mit einem Zins von 1,00 % an. In Pforzheim mit vielen Beständen der Klassen F bis H spricht oft mehr für den zweiten Weg. Im Exposé nenne ich deshalb den Hinweis, dass der KfW-Antrag vor dem Notartermin gestellt sein muss.
+Für Verkäufer ergibt sich ein Zielkonflikt. Wer vor dem Verkauf auf Klasse E oder besser saniert, nimmt Familien dieses Argument. Wer die Wohnung in Klasse G lässt, spricht Käufer mit einem Zins von {{fakten.kfw_308.zins}} an. In Pforzheim mit vielen Beständen der Klassen F bis H spricht oft mehr für den zweiten Weg. Im Exposé nenne ich deshalb den Hinweis, dass der KfW-Antrag vor dem Notartermin gestellt sein muss.
 
 ## Aus meiner Praxis
 
-Verkaufte Wohnungen kann ich noch nicht als Referenz nennen. Eine Beobachtung aus Besichtigungen: Interessenten lesen den Ausweis selten. [LINUS: Beobachtung bestätigen oder streichen.] Sie schauen auf die Klasse und fragen dann nach der Heizung. Wer weiß, wie alt der Kessel ist und ob ein Tausch im Protokoll steht, kommt schneller zum Angebot als jemand mit Klasse C und ohne Protokolle.
+Verkaufte Wohnungen kann ich noch nicht als Referenz nennen. Wer weiß, wie alt der Kessel ist und ob ein Tausch im Protokoll steht, kann die Fragen von Interessenten zur Heizung sofort beantworten. <!-- Später ergänzen (N6): eigene Beobachtung aus Besichtigungen, ob Interessenten den Ausweis lesen oder nur auf Klasse und Heizung schauen. -->
 
 <a id="haeufige-fragen"></a>
 ## Häufige Fragen
@@ -200,7 +200,7 @@ Verlangen Sie einen Tagesordnungspunkt für die nächste Versammlung. Mehr als e
 Art des Ausweises, Endenergiebedarf oder -verbrauch, Energieträger, Baujahr und Effizienzklasse (§ 87 Abs. 1 GModG) [2]. Ab 2027 zusätzlich das Ausstellungsdatum und der Primärenergiebedarf statt der Endenergie.
 
 ### Wie hoch ist das Bußgeld?
-Bis zu 10.000 € je Tatbestand (§ 108 GModG) [9]. Häufiger als Bußgelder sind Abmahnungen von Wettbewerbern.
+Bis zu 10.000 € (§ 108 Abs. 1 Nr. 21 und Abs. 2 Nr. 2 GModG) [9]. Häufiger als Bußgelder sind Abmahnungen von Wettbewerbern.
 
 ### Verbrauchs- oder Bedarfsausweis für meine Anlage in Pforzheim?
 Bei fünf und mehr Wohnungen hat die Gemeinschaft die Wahl; der Verbrauchsausweis ist günstiger. Nur kleine Gebäude mit weniger als fünf Wohnungen und Bauantrag vor November 1977 brauchen den Bedarfsausweis [1].
@@ -209,7 +209,7 @@ Bei fünf und mehr Wohnungen hat die Gemeinschaft die Wahl; der Verbrauchsauswei
 Nein. Das Betriebsverbot für über 30 Jahre alte Kessel wurde zum 29. Juli 2026 gestrichen [8]. In einer Wohnanlage entscheidet ohnehin die Gemeinschaft über die Heizung.
 
 ### Bleibt mein alter Energieausweis 2027 gültig?
-Ja, zehn Jahre ab Ausstellung, mit den bisherigen Pflichtangaben (§ 112 Abs. 3 GModG) [9].
+Ja, zehn Jahre ab Ausstellung, mit den bisherigen Pflichtangaben, so die Übergangsregel [9].
 
 ## Hinweis
 
@@ -251,14 +251,14 @@ Linus Rössler, Telefon 0159 05844641. Ich melde mich innerhalb eines Werktags, 
 6. Stiftung Warentest, „Eigentümergemeinschaft muss Energieausweis bezahlen“, 2014 (Leserfrage, Grundsatz weiterhin gültig). https://www.test.de/Frage-und-Antwort-Eigentuemergemeinschaft-muss-Energieausweis-bezahlen-4751159-0/
 7. Gebäudemodernisierungsgesetz (GModG): Bundestag 10.07.2026, Bundesrat 10.07.2026 ohne Vermittlungsausschuss, BGBl. 2026 I Nr. 226 vom 28.07.2026, Artikel 1 in Kraft seit 29.07.2026, Artikel 2 (§§ 79 bis 88, Energieausweise) ab 01.01.2027; freie Heizungswahl (§ 42), Bio-Treppe (§ 43), Kostenteilung Vermieter (§ 5a Abs. 3 CO2KostAufG), Wärmeplan ohne Anschlusszwang. Bundesregierung, „Neues Gebäudemodernisierungsgesetz“: https://www.bundesregierung.de/breg-de/aktuelles/neues-gebaeudemodernisierungsgesetz-2430284 ; GModG-Infoportal: https://www.gmodg.bund.de/GModG/DE/Home/startseite/GModG_News/GModG_News-node.html ; IKZ, 13.07.2026: https://www.ikz.de/detail/news/detail/update-geg-reform-gmodg-bundestag-und-bundesrat-stimmen-zu/
 8. Görg, „Gebäudemodernisierungsgesetz (GModG) schafft GEG ab“, 17.07.2026: https://www.goerg.de/de/aktuelles/veroeffentlichungen/17-07-2026/gebaeudemodernisierungsgesetz-gmodg-schafft-geg-ab-was-sich-aendert-und-was-bleibt ; Ebner Stolz, 14.07.2026: https://www.ebnerstolz.de/de/unser-angebot/leistungen/rechtsberatung/energierecht/gebaeudemodernisierungsgesetz-verabschiedet-109427.html (Streichung 65-%-Pflicht und 30-Jahre-Betriebsverbot, Bio-Treppe 10/15/30/60 %)
-9. energyausweis.de, „GModG für Makler: Inseratspflicht, Vorlage, Übergabe und Bußgelder“: neue Pflichtangaben ab 01.01.2027 (Ausweisart, Ausstellungsdatum, Jahres-Primärenergiebedarf, Klasse, Baujahr, Energieträger), § 108 GModG bis 10.000 € je Tatbestand, UWG-Abmahnungen (BGH 05.10.2017, I ZR 232/16), Vertragsstrafen 3.000 bis 5.000 €, § 112 Abs. 3 GModG Weitergeltung alter Ausweise. https://www.energyausweis.de/blog/gmodg-fuer-makler-inseratspflicht-vorlage-uebergabe-und-bussgelder-ab-inkrafttreten ; eee-cloud.de: https://eee-cloud.de/gmodg-energieausweise-immobilienanzeigen-2027/ [ZU PRÜFEN: § 112 Abs. 3 und die Pflichtangaben ab 2027 in der Fassung ab 01.01.2027; die konsolidierte Fassung auf gesetze-im-internet.de enthält sie am 03.11.2026 noch nicht, dort regelt § 112 Abs. 3 nur Ausweise von 2007 bis 2014]
+9. energyausweis.de, „GModG für Makler: Inseratspflicht, Vorlage, Übergabe und Bußgelder“: neue Pflichtangaben ab 01.01.2027 (Ausweisart, Ausstellungsdatum, Jahres-Primärenergiebedarf, Klasse, Baujahr, Energieträger), § 108 GModG bis 10.000 € je Tatbestand, UWG-Abmahnungen (BGH 05.10.2017, I ZR 232/16), Vertragsstrafen 3.000 bis 5.000 €, § 112 Abs. 3 GModG Weitergeltung alter Ausweise. https://www.energyausweis.de/blog/gmodg-fuer-makler-inseratspflicht-vorlage-uebergabe-und-bussgelder-ab-inkrafttreten ; eee-cloud.de: https://eee-cloud.de/gmodg-energieausweise-immobilienanzeigen-2027/ Die Quellen verorten die Übergangsregel in § 112 Abs. 3 GModG in der Fassung ab 01.01.2027; diese Fassung war am 03.11.2026 auf gesetze-im-internet.de noch nicht konsolidiert. Bußgeldrahmen nach geltendem Wortlaut: https://www.gesetze-im-internet.de/geg/__108.html
 10. das-ingenieurbuero.com, „GModG: Energieausweise neu ab 2026/2027“, aktualisiert 29.09.2026: Primärenergiefaktoren Anlage 4 (Strom 1,5, Pellets 0,7, Fernwärme 0,7, Erdgas und Heizöl 1,1), § 82 Verbrauchsausweis (24 Monate, jüngste Periode höchstens 18 Monate alt), Skala A+ bis H für Wohngebäude. https://www.das-ingenieurbuero.com/blog/gmodg-energieausweise-neu-2026/
-11. Immowelt-Analyse vom 19.03.2026 (Preiseffekt der Effizienzklasse gegenüber D: A+ +20 %, A +15 %, H −9 %) und ImmoScout24-Auswertung Q1 2021 bis Q4 2025 (Klassen G und H je −12 % pro m²), beide zitiert nach reduco.ai, siehe [4]. [ZU PRÜFEN: Primärquellen bei Immowelt und ImmoScout24]
+11. Immowelt-Analyse vom 19.03.2026 (Preiseffekt der Effizienzklasse gegenüber D: A+ +20 %, A +15 %, H −9 %) und ImmoScout24-Auswertung Q1 2021 bis Q4 2025 (Klassen G und H je −12 % pro m²), beide zitiert nach reduco.ai, siehe [4] (Primärquellen nicht eingesehen).
 12. Beispielinserat Pforzheim-Südweststadt, Erdgeschoss, 44 m², Baujahr 1986, Effizienzklasse D, 164.000 €, wohnungsboerse.net (laut Suchergebnis, Oktober 2026).
-13. KfW-Programm 308 „Jung kauft Alt“: seit 03.08.2026 bis zu 140.000 / 160.000 / 180.000 € je nach Kinderzahl, 1,00 % effektiv bei 35 Jahren (Konditionen 06.10.2026), Voraussetzung Energieausweis Klasse F, G oder H, Einkommensgrenze 90.000 € plus 10.000 € je weiterem Kind, Antrag vor dem Notarvertrag, Sanierung binnen 54 Monaten. https://www.baukostenplan.de/ratgeber/kfw-308-jung-kauft-alt-2026-neue-kreditbetraege (Stand 07.10.2026); https://www.baufi24.de/foerderung/kfw-308-jung-kauft-alt/ [ZU PRÜFEN: Zinssatz tagesaktuell auf kfw.de]
-14. Wärmeplanung: Stadt Leonberg, Beschlussvorlage 2024/077 zum kommunalen Wärmeplan (Entwurf 19.02.2024, neun Eignungsgebiete für Wärmenetze): https://www.leonberg.de/ratsinformationssystem/wicket/resource/org.apache.wicket.Application/doc461362.pdf ; Pforzheim: Anbieter-Blog zum Fernwärmeausbau (unbestätigt): https://www.enter.de/blog/waermepumpe-pforzheim [ZU PRÜFEN: Stadt Pforzheim und SWP; Gemeinderatsbeschluss Leonberg]
+13. KfW-Programm 308 „Jung kauft Alt“: seit 03.08.2026 bis zu 140.000 / 160.000 / 180.000 € je nach Kinderzahl, {{fakten.kfw_308.zins}} effektiv bei 35 Jahren laut KfW-Konditionenanzeiger (Stand {{fakten.kfw_308.zins.stand}}, https://www.kfw-formularsammlung.de/KonditionenanzeigerINet/KonditionenAnzeiger ), Voraussetzung Energieausweis Klasse F, G oder H, Einkommensgrenze 90.000 € plus 10.000 € je weiterem Kind, Antrag vor dem Notarvertrag, Sanierung binnen 54 Monaten. https://www.baukostenplan.de/ratgeber/kfw-308-jung-kauft-alt-2026-neue-kreditbetraege (Stand 07.10.2026); https://www.baufi24.de/foerderung/kfw-308-jung-kauft-alt/ ; KfW-Pressemitteilung vom 30.07.2026: https://www.kfw.de/%C3%9Cber-die-KfW/Newsroom/Aktuelles/Pressemitteilungen-Details_903168.html
+14. Wärmeplanung: Stadt Leonberg, Beschlussvorlage 2024/077 zum kommunalen Wärmeplan (Entwurf 19.02.2024, neun Eignungsgebiete für Wärmenetze): https://www.leonberg.de/ratsinformationssystem/wicket/resource/org.apache.wicket.Application/doc461362.pdf ; Pforzheim: Anbieter-Blog zum Fernwärmeausbau (nicht amtlich bestätigt): https://www.enter.de/blog/waermepumpe-pforzheim
 15. EU-Gebäuderichtlinie (EPBD) 2024/1275: keine individuelle Sanierungspflicht für Wohngebäude, Mindeststandards nur für Nichtwohngebäude; Görg (siehe [8]) und reduco.ai, „Sanierungspflicht Mehrfamilienhaus 2026“: https://reduco.ai/blog/sanierungspflicht-mehrfamilienhaus-2026
-16. Eigene Rechnung: Kaufnebenkosten mit 5 % Grunderwerbsteuer Baden-Württemberg, 1,5 % Notar und Grundbuch (Richtwert), 2,98 % Provision inkl. USt (Vergütungsvereinbarung Rössler Immobilien); Bankzins 4,30 % als Annahme zwischen Dr. Klein Topzins 10 Jahre 4,20 % (29.10.2026, https://www.drklein.de/zinsen.html) und Interhyp Durchschnitt 4,42 % (15.10.2026, https://www.interhyp.de/zinsen/). 160.000 € × (4,30 % − 1,00 %) = 5.280 €.
+16. Eigene Rechnung: Kaufnebenkosten mit 5 % Grunderwerbsteuer Baden-Württemberg, 1,5 % Notar und Grundbuch (Richtwert), 2,98 % Provision inkl. USt (Vergütungsvereinbarung Rössler Immobilien); Bankzins 4,30 % als Annahme zwischen Dr. Klein Topzins 10 Jahre 4,20 % (29.10.2026, https://www.drklein.de/zinsen.html) und Interhyp Durchschnitt 4,42 % (15.10.2026, https://www.interhyp.de/zinsen/). 160.000 € × (4,30 % − 0,90 %) = 5.440 €; KfW-Zins laut Konditionenanzeiger vom 03.11.2026.
 
 <!-- Fragen an Linus:
 - Welche Hausverwaltungen in Leonberg, Ditzingen oder Pforzheim haben Sie bereits zum Energieausweis angeschrieben, und wie schnell kam die Antwort? Ein Satz für den Absatz „Beschaffung“.

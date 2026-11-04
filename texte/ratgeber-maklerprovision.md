@@ -20,7 +20,7 @@ Von den Maklern in Leonberg, Renningen und Pforzheim nennen nur wenige ihre Prov
 - Üblich sind in Baden-Württemberg 3,57 % des Kaufpreises je Seite inklusive Umsatzsteuer, zusammen bis 7,14 %. Eine gesetzliche Obergrenze gibt es nicht [7].
 - Bei mir zahlen Sie 2,98 % inklusive Umsatzsteuer, bei 290.000 € sind das 8.642 €. Der Käufer zahlt dieselbe Summe [18].
 - Der Maklervertrag braucht Textform (§ 656a BGB). Als Verbraucher können Sie ihn 14 Tage lang widerrufen [12].
-- Provision fällt nur an, wenn ein notarieller Kaufvertrag zustande kommt und meine Arbeit dafür ursächlich war [11]. Kein Vorschuss, keine Gebühr bei Nicht-Verkauf. [LINUS: Aufwandsentschädigung bei Rückzug des Verkäufers ausgeschlossen? Bitte bestätigen, sonst steht der Satz nicht.]
+- Provision fällt nur an, wenn ein notarieller Kaufvertrag zustande kommt und meine Arbeit dafür ursächlich war [11]. Kein Vorschuss. {{fakten.provision.ohne_abschluss}}
 
 ## Inhalt
 - [Was gilt seit 2020? Das Gesetz in drei Sätzen](#was-gilt-seit-2020-das-gesetz-in-drei-sätzen)
@@ -76,7 +76,7 @@ Fällig wird sie mit dem notariellen Kaufvertrag, wenn meine Tätigkeit dafür u
 
 2,98 % liegt unter den üblichen 3,57 %, ist aber kein Discount-Modell. Der Unterschied kommt aus der Struktur: Einzelmakler ohne Büro mit Schaufenster, ohne Mitarbeiter, ohne Franchisegebühr, nur Eigentumswohnungen in fünf Orten. Was das nicht spart, ist Zeit pro Wohnung, weil ich nicht zwanzig Objekte parallel betreue.
 
-[LINUS: Ist der Satz 2,98 % fest, oder verhandelst du? Gilt er auch bei kleinen Kaufpreisen, etwa 105.000 € in der Pforzheimer Nordstadt (Provision 3.129 €)? Gibt es eine Mindestprovision? Die Seite muss das eindeutig sagen.]
+{{fakten.provision.festsatz}}
 
 | Leistung | Hinweis |
 |---|---|
@@ -105,7 +105,7 @@ Nicht enthalten: die Kosten des Energieausweises, Gebühren für Grundbuchauszug
 | Makler muss tätig werden? | nein | ja | ja |
 | Laufzeit | unbefristet, jederzeit kündbar | befristet | befristet |
 
-Auf meiner Website steht bisher: Alleinauftrag mit sechs Monaten Laufzeit, Verlängerung um drei Monate, vier Wochen Kündigungsfrist [18]. Hier muss zusätzlich stehen, was gilt, wenn Sie während der Laufzeit selbst einen Käufer finden, etwa den Nachbarn. [LINUS: Einfacher oder qualifizierter Alleinauftrag? Findet der Verkäufer selbst einen Käufer: volle, reduzierte oder keine Provision? Muss eindeutig beantwortet sein.]
+Auf meiner Website steht bisher: Alleinauftrag mit sechs Monaten Laufzeit, Verlängerung um drei Monate, vier Wochen Kündigungsfrist [18]. Was gilt, wenn Sie während der Laufzeit selbst einen Käufer finden, etwa den Nachbarn: {{fakten.provision.eigenverkauf}}
 
 **Warum sechs Monate.** Die Laufzeit deckt die drei bis fünf Monate ab, die Portale für einen Wohnungsverkauf nennen, und lässt Raum für eine Verwalterzustimmung oder ein Vorkaufsrecht, das zwei Monate kosten kann. Länger brauche ich bei marktgerechtem Preis nicht. Ist der Preis nicht marktgerecht, hilft keine längere Laufzeit, sondern eine neue Preisentscheidung, die im Verkaufsplan vorgesehen ist.
 
@@ -126,7 +126,7 @@ Widerrufen Sie Ihren Verkäufer-Maklervertrag, lässt das nach einer Entscheidun
 | Rechtsgrundlage | § 656c BGB | § 656c Abs. 1 S. 2 BGB: Unentgeltlichkeit für den Käufer ist zulässig [2] |
 | Wirkung im Inserat | Angebotspreis plus Käuferprovision | Angebotspreis ohne Käuferprovision, oft etwas höher angesetzt |
 
-Modell B kann sinnvoll sein, wenn Ihre Käufer Eigennutzer sind, die Angebotspreise vergleichen und „provisionsfrei“ als Signal lesen. Meine Einschätzung: Bei Wohnungen unter 250.000 € in Pforzheim, wo viele Käufer mit knappem Eigenkapital finanzieren, kann Modell B den Käuferkreis vergrößern. In Leonberg, wo Käufer tendenziell mehr Eigenkapital mitbringen, sehe ich keinen Vorteil. [LINUS: Bietest du Modell B überhaupt an, und unter welchen Bedingungen? Sonst Abschnitt kürzen auf „ich arbeite mit Halbteilung“.]
+Modell B kann sinnvoll sein, wenn Ihre Käufer Eigennutzer sind, die Angebotspreise vergleichen und „provisionsfrei“ als Signal lesen. Meine Einschätzung: Bei Wohnungen unter 250.000 € in Pforzheim, wo viele Käufer mit knappem Eigenkapital finanzieren, kann Modell B den Käuferkreis vergrößern. In Leonberg, wo Käufer tendenziell mehr Eigenkapital mitbringen, sehe ich keinen Vorteil. Mein Standard ist Modell A, die Halbteilung mit 2,98 % je Seite [18]. <!-- Später ergänzen (N8): ob und unter welchen Bedingungen Modell B angeboten wird. -->
 
 Für Anleger spielt das Modell kaum eine Rolle, weil sie Gesamtkosten rechnen.
 

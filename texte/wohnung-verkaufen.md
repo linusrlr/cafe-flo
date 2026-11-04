@@ -33,11 +33,11 @@ Drei Sätze statt einer Liste von Vorteilen. Sie bekommen vor der Vermarktung ei
 
 ### 1. Erstes Gespräch
 
-Wir besprechen Ihre Ziele, den gewünschten Zeitpunkt und die Besonderheiten Ihrer Wohnung. Bei einem Termin vor Ort verschaffe ich mir einen ersten Eindruck. Den Termin biete ich Ihnen innerhalb einer Woche an, auch abends oder samstags [LINUS: bestätigen]. Er dauert in der Regel 60 bis 90 Minuten, und ich bringe eine Liste mit, welche Unterlagen Sie vermutlich schon haben und welche die Verwaltung hat.
+Wir besprechen Ihre Ziele, den gewünschten Zeitpunkt und die Besonderheiten Ihrer Wohnung. Bei einem Termin vor Ort verschaffe ich mir einen ersten Eindruck. Den Termin biete ich Ihnen innerhalb einer Woche an, {{fakten.firma.termine_vor_ort}}. Er dauert in der Regel 60 bis 90 Minuten, und ich bringe eine Liste mit, welche Unterlagen Sie vermutlich schon haben und welche die Verwaltung hat.
 
 ### 2. Verkaufsplan und Angebotspreis
 
-Sie erhalten einen schriftlichen Verkaufsplan mit Preisspanne, Käufergruppen und den nächsten Schritten. Gemeinsam legen wir den Angebotspreis fest. Den Plan bekommen Sie innerhalb von [LINUS: Anzahl] Werktagen nach dem Termin, sobald die ersten Unterlagen vorliegen. Die Preisspanne begründe ich mit vergleichbaren Angeboten, dem Zustand von Wohnung und Gebäude, Hausgeld und Rücklage. Angebotspreise aus Portalen nenne ich als Angebotspreise, nicht als Marktwert.
+Sie erhalten einen schriftlichen Verkaufsplan mit Preisspanne, Käufergruppen und den nächsten Schritten. Gemeinsam legen wir den Angebotspreis fest. Den Plan bekommen Sie nach dem Termin, sobald die ersten Unterlagen vorliegen. <!-- Später ergänzen (N5): Frist für den Verkaufsplan in Werktagen. --> Die Preisspanne begründe ich mit vergleichbaren Angeboten, dem Zustand von Wohnung und Gebäude, Hausgeld und Rücklage. Angebotspreise aus Portalen nenne ich als Angebotspreise, nicht als Marktwert.
 
 ### 3. Unterlagen
 
@@ -49,7 +49,7 @@ Wir stimmen ab, was für die Präsentation vorbereitet werden soll. Anschließen
 
 ### 5. Vermarktung
 
-Ich veröffentliche das Angebot auf Immobilienportalen und bearbeite die Anfragen. Wir besprechen regelmäßig die Resonanz und bei Bedarf Anpassungen der Vermarktung. Konkret heißt das: Veröffentlichung auf [LINUS: welche Portale], Vorabinformation an vorgemerkte Interessenten, sobald es welche gibt, und jede Woche eine kurze Nachricht an Sie mit Anfragen, Besichtigungen und Rückmeldungen.
+Ich veröffentliche das Angebot auf Immobilienportalen und bearbeite die Anfragen. Wir besprechen regelmäßig die Resonanz und bei Bedarf Anpassungen der Vermarktung. Konkret heißt das: Veröffentlichung auf Immobilienportalen, Vorabinformation an vorgemerkte Interessenten, sobald es welche gibt, und jede Woche eine kurze Nachricht an Sie mit Anfragen, Besichtigungen und Rückmeldungen.
 
 ### 6. Besichtigungen und Verhandlung
 
@@ -96,20 +96,21 @@ Zwei Hinweise dazu. Erstens: Überregionale Ratgeber rechnen die Grunderwerbsteu
 
 Die Hälfte der Unterlagen haben Sie nicht, sondern die Hausverwaltung. Deshalb fange ich mit der Anfrage dort an.
 
-| Dokument | Quelle | Typische Dauer [LINUS: Dauer je Zeile mit eigenen Erfahrungswerten eintragen] |
-|---|---|---|
-| Grundbuchauszug, nicht älter als drei Monate | Grundbuchamt beim Amtsgericht Waiblingen (Leonberg, Renningen) oder Maulbronn (Heimsheim, Pforzheim) [12] [ZU PRÜFEN: Grundbuchamt für Ditzingen; ob Eigentümer den Auszug online beantragen können] | |
+<!-- Später ergänzen (N5): Spalte „Typische Dauer“ je Dokument mit eigenen Erfahrungswerten. -->
+| Dokument | Quelle |
+|---|---|
+| Grundbuchauszug, nicht älter als drei Monate | Grundbuchamt; für Leonberg und Renningen beim Amtsgericht Waiblingen, für Heimsheim und Pforzheim beim Amtsgericht Maulbronn [12] |
 | Teilungserklärung mit Aufteilungsplan und Gemeinschaftsordnung | Ihre Kaufunterlagen; sonst Verwaltung oder Grundbuchamt |  |
 | Protokolle der letzten drei Eigentümerversammlungen | Hausverwaltung, § 24 Abs. 6 WEG [9] |  |
 | Beschluss-Sammlung | Hausverwaltung, § 24 Abs. 7 WEG [9] |  |
 | Wirtschaftsplan und letzte Jahresabrechnungen | Hausverwaltung, § 28 WEG [9] |  |
 | Vermögensbericht mit Ihrem Rücklagenanteil | Hausverwaltung, § 28 Abs. 4 WEG [9] |  |
 | Nachweis zu beschlossenen Sonderumlagen und Stand Ihres Hausgeldkontos | Hausverwaltung |  |
-| Energieausweis für das Gebäude | Hausverwaltung oder WEG; falls keiner vorliegt, lasse ich ihn ausstellen, § 80 GModG [3] | Neuausstellung Verbrauchsausweis meist wenige Tage |
+| Energieausweis für das Gebäude | Hausverwaltung oder WEG; falls keiner vorliegt, lasse ich ihn ausstellen, § 80 GModG [3] |
 | Grundriss und Wohnflächenberechnung | Ihre Kaufunterlagen oder Bauakte; fehlt beides, lasse ich den Grundriss neu zeichnen |  |
 | Verwalterbestellung und ggf. Verwalterzustimmung | Hausverwaltung, § 12 WEG, nur bei Veräußerungsbeschränkung [9] |  |
 | Gebäudeversicherungsnachweis | Hausverwaltung |  |
-| Mietvertrag, Mietaufstellung, Kautionsnachweis (bei vermieteter Wohnung) | Sie als Vermieter | sofort |
+| Mietvertrag, Mietaufstellung, Kautionsnachweis (bei vermieteter Wohnung) | Sie als Vermieter |
 
 Zögert die Verwaltung, haben Sie als Eigentümer ein Einsichtsrecht in die Verwaltungsunterlagen nach § 18 Abs. 4 WEG [9]. Darauf weise ich im Zweifel freundlich hin.
 
@@ -214,16 +215,16 @@ Rechts- und Steuerfragen beantworte ich nur so weit, wie sie den Verkaufsablauf 
 ## Quellen
 
 1. Vergütungsvereinbarung Rössler Immobilien: 2,98 % des Kaufpreises inkl. Umsatzsteuer je Seite; 290.000 × 0,0298 = 8.642 Euro; 300.000 × 0,0298 = 8.940 Euro. Teilung der Provision bei Wohnungen und Einfamilienhäusern: § 656c BGB.
-2. reduco.ai, „Wohnung verkaufen: Ablauf“, aktualisiert 17.8.2026: Phasendauern (Unterlagen 2 bis 8 Wochen, Notartermin bis Geldeingang 4 bis 12 Wochen), Vermarktungsdauer ETW Q1 2026 rund 90 Tage (GREIX/IfW Kiel, 24 Städte), Grundschuldlöschung 217,50 bzw. 342,50 Euro plus 20 Euro Beglaubigung, Notar/Grundbuch Käuferseite ca. 3.083 Euro bei 350.000 Euro, Kosten Verwalterzustimmung, Vorfälligkeitsentschädigung ohne Deckel bei Immobiliardarlehen. https://reduco.ai/blog/immobilienverkauf/wohnung-verkaufen-ablauf ; Löschungsgebühren am 03.11.2026 nach GNotKG nachgerechnet: KV 14140 (0,5 Gebühr, Tabelle B: 217,50 Euro bei 200.000 Euro, 342,50 Euro bei 350.000 Euro) und KV 25101 Nr. 2 (20 Euro), https://www.gesetze-im-internet.de/gnotkg/anlage_1.html [ZU PRÜFEN: GREIX-Primärquelle und Käuferkosten 3.083 Euro]
+2. reduco.ai, „Wohnung verkaufen: Ablauf“, aktualisiert 17.8.2026: Phasendauern (Unterlagen 2 bis 8 Wochen, Notartermin bis Geldeingang 4 bis 12 Wochen), Vermarktungsdauer ETW Q1 2026 rund 90 Tage (Primärquelle: GREIX Kaufpreisindex 2026 Q1 (Kiel Institut und Gutachterausschüsse, 07.05.2026): Vermarktungsdauer Eigentumswohnungen im ersten Quartal 2026 im Durchschnitt der 24 ausgewerteten Städte 90 Tage. https://cloud-data-greix-website.s3.eu-central-1.amazonaws.com/website/Documentation/kaufpreisindex_2026q1.pdf), Grundschuldlöschung 217,50 bzw. 342,50 Euro plus 20 Euro Beglaubigung, Notar/Grundbuch Käuferseite ca. 3.083 Euro bei 350.000 Euro, Kosten Verwalterzustimmung, Vorfälligkeitsentschädigung ohne Deckel bei Immobiliardarlehen. https://reduco.ai/blog/immobilienverkauf/wohnung-verkaufen-ablauf ; Löschungsgebühren am 03.11.2026 nach GNotKG nachgerechnet: KV 14140 (0,5 Gebühr, Tabelle B: 217,50 Euro bei 200.000 Euro, 342,50 Euro bei 350.000 Euro) und KV 25101 Nr. 2 (20 Euro), https://www.gesetze-im-internet.de/gnotkg/anlage_1.html
 3. § 80 Abs. 3 und 4 sowie § 87 Abs. 1 GModG (ehemals GEG): Energieausweis für das Gebäude, Vorlage spätestens bei der Besichtigung, Pflichtangaben in Anzeigen. https://www.gesetze-im-internet.de/geg/__80.html ; https://www.gesetze-im-internet.de/geg/__87.html (abgerufen 29.10.2026)
 4. § 448 Abs. 2 BGB: Käufer trägt Kosten der Beurkundung und der Eintragung im Grundbuch. https://www.gesetze-im-internet.de/bgb/__448.html
-5. KfW-Programm 308 „Jung kauft Alt“: seit 3.8.2026 bis zu 140.000 / 160.000 / 180.000 Euro je nach Kinderzahl, 1,00 % effektiv bei 35 Jahren Laufzeit, nur für Bestandsobjekte mit Energieausweis Klasse F, G oder H, Antrag vor dem Notarvertrag. https://www.baukostenplan.de/ratgeber/kfw-308-jung-kauft-alt-2026-neue-kreditbetraege (Stand 7.10.2026) [ZU PRÜFEN: Konditionen am Veröffentlichungstag auf kfw.de]
+5. KfW-Programm 308 „Jung kauft Alt“: seit 3.8.2026 bis zu 140.000 / 160.000 / 180.000 Euro je nach Kinderzahl, nur für Bestandsobjekte mit Energieausweis Klasse F, G oder H, Antrag vor dem Notarvertrag (baukostenplan.de, Stand 7.10.2026: https://www.baukostenplan.de/ratgeber/kfw-308-jung-kauft-alt-2026-neue-kreditbetraege ); Zins {{fakten.kfw_308.zins}} effektiv bei 35 Jahren Laufzeit laut KfW-Konditionenanzeiger (Stand {{fakten.kfw_308.zins.stand}}): https://www.kfw-formularsammlung.de/KonditionenanzeigerINet/KonditionenAnzeiger ; Kredithöchstbeträge ab 3.8.2026 laut KfW-Pressemitteilung vom 30.07.2026: https://www.kfw.de/%C3%9Cber-die-KfW/Newsroom/Aktuelles/Pressemitteilungen-Details_903168.html
 6. Angebotspreise Eigentumswohnungen Leonberg: 3.733 Euro/m² (immoportal, 1.10.2026) und 4.042,68 Euro/m² (immoverkauf24/Sprengnetter, Q2 2026); Mittel rund 3.900 Euro/m². Angebotspreise, keine Kaufpreise. https://www.immoportal.com/immobilienpreise/leonberg ; https://www.immoverkauf24.de/immobilienpreise/baden-wuerttemberg/boeblingen-kreis/leonberg/
 7. Grunderwerbsteuer Baden-Württemberg 5,0 % seit 5.11.2011. https://web1.karlsruhe.de/service/Buergerdienste/leistung.php?id=413 ; https://www.finanz.de/steuern/grunderwerbsteuer/baden-wuerttemberg/ (abgerufen 29.10.2026). ImmoScout24 rechnet in seiner Kostentabelle mit 6,5 %.
 8. Verbraucherzentrale, „Energieausweis: Wer braucht ihn?“, Stand 31.8.2026: Verbrauchsausweis „teilweise schon für knapp unter 100 Euro“. https://www.verbraucherzentrale.de/wissen/energie/energetische-sanierung/energieausweis-wer-braucht-ihn-24054
 9. Wohnungseigentumsgesetz: § 12 (Veräußerungsbeschränkung, Verwalterzustimmung), § 18 Abs. 4 (Einsichtsrecht), § 24 Abs. 6 und 7 (Protokolle, Beschluss-Sammlung), § 28 (Wirtschaftsplan, Jahresabrechnung, Vermögensbericht). https://dejure.org/gesetze/WEG/12.html ; https://www.gesetze-im-internet.de/woeigg/
 10. ImmoScout24, „Wohnung verkaufen“, aktualisiert 2.1.2026: Dauer „drei bis fünf Monate“. https://www.immobilienscout24.de/wissen/verkaufen/wohnung-verkaufen.html
-11. Gebäudemodernisierungsgesetz (GModG), BGBl. 2026 I Nr. 226 vom 28.7.2026: Artikel 2 (§§ 79 bis 88, neue Energieausweise und Inseratsangaben) in Kraft ab 1.1.2027; § 112 Abs. 3 (Weitergeltung alter Ausweise bis Ablauf der zehn Jahre). https://www.bundesregierung.de/breg-de/aktuelles/neues-gebaeudemodernisierungsgesetz-2430284 ; https://www.energyausweis.de/blog/gmodg-fuer-makler-inseratspflicht-vorlage-uebergabe-und-bussgelder-ab-inkrafttreten ; geltende Fassung (§§ 80, 87, 88, 108): https://www.gesetze-im-internet.de/geg/ (abgerufen 03.11.2026) [ZU PRÜFEN: § 112 Abs. 3 in der Fassung ab 01.01.2027, noch nicht konsolidiert]
+11. Gebäudemodernisierungsgesetz (GModG), BGBl. 2026 I Nr. 226 vom 28.7.2026: Artikel 2 (§§ 79 bis 88, neue Energieausweise und Inseratsangaben) in Kraft ab 1.1.2027; laut den zitierten Sekundärquellen gelten vor 2027 ausgestellte Ausweise bis zum Ablauf der zehn Jahre weiter (§ 112 Abs. 3 in der Fassung ab 1.1.2027, am 03.11.2026 noch nicht konsolidiert veröffentlicht). https://www.bundesregierung.de/breg-de/aktuelles/neues-gebaeudemodernisierungsgesetz-2430284 ; https://www.energyausweis.de/blog/gmodg-fuer-makler-inseratspflicht-vorlage-uebergabe-und-bussgelder-ab-inkrafttreten ; geltende Fassung (§§ 80, 87, 88, 108): https://www.gesetze-im-internet.de/geg/ (abgerufen 03.11.2026)
 12. Grundbuchführung in Baden-Württemberg: Grundbuchamt Leonberg dem Amtsgericht Waiblingen zugewiesen, Renningen beim Amtsgericht Waiblingen (GBl. 2016 Nr. 6, Art. 91: https://www.landtag-bw.de/resource/blob/75044/4cb3824c5536aa3dd148a4a19bb0da86/GBl201606.pdf); Heimsheim und Pforzheim beim Amtsgericht Maulbronn (GBFührÜV BW 17 vom 25.11.2015 und Zuweisung des Grundbuchamts Pforzheim 2014, nach lexaris.de: https://lexaris.de/book/version/documentflat/head/1125134); Übersicht der 13 grundbuchführenden Amtsgerichte beim Amtsgericht Leonberg: https://amtsgericht-leonberg.justiz-bw.de/pb/,Lde/1197828_1198240_11719501_11694166 (alle abgerufen 03.11.2026)
 
 <!-- Fragen an Linus (aus dem Text verschoben, wörtlich):

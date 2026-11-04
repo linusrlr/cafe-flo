@@ -4,6 +4,8 @@ Stand: 1. November 2026. Zusammengeführt aus dem Fragenkatalog in `analyse-aktu
 
 **So geht es schnell:** Teil 1 zuerst, das sind die Entscheidungen, ohne die wir nicht bauen können (etwa 10 Minuten). Teil 2 dann, wenn du eine bestimmte Seite veröffentlichen willst. Teil 3 kann warten. Kästchen ankreuzen, Lücken kurz füllen. „Weiß ich nicht“ ist eine gute Antwort, dann streichen wir den Satz.
 
+> **Arbeitsliste seit 4. November 2026: `LAPTOP-FRAGEBOGEN.md`.** Teil 1 und Teil 2 unten sind dort auf 9 Fragen eingedampft (plus Veröffentlichungstag, Anwalt, „Nach dem Livegang“). `npm run offen` ordnet die offenen Stellen den Fragen dort zu. Teil 1 und 2 bleiben hier nur als Nachschlagewerk für die ausführlichen Antwortoptionen; Teil 3 gilt weiter.
+
 ## Teil 1: Vor dem Bau klären
 
 Diese Antworten ändern Seitenstruktur, Impressum, Rechtstexte oder Design.
@@ -52,6 +54,8 @@ Diese Antworten ändern Seitenstruktur, Impressum, Rechtstexte oder Design.
   Steuerberater zu Drei-Objekt-Grenze und Rechtsform gefragt: ☐ ja ☐ noch nicht
 
 ## Teil 2: Vor Veröffentlichung der jeweiligen Seite
+
+> Ersetzt durch `LAPTOP-FRAGEBOGEN.md`. Was hier nicht mehr blockiert, steht dort unter „Nach dem Livegang ergänzen“ (N1 bis N8).
 
 In Klammern steht, welche Seite die Antwort freischaltet. Ohne Antwort bleibt der Satz draußen oder die Seite wartet.
 

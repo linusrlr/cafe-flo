@@ -25,11 +25,11 @@ Diese Übersicht erscheint monatlich. Die Rechenbeispiele sind Annahmen mit offe
 | Dr. Klein, Topzins | 4,29 % | 4,20 % | 4,33 % | 4,41 % | 02.11.2026 [2] |
 | Dr. Klein, Topzins Vorjahr | 3,31 % | 3,38 % | 3,68 % | 3,91 % | 11/2025 [2] |
 
-Alle Werte sind effektive Jahreszinsen. Dr. Klein nennt an anderer Stelle der Seite für zehn Jahre 4,13 % mit Stand 3.11.2026 [2] [ZU PRÜFEN: welcher Wert am Veröffentlichungstag gilt]. Laut Baufi24 lagen die Durchschnittszinsen Ende Oktober bei rund 4,5 % und damit so hoch wie seit 17 Jahren nicht, zuletzt aber etwa 0,2 Prozentpunkte unter ihrem Stand von Anfang Oktober [3].
+Alle Werte sind effektive Jahreszinsen. Dr. Klein nennt an anderer Stelle der Seite für zehn Jahre 4,13 % mit Stand 3.11.2026 [2]. Alle Zinsen ändern sich täglich; maßgeblich ist das Angebot Ihrer Bank. Laut Baufi24 lagen die Durchschnittszinsen Ende Oktober bei rund 4,5 % und damit so hoch wie seit 17 Jahren nicht, zuletzt aber etwa 0,2 Prozentpunkte unter ihrem Stand von Anfang Oktober [3].
 
 ## Warum sind die Zinsen so hoch?
 
-Die EZB hatte ihre Sätze 2026 zweimal um je 0,25 Prozentpunkte angehoben und sie am 29. Oktober 2026 unverändert gelassen: Einlagensatz 2,50 %, Hauptrefinanzierungssatz 2,65 %, Spitzenrefinanzierungssatz 2,90 % [4] [ZU PRÜFEN: EZB-Pressemitteilung]. Grund war vor allem die Teuerung durch Energie. Im Euroraum lag die Inflation im September bei 3,8 % [3]. In Deutschland ging sie im Oktober nach der Schnellschätzung auf 2,8 % zurück, nach 3,3 % im September [5].
+Laut Berichten vom 29. Oktober 2026 hatte die EZB ihre Sätze 2026 zweimal um je 0,25 Prozentpunkte angehoben und sie an diesem Tag unverändert gelassen: Einlagensatz 2,50 %, Hauptrefinanzierungssatz 2,65 %, Spitzenrefinanzierungssatz 2,90 % [3][4]. Grund war vor allem die Teuerung durch Energie. Im Euroraum lag die Inflation im September bei 3,8 % [3]. In Deutschland ging sie im Oktober nach der Schnellschätzung auf 2,8 % zurück, nach 3,3 % im September [5].
 
 Für Bauzinsen ist der Leitzins nur ein Teil der Rechnung; sie folgen eher den Renditen langlaufender Anleihen und Pfandbriefe. Interhyp erwartet, dass die Zinspause allein „wenig Bewegung bei den Bauzinsen“ auslöst, weil der Markt weitere Erhöhungen schon eingepreist hat [3].
 
@@ -59,7 +59,7 @@ Zum Vergleich mit dem Topzins von Dr. Klein: Bei 3,38 % (November 2025) hätte d
 | Darlehen (rund 64 % des Kaufpreises) | 206.627 € |
 | Zins 4,13 % (Interhyp, Beleihung unter 70 %) [1] + 2 % Tilgung | **1.056 € im Monat** |
 
-Wer mehr Eigenkapital mitbringt, zahlt nicht nur auf weniger Geld Zinsen, sondern bekommt auch einen niedrigeren Satz. Das Landesgutachten weist für Renningen ein durchschnittliches Haushaltseinkommen von 77.890 Euro aus (2023), mehr als in den anderen vier Orten meines Gebiets [9]. [LINUS: eigene Beobachtung zu Käufern in Renningen ergänzen oder Satz streichen]
+Wer mehr Eigenkapital mitbringt, zahlt nicht nur auf weniger Geld Zinsen, sondern bekommt auch einen niedrigeren Satz. Das Landesgutachten weist für Renningen ein durchschnittliches Haushaltseinkommen von 77.890 Euro aus (2023), mehr als in den anderen vier Orten meines Gebiets [9]. <!-- Später ergänzen (N6): eigene Beobachtung zu Käufern in Renningen. -->
 
 ### Beispiel 3: Wohnung in Pforzheim, kaum Eigenkapital
 
@@ -71,7 +71,7 @@ Wer mehr Eigenkapital mitbringt, zahlt nicht nur auf weniger Geld Zinsen, sonder
 | Darlehen (rund 97 % des Kaufpreises) | 224.262 € |
 | Zins 4,50 % (Interhyp, Beleihung über 90 %) [1] + 2 % Tilgung | **1.215 € im Monat** |
 
-Familien mit Kindern können für Wohnungen der Energieklassen F, G und H den KfW-Kredit 308 „Jung kauft Alt“ nutzen; seit August 2026 sind je nach Kinderzahl 140.000 bis 180.000 Euro möglich [10]. Der Zinssatz liegt deutlich unter dem Bankzins [ZU PRÜFEN: KfW-Zinssatz am Veröffentlichungstag, kfw.de/308]. Der Antrag muss vor dem Notartermin gestellt sein.
+Familien mit Kindern können für Wohnungen der Energieklassen F, G und H den KfW-Kredit 308 „Jung kauft Alt“ nutzen; seit August 2026 sind je nach Kinderzahl 140.000 bis 180.000 Euro möglich [10]. Der Zinssatz liegt mit {{fakten.kfw_308.zins}} effektiv bei 35 Jahren Laufzeit (Stand {{fakten.kfw_308.zins.stand}}) deutlich unter dem Bankzins [10]. Der Antrag muss vor dem Notartermin gestellt sein.
 
 ## Wie geht es weiter?
 
@@ -107,4 +107,4 @@ Keine Finanzierungsberatung. Zinsen sind Momentaufnahmen und hängen von Bonitä
 7. Rössler Immobilien, Ratgeber „Maklerprovision in Baden-Württemberg“ (üblich 3,57 % je Seite inkl. USt; § 656c BGB), Stand Oktober 2026, /ratgeber/maklerprovision/
 8. immoverkauf24 (Daten Sprengnetter), Immobilienpreise Leonberg, Renningen und Pforzheim, Stand Q2 2026, https://www.immoverkauf24.de/immobilienpreise/baden-wuerttemberg/boeblingen-kreis/leonberg/ ; https://www.immoverkauf24.de/immobilienpreise/baden-wuerttemberg/boeblingen-kreis/renningen/ ; https://www.immoverkauf24.de/immobilienpreise/baden-wuerttemberg/pforzheim/
 9. Ministerium für Landesentwicklung und Wohnen BW, „Mietpreisbremse: Einzeldaten aller Städte und Gemeinden, Stand August 2025“ (Gutachten FUB IGES, GfK-Kaufkraft), https://mlw.baden-wuerttemberg.de/de/bauen-wohnen/wohnungsbau/mietpreisbremse
-10. KfW, Pressemitteilung vom 30.07.2026 (Jung kauft Alt: 140.000 bis 180.000 Euro), https://www.kfw.de/%C3%9Cber-die-KfW/Newsroom/Aktuelles/Pressemitteilungen-Details_903168.html [ZU PRÜFEN: Wortlaut und Gültigkeit ab 03.08.2026]
+10. KfW, Pressemitteilung vom 30.07.2026 (Jung kauft Alt: 140.000 bis 180.000 Euro), https://www.kfw.de/%C3%9Cber-die-KfW/Newsroom/Aktuelles/Pressemitteilungen-Details_903168.html (Förderhöchstbeträge „ab dem 3. August 2026“, Wortlaut geprüft 03.11.2026); Zins: KfW-Konditionenanzeiger, Programm 308, Variante 35/5/10, https://www.kfw-formularsammlung.de/KonditionenanzeigerINet/KonditionenAnzeiger

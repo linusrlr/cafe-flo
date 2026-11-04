@@ -11,7 +11,7 @@ status: Entwurf
 # Mietpreisbremse in unserer Region: Wo sie gilt, warum, und was ab 2027 kommt
 *Stand: 3. November 2026 · Von Linus Rössler, Immobilienmakler für Eigentumswohnungen (Erlaubnis nach § 34c GewO beantragt)*
 
-**Kurzantwort:** In Leonberg und Pforzheim gilt die Mietpreisbremse, in Ditzingen, Renningen und Heimsheim nicht. Die aktuelle Landesverordnung läuft am 31. Dezember 2026 aus [1]. Die Landesregierung hat am 22. September 2026 Entwürfe für Mietpreisbremse, Kappungsgrenze und Kündigungssperrfrist vorgelegt: Sie sollen vom 1. Januar 2027 bis 31. Dezember 2029 in 133 Städten und Gemeinden gelten, darunter Leonberg und Pforzheim, nicht aber Ditzingen, Renningen und Heimsheim [2][3]. Beschlossen ist das noch nicht [ZU PRÜFEN: Beschluss des Ministerrats nach der Anhörung].
+**Kurzantwort:** In Leonberg und Pforzheim gilt die Mietpreisbremse, in Ditzingen, Renningen und Heimsheim nicht. Die aktuelle Landesverordnung läuft am 31. Dezember 2026 aus [1]. Die Landesregierung hat am 22. September 2026 Entwürfe für Mietpreisbremse, Kappungsgrenze und Kündigungssperrfrist vorgelegt: Sie sollen vom 1. Januar 2027 bis 31. Dezember 2029 in 133 Städten und Gemeinden gelten, darunter Leonberg und Pforzheim, nicht aber Ditzingen, Renningen und Heimsheim [2][3]. Beschlossen war das am 3. November 2026 noch nicht.
 
 Wer eine vermietete Wohnung verkauft oder als Anleger kauft, rechnet mit der Miete, die rechtlich zulässig ist. Deshalb steht hier für jeden Ort meines Gebiets, was gilt und warum.
 
@@ -47,7 +47,7 @@ Quellen: Entwurf Anlage 1 und Einzeldaten für Leonberg und Pforzheim [3]; Einze
 
 **Leonberg** erfüllt alle Kriterien außer der Neubürger-Versorgung [3]. **Pforzheim** erfüllt alle außer der Mietpreisdifferenz; ausschlaggebend sind die Mietbelastung von 23,1 % und ein Anstieg der Angebotsmieten um 23,6 % [3][7]. Pforzheim ist seit 2026 erstmals dabei [1].
 
-**Ditzingen** verfehlt die Mietbelastungs-Schwelle mit 20,7 % um 0,1 Prozentpunkte [7]. **Heimsheim** hat mit 91,7 % einen geringeren Versorgungsgrad als die anderen vier Orte, aber eine Mietbelastung von 18,9 % und genug Wohnungen für Zuzügler [7]. **Renningen** hat rechnerisch mehr Wohnungen als Haushalte [7] [ZU PRÜFEN: Neubürger-Indikator Renningen 1,00, nach Grenzwert „unter 1,0“ eigentlich nicht erfüllt; Zählung im Datensatz nachsehen].
+**Ditzingen** verfehlt die Mietbelastungs-Schwelle mit 20,7 % um 0,1 Prozentpunkte [7]. **Heimsheim** hat mit 91,7 % einen geringeren Versorgungsgrad als die anderen vier Orte, aber eine Mietbelastung von 18,9 % und genug Wohnungen für Zuzügler [7]. **Renningen** hat rechnerisch mehr Wohnungen als Haushalte [7]. <!-- Offen: Neubürger-Indikator Renningen 1,00 (Grenzwert „unter 1,0“) im Datensatz nachzählen; steht nicht im sichtbaren Text. -->
 
 ## Was bedeutet das für Vermieter in Leonberg und Pforzheim?
 
@@ -65,7 +65,7 @@ Hier ist die Miete bei Neuvermietung frei vereinbar, im Bestand gilt die allgeme
 
 ## Was kommt noch?
 
-Parallel berät der Bundestag das Mietrechtspaket II mit Regeln zu möblierter Vermietung, Kurzzeitmietverträgen und Indexmieten in angespannten Gebieten [10] [ZU PRÜFEN: Stand nach der Anhörung vom 14.10.2026]. Wenn die Landesverordnung beschlossen und verkündet ist, aktualisiere ich diesen Beitrag.
+Parallel berät der Bundestag das Mietrechtspaket II mit Regeln zu möblierter Vermietung, Kurzzeitmietverträgen und Indexmieten in angespannten Gebieten [10]. Wenn die Landesverordnung beschlossen und verkündet ist, aktualisiere ich diesen Beitrag.
 
 ## Häufige Fragen
 

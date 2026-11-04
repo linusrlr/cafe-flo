@@ -151,7 +151,7 @@ Der Ablauf ist derselbe wie bei jedem Wohnungsverkauf, mit fünf Besonderheiten:
 
 1. **Haushaltsauflösung.** Die Wohnung muss leer sein, bevor Fotos entstehen. Die Kosten gehören zu den Verkaufskosten einer Erbimmobilie, neben Reparaturen, Gutachten, Makler und Gebühren [3].
 2. **Unterlagen aus dem Nachlass.** Die Teilungserklärung liegt oft im Ordner des Erblassers; Protokolle, Wirtschaftsplan, Vermögensbericht und Energieausweis beschaffe ich bei der Verwaltung. Den Energieausweis stellt die Gemeinschaft; Sie legen ihn spätestens bei der Besichtigung vor (§ 80 GModG) [27].
-3. **Besichtigungen ohne Sie.** Ich führe sie allein durch, dokumentiere mit Fotos und kurzem Protokoll und schicke Ihnen nach jedem Termin eine Rückmeldung. [LINUS: Wie genau dokumentierst du Besichtigungen für auswärtige Erben? Foto, Protokoll, wöchentlicher Stand per E-Mail? Bitte bestätigen.]
+3. **Besichtigungen ohne Sie.** Ich führe sie allein durch; was Interessenten sagen, erfahren Sie spätestens mit meinem wöchentlichen Stand per E-Mail oder Anruf. <!-- Später ergänzen (N5): genaue Dokumentation für auswärtige Erben (Fotos, Kurzprotokoll nach jedem Termin). -->
 4. **Notartermin mit Vollmachten.** Immobilienkaufverträge werden in Präsenz beurkundet. Erben, die nicht anreisen, lassen sich mit Vollmacht vertreten; die Form klärt der Notar. Alle Erben müssen sich ausweisen (§ 11 GwG), und der Kaufpreis wird unbar gezahlt (§ 16a GwG) [23].
 5. **Kosten.** Meine Provision beträgt 2,98 % des Kaufpreises inklusive Umsatzsteuer, bei 290.000 € also 8.642 € für die Erbengemeinschaft [18]. Der Käufer zahlt dieselbe Summe und zusätzlich 5 % Grunderwerbsteuer. Weitere Posten stehen im Ratgeber [Eigentumswohnung verkaufen](/ratgeber/eigentumswohnung-verkaufen/).
 

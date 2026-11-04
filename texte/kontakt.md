@@ -18,7 +18,7 @@ E-Mail linus@roessler-immo.de
 
 ## Erreichbarkeit
 
-Telefonisch erreichen Sie mich [LINUS: Zeiten, zum Beispiel Montag bis Freitag 9 bis 20 Uhr, Samstag 10 bis 16 Uhr]. Wenn ich in einer Besichtigung bin, rufe ich am selben Tag zurück. Termine vor Ort mache ich auch abends und samstags [LINUS: bestätigen, auch sonntags?].
+Telefonisch erreichen Sie mich {{fakten.firma.erreichbarkeit}}. Wenn ich in einer Besichtigung bin, rufe ich am selben Tag zurück. Termine vor Ort mache ich {{fakten.firma.termine_vor_ort}}.
 
 Ich habe kein Ladengeschäft. Termine finden bei Ihnen in der Wohnung statt oder, wenn Sie nicht vor Ort wohnen, telefonisch oder per Video. Treffen sind in Heimsheim, Leonberg, Ditzingen, Renningen und Pforzheim ohne Anfahrtskosten möglich.
 
@@ -55,11 +55,11 @@ Ihre Angaben verwende ich ausschließlich, um Ihre Anfrage zu beantworten. Nähe
 
 1. **Innerhalb eines Werktags** rufe ich an oder antworte per E-Mail, je nachdem, was Sie angegeben haben. Wir sprechen über Ihre Wohnung und Ihr Vorhaben, etwa 15 Minuten.
 2. **Wenn ein Termin sinnvoll ist**, vereinbaren wir ihn direkt im Gespräch. Ich sage Ihnen vorher, welche Unterlagen Sie bereitlegen können, falls Sie sie haben. Nichts davon ist Pflicht.
-3. **Nach dem Termin** erhalten Sie eine schriftliche Ersteinschätzung mit Preisspanne und Begründung, innerhalb von zwei Werktagen [LINUS: Frist bestätigen]. Ob und wie es weitergeht, entscheiden Sie.
+3. **Nach dem Termin** erhalten Sie eine schriftliche Ersteinschätzung mit Preisspanne und Begründung, innerhalb von {{fakten.firma.einschaetzung_frist.nach_termin}}. Ob und wie es weitergeht, entscheiden Sie.
 
 ## Anschrift
 
-[LINUS: Geschäftsadresse nach Standortentscheidung. Bis dahin: Anschrift laut Impressum. Falls die Adresse außerhalb der Region liegt, hier ein Satz: „Mein Büro ist in …, meine Termine finden in Heimsheim, Leonberg, Ditzingen, Renningen und Pforzheim statt.“]
+Rössler Immobilien, Linus Rössler, {{fakten.firma.anschrift}}
 
 <!-- Keine Google-Maps-Einbindung (Cookies). Falls eine Karte gewünscht ist: statisches Kartenbild der fünf Orte, selbst erstellt. -->
 

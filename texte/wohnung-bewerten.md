@@ -16,7 +16,7 @@ status: Entwurf, nicht veröffentlicht
 
 **Kurzantwort:** Was Ihre Eigentumswohnung wert ist, hängt neben Lage und Zustand an der Gemeinschaft: Hausgeld, Erhaltungsrücklage und beschlossene Sonderumlagen. Die Angebotspreise der Portale liegen im Oktober 2026 bei rund 2.900 bis 3.000 €/m² in Pforzheim und rund 3.700 bis 4.100 €/m² in Leonberg, Ditzingen und Renningen. Eine Spanne für Ihre Wohnung erhalten Sie von mir kostenlos und schriftlich innerhalb von zwei Werktagen.
 
-Sie bekommen eine Preisspanne mit Begründung, keine Zahl aus einem Rechner. Ich prüfe Ihre Angaben, die aktuellen Vergleichswerte und die Besonderheiten Ihres Gebäudes. Fehlt eine Angabe, rufe ich Sie einmal kurz an. [LINUS: Gilt „zwei Werktage“ ab Eingang der Anfrage oder ab dem Telefonat? Bitte verbindlich festlegen.]
+Sie bekommen eine Preisspanne mit Begründung, keine Zahl aus einem Rechner. Ich prüfe Ihre Angaben, die aktuellen Vergleichswerte und die Besonderheiten Ihres Gebäudes. Fehlt eine Angabe, rufe ich Sie einmal kurz an. Die zwei Werktage zählen ab {{fakten.firma.einschaetzung_frist.ab}}.
 
 Was danach nicht passiert: keine Weitergabe Ihrer Daten an Portale oder andere Makler, kein Vertrag, keine Anrufe, die Sie nicht wollten. Ob wir uns die Wohnung gemeinsam ansehen, entscheiden Sie.
 
@@ -88,7 +88,7 @@ Bestätigungs-E-Mail: gleicher Text in Kurzform, Betreff „Ihre Anfrage bei Rö
 
 1. **Innerhalb eines Werktags** melde ich mich, meist telefonisch, und kläre offene Angaben. Dauer: zehn Minuten.
 2. **Innerhalb von zwei Werktagen** erhalten Sie die schriftliche Ersteinschätzung: Preisspanne, die Vergleichswerte dahinter, was Ihre Wohnung nach oben oder unten bewegt, und was ich erst am Gebäude klären kann.
-3. **Wenn Sie wollen, ein Termin vor Ort.** 60 bis 90 Minuten, auch abends oder samstags. [LINUS: Erreichbarkeit abends und samstags verbindlich? Gilt auch für Formular und Telefon.] Danach prüfe ich die Spanne an Wohnung, Gebäude und Unterlagen. Daraus wird der schriftliche Verkaufsplan, wenn Sie das möchten.
+3. **Wenn Sie wollen, ein Termin vor Ort.** 60 bis 90 Minuten, {{fakten.firma.termine_vor_ort}}. Danach prüfe ich die Spanne an Wohnung, Gebäude und Unterlagen. Daraus wird der schriftliche Verkaufsplan, wenn Sie das möchten.
 
 ### Warum keine Sofortzahl?
 
@@ -142,12 +142,12 @@ Die Tabelle zeigt den Korridor, bevor ich Gebäude und Unterlagen gesehen habe. 
 | Ort | immoportal (1.10.2026) [5] | immoverkauf24/Sprengnetter (Q2 2026) [6] | Engel & Völkers (26.10.2026) [8] | ImmoScout24 Regional (Spanne, Angebote) [7] | Bodenrichtwert Wohnbau (1.1.2025) [10] |
 |---|---|---|---|---|---|
 | Leonberg | 3.733 €/m² (2025: 3.825) | 4.042,68 €/m² | 4.028 €/m² (+1,09 %) | über 4.000 €/m², 3.700 bis 6.800 €, 175 Angebote | 766 €/m² |
-| Heimsheim | 3.212 €/m² (2025: 3.243) | 3.623,00 €/m² (+2,89 % zum Vorjahr) | keine Angabe | mehr als 3.600 €/m², 3.550 bis 5.340 €, 10 Angebote | 235 €/m² [ZU PRÜFEN: ein anderer Aggregator nennt 732 €/m²; amtlich über BORIS-BW klären] |
+| Heimsheim | 3.212 €/m² (2025: 3.243) | 3.623,00 €/m² (+2,89 % zum Vorjahr) | keine Angabe | mehr als 3.600 €/m², 3.550 bis 5.340 €, 10 Angebote | uneinheitlich: 235 oder 732 €/m², je nach Aggregator |
 | Ditzingen | 3.686 €/m² (2025: 3.818) | 4.065,13 €/m² | 3.843 €/m² (+0,64 %) | über 4.000 €/m², 3.590 bis 6.525 €, 101 Angebote | nicht abgerufen |
 | Renningen | 4.986 €/m² (2025: 5.574; vermutlich Neubau-Ausreißer) | 4.054,25 €/m² | 3.882 €/m² (+1,33 %) | über 4.030 €/m², 3.667 bis 6.177 €, 100 Angebote | nicht abgerufen |
 | Pforzheim | 2.928 €/m² (2025: 2.939) | 3.010,44 €/m² | 2.941 €/m² (−0,15 %) | Regionalseite nicht erreichbar; certa Q1 2026: 3.023 €/m², Spanne 1.951 bis 4.519 € [9] | nicht abgerufen |
 
-Zum Vergleich: Der Gutachterausschuss Stuttgart nennt für weiterverkaufte Eigentumswohnungen rund 4.250 €/m² (Februar 2026) [12] [ZU PRÜFEN: Pressemeldung im Volltext]. Das ist eine amtliche Zahl aus Kaufverträgen.
+Zum Vergleich: Der Gutachterausschuss Stuttgart nennt für weiterverkaufte Eigentumswohnungen rund 4.250 €/m² (Februar 2026) [12]. Das ist eine amtliche Zahl aus Kaufverträgen.
 
 Die Portale bieten Stuttgart um 4.800 €/m² an [8]. Dieser Abstand zwischen Angebot und Abschluss ist der Grund, warum ich Portalwerte nie als Marktwert bezeichne.
 
@@ -185,7 +185,7 @@ Das Ergebnis ist eine schriftliche Preisspanne mit Begründung, kein Wert auf de
 
 **Der Marktwert** ist der Verkehrswert nach § 194 BauGB, abgeleitet aus Vergleichsabschlüssen. Ich schätze ihn als Spanne; ein Sachverständiger ermittelt ihn im Gutachten.
 
-**Der Angebotspreis** steht im Inserat. Er liegt meist am oberen Rand der Spanne. Laut einer Maklerumfrage vom Oktober 2026 halten rund 70 % der Befragten die Angebotspreise für 10 bis 30 % überhöht, und mehr als die Hälfte der Objekte ist länger als sechs Monate in der Vermarktung [23] [ZU PRÜFEN: Urheber und Stichprobe der Umfrage]. Nach Monaten fragen Käufer, was mit der Wohnung nicht stimmt.
+**Der Angebotspreis** steht im Inserat. Er liegt meist am oberen Rand der Spanne. Nach Monaten fragen Käufer, was mit der Wohnung nicht stimmt.
 
 **Der Verkaufspreis** steht im Notarvertrag. Nur er zählt am Ende, und nur er landet in der Kaufpreissammlung des Gutachterausschusses. Mein Verkaufsplan trennt diese vier Zahlen ausdrücklich.
 
@@ -195,13 +195,13 @@ Das Ergebnis ist eine schriftliche Preisspanne mit Begründung, kein Wert auf de
 | Nr. | Faktor | Wirkung | Beispiel aus der Region | Quelle |
 |---|---|---|---|---|
 | 1 | Lage und Stadtteil | Innerhalb einer Stadt größere Unterschiede als zwischen Portalen | Pforzheim: Buckenberg 3.263 €/m², Hohenwart 2.648 €/m² | [6] |
-| 2 | Geschoss und Aufzug | Erdgeschoss niedriger als 1. OG, Garten gleicht aus; obere Geschosse ohne Aufzug im Altbau mit Abschlag | Anlagen der 1960er bis 1980er Jahre in Leonberg-Ramtel und Ditzingen haben oft keinen Aufzug; ab dem dritten Stock fallen ältere Käufer weg [LINUS: Beobachtung bestätigen] | [3] |
+| 2 | Geschoss und Aufzug | Erdgeschoss niedriger als 1. OG, Garten gleicht aus; obere Geschosse ohne Aufzug im Altbau mit Abschlag | Bei Anlagen ohne Aufzug wird der Käuferkreis mit jedem Stockwerk kleiner, vor allem bei älteren Käufern <!-- Später ergänzen (N6): eigene Beobachtung zu Anlagen ohne Aufzug in Leonberg-Ramtel und Ditzingen. --> | [3] |
 | 3 | Balkon, Himmelsrichtung | Nordbalkon weniger wert als Südbalkon; Außenflächen zählen bis zu 25 % zur Wohnfläche | Südwestbalkon ins Grüne in Heimsheim gegen Nordloggia zur Straße | [3] |
 | 4 | Stellplatz und Tiefgarage | Eigener Preisbestandteil, in Pendlerorten gefragt | In Leonberger und Ditzinger Inseraten regelmäßig als Argument genannt | eigene Beobachtung |
 | 5 | Baujahr und Restnutzungsdauer | Bei 100 Jahren Gesamt- und 75 Jahren Restnutzungsdauer rechnerisch 25 % Alterswertminderung (Sachwertlogik) | Baujahr 1986 in der Pforzheimer Südweststadt gegen 2016 in Renningen-Malmsheim | [3] |
 | 6 | Zahl der Wohneinheiten | Mehr als 20 Einheiten tendenziell niedriger | Großanlagen am Buckenberg gegen Sechsfamilienhaus in Hirschlanden | [3] |
 | 7 | Ausstattung und Modernisierung | Sanierung rund +10 %, Modernisierungsstau −5 bis −15 % (Beispielwerte) | Bad und Elektrik aus dem Baujahr sind bei Wohnungen der 1970er Jahre ein häufiger Abschlag | [4] |
-| 8 | Energieklasse | Gegenüber Klasse D: A+ +20 %, A +15 %, H −9 % (bundesweite Angebotsdaten); G und H seit 2021 je −12 % | Gegeneffekt in Pforzheim mit vielen Klassen F bis H: Familien bekommen dafür KfW 308 zu 1,00 % [24] | [14] |
+| 8 | Energieklasse | Gegenüber Klasse D: A+ +20 %, A +15 %, H −9 % (bundesweite Angebotsdaten); G und H seit 2021 je −12 % | Gegeneffekt in Pforzheim mit vielen Klassen F bis H: Familien bekommen dafür KfW 308 zu {{fakten.kfw_308.zins}} effektiv (Stand {{fakten.kfw_308.zins.stand}}) [24] | [14] |
 | 9 | Hausgeld | Käufer rechnen den nicht umlagefähigen Teil als laufende Kosten ein | Inserat Hirschlanden: 79 m², 390 € Hausgeld im Monat (4,94 €/m²); mit 279.000 € oder 3.532 €/m² unter allen Portalmitteln für Ditzingen | [27] |
 | 10 | Rücklage und Sonderumlage | Rücklage geht mit der Wohnung über; nach Übergang fällige Sonderumlagen trägt der Käufer | Rechenbeispiel unten | [17] |
 | 11 | Klima der Gemeinschaft | Streit, fehlender Verwalter, Sanierungsstau senken den Preis; aktuelle Protokolle stützen ihn | Käufer lesen die letzten drei Protokolle, bevor sie ein Angebot machen | [4] |
@@ -221,7 +221,7 @@ Dazu ist eine Sonderumlage von 12.000 € für diese Wohnung beschlossen, fälli
 | Kosten | kostenlos | kostenlos | etwa 500 bis 2.000 €, Honorar frei vereinbar [19] |
 | Dauer | Minuten | zwei Werktage, enger nach Termin vor Ort | Wochen |
 | Datenbasis | Angebotsdaten, ohne Gebäude und Gemeinschaft | Gutachterausschuss, Portaldaten mit Datum, Besichtigung, WEG-Unterlagen | Kaufpreissammlung, Ortstermin, alle Unterlagen, Verfahren nach ImmoWertV |
-| Grenzen | Sechs Portale, sechs Werte [20] [ZU PRÜFEN: Vergleich vor Zitat prüfen]; Hausgeld, Rücklage, Sonderumlage bleiben außen vor | interessengeleitet; nicht gerichtsfest; keine Steuerwirkung | teuer, dauert, für einen normalen Verkauf überflüssig |
+| Grenzen | Portale weichen um 10 % und mehr voneinander ab, siehe Tabelle oben [5][6]; Hausgeld, Rücklage, Sonderumlage bleiben außen vor | interessengeleitet; nicht gerichtsfest; keine Steuerwirkung | teuer, dauert, für einen normalen Verkauf überflüssig |
 | Geeignet für | eine erste Idee des Korridors | Verkaufsentscheidung, Angebotspreis, Erbengemeinschaft ohne Streit, Trennung mit Einigungswillen | Finanzamt, Gericht, Bank, Betreuungsgericht, Streit |
 
 Eine Maklereinschätzung ist nicht neutral. Ich verdiene am Verkauf. Das könnte mich verleiten, hoch zu schätzen, um den Auftrag zu bekommen, oder niedrig, um schnell fertig zu sein. Mein Mittel dagegen ist die schriftliche Begründung: Sie sehen jede Vergleichszahl mit Quelle und Datum und können sie prüfen.
@@ -236,7 +236,7 @@ Ein Vollgutachten eines öffentlich bestellten oder zertifizierten Sachverständ
 - **Gericht.** Strittige Scheidung mit Zugewinnausgleich, Erbstreit, Teilungs- oder Zwangsversteigerung.
 - **Bank, Betriebsvermögen, Baumängel.** Beleihung, Einlage ins Betriebsvermögen, Wertminderung durch Mängel.
 
-Ein Kurzgutachten ist günstiger, aber nicht gerichtsfest. Wenn Sie einen Sachverständigen brauchen, nenne ich Ihnen einen und nehme dafür nichts. [LINUS: Welchen Sachverständigen für die Region empfehlen Sie? Ohne Namen Satz streichen.]
+Ein Kurzgutachten ist günstiger, aber nicht gerichtsfest. <!-- Später ergänzen (N4): Sachverständigen für die Region nennen, dann wieder „Wenn Sie einen Sachverständigen brauchen, nenne ich Ihnen einen und nehme dafür nichts.“ -->
 
 <a id="unterlagen"></a>
 ### Welche Unterlagen brauche ich für die Bewertung?
@@ -262,7 +262,7 @@ Etwa die Hälfte davon hat die Hausverwaltung. Den Rest fordere ich mit Ihrer Vo
 
 **Vermarktungsdauer.** Im ersten Quartal 2026 lag sie für Eigentumswohnungen in 24 deutschen Städten bei rund 90 Tagen [23].
 
-Gegen den Zinseffekt wirkt die KfW: Familien bekommen für Wohnungen der Klassen F bis H bis zu 180.000 € zu 1,00 % aus dem Programm 308 [24].
+Gegen den Zinseffekt wirkt die KfW: Familien bekommen für Wohnungen der Klassen F bis H bis zu 180.000 € zu {{fakten.kfw_308.zins}} effektiv (Stand {{fakten.kfw_308.zins.stand}}) aus dem Programm 308 [24].
 
 Seit dem 29. Juli 2026 gibt es keine Pflicht mehr, alte Heizungen auszutauschen [25]. Das entlastet Wohnungen der Baujahre 1960 bis 1990 mit Gaszentralheizung. Tabelle und Marktlage aktualisiere ich quartalsweise.
 
@@ -331,21 +331,21 @@ Linus Rössler, Telefon 0159 05844641, auch abends.
 7. ImmoScout24 Regional (KI-gestützte Angaben, ohne Datum): https://www.immobilienscout24.de/regional/de/baden-wuerttemberg/boeblingen-kreis/leonberg/ ; …/enzkreis/heimsheim/ ; …/ludwigsburg-kreis/ditzingen/ ; …/boeblingen-kreis/renningen/ (Pforzheim nicht erreichbar)
 8. Engel & Völkers, Immobilienpreise, 26.10.2026: https://www.engelvoelkers.com/de-de/immobilienpreise/baden-wuerttemberg/leonberg/ ; …/ditzingen/ ; …/renningen/ ; …/pforzheim/ ; Stuttgart (Q3 2026, ca. 4.820 €/m²): …/stuttgart/
 9. certa Gutachten, Marktbericht Pforzheim Q1 2026 (22.04.2026, aktualisiert 06.07.2026): ETW Ø 3.023 €/m², Spanne 1.951 bis 4.519 €/m², Stadtteilwerte. https://www.certa-gutachten.de/marktberichte/pforzheim-q1-2026
-10. Bodenrichtwerte (Aggregator, Stichtag 01.01.2025): Leonberg 766 €/m², Heimsheim 235 €/m². https://www.bodenrichtwerte-deutschland.de/boris/bw/leonberg ; https://www.bodenrichtwerte-deutschland.de/boris/bw/heimsheim ; abweichend miete-aktuell.de für Heimsheim ca. 732 €/m²: https://www.miete-aktuell.de/bodenrichtwert-grundstueckspreise/Heimsheim/Heimsheim/ [ZU PRÜFEN: amtlich über BORIS-BW]
-11. Gutachterausschüsse: Stadt Leonberg, Belforter Platz 1, 71229 Leonberg, gutachterausschuss@leonberg.de, 07152 990-3119, https://www.leonberg.de/Rathaus/Verwaltung/Gutachterausschuss ; Zweckverband Gemeinsamer Gutachterausschuss im Enzkreis, Mühlacker, gutachter@gua-enzkreis.de ; Stadt Pforzheim, Immobilienmarktbericht 2021/22: https://www.pforzheim.de/fileadmin/user_upload/bauen/Gutachterausschuss/Immobilienmarktbericht_2021_22_Internet.pdf ; Ditzingen: Gemeinsamer Gutachterausschuss Strohgäu, Geschäftsstelle Stadt Ditzingen, Am Laien 1, 71254 Ditzingen (Gebührensatzung: https://www.ditzingen.de/fileadmin/Dateien/Dateien/Ortsrecht/6.01Gutachterausschussgebuehrensatzung.pdf); Renningen: Gemeinsamer Gutachterausschuss Renningen, Rutesheim und Weissach, Hauptstraße 1, 71272 Renningen, Grundstücksmarktbericht 2023 (gekürzt): https://www.renningen.de/stadtentwicklung/grundstuecke-immobilien/grundstuecksbewertung/grundstuecksmarktbericht-2023-gekuerzte-version-homepage.pdf (abgerufen 03.11.2026) [ZU PRÜFEN: aktuelle Marktberichte für Leonberg, Enzkreis und Pforzheim anfordern; online am 03.11.2026 nicht gefunden]
-12. Landeshauptstadt Stuttgart, Gutachterausschuss, Februar 2026: Durchschnittspreis weiterverkaufte Eigentumswohnungen rund 4.250 €/m² (laut Suchergebnis). https://www.stuttgart.de/service/aktuelle-meldungen/2026/februar/stuttgarter-immobilienmarkt-weiterhin-im-aufwind-gutachterausschuss-stellt-neue-auswertung-vor [ZU PRÜFEN: Volltext]
+10. Bodenrichtwerte (Aggregator, Stichtag 01.01.2025): Leonberg 766 €/m², Heimsheim 235 €/m². https://www.bodenrichtwerte-deutschland.de/boris/bw/leonberg ; https://www.bodenrichtwerte-deutschland.de/boris/bw/heimsheim ; abweichend miete-aktuell.de für Heimsheim ca. 732 €/m²: https://www.miete-aktuell.de/bodenrichtwert-grundstueckspreise/Heimsheim/Heimsheim/ Aggregatorwerte, nicht mit dem amtlichen BORIS-BW abgeglichen.
+11. Gutachterausschüsse: Stadt Leonberg, Belforter Platz 1, 71229 Leonberg, gutachterausschuss@leonberg.de, 07152 990-3119, https://www.leonberg.de/Rathaus/Verwaltung/Gutachterausschuss ; Zweckverband Gemeinsamer Gutachterausschuss im Enzkreis, Mühlacker, gutachter@gua-enzkreis.de ; Stadt Pforzheim, Immobilienmarktbericht 2021/22: https://www.pforzheim.de/fileadmin/user_upload/bauen/Gutachterausschuss/Immobilienmarktbericht_2021_22_Internet.pdf ; Ditzingen: Gemeinsamer Gutachterausschuss Strohgäu, Geschäftsstelle Stadt Ditzingen, Am Laien 1, 71254 Ditzingen (Gebührensatzung: https://www.ditzingen.de/fileadmin/Dateien/Dateien/Ortsrecht/6.01Gutachterausschussgebuehrensatzung.pdf); Renningen: Gemeinsamer Gutachterausschuss Renningen, Rutesheim und Weissach, Hauptstraße 1, 71272 Renningen, Grundstücksmarktbericht 2023 (gekürzt): https://www.renningen.de/stadtentwicklung/grundstuecke-immobilien/grundstuecksbewertung/grundstuecksmarktbericht-2023-gekuerzte-version-homepage.pdf (abgerufen 03.11.2026). Aktuelle Marktberichte für Leonberg, den Enzkreis und Pforzheim waren am 03.11.2026 online nicht verfügbar.
+12. Landeshauptstadt Stuttgart, Gutachterausschuss, Februar 2026: Meldung vom 10.02.2026: „Der Durchschnittspreis für eine Eigentumswohnung im Wiederverkauf lag bei rund 4.250 Euro pro Quadratmeter.“ https://www.stuttgart.de/service/aktuelle-meldungen/2026/februar/stuttgarter-immobilienmarkt-weiterhin-im-aufwind-gutachterausschuss-stellt-neue-auswertung-vor (abgerufen 03.11.2026)
 13. ImmoScout24, Pressemitteilung 10.11.2025, „Vermietete Eigentumswohnungen bis zu 33 Prozent günstiger als unvermietete“: Stuttgart 12 % (Medianpreise Juli bis Oktober 2025). https://www.immobilienscout24.de/unternehmen/news-medien/news/default-title/vermietete-eigentumswohnungen-bis-zu-33-prozent-guenstiger-als-unvermietete/
-14. Immowelt-Analyse 19.03.2026 (A+ +20 %, A +15 %, H −9 % gegenüber D) und ImmoScout24 (G und H je −12 % seit 2021), zitiert nach reduco.ai: https://reduco.ai/blog/energieausweis/energieausweis-wohnung-eigentumswohnung [ZU PRÜFEN: Primärquellen]
+14. Immowelt-Analyse 19.03.2026 (A+ +20 %, A +15 %, H −9 % gegenüber D) und ImmoScout24 (G und H je −12 % seit 2021), zitiert nach reduco.ai (Primärquellen nicht eingesehen): https://reduco.ai/blog/energieausweis/energieausweis-wohnung-eigentumswohnung
 15. BFH, Urteil vom 11.03.2026, II R 6/23: Das Finanzgericht darf die Vergleichspreise der Gutachterausschüsse (§ 183 BewG) in der Regel ohne weitere Ermittlungen zugrunde legen; Der Betrieb: https://der-betrieb.de/meldungen/bfh-zur-richterlichen-kontrolle-im-vergleichswertverfahren/ ; Ebner Stolz, 29.06.2026 (abgerufen 03.11.2026; BFH-Volltext nicht abgerufen). Vergleichswertverfahren für Wohnungseigentum: § 182 Abs. 2 BewG, https://www.gesetze-im-internet.de/bewg/__182.html
 16. § 198 BewG, Nachweis des niedrigeren gemeinen Werts durch Gutachten (Abs. 2) oder einen Kaufpreis innerhalb eines Jahres vor oder nach dem Bewertungsstichtag bei unveränderten Verhältnissen (Abs. 3). https://www.gesetze-im-internet.de/bewg/__198.html (abgerufen 03.11.2026)
 17. § 28 Abs. 4 WEG (Vermögensbericht), § 19 Abs. 2 Nr. 4 WEG (angemessene Erhaltungsrücklage); Rücklage bleibt in der Gemeinschaft und geht auf den Käufer über, kein Rückzahlungsanspruch: ImmoScout24-Lexikon Instandhaltungsrücklage; Hinweis der Notarkammer zu fehlender Rücklage und Sonderumlagenrisiko (notar.de, PDF, laut Suchergebnis). https://www.gesetze-im-internet.de/woeigg/
 18. BGH, Urteil vom 15.12.2017, V ZR 257/16: Für die Zahlungspflicht einer Sonderumlage ist die Fälligkeit maßgeblich, nicht der Beschluss; Erwerber haftet für nach dem Eigentumswechsel fällige Raten, auch wenn vorher beschlossen: https://dejure.org/2017,57429 ; Haufe: https://www.haufe.de/immobilien/verwaltung/bgh-erwerber-haftet-fuer-sonderumlage_258_447614.html (abgerufen 03.11.2026); zuerst zitiert nach reduco.ai, „Wohnung verkaufen: Ablauf“: https://reduco.ai/blog/immobilienverkauf/wohnung-verkaufen-ablauf
 19. Kosten Verkehrswertgutachten: ca. 500 bis 2.000 € (bodenrichtwerte-deutschland.de); ImmoScout24-Kostentabelle 2.000 € bei 200.000 € Kaufpreis; Honorar frei vereinbar. https://www.immobilienscout24.de/wissen/verkaufen/wohnung-verkaufen.html
-20. portimmo.de, Vergleich von sechs Online-Bewertungen mit sechs verschiedenen Ergebnissen (laut Suchergebnis) [ZU PRÜFEN: vor Veröffentlichung Seite und Zahlen prüfen]
+20. Nicht mehr zitiert (Vergleich von Online-Bewertungen auf portimmo.de, am 03.11.2026 nicht auffindbar).
 21. Statistisches Bundesamt, Pressemitteilung Nr. 336 vom 24.09.2026, Häuserpreisindex 2. Quartal 2026: +0,6 % zum Vorjahr; Eigentumswohnungen Top-7 −0,4 %, kreisfreie Großstädte +2,0 %, dicht besiedelte ländliche Kreise −1,8 %. https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/09/PD26_336_61262.html
 22. Bauzinsen: Dr. Klein Topzins 10 Jahre 4,20 % (29.10.2026; Oktober 2025: 3,38 %), https://www.drklein.de/zinsen.html ; Interhyp Durchschnitt 4,42 % (15.10.2026), https://www.interhyp.de/zinsen/ ; Mehrbelastung rund 239 €/Monat bei 350.000 € (eigene Rechnung: 0,82 Prozentpunkte × 350.000 € ÷ 12) Kredit: eigene Rechnung aus der Zinsdifferenz von 0,82 Prozentpunkten (350.000 € × 0,82 % ÷ 12 = 239 €)
-23. Vermarktungsdauer: GREIX/IfW Kiel, Eigentumswohnungen Q1 2026 rund 90 Tage in 24 Städten, zitiert nach reduco.ai [ZU PRÜFEN: Primärquelle]; Hausgold-Auswertung für das Handelsblatt, Januar bis Mai 2026: https://www.handelsblatt.com/finanzen/immobilien/immobilien-in-welchen-staedten-finden-eigentuemer-am-schnellsten-einen-kaeufer/100260831.html (Paywall); Maklerumfrage Oktober 2026 (54,3 % der Objekte länger als sechs Monate, 70 % halten Angebotspreise für 10 bis 30 % überhöht): https://ad-hoc-news.de/wirtschaft/immobilienmarkt-54-3-prozent-der-verkaeufe-dauern-laenger-als-sechs-monate/70395215 [ZU PRÜFEN: Urheber und Stichprobe]
-24. KfW-Programm 308 „Jung kauft Alt“: seit 03.08.2026 bis zu 140.000 / 160.000 / 180.000 €, 1,00 % effektiv (35 Jahre), nur Energieausweis Klasse F, G oder H, Antrag vor dem Notarvertrag. https://www.baukostenplan.de/ratgeber/kfw-308-jung-kauft-alt-2026-neue-kreditbetraege (Stand 07.10.2026) [ZU PRÜFEN: Zins tagesaktuell]
+23. Vermarktungsdauer: GREIX Kaufpreisindex 2026 Q1 (Kiel Institut und Gutachterausschüsse, 07.05.2026): Vermarktungsdauer Eigentumswohnungen im ersten Quartal 2026 im Durchschnitt der 24 ausgewerteten Städte 90 Tage. https://cloud-data-greix-website.s3.eu-central-1.amazonaws.com/website/Documentation/kaufpreisindex_2026q1.pdf; Hausgold-Auswertung für das Handelsblatt, Januar bis Mai 2026: https://www.handelsblatt.com/finanzen/immobilien/immobilien-in-welchen-staedten-finden-eigentuemer-am-schnellsten-einen-kaeufer/100260831.html (Paywall)
+24. KfW-Programm 308 „Jung kauft Alt“: seit 03.08.2026 bis zu 140.000 / 160.000 / 180.000 €, nur Energieausweis Klasse F, G oder H, Antrag vor dem Notarvertrag (baukostenplan.de, Stand 07.10.2026: https://www.baukostenplan.de/ratgeber/kfw-308-jung-kauft-alt-2026-neue-kreditbetraege ); Zins {{fakten.kfw_308.zins}} effektiv bei 35 Jahren Laufzeit laut KfW-Konditionenanzeiger (Stand {{fakten.kfw_308.zins.stand}}): https://www.kfw-formularsammlung.de/KonditionenanzeigerINet/KonditionenAnzeiger ; Kredithöchstbeträge ab 3.8.2026 laut KfW-Pressemitteilung vom 30.07.2026: https://www.kfw.de/%C3%9Cber-die-KfW/Newsroom/Aktuelles/Pressemitteilungen-Details_903168.html
 25. Gebäudemodernisierungsgesetz (GModG), in Kraft seit 29.07.2026: Streichung der 65-%-Pflicht und des Betriebsverbots für über 30 Jahre alte Kessel. https://www.bundesregierung.de/breg-de/aktuelles/neues-gebaeudemodernisierungsgesetz-2430284
 26. § 1850 BGB, Genehmigung des Betreuungsgerichts für Verfügungen über Grundstücke. https://www.gesetze-im-internet.de/bgb/__1850.html (abgerufen 29.10.2026)
 27. Beispielinserat Ditzingen-Hirschlanden, 3,5 Zimmer, 79 m², 279.000 €, Hausgeld 390 €/Monat (laut Suchergebnis, Oktober 2026); 279.000 ÷ 79 = 3.532 €/m²; 390 ÷ 79 = 4,94 €/m² und Monat.

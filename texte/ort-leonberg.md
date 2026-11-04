@@ -35,9 +35,9 @@ Zur Miete stehen Leonberger Wohnungen bei 12,76 €/m² (Immowelt, Juli 2026) bi
 
 - **Sperrfrist fünf Jahre.** Wer eine vermietete Wohnung kauft, die nach Beginn des Mietverhältnisses in Wohnungseigentum umgewandelt wurde, kann in Leonberg erst nach fünf statt nach drei Jahren Eigenbedarf geltend machen. Die Landesverordnung gilt vom 1. Januar bis 31. Dezember 2026 für die ganze Stadt [6]. Für Käufer, die selbst einziehen wollen, ändert das die Rechnung, deshalb kläre ich den Punkt vor dem Exposé.
 - **Mietpreisbremse.** Leonberg ist seit dem 1. Januar 2026 erneut in der Gebietskulisse, bei Neuvermietung darf die Miete nicht mehr als 10 Prozent über der ortsüblichen Vergleichsmiete liegen [7]. Anleger kalkulieren deshalb mit der rechtlich zulässigen Miete; als Verkäufer belegen Sie sie mit Vormiete, Modernisierungsnachweis oder einem Baujahr nach Oktober 2014.
-- **Hebesatz 220 Prozent.** Die Stadtverwaltung hat für die Grundsteuer ab 1. Januar 2027 einen Hebesatz von 250 Prozent vorgeschlagen [8]; laut Stuttgarter Zeitung fand das im Gemeinderat im Mai 2026 keine Mehrheit [14]. Welcher Satz ab 2027 gilt, nenne ich, sobald er beschlossen ist [ZU PRÜFEN: Hebesatz ab 2027 nach endgültigem Beschluss]. Bei einer Eigentumswohnung mit kleinem Bodenanteil bleibt das ein kleiner Posten, nach dem Bescheid fragen Käufer trotzdem.
+- **Hebesatz 220 Prozent.** Die Stadtverwaltung hat für die Grundsteuer ab 1. Januar 2027 einen Hebesatz von 250 Prozent vorgeschlagen [8]; laut Stuttgarter Zeitung fand das im Gemeinderat im Mai 2026 keine Mehrheit [14]. Welcher Satz ab 2027 gilt, nenne ich, sobald er beschlossen ist. <!-- Nach dem Livegang: Hebesatz ab 2027 bei der Stadt Leonberg erfragen (fakten.grundsteuer.hebesatz.leonberg_ab_2027). --> Bei einer Eigentumswohnung mit kleinem Bodenanteil bleibt das ein kleiner Posten, nach dem Bescheid fragen Käufer trotzdem.
 - **Käufer.** Ein großer Teil kommt von außen: Pendler entlang der S6 nach Stuttgart und Beschäftigte von GEZE, Porsche in Weissach oder Bosch in Renningen. Bosch baut in der Sparte Cross-Domain Computing Solutions Stellen ab, betroffen ist auch Leonberg, betriebsbedingte Kündigungen sind bis Ende 2027 ausgeschlossen [9]. Käufer aus diesem Umfeld finanzieren vorsichtiger als vor zwei Jahren.
-- **Ältere Anlagen.** Bei Wohnungen aus den 1960er bis 1990er Jahren bestimmen Rücklage, Protokolle und Energieklasse den Preis stärker als die Ausstattung. Hat das Gebäude die Klasse F, G oder H, können Familien mit Kind seit August 2026 über KfW 308 zu 1,00 Prozent [ZU PRÜFEN: tagesaktueller KfW-Zinssatz] effektiv finanzieren [10]. Anleger kaufen in Leonberg wegen der Vermietbarkeit, nicht wegen der Rendite: Nach meiner Rechnung aus Portaldaten zahlen sie 20 bis 25 Jahresmieten.
+- **Ältere Anlagen.** Bei Wohnungen aus den 1960er bis 1990er Jahren bestimmen Rücklage, Protokolle und Energieklasse den Preis stärker als die Ausstattung. Hat das Gebäude die Klasse F, G oder H, können Familien mit Kind seit August 2026 über KfW 308 zu {{fakten.kfw_308.zins}} effektiv (Stand {{fakten.kfw_308.zins.stand}}) finanzieren [10]. Anleger kaufen in Leonberg wegen der Vermietbarkeit, nicht wegen der Rendite: Nach meiner Rechnung aus Portaldaten zahlen sie 20 bis 25 Jahresmieten.
 
 ## Die Stadtteile
 
@@ -87,7 +87,7 @@ Nennen Sie mir Stadtteil, Größe und Baujahr Ihrer Leonberger Wohnung oder rufe
 **[Button: Anrufen: 0159 05844641 → tel:+4915905844641]**
 
 Linus Rössler · Rössler Immobilien · Telefon 0159 05844641 · linus@roessler-immo.de
-[LINUS: Anschrift und Erreichbarkeit für den NAP-Block]
+{{fakten.firma.anschrift}} · telefonisch {{fakten.firma.erreichbarkeit}}
 
 ## Weitere Orte
 

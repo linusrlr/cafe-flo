@@ -38,11 +38,11 @@ Auf meiner Website steht dazu: „Bei einem Eigenankauf bin ich Ihr Vertragspart
 Daraus folgen meine Regeln:
 - Zuerst bekommen Sie eine schriftliche Einschätzung, was die Wohnung bei einer Vermittlung bringt. Erst danach mache ich ein Ankaufsangebot.
 - Ich nenne den Abschlag gegenüber dieser Einschätzung in Prozent.
-- Sie haben Bedenkzeit.
+- Sie haben {{fakten.ankauf.bedenkzeit}} Bedenkzeit.
 - Ich empfehle Ihnen schriftlich eine zweite Meinung, etwa vom Gutachterausschuss oder einem anderen Makler.
 - Keine 24-Stunden-Fristen, keine „nicht verhandelbaren“ Angebote, kein Druck.
 
-[LINUS: Diese Regeln stehen so auf der Seite und müssen gelebt werden. Bitte jede einzeln bestätigen oder ändern.]
+<!-- Regeln von Linus zu bestätigen: LAPTOP-FRAGEBOGEN.md Frage 4.1 (gleiche Regeln wie auf direktankauf.md). -->
 
 Bei einem eigenen Ankauf gibt es keine Provision und keine Halbteilung, denn ich vermittle nichts; ich kaufe [24]. Die Vermittlung bleibt mein Hauptweg. Der Direktankauf ist die Ausnahme für Fälle, in denen Sie keine öffentliche Vermarktung wollen. Details stehen auf der Seite [Direktankauf](/direktankauf/).
 
@@ -81,10 +81,10 @@ Auf Anbieterseiten finden sich diese Praktiken (abgerufen 29.10.2026):
 |---|---|---|---|---|---|
 | Deutsche Grundinvest | ca. 24 Stunden nach Begehung, Geld „eine Woche später“ [3] | keine Angabe | keine Angabe | nein, „marktgerechte Preise“ | keine genannt |
 | Immobiliendirektankauf.de | schriftlich binnen 24 Stunden nach Ortstermin [4] | „nicht verhandelbar“ | 10 Werktage | nein | keine Angabe |
-| immopaka | verbindliche Zusage in 24 Stunden [5] | keine Angabe | keine Angabe | [ZU PRÜFEN: Vergleichstabelle nicht lesbar] | Stuttgart |
+| immopaka | verbindliche Zusage in 24 Stunden [5] | keine Angabe | keine Angabe | keine Angabe gefunden | Stuttgart |
 | immobilien-sofortkauf.de | Ankauf oder bundesweite Bewerbung [6] | keine Angabe | keine Angabe | nein | bundesweit |
 
-Dazu kommen: Ein Anbieter verlangt keinen Energieausweis und keine Mängelhaftung und zahlt Tippgebern Provision, in einem Kundenbericht 1.800 € [4]. immopaka spricht gezielt Erben und Eltern an: „Wir kaufen Deine Wohnung. Und die Deiner Eltern!“ [5]. Das Volksbank-Modell Vobahome zahlte laut einer Sekundärquelle sofort 40 % des geschätzten Marktwerts plus 4,5 % Sicherheitseinbehalt, mit Rückzahlungsklausel nach 13 Monaten [2]. [ZU PRÜFEN: Produktstatus Vobahome 2026]
+Dazu kommen: Ein Anbieter verlangt keinen Energieausweis und keine Mängelhaftung und zahlt Tippgebern Provision, in einem Kundenbericht 1.800 € [4]. immopaka spricht gezielt Erben und Eltern an: „Wir kaufen Deine Wohnung. Und die Deiner Eltern!“ [5]. Das Volksbank-Modell Vobahome zahlte laut einer Sekundärquelle sofort 40 % des geschätzten Marktwerts plus 4,5 % Sicherheitseinbehalt, mit Rückzahlungsklausel nach 13 Monaten [2]. Ob das Modell 2026 noch angeboten wird, habe ich nicht geprüft.
 
 Was legal nicht geht: Bargeld beim Kaufpreis (§ 16a GwG) [14], ein Notartermin per Video [15] und eine Reservierungsgebühr in Allgemeinen Geschäftsbedingungen (BGH, Urteil vom 20.04.2023, I ZR 113/22) [16].
 
@@ -105,7 +105,7 @@ Die Spannen widersprechen sich, schon innerhalb derselben Seite. Zum Vergleich: 
 
 ## Rechenvergleich: Leonberg 290.000 € und Pforzheim 221.000 €
 
-Die Kaufpreise sind Beispiele für rund 75 m² aus Angebotspreisen 2026 [11]. Für den Sofortankauf nehme ich 60 bis 90 % des Marktwerts, also den oberen Teil der Spanne aus [2]. Beim Maklerverkauf ziehe ich meine Provision von 2,98 % ab [1].
+Die Kaufpreise sind Beispiele für rund 75 m² aus Angebotspreisen 2026 [11]. Für den Sofortankauf nehme ich 60 bis 90 % des Marktwerts, also nur den oberen Teil der Spanne; die Quelle nennt Angebote ab 40 % [2]. Bei 40 % läge der Erlös in Leonberg bei 116.000 €, in Pforzheim bei 88.400 €. Beim Maklerverkauf ziehe ich meine Provision von 2,98 % ab [1].
 
 **Leonberg, 290.000 €**
 
@@ -114,7 +114,7 @@ Die Kaufpreise sind Beispiele für rund 75 m² aus Angebotspreisen 2026 [11]. F�
 | Sofortankauf (60 bis 90 %) | 174.000 bis 261.000 € [2] | Tage bis Wochen [2] | Abschlag, Vertragsklauseln |
 | Maklerverkauf (95 bis 100 %, minus 2,98 %) | ca. 267.300 bis 281.400 € [1][2] | drei bis fünf Monate [23] | Provision, Wartezeit |
 | Privatverkauf (85 bis 100 %, minus 2.000 bis 10.000 € Kosten) | ca. 236.500 bis 288.000 € [2][25] | sechs bis zwölf Monate (Richtwert) [25] | Zeit, Preisrisiko |
-| Beschleunigter Maklerverkauf | wie Maklerverkauf, Bieterverfahren 80 bis 105 % [2] | [LINUS: realistische Dauer bis Notar] | Preis bewusst niedriger angesetzt |
+| Beschleunigter Maklerverkauf | wie Maklerverkauf, Bieterverfahren 80 bis 105 % [2] | kürzer als beim normalen Maklerverkauf, je nach Preis und Unterlagen; keine belegte Zahl | Preis bewusst niedriger angesetzt |
 
 Rechenweg Maklerverkauf: 275.500 € minus 8.209,90 € ergibt 267.290,10 €; 290.000 € minus 8.642 € ergibt 281.358 €. Die Differenz zum Sofortankauf liegt damit zwischen rund 6.300 € (267.290 € gegen 261.000 €) und 107.400 € (281.358 € gegen 174.000 €).
 
@@ -126,11 +126,9 @@ Rechenweg Maklerverkauf: 275.500 € minus 8.209,90 € ergibt 267.290,10 €; 2
 | Maklerverkauf (95 bis 100 %, minus 2,98 %) | ca. 203.700 bis 214.400 € [1][2] |
 | Privatverkauf (85 bis 100 %, minus 2.000 bis 10.000 €) | ca. 177.900 bis 219.000 € [2][25] |
 
-Rechenweg: 209.950 € minus 6.256,51 € ergibt 203.693,49 €; 221.000 € minus 6.585,80 € ergibt 214.414,20 €. In Pforzheim streuen die Preise stark, von 1.951 bis 4.519 €/m² [11]. Genau dort suchen Ankäufer ihre Marge. Für unsanierte Wohnungen gibt es außerdem eine Käufergruppe, die ein Ankäufer nicht bezahlt: Familien mit KfW 308 finanzieren Wohnungen der Klassen F, G und H mit bis zu 180.000 € zu 1,00 % [18].
+Rechenweg: 209.950 € minus 6.256,51 € ergibt 203.693,49 €; 221.000 € minus 6.585,80 € ergibt 214.414,20 €. In Pforzheim streuen die Preise stark, von 1.951 bis 4.519 €/m² [11]. Genau dort suchen Ankäufer ihre Marge. Für unsanierte Wohnungen gibt es außerdem eine Käufergruppe, die ein Ankäufer nicht bezahlt: Familien mit KfW 308 finanzieren Wohnungen der Klassen F, G und H mit bis zu 180.000 € zu {{fakten.kfw_308.zins}} effektiv (Stand {{fakten.kfw_308.zins.stand}}) [18].
 
 **Was kostet Warten?** Das hängt von Ihrer Lage ab. Ein Beispiel aus der Anschlussfinanzierung: Bei 400.000 € Kredit steigt die Rate von 667 € im Monat bei 1 % Zins und 1 % Tilgung auf rund 1.790 € bei 4 % und 2 %, gerechnet auf die nach zehn Jahren verbleibende Restschuld von rund 358.000 € [7]. Drei Monate kosten dann rund 5.370 €. Das ist weniger als die kleinste Differenz oben von rund 6.300 €. Das Beispiel gilt aber für einen Kredit von 400.000 €, nicht für Ihre Wohnung. Rechnen Sie mit Ihrer eigenen Rate und Ihrem Hausgeld.
-
-[ZU PRÜFEN: Sofortankauf-Untergrenze 60 % im Vergleich ist eine Setzung aus dem Briefing; die Quelle nennt 40 %. Bei 40 % läge der Erlös in Leonberg bei 116.000 €.]
 
 ## Wann Tempo wichtiger ist als Preis
 
@@ -141,7 +139,7 @@ Es gibt echte Gründe für Tempo:
 - Eine Anschlussfinanzierung, die nicht mehr tragbar ist. Laut Bundesbank sind bis 2027 rund 20 % des Kreditvolumens für Wohnimmobilien neu zu finanzieren, mit Zinsen von rund 2,5 % auf über 4 % [7].
 - Pflegekosten, die sofort fällig sind
 
-Machen Sie trotzdem die Gegenprobe: Reicht ein beschleunigter Maklerverkauf? Mit vorbereiteten Unterlagen und einem bewussten Preis halte ich 6 bis 10 Wochen bis zum Notartermin für möglich. [ZU PRÜFEN: Das ist eine Annahme aus dem Briefing, keine belegte Zahl.] Reicht das, ist der Abschlag unnötig. Vom Notartermin bis zum Geldeingang vergehen ohnehin 4 bis 12 Wochen [8]. Diese Zeit spart auch ein Ankäufer nur teilweise.
+Machen Sie trotzdem die Gegenprobe: Reicht ein beschleunigter Maklerverkauf? Mit vorbereiteten Unterlagen und einem bewussten Preis geht es deutlich schneller als in den üblichen drei bis fünf Monaten [23]; wie schnell, schätze ich für Ihre Wohnung im Verkaufsplan ein. <!-- Später ergänzen (N5): eigene Erfahrungszahl, Wochen bis zum Notartermin. --> Reicht das, ist der Abschlag unnötig. Vom Notartermin bis zum Geldeingang vergehen ohnehin 4 bis 12 Wochen [8]. Diese Zeit spart auch ein Ankäufer nur teilweise.
 
 Meine Regel: Einen Direktankauf biete ich erst an, wenn Sie den Maklerpreis kennen und trotzdem Tempo wollen.
 
@@ -157,7 +155,7 @@ Diese Liste gilt für jeden Ankäufer, ausdrücklich auch für mich.
 6. Kein Zeitdruck. Ein Angebot, das nur 24 Stunden gilt, ist ein Druckmittel.
 7. Eine unabhängige Bewertung vorher: Gutachterausschuss, BORIS-BW oder ein zweiter Makler.
 8. Den Notarvertrag vorab lesen: Rücktritt, Rückkauf, Haftungsausschluss, Fälligkeit. Beim beurkundeten Vertrag gibt es kein Widerrufsrecht [25].
-9. Den Vertrag prüfen lassen. Die Verbraucherzentrale prüft Verträge für 100 bis 300 € [20]. [ZU PRÜFEN: Preis der Vertragsprüfung bei der Verbraucherzentrale Baden-Württemberg]
+9. Den Vertrag prüfen lassen. Die Verbraucherzentrale prüft Verträge gegen Gebühr; eine Übersicht nennt 100 bis 300 € [20]. Den aktuellen Preis nennt Ihnen die Verbraucherzentrale Baden-Württemberg.
 10. Siegel einordnen. Siegel von Bewertungsplattformen sind keine Behördenprüfung [17].
 11. Bewertungen einordnen. Ein Anbieter hat auf Trustpilot 2,9 von 5 Punkten, das ist nicht repräsentativ [6].
 12. Steuer klären. Ob Spekulationssteuer anfällt, hängt von Ihrer Haltedauer und Nutzung ab, nicht vom Käufer (§ 23 EStG) [26].
@@ -168,12 +166,12 @@ Ich erbringe keine Rechtsberatung zu fremden Ankaufsverträgen. Dafür sind Verb
 
 Zwischen Sofortankauf und normaler Vermarktung liegt ein dritter Weg. Er kostet keinen Abschlag, sondern Vorbereitung:
 - Die Unterlagen sind vollständig, bevor das Inserat online geht.
-- Interessenten aus einer Kartei werden vorab angesprochen, etwa Anleger oder Familien mit KfW-308-Zusage [18].
+- Vorgemerkte Interessenten, falls es sie gibt, werden vorab angesprochen, etwa Anleger oder Familien mit KfW-308-Zusage [18].
 - Ein Bieterverfahren ist legal; laut einer Übersicht erzielt es 80 bis 105 % des Marktwerts [2]. Es ist eine Vermarktungsform ohne Zuschlagspflicht. Der Vertrag entsteht erst beim Notar.
 - Der Preis wird bewusst 3 bis 5 % unter dem Portaldurchschnitt angesetzt, um schnell viele Anfragen zu bekommen. Das ist eine Strategie, keine Garantie [12].
 - Der Notar bekommt früh einen vorbereiteten Entwurf.
 
-[LINUS: Bietest du das an? Wie groß ist deine Käuferkartei heute? Bitte eine ehrliche Zahl, sonst streichen wir den Kartei-Punkt.]
+<!-- Später ergänzen (N7): ob Linus den beschleunigten Verkauf ausdrücklich anbietet und wie groß die Käuferkartei ist (ehrliche Zahl). -->
 
 ## Häufige Fragen
 
@@ -239,7 +237,7 @@ Oder: [Beschleunigten Verkauf anfragen](/kontakt/) · nachgeordnet: [Direktankau
 2. immostage.ai, „Immobilie verkaufen: Strategien“ (2025): Sofortankauf 40 bis 90 %, FAQ 10 bis 60 %, Makler 95 bis 100 %, Privat 85 bis 100 %, Auktion/Bieterverfahren 80 bis 105 %; Angaben zu immobilien-erfahrung.de und Vobahome (via FinanceFwd): https://www.immostage.ai/bewertung/immobilie-verkaufen-strategien/
 3. Deutsche Grundinvest, Sofortkauf: https://www.deutsche-grund-invest.de/leistungen/sofortkauf (abgerufen 29.10.2026)
 4. Immobiliendirektankauf.de, Über uns: https://immobiliendirektankauf.de/ueber-uns (abgerufen 29.10.2026)
-5. immopaka, Stuttgart: http://www.immopaka.de/ (abgerufen 29.10.2026) [ZU PRÜFEN: Vergleichstabelle]
+5. immopaka, Stuttgart: http://www.immopaka.de/ (abgerufen 29.10.2026; die Vergleichstabelle auf der Seite war nicht lesbar)
 6. immobilien-sofortkauf.de: https://www.immobilien-sofortkauf.de/ ; Trustpilot: https://ch.trustpilot.com/review/immobilien-sofortkauf.de (abgerufen 29.10.2026)
 7. ad-hoc-news, 22.10.2026 (Bundesbank: ca. 20 % des Kreditvolumens bis 2027 zu refinanzieren; Beispiel 400.000 €: 667 € auf ca. 1.790 € monatlich): https://ad-hoc-news.de/wirtschaft/immobilienmarkt-54-3-prozent-der-verkaeufe-dauern-laenger-als-sechs-monate/70395215 ; marktthemen-2026.md Kap. 10b
 8. reduco.ai, „Wohnung verkaufen: Ablauf“, aktualisiert 17.08.2026 (Notartermin bis Geldeingang 4 bis 12 Wochen): https://reduco.ai/blog/immobilienverkauf/wohnung-verkaufen-ablauf
@@ -252,7 +250,7 @@ Oder: [Beschleunigten Verkauf anfragen](/kontakt/) · nachgeordnet: [Direktankau
 15. IHK Köln, Präsenzbeurkundung: https://www.ihk.de/koeln/hauptnavigation/recht-steuern/recht/online-gruendungen-notarielle-beurkundung-durch-videokonferenz-5962580
 16. BGH, Urteil vom 20.04.2023, I ZR 113/22 (Reservierungsvereinbarung in AGB unwirksam), nach marktthemen-2026.md Kap. 7b
 17. § 34c GewO: https://www.gesetze-im-internet.de/gewo/__34c.html ; Siegel keine Behördenprüfung: Recherche-Dossier 12.4
-18. KfW 308 „Jung kauft Alt“, 07.10.2026: https://www.baukostenplan.de/ratgeber/kfw-308-jung-kauft-alt-2026-neue-kreditbetraege
+18. KfW 308 „Jung kauft Alt“, Zins laut KfW-Konditionenanzeiger (Stand {{fakten.kfw_308.zins.stand}}): https://www.kfw-formularsammlung.de/KonditionenanzeigerINet/KonditionenAnzeiger ; Beträge laut baukostenplan.de, 07.10.2026: https://www.baukostenplan.de/ratgeber/kfw-308-jung-kauft-alt-2026-neue-kreditbetraege
 19. Grunderwerbsteuer Baden-Württemberg 5 %: https://www.finanz.de/steuern/grunderwerbsteuer/baden-wuerttemberg/
 20. Vertragsprüfung Verbraucherzentrale 100 bis 300 €, nach ImmoScout24 laut Suchergebnis (Recherche-Dossier 12.5)
 21. Verhandlungsspielraum Angebots- zu Kaufpreis ETW (ImmoScout24/Sprengnetter, Juli 2025), nach biallo.de (Recherche-Dossier 12.5)

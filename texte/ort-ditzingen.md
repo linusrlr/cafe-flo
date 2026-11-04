@@ -37,7 +37,7 @@ Mietwohnungen werden laut ImmoScout24, Homeday und Engel & Völkers für über 1
 - **Keine Mietpreisbremse, aber knapp.** Bei der Mietbelastung lag Ditzingen mit 20,7 Prozent um 0,1 Punkte unter der Schwelle des Landesgutachtens, obwohl die Angebotsmieten dort um 21,8 Prozent gestiegen sind [6]. Heute ist die Miete bei Neuvermietung frei vereinbar, bei der nächsten Neuberechnung kann sich das ändern.
 - **Hebesatz 250 Prozent, ab 2029 200 Prozent.** Die Stadt erhebt die Grundsteuer B von 2026 bis 2028 mit 250 Prozent und senkt den Satz zum 1. Januar 2029 auf 200 Prozent [7]. In Renningen sind es 190 Prozent; bei einer Eigentumswohnung bleibt der Unterschied klein.
 - **Käufer.** Trumpf beschäftigt rund 6.500 Menschen in Ditzingen und der Region Stuttgart, weltweit sank die Zahl bis Ende Juni 2026 auf 16.960 nach 18.303 ein Jahr zuvor [8]. Dazu kommen Pendler nach Stuttgart, Anleger und Familien, und auf diese Mischung richte ich die Vermarktung aus.
-- **Ältere Anlagen.** Bei Wohnungen der 1960er bis 1990er Jahre prüfe ich Protokolle, Rücklage und geplante Sonderumlagen, bevor ich einen Preis nenne; ein hohes Hausgeld mit gut gefüllter Rücklage ist ein Argument, ohne Erklärung schreckt es ab. Hat das Gebäude die Energieklasse F, G oder H, können Familien ohne Wohneigentum über KfW 308 bis zu 180.000 Euro zu 1,00 Prozent [ZU PRÜFEN: tagesaktueller KfW-Zinssatz] finanzieren [9].
+- **Ältere Anlagen.** Bei Wohnungen der 1960er bis 1990er Jahre prüfe ich Protokolle, Rücklage und geplante Sonderumlagen, bevor ich einen Preis nenne; ein hohes Hausgeld mit gut gefüllter Rücklage ist ein Argument, ohne Erklärung schreckt es ab. Hat das Gebäude die Energieklasse F, G oder H, können Familien ohne Wohneigentum über KfW 308 bis zu 180.000 Euro zu {{fakten.kfw_308.zins}} effektiv (Stand {{fakten.kfw_308.zins.stand}}) finanzieren [9].
 
 ## Kernstadt und Stadtteile
 
@@ -75,7 +75,7 @@ Belegen kann ich das mit Zahlen nicht, und ich behaupte es nicht. Pendler nach S
 
 ### Wie lange dauert der Verkauf in Ditzingen?
 
-Eine Zahl für Ditzingen habe ich noch nicht. Überregional lag die Vermarktungsdauer von Eigentumswohnungen im ersten Quartal 2026 im Schnitt von 24 Städten bei 90 Tagen [ZU PRÜFEN: Originalquelle GREIX] [15]. Bei 101 Angeboten im Ort gilt: Wer zu hoch einsteigt, wird übersehen.
+Eine Zahl für Ditzingen habe ich noch nicht. Überregional lag die Vermarktungsdauer von Eigentumswohnungen im ersten Quartal 2026 im Schnitt von 24 Städten bei 90 Tagen [15]. Bei 101 Angeboten im Ort gilt: Wer zu hoch einsteigt, wird übersehen.
 
 ### Was kostet mich der Verkauf in Ditzingen?
 
@@ -89,7 +89,7 @@ Schicken Sie mir die Eckdaten Ihrer Wohnung oder rufen Sie an. Ich melde mich in
 **[Button: Anrufen: 0159 05844641 → tel:+4915905844641]**
 
 Linus Rössler · Rössler Immobilien · Telefon 0159 05844641 · linus@roessler-immo.de
-[LINUS: Anschrift und Erreichbarkeit für den NAP-Block]
+{{fakten.firma.anschrift}} · telefonisch {{fakten.firma.erreichbarkeit}}
 
 ## Weitere Orte
 
@@ -107,13 +107,13 @@ Preisangaben sind Angebotspreise; Stand je Quelle, abgerufen bis 29.10.2026.
 6. Ministerium für Landesentwicklung und Wohnen BW, Mietpreisbremse, Einzeldaten aller Städte und Gemeinden, Stand August 2025 (Gutachten FUB IGES): https://mlw.baden-wuerttemberg.de/fileadmin/redaktion/m-mlw/intern/Dateien/03_Bauen-Wohnen/Wohnungsbau/Mietpreisbremse/2025/Mietpreisbremse-Einzeldaten_aller_Staedte_und_Gemeinden_Stand_August_2025.xlsx
 7. Stadt Ditzingen, Steuern und Gebühren (Grundsteuer B 250 % 2026 bis 2028, 200 % ab 2029): https://www.ditzingen.de/service-rathaus/steuern-gebuehren-1 ; Stadt Renningen, Grund- und Gewerbesteuer (190 %): https://www.renningen.de/wirtschaft/wirtschaftsstandort/grund-gewerbesteuer/
 8. Stuttgarter Zeitung, Bericht zu Trumpf (16.960 Beschäftigte weltweit Ende Juni 2026, Vorjahr 18.303, rund 6.500 in Ditzingen und Region Stuttgart), 2026: https://www.stuttgarter-zeitung.de/wirtschaft/bonuszahlung-aufschwung-bei-trumpf-so-viel-zahlt-der-konzern-seinen-beschaeftigten-79574006.html
-9. KfW 308 „Jung kauft Alt“, Kredithöchstbeträge seit 03.08.2026, Zins 1,00 % effektiv, Stand 07.10.2026: https://www.baukostenplan.de/ratgeber/kfw-308-jung-kauft-alt-2026-neue-kreditbetraege
+9. KfW 308 „Jung kauft Alt“, Kredithöchstbeträge seit 03.08.2026, Zins {{fakten.kfw_308.zins}} effektiv laut KfW-Konditionenanzeiger (Stand {{fakten.kfw_308.zins.stand}}): https://www.kfw-formularsammlung.de/KonditionenanzeigerINet/KonditionenAnzeiger ; Beträge laut baukostenplan.de, Stand 07.10.2026: https://www.baukostenplan.de/ratgeber/kfw-308-jung-kauft-alt-2026-neue-kreditbetraege
 10. Stadt Ditzingen, Imagebroschüre (Eingemeindungen 1971/1975): https://www.ditzingen.de/fileadmin/Dateien/Dateien/Daten_Fakten/Imagebroschuere.pdf
 11. Wikipedia, Artikel Ditzingen (Bahnhof mit über 8.000 Pendlern täglich, S6/S62, Trumpf), abgerufen 29.10.2026: https://de.wikipedia.org/wiki/Ditzingen
 12. Von Poll Immobilien Leonberg, Angebotsslider (71254 Ditzingen/Hirschlanden, 4,5 Zimmer, ca. 108 m², Tiefgarage, 362.000 €), abgerufen Oktober 2026: https://www.von-poll.com/de/immobilienmakler/leonberg
 13. iep wohnen GmbH, Leonberg, Projektliste (Ditzingen-Heimerdingen), abgerufen Oktober 2026
 14. Rössler Immobilien, FAQ Provision 2,98 % inkl. USt je Seite, https://roessler-immo.de (Stand Oktober 2026)
-15. reduco.ai, Vermarktungsdauer Eigentumswohnungen Q1 2026 (GREIX/IfW Kiel, 24 Städte, 90 Tage): https://reduco.ai/blog/energieausweis/energieausweis-wohnung-eigentumswohnung
+15. GREIX Kaufpreisindex 2026 Q1 (Kiel Institut und Gutachterausschüsse, 07.05.2026): Vermarktungsdauer Eigentumswohnungen im ersten Quartal 2026 im Durchschnitt der 24 ausgewerteten Städte 90 Tage. https://cloud-data-greix-website.s3.eu-central-1.amazonaws.com/website/Documentation/kaufpreisindex_2026q1.pdf
 16. Grunderwerbsteuer Baden-Württemberg 5 Prozent seit 05.11.2011, Verfahrensbeschreibung service-bw über Stadt Karlsruhe: https://web1.karlsruhe.de/service/Buergerdienste/leistung.php?id=413
 
 <!-- Fragen an Linus:

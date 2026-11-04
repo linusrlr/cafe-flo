@@ -16,7 +16,7 @@ status: Entwurf, nicht veröffentlicht
 
 Eine Eigentumswohnung im Alter ist etwas anderes als ein Haus. Sie hat ein Hausgeld, eine Gemeinschaft, die über Heizung und Fassade abstimmt, und oft eine Treppe ohne Aufzug. Diese Seite vergleicht den Verkauf mit den Modellen aus den Zeitungsbeilagen, mit Zahlen aus Leonberg und Pforzheim. Dazu: Pflegefall, Vollmacht und Betreuungsgericht.
 
-Zu meiner Rolle: Ich vermittle keine Verrentungsprodukte, keinen Teilverkauf und keine Leibrente, und ich bekomme dafür keine Tippgeberprovision. [LINUS: Bitte bestätigen, dass das so stimmt und bleibt.] Ich verdiene am Verkauf, 2,98 % des Kaufpreises einschließlich Umsatzsteuer, nur bei Notarvertrag [21]. Und ich kaufe in Einzelfällen selbst an; das sage ich Ihnen, bevor wir über einen Preis sprechen.
+Zu meiner Rolle: Ich verdiene am Verkauf, 2,98 % des Kaufpreises einschließlich Umsatzsteuer, nur bei Notarvertrag [21]. Und ich kaufe in Einzelfällen selbst an; das sage ich Ihnen, bevor wir über einen Preis sprechen.
 
 ## Das Wichtigste in Kürze
 
@@ -72,7 +72,7 @@ Beide Rechte stehen im Grundbuch und überleben den Verkauf. Der Nießbrauch (§
 
 Beim Nießbrauch tragen Sie die Grundsteuer (§ 1047 BGB) und die gewöhnliche Instandhaltung (§ 1041 BGB); größere Erneuerungen trägt der Eigentümer. Beim Wohnungsrecht liegt die Last grundsätzlich beim Eigentümer, in der Praxis wird fast immer etwas anderes vereinbart [4]. Bei der Eigentumswohnung kommt das Hausgeld dazu: Gegenüber der Gemeinschaft schuldet es der Eigentümer, intern wird es meist auf den Berechtigten abgewälzt. Wer das nicht regelt, streitet später.
 
-Die Verbraucherzentrale ordnet es so ein: Das Wohnrecht hat den kleineren Abzug, verliert aber seinen Nutzen, wenn Sie ins Pflegeheim ziehen. Der Nießbrauch kostet mehr, erlaubt aber dann die Vermietung [6].
+Die Einordnung: Das Wohnrecht hat den kleineren Abzug, verliert aber seinen Nutzen, wenn Sie ins Pflegeheim ziehen. Der Nießbrauch kostet mehr, erlaubt aber dann die Vermietung [6].
 
 Der Abschlag nach § 14 Bewertungsgesetz: Jahresmiete mal Vervielfältiger, abhängig von Alter und Geschlecht. Die Vervielfältiger stammen aus dem Modell von reduco auf Grundlage des BMF-Schreibens vom 21.10.2025 [4]:
 
@@ -114,13 +114,13 @@ Wer nur Geld braucht und bleiben will, sollte zuerst die Bank fragen. Die Verbra
 
 Seitdem sind die Bauzinsen gestiegen, auf 4,2 bis 4,5 % für zehn Jahre Ende Oktober 2026 [18]. Die Hürde ist die Kreditwürdigkeitsprüfung (§ 505a BGB), bei der Banken auf das Einkommen schauen.
 
-reduco rechnet bei 120.000 € Bedarf über 15 Jahre: Das Darlehen ist rund 69.000 € günstiger als der Teilverkauf. Bei 4,5 % statt 3,3 % schrumpft der Vorteil, er kehrt sich aber nicht um. Für den altersgerechten Umbau gibt es das KfW-Programm 159 mit bis zu 50.000 € je Wohneinheit [4] [ZU PRÜFEN: aktuelle Konditionen und Verfügbarkeit auf kfw.de]. Das ist keine Finanzberatung; fragen Sie Ihre Hausbank und die Verbraucherzentrale Baden-Württemberg.
+reduco rechnet bei 120.000 € Bedarf über 15 Jahre: Das Darlehen ist rund 69.000 € günstiger als der Teilverkauf. Bei 4,5 % statt 3,3 % schrumpft der Vorteil, er kehrt sich aber nicht um. Für den altersgerechten Umbau gibt es das KfW-Programm 159 mit bis zu 50.000 € je Wohneinheit [4]; im KfW-Konditionenanzeiger ist es am 03.11.2026 mit Zinsen gelistet. Das ist keine Finanzberatung; fragen Sie Ihre Hausbank und die Verbraucherzentrale Baden-Württemberg.
 
 ## Pflegefall: Muss ich die Wohnung verkaufen, wenn ich ins Heim ziehe?
 
 Die Hilfe zur Pflege nach dem SGB XII ist nachrangig. Das Sozialamt zahlt erst, wenn Rente, Pflegeversicherung und Vermögen nicht reichen. Geschützt sind nach § 90 Abs. 2 SGB XII ein Schonvermögen von 10.000 € je Person, 20.000 € bei Ehepaaren, und ein angemessenes Hausgrundstück, solange Sie oder Ihr Ehepartner darin wohnen (§ 90 Abs. 2 Nr. 8 und 9 SGB XII; § 1 der Verordnung zu § 90 Abs. 2 Nr. 9 SGB XII) [8].
 
-Als Orientierung für „angemessen“ nennt ImmoScout24 120 m² für vier Personen, 20 m² weniger je fehlender Person, für einen allein lebenden Ehepartner bis 70 m² [8] [ZU PRÜFEN: Praxis der Sozialämter in Baden-Württemberg].
+Als Orientierung für „angemessen“ nennt ImmoScout24 120 m² für vier Personen, 20 m² weniger je fehlender Person, für einen allein lebenden Ehepartner bis 70 m² [8]. Wie das Sozialamt im Einzelfall entscheidet, kann davon abweichen.
 
 Zieht der Pflegebedürftige dauerhaft ins Heim und niemand bleibt in der Wohnung, entfällt der Schutz. Es muss aber nicht sofort der Verkauf sein: Ist ein sofortiger Verkauf nicht möglich oder wäre er eine Härte, soll das Amt die Hilfe als Darlehen leisten; es kann verlangen, dass der Rückzahlungsanspruch zum Beispiel mit einer Grundschuld gesichert wird (§ 91 SGB XII) [9]. Das verschafft Zeit.
 
@@ -151,7 +151,7 @@ Hier scheitern Verkäufe, bevor sie anfangen. Drei Fälle.
 
 **Es gibt einen Betreuer.** Er braucht für Verfügung und Kaufvertrag die Genehmigung des Betreuungsgerichts (§ 1850 Nr. 1 und 5 BGB) [13]. Bis dahin ist der Vertrag schwebend unwirksam. Das Gericht prüft den Preis gutachterlich, und das dauert laut Bundesnotarkammer „mehrere Monate“.
 
-Der Betreuer muss den Verkehrswert sorgfältig ermitteln, in der Regel mit Gutachten [11].
+Das Betreuungsgericht muss den Verkauf genehmigen und will dafür in der Regel einen Wertnachweis sehen [11].
 
 Beispiel: Der Vater aus Pforzheim-Buckenberg zieht ins Pflegeheim, der Sohn aus Ditzingen verkauft als Betreuer. Die Dauern sind Annahmen, keine Zusagen:
 
@@ -175,7 +175,7 @@ Pforzheim ist anders. 45 % der Haushalte sind Einpersonenhaushalte, die Bevölke
 
 Ankäufer werben gezielt um Senioren und deren Kinder, etwa mit „Wir kaufen Deine Wohnung. Und die Deiner Eltern!“ und einer Kaufpreiszusage in 24 Stunden [20]. Solche Angebote liegen unter dem Marktpreis, weil der Ankäufer Kosten, Risiko und Gewinn einkalkuliert.
 
-Auch ich kaufe in Einzelfällen selbst an, und mein Angebot liegt aus denselben Gründen unter dem Preis, den ich als Makler anstreben würde. Deshalb gilt bei Senioren und Bevollmächtigten eine feste Reihenfolge: erst die schriftliche Einschätzung als Makler, dann, falls gewünscht, ein Ankaufsangebot mit Abschlag in Prozent, Bedenkzeit und der Empfehlung einer zweiten Meinung. [LINUS: Bedenkzeit in Tagen nennen. Kaufst du überhaupt von Bevollmächtigten oder Betreuern an? Wenn nein, hier sagen.] Den Vergleich beider Wege zeigt der Ratgeber [Sofortankauf oder Makler?](/ratgeber/sofortankauf-vs-makler/).
+Auch ich kaufe in Einzelfällen selbst an, und mein Angebot liegt aus denselben Gründen unter dem Preis, den ich als Makler anstreben würde. Deshalb gilt eine feste Reihenfolge: erst die schriftliche Einschätzung als Makler, dann, falls gewünscht, ein Ankaufsangebot mit Abschlag in Prozent, {{fakten.ankauf.bedenkzeit}} Bedenkzeit und der Empfehlung einer zweiten Meinung. <!-- Später ergänzen (N7): ob Linus von Bevollmächtigten oder Betreuern ankauft. --> Den Vergleich beider Wege zeigt der Ratgeber [Sofortankauf oder Makler?](/ratgeber/sofortankauf-vs-makler/).
 
 Beim Vollverkauf erben die Kinder das Geld, das Sie nicht verbraucht haben. Freibeträge: 400.000 € je Kind, 500.000 € für Ehegatten, 200.000 € für Enkel [15]. Die Leonberger Wohnung bleibt bei einem Kind damit steuerfrei, auch als Geld. Das Bundesverfassungsgericht hat im Oktober 2026 über die Freibeträge verhandelt; ein Urteil steht aus. Beim Teilverkauf bleibt nach dem SVRV-Beispiel etwa ein Drittel des Teilkaufpreises, bei der Leibrente wenig bis nichts. Mehr zum Erbfall steht im Ratgeber [Geerbte Wohnung verkaufen](/ratgeber/geerbte-wohnung-verkaufen/).
 
@@ -251,12 +251,12 @@ Ich melde mich innerhalb eines Werktags, meist telefonisch. Telefon 0159 0584464
 3. immo.info, „Teilverkauf-Anbieter: Aktuelle Konditionen und Kosten“, aktualisiert 22.10.2026 (Wertfaktor, Deutsche Teilkauf, EV Liquidhome, Volksbank reduziert oder eingestellt). https://immo.info/immobilienrente-teilverkauf/teilverkauf-haus/
 4. reduco.ai, „Haus verkaufen und wohnen bleiben 2026: 4 Modelle im Vergleich“, aktualisiert 16.08.2026: Vervielfältiger nach § 14 BewG (BMF-Schreiben 21.10.2025), Modellfall 450.000 €, Teilverkaufskonditionen (4,99 %, 5,5 %, 117 %, 17 %), Ertragsanteile § 22 Nr. 1 S. 3 EStG, SVRV-Leibrentenbeispiel, Kredit im Alter (VZ Januar 2026 ab 3,3 %, § 505a BGB, § 491 Abs. 3 S. 4 BGB, KfW 159, 15-Jahres-Vergleich 69.000 €), Rückmietverkauf § 573 BGB. https://reduco.ai/blog/immobilienverkauf/haus-verkaufen-wohnen-bleiben
 5. Sachverständigenrat für Verbraucherfragen, Gutachten Gsell/Artz vom 25.11.2024 (Teilverkauf: von 200.000 € bleiben 72.000 €), zitiert nach reduco [4]; Verbraucherzentrale Hamburg, Broschüre „Immobilienrente“ 2023/2024 („teuer“, „Risiko einseitig“). https://www.vzhh.de/sites/default/files/medien/136/dokumente/2023-2024_Verbraucherzentrale_Broschuere_Immobilienrente_Web_0.pdf
-6. Verbraucherzentrale, Einordnung Wohnrecht gegen Nießbrauch (geringerer Abzug, Nutzen im Pflegefall), laut Rechercheprotokoll themen-und-lokal.md 10.5 [ZU PRÜFEN: genaue Fundstelle auf verbraucherzentrale.de].
+6. Nießbrauch: Recht, die Nutzungen zu ziehen, also auch zu vermieten (§ 1030 BGB): https://www.gesetze-im-internet.de/bgb/__1030.html ; Wohnungsrecht: Recht, ein Gebäude oder einen Teil davon unter Ausschluss des Eigentümers als Wohnung zu nutzen (§ 1093 BGB), Überlassung an andere nur, wenn gestattet (§ 1092 BGB): https://www.gesetze-im-internet.de/bgb/__1093.html
 7. Verbraucherzentrale, „Verkauf der Immobilie gegen Rentenzahlung (Leibrente)“, Stand 16.12.2024: Formel Nettowert minus Wohnwert, Beispiel 250.000 € minus 144.000 € = 106.000 € bzw. 588 €/Monat, Zeitrenten, Grundbuchabsicherung. https://www.verbraucherzentrale.de/wissen/geld-versicherungen/altersvorsorge/verkauf-der-immobilie-gegen-rentenzahlung-leibrente-102201
 8. ImmoScout24, „Umzug ins Pflegeheim: Haus verkaufen oder behalten?“, aktualisiert 22.08.2023: Nachrang der Hilfe zur Pflege, Schonvermögen § 90 Abs. 2 Nr. 8 und 9 SGB XII, Wohnflächen-Orientierung, Angehörigen-Entlastungsgesetz 100.000 €, § 528 BGB. https://www.immobilienscout24.de/wissen/verkaufen/hausverkauf-bei-pflegefall.html ; Schonvermögen 10.000 € je volljähriger Person (ImmoScout24 nennt veraltet 5.000 €): § 1 Nr. 1 der Verordnung zur Durchführung des § 90 Abs. 2 Nr. 9 SGB XII, Fassung seit 01.01.2023, https://www.gesetze-im-internet.de/bshg_88abs2dv_1988/__1.html ; § 90 SGB XII: https://www.gesetze-im-internet.de/sgb_12/__90.html (abgerufen 03.11.2026).
 9. § 91 SGB XII (Darlehen bei Vermögen, dessen sofortige Verwertung nicht möglich ist oder eine Härte wäre; dingliche Sicherung möglich): https://www.gesetze-im-internet.de/sgb_12/__91.html (abgerufen 03.11.2026)
 10. § 102 SGB XII (Kostenersatz durch Erben: Kosten der letzten zehn Jahre vor dem Erbfall über dem Dreifachen des Grundbetrags, Haftung mit dem Nachlasswert, Erlöschen drei Jahre nach dem Tod): https://www.gesetze-im-internet.de/sgb_12/__102.html (abgerufen 03.11.2026)
-11. BGH zur Pflicht des Betreuers, den Verkehrswert sorgfältig zu ermitteln (in der Regel Gutachten), nach IWW-Auszug (Rechercheprotokoll 10.5) [ZU PRÜFEN: Aktenzeichen].
+11. § 1850 BGB, Genehmigung des Betreuungsgerichts für Verfügungen über Grundstücke: https://www.gesetze-im-internet.de/bgb/__1850.html
 12. ImmoScout24, „Immobilie bei Demenz verkaufen“ (Geschäftsfähigkeit bei Beurkundung). https://www.immobilienscout24.de/wissen/verkaufen/immobilie-bei-demenz-verkaufen.html ; „Immobilienverkauf durch Betreuer“. https://www.immobilienscout24.de/wissen/verkaufen/immobilie-durch-betreuer-verkaufen.html
 13. § 1850 BGB (Genehmigung des Betreuungsgerichts für Verfügung über ein Grundstück, Nr. 1, und Verpflichtung dazu, Nr. 5). https://www.gesetze-im-internet.de/bgb/__1850.html (abgerufen 29.10.2026)
 14. Bundesnotarkammer, Pressemitteilung „Auf eine notarielle Vorsorgevollmacht sollten Immobilieneigentümer nicht verzichten“: Kaufvertrag schwebend unwirksam bis Genehmigung, gutachterliche Preisprüfung, Dauer „mehrere Monate“, § 29 Abs. 1 GBO. https://notar.de/fileadmin/user_upload_notarde/pressemitteilungen/presseportal_auf-eine-notarielle-vorsorgevollmacht-sollten-immo_3810744.pdf

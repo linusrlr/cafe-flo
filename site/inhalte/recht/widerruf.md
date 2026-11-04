@@ -12,8 +12,8 @@ Schließen Sie als Verbraucherin oder Verbraucher einen Maklervertrag mit mir au
 
 ## Widerrufsbelehrung
 
-[LINUS: Muster-Widerrufsbelehrung für Maklerverträge vom Anwalt hier einsetzen (Widerrufsrecht, Widerrufsfrist 14 Tage, Folgen des Widerrufs, Hinweis auf vorzeitigen Leistungsbeginn)]
+[LINUS: Anwalt, Fragebogen A1: Muster-Widerrufsbelehrung für Maklerverträge hier einsetzen (Widerrufsrecht, Widerrufsfrist 14 Tage, Folgen des Widerrufs, Hinweis auf vorzeitigen Leistungsbeginn)]
 
 ## Muster-Widerrufsformular
 
-[LINUS: Muster-Widerrufsformular nach Anlage 2 zu Art. 246a § 1 Abs. 2 Satz 1 Nr. 1 EGBGB vom Anwalt hier einsetzen]
+[LINUS: Anwalt, Fragebogen A1: Muster-Widerrufsformular nach Anlage 2 zu Art. 246a § 1 Abs. 2 Satz 1 Nr. 1 EGBGB hier einsetzen]

@@ -13,15 +13,13 @@ status: entwurf
 ## Verantwortlicher
 
 Linus Rössler
-Am Rück 19, 97618 Niederlauer
+{{fakten.firma.anschrift}}
 Telefon {{fakten.firma.telefon}}
 E-Mail {{fakten.firma.email}}
 
-[LINUS: Anschrift nach der Standortentscheidung bestätigen (Frage 1.1)]
-
 ## Aufruf dieser Website
 
-Beim Aufruf werden vom Server automatisch Zugriffsdaten erfasst: gekürzte IP-Adresse, Datum und Uhrzeit, aufgerufene Seite, übertragene Datenmenge, Browsertyp und Betriebssystem. Diese Verarbeitung erfolgt zur technischen Bereitstellung und Sicherheit der Seite auf Grundlage meines berechtigten Interesses nach Art. 6 Abs. 1 lit. f DSGVO. Die Protokolle werden nach spätestens 14 Tagen gelöscht. [ZU PRÜFEN: Kürzung der IP-Adresse und Löschfrist nach der Server-Einrichtung bestätigen (deploy/nginx-roessler-immo.conf)]
+Beim Aufruf werden vom Server automatisch Zugriffsdaten erfasst: gekürzte IP-Adresse, Datum und Uhrzeit, aufgerufene Seite, übertragene Datenmenge, Browsertyp und Betriebssystem. Diese Verarbeitung erfolgt zur technischen Bereitstellung und Sicherheit der Seite auf Grundlage meines berechtigten Interesses nach Art. 6 Abs. 1 lit. f DSGVO. Die Protokolle werden nach spätestens 14 Tagen gelöscht. <!-- IP-Kürzung: deploy/nginx-roessler-immo.conf (log_format anon). 14 Tage: logrotate auf dem Server einrichten, Prüfpunkt in LAPTOP-FRAGEBOGEN.md, Abschnitt Veröffentlichungstag. -->
 
 Aus diesen Protokollen werte ich ohne Personenbezug aus, wie oft Seiten aufgerufen werden. Es gibt kein Tracking und keine Analysedienste von Dritten.
 
@@ -79,4 +77,4 @@ Wenden Sie sich dafür an die oben genannten Kontaktdaten.
 
 ## Beschwerderecht
 
-Sie können sich bei einer Datenschutz-Aufsichtsbehörde beschweren. Für meinen Sitz zuständig ist das Bayerische Landesamt für Datenschutzaufsicht, Promenade 18, 91522 Ansbach. [LINUS: Bei Sitz in Baden-Württemberg: Landesbeauftragter für den Datenschutz und die Informationsfreiheit Baden-Württemberg, Stuttgart]
+Sie können sich bei einer Datenschutz-Aufsichtsbehörde beschweren. Für meinen Sitz zuständig ist {{fakten.firma.datenschutzaufsicht}}.

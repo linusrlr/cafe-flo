@@ -34,21 +34,17 @@ Als Ihr Makler arbeite ich für Sie. Wenn ich Ihre Wohnung selbst kaufen möchte
 
 Beruflich habe ich im Projektcontrolling und in der Bewertung von Wohnungen gearbeitet. Meine eigene Wohnung habe ich gekauft, renoviert und anschließend vermietet. Einen großen Teil der Renovierungsarbeiten habe ich selbst übernommen.
 
-Die Stationen im Einzelnen:
+2026 habe ich Rössler Immobilien gegründet.
 
-- [LINUS: Studium Wirtschaftsingenieurwesen, Hochschule, Abschluss, Jahr]
-- [LINUS: Station Projektcontrolling, Arbeitgeber oder Branche, Zeitraum, was Sie dort konkret gemacht haben]
-- [LINUS: Station Wohnungsbewertung, Arbeitgeber oder Branche, Zeitraum, wie viele Wohnungen Sie dort bewertet haben]
-- [LINUS: Kauf der eigenen Wohnung, Jahr]
-- 2026: Gründung von Rössler Immobilien
+<!-- Später ergänzen (Nach dem Livegang N1): Stationen im Einzelnen. Studium Wirtschaftsingenieurwesen (Hochschule, Abschluss, Jahr); Projektcontrolling (Arbeitgeber oder Branche, Zeitraum, Aufgaben); Wohnungsbewertung (Arbeitgeber oder Branche, Zeitraum, Zahl bewerteter Wohnungen); Kauf der eigenen Wohnung (Jahr). -->
 
 Aus dem Controlling bringe ich die Gewohnheit mit, Annahmen aufzuschreiben und nachzurechnen. Aus der Bewertung die Erfahrung, dass bei Eigentumswohnungen nicht die Wohnung allein zählt, sondern das Gebäude, die Rücklage und die Beschlüsse der Gemeinschaft.
 
-## Meine eigene Wohnung als Fallbeispiel
+## Meine eigene Wohnung
 
 Das ist der Teil, den ich nicht aus Büchern kenne.
 
-[LINUS: Ort und Stadtteil, Baujahr des Gebäudes, Wohnfläche, Zimmer, Kaufjahr und Kaufpreis grob oder als Preis je Quadratmeter, welche Arbeiten Sie gemacht haben (Bad, Böden, Elektrik, Küche), was davon selbst, Kosten grob, Dauer der Renovierung, Miete heute, Hausgeld umlagefähig und nicht umlagefähig, Rücklagenanteil laut letztem Vermögensbericht, welche Sanierungen die WEG seitdem beschlossen hat]
+<!-- Später ergänzen (Nach dem Livegang N3): Ort und Stadtteil, Baujahr, Wohnfläche, Zimmer, Kaufjahr und Kaufpreis grob oder je m², Arbeiten (Bad, Böden, Elektrik, Küche), was selbst, Kosten grob, Dauer, Miete heute, Hausgeld umlagefähig und nicht umlagefähig, Rücklagenanteil, von der WEG beschlossene Sanierungen. -->
 
 <!-- Vorher-nachher-Fotos aus der Renovierung, falls vorhanden. Keine Adresse, kein Hausname. -->
 
@@ -58,23 +54,23 @@ Diese Erfahrung nutze ich beim Blick auf Ihre Wohnung: Welche Unterlagen werden 
 
 ## Warum Heimsheim, Leonberg und Pforzheim
 
-[LINUS: Ihr Bezug zur Region in zwei bis vier Sätzen. Zum Beispiel: aufgewachsen in, wohnhaft in, Familie in, eigene Wohnung in, Arbeitsstelle war in. Dieser Absatz beantwortet die Frage, die das Impressum aufwirft, wenn dort eine Adresse außerhalb der Region steht.]
+<!-- Später ergänzen (Nach dem Livegang N2): Bezug zur Region in zwei bis vier Sätzen (aufgewachsen in, wohnhaft in, Familie, eigene Wohnung, Arbeitsstelle). Wichtig, falls das Impressum eine Adresse außerhalb der Region nennt. -->
 
 Die fünf Orte hängen zusammen. Leonberg, Ditzingen und Renningen liegen an der S-Bahn nach Stuttgart, Heimsheim dazwischen im Heckengäu, Pforzheim am anderen Ende der A8 mit deutlich niedrigeren Preisen. Wer in Leonberg nicht fündig wird, schaut nach Renningen oder Heimsheim; wer in Pforzheim kauft, vergleicht oft mit dem Enzkreis. Diese Wege kenne ich, und sie bestimmen, wem ich Ihre Wohnung zeige.
 
 ## Was ich nicht mache
 
 - **Häuser.** Nur in Ausnahmen, etwa wenn ein Eigentümer, dessen Wohnung ich verkaufe, auch ein Haus hat. Mein Wissen liegt bei Teilungserklärung, Hausgeld, Rücklage und Verwaltung, nicht bei Dachstuhl und Grundstück.
-- **Steuer- und Rechtsberatung.** Ich erkläre, wo die Zehnjahresfrist oder die Verwalterzustimmung ins Spiel kommt. Was das für Ihren Fall bedeutet, klären Steuerberater, Anwalt oder Notar. Ich nenne Ihnen gern jemanden [LINUS: Kontakte in der Region, falls vorhanden].
-- **Massenvermarktung.** Keine Sammelbesichtigungen, keine zwanzig Objekte gleichzeitig. Ich betreue so viele Verkäufe, wie ich persönlich besichtigen, berichten und verhandeln kann [LINUS: Zahl nennen, zum Beispiel „höchstens sechs zugleich“].
+- **Steuer- und Rechtsberatung.** Ich erkläre, wo die Zehnjahresfrist oder die Verwalterzustimmung ins Spiel kommt. Was das für Ihren Fall bedeutet, klären Steuerberater, Anwalt oder Notar. <!-- Später ergänzen (N4): Kontakte in der Region, dann wieder „Ich nenne Ihnen gern jemanden.“ -->
+- **Massenvermarktung.** Keine Sammelbesichtigungen, keine zwanzig Objekte gleichzeitig. Ich betreue so viele Verkäufe, wie ich persönlich besichtigen, berichten und verhandeln kann. <!-- Später ergänzen (N5): Höchstzahl gleichzeitiger Verkäufe. -->
 - **Sofortwert-Rechner.** Auf dieser Website gibt es keinen Knopf, der in drei Sekunden einen Preis ausgibt. Ein Rechner kennt weder das Hausgeld noch die Rücklage noch die Sonderumlage, die die letzte Versammlung beschlossen hat. Bei Eigentumswohnungen entscheiden genau diese Punkte über zehn oder zwanzig Prozent des Preises. Deshalb kommt die Preisspanne von mir, nach einem Blick in die Unterlagen, schriftlich und mit Begründung.
 
 ## Qualifikation und Erlaubnis
 
-- Wirtschaftsingenieur [LINUS: Abschluss, Hochschule, Jahr]
-- Berufserfahrung in Projektcontrolling und Wohnungsbewertung [LINUS: Jahre]
-- [LINUS: Weiterbildungen, Zertifikate, Mitgliedschaft IVD oder BVFI geplant?]
-- Ich habe die Erlaubnis als Immobilienmakler nach § 34c Abs. 1 Satz 1 Nr. 1 GewO, erteilt am [LINUS: Datum] durch die [LINUS: ausstellende IHK], Aktenzeichen [LINUS: Aktenzeichen]. Ich vermittle Eigentumswohnungen an Käufer und stelle Ihnen auf Wunsch Investoren vor; von wem ich dabei eine Vergütung erhalte, erfahren Sie immer vorher.
+- Wirtschaftsingenieur
+- Berufserfahrung in Projektcontrolling und Wohnungsbewertung
+<!-- Später ergänzen (N1): Abschluss, Hochschule, Jahr; Berufsjahre; Weiterbildungen, Zertifikate, Mitgliedschaft IVD oder BVFI. -->
+- Ich habe die Erlaubnis als Immobilienmakler nach § 34c Abs. 1 Satz 1 Nr. 1 GewO, erteilt am {{fakten.erlaubnis.erteilt_am|lang}} durch die {{fakten.erlaubnis.behoerde}}, Aktenzeichen {{fakten.erlaubnis.aktenzeichen}}. Ich vermittle Eigentumswohnungen an Käufer und stelle Ihnen auf Wunsch Investoren vor; von wem ich dabei eine Vergütung erhalte, erfahren Sie immer vorher.
 <!-- 03.11.2026: Erlaubnis laut Linus erteilt (Baustein B, wert_erteilt). Datum, IHK und Aktenzeichen aus dem Bescheid eintragen (fakten.erlaubnis.erteilt_am, .behoerde, .aktenzeichen). Vor Veröffentlichung von einer Anwältin/einem Anwalt für Gewerberecht prüfen lassen. -->
 - Als Makler unterliege ich der Makler- und Bauträgerverordnung und dem Geldwäschegesetz; deshalb muss ich Vertragsparteien vor dem Abschluss identifizieren.
 

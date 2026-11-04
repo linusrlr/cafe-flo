@@ -36,7 +36,7 @@ Ich prüfe Lage, Zustand und vergleichbare Wohnungen in der Umgebung. Dazu komme
 
 ### Welche Käufer passen zur Wohnung?
 
-Bei einer vermieteten Wohnung interessieren sich Anleger besonders für Miete, laufende Kosten und anstehende Arbeiten. Wer selbst einziehen möchte, schaut stärker auf Grundriss, Zustand und Einzugstermin. Seit August 2026 kommt ein Punkt dazu: Familien erhalten für Bestandswohnungen der Energieklassen F bis H ein KfW-Darlehen zu 1,00 % effektiv [2]. Darauf stimme ich Exposé und Vermarktung ab.
+Bei einer vermieteten Wohnung interessieren sich Anleger besonders für Miete, laufende Kosten und anstehende Arbeiten. Wer selbst einziehen möchte, schaut stärker auf Grundriss, Zustand und Einzugstermin. Seit August 2026 kommt ein Punkt dazu: Familien erhalten für Bestandswohnungen der Energieklassen F bis H ein KfW-Darlehen zu {{fakten.kfw_308.zins}} effektiv (Stand {{fakten.kfw_308.zins.stand}}) [2]. Darauf stimme ich Exposé und Vermarktung ab.
 
 ### Lohnt sich eine Vorbereitung?
 
@@ -61,7 +61,7 @@ Versprechen, die Sie prüfen können.
 1. **Antwort innerhalb eines Werktags.** Auf jede Anfrage, meist telefonisch.
 2. **Schriftlicher Verkaufsplan vor der Vermarktung.** Keine Veröffentlichung, bevor Preis, Käufergruppen und Vorbereitung auf Papier stehen und Sie zugestimmt haben.
 3. **Provision 2,98 % je Seite, nur bei Notarvertrag.** Keine Vorkosten, keine Pauschalen, kein Honorar ohne Abschluss.
-4. **Einzelbesichtigungen nur mit geprüfter Finanzierung.** Vor einem Einzeltermin frage ich, wie der Kauf finanziert werden soll, und bitte um einen Nachweis. [LINUS: bestätigen, ob Nachweis vor der Besichtigung oder erst vor dem Angebot verlangt wird]
+4. **Käufer mit geprüfter Finanzierung.** Ich frage jeden Interessenten, wie der Kauf finanziert werden soll, und verlange einen Nachweis {{fakten.zusagen.finanzierungsnachweis}}.
 5. **Wöchentlicher Stand per E-Mail oder Anruf.** Anfragen, Besichtigungen, Rückmeldungen, nächste Schritte.
 
 ## Vermittlung oder Direktankauf
@@ -75,10 +75,10 @@ Versprechen, die Sie prüfen können.
 <!-- Je Kachel ein Foto aus dem Ort mit Bildunterschrift (M12). Links auf die Ortsseiten erst aktivieren, wenn diese live sind. -->
 
 - **Leonberg.** Eigentumswohnungen werden hier derzeit für rund 3.700 bis 4.000 Euro je Quadratmeter angeboten [3], und nach Umwandlung gilt 2026 die fünfjährige Kündigungssperrfrist [1]. [Wohnung verkaufen in Leonberg → /wohnung-verkaufen/leonberg/]
-- **Heimsheim.** Kleine Stadt im Heckengäu zwischen Leonberg und Pforzheim; hier gilt die gesetzliche Sperrfrist von drei Jahren, nicht die verlängerte [1]. [LINUS: ein Satz zu Ihrem Bezug zu Heimsheim] [Wohnung verkaufen in Heimsheim → /wohnung-verkaufen/heimsheim/]
+- **Heimsheim.** Kleine Stadt im Heckengäu zwischen Leonberg und Pforzheim; hier gilt die gesetzliche Sperrfrist von drei Jahren, nicht die verlängerte [1]. <!-- Später ergänzen: ein Satz zu Linus’ Bezug zu Heimsheim (LAPTOP-FRAGEBOGEN.md, Nach dem Livegang N2). --> [Wohnung verkaufen in Heimsheim → /wohnung-verkaufen/heimsheim/]
 - **Ditzingen.** Mit Hirschlanden, Heimerdingen und Schöckingen; bei den Anlagen der 1960er bis 1990er Jahre prüfe ich zuerst Protokolle und Rücklage. [Wohnung verkaufen in Ditzingen → /wohnung-verkaufen/ditzingen/]
 - **Renningen.** Mit Malmsheim; S-Bahn nach Stuttgart und große Arbeitgeber in der Nachbarschaft prägen die Käufer, oft Pendler und Familien. [Wohnung verkaufen in Renningen → /wohnung-verkaufen/renningen/]
-- **Pforzheim.** Angebotspreise um 2.900 bis 3.000 Euro je Quadratmeter [4], viele Bestände mit Energieklasse F bis H, für die Familien das KfW-Darlehen zu 1,00 % nutzen können [2]. [Wohnung verkaufen in Pforzheim → /wohnung-verkaufen/pforzheim/]
+- **Pforzheim.** Angebotspreise um 2.900 bis 3.000 Euro je Quadratmeter [4], viele Bestände mit Energieklasse F bis H, für die Familien das KfW-Darlehen zu {{fakten.kfw_308.zins}} effektiv (Stand {{fakten.kfw_308.zins.stand}}) nutzen können [2]. [Wohnung verkaufen in Pforzheim → /wohnung-verkaufen/pforzheim/]
 
 ## Ratgeber
 
@@ -102,7 +102,7 @@ Sie nennen mir Ort, Größe, Baujahr und Zustand, ich sehe mir die Wohnung an un
 
 ### Wie lange dauert ein Verkauf?
 
-Eine feste Frist kann niemand seriös zusagen. Zur Orientierung: Im ersten Quartal 2026 lag die Vermarktungsdauer von Eigentumswohnungen in 24 deutschen Städten im Durchschnitt bei rund 90 Tagen [6], ImmoScout24 nennt für den gesamten Verkauf drei bis fünf Monate [7]. Preis, Zustand und die Finanzierung der Käufer entscheiden, wo Ihre Wohnung in dieser Spanne liegt. [LINUS: eigene Einschätzung für Leonberg und Pforzheim, mit Begründung]
+Eine feste Frist kann niemand seriös zusagen. Zur Orientierung: Im ersten Quartal 2026 lag die Vermarktungsdauer von Eigentumswohnungen in 24 deutschen Städten im Durchschnitt bei rund 90 Tagen [6], ImmoScout24 nennt für den gesamten Verkauf drei bis fünf Monate [7]. Preis, Zustand und die Finanzierung der Käufer entscheiden, wo Ihre Wohnung in dieser Spanne liegt. <!-- Später ergänzen: eigene Einschätzung der Verkaufsdauer für Leonberg und Pforzheim, mit Begründung (Nach dem Livegang N5). -->
 
 ### Welche Unterlagen werden gebraucht?
 
@@ -123,17 +123,17 @@ Rufen Sie mich an oder schreiben Sie mir, wo Ihre Wohnung liegt und was Sie vorh
 Linus Rössler
 Telefon 0159 05844641
 E-Mail linus@roessler-immo.de
-[LINUS: Erreichbarkeit, zum Beispiel „Montag bis Samstag, 9 bis 20 Uhr“]
+Telefonisch: {{fakten.firma.erreichbarkeit}}
 
 **[Button: Wohnung kostenlos einschätzen lassen → /wohnung-bewerten/]**
 **[Button: Anrufen → tel:+4915905844641]**
 
 ## Quellen
 
-1. Kündigungssperrfristverordnung Baden-Württemberg vom 16.12.2025, GBl. 2025 Nr. 146, §§ 1 bis 3 (Leonberg und Pforzheim: fünf Jahre; gültig 1.1. bis 31.12.2026; Renningen und Heimsheim nicht enthalten, daher drei Jahre nach § 577a Abs. 1 BGB). https://www.landtag-bw.de/resource/blob/611984/7e993deafc1547ab553a30dfe14a9333/GBl2025146.pdf ; Ditzingen ebenfalls nicht enthalten (Wortlaut geprüft 03.11.2026, die Mieterbund-Übersicht weicht ab). Entwurf der Verlängerung 1.1.2027 bis 31.12.2029 (Ministerrat 22.9.2026, Anhörung bis 13.10.2026; Leonberg und Pforzheim enthalten, Ditzingen, Renningen, Heimsheim nicht): https://beteiligungsportal.baden-wuerttemberg.de/fileadmin/redaktion/beteiligungsportal/Dokumente/2026/260922_Verlaengerung_der_KuendigungssperrfristVO.pdf [ZU PRÜFEN: Beschluss der Nachfolgeverordnung vor dem 31.12.2026]
-2. KfW-Programm 308 „Jung kauft Alt“: Kredithöchstbeträge 140.000 / 160.000 / 180.000 Euro seit 3.8.2026, 1,00 % effektiv bei 35 Jahren Laufzeit, Voraussetzung Energieausweis Klasse F, G oder H, Antrag vor dem Notarvertrag. https://www.baukostenplan.de/ratgeber/kfw-308-jung-kauft-alt-2026-neue-kreditbetraege (Stand 7.10.2026); https://www.baufi24.de/foerderung/kfw-308-jung-kauft-alt/ [ZU PRÜFEN: Zinssatz am Veröffentlichungstag auf kfw.de]
+1. Kündigungssperrfristverordnung Baden-Württemberg vom 16.12.2025, GBl. 2025 Nr. 146, §§ 1 bis 3 (Leonberg und Pforzheim: fünf Jahre; gültig 1.1. bis 31.12.2026; Renningen und Heimsheim nicht enthalten, daher drei Jahre nach § 577a Abs. 1 BGB). https://www.landtag-bw.de/resource/blob/611984/7e993deafc1547ab553a30dfe14a9333/GBl2025146.pdf ; Ditzingen ebenfalls nicht enthalten (Wortlaut geprüft 03.11.2026, die Mieterbund-Übersicht weicht ab). Entwurf der Verlängerung 1.1.2027 bis 31.12.2029 (Ministerrat 22.9.2026, Anhörung bis 13.10.2026; Leonberg und Pforzheim enthalten, Ditzingen, Renningen, Heimsheim nicht): https://beteiligungsportal.baden-wuerttemberg.de/fileadmin/redaktion/beteiligungsportal/Dokumente/2026/260922_Verlaengerung_der_KuendigungssperrfristVO.pdf Stand der Prüfung 03.11.2026: Verlängerung noch nicht im Gesetzblatt verkündet. <!-- Vor dem 31.12.2026 im Gesetzblatt prüfen (LAPTOP-FRAGEBOGEN.md, Nach dem Livegang). -->
+2. KfW-Programm 308 „Jung kauft Alt“: Kredithöchstbeträge 140.000 / 160.000 / 180.000 Euro seit 3.8.2026, Voraussetzung Energieausweis Klasse F, G oder H, Antrag vor dem Notarvertrag (baukostenplan.de, Stand 7.10.2026: https://www.baukostenplan.de/ratgeber/kfw-308-jung-kauft-alt-2026-neue-kreditbetraege ); Zins {{fakten.kfw_308.zins}} effektiv bei 35 Jahren Laufzeit laut KfW-Konditionenanzeiger (Stand {{fakten.kfw_308.zins.stand}}): https://www.kfw-formularsammlung.de/KonditionenanzeigerINet/KonditionenAnzeiger ; Kredithöchstbeträge ab 3.8.2026 laut KfW-Pressemitteilung vom 30.07.2026: https://www.kfw.de/%C3%9Cber-die-KfW/Newsroom/Aktuelles/Pressemitteilungen-Details_903168.html
 3. Angebotspreise Eigentumswohnungen Leonberg: 3.733 Euro/m² (immoportal, Stand 1.10.2026) und 4.042,68 Euro/m² (immoverkauf24/Sprengnetter, Q2 2026). Angebotspreise, keine Kaufpreise. https://www.immoportal.com/immobilienpreise/leonberg ; https://www.immoverkauf24.de/immobilienpreise/baden-wuerttemberg/boeblingen-kreis/leonberg/
 4. Angebotspreise Eigentumswohnungen Pforzheim: 2.928 Euro/m² (immoportal) und 3.010,44 Euro/m² (immoverkauf24). https://www.immoportal.com/immobilienpreise/pforzheim ; https://www.immoverkauf24.de/immobilienpreise/baden-wuerttemberg/pforzheim/
 5. Eigene Vergütungsvereinbarung Rössler Immobilien: 2,98 % des Kaufpreises inkl. Umsatzsteuer je Seite. 290.000 × 0,0298 = 8.642 Euro.
-6. Vermarktungsdauer Eigentumswohnungen Q1 2026 rund 90 Tage (GREIX/IfW Kiel, 24 Städte) sowie Phasen „Notartermin bis Geldeingang 4 bis 12 Wochen“, zitiert nach reduco.ai, „Wohnung verkaufen: Ablauf“, aktualisiert 17.8.2026. https://reduco.ai/blog/immobilienverkauf/wohnung-verkaufen-ablauf [ZU PRÜFEN: GREIX-Primärquelle]
+6. GREIX Kaufpreisindex 2026 Q1 (Kiel Institut und Gutachterausschüsse, 07.05.2026): Vermarktungsdauer Eigentumswohnungen im ersten Quartal 2026 im Durchschnitt der 24 ausgewerteten Städte 90 Tage. https://cloud-data-greix-website.s3.eu-central-1.amazonaws.com/website/Documentation/kaufpreisindex_2026q1.pdf Phasen „Notartermin bis Geldeingang 4 bis 12 Wochen“, zitiert nach reduco.ai, „Wohnung verkaufen: Ablauf“, aktualisiert 17.8.2026. https://reduco.ai/blog/immobilienverkauf/wohnung-verkaufen-ablauf
 7. ImmoScout24, „Wohnung verkaufen“, aktualisiert 2.1.2026: Dauer „drei bis fünf Monate“. https://www.immobilienscout24.de/wissen/verkaufen/wohnung-verkaufen.html
