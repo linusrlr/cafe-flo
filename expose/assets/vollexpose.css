@@ -64,3 +64,8 @@ figcaption{font-size:8.5pt;color:var(--fg-soft);margin-top:2pt}
   .eckdaten{grid-template-columns:repeat(2,1fr)}
   h1{font-size:24px}
 }
+
+/* Hilfsklassen statt Inline-Styles (CSP ohne 'unsafe-inline') */
+.mt-6mm{margin-top:6mm}.mt-8mm{margin-top:8mm}.mt-14{margin-top:14px}.m-0{margin:0}
+.ueberzeile{text-transform:uppercase;letter-spacing:.14em;font-weight:600}
+.h-klein{font-size:1.25rem}

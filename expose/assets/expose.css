@@ -147,3 +147,20 @@ details.text .prosa{padding:4px 18px 18px;max-height:420px;overflow:auto;font-si
 .fuss strong{color:var(--on-navy)}
 .fuss ul{list-style:none;margin:0;padding:0;display:flex;flex-wrap:wrap;gap:8px 18px}
 .fuss .widerruf-link{background:transparent;color:#fff;border-color:#fff}
+
+/* Abstands- und Hilfsklassen (statt Inline-Styles; CSP style-src 'self' ohne 'unsafe-inline') */
+.mt-6{margin-top:6px}.mt-8{margin-top:8px}.mt-14{margin-top:14px}.mt-16{margin-top:16px}.mt-18{margin-top:18px}.mt-20{margin-top:20px}.mt-22{margin-top:22px}.mt-24{margin-top:24px}.mt-28{margin-top:28px}.mt-34{margin-top:34px}.m-0{margin:0}
+.einzug{padding-left:22px}
+.h-klein{font-size:1.25rem}
+.ueberzeile{text-transform:uppercase;letter-spacing:.14em;font-weight:600}
+/* Admin-Übersicht */
+.btn.btn-hell{background:transparent;color:var(--fg);border-color:#C9D1DC}
+.btn.btn-hell:hover{background:var(--soft)}
+.inline-form{display:inline-block;margin:0 8px 8px 0}
+.link-knopf{background:none;border:0;padding:0;color:inherit;text-decoration:underline;cursor:pointer;font:inherit}
+.aktionen{display:flex;flex-wrap:wrap;gap:8px}
+.tabelle-scroll{overflow-x:auto;max-width:100%}
+.hash{font-family:ui-monospace,Menlo,Consolas,monospace;font-size:.8rem;word-break:break-all}
+.nachweis-eintrag{border-top:1px solid #C9D1DC;padding-top:10px;margin-top:14px}
+.nachweis-eintrag pre{white-space:pre-wrap;word-break:break-word;font-size:.8rem;background:var(--soft);padding:10px}
+td.hash{white-space:nowrap}

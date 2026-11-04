@@ -9,6 +9,16 @@
   var zus = document.getElementById('zusammenfassung');
   var meldung = document.getElementById('meldung');
 
+  // Formular-Token vom Server: signiert, mit Zeitstempel, nur einmal verwendbar (Bot- und Replay-Schutz ohne Drittanbieter)
+  function holeToken() {
+    if (!window.fetch || !form.elements.ft || !form.elements.objekt) return;
+    fetch('/anfrage.php?ft=' + encodeURIComponent(form.elements.objekt.value), { headers: { 'Accept': 'application/json' }, credentials: 'same-origin' })
+      .then(function (r) { return r.ok ? r.json() : null; })
+      .then(function (j) { if (j && j.ft) form.elements.ft.value = j.ft; })
+      .catch(function () { /* ohne Token geht es trotzdem, nur mit strengerem Limit */ });
+  }
+  holeToken();
+
   // Datum „nach Ablauf der Widerrufsfrist“ konkret anzeigen
   var abTage = parseInt(form.getAttribute('data-ab-tage') || '0', 10);
   if (abTage) {
@@ -91,11 +101,13 @@
     ev.preventDefault();
     var knopf = form.querySelector('button[type=submit]');
     knopf.disabled = true;
-    fetch(form.action, { method: 'POST', body: new FormData(form), headers: { 'Accept': 'application/json' }, credentials: 'same-origin' })
+    // als application/x-www-form-urlencoded (der Server nimmt kein multipart an)
+    fetch(form.action, { method: 'POST', body: new URLSearchParams(new FormData(form)), headers: { 'Accept': 'application/json' }, credentials: 'same-origin' })
       .then(function (r) { return r.json().then(function (j) { return { status: r.status, j: j }; }); })
       .then(function (res) {
         if (res.j && res.j.ok && res.j.weiter) { window.location.href = res.j.weiter; return; }
         knopf.disabled = false;
+        if (res.status === 409 || res.status === 400) holeToken();
         meldung.textContent = (res.j && res.j.meldung) || 'Das hat nicht geklappt. Bitte versuchen Sie es noch einmal.';
         meldung.hidden = false;
         zeigeFehler(res.j && res.j.fehler);

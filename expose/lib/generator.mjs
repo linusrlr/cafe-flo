@@ -87,6 +87,12 @@ const dataUri = (p) => `data:${MIME[path.extname(p).toLowerCase()] || 'applicati
 const jaNein = (v) => (v === true ? 'ja' : v === false ? 'nein' : '');
 const etageText = (e, ges) => (e === null || e === undefined ? '' : (Number(e) === 0 ? 'Erdgeschoss' : `${e}. Obergeschoss`) + (ges ? ` von ${ges}` : ''));
 
+// Energieklassen-Farben als CSS-Klassen statt Inline-Styles (CSP ohne 'unsafe-inline')
+const klasseCss = (kl) => `kl-${kl.replace('+', 'p')}`;
+const KLASSEN_CSS = Object.entries(KLASSEN_FARBEN).map(([kl, farbe]) => `.skala .${klasseCss(kl)}{background:${farbe}}`).join('\n');
+// Content-Security-Policy für alle statischen Seiten (zusätzlich als HTTP-Header über nginx/.htaccess)
+const CSP_STATISCH = "default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' data:; font-src 'self'; connect-src 'self'; form-action 'self'; base-uri 'none'; object-src 'none'";
+
 function zeile(th, td) { return td === '' || td === null || td === undefined ? '' : `<tr><th>${esc(th)}</th><td>${td}</td></tr>`; }
 
 function layout({ titel, beschreibung, inhalt, muster, noindex = true, skript = false }) {
@@ -99,6 +105,7 @@ function layout({ titel, beschreibung, inhalt, muster, noindex = true, skript = 
 ${beschreibung ? `<meta name="description" content="${esc(beschreibung)}">` : ''}
 ${noindex ? '<meta name="robots" content="noindex, nofollow">' : ''}
 <meta name="referrer" content="strict-origin-when-cross-origin">
+<meta http-equiv="Content-Security-Policy" content="${CSP_STATISCH}">
 <link rel="stylesheet" href="/expose-assets/expose.css">
 ${skript ? '<script src="/expose-assets/formular.js" defer></script>' : ''}
 </head>
@@ -181,7 +188,7 @@ function faktenGitter(o) {
 
 function energieHtml(ea, klein = false) {
   if (ea.vorhanden !== true) return `<p>${ea.vorhanden === false ? 'Ein Energieausweis liegt derzeit nicht vor; er wird vor der ersten Besichtigung ausgestellt.' : 'Angaben folgen.'}</p>`;
-  const skala = `<div class="skala" aria-hidden="true">${KLASSEN.map(([kl]) => `<span style="background:${KLASSEN_FARBEN[kl]}" class="${kl === ea.effizienzklasse ? 'aktiv' : ''}">${kl}</span>`).join('')}</div>`;
+  const skala = `<div class="skala" aria-hidden="true">${KLASSEN.map(([kl]) => `<span class="${klasseCss(kl)}${kl === ea.effizienzklasse ? ' aktiv' : ''}">${kl}</span>`).join('')}</div>`;
   return `<table class="daten"><tbody>
 ${zeile('Art des Energieausweises', ea.art === 'bedarf' ? 'Energiebedarfsausweis' : 'Energieverbrauchsausweis')}
 ${zeile(ea.art === 'bedarf' ? 'Endenergiebedarf' : 'Endenergieverbrauch', `${zahlFrei(ea.kennwert)} kWh/(m²·a)${ea.art === 'verbrauch' && ea.warmwasser_enthalten ? ', einschließlich Warmwasser' : ''}`)}
@@ -221,10 +228,10 @@ ${cta}
 <section><div class="wrap zwei">
 <div>
 <h2>Lage</h2>
-<div class="prosa" style="margin-top:14px"><p>${esc(o.lage.text || '')}</p></div>
-${(o.lage.entfernungen || []).length ? `<table class="daten" style="margin-top:16px"><tbody>${o.lage.entfernungen.map((e) => zeile(e.ziel, esc(e.weg))).join('')}</tbody></table><p class="klein" style="margin-top:6px">${esc(o.lage.entfernungen_quelle || '')}</p>` : ''}
-<h2 style="margin-top:34px">Die Wohnung in Zahlen</h2>
-<table class="daten" style="margin-top:14px"><tbody>
+<div class="prosa mt-14"><p>${esc(o.lage.text || '')}</p></div>
+${(o.lage.entfernungen || []).length ? `<table class="daten mt-16"><tbody>${o.lage.entfernungen.map((e) => zeile(e.ziel, esc(e.weg))).join('')}</tbody></table><p class="klein mt-6">${esc(o.lage.entfernungen_quelle || '')}</p>` : ''}
+<h2 class="mt-34">Die Wohnung in Zahlen</h2>
+<table class="daten mt-14"><tbody>
 ${zeile('Wohnungstyp', esc(w.typ || ''))}
 ${zeile('Lage im Haus', esc(etageText(w.etage, w.etagen_gesamt)))}
 ${zeile('Wohnfläche', `${flaeche(w.wohnflaeche)}${w.wohnflaeche_grundlage ? `<br><span class="klein">${esc(w.wohnflaeche_grundlage)}</span>` : ''}`)}
@@ -239,20 +246,20 @@ ${zeile('Wohnungen im Haus', esc(o.gebaeude.einheiten ?? ''))}
 </tbody></table>
 </div>
 <div>
-<div class="box"><h2 style="font-size:1.25rem">Energieausweis</h2>${energieHtml(o.energieausweis)}</div>
-<div class="box hell" style="margin-top:18px"><h2 style="font-size:1.25rem">Provision</h2>${provisionHtml(c)}</div>
+<div class="box"><h2 class="h-klein">Energieausweis</h2>${energieHtml(o.energieausweis)}</div>
+<div class="box hell mt-18"><h2 class="h-klein">Provision</h2>${provisionHtml(c)}</div>
 </div>
 </div></section>
 ${verfuegbar ? `<section class="band"><div class="wrap zwei">
 <div>
 <h2>Im vollständigen Exposé</h2>
-<ul class="prosa" style="margin-top:14px;padding-left:22px">
+<ul class="prosa mt-14 einzug">
 <li>Adresse und Lage im Haus</li><li>alle Fotos und der Grundriss</li><li>Hausgeld im Detail, Erhaltungsrücklage, Sonderumlagen und Beschlüsse der Eigentümer</li><li>Modernisierungen mit Jahr und Beleg</li><li>Kaufnebenkosten und Liste der Unterlagen</li>
 </ul>
 </div>
 <div>
 <h2>So geht es</h2>
-<ol class="prosa" style="margin-top:14px;padding-left:22px">
+<ol class="prosa mt-14 einzug">
 <li>Sie geben Name und E-Mail an und bestätigen den Maklervertrag. Dauer: etwa drei Minuten.</li>
 <li>Sie wählen: Exposé sofort oder erst nach Ablauf der 14-tägigen Widerrufsfrist.</li>
 <li>Sie erhalten eine E-Mail mit allen Vertragstexten und einem persönlichen Link zum Exposé.</li>
@@ -298,6 +305,7 @@ function anfordern(c) {
 <input type="hidden" name="fassung" value="${esc(c.fassung)}">
 <input type="hidden" name="t" value="">
 <input type="hidden" name="js" value="">
+<input type="hidden" name="ft" value="">
 <div class="hp" aria-hidden="true"><label for="f-website">Bitte leer lassen</label><input id="f-website" name="website" type="text" tabindex="-1" autocomplete="off"></div>
 
 <fieldset>
@@ -318,7 +326,7 @@ ${immer.filter((e) => e.id !== 'vertraulichkeit').map((e) => erklaerungHtml(e, c
 <legend><span class="schritt">3 · Zeitpunkt</span>${esc(c.beginn.frage)}</legend>
 ${c.beginn.optionen.map((op) => `<div class="radio"><input type="radio" id="b-${op.wert}" name="beginn" value="${op.wert}" required><label for="b-${op.wert}"><strong>${esc(op.label)}</strong><span class="klein">${op.wert === 'nach_frist' ? esc(op.hilfe).replace(esc(c.freigabe.ab_text), `<span data-ab-datum>${esc(c.freigabe.ab_text)}</span>`) : esc(op.hilfe)}</span></label></div>`).join('\n')}
 <div id="sofort-erklaerungen">
-<p class="hilfe" style="margin-top:14px"><strong>Nur bei „Sofort“:</strong> Diese beiden Erklärungen sind nötig, damit ich vor Ablauf der Widerrufsfrist beginnen darf.</p>
+<p class="hilfe mt-14"><strong>Nur bei „Sofort“:</strong> Diese beiden Erklärungen sind nötig, damit ich vor Ablauf der Widerrufsfrist beginnen darf.</p>
 ${sofort.map((e) => erklaerungHtml(e, c)).join('\n')}
 </div>
 </fieldset>` : ''}
@@ -332,7 +340,7 @@ ${immer.filter((e) => e.id === 'vertraulichkeit').map((e) => erklaerungHtml(e, c
 <legend><span class="schritt">${c.mitVertrag ? '5' : '3'} · Prüfen und abschließen</span>Ihre Angaben prüfen</legend>
 <div id="zusammenfassung" class="zusammenfassung" hidden aria-live="polite"></div>
 ${pflichtinfo}
-<p class="klein" style="margin-top:14px">Datenschutz: Ich verarbeite Ihre Angaben, um den Vertrag zu schließen und Ihnen das Exposé zu schicken (Art. 6 Abs. 1 lit. b DSGVO), und protokolliere Ihre Erklärungen als Nachweis (Art. 6 Abs. 1 lit. f DSGVO). Keine Weitergabe an Dritte, keine Cookies. Details im <a href="/expose-recht/datenschutz/" target="_blank" rel="noopener">Datenschutzhinweis zum Exposé</a>.</p>
+<p class="klein mt-14">Datenschutz: Ich verarbeite Ihre Angaben, um den Vertrag zu schließen und Ihnen das Exposé zu schicken (Art. 6 Abs. 1 lit. b DSGVO), und protokolliere Ihre Erklärungen als Nachweis (Art. 6 Abs. 1 lit. f DSGVO). Keine Weitergabe an Dritte, keine Cookies. Details im <a href="/expose-recht/datenschutz/" target="_blank" rel="noopener">Datenschutzhinweis zum Exposé</a>.</p>
 <div class="absenden">
 <button class="btn" type="submit">${esc(c.mitVertrag ? c.freigabe.button_text : 'Exposé anfordern')}</button>
 <p class="klein">${c.mitVertrag ? `Mit dem Klick schließen Sie den Maklervertrag. Provision nur bei Kauf. ` : ''}Bis zum Klick können Sie alle Angaben oben ändern. Der Vertragstext wird gespeichert und Ihnen sofort per E-Mail geschickt.</p>
@@ -342,14 +350,14 @@ ${pflichtinfo}
 <details class="text"><summary>So kommt der Vertrag technisch zustande</summary><div class="prosa">
 <ol><li>Sie füllen die Felder aus und setzen die Häkchen selbst; nichts ist vorausgewählt.</li><li>Eingabefehler können Sie bis zum Klick auf „${esc(c.freigabe.button_text)}“ direkt im Formular korrigieren; die Zusammenfassung oben zeigt Ihre Angaben.</li><li>Mit dem Klick geben Sie Ihre Vertragserklärung ab. Ich bestätige den Eingang sofort per E-Mail; die E-Mail enthält den Vertragstext, Ihre Erklärungen im Wortlaut, die Widerrufsbelehrung und das Muster-Widerrufsformular.</li><li>Ich speichere den Vertragstext. Sie können ihn jederzeit unter <a href="/objekte/${slug}/maklervertrag/">diesem Link</a> abrufen und speichern.</li><li>Vertragssprache ist Deutsch. Ich bin keinem Verhaltenskodex unterworfen.</li></ol>
 </div></details>
-<p style="margin-top:22px"><a class="widerruf-link" href="/vertrag-widerrufen/">Vertrag widerrufen</a></p>
+<p class="mt-22"><a class="widerruf-link" href="/vertrag-widerrufen/">Vertrag widerrufen</a></p>
 </form>
 <aside class="objektkarte" aria-label="Objekt">
 ${titelbild ? `<img src="/expose-assets/objekte/${slug}/${esc(titelbild.datei)}" alt="${esc(titelbild.titel)}" width="1600" height="1000">` : ''}
 <div class="box"><h3>${esc(o.titel)}</h3>
 <p class="klein">${esc(c.lageKurz)} · ${flaeche(o.wohnung.wohnflaeche)} · ${zahlFrei(o.wohnung.zimmer)} Zimmer · ${euro(o.preis.kaufpreis)}</p>
-<p class="klein" style="margin-top:8px"><a href="/objekte/${slug}/">Zurück zum Kurz-Exposé</a></p>
-<p class="klein" style="margin-top:8px">Fragen? <a href="${esc(firma.telefon_href)}">${esc(firma.telefon)}</a></p></div>
+<p class="klein mt-8"><a href="/objekte/${slug}/">Zurück zum Kurz-Exposé</a></p>
+<p class="klein mt-8">Fragen? <a href="${esc(firma.telefon_href)}">${esc(firma.telefon)}</a></p></div>
 </aside>
 </div></section>`;
   return layout({ titel: `Exposé anfordern: ${o.titel}`, inhalt, muster: o.muster, skript: true });
@@ -374,7 +382,7 @@ function danke(c, fall) {
 }
 
 function rechtstextSeite(titel, html, muster = false, zurueck = '') {
-  const inhalt = `<section><div class="wrap prosa">${zurueck ? `<p class="klein"><a href="${zurueck}">Zurück</a></p>` : ''}${html}<p class="klein" style="margin-top:28px">Diese Seite können Sie mit der Druckfunktion Ihres Browsers speichern oder als PDF ablegen.</p></div></section>`;
+  const inhalt = `<section><div class="wrap prosa">${zurueck ? `<p class="klein"><a href="${zurueck}">Zurück</a></p>` : ''}${html}<p class="klein mt-28">Diese Seite können Sie mit der Druckfunktion Ihres Browsers speichern oder als PDF ablegen.</p></div></section>`;
   return layout({ titel, inhalt, muster });
 }
 
@@ -388,7 +396,7 @@ function vollExpose(c, ordner) {
   const prov = c.mitVertrag ? kaufpreis * c.provisionProzent / 100 : 0;
   const fonts = `@font-face{font-family:"Instrument Sans";font-weight:500 700;src:url(${dataUri(path.join(WURZEL, 'assets/instrument-sans-latin.woff2'))}) format("woff2")}
 @font-face{font-family:"Libre Franklin";font-weight:400 600;src:url(${dataUri(path.join(WURZEL, 'assets/libre-franklin-latin.woff2'))}) format("woff2")}`;
-  const css = fs.readFileSync(path.join(WURZEL, 'assets/vollexpose.css'), 'utf8');
+  const css = fs.readFileSync(path.join(WURZEL, 'assets/vollexpose.css'), 'utf8') + '\n' + KLASSEN_CSS;
   const rt = c.rechtstexte;
   const kopf = `<div class="kopf"><div><strong>${esc(firma.name)}</strong><br>${esc(firma.inhaber)} · ${esc(firma.telefon)} · ${esc(firma.email)}</div><div>Exposé · Nr. ${esc(o.nummer)}<br>Stand ${datum(new Date())}</div></div>`;
   return `<!doctype html>
@@ -401,16 +409,17 @@ function vollExpose(c, ordner) {
 <style>${fonts}
 ${css}</style>
 <style>@page{@bottom-left{content:"<!--EMPFAENGER_CSS-->";font-family:Helvetica,Arial,sans-serif;font-size:7.5pt;color:#55627A}}</style>
+<script src="/expose-assets/drucken.js" defer></script>
 </head>
 <body>
-<div class="werkzeug"><span>Persönliches Exposé · <!--EMPFAENGER--></span><span><button type="button" onclick="window.print()">Drucken oder als PDF speichern</button> &nbsp; <a href="/vertrag-widerrufen/">Vertrag widerrufen</a></span></div>
+<div class="werkzeug"><span>Persönliches Exposé · <!--EMPFAENGER--></span><span><button type="button" data-drucken>Drucken oder als PDF speichern</button> &nbsp; <a href="/vertrag-widerrufen/">Vertrag widerrufen</a></span></div>
 <div class="dokument">
 
 <div class="kapitel">
 ${o.muster ? '<p class="muster">MUSTER: Alle Angaben in diesem Exposé sind frei erfunden.</p>' : ''}
 ${kopf}
 <p class="empfaenger">Persönliches Exposé für <!--EMPFAENGER--> · Vorgang <!--VORGANG--> · abgerufen <!--ABRUF--> · nur zur eigenen Verwendung</p>
-<p class="klein" style="text-transform:uppercase;letter-spacing:.14em;font-weight:600">Eigentumswohnung · ${esc(c.lageKurz)}</p>
+<p class="klein ueberzeile">Eigentumswohnung · ${esc(c.lageKurz)}</p>
 <h1>${esc(o.titel)}</h1>
 <p class="lead">${esc(c.adresseVoll)}</p>
 ${fotos[0] ? `<img class="titelbild" src="${bild(fotos[0].datei)}" alt="${esc(fotos[0].titel)}">` : ''}
@@ -422,7 +431,7 @@ ${fotos[0] ? `<img class="titelbild" src="${bild(fotos[0].datei)}" alt="${esc(fo
 <div><dt>Baujahr</dt><dd>${esc(o.gebaeude.baujahr)}</dd></div>
 <div><dt>Hausgeld</dt><dd>${weg.hausgeld_monat ? euro(weg.hausgeld_monat) + ' / Monat' : '–'}</dd></div>
 </dl>
-<p style="margin-top:6mm">${esc(o.teaser)}</p>
+<p class="mt-6mm">${esc(o.teaser)}</p>
 </div>
 
 <div class="kapitel">
@@ -477,15 +486,15 @@ ${(weg.sonderumlagen || []).length ? `<table><thead><tr><th>Jahr</th><th>Anteil 
 <h3>Beschlüsse mit Kostenfolge</h3>
 ${(weg.beschluesse || []).length ? `<table><thead><tr><th>Datum</th><th>Inhalt</th><th>Kosten Wohnung</th></tr></thead><tbody>${weg.beschluesse.map((b) => `<tr><td>${datum(b.datum)}</td><td>${esc(b.inhalt)}</td><td>${esc(b.kosten_anteil || '')}</td></tr>`).join('')}</tbody></table>` : '<p>Keine beschlossenen Maßnahmen mit Kostenfolge bekannt.</p>'}
 </div></div>
-<h2 style="margin-top:8mm">Energieausweis</h2>
+<h2 class="mt-8mm">Energieausweis</h2>
 <div class="keinumbruch">${energieHtml(ea, true)}<p class="klein">Pflichtangaben nach § 87 Gebäudemodernisierungsgesetz. Der Energieausweis liegt bei der Besichtigung aus; eine Kopie erhalten Sie auf Anfrage.</p></div>
 </div>
 
 <div class="kapitel">
 ${kopf}
 <h2>Grundriss</h2>
-${o.grundriss?.datei ? `<figure class="grundriss keinumbruch" style="margin:0"><img src="${bild(o.grundriss.datei)}" alt="Grundriss der Wohnung"><figcaption>${esc(o.grundriss.quelle || '')}</figcaption></figure>` : '<p>Grundriss folgt.</p>'}
-${o.rundgang_url ? `<p style="margin-top:6mm">360°-Rundgang: <a href="${esc(o.rundgang_url)}">${esc(o.rundgang_url)}</a></p>` : ''}
+${o.grundriss?.datei ? `<figure class="grundriss keinumbruch m-0"><img src="${bild(o.grundriss.datei)}" alt="Grundriss der Wohnung"><figcaption>${esc(o.grundriss.quelle || '')}</figcaption></figure>` : '<p>Grundriss folgt.</p>'}
+${o.rundgang_url ? `<p class="mt-6mm">360°-Rundgang: <a href="${esc(o.rundgang_url)}">${esc(o.rundgang_url)}</a></p>` : ''}
 </div>
 
 ${fotos.length > 1 ? `<div class="kapitel">
@@ -505,7 +514,7 @@ ${zeile('Notar und Grundbuch', esc(firma.kaufnebenkosten.notar_grundbuch.text))}
 ${c.mitVertrag ? zeile(`Käuferprovision (${c.provision.kaeufer_text} inkl. USt)`, euro(prov, 2)) : zeile('Käuferprovision', 'keine')}
 </tbody></table>
 <p class="klein">Beträge für die Wohnung ohne Stellplatz. Grunderwerbsteuer und Provision berechnen sich vom tatsächlichen Kaufpreis. ${esc(firma.kaufnebenkosten.grunderwerbsteuer.quelle)}.</p>
-<h2 style="margin-top:8mm">Unterlagen</h2>
+<h2 class="mt-8mm">Unterlagen</h2>
 <table><thead><tr><th>Unterlage</th><th>Stand</th><th>Für Sie</th></tr></thead><tbody>
 ${(o.dokumente || []).map((d) => `<tr><td>${esc(d.titel)}</td><td>${esc(d.stand || '')}</td><td>${d.vorhanden ? esc(d.weitergabe || 'auf Anfrage') : `<em>${esc(d.weitergabe || 'folgt')}</em>`}</td></tr>`).join('')}
 </tbody></table>
@@ -632,7 +641,7 @@ schreibe(path.join(WEB, 'vertrag-widerrufen', 'index.html'), layout({ titel: 'Ve
 <p class="eyebrow">Widerruf · Schritt 1 von 2</p>
 <h1>Vertrag widerrufen</h1>
 <p class="lede">Hier widerrufen Sie einen Maklervertrag, den Sie online mit ${esc(firma.name)} geschlossen haben. Eine Begründung ist nicht nötig. Im nächsten Schritt sehen Sie Ihre Angaben noch einmal und bestätigen den Widerruf.</p>
-<form class="formular" method="post" action="/widerruf.php" style="margin-top:28px">
+<form class="formular" method="post" action="/widerruf.php" class="mt-28">
 <input type="hidden" name="schritt" value="1">
 <div class="hp" aria-hidden="true"><label for="w-website">Bitte leer lassen</label><input id="w-website" name="website" type="text" tabindex="-1" autocomplete="off"></div>
 <div class="feld"><label for="w-name">Ihr Name</label><input id="w-name" name="name" type="text" required maxlength="80" autocomplete="name"></div>
@@ -640,16 +649,34 @@ schreibe(path.join(WEB, 'vertrag-widerrufen', 'index.html'), layout({ titel: 'Ve
 <div class="feld"><label for="w-vorgang">Vorgangsnummer <span class="opt">(steht in der Bestätigungs-E-Mail, falls zur Hand)</span></label><input id="w-vorgang" name="vorgang" type="text" maxlength="40" autocomplete="off"></div>
 <div class="feld"><label for="w-objekt">Welcher Vertrag? <span class="opt">(Objekt)</span></label><select id="w-objekt" name="objekt"><option value="">alle meine Maklerverträge mit dieser E-Mail-Adresse</option>${objektOptionen}</select></div>
 <div class="absenden"><button class="btn" type="submit">Weiter zur Bestätigung</button></div>
-<p class="klein" style="margin-top:14px">Sie können auch per E-Mail an <a href="mailto:${esc(firma.email)}">${esc(firma.email)}</a> oder per Brief widerrufen (<a href="/expose-recht/widerrufsbelehrung/">Widerrufsbelehrung</a>).</p>
+<p class="klein mt-14">Sie können auch per E-Mail an <a href="mailto:${esc(firma.email)}">${esc(firma.email)}</a> oder per Brief widerrufen (<a href="/expose-recht/widerrufsbelehrung/">Widerrufsbelehrung</a>).</p>
 </form></div></section>` }));
 
 // Seitenhülle für PHP-Antworten
 schreibe(path.join(BACK, 'vorlagen', 'seite.html'), layout({ titel: '<!--TITEL-->', inhalt: '<section><div class="wrap prosa"><!--INHALT--></div></section>' }).replace(`&lt;!--TITEL--&gt;`, '<!--TITEL-->'));
 
 // Assets, Backend, PHP-Endpunkte
-for (const f of ['expose.css', 'formular.js']) kopiere(path.join(WURZEL, 'assets', f), path.join(WEB, 'expose-assets', f));
+for (const f of ['formular.js', 'drucken.js']) kopiere(path.join(WURZEL, 'assets', f), path.join(WEB, 'expose-assets', f));
+schreibe(path.join(WEB, 'expose-assets', 'expose.css'), fs.readFileSync(path.join(WURZEL, 'assets', 'expose.css'), 'utf8') + '\n' + KLASSEN_CSS + '\n');
 for (const f of ['instrument-sans-latin.woff2', 'libre-franklin-latin.woff2']) kopiere(path.join(WURZEL, 'assets', f), path.join(WEB, 'expose-assets', 'fonts', f));
 for (const f of fs.readdirSync(path.join(WURZEL, 'backend', 'lib'))) kopiere(path.join(WURZEL, 'backend', 'lib', f), path.join(BACK, 'lib', f));
+for (const f of fs.readdirSync(path.join(WURZEL, 'backend', 'werkzeuge'))) kopiere(path.join(WURZEL, 'backend', 'werkzeuge', f), path.join(BACK, 'werkzeuge', f));
+for (const f of ['backup.sh', 'geheimnisse-erzeugen.php']) kopiere(path.join(WURZEL, 'deploy', f), path.join(BACK, 'werkzeuge', f));
+// Zweite Verteidigungslinie für Webhosting mit Apache/.htaccess (netcup Webhosting): Backend nie ausliefern,
+// Sicherheits-Header für die statischen Exposé-Seiten. Auf nginx-Servern ohne Wirkung (dort nginx-expose.conf).
+schreibe(path.join(BACK, '.htaccess'), 'Require all denied\n');
+const HTACCESS = `# Erzeugt von expose/lib/generator.mjs. Sicherheits-Header für statische Exposé-Seiten (Apache, mod_headers).
+<IfModule mod_headers.c>
+Header always set Content-Security-Policy "${CSP_STATISCH}; frame-ancestors 'none'"
+Header always set X-Content-Type-Options "nosniff"
+Header always set X-Frame-Options "DENY"
+Header always set Referrer-Policy "strict-origin-when-cross-origin"
+Header always set Permissions-Policy "camera=(), microphone=(), geolocation=(), payment=(), usb=(), browsing-topics=()"
+Header always set X-Robots-Tag "noindex, nofollow"
+</IfModule>
+Options -Indexes
+`;
+for (const d of ['objekte', 'expose-recht', 'vertrag-widerrufen', 'expose-assets']) schreibe(path.join(WEB, d, '.htaccess'), HTACCESS);
 for (const f of fs.readdirSync(path.join(WURZEL, 'backend', 'oeffentlich'))) kopiere(path.join(WURZEL, 'backend', 'oeffentlich', f), path.join(WEB, f));
 kopiere(path.join(WURZEL, 'backend', 'config.beispiel.php'), path.join(BACK, 'config.beispiel.php'));
 schreibe(path.join(BACK, 'objekte', 'index.json'), JSON.stringify(gebaut, null, 2));

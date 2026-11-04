@@ -16,7 +16,9 @@ grep -q '/testseite/' dist/sitemap-0.xml && { echo "dist enthält die Testseite 
 echo "Ausliefern nach $ZIEL"
 # 1. neue gehashte Assets zuerst, ohne zu löschen; 2. HTML und Rest, alte Dateien danach entfernen
 rsync -rlptz --checksum --exclude='*.html' --exclude='*.html.gz' -e "$SSH" dist/ "$ZIEL/"
-rsync -rlptz --checksum --delete-after -e "$SSH" dist/ "$ZIEL/"
+# Exposé-Dateien liegen ebenfalls im Webroot und werden separat ausgeliefert: vor dem Löschen schützen (siehe expose/deploy/WEBHOSTING.md).
+EXPOSE_SCHUTZ=('--filter=P /objekte/' '--filter=P /expose-recht/' '--filter=P /vertrag-widerrufen/' '--filter=P /expose-assets/' '--filter=P /anfrage.php' '--filter=P /expose.php' '--filter=P /widerruf.php' '--filter=P /freigabe.php' '--filter=P /expose-admin.php' '--filter=P /.user.ini')
+rsync -rlptz --checksum --delete-after "${EXPOSE_SCHUTZ[@]}" -e "$SSH" dist/ "$ZIEL/"
 echo "Rauchtest:"
 curl -fsS -o /dev/null -w 'Start: HTTP %{http_code}\n' https://roessler-immo.de/ || true
 curl -fsS -o /dev/null -w 'GET kontakt.php: HTTP %{http_code} (erwartet 303)\n' https://roessler-immo.de/kontakt.php || true

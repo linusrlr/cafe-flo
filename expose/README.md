@@ -1,6 +1,6 @@
 # Exposé und Exposé-Freigabe
 
-Stand: 3. November 2026. Eigenbau für roessler-immo.de: öffentliches Kurz-Exposé, Online-Maklervertrag mit Widerrufsbelehrung vor der Freigabe, druckbares Voll-Exposé, PHP-Backend mit Nachweisprotokoll und Widerrufsfunktion. Rechtliche Grundlagen mit Quellen: `../recherche/expose/recherche.md`.
+Stand: 3. November 2026. Eigenbau für roessler-immo.de: öffentliches Kurz-Exposé, Online-Maklervertrag mit Widerrufsbelehrung vor der Freigabe, druckbares Voll-Exposé, PHP-Backend mit Nachweisprotokoll und Widerrufsfunktion. Rechtliche Grundlagen mit Quellen: `../recherche/expose/recherche.md`. Sicherheitskonzept, Befunde, Restrisiken und Checkliste vor dem Einsatz: **`SICHERHEIT.md`**. Einrichtung auf netcup: **`deploy/WEBHOSTING.md`**.
 
 > **Alle Rechtstexte und der Ablauf sind Entwürfe. Vor dem ersten echten Objekt anwaltlich prüfen lassen** (Maklerrecht, Fernabsatz). Der Produktionslauf bricht ab, solange in einer Seite `[ENTWURF]`, `[LINUS]` oder `[ZU PRÜFEN]` steht.
 
@@ -14,9 +14,14 @@ Stand: 3. November 2026. Eigenbau für roessler-immo.de: öffentliches Kurz-Expo
 | `rechtstexte/bestaetigungen.yaml` | Wortlaut der Häkchen im Formular (eine Quelle für Formular, Backend und Nachweis) |
 | `lib/generator.mjs` | erzeugt `dist/` aus allem oben |
 | `assets/` | CSS (Farben und Schriften von roessler-immo.de), Formular-JavaScript, Druck-CSS |
-| `backend/lib/kern.php` | Anfrage, Exposé-Auslieferung, Widerruf, manuelle Freigabe |
-| `backend/config.beispiel.php` | Vorlage für die Server-Konfiguration |
-| `tests/test.mjs` | Ende-zu-Ende-Test mit PHP-Server und Playwright |
+| `backend/lib/kern.php` | Anfrage, Exposé-Auslieferung, Widerruf, manuelle Freigabe, Validierung, Rate-Limits, Header |
+| `backend/lib/kette.php` | Nachweiskette (Hash-Kette, Schwärzen), ohne Abhängigkeit von der Konfiguration |
+| `backend/lib/mail.php` | Mailaufbau und SMTP-Client (TLS, ohne Fremdbibliothek) |
+| `backend/lib/admin.php` | Admin-Übersicht `/expose-admin.php`: Vorgänge, Freigabe, Sperre, Aufbewahrung, Nachweis-Export |
+| `backend/werkzeuge/` | `nachweis-pruefen.php` (Streitfall), `loeschen.php` (Fristen, Cron), `anker.php` (Tagesanker, Cron) |
+| `backend/config.beispiel.php` | Vorlage für die Server-Konfiguration (ohne Geheimnisse) |
+| `deploy/` | nginx-Snippets, `WEBHOSTING.md`, `DNS-MAIL.md`, `geheimnisse-erzeugen.php`, `backup.sh`, `cron.txt`, `user.ini` |
+| `tests/test.mjs` | Ende-zu-Ende- und Sicherheitstest mit PHP-Server und Playwright |
 | `screenshots/` | Ergebnis des letzten Testlaufs, inkl. `voll-expose-muster.pdf` |
 
 ## Ablauf für Interessenten
@@ -27,7 +32,11 @@ Stand: 3. November 2026. Eigenbau für roessler-immo.de: öffentliches Kurz-Expo
 4. **Voll-Exposé** `/expose.php?t=…`: signierter, zeitlich begrenzter Link (Standard 30 Tage, bei „nach Frist“ erst ab dem 17. Tag gültig); Name des Empfängers auf jeder Seite; „Drucken oder als PDF speichern“.
 5. **Vertrag widerrufen** `/vertrag-widerrufen/` (§ 356a BGB, Pflicht seit 19.06.2026): auf jeder Seite verlinkt; Schritt 1 Angaben, Schritt 2 „Widerruf bestätigen“; Eingangsbestätigung mit Datum und Uhrzeit per E-Mail; der Exposé-Link wird gesperrt.
 
-Manuelle Freigabe (`freigabe.modus: manuell` in `firma.yaml` oder je Objekt): Der Interessent bekommt Vertrag und Belehrung sofort, den Link erst, wenn Linus in seiner E-Mail auf den Freigabe-Link klickt und dort „Exposé jetzt freigeben“ drückt.
+Manuelle Freigabe (`freigabe.modus: manuell` in `firma.yaml` oder je Objekt): Der Interessent bekommt Vertrag und Belehrung sofort, den Link erst, wenn Linus in seiner E-Mail auf den Freigabe-Link klickt (14 Tage gültig) und dort „Exposé jetzt freigeben“ drückt, oder in der Admin-Übersicht freigibt.
+
+**Nachweis:** Jeder Schritt (Vertragsschluss, Bestätigungs-Mail, Freigabe, jeder Abruf, Widerruf, Eingangsbestätigung, Sperre, Löschung) wird als Eintrag einer Hash-Kette in `expose-daten/nachweise/JJJJ-MM.jsonl` geschrieben. Der Prüfwert des Vertragsschlusses steht in der Bestätigungs-Mail an den Interessenten; jede Nacht geht der Kettenkopf als „Tagesanker“ an Linus. Im Streitfall: Admin-Übersicht → Vorgang → Nachweis-Datei herunterladen, dann `php nachweis-pruefen.php --export <datei> --anker <Prüfwert aus der Mail>` (siehe `SICHERHEIT.md`, Abschnitt 3).
+
+**Admin-Übersicht** `/expose-admin.php` (nur wenn ein Admin-Passwort-Hash eingerichtet ist): Liste der Vorgänge, Freigeben, Link sperren/entsperren, Aufbewahrung verlängern (Kauf), Nachweis als PDF (Browser-Druck) und als prüfbare JSON-Datei, Kettenprüfung. Eigenes Login mit Passwort-Hash, Sitzung 30 min, CSRF-Schutz, Sperre nach Fehlversuchen; zusätzlich IP-Liste oder Basic-Auth empfohlen.
 
 ## Neues Objekt anlegen und veröffentlichen (Schritt für Schritt)
 
@@ -39,38 +48,30 @@ Einmalig: Node 20 oder neuer installieren, im Ordner `expose/` `npm install` aus
 4. **`objekt.yaml` ausfüllen.** Jede Angabe aus einer Unterlage übernehmen und die Quelle in die Belegfelder schreiben (`wohnflaeche_grundlage`, `ruecklage_quelle`, `beleg`). Energieausweis-Werte genau wie im Ausweis. Käuferprovision = Verkäuferprovision (sonst bricht der Generator ab, § 656c BGB) oder `0` für provisionsfrei.
 5. **Texte ohne Floskeln:** statt „lichtdurchflutet“ die Himmelsrichtung und Fenstergröße, statt „hochwertig“ Material und Jahr, statt „zentrale Lage“ Minuten zu Fuß. Der Generator warnt bei Wörtern aus `lib/floskeln.json`.
 6. **Vorschau bauen:** `npm run bauen`. Fehler (✗) beheben, Warnungen (!) lesen. Dann `npm test` (startet einen lokalen Server und macht Screenshots) oder selbst ansehen:
-   `php -S 127.0.0.1:8765 -t dist/web tests/router.php` und im Browser `http://127.0.0.1:8765/objekte/<ordner>/`. (Für Formulartests vorher eine `dist/expose-backend/config.php` mit `'transport' => 'datei'` anlegen, siehe `tests/test.mjs`.)
+   `php -S 127.0.0.1:8765 -t dist/web tests/router.php` und im Browser `http://127.0.0.1:8765/objekte/<ordner>/`. (Für Formulartests vorher eine `dist/expose-backend/config.php` mit `'modus' => 'test'`, `'https_erzwingen' => false` und `'transport' => 'datei'` anlegen, siehe `basisKonfig` in `tests/test.mjs`.)
 7. **Voll-Exposé prüfen:** im Browser drucken (A4) und das PDF Seite für Seite durchlesen. Stimmen Adresse, Hausgeld, Rücklage, Energiewerte?
 8. **Dem Verkäufer zur Freigabe schicken** (Kurz- und Voll-Exposé als PDF); seine Bestätigung ablegen.
 9. **Freigeben:** in `objekt.yaml` `status: veroeffentlicht` setzen und `npm run bauen:produktion`. Der Lauf bricht ab, solange Marker offen sind.
-10. **Hochladen** (netcup, per SFTP oder `rsync`):
-    - `dist/web/*` in den Webroot (z. B. `~/roessler-immo/web/`, neben der Astro-Seite),
-    - `dist/expose-backend/` nach `~/roessler-immo/expose-backend/` (**nicht** in den Webroot),
-    - einmalig `expose-backend/config.php` aus `config.beispiel.php` anlegen (`chmod 600`), geheimen Schlüssel erzeugen, Datenordner `expose-daten/` anlegen (`chmod 700`).
+10. **Hochladen** (netcup, per SFTP oder `rsync`), Einzelheiten und Pfade für Webhosting und vServer in `deploy/WEBHOSTING.md`:
+    - `dist/web/*` in den Webroot (neben der Astro-Seite, inklusive der `.htaccess`-Dateien),
+    - `dist/expose-backend/` **neben** den Webroot (nie hinein; im Produktionsmodus verweigert der Code sonst den Start),
+    - einmalig: `config.php` aus `config.beispiel.php` (`chmod 600`), Geheimnisse mit `php expose-backend/werkzeuge/geheimnisse-erzeugen.php expose-backend --admin-passwort --smtp-passwort`, Datenordner `expose-daten/` (`chmod 700`), Cron aus `deploy/cron.txt`, DKIM/DMARC nach `deploy/DNS-MAIL.md`.
+    - **Wichtig:** `../deploy/deploy.sh` der Hauptseite löscht mit `--delete-after` sonst die Exposé-Dateien; Filterzeilen aus `deploy/WEBHOSTING.md` eintragen.
 11. **Testanfrage** mit eigener zweiter E-Mail-Adresse durchspielen, inklusive Widerruf.
 12. **Portale:** `dist/is24/<ordner>.json` enthält die Werte für ImmoScout24 (Feldnamen der API). Im Portal als Kontaktweg auf die eigene Seite `/objekte/<ordner>/anfordern/` verweisen, damit alle Interessenten denselben belegten Ablauf durchlaufen.
 13. **Reserviert/verkauft:** `status: reserviert` bzw. `verkauft` setzen und neu bauen. Das Formular verschwindet, bestehende Links zeigen bei „verkauft“ einen Hinweis.
 
-### nginx (Ergänzung zur bestehenden Konfiguration, `bauplan/01-technik.md` 15)
+### nginx
 
-```nginx
-location = /anfrage.php  { limit_req zone=formulare burst=5; include fastcgi_php.conf; }
-location = /widerruf.php { limit_req zone=formulare burst=5; include fastcgi_php.conf; }
-location = /expose.php   { include fastcgi_php.conf; }
-location = /freigabe.php { include fastcgi_php.conf; }
-location ^~ /objekte/    { add_header X-Robots-Tag "noindex" always; }   # erst entfernen, wenn Objekte gefunden werden sollen
-```
+Für den vServer: `deploy/nginx-expose.conf` und `deploy/nginx-expose-php.conf` (eigene locations für die fünf PHP-Endpunkte, Limits, Access-Log ohne Token, Header). In `../deploy/nginx-roessler-immo.conf` steht der Include-Hinweis. Für netcup Webhosting ohne eigene nginx-Konfiguration setzt PHP alle Header selbst; die statischen Seiten haben eine Meta-CSP und `.htaccess`-Dateien.
 
-### Aufbewahrung und Löschung (Vorschlag, recherche.md 1.5)
+### Aufbewahrung, Löschung, Backup (Vorschlag, recherche.md 1.5)
 
-Daten liegen in `expose-daten/` (außerhalb des Webroots): `nachweise/JJJJ-MM.jsonl` (Vertragsschlüsse mit Wortlaut, Version, Prüfwert, gekürzter IP und HMAC, User-Agent), `nachweise/mails/` (Kopie jeder Bestätigungs-Mail), `vorgaenge/`, `widerrufe/`, `zugriffe/`, `ratelimit/` (24 h), `log/`. Ohne Kauf löschen nach Ablauf des dritten Kalenderjahres nach dem letzten Kontakt; mit Kauf Rechnungsunterlagen 6 bis 8 Jahre, GwG-Daten 5 Jahre. Cron-Vorschlag:
+Daten liegen in `expose-daten/` (außerhalb des Webroots, Rechte 700/600): `nachweise/JJJJ-MM.jsonl` (Hash-Kette: Vertragsschlüsse mit Wortlaut, Version, Prüfwert, gekürzter IP und HMAC, User-Agent; Bestätigungen; Abrufe; Widerrufe), `nachweise/mails/` (Kopie jeder Bestätigungs-Mail, SHA-256 in der Kette), `vorgaenge/`, `ratelimit/` (24 h), `sitzungen/` (Admin), `log/` (ohne Personendaten, 90 Tage).
 
-```cron
-20 3 * * * find ~/roessler-immo/expose-daten/ratelimit -type f -mmin +1440 -delete
-25 3 * * * find ~/roessler-immo/expose-daten/log -type f -mtime +90 -delete
-```
-
-Die Löschung der Nachweise macht Linus einmal im Jahr bewusst (nicht automatisch, weil ein Kauf die Frist verlängert).
+- `werkzeuge/loeschen.php`: Frist Ende des 3. Kalenderjahres nach dem letzten Kontakt **[ZU PRÜFEN]**; mit „Aufbewahren bis“ (Admin, z. B. bei Kauf: Rechnung 6–8 Jahre, GwG 5 Jahre) länger. Ohne `--ausfuehren` nur Probelauf. Gelöscht werden Vorgangsdatei und Mail-Kopien; in der Kette werden die Inhalte geschwärzt, die Prüfwerte bleiben, die Kette bleibt prüfbar.
+- `deploy/backup.sh`: täglich verschlüsselt (öffentlicher Schlüssel auf dem Server, privater nur auf dem Laptop), 30 Stände; Abholung und Wiederherstellungstest siehe Skriptkopf.
+- Cron-Zeilen: `deploy/cron.txt`.
 
 ## Checkliste: Unterlagen und Angaben vom Verkäufer
 
@@ -104,8 +105,8 @@ Für das Exposé hilfreich:
 1. **Käuferprovision ja oder nein, und wie hoch?** Vorschlag: 2,98 % inkl. USt wie beim Verkäufer (Doppeltätigkeit; § 656c BGB verlangt gleiche Höhe). Alternative: provisionsfrei für Käufer (`kaeufer_prozent: 0`; dann kein Maklervertrag mit dem Käufer, Formulierung anwaltlich prüfen wegen § 656c Abs. 1 Satz 2).
 2. **Postanschrift** für Widerrufsbelehrung, Datenschutzhinweis und Impressum (`firma.yaml: anschrift`). Ohne sie ist die Muster-Belehrung nicht korrekt ausgefüllt.
 3. **Erlaubnisbescheid:** ausstellende IHK und Datum (`firma.yaml: erlaubnis`).
-4. **Absender-Mail:** `anfrage@roessler-immo.de` anlegen (Envelope/DMARC wie `bauplan/02-formular-backend.md` 6.2), From-Name „Linus Rössler“, Antwort an `linus@roessler-immo.de`? PHPMailer ist dort ohnehin vorgesehen.
-5. **Speicherort der Logs/Nachweise:** `~/roessler-immo/expose-daten/` auf dem netcup-Webspace? Wer macht das Backup (verschlüsselt, außerhalb des Servers)?
+4. **Absender-Mail:** `anfrage@roessler-immo.de` anlegen (Envelope/DMARC wie `bauplan/02-formular-backend.md` 6.2, DKIM/DMARC nach `deploy/DNS-MAIL.md`), From-Name „Linus Rössler“, Antwort an `linus@roessler-immo.de`? Versand per SMTP mit eingebautem Client (kein PHPMailer nötig, Begründung in `SICHERHEIT.md`).
+5. **Speicherort und Backup:** `expose-daten/` neben dem Webroot; Backup verschlüsselt mit `deploy/backup.sh`. Wohin wird es abgeholt (Laptop, externer Speicher), und wer übt einmal die Wiederherstellung? Zweites Postfach bei einem anderen Anbieter für den Tagesanker?
 6. **Freigabe automatisch oder manuell?** Standard ist automatisch. Manuell gibt Kontrolle über jede Anfrage, kostet aber Reaktionszeit.
 7. **Telefon Pflicht?** Derzeit freiwillig (Datenminimierung). Pflicht nur, wenn Sie wirklich jeden anrufen.
 8. **IP im Nachweis:** gekürzt + HMAC (Standard), nur gekürzt oder gar nicht? Bitte mit der Anwältin entscheiden.
@@ -119,7 +120,7 @@ Für das Exposé hilfreich:
 ```bash
 cd expose
 npm install          # einmalig (yaml); Playwright und php müssen installiert sein
-npm test             # Generator + php -S + Playwright, Screenshots nach screenshots/
+npm test             # Generator + php -S (4 Worker) + Playwright, Screenshots und PDFs nach screenshots/
 ```
 
-Der Test prüft u. a.: keine Hausnummer im Kurz-Exposé, Energieausweis-Pflichtangaben, keine vorausgewählte Checkbox, Schaltflächentext, Fehlermeldungen am Feld, Vertragsschluss „sofort“ und „nach Frist“, Inhalt der Bestätigungs-Mail (Vertrag, Belehrung, Muster-Formular, Datenschutz), Nachweisprotokoll (Wortlaut, Fassung, SHA-256, IP nur gekürzt/HMAC), Voll-Exposé personalisiert, PDF-Export, gesperrter Link vor Fristablauf, manipulierte Tokens, Widerruf in zwei Schritten mit Eingangsbestätigung und Sperre, Honeypot, veraltete Vertragsfassung, fremder Origin, Formular ohne JavaScript, manuelle Freigabe, Rate-Limit, kein horizontales Scrollen auf 390 px.
+Der Test (240+ Prüfungen) deckt ab: Inhalte (keine Hausnummer im Kurz-Exposé, Energieausweis, keine vorausgewählte Checkbox, Schaltflächentext, Fehlermeldungen am Feld), Vertragsschluss „sofort“, „nach Frist“, ohne JavaScript und mit manueller Freigabe, Bestätigungs-Mail (Vertrag, Belehrung, Muster-Formular, Datenschutz, Prüfwert), Nachweiskette, Voll-Exposé mit PDF, Widerruf in zwei Schritten mit Eingangsbestätigung und Sperre, und die Sicherheitsfälle: manipulierte, abgelaufene, fremde und gefälschte Tokens, IDOR, Pfad-Traversal (auch rohe `../`-Pfade), CRLF-/Header-Injektion, XSS in Formular, Widerruf, Exposé und Admin, fehlende Häkchen per direktem POST, Replay, Mindestzeit, Massen-POSTs (25 parallel), globales Limit, Speicherprüfung, überlange Felder, Uploads, Sicherheits-Header und CSP-Verstöße im Browser, Fehler ohne Stack-Trace, HTTPS-Zwang, Race Condition Widerruf/Abruf, Admin (Login, Brute Force, Sitzung, CSRF, Export als JSON und PDF), Manipulation von Kette, Export und Mail-Kopien, Löschlauf, verschlüsseltes Backup mit Wiederherstellung, Geheimnisse, SMTP-Client (Punkt-Maskierung, ein Empfänger) und ein kompletter Ende-zu-Ende-Ablauf bis zur geprüften Nachweis-Datei.

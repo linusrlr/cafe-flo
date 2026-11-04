@@ -1,0 +1,13 @@
+# Cron für die Exposé-Freigabe (vServer: crontab -e; netcup Webhosting: Plesk → Geplante Aufgaben → „Befehl ausführen“).
+# Pfade anpassen (B = expose-backend, D = expose-daten). Zeiten in Serverzeit.
+B=/var/www/vhosts/roessler-immo.de/expose-backend
+D=/var/www/vhosts/roessler-immo.de/expose-daten
+# täglich: technische Daten aufräumen (Rate-Limit 24 h, Sitzungen 1 Tag, Betriebslog 90 Tage)
+17 3 * * *  php $B/werkzeuge/loeschen.php --technik
+# täglich: Nachweiskette prüfen und Tagesanker (Kettenkopf) an Linus mailen; ALARM bei Fehler
+7 0 * * *   php $B/werkzeuge/anker.php
+# täglich: verschlüsselte Sicherung (Zertifikat vorher hochladen, privater Schlüssel bleibt auf dem Laptop)
+37 2 * * *  bash $B/werkzeuge/backup.sh sichern $D $B/../expose-backup $B/backup-zertifikat.pem 30
+# monatlich: Löschlauf nach Fristen mit Bericht an Linus. Erst als Probelauf (ohne --ausfuehren) laufen lassen,
+# Bericht lesen, dann mit der Anwältin entscheiden und --ausfuehren ergänzen.
+43 4 2 * *  php $B/werkzeuge/loeschen.php --bericht
