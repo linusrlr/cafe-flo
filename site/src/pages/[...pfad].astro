@@ -2,6 +2,8 @@
 import { Picture, getImage } from 'astro:assets';
 import Basis from '../layouts/Basis.astro';
 import Formular from '../components/Formular.astro';
+import Foto from '../components/Foto.astro';
+import { bilderFuer, pruefeBilder, abschnittFuer, ladeBilder } from '../lib/bilder.mjs';
 import { alleSeiten, rendere, istGebaut, pruefeProduktion, VORSCHAU, BASIS_URL, RUBRIKEN, ICON_TEL } from '../lib/inhalte.mjs';
 import { firma, telefonNbsp, autorzeile } from '../lib/fakten.mjs';
 import { graph, brotkrumen } from '../lib/schema.mjs';
@@ -13,6 +15,10 @@ import daecher from '../assets/daecher.jpg';
 import portrait from '../assets/portrait.jpg';
 
 export function getStaticPaths() {
+  // Fotos: jedes verwendete Bild braucht Lizenzeintrag, Alt-Text und Bildunterschrift (bilder.yaml, bilder-lizenzen.yaml)
+  const bildFehler = pruefeBilder();
+  for (const u of ladeBilder().seiten.keys()) if (!alleSeiten().some((s) => s.url === u)) bildFehler.push(`bilder.yaml: unbekannte Seiten-URL ${u}`);
+  if (bildFehler.length) throw new Error(`\n\nBuild abgebrochen: ${bildFehler.length} Fehler bei den Fotos.\n` + bildFehler.map((f) => '  ' + f).join('\n') + '\n');
   if (!VORSCHAU) {
     const fehler = pruefeProduktion();
     if (fehler.length) {
@@ -38,9 +44,19 @@ const BILDER = {
   ort: [daecher, 'Dächer einer gewachsenen Altstadt von oben'],
   person: [portrait, 'Linus Rössler'],
 };
-const bild = BILDER[typ];
-const heroArt = bild ? 'split' : typ === 'kontakt' ? 'dunkel' : 'text';
-const ogBildUrl = bild ? BASIS_URL + (await getImage({ src: bild[0], width: 1200, format: 'webp' })).src : null;
+// Fotos aus bilder.yaml: Titelbild ersetzt das Standard-Heldbild, Textbilder stehen am Ende des genannten Abschnitts
+const seitenBilder = bilderFuer(seite.url);
+const titelBild = seitenBilder.find((b) => b.position === 'titel');
+const textBilder = new Map();
+for (const b of seitenBilder.filter((x) => x !== titelBild)) {
+  const i = abschnittFuer(b.position, r.abschnitte);
+  if (i < 0) throw new Error(`bilder.yaml: ${seite.url}: ${b.datei}: Abschnitt aus „${b.position}“ nicht gefunden`);
+  textBilder.set(i, [...(textBilder.get(i) ?? []), b]);
+}
+const bild = titelBild ? null : BILDER[typ];
+const heroArt = bild || titelBild ? 'split' : typ === 'kontakt' ? 'dunkel' : 'text';
+const titelSrc = titelBild ? Object.entries(import.meta.glob('../assets/bilder/**/*.{jpg,jpeg,png,webp}', { eager: true })).find(([k]) => k.endsWith('/bilder/' + titelBild.datei))?.[1].default : null;
+const ogBildUrl = titelSrc ? BASIS_URL + (await getImage({ src: titelSrc, width: 1200, format: 'webp' })).src : bild ? BASIS_URL + (await getImage({ src: bild[0], width: 1200, format: 'webp' })).src : null;
 
 const tel = toHtml(ICON_TEL);
 const ueberMichOk = istGebaut('/ueber-mich/');
@@ -87,9 +103,11 @@ const sektionKlasse = (a) => a.art === 'kontakt' ? 'band dark kontakt-abschnitt'
           {r.hero.actions && <Fragment set:html={r.hero.actions} />}
           {r.hero.hinweis && <Fragment set:html={r.hero.hinweis} />}
         </div>
+        {titelBild ? <Foto bild={titelBild} art="titel" /> : (
         <div class={`pic${typ === 'person' ? ' portrait' : ''}`}>
           <Picture src={bild[0]} alt={bild[1]} formats={['avif', 'webp']} widths={[480, 800, 1200, 1600].filter((w) => w <= bild[0].width)} sizes="(min-width: 841px) 50vw, 100vw" loading="eager" fetchpriority="high" decoding="async" />
         </div>
+        )}
       </div>
     ) : (
       <div class="htext">
@@ -130,7 +148,7 @@ const sektionKlasse = (a) => a.art === 'kontakt' ? 'band dark kontakt-abschnitt'
   )}
   {hubTyp && !gruppen.length && <section><div class="wrap prosa"><p>Die ersten Beiträge erscheinen in Kürze.</p></div></section>}
 
-  {r.abschnitte.map((a) => (
+  {r.abschnitte.map((a, ai) => (
     <>
       {a.art === 'quellen' && zeigeAutor && (
         <section>
@@ -159,6 +177,7 @@ const sektionKlasse = (a) => a.art === 'kontakt' ? 'band dark kontakt-abschnitt'
           <div class="wrap prosa">
             <Fragment set:html={a.kopfHtml} />
             {a.teile.map((t) => t.formular ? <Formular typ={t.formular} seite={seite.url} /> : <Fragment set:html={t.html} />)}
+            {(textBilder.get(ai) ?? []).map((b) => <Foto bild={b} />)}
           </div>
         )}
       </section>

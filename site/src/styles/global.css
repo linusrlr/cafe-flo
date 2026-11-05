@@ -305,3 +305,20 @@ footer .klein{grid-column:1/-1;font-size:.8rem;border-top:1px solid var(--line);
 @media print{.top,.anrufleiste,footer,.formular-box,.navscrim,.vorschau-banner{display:none!important}
   ol.quellen a[href^="http"]::after{content:" (" attr(href) ")"}}
 [hidden]{display:none!important}
+
+/* Fotos aus bilder.yaml: Titelbild im Split-Hero, Textbilder in der Prosa, Bildnachweis direkt am Bild */
+figure{margin:0}
+.foto-titel figcaption{position:absolute;right:0;bottom:0;max-width:100%;background:rgba(22,35,61,.86);color:#fff;font-size:.72rem;line-height:1.4;padding:5px 10px}
+.foto-titel figcaption a{color:#fff}
+.prosa > .foto{margin-top:30px}
+.foto img{display:block;width:100%;height:auto;background:var(--soft)}
+.foto figcaption{margin-top:8px;font-size:.84rem;line-height:1.5;color:var(--fg-soft)}
+.foto figcaption a,.bildnachweis-liste a{color:var(--fg-soft)}
+.foto .nachweis{display:block;font-size:.78rem}
+@media (max-width:840px){.foto-titel figcaption{font-size:.68rem;padding:3px 8px}}
+.bildnachweis-liste{list-style:none;padding:0;border-top:1px solid var(--line)}
+.bildnachweis-liste > li{display:grid;grid-template-columns:120px minmax(0,1fr);gap:16px;padding:16px 0;border-bottom:1px solid var(--line);margin:0}
+.bildnachweis-liste img{width:120px;height:80px;object-fit:cover;display:block}
+.bildnachweis-liste p{margin:0;font-size:.9rem;overflow-wrap:anywhere}
+@media (max-width:420px){.bildnachweis-liste > li{grid-template-columns:80px minmax(0,1fr);gap:12px}.bildnachweis-liste img{width:80px;height:56px}}
+.prosa .bildnachweis-liste{max-width:none}

@@ -1,0 +1,21 @@
+---
+// Foto mit Bildunterschrift und Bildnachweis „Foto: Urheber, Lizenz (verlinkt), via Quelle“.
+// art="titel": Titelbild im Split-Hero (eager, fetchpriority high), sonst Bild im Text (lazy).
+import { Picture } from 'astro:assets';
+const { bild, art = 'text' } = Astro.props;
+const dateien = import.meta.glob('../assets/bilder/**/*.{jpg,jpeg,png,webp}', { eager: true });
+const modul = dateien[`../assets/bilder/${bild.datei}`];
+if (!modul) throw new Error(`Foto: ${bild.datei} fehlt in src/assets/bilder/`);
+if (!bild.lizenz) throw new Error(`Foto: ${bild.datei} hat keinen Eintrag in bilder-lizenzen.yaml`);
+if (!String(bild.alt ?? '').trim()) throw new Error(`Foto: ${bild.datei} ohne Alt-Text`);
+const src = modul.default;
+const l = bild.lizenz;
+const titel = art === 'titel';
+const breiten = (titel ? [480, 800, 1200, 1600] : [480, 736, 1100, 1472]).filter((w) => w <= src.width);
+const sizes = titel ? '(min-width: 841px) 50vw, 100vw' : '(min-width: 800px) 736px, calc(100vw - 36px)';
+---
+<figure class={titel ? 'pic foto-titel' : 'foto'} data-bild={bild.datei}>
+  <Picture src={src} alt={bild.alt} formats={['avif', 'webp']} widths={breiten} sizes={sizes}
+    loading={titel ? 'eager' : 'lazy'} fetchpriority={titel ? 'high' : undefined} decoding="async" style={bild.fokus ? `object-position:${bild.fokus}` : undefined} />
+  <figcaption>{!titel && <>{bild.unterschrift} </>}<span class="nachweis">{titel && <>{bild.unterschrift}. </>}Foto: {l.urheber}, <a href={l.lizenz_url} rel="license noopener">{l.lizenz}</a>, via <a href={l.quelle_url}>{l.quelle}</a></span></figcaption>
+</figure>

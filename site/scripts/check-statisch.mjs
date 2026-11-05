@@ -4,8 +4,11 @@ import { readFileSync, readdirSync, statSync, existsSync } from 'node:fs';
 import { gzipSync } from 'node:zlib';
 import path from 'node:path';
 import { parse } from 'yaml';
+import { pruefeBilder, ladeBilder } from '../src/lib/bilder.mjs';
 
 const dist = path.resolve(process.argv[2] ?? 'dist');
+// --nur-bilder: nur T-BILD (für den Vorschau-Build, der alle Seiten mit Fotos enthält)
+const nurBilder = process.argv.includes('--nur-bilder');
 const fakten = parse(readFileSync('../bauplan/fakten.yaml', 'utf8'));
 const erteilt = fakten.erlaubnis.status.wert === 'erteilt';
 const fehler = [];
@@ -26,6 +29,32 @@ function zielDatei(pfad) {
   if (existsSync(p) && statSync(p).isFile()) return p;
   if (/\.php$/.test(pfad) && existsSync(path.join('public', pfad))) return p;
   return null;
+}
+
+// T-BILD: Fotos nur mit Lizenzeintrag, Alt-Text, Bildunterschrift und Nachweis am Bild
+fehler.push(...pruefeBilder());
+const { lizenzVon } = ladeBilder();
+let fotos = 0;
+for (const f of html) {
+  const t = readFileSync(f, 'utf8');
+  const u = rel(f);
+  for (const m of t.matchAll(/<img\b[^>]*>/g)) if (!/\salt(=|[\s>])/.test(m[0])) fehler.push(`${u}: Bild ohne alt-Attribut: ${m[0].slice(0, 100)}`);
+  for (const m of t.matchAll(/<figure\b[^>]*data-bild="([^"]+)"[^>]*>([\s\S]*?)<\/figure>/g)) {
+    fotos++;
+    const l = lizenzVon.get(m[1]);
+    if (!l) { fehler.push(`${u}: Foto ${m[1]} ohne Eintrag in bilder-lizenzen.yaml`); continue; }
+    const alt = m[2].match(/<img\b[^>]*\salt="([^"]*)"/);
+    if (!alt || !alt[1].trim()) fehler.push(`${u}: Foto ${m[1]} ohne Alt-Text`);
+    if (!m[2].includes(`href="${l.lizenz_url}"`) || !/<figcaption>[\s\S]*Foto: /.test(m[2])) fehler.push(`${u}: Foto ${m[1]} ohne Bildnachweis mit Lizenzlink`);
+    if (!/\swidth="\d+"[^>]*\sheight="\d+"|\sheight="\d+"[^>]*\swidth="\d+"/.test(m[2])) fehler.push(`${u}: Foto ${m[1]} ohne width/height`);
+  }
+  if (/data-bild="/.test(t) && !existsSync(path.join(dist, 'bildnachweis/index.html'))) fehler.push(`${u}: Fotos, aber keine Seite /bildnachweis/`);
+}
+if (nurBilder) {
+  console.log(`check-statisch --nur-bilder: ${html.length} Seiten, ${fotos} Fotos geprüft.`);
+  if (fehler.length) { console.error(fehler.map((x) => 'FEHLER ' + x).join('\n')); process.exit(1); }
+  console.log('check-statisch: T-BILD grün.');
+  process.exit(0);
 }
 
 let links = 0;
@@ -102,7 +131,7 @@ for (const m of sm.matchAll(/<loc>https:\/\/roessler-immo\.de([^<]+)<\/loc>/g)) 
 if (!existsSync(path.join(dist, 'robots.txt'))) fehler.push('robots.txt fehlt');
 if (!existsSync(path.join(dist, '404.html'))) fehler.push('404.html fehlt');
 
-console.log(`check-statisch: ${html.length} Seiten, ${links} interne Verweise, Schriften ${Math.round(fontKb)} kB geprüft.`);
+console.log(`check-statisch: ${html.length} Seiten, ${links} interne Verweise, ${fotos} Fotos, Schriften ${Math.round(fontKb)} kB geprüft.`);
 for (const w of warn) console.log('WARNUNG ' + w);
 if (fehler.length) { console.error(fehler.map((x) => 'FEHLER ' + x).join('\n')); process.exit(1); }
-console.log('check-statisch: alles grün (T-MARK, T-ERL, T-LINK intern, T-BUDGET, T-SCHEMA, T-3P).');
+console.log('check-statisch: alles grün (T-MARK, T-ERL, T-LINK intern, T-BUDGET, T-SCHEMA, T-3P, T-BILD).');

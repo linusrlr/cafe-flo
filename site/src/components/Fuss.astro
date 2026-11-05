@@ -1,7 +1,9 @@
 ---
 import { istGebaut, alleSeiten, RUBRIKEN, NAV } from '../lib/inhalte.mjs';
 import { firma, telefonNbsp, ORTE, standMarktdaten, F } from '../lib/fakten.mjs';
+import { gebauteSeitenMitBildern } from '../lib/bilder.mjs';
 const recht = [['/impressum/', 'Impressum'], ['/datenschutz/', 'Datenschutz'], ['/widerruf/', 'Widerruf']].filter(([u]) => istGebaut(u));
+if (gebauteSeitenMitBildern(alleSeiten).length) recht.push(['/bildnachweis/', 'Bildnachweis']);
 const orte = Object.entries(ORTE).map(([k, n]) => ({ n, u: `/wohnung-verkaufen/${k}/` }));
 const nav = NAV.filter(([u]) => istGebaut(u));
 const stand = standMarktdaten();

@@ -1,0 +1,41 @@
+---
+// /bildnachweis/: zentrale Liste aller Fotos mit Urheber, Lizenz, Quelle und Bearbeitung (aus bilder-lizenzen.yaml).
+// Wird nur gebaut, wenn mindestens eine gebaute Seite Fotos hat.
+import { Picture } from 'astro:assets';
+import Basis from '../layouts/Basis.astro';
+import { alleSeiten, rendere } from '../lib/inhalte.mjs';
+import { bilderFuer, gebauteSeitenMitBildern } from '../lib/bilder.mjs';
+
+export function getStaticPaths() {
+  return gebauteSeitenMitBildern(alleSeiten).length ? [{ params: { bildnachweis: 'bildnachweis' } }] : [];
+}
+const dateien = import.meta.glob('../assets/bilder/**/*.{jpg,jpeg,png,webp}', { eager: true });
+const seiten = gebauteSeitenMitBildern(alleSeiten).map((s) => ({ url: s.url, titel: rendere(s).h1Text, bilder: bilderFuer(s.url) }));
+---
+<Basis titel="Bildnachweis | Rössler Immobilien" beschreibung="Urheber, Lizenzen und Quellen der Fotos auf roessler-immo.de." url="/bildnachweis/" noindex={true}>
+  <section class="hero">
+    <div class="htext">
+      <h1>Bildnachweis</h1>
+      <p class="lede">Die Fotos auf den Orts- und Ratgeberseiten stammen von Wikimedia Commons und stehen unter freien Lizenzen. Sie zeigen die Orte und typische Motive, nicht die angebotenen Wohnungen. Gebäude auf öffentlichem Grund dürfen nach § 59 UrhG (Panoramafreiheit) abgebildet werden.</p>
+    </div>
+  </section>
+  {seiten.map((s) => (
+    <section>
+      <div class="wrap prosa">
+        <h2><a href={s.url}>{s.titel}</a></h2>
+        <ul class="bildnachweis-liste">
+          {s.bilder.map((b) => { const l = b.lizenz; return (
+            <li>
+              <Picture src={dateien[`../assets/bilder/${b.datei}`].default} alt={b.alt} formats={['avif', 'webp']} widths={[120, 240]} sizes="120px" loading="lazy" />
+              <div>
+                <p><strong>{b.unterschrift}</strong></p>
+                <p>Foto: {l.urheber}, <a href={l.lizenz_url} rel="license noopener">{l.lizenz}</a>, via <a href={l.quelle_url}>{l.quelle}</a> (<a href={l.original_url}>Originaldatei</a>). Abgerufen am {l.abgerufen_am.split('-').reverse().join('.')}.</p>
+                {l.bearbeitung && <p>Bearbeitung: {l.bearbeitung}</p>}
+              </div>
+            </li>
+          ); })}
+        </ul>
+      </div>
+    </section>
+  ))}
+</Basis>

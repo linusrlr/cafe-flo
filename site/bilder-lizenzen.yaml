@@ -1,0 +1,340 @@
+# Lizenzprotokoll der Fotos (ein Eintrag je Datei unter src/assets/bilder/).
+# Erzeugt aus den Metadaten der Wikimedia-Commons-API (prop=imageinfo, iiprop=url|extmetadata), Abruf siehe abgerufen_am.
+# Jede in bilder.yaml verwendete Datei braucht hier einen Eintrag, sonst bricht der Build ab (src/lib/bilder.mjs, scripts/check-statisch.mjs).
+# Lizenzbedingungen geprüft am 05.11.2026 an der Originalquelle (Dateiseite auf Commons, Lizenztext unter lizenz_url):
+#  - CC BY / CC BY-SA: Namensnennung (Urheber, Lizenz mit Link, Quelle) und Hinweis auf Bearbeitungen; bei CC BY-SA steht die
+#    bearbeitete Fassung (Verkleinerung, Zuschnitt, AVIF/WebP) ebenfalls unter CC BY-SA. Nachweis am Bild und auf /bildnachweis/.
+#  - Public Domain / CC0: keine Pflichtangaben; Nennung trotzdem am Bild.
+#  - Gebäude und Straßenansichten von öffentlichem Grund: zulässig nach § 59 UrhG (Panoramafreiheit).
+#  - Keine NC- oder ND-Lizenzen, keine KI-generierten Bilder, keine erkennbaren Personen im Fokus, keine Marken im Fokus.
+#  - Die Fotos zeigen Orte bzw. Motive, nicht die angebotenen Wohnungen.
+# Weitere geprüfte Quellen (05.11.2026): Unsplash License (unsplash.com/license: frei nutzbar, keine Namensnennung nötig,
+#   kein Verkauf unveränderter Fotos) – Download/Suche ohne API-Schlüssel aus dieser Umgebung nicht möglich, nicht verwendet.
+#   Pexels (pexels.com/license) und Pixabay (cdn.pixabay.com) antworten aus dieser Umgebung mit 403 (Bot-Schutz) – nicht umgangen, nicht verwendet.
+#   Pixabay Content License (pixabay.com/service/license-summary/) geprüft: frei nutzbar, keine Namensnennung, Marken/Personen beachten.
+# Alle Fotos hier: Wikimedia Commons, Metadaten und Lizenz maschinenlesbar aus der Commons-API; Kamera-EXIF, soweit vorhanden, unter hinweise.
+bilder:
+  - datei: leonberg/marktplatz-fachwerk.jpg
+    titel: "File:Leonberg Fachwerkhäuser am Marktplatz.jpg"
+    original_url: "https://upload.wikimedia.org/wikipedia/commons/7/7c/Leonberg_Fachwerkh%C3%A4user_am_Marktplatz.jpg"
+    quelle: Wikimedia Commons
+    quelle_url: "https://commons.wikimedia.org/wiki/File:Leonberg_Fachwerkh%C3%A4user_am_Marktplatz.jpg"
+    urheber: "Harke"
+    lizenz: "CC BY-SA 3.0"
+    lizenz_url: "https://creativecommons.org/licenses/by-sa/3.0/"
+    aufnahmedatum: "2015-07-24"
+    abgerufen_am: "2026-11-05"
+    bearbeitung: "verkleinert auf 1920×1257 px; Speicherung als JPEG, auf der Website als AVIF/WebP in mehreren Breiten; im Titelbereich beschnitten angezeigt (Bildausschnitt); die bearbeitete Fassung steht ebenfalls unter CC BY-SA 3.0"
+    hinweise: "Gebäude von öffentlichem Grund aus fotografiert: Panoramafreiheit nach § 59 UrhG; Kamera laut EXIF: OLYMPUS IMAGING CORP. E-M10"
+  - datei: leonberg/pomeranzengarten.jpg
+    titel: "File:Pomeranzengarten Juli 2015 (1).jpg"
+    original_url: "https://upload.wikimedia.org/wikipedia/commons/1/13/Pomeranzengarten_Juli_2015_%281%29.jpg"
+    quelle: Wikimedia Commons
+    quelle_url: "https://commons.wikimedia.org/wiki/File:Pomeranzengarten_Juli_2015_(1).jpg"
+    urheber: "Harke"
+    lizenz: "CC BY-SA 3.0"
+    lizenz_url: "https://creativecommons.org/licenses/by-sa/3.0/"
+    aufnahmedatum: "2015-07-24"
+    abgerufen_am: "2026-11-05"
+    bearbeitung: "verkleinert auf 1920×1411 px; Speicherung als JPEG, auf der Website als AVIF/WebP in mehreren Breiten; die bearbeitete Fassung steht ebenfalls unter CC BY-SA 3.0"
+    hinweise: "Gebäude von öffentlichem Grund aus fotografiert: Panoramafreiheit nach § 59 UrhG; öffentlich zugänglicher Schlossgarten; Kamera laut EXIF: OLYMPUS IMAGING CORP. E-M10"
+  - datei: ditzingen/altes-rathaus.jpg
+    titel: "File:Ehemaliges Rathaus, Neu erbaut 1738, Fachwerkbau in Eck- und Hanglage, kleiner Dachreiter, 1923 Sichtfachwerk, 1960 Torbogendurchfahrt, 1993 Stadtmuseum - panoramio.jpg"
+    original_url: "https://upload.wikimedia.org/wikipedia/commons/e/ef/Ehemaliges_Rathaus%2C_Neu_erbaut_1738%2C_Fachwerkbau_in_Eck-_und_Hanglage%2C_kleiner_Dachreiter%2C_1923_Sichtfachwerk%2C_1960_Torbogendurchfahrt%2C_1993_Stadtmuseum_-_panoramio.jpg"
+    quelle: Wikimedia Commons
+    quelle_url: "https://commons.wikimedia.org/wiki/File:Ehemaliges_Rathaus,_Neu_erbaut_1738,_Fachwerkbau_in_Eck-_und_Hanglage,_kleiner_Dachreiter,_1923_Sichtfachwerk,_1960_Torbogendurchfahrt,_1993_Stadtmuseum_-_panoramio.jpg"
+    urheber: "qwesy qwesy"
+    lizenz: "CC BY 3.0"
+    lizenz_url: "https://creativecommons.org/licenses/by/3.0/"
+    aufnahmedatum: "2015"
+    abgerufen_am: "2026-11-05"
+    bearbeitung: "verkleinert auf 1920×1440 px; Speicherung als JPEG, auf der Website als AVIF/WebP in mehreren Breiten; im Titelbereich beschnitten angezeigt (Bildausschnitt)"
+    hinweise: "Gebäude von öffentlichem Grund aus fotografiert: Panoramafreiheit nach § 59 UrhG; ursprünglich auf Panoramio veröffentlicht, von dort nach Commons übernommen; Kamera laut EXIF: NIKON COOLPIX AW110"
+  - datei: ditzingen/bahnhof.jpg
+    titel: "File:Bahnhof Ditzingen mit Bahnsteig.jpg"
+    original_url: "https://upload.wikimedia.org/wikipedia/commons/0/03/Bahnhof_Ditzingen_mit_Bahnsteig.jpg"
+    quelle: Wikimedia Commons
+    quelle_url: "https://commons.wikimedia.org/wiki/File:Bahnhof_Ditzingen_mit_Bahnsteig.jpg"
+    urheber: "Baron2105"
+    lizenz: "CC BY-SA 3.0"
+    lizenz_url: "https://creativecommons.org/licenses/by-sa/3.0/"
+    aufnahmedatum: "2010-06-07"
+    abgerufen_am: "2026-11-05"
+    bearbeitung: "verkleinert auf 1920×1389 px; Speicherung als JPEG, auf der Website als AVIF/WebP in mehreren Breiten; die bearbeitete Fassung steht ebenfalls unter CC BY-SA 3.0"
+    hinweise: "Gebäude von öffentlichem Grund aus fotografiert: Panoramafreiheit nach § 59 UrhG; Kamera laut EXIF: Konica Corporation Konica Digital Camera KD-400Z"
+  - datei: ditzingen/schloss.jpg
+    titel: "File:Ditzingen Schloss.jpg"
+    original_url: "https://upload.wikimedia.org/wikipedia/commons/a/a7/Ditzingen_Schloss.jpg"
+    quelle: Wikimedia Commons
+    quelle_url: "https://commons.wikimedia.org/wiki/File:Ditzingen_Schloss.jpg"
+    urheber: "Harke"
+    lizenz: "Public domain"
+    lizenz_url: "https://creativecommons.org/publicdomain/mark/1.0/"
+    aufnahmedatum: "2009-08-01"
+    abgerufen_am: "2026-11-05"
+    bearbeitung: "verkleinert auf 1920×1313 px; Speicherung als JPEG, auf der Website als AVIF/WebP in mehreren Breiten"
+    hinweise: "Gebäude von öffentlichem Grund aus fotografiert: Panoramafreiheit nach § 59 UrhG; vom Urheber gemeinfrei gestellt (Public Domain); Kamera laut EXIF: NIKON CORPORATION NIKON D60"
+  - datei: renningen/bahnhof.jpg
+    titel: "File:Bahnhof Renningen.jpg"
+    original_url: "https://upload.wikimedia.org/wikipedia/commons/b/bb/Bahnhof_Renningen.jpg"
+    quelle: Wikimedia Commons
+    quelle_url: "https://commons.wikimedia.org/wiki/File:Bahnhof_Renningen.jpg"
+    urheber: "Baron2105"
+    lizenz: "CC BY-SA 3.0"
+    lizenz_url: "https://creativecommons.org/licenses/by-sa/3.0/"
+    aufnahmedatum: "2010-06-07"
+    abgerufen_am: "2026-11-05"
+    bearbeitung: "verkleinert auf 1920×1420 px; Speicherung als JPEG, auf der Website als AVIF/WebP in mehreren Breiten; die bearbeitete Fassung steht ebenfalls unter CC BY-SA 3.0"
+    hinweise: "Gebäude von öffentlichem Grund aus fotografiert: Panoramafreiheit nach § 59 UrhG; DB-Logo nur klein im Hintergrund; Kamera laut EXIF: Konica Corporation Konica Digital Camera KD-400Z"
+  - datei: heimsheim/blick-heckengaeu.jpg
+    titel: "File:Ansichten von Heimsheim 04.jpg"
+    original_url: "https://upload.wikimedia.org/wikipedia/commons/8/80/Ansichten_von_Heimsheim_04.jpg"
+    quelle: Wikimedia Commons
+    quelle_url: "https://commons.wikimedia.org/wiki/File:Ansichten_von_Heimsheim_04.jpg"
+    urheber: "Giftzwerg 88"
+    lizenz: "CC BY-SA 4.0"
+    lizenz_url: "https://creativecommons.org/licenses/by-sa/4.0/"
+    aufnahmedatum: "2018-08-19"
+    abgerufen_am: "2026-11-05"
+    bearbeitung: "verkleinert auf 1920×1440 px; Speicherung als JPEG, auf der Website als AVIF/WebP in mehreren Breiten; die bearbeitete Fassung steht ebenfalls unter CC BY-SA 4.0"
+    hinweise: "Landschaftsaufnahme, keine Personen; Kamera laut EXIF: SONY DSC-HX400V"
+  - datei: heimsheim/zehntscheune.jpg
+    titel: "File:Zehntscheune Heimsheim 05.jpg"
+    original_url: "https://upload.wikimedia.org/wikipedia/commons/5/51/Zehntscheune_Heimsheim_05.jpg"
+    quelle: Wikimedia Commons
+    quelle_url: "https://commons.wikimedia.org/wiki/File:Zehntscheune_Heimsheim_05.jpg"
+    urheber: "Giftzwerg 88"
+    lizenz: "CC BY-SA 4.0"
+    lizenz_url: "https://creativecommons.org/licenses/by-sa/4.0/"
+    aufnahmedatum: "2018-08-19"
+    abgerufen_am: "2026-11-05"
+    bearbeitung: "verkleinert auf 1920×1440 px; Speicherung als JPEG, auf der Website als AVIF/WebP in mehreren Breiten; die bearbeitete Fassung steht ebenfalls unter CC BY-SA 4.0"
+    hinweise: "Gebäude von öffentlichem Grund aus fotografiert: Panoramafreiheit nach § 59 UrhG; Kamera laut EXIF: SONY DSC-HX400V"
+  - datei: pforzheim/mehrfamilienhaus-gruenderzeit.jpg
+    titel: "File:Landappbw 310149 1821 Mehrfamilien-Wohnhaus Pforzheim Schwarzwaldstraße.jpg"
+    original_url: "https://upload.wikimedia.org/wikipedia/commons/0/0e/Landappbw_310149_1821_Mehrfamilien-Wohnhaus_Pforzheim_Schwarzwaldstra%C3%9Fe.jpg"
+    quelle: Wikimedia Commons
+    quelle_url: "https://commons.wikimedia.org/wiki/File:Landappbw_310149_1821_Mehrfamilien-Wohnhaus_Pforzheim_Schwarzwaldstra%C3%9Fe.jpg"
+    urheber: "Werner Schüle"
+    lizenz: "CC0"
+    lizenz_url: "http://creativecommons.org/publicdomain/zero/1.0/deed.en/"
+    aufnahmedatum: "2020"
+    abgerufen_am: "2026-11-05"
+    bearbeitung: "verkleinert auf 1920×1440 px; Speicherung als JPEG, auf der Website als AVIF/WebP in mehreren Breiten"
+    hinweise: "Gebäude von öffentlichem Grund aus fotografiert: Panoramafreiheit nach § 59 UrhG; Upload aus der Commons-Sammlung Landappbw"
+  - datei: pforzheim/mehrfamilienhaeuser-strasse.jpg
+    titel: "File:Landappbw 310145 1821 Mehrfamilien-Wohnhaus Pforzheim, Schwarzwaldstraße.jpg"
+    original_url: "https://upload.wikimedia.org/wikipedia/commons/8/8d/Landappbw_310145_1821_Mehrfamilien-Wohnhaus_Pforzheim%2C_Schwarzwaldstra%C3%9Fe.jpg"
+    quelle: Wikimedia Commons
+    quelle_url: "https://commons.wikimedia.org/wiki/File:Landappbw_310145_1821_Mehrfamilien-Wohnhaus_Pforzheim,_Schwarzwaldstra%C3%9Fe.jpg"
+    urheber: "Werner Schüle"
+    lizenz: "CC0"
+    lizenz_url: "http://creativecommons.org/publicdomain/zero/1.0/deed.en/"
+    aufnahmedatum: "2020"
+    abgerufen_am: "2026-11-05"
+    bearbeitung: "verkleinert auf 1920×1283 px; Speicherung als JPEG, auf der Website als AVIF/WebP in mehreren Breiten; im Titelbereich beschnitten angezeigt (Bildausschnitt)"
+    hinweise: "Gebäude von öffentlichem Grund aus fotografiert: Panoramafreiheit nach § 59 UrhG; Upload aus der Commons-Sammlung Landappbw"
+  - datei: heimsheim/schleglerschloss.jpg
+    titel: "File:Schleglerschloss SW.jpg"
+    original_url: "https://upload.wikimedia.org/wikipedia/commons/7/7d/Schleglerschloss_SW.jpg"
+    quelle: Wikimedia Commons
+    quelle_url: "https://commons.wikimedia.org/wiki/File:Schleglerschloss_SW.jpg"
+    urheber: "Moleskine"
+    lizenz: "CC BY-SA 4.0"
+    lizenz_url: "https://creativecommons.org/licenses/by-sa/4.0/"
+    aufnahmedatum: "2020-12-19"
+    abgerufen_am: "2026-11-05"
+    bearbeitung: "verkleinert auf 1920×1080 px; Speicherung als JPEG, auf der Website als AVIF/WebP in mehreren Breiten; im Titelbereich beschnitten angezeigt (Bildausschnitt); die bearbeitete Fassung steht ebenfalls unter CC BY-SA 4.0"
+    hinweise: "Gebäude von öffentlichem Grund aus fotografiert: Panoramafreiheit nach § 59 UrhG; Kamera laut EXIF: Panasonic DMC-GF7"
+  - datei: renningen/malmsheim-rathaus-kirche.jpg
+    titel: "File:Evangelische Germanuskirche und Rathaus in Malmsheim - panoramio.jpg"
+    original_url: "https://upload.wikimedia.org/wikipedia/commons/9/9a/Evangelische_Germanuskirche_und_Rathaus_in_Malmsheim_-_panoramio.jpg"
+    quelle: Wikimedia Commons
+    quelle_url: "https://commons.wikimedia.org/wiki/File:Evangelische_Germanuskirche_und_Rathaus_in_Malmsheim_-_panoramio.jpg"
+    urheber: "qwesy qwesy"
+    lizenz: "CC BY 3.0"
+    lizenz_url: "https://creativecommons.org/licenses/by/3.0/"
+    aufnahmedatum: "2013"
+    abgerufen_am: "2026-11-05"
+    bearbeitung: "verkleinert auf 1920×1426 px; Speicherung als JPEG, auf der Website als AVIF/WebP in mehreren Breiten; im Titelbereich beschnitten angezeigt (Bildausschnitt)"
+    hinweise: "Gebäude von öffentlichem Grund aus fotografiert: Panoramafreiheit nach § 59 UrhG; Kamera laut EXIF: Panasonic DMC-FZ8"
+  - datei: renningen/ortsmitte.jpg
+    titel: "File:Renningen2.jpg"
+    original_url: "https://upload.wikimedia.org/wikipedia/commons/7/74/Renningen2.jpg"
+    quelle: Wikimedia Commons
+    quelle_url: "https://commons.wikimedia.org/wiki/File:Renningen2.jpg"
+    urheber: "Jerchel"
+    lizenz: "CC BY-SA 3.0"
+    lizenz_url: "https://creativecommons.org/licenses/by-sa/3.0/"
+    aufnahmedatum: "2010"
+    abgerufen_am: "2026-11-05"
+    bearbeitung: "verkleinert auf 1920×1440 px; Speicherung als JPEG, auf der Website als AVIF/WebP in mehreren Breiten; die bearbeitete Fassung steht ebenfalls unter CC BY-SA 3.0"
+    hinweise: "Gebäude von öffentlichem Grund aus fotografiert: Panoramafreiheit nach § 59 UrhG; Straßenszene: Kennzeichen und Personen nur klein im Hintergrund, nicht erkennbar; Kamera laut EXIF: Nokia N95"
+  - datei: pforzheim/enz-stadtkirche.jpg
+    titel: "File:Enz und Stadtkirche (Pforzheim).jpg"
+    original_url: "https://upload.wikimedia.org/wikipedia/commons/9/93/Enz_und_Stadtkirche_%28Pforzheim%29.jpg"
+    quelle: Wikimedia Commons
+    quelle_url: "https://commons.wikimedia.org/wiki/File:Enz_und_Stadtkirche_(Pforzheim).jpg"
+    urheber: "Paralacre"
+    lizenz: "CC0"
+    lizenz_url: "http://creativecommons.org/publicdomain/zero/1.0/deed.en/"
+    aufnahmedatum: "2013-07-21"
+    abgerufen_am: "2026-11-05"
+    bearbeitung: "verkleinert auf 1920×2560 px; Speicherung als JPEG, auf der Website als AVIF/WebP in mehreren Breiten; im Titelbereich beschnitten angezeigt (Bildausschnitt)"
+    hinweise: "Gebäude von öffentlichem Grund aus fotografiert: Panoramafreiheit nach § 59 UrhG; Kamera laut EXIF: Panasonic DMC-TZ18"
+  - datei: themen/schluessel-tuerschloss.jpg
+    titel: "File:Close-up of the key with house keychain.jpg"
+    original_url: "https://upload.wikimedia.org/wikipedia/commons/7/74/Close-up_of_the_key_with_house_keychain.jpg"
+    quelle: Wikimedia Commons
+    quelle_url: "https://commons.wikimedia.org/wiki/File:Close-up_of_the_key_with_house_keychain.jpg"
+    urheber: "Shixart1985"
+    lizenz: "CC BY 2.0"
+    lizenz_url: "https://creativecommons.org/licenses/by/2.0/"
+    aufnahmedatum: "2021-10-27"
+    abgerufen_am: "2026-11-05"
+    bearbeitung: "verkleinert auf 1920×1281 px; Speicherung als JPEG, auf der Website als AVIF/WebP in mehreren Breiten; im Titelbereich beschnitten angezeigt (Bildausschnitt)"
+    hinweise: "Innenaufnahme ohne Personen; Schlüsselanhänger ohne Marke; Symbolbild, zeigt keine angebotene Wohnung; Kamera laut EXIF: NIKON CORPORATION NIKON D800"
+  - datei: themen/heizkoerper-thermostat.jpg
+    titel: "File:Heizkoerperventil2008.JPG"
+    original_url: "https://upload.wikimedia.org/wikipedia/commons/a/a6/Heizkoerperventil2008.JPG"
+    quelle: Wikimedia Commons
+    quelle_url: "https://commons.wikimedia.org/wiki/File:Heizkoerperventil2008.JPG"
+    urheber: "Affemitwaffe"
+    lizenz: "CC BY-SA 3.0"
+    lizenz_url: "http://creativecommons.org/licenses/by-sa/3.0/"
+    aufnahmedatum: "2008-03-22"
+    abgerufen_am: "2026-11-05"
+    bearbeitung: "verkleinert auf 1920×1277 px; Speicherung als JPEG, auf der Website als AVIF/WebP in mehreren Breiten; die bearbeitete Fassung steht ebenfalls unter CC BY-SA 3.0"
+    hinweise: "Thermostatkopf ohne erkennbares Markenlogo; Symbolbild; Kamera laut EXIF: NIKON CORPORATION NIKON D40"
+  - datei: themen/wohnanlage-balkone.jpg
+    titel: "File:GER Ingolstadt, Stauffenbergstraße 0009.jpg"
+    original_url: "https://upload.wikimedia.org/wikipedia/commons/4/4d/GER_Ingolstadt%2C_Stauffenbergstra%C3%9Fe_0009.jpg"
+    quelle: Wikimedia Commons
+    quelle_url: "https://commons.wikimedia.org/wiki/File:GER_Ingolstadt,_Stauffenbergstra%C3%9Fe_0009.jpg"
+    urheber: "-wuppertaler"
+    lizenz: "CC BY 4.0"
+    lizenz_url: "https://creativecommons.org/licenses/by/4.0/"
+    aufnahmedatum: "2023-10-15"
+    abgerufen_am: "2026-11-05"
+    bearbeitung: "verkleinert auf 1920×1440 px; Speicherung als JPEG, auf der Website als AVIF/WebP in mehreren Breiten; im Titelbereich beschnitten angezeigt (Bildausschnitt)"
+    hinweise: "Gebäude von öffentlichem Grund aus fotografiert: Panoramafreiheit nach § 59 UrhG; Wohnanlage in Ingolstadt (Bayern), als typisches Beispiel einer Eigentumswohnanlage der 1970er-Jahre; keine Personen; Kamera laut EXIF: Apple iPhone 11"
+  - datei: themen/wohnanlage-gruenflaeche.jpg
+    titel: "File:GER Gersthofen, Schulstraße 0002.jpg"
+    original_url: "https://upload.wikimedia.org/wikipedia/commons/2/2d/GER_Gersthofen%2C_Schulstra%C3%9Fe_0002.jpg"
+    quelle: Wikimedia Commons
+    quelle_url: "https://commons.wikimedia.org/wiki/File:GER_Gersthofen,_Schulstra%C3%9Fe_0002.jpg"
+    urheber: "-wuppertaler"
+    lizenz: "CC BY 4.0"
+    lizenz_url: "https://creativecommons.org/licenses/by/4.0/"
+    aufnahmedatum: "2024-01-25"
+    abgerufen_am: "2026-11-05"
+    bearbeitung: "verkleinert auf 1920×1440 px; Speicherung als JPEG, auf der Website als AVIF/WebP in mehreren Breiten; im Titelbereich beschnitten angezeigt (Bildausschnitt)"
+    hinweise: "Gebäude von öffentlichem Grund aus fotografiert: Panoramafreiheit nach § 59 UrhG; Wohnanlage in Gersthofen (Bayern), Symbolbild; keine Personen; Kamera laut EXIF: Apple iPhone 11"
+  - datei: themen/neubau-wohnanlage-stuttgart.jpg
+    titel: "File:Neubauprojekt Am Eschbach Stuttgart-Freiberg 01.jpg"
+    original_url: "https://upload.wikimedia.org/wikipedia/commons/2/2f/Neubauprojekt_Am_Eschbach_Stuttgart-Freiberg_01.jpg"
+    quelle: Wikimedia Commons
+    quelle_url: "https://commons.wikimedia.org/wiki/File:Neubauprojekt_Am_Eschbach_Stuttgart-Freiberg_01.jpg"
+    urheber: "MSeses"
+    lizenz: "CC BY-SA 4.0"
+    lizenz_url: "https://creativecommons.org/licenses/by-sa/4.0/"
+    aufnahmedatum: "2023-12-30"
+    abgerufen_am: "2026-11-05"
+    bearbeitung: "verkleinert auf 1920×1280 px; Speicherung als JPEG, auf der Website als AVIF/WebP in mehreren Breiten; im Titelbereich beschnitten angezeigt (Bildausschnitt); die bearbeitete Fassung steht ebenfalls unter CC BY-SA 4.0"
+    hinweise: "Gebäude von öffentlichem Grund aus fotografiert: Panoramafreiheit nach § 59 UrhG; Neubauprojekt in Stuttgart-Freiberg, Symbolbild; keine Personen; Kamera laut EXIF: NIKON CORPORATION NIKON D5300"
+  - datei: aktuell/bundesrat-berlin.jpg
+    titel: "File:Deutscher.Bundesrat.Leipziger.Strasse.jpg"
+    original_url: "https://upload.wikimedia.org/wikipedia/commons/9/9a/Deutscher.Bundesrat.Leipziger.Strasse.jpg"
+    quelle: Wikimedia Commons
+    quelle_url: "https://commons.wikimedia.org/wiki/File:Deutscher.Bundesrat.Leipziger.Strasse.jpg"
+    urheber: "Membeth"
+    lizenz: "CC0"
+    lizenz_url: "http://creativecommons.org/publicdomain/zero/1.0/deed.en/"
+    aufnahmedatum: "2017-12-08"
+    abgerufen_am: "2026-11-05"
+    bearbeitung: "verkleinert auf 1920×1509 px; Speicherung als JPEG, auf der Website als AVIF/WebP in mehreren Breiten; im Titelbereich beschnitten angezeigt (Bildausschnitt)"
+    hinweise: "Gebäude von öffentlichem Grund aus fotografiert: Panoramafreiheit nach § 59 UrhG; Bundesratsgebäude (ehemaliges Preußisches Herrenhaus), Leipziger Straße, Berlin; Kamera laut EXIF: Panasonic DMC-GX8"
+  - datei: themen/wohnhaeuser-hirschlanden.jpg
+    titel: "File:Wohnhäuser Hirschlanden.jpg"
+    original_url: "https://upload.wikimedia.org/wikipedia/commons/1/18/Wohnh%C3%A4user_Hirschlanden.jpg"
+    quelle: Wikimedia Commons
+    quelle_url: "https://commons.wikimedia.org/wiki/File:Wohnh%C3%A4user_Hirschlanden.jpg"
+    urheber: "Harke"
+    lizenz: "CC BY-SA 3.0"
+    lizenz_url: "https://creativecommons.org/licenses/by-sa/3.0/"
+    aufnahmedatum: "2009-08-01"
+    abgerufen_am: "2026-11-05"
+    bearbeitung: "verkleinert auf 1920×1129 px; Speicherung als JPEG, auf der Website als AVIF/WebP in mehreren Breiten; im Titelbereich beschnitten angezeigt (Bildausschnitt); die bearbeitete Fassung steht ebenfalls unter CC BY-SA 3.0"
+    hinweise: "Gebäude von öffentlichem Grund aus fotografiert: Panoramafreiheit nach § 59 UrhG; Wohnhäuser im Norden von Ditzingen-Hirschlanden; keine Personen; Kamera laut EXIF: NIKON CORPORATION NIKON D60"
+  - datei: themen/eltingen-dorfstrasse.jpg
+    titel: "File:Eltingen Dorfstrasse (1).jpg"
+    original_url: "https://upload.wikimedia.org/wikipedia/commons/4/4d/Eltingen_Dorfstrasse_%281%29.jpg"
+    quelle: Wikimedia Commons
+    quelle_url: "https://commons.wikimedia.org/wiki/File:Eltingen_Dorfstrasse_(1).jpg"
+    urheber: "Harke"
+    lizenz: "CC BY-SA 3.0"
+    lizenz_url: "https://creativecommons.org/licenses/by-sa/3.0/"
+    aufnahmedatum: "2009-09-30"
+    abgerufen_am: "2026-11-05"
+    bearbeitung: "verkleinert auf 1920×1440 px; Speicherung als JPEG, auf der Website als AVIF/WebP in mehreren Breiten; im Titelbereich beschnitten angezeigt (Bildausschnitt); die bearbeitete Fassung steht ebenfalls unter CC BY-SA 3.0"
+    hinweise: "Gebäude von öffentlichem Grund aus fotografiert: Panoramafreiheit nach § 59 UrhG; Carl-Schmincke-Straße in Leonberg-Eltingen; Kamera laut EXIF: NIKON CORPORATION NIKON D60"
+  - datei: themen/pforzheim-nordstadt-jugendstil.jpg
+    titel: "File:Jugendstil-Gebäude an der Ecke Zähringerallee sowie Salierstraße.JPG"
+    original_url: "https://upload.wikimedia.org/wikipedia/commons/9/9a/Jugendstil-Geb%C3%A4ude_an_der_Ecke_Z%C3%A4hringerallee_sowie_Salierstra%C3%9Fe.JPG"
+    quelle: Wikimedia Commons
+    quelle_url: "https://commons.wikimedia.org/wiki/File:Jugendstil-Geb%C3%A4ude_an_der_Ecke_Z%C3%A4hringerallee_sowie_Salierstra%C3%9Fe.JPG"
+    urheber: "Maxim112000"
+    lizenz: "CC BY-SA 3.0"
+    lizenz_url: "https://creativecommons.org/licenses/by-sa/3.0/"
+    aufnahmedatum: "2014-02-16"
+    abgerufen_am: "2026-11-05"
+    bearbeitung: "verkleinert auf 1920×1079 px; Speicherung als JPEG, auf der Website als AVIF/WebP in mehreren Breiten; im Titelbereich beschnitten angezeigt (Bildausschnitt); die bearbeitete Fassung steht ebenfalls unter CC BY-SA 3.0"
+    hinweise: "Gebäude von öffentlichem Grund aus fotografiert: Panoramafreiheit nach § 59 UrhG; Jugendstil-Wohnhaus Ecke Zähringerallee/Salierstraße, Pforzheim-Nordstadt; Kamera laut EXIF: SONY NEX-5R"
+  - datei: aktuell/neubau-baustelle-stuttgart.jpg
+    titel: "File:Neubauprojekt Am Eschbach Stuttgart-Freiberg 02.jpg"
+    original_url: "https://upload.wikimedia.org/wikipedia/commons/b/b2/Neubauprojekt_Am_Eschbach_Stuttgart-Freiberg_02.jpg"
+    quelle: Wikimedia Commons
+    quelle_url: "https://commons.wikimedia.org/wiki/File:Neubauprojekt_Am_Eschbach_Stuttgart-Freiberg_02.jpg"
+    urheber: "MSeses"
+    lizenz: "CC BY-SA 4.0"
+    lizenz_url: "https://creativecommons.org/licenses/by-sa/4.0/"
+    aufnahmedatum: "2023-12-30"
+    abgerufen_am: "2026-11-05"
+    bearbeitung: "verkleinert auf 1920×1280 px; Speicherung als JPEG, auf der Website als AVIF/WebP in mehreren Breiten; im Titelbereich beschnitten angezeigt (Bildausschnitt); die bearbeitete Fassung steht ebenfalls unter CC BY-SA 4.0"
+    hinweise: "Gebäude von öffentlichem Grund aus fotografiert: Panoramafreiheit nach § 59 UrhG; Neubauprojekt Am Eschbach, Stuttgart-Freiberg, während der Bauphase; Symbolbild; Kamera laut EXIF: NIKON CORPORATION NIKON D5300"
+  - datei: themen/haustuer-pforzheim.jpg
+    titel: "File:Landappbw 310160 1821 Wohnhaus-Eingänge Pforzheim, Rudolfstraße.jpg"
+    original_url: "https://upload.wikimedia.org/wikipedia/commons/b/bd/Landappbw_310160_1821_Wohnhaus-Eing%C3%A4nge_Pforzheim%2C_Rudolfstra%C3%9Fe.jpg"
+    quelle: Wikimedia Commons
+    quelle_url: "https://commons.wikimedia.org/wiki/File:Landappbw_310160_1821_Wohnhaus-Eing%C3%A4nge_Pforzheim,_Rudolfstra%C3%9Fe.jpg"
+    urheber: "Werner Schüle"
+    lizenz: "CC0"
+    lizenz_url: "http://creativecommons.org/publicdomain/zero/1.0/deed.en/"
+    aufnahmedatum: "2020"
+    abgerufen_am: "2026-11-05"
+    bearbeitung: "Zuschnitt; verkleinert auf 902×1258 px; Speicherung als JPEG, auf der Website als AVIF/WebP in mehreren Breiten; im Titelbereich beschnitten angezeigt (Bildausschnitt)"
+    hinweise: "Gebäude von öffentlichem Grund aus fotografiert: Panoramafreiheit nach § 59 UrhG; Hauseingang Rudolfstraße, Pforzheim; Ausschnitt so gewählt, dass keine Hausnummer zu lesen ist; Upload aus der Commons-Sammlung Landappbw"
+  - datei: themen/blick-hirschlanden.jpg
+    titel: "File:Hirschlanden (Ditzingen).jpg"
+    original_url: "https://upload.wikimedia.org/wikipedia/commons/3/31/Hirschlanden_%28Ditzingen%29.jpg"
+    quelle: Wikimedia Commons
+    quelle_url: "https://commons.wikimedia.org/wiki/File:Hirschlanden_(Ditzingen).jpg"
+    urheber: "Matthias.Wolf"
+    lizenz: "CC BY-SA 4.0"
+    lizenz_url: "https://creativecommons.org/licenses/by-sa/4.0/"
+    aufnahmedatum: "2023"
+    abgerufen_am: "2026-11-05"
+    bearbeitung: "verkleinert auf 1920×1081 px; Speicherung als JPEG, auf der Website als AVIF/WebP in mehreren Breiten; im Titelbereich beschnitten angezeigt (Bildausschnitt); die bearbeitete Fassung steht ebenfalls unter CC BY-SA 4.0"
+    hinweise: "Gebäude von öffentlichem Grund aus fotografiert: Panoramafreiheit nach § 59 UrhG; Ortsansicht Ditzingen-Hirschlanden vom Feldrand"
+  - datei: aktuell/bundesrat-leipziger-strasse.jpg
+    titel: "File:Bundesrat building in Berlin.jpg"
+    original_url: "https://upload.wikimedia.org/wikipedia/commons/0/04/Bundesrat_building_in_Berlin.jpg"
+    quelle: Wikimedia Commons
+    quelle_url: "https://commons.wikimedia.org/wiki/File:Bundesrat_building_in_Berlin.jpg"
+    urheber: "Peaceray"
+    lizenz: "CC BY-SA 4.0"
+    lizenz_url: "https://creativecommons.org/licenses/by-sa/4.0/"
+    aufnahmedatum: "2016"
+    abgerufen_am: "2026-11-05"
+    bearbeitung: "verkleinert auf 1920×982 px; Speicherung als JPEG, auf der Website als AVIF/WebP in mehreren Breiten; im Titelbereich beschnitten angezeigt (Bildausschnitt); die bearbeitete Fassung steht ebenfalls unter CC BY-SA 4.0"
+    hinweise: "Gebäude von öffentlichem Grund aus fotografiert: Panoramafreiheit nach § 59 UrhG; Bundesratsgebäude, Leipziger Straße, Berlin; keine erkennbaren Personen; Kamera laut EXIF: Apple iPhone 6s Plus"

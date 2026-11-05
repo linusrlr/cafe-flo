@@ -1,0 +1,206 @@
+# Fotos je Seite. Die Texte in ../texte/ bleiben unverändert; die Bilder werden beim Rendern eingefügt.
+#   url:          Seiten-URL
+#   datei:        Pfad unter src/assets/bilder/ (Lizenzeintrag in bilder-lizenzen.yaml ist Pflicht)
+#   alt:          sachliche Beschreibung des Motivs (Pflicht)
+#   unterschrift: Bildunterschrift; der Nachweis „Foto: Urheber, Lizenz, via Quelle“ wird aus bilder-lizenzen.yaml ergänzt
+#   position:     „titel“ (Titelbild im Kopfbereich) oder „nach Abschnitt <H2-Überschrift oder ihr Anfang>“ (Bild am Ende des Abschnitts)
+#   fokus:        optional, CSS object-position für den Bildausschnitt des Titelbilds (z. B. „center 30%“)
+# Die Fotos zeigen Orte und typische Motive, nie die konkrete Wohnung. Build bricht ab bei fehlendem Lizenzeintrag, Alt-Text oder Abschnitt.
+seiten:
+  # ---------------------------------------------------------------- Ortsseiten
+  - url: /wohnung-verkaufen/leonberg/
+    bilder:
+      - datei: leonberg/marktplatz-fachwerk.jpg
+        position: titel
+        alt: Fachwerkhäuser und Altes Rathaus am Marktplatz in Leonberg bei blauem Himmel
+        unterschrift: Marktplatz in der Leonberger Altstadt
+      - datei: leonberg/pomeranzengarten.jpg
+        position: nach Abschnitt Die Stadtteile
+        alt: Pomeranzengarten mit Brunnen und Beeten vor dem Leonberger Schloss
+        unterschrift: Pomeranzengarten unterhalb des Schlosses in der Leonberger Altstadt
+
+  - url: /wohnung-verkaufen/ditzingen/
+    bilder:
+      - datei: ditzingen/altes-rathaus.jpg
+        position: titel
+        alt: Zwei Fachwerkhäuser in der Ditzinger Stadtmitte, rechts das ehemalige Rathaus mit kleinem Dachreiter
+        unterschrift: Ehemaliges Rathaus in der Ditzinger Stadtmitte
+      - datei: ditzingen/bahnhof.jpg
+        position: nach Abschnitt Was in Ditzingen anders ist
+        alt: Bahnsteig des Bahnhofs Ditzingen mit dem Empfangsgebäude aus Sandstein
+        unterschrift: Bahnhof Ditzingen an der S6 und S62
+      - datei: ditzingen/schloss.jpg
+        position: nach Abschnitt Kernstadt und Stadtteile
+        alt: Langgestrecktes Ditzinger Schloss mit rotem Ziegeldach hinter einem Garten
+        unterschrift: Schloss Ditzingen, ehemalige Wasserburg in der Kernstadt
+
+  - url: /wohnung-verkaufen/renningen/
+    bilder:
+      - datei: renningen/malmsheim-rathaus-kirche.jpg
+        position: titel
+        alt: Altes Rathaus mit grünen Fensterläden und Turm der Germanuskirche in der Ortsmitte von Malmsheim
+        unterschrift: Rathaus und Germanuskirche in Malmsheim
+      - datei: renningen/bahnhof.jpg
+        position: nach Abschnitt Was in Renningen anders ist
+        alt: Empfangsgebäude des Bahnhofs Renningen, dahinter ein Regionalzug
+        unterschrift: Bahnhof Renningen, Knoten der S6 und S60
+      - datei: renningen/ortsmitte.jpg
+        position: nach Abschnitt Renningen, Malmsheim und Ihinger Hof
+        alt: Straße in der Renninger Ortsmitte mit Fachwerkhäusern und einem Kirchturm
+        unterschrift: Ortsmitte von Renningen
+
+  - url: /wohnung-verkaufen/heimsheim/
+    bilder:
+      - datei: heimsheim/schleglerschloss.jpg
+        position: titel
+        alt: Mittelalterlicher Wohnturm aus rotem Sandstein, das Schleglerschloss in Heimsheim, rechts dahinter ein Kirchturm
+        unterschrift: Schleglerschloss in Heimsheim
+      - datei: heimsheim/blick-heckengaeu.jpg
+        position: nach Abschnitt Heimsheim und die Nachbarorte
+        alt: Blick über Wiesen und Hecken auf die Häuser von Heimsheim und die Hügel des Heckengäus
+        unterschrift: Blick auf Heimsheim im Heckengäu
+      - datei: heimsheim/zehntscheune.jpg
+        position: nach Abschnitt Was in Heimsheim anders ist
+        alt: Weiß verputzte Zehntscheune mit großen Holztoren und gepflastertem Vorplatz in Heimsheim
+        unterschrift: Zehntscheune in Heimsheim
+
+  - url: /wohnung-verkaufen/pforzheim/
+    bilder:
+      - datei: pforzheim/enz-stadtkirche.jpg
+        position: titel
+        fokus: center 40%
+        alt: Die Enz in der Pforzheimer Innenstadt mit Ufermauern, dahinter der Turm der Stadtkirche
+        unterschrift: Die Enz in der Pforzheimer Innenstadt
+      - datei: pforzheim/mehrfamilienhaus-gruenderzeit.jpg
+        position: nach Abschnitt Die Stadtteile
+        alt: Gründerzeitliche Mehrfamilienhäuser mit Erkern und Balkonen an einer Pforzheimer Straße
+        unterschrift: Mehrfamilienhäuser aus der Gründerzeit an der Schwarzwaldstraße in Pforzheim
+
+  # ---------------------------------------------------------------- Ratgeber (Symbolbilder, keine angebotenen Wohnungen)
+  - url: /ratgeber/eigentumswohnung-verkaufen/
+    bilder:
+      - datei: themen/wohnanlage-balkone.jpg
+        position: titel
+        alt: Mehrgeschossige Wohnanlage aus den 1970er-Jahren mit durchgehenden Balkonen und Rasenfläche
+        unterschrift: Typische Eigentumswohnanlage der 1970er-Jahre (Symbolbild)
+      - datei: ditzingen/bahnhof.jpg
+        position: nach Abschnitt Wer kauft Wohnungen in der Region?
+        alt: Bahnsteig des Bahnhofs Ditzingen mit dem Empfangsgebäude aus Sandstein
+        unterschrift: Bahnhof Ditzingen an der S-Bahn nach Stuttgart
+
+  - url: /ratgeber/vermietete-wohnung-verkaufen/
+    bilder:
+      - datei: themen/pforzheim-nordstadt-jugendstil.jpg
+        position: titel
+        alt: Mehrstöckiges Jugendstil-Mietshaus aus Sandstein mit Erkern an einer Straßenecke in der Pforzheimer Nordstadt
+        unterschrift: Mietshaus in der Pforzheimer Nordstadt (Symbolbild)
+      - datei: pforzheim/mehrfamilienhaeuser-strasse.jpg
+        position: nach Abschnitt Mietpreisbremse und Kappungsgrenze nach Ort
+        alt: Reihe gründerzeitlicher Mehrfamilienhäuser mit verzierten Fassaden an einer Pforzheimer Straße
+        unterschrift: Mehrfamilienhäuser an der Schwarzwaldstraße in Pforzheim
+
+  - url: /ratgeber/geerbte-wohnung-verkaufen/
+    bilder:
+      - datei: themen/eltingen-dorfstrasse.jpg
+        position: titel
+        alt: Straßenzug mit Fachwerkhäusern in Leonberg-Eltingen bei blauem Himmel
+        unterschrift: Carl-Schmincke-Straße in Leonberg-Eltingen
+      - datei: themen/wohnanlage-gruenflaeche.jpg
+        position: nach Abschnitt Die Wohnung in der WEG
+        alt: Wohnanlage mit Balkonen, Rasenflächen und gepflastertem Fußweg zwischen den Häusern
+        unterschrift: Wohnanlage mit gemeinschaftlichen Grünflächen (Symbolbild)
+
+  - url: /ratgeber/wohnung-scheidung/
+    bilder:
+      - datei: themen/wohnhaeuser-hirschlanden.jpg
+        position: titel
+        alt: Neuere Mehrfamilienhäuser mit Balkonen und Flachdächern am Ortsrand von Ditzingen-Hirschlanden
+        unterschrift: Neuere Wohnanlage in Ditzingen-Hirschlanden (Symbolbild)
+
+  - url: /ratgeber/spekulationssteuer/
+    bilder:
+      - datei: aktuell/bundesrat-berlin.jpg
+        position: titel
+        alt: Frontansicht des Bundesratsgebäudes in Berlin mit Säulenportal
+        unterschrift: Bundesratsgebäude in Berlin
+      - datei: themen/wohnanlage-gruenflaeche.jpg
+        position: nach Abschnitt Eigennutzung
+        alt: Wohnanlage mit Balkonen, Rasenflächen und gepflastertem Fußweg zwischen den Häusern
+        unterschrift: Wohnanlage mit Eigentumswohnungen (Symbolbild)
+
+  - url: /ratgeber/maklerprovision/
+    bilder:
+      - datei: themen/schluessel-tuerschloss.jpg
+        position: titel
+        alt: Schlüssel mit hausförmigem Anhänger steckt im Schloss einer weißen Wohnungstür
+        unterschrift: Schlüssel im Türschloss (Symbolbild)
+
+  - url: /ratgeber/energieausweis/
+    bilder:
+      - datei: themen/heizkoerper-thermostat.jpg
+        position: titel
+        alt: Thermostatventil an einem älteren Rippenheizkörper unter einem Fenster
+        unterschrift: Heizkörper mit Thermostatventil (Symbolbild)
+      - datei: themen/wohnanlage-balkone.jpg
+        position: nach Abschnitt Ein Ausweis für das Gebäude
+        alt: Mehrgeschossige Wohnanlage aus den 1970er-Jahren mit durchgehenden Balkonen und Rasenfläche
+        unterschrift: Der Energieausweis gilt für das ganze Gebäude, nicht für die einzelne Wohnung (Symbolbild)
+
+  - url: /ratgeber/verkaufen-oder-vermieten/
+    bilder:
+      - datei: themen/neubau-wohnanlage-stuttgart.jpg
+        position: titel
+        alt: Neue Wohngebäude mit gelben Balkonbrüstungen in Stuttgart-Freiberg
+        unterschrift: Neue Wohnanlage in Stuttgart-Freiberg (Symbolbild)
+      - datei: renningen/bahnhof.jpg
+        position: nach Abschnitt Wer mietet, wer kauft?
+        alt: Empfangsgebäude des Bahnhofs Renningen, dahinter ein Regionalzug
+        unterschrift: Bahnhof Renningen an der S6 und S60
+
+  - url: /ratgeber/verkauf-im-alter/
+    bilder:
+      - datei: themen/wohnanlage-gruenflaeche.jpg
+        position: titel
+        alt: Wohnanlage mit Balkonen, Rasenflächen und gepflastertem Fußweg zwischen den Häusern
+        unterschrift: Wohnanlage mit ebenerdigen Wegen (Symbolbild)
+
+  - url: /ratgeber/ohne-makler-verkaufen/
+    bilder:
+      - datei: themen/blick-hirschlanden.jpg
+        position: titel
+        alt: Blick über eine Wiese auf die Wohnhäuser von Ditzingen-Hirschlanden
+        unterschrift: Blick auf Ditzingen-Hirschlanden
+
+  - url: /ratgeber/sofortankauf-vs-makler/
+    bilder:
+      - datei: themen/haustuer-pforzheim.jpg
+        position: titel
+        fokus: center 35%
+        alt: Holzhaustür mit Sandsteinrahmung, Klingel und Briefkasten an einem Pforzheimer Altbau
+        unterschrift: Hauseingang eines Altbaus in Pforzheim (Symbolbild)
+
+  # ---------------------------------------------------------------- Aktuelles
+  - url: /aktuell/bauzinsen-november-2026/
+    bilder:
+      - datei: aktuell/neubau-baustelle-stuttgart.jpg
+        position: titel
+        alt: Neubau-Wohnanlage mit gelben Balkonen, im Vordergrund noch Baustelle
+        unterschrift: Neubauprojekt in Stuttgart-Freiberg kurz vor der Fertigstellung (Symbolbild)
+
+  - url: /aktuell/mietpreisbremse-region/
+    bilder:
+      - datei: pforzheim/mehrfamilienhaeuser-strasse.jpg
+        position: titel
+        alt: Reihe gründerzeitlicher Mehrfamilienhäuser mit verzierten Fassaden an einer Pforzheimer Straße
+        unterschrift: Mehrfamilienhäuser an der Schwarzwaldstraße in Pforzheim
+      - datei: leonberg/marktplatz-fachwerk.jpg
+        position: nach Abschnitt Was bedeutet das für Vermieter
+        alt: Fachwerkhäuser und Altes Rathaus am Marktplatz in Leonberg bei blauem Himmel
+        unterschrift: Marktplatz in Leonberg
+
+  - url: /aktuell/spekulationsfrist-bleibt/
+    bilder:
+      - datei: aktuell/bundesrat-leipziger-strasse.jpg
+        position: titel
+        alt: Bundesratsgebäude an der Leipziger Straße in Berlin, davor parkende Autos und Fahrräder
+        unterschrift: Bundesratsgebäude an der Leipziger Straße, Berlin
