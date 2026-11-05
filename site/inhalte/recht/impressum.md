@@ -31,8 +31,6 @@ Tätigkeit: Immobilienmakler, erlaubnispflichtig nach § 34c Abs. 1 Satz 1 Nr. 1
 
 ::erlaubnis{baustein="d"}
 
-Aktenzeichen des Erlaubnisbescheids: {{fakten.erlaubnis.aktenzeichen}}
-
 ## Zuständige Kammer
 
 {{fakten.firma.kammer}}

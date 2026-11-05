@@ -16,8 +16,8 @@ Ausgangslage: 143 offene Stellen auf 28 Seiten (`npm run offen`, Stand 3.11.2026
   *Trägt ein:* `firma.anschrift` (eine Zeile), `firma.kammer`, `firma.datenschutzaufsicht` in `bauplan/fakten.yaml`. Bei „bleibt“ die Werte aus dem jeweiligen `hinweis` übernehmen (IHK Würzburg-Schweinfurt; Bayerisches Landesamt für Datenschutzaufsicht). Bei Sitz in Baden-Württemberg: IHK Region Stuttgart (Leonberg, Renningen, Ditzingen) oder IHK Nordschwarzwald (Heimsheim, Pforzheim) und der Landesbeauftragte für den Datenschutz Baden-Württemberg.
   *Erscheint in:* Impressum, Datenschutz, Kontakt, NAP-Block der fünf Ortsseiten.
 
-- [ ] **1.2 Angaben aus dem Erlaubnisbescheid nach § 34c GewO.** Bitte den Bescheid daneben legen.
-  Erteilt am: ……………… Aktenzeichen: ……………… Ausstellende IHK mit Anschrift: ……………………………………………
+- [ ] **1.2 Erteilungsdatum des Erlaubnisbescheids nach § 34c GewO.** IHK (München und Oberbayern, Max-Joseph-Straße 2, 80333 München) und Antragsdatum (09.09.2026) sind seit 05.11.2026 eingetragen; ein Aktenzeichen nennt der Bescheid nicht. Offen ist nur das Datum oben rechts auf Seite 1.
+  Erteilt am: ………………
   (Der Antrag lief laut `analyse-aktuelle-webseite/07-recht-erlaubnis.md` und `recherche/34i-baufinanzierung.md` bei der IHK für München und Oberbayern, Balanstraße 55–59, 81541 München. Bitte nicht übernehmen, ohne den Bescheid geprüft zu haben.)
   *Trägt ein:* `erlaubnis.erteilt_am` (Format `2026-10-15`), `erlaubnis.aktenzeichen`, `erlaubnis.behoerde` (`wert` = Name der IHK, `anschrift`), jeweils `status: geprueft`.
   *Erscheint in:* Impressum (Baustein E, Aufsichtsbehörde), Über mich. Solange die Felder leer sind, bleibt das Impressum blockiert.

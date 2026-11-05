@@ -70,7 +70,7 @@ Die fünf Orte hängen zusammen. Leonberg, Ditzingen und Renningen liegen an der
 - Wirtschaftsingenieur
 - Berufserfahrung in Projektcontrolling und Wohnungsbewertung
 <!-- Später ergänzen (N1): Abschluss, Hochschule, Jahr; Berufsjahre; Weiterbildungen, Zertifikate, Mitgliedschaft IVD oder BVFI. -->
-- Ich habe die Erlaubnis als Immobilienmakler nach § 34c Abs. 1 Satz 1 Nr. 1 GewO, erteilt am {{fakten.erlaubnis.erteilt_am|lang}} durch die {{fakten.erlaubnis.behoerde}}, Aktenzeichen {{fakten.erlaubnis.aktenzeichen}}. Ich vermittle Eigentumswohnungen an Käufer und stelle Ihnen auf Wunsch Investoren vor; von wem ich dabei eine Vergütung erhalte, erfahren Sie immer vorher.
+- Ich habe die Erlaubnis als Immobilienmakler nach § 34c Abs. 1 Satz 1 Nr. 1 GewO, erteilt am {{fakten.erlaubnis.erteilt_am|lang}} durch die {{fakten.erlaubnis.behoerde}}. Ich vermittle Eigentumswohnungen an Käufer und stelle Ihnen auf Wunsch Investoren vor; von wem ich dabei eine Vergütung erhalte, erfahren Sie immer vorher.
 <!-- 03.11.2026: Erlaubnis laut Linus erteilt (Baustein B, wert_erteilt). Datum, IHK und Aktenzeichen aus dem Bescheid eintragen (fakten.erlaubnis.erteilt_am, .behoerde, .aktenzeichen). Vor Veröffentlichung von einer Anwältin/einem Anwalt für Gewerberecht prüfen lassen. -->
 - Als Makler unterliege ich der Makler- und Bauträgerverordnung und dem Geldwäschegesetz; deshalb muss ich Vertragsparteien vor dem Abschluss identifizieren.
 

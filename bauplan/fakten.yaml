@@ -146,25 +146,25 @@ erlaubnis:
   status:
     wert: "erteilt"
     werte_moeglich: [beantragt, erteilt]
-    quelle: "Mitteilung Linus Rössler über den Koordinator, 03.11.2026; Bescheid liegt dem Projekt noch nicht vor"
+    quelle: "Erlaubnisbescheid der IHK für München und Oberbayern (Foto von Linus, 05.11.2026)"
     stand: 2026-11-03
     status: geprueft
     hinweis: "Bis 02.11.2026 beantragt (Antrag bei der IHK für München und Oberbayern, Sitz Niederlauer). Erteilungsdatum, Aktenzeichen und ausstellende IHK fehlen noch ([LINUS], siehe FRAGEN-AN-LINUS.md). Texte in texte/ am 03.11.2026 auf die erteilte Erlaubnis umgestellt (analyse-aktuelle-webseite/08-faktenpruefung.md)."
     muster: 'beantragt'
     verwendet_in: [direktankauf, ort-ditzingen, ort-heimsheim, ort-leonberg, ort-pforzheim, ort-renningen, ratgeber-eigentumswohnung-verkaufen, ratgeber-energieausweis, ratgeber-geerbte-wohnung-verkaufen, ratgeber-maklerprovision, ratgeber-ohne-makler, ratgeber-sofortankauf-vs-makler, ratgeber-spekulationssteuer, ratgeber-verkauf-im-alter, ratgeber-verkaufen-oder-vermieten, ratgeber-vermietete-wohnung-verkaufen, ratgeber-wohnung-scheidung, start, ueber-mich, wohnung-bewerten, wohnung-verkaufen]
   behoerde:
-    wert: "[LINUS]"
-    anschrift: "[LINUS]"
-    quelle: "Erlaubnisbescheid (liegt dem Projekt noch nicht vor)"
-    stand: 2026-11-03
-    status: offen
-    hinweis: "Ausstellende IHK und Anschrift laut Bescheid eintragen. Der Antrag lag bei der IHK für München und Oberbayern, Balanstraße 55-59, 81541 München (Anschrift laut Gutachten ungeprüft); ob diese IHK erteilt hat, bestätigt Linus."
+    wert: "IHK für München und Oberbayern"
+    anschrift: "Max-Joseph-Straße 2, 80333 München"
+    quelle: "Erlaubnisbescheid nach § 34c Abs. 1 Satz 1 Nr. 1 GewO (Foto von Linus, 05.11.2026); Anschrift = Hausanschrift laut Briefkopf"
+    stand: 2026-11-05
+    status: geprueft
+    hinweis: "Bescheid in Abdruck an die IHK Würzburg-Schweinfurt (Kammer am Betriebssitz Niederlauer). Bei Verlegung des Sitzes nach BW: Gewerbeummeldung (§ 14 GewO); Aufsicht wechselt dann zur IHK am neuen Sitz."
     verwendet_in: [impressum, ueber-mich, strukturierte-daten]
   beantragt_am:
-    wert: null
-    quelle: "Antragsunterlagen Linus"
-    stand: 2026-11-01
-    status: offen
+    wert: 2026-09-09
+    quelle: "Erlaubnisbescheid (\"Auf Antrag vom 09.09.2026\")"
+    stand: 2026-11-05
+    status: geprueft
     hinweis: "Platzhalter [Datum] in Baustein D."
     verwendet_in: [impressum]
   erteilt_am:
@@ -172,15 +172,15 @@ erlaubnis:
     quelle: "Erlaubnisbescheid"
     stand: 2026-11-03
     status: offen
-    hinweis: "Erlaubnis laut Linus erteilt (Mitteilung 03.11.2026); Datum aus dem Bescheid eintragen."
+    hinweis: "Bescheid liegt als Foto vor (05.11.2026), das Bescheiddatum ist darauf nicht lesbar. Druckvermerk am Rand: 27.10.2026 (nur Indiz, nicht übernehmen). Datum oben rechts auf Seite 1 des Bescheids ablesen."
     verwendet_in: [impressum, ueber-mich, footer, strukturierte-daten]
   aktenzeichen:
-    wert: "[LINUS]"
-    quelle: "Erlaubnisbescheid"
-    stand: 2026-11-03
-    status: offen
-    hinweis: "Aktenzeichen bzw. Erlaubnisnummer laut Bescheid, für das Impressum (Baustein E)."
-    verwendet_in: [impressum]
+    wert: null
+    quelle: "Erlaubnisbescheid: kein Aktenzeichen angegeben (nur „Unser Zeichen: had“ und Kunden-ID)"
+    stand: 2026-11-05
+    status: geprueft
+    hinweis: "Für das Impressum nicht vorgeschrieben (§ 5 DDG verlangt die Aufsichtsbehörde, kein Aktenzeichen). Zeile im Impressum entfernt."
+    verwendet_in: []
   text_autorzeile:
     wert: "Immobilienmakler für Eigentumswohnungen (Erlaubnis nach § 34c GewO beantragt)"
     wert_erteilt: "Immobilienmakler für Eigentumswohnungen (Erlaubnis nach § 34c GewO)"
