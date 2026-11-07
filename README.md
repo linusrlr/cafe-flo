@@ -13,6 +13,7 @@ Dieses Repository (ehemals „Café Flo“, alter Inhalt entfernt) dient als Arb
 | `bauplan/` | Technische Bau-Spezifikation: Stack (Astro, netcup/nginx), Content-Modell, Komponenten, Routen, Formular-Backend, JSON-LD-Vorlagen, Testplan, Bau-Sessions mit Definition of Done. `fakten.yaml` ist die zentrale Quelle für alle veränderlichen Fakten (Preise, Verordnungen, Erlaubnisstatus). **Für die Umsetzung hier anfangen** (`bauplan/README.md`). |
 | `FRAGEN-AN-LINUS.md` | Ankreuzbarer Fragenkatalog: 10 Fragen vor dem Bau, 25 vor der Veröffentlichung einzelner Seiten, Rest später. |
 | `radar/` | Werkzeug zur Gesetzes- und Marktbeobachtung (RSS-Aggregator mit Schlagwortfilter) samt Digests. |
+| `maklervertraege/` | Objektbezogene Maklerverträge (Verkäuferseite) als `.docx` mit Textexport, Prüf-Feedback und Änderungsprotokoll je Fassung. Ablauf in `maklervertraege/README.md`. |
 
 ## Deployment
 
